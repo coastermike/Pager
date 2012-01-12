@@ -2,6 +2,7 @@
 
 void backlightInit()
 {
+	RPOR7bits.RP15R = 19;
 	TRISAbits.TRISA0 = 1;
 	AD1PCFG = 0b1001111111111110;	//Sets band gap voltage reference off and AN0 as analog input
 	AD1CON2bits.VCFG = 0;			//voltage reference as VDD and VSS

@@ -2,5 +2,5 @@
 
 void piezoInit()
 {
-	
+	RPOR5bits.RP10R = 18;
 }

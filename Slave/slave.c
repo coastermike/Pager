@@ -13,11 +13,11 @@ _CONFIG2(POSCMOD_NONE & I2C1SEL_PRI & OSCIOFNC_ON & FNOSC_FRCPLL)
 
 int main (void)
 {
+	backlightInit();
 	i2cInit();
 	accelInit();
 	motorInit();
 	powerInit();
-	backlightInit();
 	piezoInit();
 	commInit();
 	
