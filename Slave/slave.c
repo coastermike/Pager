@@ -13,6 +13,7 @@ _CONFIG2(POSCMOD_NONE & I2C1SEL_PRI & OSCIOFNC_ON & FNOSC_FRCPLL)
 
 int main (void)
 {
+	INTCON1bits.NSTDIS = 1;
 	backlightInit();
 	i2cInit();
 	accelInit();
