@@ -1,8 +1,7 @@
-#ifndef MOTOR
-#define MOTOR
+#ifndef MOTOR_H
+#define MOTOR_H
 
 void motorInit();
-void setMotorOn();
-void setMotorOff();
+void setMotorOn(unsigned int duration);
 
 #endif

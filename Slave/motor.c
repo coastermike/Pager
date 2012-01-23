@@ -8,12 +8,8 @@ void motorInit()
 	motorEnable = 0;
 }
 
-void setMotorOn()
+void setMotorOn(unsigned int duration) //in ms
 {
 	motorEnable = 1;
 }
 
-void setMotorOff()
-{
-	motorEnable = 0;
-}

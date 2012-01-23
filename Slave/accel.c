@@ -1,5 +1,8 @@
 #include <p24FJ64GA002.h>
 
+#define ACCEL_W_ADDRESS 0b00111000
+#define ACCEL_R_ADDRESS 0b00111001
+
 void __attribute__((interrupt, no_auto_psv)) _INT1Interrupt (void)
 {
 	_INT1IF = 0;
@@ -8,11 +11,6 @@ void __attribute__((interrupt, no_auto_psv)) _INT1Interrupt (void)
 void __attribute__((interrupt, no_auto_psv)) _INT2Interrupt (void)
 {
 	_INT2IF = 0;
-}
-		
-void i2cInit()
-{
-	
 }
 	
 void accelInit()

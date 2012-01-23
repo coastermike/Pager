@@ -1,7 +1,6 @@
-#ifndef ACCEL
-#define ACCEL
+#ifndef ACCEL_H
+#define ACCEL_H
 
-void i2cInit();
 void accelInit();
 
 #endif

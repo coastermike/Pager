@@ -5,6 +5,7 @@
 #include "backlight.h"
 #include "piezo.h"
 #include "comm.h"
+#include "i2c.h"
 
 _CONFIG1(FWDTEN_OFF & ICS_PGx3 & BKBUG_OFF & GWRP_OFF & GCP_OFF & JTAGEN_OFF)
 _CONFIG2(POSCMOD_NONE & I2C1SEL_PRI & OSCIOFNC_ON & FNOSC_FRCPLL)

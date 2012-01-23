@@ -1,5 +1,5 @@
-#ifndef BACKLIGHT
-#define BACKLIGHT
+#ifndef BACKLIGHT_H
+#define BACKLIGHT_H
 
 void backlightInit();
 

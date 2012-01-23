@@ -1,5 +1,5 @@
-#ifndef POWER
-#define POWER
+#ifndef POWER_H
+#define POWER_H
 
 void powerInit();
 

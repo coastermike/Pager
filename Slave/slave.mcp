@@ -37,6 +37,8 @@ file_009=.
 file_010=.
 file_011=.
 file_012=.
+file_013=.
+file_014=.
 [GENERATED_FILES]
 file_000=no
 file_001=no
@@ -51,6 +53,8 @@ file_009=no
 file_010=no
 file_011=no
 file_012=no
+file_013=no
+file_014=no
 [OTHER_FILES]
 file_000=no
 file_001=no
@@ -65,6 +69,8 @@ file_009=no
 file_010=no
 file_011=no
 file_012=no
+file_013=no
+file_014=no
 [FILE_INFO]
 file_000=slave.c
 file_001=accel.c
@@ -73,12 +79,14 @@ file_003=motor.c
 file_004=piezo.c
 file_005=power.c
 file_006=comm.c
-file_007=accel.h
-file_008=backlight.h
-file_009=motor.h
-file_010=piezo.h
-file_011=power.h
-file_012=comm.h
+file_007=i2c.c
+file_008=accel.h
+file_009=backlight.h
+file_010=motor.h
+file_011=piezo.h
+file_012=power.h
+file_013=comm.h
+file_014=i2c.h
 [SUITE_INFO]
 suite_guid={479DDE59-4D56-455E-855E-FFF59A3DB57E}
 suite_state=
