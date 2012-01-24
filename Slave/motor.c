@@ -2,6 +2,8 @@
 
 #define motorEnable PORTBbits.RB7
 
+unsigned char motorMS = 0;
+
 void motorInit()
 {
 	TRISBbits.TRISB7 = 0;
@@ -11,5 +13,10 @@ void motorInit()
 void setMotorOn(unsigned int duration) //in ms
 {
 	motorEnable = 1;
+	motorMS = duration;
 }
 
+void setMotorOff()
+{
+	motorEnable = 0;
+}	

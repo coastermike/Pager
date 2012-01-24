@@ -1,5 +1,7 @@
 #include <p24FJ64GA002.h>
 
+unsigned char piezoMS = 0;
+
 void piezoInit()
 {
 	RPOR5bits.RP10R = 19;	//OC2 on RB10
@@ -13,10 +15,16 @@ void piezoInit()
 	OC2R = 0x800;			//duty cycle of 50%
 	OC2CONbits.OCTSEL = 1;	//timer3
 	OC2CONbits.OCM = 0b110;	//PWM, no fault
-	T3CONbits.TON = 1;
+	T3CONbits.TON = 0;
 }
 
 void actuatePiezo(unsigned int duration) //in ms
 {
-	
+	T3CONbits.TON = 1;
+	piezoMS = duration;
 }
+
+void disablePiezo()
+{
+	T3CONbits.TON = 0;
+}	

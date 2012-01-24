@@ -3,5 +3,6 @@
 
 void motorInit();
 void setMotorOn(unsigned int duration);
+void setMotorOff();
 
 #endif

@@ -10,17 +10,17 @@ void __attribute__((interrupt, no_auto_psv)) _MI2C1Interrupt (void)
 	if(stateI2C == 0)
 	{
 		stateI2C = 1;
-		I2C1TRN = DAC_W_ADDRESS;
+	//	I2C1TRN = DAC_W_ADDRESS;
 	}
 	else if(stateI2C == 1)
 	{
 		stateI2C = 2;
-		I2C1TRN = 0b00001111&(DACvalue>>6);
+//		I2C1TRN = 0b00001111&(DACvalue>>6);
 	}
 	else if(stateI2C == 2)
 	{
 		stateI2C = 3;
-		I2C1TRN = (DACvalue << 2);
+//		I2C1TRN = (DACvalue << 2);
 	}
 	else if (stateI2C == 3)
 	{

@@ -6,6 +6,7 @@
 #include "piezo.h"
 #include "comm.h"
 #include "i2c.h"
+#include "msTimer.h"
 
 _CONFIG1(FWDTEN_OFF & ICS_PGx3 & BKBUG_OFF & GWRP_OFF & GCP_OFF & JTAGEN_OFF)
 _CONFIG2(POSCMOD_NONE & I2C1SEL_PRI & OSCIOFNC_ON & FNOSC_FRCPLL)
@@ -22,6 +23,7 @@ int main (void)
 	powerInit();
 	piezoInit();
 	commInit();
+	initMSTimer();
 	
 	TRISAbits.TRISA4 = 0;	//Sets LEDStatus as output
 	
