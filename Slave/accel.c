@@ -1,4 +1,4 @@
-#include <p24FJ64GA002.h>
+#include <p24FJ16GA002.h>
 
 #define ACCEL_W_ADDRESS 0b00111000
 #define ACCEL_R_ADDRESS 0b00111001

@@ -1,4 +1,4 @@
-#include <p24FJ64GA002.h>
+#include <p24FJ16GA002.h>
 
 void backlightInit()
 {
