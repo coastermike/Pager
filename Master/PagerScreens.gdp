@@ -1,0 +1,15 @@
+<Project version="2.1.1" hres="480" vres="272" cdepth="16">
+	<windows>
+	<list>buttonscreen.gds</list>
+		</windows><counter>
+	<button>3</button>
+		<window>3</window>
+		<checkbox>1</checkbox>
+		<slider>1</slider>
+		<picture>1</picture>
+		<rounddial>1</rounddial>
+		<meter>1</meter>
+		</counter><resources>
+	<list loc="external" type="font">gentium_16_200_0_0_0_0.ttf</list><list loc="external" type="image">img_default.bmp</list>
+		
+		</resources></Project>

@@ -1,0 +1,22 @@
+<Project version="2.1.1" hres="480" vres="272" cdepth="16">
+	<OBJ_STATICTEXT_1_4 type="statictext" golstate="16384">
+	<scheme>defscheme</scheme>
+		<right>349</right>
+		<left>120</left>
+		<bottom>81</bottom>
+		<top>61</top>
+		<state>enabled</state>
+		<visible>true</visible>
+		<align>left</align>
+		<text>Please enter the number of guests
+</text>
+		<frame>disabled</frame>
+		<name>OBJ_STATICTEXT_1_4</name>
+		</OBJ_STATICTEXT_1_4><OBJ_WINDOW_4 type="window" golstate="0" backcolor="0" status="0">
+	<scheme>defscheme</scheme>
+		<state>enabled</state>
+		<visible>true</visible>
+		<bitmap>null</bitmap>
+		<text>Window</text>
+		<name>OBJ_WINDOW_4</name>
+		</OBJ_WINDOW_4></Project>

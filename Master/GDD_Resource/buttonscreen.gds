@@ -1,0 +1,33 @@
+<Project version="2.1.1" hres="480" vres="272" cdepth="16">
+	<OBJ_BUTTON_3_3 type="button" golstate="16384">
+	<scheme>defscheme</scheme>
+		<right>264</right>
+		<left>192</left>
+		<bottom>61</bottom>
+		<top>10</top>
+		<state>enabled</state>
+		<visible>true</visible>
+		<radius>0</radius>
+		<align>center</align>
+		<bitmap>null</bitmap>
+		<text>Button</text>
+		<name>OBJ_BUTTON_3_3</name>
+		</OBJ_BUTTON_3_3><OBJ_PICTURE_2_3 type="picture" golstate="16388">
+	<scheme>defscheme</scheme>
+		<right>301</right>
+		<left>120</left>
+		<bottom>237</bottom>
+		<top>80</top>
+		<state>enabled</state>
+		<visible>true</visible>
+		<bitmap>img_default.bmp</bitmap>
+		<frame>enabled</frame>
+		<name>OBJ_PICTURE_2_3</name>
+		</OBJ_PICTURE_2_3><OBJ_WINDOW_3 type="window" golstate="0" backcolor="2016" status="0">
+	<scheme>defscheme</scheme>
+		<state>enabled</state>
+		<visible>true</visible>
+		<bitmap>null</bitmap>
+		<text>Window</text>
+		<name>OBJ_WINDOW_3</name>
+		</OBJ_WINDOW_3></Project>

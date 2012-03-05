@@ -1,0 +1,13 @@
+<Project version="2.1.1" hres="480" vres="272" cdepth="16">
+	<defscheme>
+	<color0>19583</color0>
+		<color1>64969</color1>
+		<textcolor0>64969</textcolor0>
+		<textcolor1>31</textcolor1>
+		<embossdkcolor>6172</embossdkcolor>
+		<embossltcolor>44765</embossltcolor>
+		<textcolordisabled>48599</textcolordisabled>
+		<colordisabled>55070</colordisabled>
+		<commonbkcolor>55166</commonbkcolor>
+		<pfont>gentium_16_200_0_0_0_0.ttf</pfont>
+		</defscheme></Project>
