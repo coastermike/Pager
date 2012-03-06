@@ -151,9 +151,6 @@ SHORT TouchDetectPosition(void)
         case IDLE:
 		    adcX = -1;
 			adcY = -1;
-            #ifdef ADC_POT
-			    adcPot = 0;
-			#endif
 			break;
         case SET_VALUES:
 			TOUCH_ADC_START = 0;    // stop sampling
@@ -170,23 +167,6 @@ SHORT TouchDetectPosition(void)
                 adcX = tempX;
                 adcY = tempY;
             }
-        // If the hardware supports an analog pot, if not skip it
-        #ifdef ADC_POT
-            state = RUN_POT;
-
-       case RUN_POT:
-       		TOUCH_ADC_INPUT_SEL = ADC_POT;
-            TOUCH_ADC_START = 1;    // run conversion
-            state = GET_POT;
-            break;
-
-        case GET_POT:
-			TOUCH_ADC_START = 0;    // stop sampling
-            if(TOUCH_ADC_DONE == 0){
-                break;
-            }
-            adcPot = ADC1BUF0;
-        #endif
             state = SET_X;
             return 1;               // touch screen acquisition is done 
 
@@ -233,12 +213,8 @@ SHORT TouchDetectPosition(void)
             {
                 adcX = -1;
                 adcY = -1;
-		        #ifdef ADC_POT
-            	    state = RUN_POT;
-            	#else
-            		state = SET_X;
-                    return 1;       // touch screen acquisition is done 	
-            	#endif	    
+            	state = SET_X;
+                return 1;       // touch screen acquisition is done 		    
                 break;
             }
 
@@ -291,12 +267,8 @@ SHORT TouchDetectPosition(void)
             {
                 adcX = -1;
                 adcY = -1;
-		        #ifdef ADC_POT
-            	    state = RUN_POT;
-            	#else
-                	state = SET_X;
-                    return 1;       // touch screen acquisition is done 
-                #endif	
+                state = SET_X;
+                return 1;       // touch screen acquisition is done 
                 break;
             }
 			
@@ -371,11 +343,7 @@ void TouchHardwareInit(void *initValues)
 	#endif
 	#ifdef ADPCFG_YPOS
     	ADPCFG_YPOS = 0;
-    #endif   
-	#ifdef ADC_POT
-    	ADC_POT_PCFG = 0;
-    #endif	
-    
+    #endif    
     AD1CSSL = 0;            // No scanned inputs
 	
 	state = SET_X;          // set the state of the statemachine to start the sampling

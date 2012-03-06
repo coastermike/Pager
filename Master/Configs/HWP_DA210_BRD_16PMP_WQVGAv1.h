@@ -621,9 +621,9 @@
 #if defined (PIC24FJ256DA210_DEV_BOARD)
 	
     // Definitions for POWER ON pin
-    #define DisplayPowerConfig()            TRISAbits.TRISA5 = 0       
-    #define DisplayPowerOn()                LATAbits.LATA5 = 1           
-    #define DisplayPowerOff()               LATAbits.LATA5 = 0
+    #define DisplayPowerConfig()            TRISBbits.TRISB7 = 0       
+    #define DisplayPowerOn()                LATBbits.LATB7 = 1           
+    #define DisplayPowerOff()               LATBbits.LATB7 = 0
 
     // Definitions for backlight control pin
     #define DisplayBacklightConfig()        
@@ -697,30 +697,24 @@
 	#if defined (PIC24FJ256DA210_DEV_BOARD)
 	/* ----------------------------------------- */
 		// ADC channel constants
-		// Potentiometer and Temperature sensor
-		/* PIC24FJ256DA210 Development Board does 
-		 * not have a temperature sensor 
-		 */
-		#define ADC_POT			5
 		#define ADC_XPOS		16
-		#define ADC_YPOS		18
+		#define ADC_YPOS		21
 
 		// ADC Port Control Bits
-		#define ADC_POT_PCFG	ANSBbits.ANSB5
 		#define ADPCFG_XPOS		ANSCbits.ANSC4
-		#define ADPCFG_YPOS		ANSGbits.ANSG7
+		#define ADPCFG_YPOS		ANSEbits.ANSE9
 
 		// Y port definitions
 		#define LAT_XPOS    LATCbits.LATC4
 		#define TRIS_XPOS   TRISCbits.TRISC4
-		#define LAT_XNEG    LATAbits.LATA2
-		#define TRIS_XNEG   TRISAbits.TRISA2
+		#define LAT_XNEG    LATAbits.LATA5
+		#define TRIS_XNEG   TRISAbits.TRISA5
 	     
 		// X port definitions
-		#define LAT_YPOS    LATGbits.LATG7
-		#define TRIS_YPOS   TRISGbits.TRISG7
-   		#define LAT_YNEG    LATAbits.LATA1
-		#define TRIS_YNEG   TRISAbits.TRISA1
+		#define LAT_YPOS    LATEbits.LATE9
+		#define TRIS_YPOS   TRISEbits.TRISE9
+   		#define LAT_YNEG    LATAbits.LATA4
+		#define TRIS_YNEG   TRISAbits.TRISA4
     
     // end of #if defined (PIC24FJ256DA210_DEV_BOARD)...
 	#endif
@@ -893,15 +887,15 @@
     // Chip Select, SCLK, SDI and SDO signals used 
     #if defined (PIC24FJ256DA210_DEV_BOARD)
     
-        #define SST25_CS_TRIS   TRISAbits.TRISA14
-        #define SST25_CS_LAT    LATAbits.LATA14
+        #define SST25_CS_TRIS   TRISFbits.TRISF7
+        #define SST25_CS_LAT    LATFbits.LATF7
         
-        #define SST25_SCK_TRIS  TRISDbits.TRISD8
-        #define SST25_SDO_TRIS  TRISBbits.TRISB1
-        #define SST25_SDI_TRIS  TRISBbits.TRISB0
+        #define SST25_SCK_TRIS  TRISBbits.TRISB6
+        #define SST25_SDO_TRIS  TRISBbits.TRISB5
+        #define SST25_SDI_TRIS  TRISFbits.TRISF12
         
-        #define SST25_SDI_ANS   ANSBbits.ANSB0
-        #define SST25_SDO_ANS   ANSBbits.ANSB1
+        #define SST25_SDI_ANS   ANSBbits.ANSB6
+        #define SST25_SDO_ANS   ANSBbits.ANSB5
 
     #endif
 
@@ -950,30 +944,6 @@
     #endif
 
 #endif //#if defined (PIC24FJ256DA210_DEV_BOARD)
-
-/*********************************************************************
-* IOS FOR THE SWITCHES (SIDE BUTTONS)
-*********************************************************************/
-typedef enum
-{
-    HW_BUTTON_PRESS = 0,
-    HW_BUTTON_RELEASE = 1
-}HW_BUTTON_STATE;
-
-#if defined (PIC24FJ256DA210_DEV_BOARD)
-    #if defined(__PIC24FJ256DA210__)
-        #define HardwareButtonInit()
-        #define GetHWButtonProgram()        (PORTEbits.RE9)
-        #define GetHWButtonScanDown()       (HW_BUTTON_RELEASE)
-        #define GetHWButtonScanUp()         (HW_BUTTON_RELEASE) 
-        #define GetHWButtonCR()             (PORTGbits.RG8)
-        #define GetHWButtonFocus()          (PORTEbits.RE9)
-        #define GetHWButtonLeft()           (PORTGbits.RG8)
-        #define GetHWButtonCenter()         (PORTEbits.RE9)
-        #define GetHWButtonRight()          (PORTBbits.RB5)
-    #endif
-#endif 
-
 
 /*********************************************************************
 * IOS FOR THE UART

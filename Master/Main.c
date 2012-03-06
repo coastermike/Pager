@@ -254,6 +254,10 @@ void TickInit(void)
 /////////////////////////////////////////////////////////////////////////////
 void InitializeBoard(void)
 {    
+     CLKDIVbits.RCDIV = 0;
+     CLKDIVbits.DOZE = 0;
+     CLKDIVbits.PLLEN = 1;
+     
      ANSA = 0x0000;
      ANSB = 0x0020;		// RB5 as potentiometer input
      ANSC = 0x0010;		// RC4 as touch screen X+, RC14 as external source of secondary oscillator
@@ -301,9 +305,7 @@ void InitializeBoard(void)
     TickInit(); 
                       
     // initialize the components for Resistive Touch Screen
-    TouchInit(NVMWrite, NVMRead, NVMSectorErase, TOUCH_INIT_VALUES);   
-                
-    HardwareButtonInit();           	// Initialize the hardware buttons
+    TouchInit(NVMWrite, NVMRead, NVMSectorErase, TOUCH_INIT_VALUES);
 }    
 
 /*********************************************************************
