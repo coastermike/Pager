@@ -257,14 +257,16 @@ void InitializeBoard(void)
      CLKDIVbits.RCDIV = 0;
      CLKDIVbits.DOZE = 0;
      CLKDIVbits.PLLEN = 1;
+     CLKDIVbits.CPDIV = 0;
+     OSCCONbits.COSC = 0b001;
      
      ANSA = 0x0000;
-     ANSB = 0x0020;		// RB5 as potentiometer input
-     ANSC = 0x0010;		// RC4 as touch screen X+, RC14 as external source of secondary oscillator
+     ANSB = 0x0000;
+     ANSC = 0x0010;		// RC4 as touch screen X+
      ANSD = 0x0000;
-     ANSE = 0x0000;		// RE9 used as S2
+     ANSE = 0x0200;		// RE9 used as Y+
      ANSF = 0x0000;
-     ANSG = 0x0080;		// RG8 used as S1, RG7 as touch screen Y
+     ANSG = 0x0000;
 
     // Initialize graphics library and create default style scheme for GOL
     GOLInit();

@@ -445,7 +445,7 @@
 	// Refer to your specific display controller or device to determine the 
 	// optimum (fastest) timing requirement for your interface. 
 
-#if defined (USE_GFX_EPMP)
+/*#if defined (USE_GFX_EPMP)
 
     #if defined (GFX_USE_DISPLAY_CONTROLLER_MCHP_DA210)
         
@@ -493,7 +493,7 @@
     #endif
     
 #endif //#if defined (USE_GFX_PMP) || defined (USE_GFX_EPMP)
-
+*/
 /*********************************************************************
 * PARALLEL MASTER PORT INTERFACE TIMING AND POLARITIES 
 *********************************************************************/
