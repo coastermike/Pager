@@ -7,6 +7,8 @@
 void powerInit()
 {
 	TRISBbits.TRISB14 = 0;
+	TRISBbits.TRISB13 = 1;
+	TRISBbits.TRISB12 = 1;
 	V20_EN = 1;
 }
 

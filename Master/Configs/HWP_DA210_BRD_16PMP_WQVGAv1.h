@@ -427,7 +427,7 @@
 // EPMP is exclusive to GB210 devices and PMP to some devices
 		// EPMP is used by graphics controller but if EPMP is used 
 		// to access external memory then we will need EPMP driver.
-	#define USE_GFX_EPMP
+//	#define USE_GFX_EPMP
 	
 /*********************************************************************
 * PARALLEL MASTER PORT INTERFACE TIMING 
@@ -862,11 +862,7 @@
 
     // define the SPI channel to be used
     #if defined (PIC24FJ256DA210_DEV_BOARD)    
-        #ifdef PIC24FJ256DA210_DEV_BOARD_ENC624J600
-            #define SST25_SPI_CHANNEL 1
-        #else
-            #define SST25_SPI_CHANNEL 2
-        #endif
+        #define SST25_SPI_CHANNEL 1
     #endif	
 
     /* Define all the SPI channels that will be used here.
@@ -945,6 +941,8 @@
 
 #endif //#if defined (PIC24FJ256DA210_DEV_BOARD)
 
+#define LED_TRIS TRISAbits.TRISA0
+#define LED PORTAbits.RA0
 /*********************************************************************
 * IOS FOR THE UART
 *********************************************************************/   

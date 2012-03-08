@@ -153,8 +153,7 @@
 *
 *********************************************************************/
 
-	#define COLOR_DEPTH             16
-
+	#define COLOR_DEPTH             4
 
 // GDD_GraphicsConfig.h should be included as the last line in this file (GraphicsConfig.h).
 // The file checks if a certain definition used by GDD has been defined yet or not,

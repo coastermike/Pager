@@ -23,7 +23,7 @@ int main (void)
 	commInit();
 	initMSTimer();
 	
-	setMotorOn(100);
+//	setMotorOn(1000);
 //	actuatePiezo(101);
 	
 	enable20V();

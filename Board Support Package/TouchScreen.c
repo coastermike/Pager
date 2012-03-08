@@ -308,13 +308,13 @@ void TouchCalibration(void)
     SetColor(WHITE);
     ClearDevice();
 
-    SetColor(BRIGHTRED);
+    SetColor(BLACK);
     while(!(OutTextXY((GetMaxX()-GetTextWidth((XCHAR *)scr1StrLn1, (void *) &FONTDEFAULT))>>1,  \
     							 textStart + (textHeight), (XCHAR *)scr1StrLn1)));
     while(!(OutTextXY((GetMaxX()-GetTextWidth((XCHAR *)scr1StrLn2, (void *) &FONTDEFAULT))>>1,  \
     							 textStart + (2*textHeight), (XCHAR *)scr1StrLn2)));
 
-    SetColor(BRIGHTRED);
+    SetColor(BLACK);
     while(!(OutTextXY((GetMaxX()-GetTextWidth((XCHAR *)scr1StrLn3, (void *) &FONTDEFAULT))>>1,  \
     							textStart + (4*textHeight), (XCHAR *)scr1StrLn3)));
     while(!(OutTextXY((GetMaxX()-GetTextWidth((XCHAR *)scr1StrLn4, (void *) &FONTDEFAULT))>>1,  \
@@ -359,7 +359,7 @@ void TouchCalibration(void)
     							 textStart + (4*textHeight), (XCHAR *)scr2StrLn4)));
     while(!(OutTextXY((GetMaxX()-GetTextWidth((XCHAR *)scr2StrLn5, (void *) &FONTDEFAULT))>>1,  \
     							 textStart + (5*textHeight), (XCHAR *)scr2StrLn5)));
-    SetColor(BRIGHTRED);
+    SetColor(BLACK);
     while(!(OutTextXY((GetMaxX()-GetTextWidth((XCHAR *)scr1StrLn3, (void *) &FONTDEFAULT))>>1,  \
     							 textStart + (6*textHeight), (XCHAR *)scr1StrLn3)));
     while(!(OutTextXY((GetMaxX()-GetTextWidth((XCHAR *)scr1StrLn4, (void *) &FONTDEFAULT))>>1,  \

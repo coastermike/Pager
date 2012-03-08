@@ -646,7 +646,7 @@ void TouchCalHWGetPoints(void)
     SHORT   tempX, tempY;
 
 	SetFont((void *) &FONTDEFAULT);
-    SetColor(BRIGHTRED);
+    SetColor(BLACK);
 
     textHeight = GetTextHeight((void *) &FONTDEFAULT);
 
@@ -694,13 +694,13 @@ void TouchCalHWGetPoints(void)
 	    } 
 
 		// draw the new filled circle (new calibration point)
-        SetColor(BRIGHTRED);
+        SetColor(WHITE);
 	    while(!(Circle(dx[counter], dy[counter], TOUCH_DIAMETER)));
 	    while(!(FillCircle(dx[counter], dy[counter], TOUCH_DIAMETER-3)));
 
 		// show points left message
         msgX = (GetMaxX() - GetTextWidth((XCHAR *)pMsgPointer, (void *) &FONTDEFAULT)) >> 1;
-		TouchShowMessage(pMsgPointer, BRIGHTRED, msgX, msgY);
+		TouchShowMessage(pMsgPointer, BLACK, msgX, msgY);
 
         // Wait for press
         do {} 
@@ -723,7 +723,7 @@ void TouchCalHWGetPoints(void)
             pMsgPointer = calRetryPress;
             // show the retry message
     		msgX = (GetMaxX() - GetTextWidth((XCHAR *)pMsgPointer, (void *) &FONTDEFAULT)) >> 1;
-	    	TouchShowMessage(pMsgPointer, BRIGHTRED, msgX, msgY);
+	    	TouchShowMessage(pMsgPointer, BLACK, msgX, msgY);
         }
         else
         {    
@@ -812,7 +812,7 @@ void TouchScreenResistiveTestXY(void)
         {
             SetColor(WHITE);
             ClearDevice();
-            SetColor(BRIGHTRED);
+            SetColor(BLACK);
             sprintf(buffChar,"raw_x=%d, raw_y=%d",(WORD)tempXX, (WORD)tempYY);
 			
             #ifdef USE_MULTIBYTECHAR

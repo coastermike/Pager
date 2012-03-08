@@ -131,9 +131,15 @@ int main(void)
     GOL_MSG msg;                    // GOL message structure to interact with GOL
     
     InitializeBoard();
-
+	TRISGbits.TRISG3 = 1;
+	TRISGbits.TRISG2 = 0;
+	Nop();
+	PORTBbits.RB2 = 1;
+	Nop();
     GDDDemoCreateFirstScreen();
-
+    
+    LED = 1;
+//	_DPTEST = 0b11;
     while(1)
     {
         if(GOLDraw())               // Draw GOL object
@@ -267,7 +273,9 @@ void InitializeBoard(void)
      ANSE = 0x0200;		// RE9 used as Y+
      ANSF = 0x0000;
      ANSG = 0x0000;
-
+	
+	LED_TRIS = 0;
+	
     // Initialize graphics library and create default style scheme for GOL
     GOLInit();
 
@@ -289,13 +297,13 @@ void InitializeBoard(void)
     // set the peripheral pin select for the PSI channel used
         __builtin_write_OSCCONL(OSCCON & 0xbf); // unlock PPS
     	#if (SST25_SPI_CHANNEL == 1)
-    	    RPOR1bits.RP2R = 8;                 // assign RP2 for SCK1
-    	    RPOR0bits.RP1R = 7;                 // assign RP1 for SDO1
-    	    RPINR20bits.SDI1R = 0;              // assign RP0 for SDI1
+    	    RPOR3bits.RP6R = 8;                 // assign RP6 for SCK1
+    	    RPOR9bits.RP18R = 7;                 // assign RP18 for SDO1
+    	    RPINR20bits.SDI1R = 32;              // assign RP32 for SDI1
         #elif (SST25_SPI_CHANNEL == 2)
-            RPOR1bits.RP2R = 11;                // assign RP2 for SCK2
-    	    RPOR0bits.RP1R = 10;                // assign RP1 for SDO2
-    	    RPINR22bits.SDI2R = 0;              // assign RP0 for SDI2
+            RPOR5bits.RP11R = 11;                // assign RP11 for SCK2
+    	    RPOR1bits.RP2R = 10;                // assign RP2 for SDO2
+    	    RPINR22bits.SDI2R = 36;              // assign RP36 for SDI2
     	#endif
 
         __builtin_write_OSCCONL(OSCCON | 0x40); // lock   PPS

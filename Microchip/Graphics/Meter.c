@@ -756,7 +756,7 @@ WORD MtrDraw(void *pObj)
                     pMtr->yPos = ((y2) * (((i == 0) ? y1 : x1) >> 8)) + pMtr->yCenter;
 
                     // now draw the needle with the new position	
-                    SetColor(BRIGHTRED);
+                    SetColor(RED);
                     SetLineThickness(THICK_LINE);
                     if(!Line(pMtr->xCenter, pMtr->yCenter, pMtr->xPos, pMtr->yPos))
                         return (0);
