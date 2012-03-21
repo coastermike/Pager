@@ -13,6 +13,9 @@ _CONFIG2(POSCMOD_NONE & I2C1SEL_PRI & OSCIOFNC_ON & FNOSC_FRCPLL)
 
 int main (void)
 {
+	CLKDIVbits.RCDIV = 0;
+    CLKDIVbits.DOZE = 0;
+    OSCCONbits.COSC = 0b001;
 	INTCON1bits.NSTDIS = 1;
 	backlightInit();
 	i2cInit();
@@ -23,8 +26,8 @@ int main (void)
 	commInit();
 	initMSTimer();
 	
-//	setMotorOn(1000);
-//	actuatePiezo(101);
+	setMotorOn(1000);
+	actuatePiezo(101);
 	
 	enable20V();
 	

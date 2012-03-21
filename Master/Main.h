@@ -44,13 +44,9 @@
     #include "GenericTypeDefs.h"
     #include "Graphics/Graphics.h"
     #include "drv_spi.h"
-    #include "MCHP25LC256.h"
     #include "SST25VF016.h"
     #include "TouchScreen.h"
     #include "HardwareProfile.h"
     #include "Graphics/mchpGfxDrv.h"
-    #include <cpld.h>
-
-
 
 #endif

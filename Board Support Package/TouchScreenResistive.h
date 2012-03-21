@@ -67,7 +67,7 @@
 // use this macro to debug the touch screen panel 
 // this will enable the use of debugging functions in the C file.
 // It assumes that the graphics portion is working.
-#define ENABLE_DEBUG_TOUCHSCREEN
+//#define ENABLE_DEBUG_TOUCHSCREEN
 
 
 #endif //_TOUCHSCREEN_RESISTIVE_H

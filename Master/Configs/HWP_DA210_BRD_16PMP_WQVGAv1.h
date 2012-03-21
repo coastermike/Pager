@@ -126,7 +126,7 @@
 /*********************************************************************
 * External Memory Programmer Settings
 *********************************************************************/
-#if defined (EXPLORER_16)  
+/*#if defined (EXPLORER_16)  
     #define USE_COMM_PKT_MEDIA_SERIAL_PORT
     #define BAUDRATE2               115200UL
     #define BRG_DIV2                4
@@ -143,7 +143,7 @@
     #define USB_BUS_SENSE       U1OTGSTATbits.SESVD // Special considerations required if using SESVD for this purpose.  See documentation.
 
 #endif
-
+*/
 #define COMM_PKT_RX_MAX_SIZE    (1024)
 
 
@@ -155,12 +155,8 @@
     the application depending on the hardware platform selected.
     * PIC24FJ256DA210_DEV_BOARD - PIC24FJ256DA210 Development Board (DM240312)
 */
-	#if defined (GFX_EPMP_CS2_BASE_ADDRESS)
-	    #define  USE_SST39LF400					  // use the 4 Mbit (x16) Multi-Purpose (Parallel) Flash connected to EPMP CS 2 
-    #else	
-        #define	USE_SST25VF016                    // use the 16 Mbit SPI Serial Flash 
-    #endif 
-    #define      USE_TOUCHSCREEN_RESISTIVE         // use 4-wire resistive touch screen driver
+    #define		USE_SST25VF016                    // use the 16 Mbit SPI Serial Flash 
+    #define     USE_TOUCHSCREEN_RESISTIVE         // use 4-wire resistive touch screen driver
 
 	   
 /*********************************************************************
@@ -889,9 +885,6 @@
         #define SST25_SCK_TRIS  TRISBbits.TRISB6
         #define SST25_SDO_TRIS  TRISBbits.TRISB5
         #define SST25_SDI_TRIS  TRISFbits.TRISF12
-        
-        #define SST25_SDI_ANS   ANSBbits.ANSB6
-        #define SST25_SDO_ANS   ANSBbits.ANSB5
 
     #endif
 
@@ -946,8 +939,8 @@
 /*********************************************************************
 * IOS FOR THE UART
 *********************************************************************/   
-#define TX_TRIS TRISFbits.TRISF3
-#define RX_TRIS TRISDbits.TRISD0
+//#define TX_TRIS TRISFbits.TRISF3
+//#define RX_TRIS TRISDbits.TRISD0
 
 /*********************************************************************
 * RTCC DEFAULT INITIALIZATION (these are values to initialize the RTCC

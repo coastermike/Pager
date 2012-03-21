@@ -39,9 +39,6 @@ Date        Comments
 2010.03.07	Added include "Compiler.h"
 2010.10.13  Added PICC support
 *******************************************************************************/
-#if defined(__PIC32MX__)
-	#include <plib.h>
-#endif
 #include "Compiler.h"
 #include "HardwareProfile.h"
 #include "TimeDelay.h" 

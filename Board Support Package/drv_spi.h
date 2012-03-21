@@ -45,13 +45,10 @@
 typedef struct
 {
     int    channel;
-#ifdef __PIC32MX
-	int	    baudRate;
-	int     dummy;
-#else
+
 	int     primaryPrescale;
 	int     secondaryPrescale;
-#endif
+
 	char    cke;
 	char    ckp;
 	char    smp;
@@ -66,17 +63,12 @@ typedef struct
 */
     #define DRV_SPI_STAT(i)      SPI##i##STAT
     #define DRV_SPI_STATbits(i)  SPI##i##STATbits
-#ifdef __PIC32MX__
-    #define DRV_SPI_CON(i)       SPI##i##CON
-    #define DRV_SPI_CONbits(i)   SPI##i##CONbits
-    #define DRV_SPI_BRG(i)       SPI##i##BRG
-    #define DRV_SPI_BRGbits(i)   SPI##i##BRGbits
-#else
+
     #define DRV_SPI_CON(i)       SPI##i##CON1
     #define DRV_SPI_CONbits(i)   SPI##i##CON1bits
     #define DRV_SPI_CON2(i)      SPI##i##CON2
     #define DRV_SPI_CON2bits(i)  SPI##i##CON2bits
-#endif
+    
     #define DRV_SPI_BUF(i)       SPI##i##BUF
     #define DRV_SPI_BUFbits(i)   SPI##i##BUFbits
 

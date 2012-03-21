@@ -41,7 +41,11 @@
 // Configuration bits
 _CONFIG1( WDTPS_PS32768 & FWPSA_PR128 & ALTVREF_ALTVREDIS & WINDIS_OFF & FWDTEN_OFF & ICS_PGx1 & GWRP_OFF & GCP_OFF & JTAGEN_OFF) 
 _CONFIG2( POSCMOD_NONE & IOL1WAY_OFF & OSCIOFNC_ON & FCKSM_CSDCMD & FNOSC_FRCPLL & PLL96MHZ_ON & PLLDIV_DIV2 & IESO_OFF)
-_CONFIG3( WPFP_WPFP255 & SOSCSEL_EC & WUTSEL_LEG & ALTPMP_ALTPMPEN & WPDIS_WPDIS & WPCFG_WPCFGDIS & WPEND_WPENDMEM)  
+_CONFIG3( WPFP_WPFP255 & SOSCSEL_EC & WUTSEL_LEG & ALTPMP_ALPMPDIS & WPDIS_WPDIS & WPCFG_WPCFGDIS & WPEND_WPENDMEM)  
+
+//_CONFIG1( WDTPS_PS32768 & FWPSA_PR128 & ALTVREF_ALTVREDIS & WINDIS_OFF & FWDTEN_OFF & ICS_PGx2 & GWRP_OFF & GCP_OFF & JTAGEN_OFF) 
+//_CONFIG2( POSCMOD_HS & IOL1WAY_OFF & OSCIOFNC_ON & FCKSM_CSDCMD & FNOSC_PRIPLL & PLL96MHZ_ON & PLLDIV_DIV2 & IESO_OFF)
+//_CONFIG3( WPFP_WPFP255 & SOSCSEL_EC & WUTSEL_LEG & ALTPMP_ALTPMPEN & WPDIS_WPDIS & WPCFG_WPCFGDIS & WPEND_WPENDMEM)
 
 /////////////////////////////////////////////////////////////////////////////
 // SPI Device Initialization Function 
@@ -131,15 +135,18 @@ int main(void)
     GOL_MSG msg;                    // GOL message structure to interact with GOL
     
     InitializeBoard();
+    
 	TRISGbits.TRISG3 = 1;
 	TRISGbits.TRISG2 = 0;
 	Nop();
-	PORTBbits.RB2 = 1;
+	PORTGbits.RG2 = 1;
 	Nop();
+	
+	_DPTEST = 0b10;
     GDDDemoCreateFirstScreen();
-    
+ 
     LED = 1;
-//	_DPTEST = 0b11;
+	
     while(1)
     {
         if(GOLDraw())               // Draw GOL object
@@ -276,6 +283,13 @@ void InitializeBoard(void)
 	
 	LED_TRIS = 0;
 	
+	//temp pin init for wireless
+	TRISAbits.TRISA14 = 1;
+	TRISDbits.TRISD8 = 0;
+	TRISDbits.TRISD0 = 0;
+	TRISCbits.TRISC13 = 1;
+	TRISCbits.TRISC14 = 1;
+	
     // Initialize graphics library and create default style scheme for GOL
     GOLInit();
 
@@ -284,14 +298,13 @@ void InitializeBoard(void)
     
     //Set IOs directions for SST25 SPI
         SST25_CS_LAT = 1;
+        Nop();
         SST25_CS_TRIS = 0;
-    
-        // Set the pins to be digital 
-    	SST25_SDI_ANS = 0;
-        SST25_SDO_ANS = 0;
 
         SST25_SCK_TRIS = 0;
+        Nop();
         SST25_SDO_TRIS = 0;
+        Nop();
         SST25_SDI_TRIS = 1;
 
     // set the peripheral pin select for the PSI channel used
@@ -307,7 +320,12 @@ void InitializeBoard(void)
     	#endif
 
         __builtin_write_OSCCONL(OSCCON | 0x40); // lock   PPS
-
+	
+	LED = 1;
+	TRISAbits.TRISA1 = 0;
+	Nop();
+	PORTAbits.RA1 = 1;
+	
 	// initialize the Flash Memory driver
     FlashInit(&SPI_Init_Data);
    
