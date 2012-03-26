@@ -308,13 +308,13 @@ void TouchCalibration(void)
     SetColor(WHITE);
     ClearDevice();
 
-    SetColor(BLACK);
+    SetColor(BRIGHTRED);
     while(!(OutTextXY((GetMaxX()-GetTextWidth((XCHAR *)scr1StrLn1, (void *) &FONTDEFAULT))>>1,  \
     							 textStart + (textHeight), (XCHAR *)scr1StrLn1)));
     while(!(OutTextXY((GetMaxX()-GetTextWidth((XCHAR *)scr1StrLn2, (void *) &FONTDEFAULT))>>1,  \
     							 textStart + (2*textHeight), (XCHAR *)scr1StrLn2)));
 
-    SetColor(BLACK);
+    SetColor(BRIGHTRED);
     while(!(OutTextXY((GetMaxX()-GetTextWidth((XCHAR *)scr1StrLn3, (void *) &FONTDEFAULT))>>1,  \
     							textStart + (4*textHeight), (XCHAR *)scr1StrLn3)));
     while(!(OutTextXY((GetMaxX()-GetTextWidth((XCHAR *)scr1StrLn4, (void *) &FONTDEFAULT))>>1,  \

@@ -883,9 +883,10 @@
         #define SST25_CS_LAT    LATFbits.LATF7
         
         #define SST25_SCK_TRIS  TRISBbits.TRISB6
-        #define SST25_SDO_TRIS  TRISBbits.TRISB5
-        #define SST25_SDI_TRIS  TRISFbits.TRISF12
-
+//        #define SST25_SDO_TRIS  TRISBbits.TRISB5
+//        #define SST25_SDI_TRIS  TRISFbits.TRISF12
+		#define SST25_SDO_TRIS  TRISFbits.TRISF12
+		#define SST25_SDI_TRIS  TRISBbits.TRISB5
     #endif
 
 #endif // #if defined (USE_SST25VF016)

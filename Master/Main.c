@@ -142,7 +142,7 @@ int main(void)
 	PORTGbits.RG2 = 1;
 	Nop();
 	
-	_DPTEST = 0b10;
+//	_DPTEST = 0b10;
     GDDDemoCreateFirstScreen();
  
     LED = 1;
@@ -292,7 +292,8 @@ void InitializeBoard(void)
 	
     // Initialize graphics library and create default style scheme for GOL
     GOLInit();
-
+	_DPTEST = 0b00;
+	
     //The following are PIC device specific settings for the SPI channel
     //used. 
     
@@ -312,7 +313,7 @@ void InitializeBoard(void)
     	#if (SST25_SPI_CHANNEL == 1)
     	    RPOR3bits.RP6R = 8;                 // assign RP6 for SCK1
     	    RPOR9bits.RP18R = 7;                 // assign RP18 for SDO1
-    	    RPINR20bits.SDI1R = 32;              // assign RP32 for SDI1
+    	    RPINR20bits.SDI1R = 32;              // assign RP18 for SDI1
         #elif (SST25_SPI_CHANNEL == 2)
             RPOR5bits.RP11R = 11;                // assign RP11 for SCK2
     	    RPOR1bits.RP2R = 10;                // assign RP2 for SDO2
@@ -328,12 +329,13 @@ void InitializeBoard(void)
 	
 	// initialize the Flash Memory driver
     FlashInit(&SPI_Init_Data);
-   
+   LED = 0;
     // initialize the timer that manages the tick counter
     TickInit(); 
-                      
+                     
     // initialize the components for Resistive Touch Screen
     TouchInit(NVMWrite, NVMRead, NVMSectorErase, TOUCH_INIT_VALUES);
+    LED = 1;
 }    
 
 /*********************************************************************
