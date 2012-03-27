@@ -57,7 +57,7 @@
  * The next four byte is the generated 32-bit CRC.  The application can compare the value read from the
  * external memory to the value of GRC_CRC32_EXTERNAL_MARKER to verify that the data is valid.
  *****************************************************************************/
-#define GRC_CRC32_EXTERNAL_MARKER 0x3CAD7F32ul
+#define GRC_CRC32_EXTERNAL_MARKER 0xD3B119EEul
 #define GRC_CRC32_EXTERNAL_ADDR 0x00000000ul
 
 /*****************************************************************************
@@ -73,16 +73,5 @@ extern const IMAGE_EXTERNAL img_default;
 #define img_default_WIDTH     (72)
 #define img_default_HEIGHT    (72)
 #define img_default_SIZE      (2630)
-/*****************************************************************************
- * SECTION:  Fonts
- *****************************************************************************/
-
-/*********************************
- * Font File Structure
- * Label: gentium_16_200_0_0_0_0
- * Description:  no description
- ***********************************/
-extern const FONT_EXTERNAL gentium_16_200_0_0_0_0;
-#define gentium_16_200_0_0_0_0_SIZE    (2668)
 #endif
 

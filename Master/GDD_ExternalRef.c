@@ -52,20 +52,5 @@ IMAGE_EXTERNAL img_default =
 {
     (EXTERNAL | IMAGE_MBITMAP | COMP_NONE),
     0x0000,
-    0x00000A80
-};
-/*****************************************************************************
- * SECTION:  FONTS
- *****************************************************************************/
-
-/*********************************
- * Font File Structure
- * Label: gentium_16_200_0_0_0_0
- * Description:  no description
- ***********************************/
-FONT_EXTERNAL gentium_16_200_0_0_0_0 = 
-{
-    (EXTERNAL | COMP_NONE),
-    0x0000,
     0x00000008
 };

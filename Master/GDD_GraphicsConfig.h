@@ -9,7 +9,7 @@
 #ifndef USE_BITMAP_EXTERNAL
 	#define USE_BITMAP_EXTERNAL
 #endif
-#ifndef USE_FONT_EXTERNAL
-	#define USE_FONT_EXTERNAL
+#ifndef USE_FONT_FLASH
+	#define USE_FONT_FLASH
 #endif
 #endif // _GDD_GRAPHICSCONFIG_H_

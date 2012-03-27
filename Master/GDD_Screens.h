@@ -42,10 +42,10 @@ void GDDDemoCreateFirstScreen(void);
 void GDDDemoGOLMsgCallback(WORD objMsg, OBJ_HEADER* pObj, GOL_MSG* pMsg);
 void GDDDemoGOLDrawCallback(void);
 void GDDDemoNextScreen(void);
-extern const FONT_EXTERNAL gentium_16_200_0_0_0_0;
+extern const FONT_FLASH gentium_16_200_0_0_0_0;
 extern const GFX_EXTDATA img_default;
 void Createbuttonscreen(void);
 #define buttonscreen_OBJ_BUTTON_3_3   1
 #define buttonscreen_OBJ_PICTURE_2_3   2
-#define	NUM_GDD_SCREENS	2
+#define	NUM_GDD_SCREENS	1
 #endif
