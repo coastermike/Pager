@@ -86,7 +86,7 @@
 *********************************************************************/
 #define USE_GOL                 // Enable Graphics Object Layer.
 
-//#define USE_BUTTON            // Enable Button Object.
+#define USE_BUTTON            // Enable Button Object.
 
 #define USE_WINDOW			// Enable Window Object.
 //#define USE_CHECKBOX			// Enable Checkbox Object.
@@ -96,8 +96,8 @@
 //#define USE_SLIDER            // Enable Slider or Scroll Bar Object.
 
 //#define USE_PROGRESSBAR		// Enable Progress Bar Object.
-//#define USE_STATICTEXT		// Enable Static Text Object.
-//#define USE_PICTURE			// Enable Picture Object.
+#define USE_STATICTEXT		// Enable Static Text Object.
+#define USE_PICTURE			// Enable Picture Object.
 //#define USE_GROUPBOX			// Enable Group Box Object.
 //#define USE_ROUNDDIAL			// Enable Dial Object.
 //#define USE_METER				// Enable Meter Object.

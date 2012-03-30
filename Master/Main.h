@@ -48,5 +48,12 @@
     #include "TouchScreen.h"
     #include "HardwareProfile.h"
     #include "Graphics/mchpGfxDrv.h"
-
+	#include "VGDD_MenuScreens_Screens.h"
+	typedef enum
+	{
+		#include "VGDD_MenuScreens_ScreenStates.h"
+	} SCREEN_STATES;
+	
+	extern SCREEN_STATES   screenState;
+	
 #endif

@@ -36,7 +36,6 @@
  *
  *****************************************************************************/
 #include "Main.h"
-#include "GDD_Screens.h"
 
 // Configuration bits
 _CONFIG1( WDTPS_PS32768 & FWPSA_PR128 & ALTVREF_ALTVREDIS & WINDIS_OFF & FWDTEN_OFF & ICS_PGx1 & GWRP_OFF & GCP_OFF & JTAGEN_OFF) 
@@ -51,7 +50,7 @@ _CONFIG3( WPFP_WPFP255 & SOSCSEL_EC & WUTSEL_LEG & ALTPMP_ALPMPDIS & WPDIS_WPDIS
 // SPI Device Initialization Function 
 /////////////////////////////////////////////////////////////////////////////
 // initialize GFX3 SST25 flash SPI
-#define FlashInit(pInitData) SST25Init((DRV_SPI_INIT_DATA*)pInitData)                    
+#define FlashInit(pInitData) SST25Init((DRV_SPI_INIT_DATA*)pInitData)
   
 /////////////////////////////////////////////////////////////////////////////
 // SPI Channel settings
@@ -71,14 +70,9 @@ _CONFIG3( WPFP_WPFP255 & SOSCSEL_EC & WUTSEL_LEG & ALTPMP_ALPMPDIS & WPDIS_WPDIS
 void TickInit(void);                 // starts tick counter
 void InitializeBoard(void);
 
-void CreateEditBox(void);                                        // creates edit box demo screen
-WORD MsgEditBox(WORD objMsg, OBJ_HEADER *pObj, GOL_MSG *pMsg);   // processes messages for edit box demo screen
-//void CreatePage(XCHAR *pText);
-
-GOL_SCHEME      *altScheme;                                 // alternative style scheme
-GOL_SCHEME      *navScheme;                                 // style scheme for the navigation
-
 BYTE _language = 0;
+
+SCREEN_STATES   screenState = CREATE_MAINMENU; 
 
 /* */
 int main(void)
@@ -94,7 +88,7 @@ int main(void)
 	Nop();
 	
 //	_DPTEST = 0b10;
-    GDDDemoCreateFirstScreen();
+//    GDDDemoCreateFirstScreen();
  
     LED = 1;
 	
@@ -104,15 +98,15 @@ int main(void)
         {
             TouchGetMsg(&msg);      // Get message from touch screen
 			
-            #if (NUM_GDD_SCREENS > 1)
+         //   #if (NUM_GDD_SCREENS > 1)
 			// GDD Readme:
 			// The following line of code allows a GDD user to touch the touchscreen
 			// to cycle through different static screens for viewing. This is useful as a
 			// quick way to view how each screen looks on the physical target hardware.
 			// This line of code should eventually be commented out for actual development.
 			// Also note that widget/object names can be found in GDD_Screens.h
-			if(msg.uiEvent == EVENT_RELEASE) GDDDemoNextScreen();
-			#endif
+		//	if(msg.uiEvent == EVENT_RELEASE) GDDDemoNextScreen();
+		//	#endif
 			
             GOLMsg(&msg);           // Process message
         }
@@ -131,15 +125,18 @@ int main(void)
 /////////////////////////////////////////////////////////////////////////////
 WORD GOLMsgCallback(WORD objMsg, OBJ_HEADER *pObj, GOL_MSG *pMsg)
 {
-    WORD    objectID;
+ /*   WORD    objectID;
 
     objectID = GetObjID(pObj);
 
     GDDDemoGOLMsgCallback(objMsg, pObj, pMsg);
     
     // Add additional code here...
-
-    return (1);
+ */
+ 
+  //  return (1);
+   
+    return(VGDD_MenuScreens_MsgCallback(objMsg, pObj, pMsg));
 }
 
 /////////////////////////////////////////////////////////////////////////////
@@ -153,11 +150,12 @@ WORD GOLMsgCallback(WORD objMsg, OBJ_HEADER *pObj, GOL_MSG *pMsg)
 /////////////////////////////////////////////////////////////////////////////
 WORD GOLDrawCallback(void)
 {
-    GDDDemoGOLDrawCallback();
+//    GDDDemoGOLDrawCallback();
 
     // Add additional code here...
-
-    return (1);
+//Createhelloscreen();
+  //  return (1);
+ 	return(VGDD_MenuScreens_DrawCallback());
 }
 
 
