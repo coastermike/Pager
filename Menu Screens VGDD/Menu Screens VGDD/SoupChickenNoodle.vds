@@ -54,7 +54,7 @@ celery and peas. -$2.99
     <Property name="Location">345, 101</Property>
     <Property name="Transparent">False</Property>
     <Property name="Name">Picture1</Property>
-    <Property name="Bitmap">cheesest</Property>
+    <Property name="Bitmap">ChickenS</Property>
     <Property name="Size">110, 110</Property>
     <Property name="State">Enabled</Property>
     <Property name="Scale">1</Property>

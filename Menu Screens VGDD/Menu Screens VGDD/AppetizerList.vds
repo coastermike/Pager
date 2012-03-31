@@ -1,8 +1,6 @@
 
-  <Object type="VGDD.VGDDScreen, VGDDCommon, Version=3.0.4399.28307, Culture=neutral, PublicKeyToken=null" name="AppetList">
-    <Property name="Name">AppetList</Property>
-    <Property name="BackColor">Black</Property>
-    <Property name="ClientSize">478, 270</Property>
+  <Object type="VGDD.VGDDScreen, VGDDCommon, Version=3.0.4399.28307, Culture=neutral, PublicKeyToken=null" name="AppetizerList">
+    <Property name="Name">AppetizerList</Property>
     <Property name="Controls">
       <Item type="VGDDMicrochip.Button, VGDDMicrochip, Version=3.0.4399.28307, Culture=neutral, PublicKeyToken=null">
         <Reference name="Button8" />
@@ -44,309 +42,319 @@
         <Reference name="Button12" />
       </Item>
     </Property>
+    <Property name="BackColor">Black</Property>
+    <Property name="ClientSize">478, 270</Property>
   </Object>
   <Object type="VGDDMicrochip.Button, VGDDMicrochip, Version=3.0.4399.28307, Culture=neutral, PublicKeyToken=null" name="Button8">
+    <Property name="Location">345, 221</Property>
+    <Property name="VertAlign">Center</Property>
     <Property name="Name">Button8</Property>
-    <Property name="Radius">1</Property>
-    <Property name="CDeclType">ConstXcharArray</Property>
     <Property name="Bitmap">
     </Property>
+    <Property name="Radius">1</Property>
+    <Property name="Size">98, 37</Property>
+    <Property name="State">Enabled</Property>
+    <Property name="Hidden">False</Property>
     <Property name="Pressed">False</Property>
+    <Property name="Zorder">17</Property>
+    <Property name="CDeclType">ConstXcharArray</Property>
+    <Property name="Text">Main Menu</Property>
     <Property name="VGDDEvents">
       <Event Name="BTN_MSG_PRESSED" Handled="False" Description="Button pressed" />
       <Event Name="BTN_MSG_STILLPRESSED" Handled="False" Description="Button is continuously pressed" />
-      <Event Name="BTN_MSG_RELEASED" Handled="False" Description="Button released" />
+      <Event Name="BTN_MSG_RELEASED" Handled="True" Description="Button released">
+screenState=CREATE_MAINMENU;
+</Event>
       <Event Name="BTN_MSG_CANCELPRESS" Handled="False" Description="Button released with button press canceled" />
     </Property>
-    <Property name="State">Enabled</Property>
     <Property name="Scheme">New</Property>
     <Property name="Public">False</Property>
-    <Property name="Zorder">17</Property>
-    <Property name="Hidden">False</Property>
-    <Property name="Size">98, 37</Property>
-    <Property name="VertAlign">Center</Property>
-    <Property name="Location">345, 221</Property>
     <Property name="HorizAlign">Center</Property>
-    <Property name="Text">Main Menu</Property>
   </Object>
   <Object type="VGDDMicrochip.Button, VGDDMicrochip, Version=3.0.4399.28307, Culture=neutral, PublicKeyToken=null" name="Button7">
+    <Property name="Location">331, 105</Property>
+    <Property name="VertAlign">Center</Property>
     <Property name="Name">Button7</Property>
-    <Property name="Radius">1</Property>
-    <Property name="CDeclType">ConstXcharArray</Property>
     <Property name="Bitmap">
     </Property>
+    <Property name="Radius">1</Property>
+    <Property name="Size">145, 23</Property>
+    <Property name="State">Enabled</Property>
+    <Property name="Hidden">False</Property>
     <Property name="Pressed">False</Property>
+    <Property name="Zorder">16</Property>
+    <Property name="CDeclType">ConstXcharArray</Property>
+    <Property name="Text">Hot &amp; Spicy Nachos</Property>
     <Property name="VGDDEvents">
       <Event Name="BTN_MSG_PRESSED" Handled="False" Description="Button pressed" />
       <Event Name="BTN_MSG_STILLPRESSED" Handled="False" Description="Button is continuously pressed" />
       <Event Name="BTN_MSG_RELEASED" Handled="False" Description="Button released" />
       <Event Name="BTN_MSG_CANCELPRESS" Handled="False" Description="Button released with button press canceled" />
     </Property>
-    <Property name="State">Enabled</Property>
     <Property name="Scheme">New</Property>
     <Property name="Public">False</Property>
-    <Property name="Zorder">16</Property>
-    <Property name="Hidden">False</Property>
-    <Property name="Size">145, 23</Property>
-    <Property name="VertAlign">Center</Property>
-    <Property name="Location">331, 105</Property>
     <Property name="HorizAlign">Center</Property>
-    <Property name="Text">Hot &amp; Spicy Nachos</Property>
   </Object>
   <Object type="VGDDMicrochip.Button, VGDDMicrochip, Version=3.0.4399.28307, Culture=neutral, PublicKeyToken=null" name="Button6">
+    <Property name="Location">175, 150</Property>
+    <Property name="VertAlign">Center</Property>
     <Property name="Name">Button6</Property>
-    <Property name="Radius">1</Property>
-    <Property name="CDeclType">ConstXcharArray</Property>
     <Property name="Bitmap">
     </Property>
+    <Property name="Radius">1</Property>
+    <Property name="Size">143, 23</Property>
+    <Property name="State">Enabled</Property>
+    <Property name="Hidden">False</Property>
     <Property name="Pressed">False</Property>
+    <Property name="Zorder">15</Property>
+    <Property name="CDeclType">ConstXcharArray</Property>
+    <Property name="Text">Carrot Fries</Property>
     <Property name="VGDDEvents">
       <Event Name="BTN_MSG_PRESSED" Handled="False" Description="Button pressed" />
       <Event Name="BTN_MSG_STILLPRESSED" Handled="False" Description="Button is continuously pressed" />
       <Event Name="BTN_MSG_RELEASED" Handled="False" Description="Button released" />
       <Event Name="BTN_MSG_CANCELPRESS" Handled="False" Description="Button released with button press canceled" />
     </Property>
-    <Property name="State">Enabled</Property>
     <Property name="Scheme">New</Property>
     <Property name="Public">False</Property>
-    <Property name="Zorder">15</Property>
-    <Property name="Hidden">False</Property>
-    <Property name="Size">143, 23</Property>
-    <Property name="VertAlign">Center</Property>
-    <Property name="Location">175, 150</Property>
     <Property name="HorizAlign">Center</Property>
-    <Property name="Text">Carrot Fries</Property>
   </Object>
   <Object type="VGDDMicrochip.Button, VGDDMicrochip, Version=3.0.4399.28307, Culture=neutral, PublicKeyToken=null" name="Button5">
+    <Property name="Location">177, 63</Property>
+    <Property name="VertAlign">Center</Property>
     <Property name="Name">Button5</Property>
-    <Property name="Radius">1</Property>
-    <Property name="CDeclType">ConstXcharArray</Property>
     <Property name="Bitmap">
     </Property>
+    <Property name="Radius">1</Property>
+    <Property name="Size">143, 23</Property>
+    <Property name="State">Enabled</Property>
+    <Property name="Hidden">False</Property>
     <Property name="Pressed">False</Property>
+    <Property name="Zorder">14</Property>
+    <Property name="CDeclType">ConstXcharArray</Property>
+    <Property name="Text">Fair Fries</Property>
     <Property name="VGDDEvents">
       <Event Name="BTN_MSG_PRESSED" Handled="False" Description="Button pressed" />
       <Event Name="BTN_MSG_STILLPRESSED" Handled="False" Description="Button is continuously pressed" />
       <Event Name="BTN_MSG_RELEASED" Handled="False" Description="Button released" />
       <Event Name="BTN_MSG_CANCELPRESS" Handled="False" Description="Button released with button press canceled" />
     </Property>
-    <Property name="State">Enabled</Property>
     <Property name="Scheme">New</Property>
     <Property name="Public">False</Property>
-    <Property name="Zorder">14</Property>
-    <Property name="Hidden">False</Property>
-    <Property name="Size">143, 23</Property>
-    <Property name="VertAlign">Center</Property>
-    <Property name="Location">177, 63</Property>
     <Property name="HorizAlign">Center</Property>
-    <Property name="Text">Fair Fries</Property>
   </Object>
   <Object type="VGDDMicrochip.Button, VGDDMicrochip, Version=3.0.4399.28307, Culture=neutral, PublicKeyToken=null" name="Button4">
+    <Property name="Location">175, 188</Property>
+    <Property name="VertAlign">Center</Property>
     <Property name="Name">Button4</Property>
-    <Property name="Radius">1</Property>
-    <Property name="CDeclType">ConstXcharArray</Property>
     <Property name="Bitmap">
     </Property>
+    <Property name="Radius">1</Property>
+    <Property name="Size">145, 23</Property>
+    <Property name="State">Enabled</Property>
+    <Property name="Hidden">False</Property>
     <Property name="Pressed">False</Property>
+    <Property name="Zorder">13</Property>
+    <Property name="CDeclType">ConstXcharArray</Property>
+    <Property name="Text">Salt &amp; Pepper Rings</Property>
     <Property name="VGDDEvents">
       <Event Name="BTN_MSG_PRESSED" Handled="False" Description="Button pressed" />
       <Event Name="BTN_MSG_STILLPRESSED" Handled="False" Description="Button is continuously pressed" />
       <Event Name="BTN_MSG_RELEASED" Handled="False" Description="Button released" />
       <Event Name="BTN_MSG_CANCELPRESS" Handled="False" Description="Button released with button press canceled" />
     </Property>
-    <Property name="State">Enabled</Property>
     <Property name="Scheme">New</Property>
     <Property name="Public">False</Property>
-    <Property name="Zorder">13</Property>
-    <Property name="Hidden">False</Property>
-    <Property name="Size">145, 23</Property>
-    <Property name="VertAlign">Center</Property>
-    <Property name="Location">175, 188</Property>
     <Property name="HorizAlign">Center</Property>
-    <Property name="Text">Salt &amp; Pepper Rings</Property>
   </Object>
   <Object type="VGDDMicrochip.Button, VGDDMicrochip, Version=3.0.4399.28307, Culture=neutral, PublicKeyToken=null" name="Button3">
+    <Property name="Location">177, 105</Property>
+    <Property name="VertAlign">Center</Property>
     <Property name="Name">Button3</Property>
-    <Property name="Radius">1</Property>
-    <Property name="CDeclType">ConstXcharArray</Property>
     <Property name="Bitmap">
     </Property>
+    <Property name="Radius">1</Property>
+    <Property name="Size">143, 23</Property>
+    <Property name="State">Enabled</Property>
+    <Property name="Hidden">False</Property>
     <Property name="Pressed">False</Property>
+    <Property name="Zorder">12</Property>
+    <Property name="CDeclType">ConstXcharArray</Property>
+    <Property name="Text">Garlic Fair Fries</Property>
     <Property name="VGDDEvents">
       <Event Name="BTN_MSG_PRESSED" Handled="False" Description="Button pressed" />
       <Event Name="BTN_MSG_STILLPRESSED" Handled="False" Description="Button is continuously pressed" />
       <Event Name="BTN_MSG_RELEASED" Handled="False" Description="Button released" />
       <Event Name="BTN_MSG_CANCELPRESS" Handled="False" Description="Button released with button press canceled" />
     </Property>
-    <Property name="State">Enabled</Property>
     <Property name="Scheme">New</Property>
     <Property name="Public">False</Property>
-    <Property name="Zorder">12</Property>
-    <Property name="Hidden">False</Property>
-    <Property name="Size">143, 23</Property>
-    <Property name="VertAlign">Center</Property>
-    <Property name="Location">177, 105</Property>
     <Property name="HorizAlign">Center</Property>
-    <Property name="Text">Garlic Fair Fries</Property>
   </Object>
   <Object type="VGDDMicrochip.Button, VGDDMicrochip, Version=3.0.4399.28307, Culture=neutral, PublicKeyToken=null" name="Button2">
+    <Property name="Location">12, 150</Property>
+    <Property name="VertAlign">Center</Property>
     <Property name="Name">Button2</Property>
-    <Property name="Radius">1</Property>
-    <Property name="CDeclType">ConstXcharArray</Property>
     <Property name="Bitmap">
     </Property>
+    <Property name="Radius">1</Property>
+    <Property name="Size">143, 23</Property>
+    <Property name="State">Enabled</Property>
+    <Property name="Hidden">False</Property>
     <Property name="Pressed">False</Property>
+    <Property name="Zorder">11</Property>
+    <Property name="CDeclType">ConstXcharArray</Property>
+    <Property name="Text">Chili Fries</Property>
     <Property name="VGDDEvents">
       <Event Name="BTN_MSG_PRESSED" Handled="False" Description="Button pressed" />
       <Event Name="BTN_MSG_STILLPRESSED" Handled="False" Description="Button is continuously pressed" />
       <Event Name="BTN_MSG_RELEASED" Handled="False" Description="Button released" />
       <Event Name="BTN_MSG_CANCELPRESS" Handled="False" Description="Button released with button press canceled" />
     </Property>
-    <Property name="State">Enabled</Property>
     <Property name="Scheme">New</Property>
     <Property name="Public">False</Property>
-    <Property name="Zorder">11</Property>
-    <Property name="Hidden">False</Property>
-    <Property name="Size">143, 23</Property>
-    <Property name="VertAlign">Center</Property>
-    <Property name="Location">12, 150</Property>
     <Property name="HorizAlign">Center</Property>
-    <Property name="Text">Chili Fries</Property>
   </Object>
   <Object type="VGDDMicrochip.Button, VGDDMicrochip, Version=3.0.4399.28307, Culture=neutral, PublicKeyToken=null" name="Button1">
+    <Property name="Location">12, 63</Property>
+    <Property name="VertAlign">Center</Property>
     <Property name="Name">Button1</Property>
-    <Property name="Radius">1</Property>
-    <Property name="CDeclType">ConstXcharArray</Property>
     <Property name="Bitmap">
     </Property>
+    <Property name="Radius">1</Property>
+    <Property name="Size">143, 23</Property>
+    <Property name="State">Enabled</Property>
+    <Property name="Hidden">False</Property>
     <Property name="Pressed">False</Property>
+    <Property name="Zorder">10</Property>
+    <Property name="CDeclType">ConstXcharArray</Property>
+    <Property name="Text">Cheese Sticks</Property>
     <Property name="VGDDEvents">
       <Event Name="BTN_MSG_PRESSED" Handled="False" Description="Button pressed" />
       <Event Name="BTN_MSG_STILLPRESSED" Handled="False" Description="Button is continuously pressed" />
-      <Event Name="BTN_MSG_RELEASED" Handled="False" Description="Button released" />
+      <Event Name="BTN_MSG_RELEASED" Handled="True" Description="Button released">
+screenState=CREATE_APPETCHEESESTICK;
+</Event>
       <Event Name="BTN_MSG_CANCELPRESS" Handled="False" Description="Button released with button press canceled" />
     </Property>
-    <Property name="State">Enabled</Property>
     <Property name="Scheme">New</Property>
     <Property name="Public">False</Property>
-    <Property name="Zorder">10</Property>
-    <Property name="Hidden">False</Property>
-    <Property name="Size">143, 23</Property>
-    <Property name="VertAlign">Center</Property>
-    <Property name="Location">12, 63</Property>
     <Property name="HorizAlign">Center</Property>
-    <Property name="Text">Cheese Sticks</Property>
   </Object>
   <Object type="VGDDMicrochip.Window, VGDDMicrochip, Version=3.0.4399.28307, Culture=neutral, PublicKeyToken=null" name="Window1">
+    <Property name="Location">0, 0</Property>
     <Property name="Name">Window1</Property>
-    <Property name="Size">480, 42</Property>
-    <Property name="CDeclType">ConstXcharArray</Property>
     <Property name="Bitmap">
     </Property>
+    <Property name="Size">480, 42</Property>
+    <Property name="TitleAlign">Center</Property>
+    <Property name="State">Enabled</Property>
+    <Property name="Zorder">9</Property>
+    <Property name="CDeclType">ConstXcharArray</Property>
+    <Property name="Text">Appetizer Menu</Property>
     <Property name="VGDDEvents">
       <Event Name="WND_MSG_CLIENT" Handled="False" Description="Window client area selected" />
       <Event Name="WND_MSG_TITLE" Handled="False" Description="Window title bar selected" />
     </Property>
-    <Property name="State">Enabled</Property>
     <Property name="Scheme">New1</Property>
-    <Property name="Zorder">9</Property>
-    <Property name="TitleAlign">Center</Property>
-    <Property name="Location">0, 0</Property>
-    <Property name="Text">Appetizer Menu</Property>
   </Object>
   <Object type="VGDDMicrochip.Button, VGDDMicrochip, Version=3.0.4399.28307, Culture=neutral, PublicKeyToken=null" name="Button9">
+    <Property name="Location">12, 105</Property>
+    <Property name="VertAlign">Center</Property>
     <Property name="Name">Button9</Property>
-    <Property name="Radius">1</Property>
-    <Property name="CDeclType">ConstXcharArray</Property>
     <Property name="Bitmap">
     </Property>
+    <Property name="Radius">1</Property>
+    <Property name="Size">143, 23</Property>
+    <Property name="State">Enabled</Property>
+    <Property name="Hidden">False</Property>
     <Property name="Pressed">False</Property>
+    <Property name="Zorder">18</Property>
+    <Property name="CDeclType">ConstXcharArray</Property>
+    <Property name="Text">Fried Pickles</Property>
     <Property name="VGDDEvents">
       <Event Name="BTN_MSG_PRESSED" Handled="False" Description="Button pressed" />
       <Event Name="BTN_MSG_STILLPRESSED" Handled="False" Description="Button is continuously pressed" />
-      <Event Name="BTN_MSG_RELEASED" Handled="False" Description="Button released" />
+      <Event Name="BTN_MSG_RELEASED" Handled="True" Description="Button released">
+screenState=CREATE_APPETFRIEDPICKLES;
+</Event>
       <Event Name="BTN_MSG_CANCELPRESS" Handled="False" Description="Button released with button press canceled" />
     </Property>
-    <Property name="State">Enabled</Property>
     <Property name="Scheme">New</Property>
     <Property name="Public">False</Property>
-    <Property name="Zorder">18</Property>
-    <Property name="Hidden">False</Property>
-    <Property name="Size">143, 23</Property>
-    <Property name="VertAlign">Center</Property>
-    <Property name="Location">12, 105</Property>
     <Property name="HorizAlign">Center</Property>
-    <Property name="Text">Fried Pickles</Property>
   </Object>
   <Object type="VGDDMicrochip.Button, VGDDMicrochip, Version=3.0.4399.28307, Culture=neutral, PublicKeyToken=null" name="Button10">
+    <Property name="Location">331, 63</Property>
+    <Property name="VertAlign">Center</Property>
     <Property name="Name">Button10</Property>
-    <Property name="Radius">1</Property>
-    <Property name="CDeclType">ConstXcharArray</Property>
     <Property name="Bitmap">
     </Property>
+    <Property name="Radius">1</Property>
+    <Property name="Size">145, 23</Property>
+    <Property name="State">Enabled</Property>
+    <Property name="Hidden">False</Property>
     <Property name="Pressed">False</Property>
+    <Property name="Zorder">19</Property>
+    <Property name="CDeclType">ConstXcharArray</Property>
+    <Property name="Text">MexicaNACHOS</Property>
     <Property name="VGDDEvents">
       <Event Name="BTN_MSG_PRESSED" Handled="False" Description="Button pressed" />
       <Event Name="BTN_MSG_STILLPRESSED" Handled="False" Description="Button is continuously pressed" />
       <Event Name="BTN_MSG_RELEASED" Handled="False" Description="Button released" />
       <Event Name="BTN_MSG_CANCELPRESS" Handled="False" Description="Button released with button press canceled" />
     </Property>
-    <Property name="State">Enabled</Property>
     <Property name="Scheme">New</Property>
     <Property name="Public">False</Property>
-    <Property name="Zorder">19</Property>
-    <Property name="Hidden">False</Property>
-    <Property name="Size">145, 23</Property>
-    <Property name="VertAlign">Center</Property>
-    <Property name="Location">331, 63</Property>
     <Property name="HorizAlign">Center</Property>
-    <Property name="Text">MexicaNACHOS</Property>
   </Object>
   <Object type="VGDDMicrochip.Button, VGDDMicrochip, Version=3.0.4399.28307, Culture=neutral, PublicKeyToken=null" name="Button11">
+    <Property name="Location">331, 150</Property>
+    <Property name="VertAlign">Center</Property>
     <Property name="Name">Button11</Property>
-    <Property name="Radius">1</Property>
-    <Property name="CDeclType">ConstXcharArray</Property>
     <Property name="Bitmap">
     </Property>
+    <Property name="Radius">1</Property>
+    <Property name="Size">145, 23</Property>
+    <Property name="State">Enabled</Property>
+    <Property name="Hidden">False</Property>
     <Property name="Pressed">False</Property>
+    <Property name="Zorder">20</Property>
+    <Property name="CDeclType">ConstXcharArray</Property>
+    <Property name="Text">Fried Green Beans</Property>
     <Property name="VGDDEvents">
       <Event Name="BTN_MSG_PRESSED" Handled="False" Description="Button pressed" />
       <Event Name="BTN_MSG_STILLPRESSED" Handled="False" Description="Button is continuously pressed" />
       <Event Name="BTN_MSG_RELEASED" Handled="False" Description="Button released" />
       <Event Name="BTN_MSG_CANCELPRESS" Handled="False" Description="Button released with button press canceled" />
     </Property>
-    <Property name="State">Enabled</Property>
     <Property name="Scheme">New</Property>
     <Property name="Public">False</Property>
-    <Property name="Zorder">20</Property>
-    <Property name="Hidden">False</Property>
-    <Property name="Size">145, 23</Property>
-    <Property name="VertAlign">Center</Property>
-    <Property name="Location">331, 150</Property>
     <Property name="HorizAlign">Center</Property>
-    <Property name="Text">Fried Green Beans</Property>
   </Object>
   <Object type="VGDDMicrochip.Button, VGDDMicrochip, Version=3.0.4399.28307, Culture=neutral, PublicKeyToken=null" name="Button12">
+    <Property name="Location">40, 221</Property>
+    <Property name="VertAlign">Center</Property>
     <Property name="Name">Button12</Property>
-    <Property name="Radius">1</Property>
-    <Property name="CDeclType">ConstXcharArray</Property>
     <Property name="Bitmap">
     </Property>
+    <Property name="Radius">1</Property>
+    <Property name="Size">98, 37</Property>
+    <Property name="State">Enabled</Property>
+    <Property name="Hidden">False</Property>
     <Property name="Pressed">False</Property>
+    <Property name="Zorder">21</Property>
+    <Property name="CDeclType">ConstXcharArray</Property>
+    <Property name="Text">Food Menu</Property>
     <Property name="VGDDEvents">
       <Event Name="BTN_MSG_PRESSED" Handled="False" Description="Button pressed" />
       <Event Name="BTN_MSG_STILLPRESSED" Handled="False" Description="Button is continuously pressed" />
-      <Event Name="BTN_MSG_RELEASED" Handled="False" Description="Button released" />
+      <Event Name="BTN_MSG_RELEASED" Handled="True" Description="Button released">
+screenState=CREATE_FOODMENU;
+</Event>
       <Event Name="BTN_MSG_CANCELPRESS" Handled="False" Description="Button released with button press canceled" />
     </Property>
-    <Property name="State">Enabled</Property>
     <Property name="Scheme">New</Property>
     <Property name="Public">False</Property>
-    <Property name="Zorder">21</Property>
-    <Property name="Hidden">False</Property>
-    <Property name="Size">98, 37</Property>
-    <Property name="VertAlign">Center</Property>
-    <Property name="Location">40, 221</Property>
     <Property name="HorizAlign">Center</Property>
-    <Property name="Text">Food Menu</Property>
   </Object>

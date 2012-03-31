@@ -68,7 +68,7 @@
       <Event Name="BTN_MSG_PRESSED" Handled="False" Description="Button pressed" />
       <Event Name="BTN_MSG_STILLPRESSED" Handled="False" Description="Button is continuously pressed" />
       <Event Name="BTN_MSG_RELEASED" Handled="True" Description="Button released">
-screenState=CREATE_APPETLIST;
+screenState=CREATE_APPETIZERLIST;
 </Event>
       <Event Name="BTN_MSG_CANCELPRESS" Handled="False" Description="Button released with button press canceled" />
     </Property>
@@ -146,7 +146,7 @@ screenState=CREATE_SALADSLIST1;
       <Event Name="BTN_MSG_PRESSED" Handled="False" Description="Button pressed" />
       <Event Name="BTN_MSG_STILLPRESSED" Handled="False" Description="Button is continuously pressed" />
       <Event Name="BTN_MSG_RELEASED" Handled="True" Description="Button released">
-screenState=CREATE_SANDWICHESLIST1;
+screenState=CREATE_SANDWICHESLIST;
 </Event>
       <Event Name="BTN_MSG_CANCELPRESS" Handled="False" Description="Button released with button press canceled" />
     </Property>
