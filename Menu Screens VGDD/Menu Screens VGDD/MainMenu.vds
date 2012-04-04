@@ -3,6 +3,9 @@
     <Property name="Name">MainMenu</Property>
     <Property name="Controls">
       <Item type="VGDDMicrochip.EditBox, VGDDMicrochip, Version=3.0.4399.28307, Culture=neutral, PublicKeyToken=null">
+        <Reference name="EditBox2" />
+      </Item>
+      <Item type="VGDDMicrochip.EditBox, VGDDMicrochip, Version=3.0.4399.28307, Culture=neutral, PublicKeyToken=null">
         <Reference name="EditBox1" />
       </Item>
       <Item type="VGDDMicrochip.Button, VGDDMicrochip, Version=3.0.4399.28307, Culture=neutral, PublicKeyToken=null">
@@ -16,6 +19,12 @@
       </Item>
       <Item type="VGDDMicrochip.StaticText, VGDDMicrochip, Version=3.0.4399.28307, Culture=neutral, PublicKeyToken=null">
         <Reference name="StaticText1" />
+      </Item>
+      <Item type="VGDDMicrochip.StaticText, VGDDMicrochip, Version=3.0.4399.28307, Culture=neutral, PublicKeyToken=null">
+        <Reference name="StaticText2" />
+      </Item>
+      <Item type="VGDDMicrochip.Picture, VGDDMicrochip, Version=3.0.4399.28307, Culture=neutral, PublicKeyToken=null">
+        <Reference name="Picture1" />
       </Item>
     </Property>
     <Property name="BackColor">Black</Property>
@@ -34,19 +43,19 @@
     <Property name="Pressed">False</Property>
     <Property name="Zorder">2</Property>
     <Property name="CDeclType">ConstXcharArray</Property>
-    <Property name="Text">Order Screen</Property>
+    <Property name="Text">Order</Property>
     <Property name="VGDDEvents">
       <Event Name="BTN_MSG_PRESSED" Handled="False" Description="Button pressed" />
       <Event Name="BTN_MSG_STILLPRESSED" Handled="False" Description="Button is continuously pressed" />
       <Event Name="BTN_MSG_RELEASED" Handled="False" Description="Button released" />
       <Event Name="BTN_MSG_CANCELPRESS" Handled="False" Description="Button released with button press canceled" />
     </Property>
-    <Property name="Scheme">New2</Property>
+    <Property name="Scheme">ButtonTx</Property>
     <Property name="Public">False</Property>
     <Property name="HorizAlign">Center</Property>
   </Object>
   <Object type="VGDDMicrochip.Button, VGDDMicrochip, Version=3.0.4399.28307, Culture=neutral, PublicKeyToken=null" name="Button2">
-    <Property name="Location">88, 177</Property>
+    <Property name="Location">85, 221</Property>
     <Property name="VertAlign">Center</Property>
     <Property name="Name">Button2</Property>
     <Property name="Bitmap">
@@ -67,36 +76,30 @@ screenState=CREATE_FOODMENU;
 </Event>
       <Event Name="BTN_MSG_CANCELPRESS" Handled="False" Description="Button released with button press canceled" />
     </Property>
-    <Property name="Scheme">New2</Property>
+    <Property name="Scheme">ButtonTx</Property>
     <Property name="Public">False</Property>
     <Property name="HorizAlign">Center</Property>
   </Object>
   <Object type="VGDDMicrochip.EditBox, VGDDMicrochip, Version=3.0.4399.28307, Culture=neutral, PublicKeyToken=null" name="EditBox1">
-    <Property name="Location">88, 21</Property>
-    <Property name="Charmax">16</Property>
+    <Property name="Location">118, 100</Property>
+    <Property name="Charmax">250</Property>
     <Property name="Name">EditBox1</Property>
-    <Property name="Size">298, 140</Property>
+    <Property name="Size">234, 82</Property>
     <Property name="State">Enabled</Property>
     <Property name="Zorder">4</Property>
     <Property name="CDeclType">RamXcharArray</Property>
-    <Property name="Text">       Welcome To The Restaurant
-       At The End of The Universe
-        Today's Features Are:
-           Cheese Sticks- $5.99/$8.99
-           Buffalo Quesadilla-$7.99
-           Pan Galactic Gargle Blaster- $6
-</Property>
+    <Property name="Text">Today's Features Are:\n   Cheese Sticks- $5.99/$8.99\n   Buffalo Quesadilla-$7.99\n   Pan Galactic Gargle Blaster- $6</Property>
     <Property name="VGDDEvents">
       <Event Name="EB_MSG_CHAR" Handled="False" Description="EditBox character inserted" />
       <Event Name="EB_MSG_DEL" Handled="False" Description="EditBox character removed" />
       <Event Name="EB_MSG_TOUCHSCREEN" Handled="False" Description="EditBox touched" />
     </Property>
-    <Property name="Scheme">New1</Property>
-    <Property name="TextAlign">Center</Property>
+    <Property name="Scheme">DescText</Property>
+    <Property name="TextAlign">Left</Property>
     <Property name="Public">False</Property>
   </Object>
   <Object type="VGDDMicrochip.Button, VGDDMicrochip, Version=3.0.4399.28307, Culture=neutral, PublicKeyToken=null" name="Button3">
-    <Property name="Location">288, 177</Property>
+    <Property name="Location">297, 221</Property>
     <Property name="VertAlign">Center</Property>
     <Property name="Name">Button3</Property>
     <Property name="Bitmap">
@@ -115,7 +118,7 @@ screenState=CREATE_FOODMENU;
       <Event Name="BTN_MSG_RELEASED" Handled="False" Description="Button released" />
       <Event Name="BTN_MSG_CANCELPRESS" Handled="False" Description="Button released with button press canceled" />
     </Property>
-    <Property name="Scheme">New2</Property>
+    <Property name="Scheme">ButtonTx</Property>
     <Property name="Public">False</Property>
     <Property name="HorizAlign">Center</Property>
   </Object>
@@ -131,7 +134,56 @@ screenState=CREATE_FOODMENU;
     <Property name="VGDDEvents">
       <Event Name="ST_MSG_SELECTED" Handled="False" Description="Static Text selected" />
     </Property>
-    <Property name="Scheme">New</Property>
+    <Property name="Scheme">ButtonTx</Property>
     <Property name="TextAlign">Left</Property>
     <Property name="Public">False</Property>
+  </Object>
+  <Object type="VGDDMicrochip.EditBox, VGDDMicrochip, Version=3.0.4399.28307, Culture=neutral, PublicKeyToken=null" name="EditBox2">
+    <Property name="Location">109, 12</Property>
+    <Property name="Charmax">100</Property>
+    <Property name="Name">EditBox2</Property>
+    <Property name="Size">260, 46</Property>
+    <Property name="State">Enabled</Property>
+    <Property name="Zorder">7</Property>
+    <Property name="CDeclType">RamXcharArray</Property>
+    <Property name="Text">Welcome To Milliways</Property>
+    <Property name="VGDDEvents">
+      <Event Name="EB_MSG_CHAR" Handled="False" Description="EditBox character inserted" />
+      <Event Name="EB_MSG_DEL" Handled="False" Description="EditBox character removed" />
+      <Event Name="EB_MSG_TOUCHSCREEN" Handled="False" Description="EditBox touched" />
+    </Property>
+    <Property name="Scheme">MainName</Property>
+    <Property name="TextAlign">Left</Property>
+    <Property name="Public">False</Property>
+  </Object>
+  <Object type="VGDDMicrochip.StaticText, VGDDMicrochip, Version=3.0.4399.28307, Culture=neutral, PublicKeyToken=null" name="StaticText2">
+    <Property name="Location">102, 58</Property>
+    <Property name="Name">StaticText2</Property>
+    <Property name="Size">281, 23</Property>
+    <Property name="State">Enabled</Property>
+    <Property name="Zorder">8</Property>
+    <Property name="CDeclType">ConstXcharArray</Property>
+    <Property name="Frame">Disabled</Property>
+    <Property name="Text">The Restaurant at the End of the Universe</Property>
+    <Property name="VGDDEvents">
+      <Event Name="ST_MSG_SELECTED" Handled="False" Description="Static Text selected" />
+    </Property>
+    <Property name="Scheme">DescText</Property>
+    <Property name="TextAlign">Left</Property>
+    <Property name="Public">False</Property>
+  </Object>
+  <Object type="VGDDMicrochip.Picture, VGDDMicrochip, Version=3.0.4399.28307, Culture=neutral, PublicKeyToken=null" name="Picture1">
+    <Property name="Location">90, 5</Property>
+    <Property name="Transparent">False</Property>
+    <Property name="Name">Picture1</Property>
+    <Property name="Bitmap">endofuni</Property>
+    <Property name="Size">388, 264</Property>
+    <Property name="State">Enabled</Property>
+    <Property name="Scale">1</Property>
+    <Property name="Zorder">0</Property>
+    <Property name="Frame">Disabled</Property>
+    <Property name="VGDDEvents">
+      <Event Name="PICT_MSG_SELECTED" Handled="False" Description="Picture selected" />
+    </Property>
+    <Property name="Scheme">ButtonTx</Property>
   </Object>
