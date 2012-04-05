@@ -1,0 +1,418 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Graphics_Resource_Converter>
+<Configuration>
+<major>3</major>
+<minor>7</minor>
+<compiler>C30</compiler>
+<format>HEX</format>
+<graphics_module>false</graphics_module>
+<graphics_model>16 bpp</graphics_model>
+</Configuration>
+<Bitmaps>
+<Bitmap_Resource>
+<label>carrotfr</label>
+<path>../../../../../Desktop/Michael/Pager/Menu Screens VGDD/Pictures/Appetizers/carrotfr.bmp</path>
+<compression>None</compression>
+</Bitmap_Resource>
+<Bitmap_Resource>
+<label>cheesest</label>
+<path>../../../../../Desktop/Michael/Pager/Menu Screens VGDD/Pictures/Appetizers/cheesest.bmp</path>
+<compression>None</compression>
+</Bitmap_Resource>
+<Bitmap_Resource>
+<label>chiliche</label>
+<path>../../../../../Desktop/Michael/Pager/Menu Screens VGDD/Pictures/Appetizers/chiliche.bmp</path>
+<compression>None</compression>
+</Bitmap_Resource>
+<Bitmap_Resource>
+<label>frenchfr</label>
+<path>../../../../../Desktop/Michael/Pager/Menu Screens VGDD/Pictures/Appetizers/frenchfr.bmp</path>
+<compression>None</compression>
+</Bitmap_Resource>
+<Bitmap_Resource>
+<label>friedGre</label>
+<path>../../../../../Desktop/Michael/Pager/Menu Screens VGDD/Pictures/Appetizers/friedGre.bmp</path>
+<compression>None</compression>
+</Bitmap_Resource>
+<Bitmap_Resource>
+<label>friedpic</label>
+<path>../../../../../Desktop/Michael/Pager/Menu Screens VGDD/Pictures/Appetizers/friedpic.bmp</path>
+<compression>None</compression>
+</Bitmap_Resource>
+<Bitmap_Resource>
+<label>garlicfr</label>
+<path>../../../../../Desktop/Michael/Pager/Menu Screens VGDD/Pictures/Appetizers/garlicfr.bmp</path>
+<compression>None</compression>
+</Bitmap_Resource>
+<Bitmap_Resource>
+<label>nachos</label>
+<path>../../../../../Desktop/Michael/Pager/Menu Screens VGDD/Pictures/Appetizers/nachos.bmp</path>
+<compression>None</compression>
+</Bitmap_Resource>
+<Bitmap_Resource>
+<label>onirings</label>
+<path>../../../../../Desktop/Michael/Pager/Menu Screens VGDD/Pictures/Appetizers/onirings.bmp</path>
+<compression>None</compression>
+</Bitmap_Resource>
+<Bitmap_Resource>
+<label>spicynac</label>
+<path>../../../../../Desktop/Michael/Pager/Menu Screens VGDD/Pictures/Appetizers/spicynac.bmp</path>
+<compression>None</compression>
+</Bitmap_Resource>
+<Bitmap_Resource>
+<label>CajunBur</label>
+<path>../../../../../Desktop/Michael/Pager/Menu Screens VGDD/Pictures/Burger/CajunBur.bmp</path>
+<compression>None</compression>
+</Bitmap_Resource>
+<Bitmap_Resource>
+<label>MonsterC</label>
+<path>../../../../../Desktop/Michael/Pager/Menu Screens VGDD/Pictures/Burger/MonsterC.bmp</path>
+<compression>None</compression>
+</Bitmap_Resource>
+<Bitmap_Resource>
+<label>Mushroom</label>
+<path>../../../../../Desktop/Michael/Pager/Menu Screens VGDD/Pictures/Burger/Mushroom.bmp</path>
+<compression>None</compression>
+</Bitmap_Resource>
+<Bitmap_Resource>
+<label>cheesebu</label>
+<path>../../../../../Desktop/Michael/Pager/Menu Screens VGDD/Pictures/Burger/cheesebu.bmp</path>
+<compression>None</compression>
+</Bitmap_Resource>
+<Bitmap_Resource>
+<label>hamburge</label>
+<path>../../../../../Desktop/Michael/Pager/Menu Screens VGDD/Pictures/Burger/hamburge.bmp</path>
+<compression>None</compression>
+</Bitmap_Resource>
+<Bitmap_Resource>
+<label>pepperja</label>
+<path>../../../../../Desktop/Michael/Pager/Menu Screens VGDD/Pictures/Burger/pepperja.bmp</path>
+<compression>None</compression>
+</Bitmap_Resource>
+<Bitmap_Resource>
+<label>Brownie</label>
+<path>../../../../../Desktop/Michael/Pager/Menu Screens VGDD/Pictures/Desserts/Brownie.bmp</path>
+<compression>None</compression>
+</Bitmap_Resource>
+<Bitmap_Resource>
+<label>Mousse</label>
+<path>../../../../../Desktop/Michael/Pager/Menu Screens VGDD/Pictures/Desserts/Mousse.bmp</path>
+<compression>None</compression>
+</Bitmap_Resource>
+<Bitmap_Resource>
+<label>Strawb</label>
+<path>../../../../../Desktop/Michael/Pager/Menu Screens VGDD/Pictures/Desserts/Strawb.bmp</path>
+<compression>None</compression>
+</Bitmap_Resource>
+<Bitmap_Resource>
+<label>Sundae</label>
+<path>../../../../../Desktop/Michael/Pager/Menu Screens VGDD/Pictures/Desserts/Sundae.bmp</path>
+<compression>None</compression>
+</Bitmap_Resource>
+<Bitmap_Resource>
+<label>apple</label>
+<path>../../../../../Desktop/Michael/Pager/Menu Screens VGDD/Pictures/Desserts/apple.bmp</path>
+<compression>None</compression>
+</Bitmap_Resource>
+<Bitmap_Resource>
+<label>blueberr</label>
+<path>../../../../../Desktop/Michael/Pager/Menu Screens VGDD/Pictures/Desserts/blueberr.bmp</path>
+<compression>None</compression>
+</Bitmap_Resource>
+<Bitmap_Resource>
+<label>peanut</label>
+<path>../../../../../Desktop/Michael/Pager/Menu Screens VGDD/Pictures/Desserts/peanut.bmp</path>
+<compression>None</compression>
+</Bitmap_Resource>
+<Bitmap_Resource>
+<label>redvel</label>
+<path>../../../../../Desktop/Michael/Pager/Menu Screens VGDD/Pictures/Desserts/redvel.bmp</path>
+<compression>None</compression>
+</Bitmap_Resource>
+<Bitmap_Resource>
+<label>FrChx</label>
+<path>../../../../../Desktop/Michael/Pager/Menu Screens VGDD/Pictures/Dinners/FrChx.bmp</path>
+<compression>None</compression>
+</Bitmap_Resource>
+<Bitmap_Resource>
+<label>GrChx</label>
+<path>../../../../../Desktop/Michael/Pager/Menu Screens VGDD/Pictures/Dinners/GrChx.bmp</path>
+<compression>None</compression>
+</Bitmap_Resource>
+<Bitmap_Resource>
+<label>Lasagna</label>
+<path>../../../../../Desktop/Michael/Pager/Menu Screens VGDD/Pictures/Dinners/Lasagna.bmp</path>
+<compression>None</compression>
+</Bitmap_Resource>
+<Bitmap_Resource>
+<label>MPizza</label>
+<path>../../../../../Desktop/Michael/Pager/Menu Screens VGDD/Pictures/Dinners/MPizza.bmp</path>
+<compression>None</compression>
+</Bitmap_Resource>
+<Bitmap_Resource>
+<label>Quesd</label>
+<path>../../../../../Desktop/Michael/Pager/Menu Screens VGDD/Pictures/Dinners/Quesd.bmp</path>
+<compression>None</compression>
+</Bitmap_Resource>
+<Bitmap_Resource>
+<label>Steak</label>
+<path>../../../../../Desktop/Michael/Pager/Menu Screens VGDD/Pictures/Dinners/Steak.bmp</path>
+<compression>None</compression>
+</Bitmap_Resource>
+<Bitmap_Resource>
+<label>Tilipia</label>
+<path>../../../../../Desktop/Michael/Pager/Menu Screens VGDD/Pictures/Dinners/Tilipia.bmp</path>
+<compression>None</compression>
+</Bitmap_Resource>
+<Bitmap_Resource>
+<label>VegPizza</label>
+<path>../../../../../Desktop/Michael/Pager/Menu Screens VGDD/Pictures/Dinners/VegPizza.bmp</path>
+<compression>None</compression>
+</Bitmap_Resource>
+<Bitmap_Resource>
+<label>cabbage</label>
+<path>../../../../../Desktop/Michael/Pager/Menu Screens VGDD/Pictures/Dinners/cabbage.bmp</path>
+<compression>None</compression>
+</Bitmap_Resource>
+<Bitmap_Resource>
+<label>spagmeat</label>
+<path>../../../../../Desktop/Michael/Pager/Menu Screens VGDD/Pictures/Dinners/spagmeat.bmp</path>
+<compression>None</compression>
+</Bitmap_Resource>
+<Bitmap_Resource>
+<label>spagmeatt</label>
+<path>../../../../../Desktop/Michael/Pager/Menu Screens VGDD/Pictures/Dinners/spagmeatt.bmp</path>
+<compression>None</compression>
+</Bitmap_Resource>
+<Bitmap_Resource>
+<label>FruitSal</label>
+<path>../../../../../Desktop/Michael/Pager/Menu Screens VGDD/Pictures/Salads/FruitSal.bmp</path>
+<compression>None</compression>
+</Bitmap_Resource>
+<Bitmap_Resource>
+<label>GardenBu</label>
+<path>../../../../../Desktop/Michael/Pager/Menu Screens VGDD/Pictures/Salads/GardenBu.bmp</path>
+<compression>None</compression>
+</Bitmap_Resource>
+<Bitmap_Resource>
+<label>GrilledL</label>
+<path>../../../../../Desktop/Michael/Pager/Menu Screens VGDD/Pictures/Salads/GrilledL.bmp</path>
+<compression>None</compression>
+</Bitmap_Resource>
+<Bitmap_Resource>
+<label>Vegsalad</label>
+<path>../../../../../Desktop/Michael/Pager/Menu Screens VGDD/Pictures/Salads/Vegsalad.bmp</path>
+<compression>None</compression>
+</Bitmap_Resource>
+<Bitmap_Resource>
+<label>baconSal</label>
+<path>../../../../../Desktop/Michael/Pager/Menu Screens VGDD/Pictures/Salads/baconSal.bmp</path>
+<compression>None</compression>
+</Bitmap_Resource>
+<Bitmap_Resource>
+<label>blackene</label>
+<path>../../../../../Desktop/Michael/Pager/Menu Screens VGDD/Pictures/Salads/blackene.bmp</path>
+<compression>None</compression>
+</Bitmap_Resource>
+<Bitmap_Resource>
+<label>fetafruc</label>
+<path>../../../../../Desktop/Michael/Pager/Menu Screens VGDD/Pictures/Salads/fetafruc.bmp</path>
+<compression>None</compression>
+</Bitmap_Resource>
+<Bitmap_Resource>
+<label>friedchi</label>
+<path>../../../../../Desktop/Michael/Pager/Menu Screens VGDD/Pictures/Salads/friedchi.bmp</path>
+<compression>None</compression>
+</Bitmap_Resource>
+<Bitmap_Resource>
+<label>hamsalad</label>
+<path>../../../../../Desktop/Michael/Pager/Menu Screens VGDD/Pictures/Salads/hamsalad.bmp</path>
+<compression>None</compression>
+</Bitmap_Resource>
+<Bitmap_Resource>
+<label>lemonshr</label>
+<path>../../../../../Desktop/Michael/Pager/Menu Screens VGDD/Pictures/Salads/lemonshr.bmp</path>
+<compression>None</compression>
+</Bitmap_Resource>
+<Bitmap_Resource>
+<label>spicyveg</label>
+<path>../../../../../Desktop/Michael/Pager/Menu Screens VGDD/Pictures/Salads/spicyveg.bmp</path>
+<compression>None</compression>
+</Bitmap_Resource>
+<Bitmap_Resource>
+<label>steaksal</label>
+<path>../../../../../Desktop/Michael/Pager/Menu Screens VGDD/Pictures/Salads/steaksal.bmp</path>
+<compression>None</compression>
+</Bitmap_Resource>
+<Bitmap_Resource>
+<label>tacosald</label>
+<path>../../../../../Desktop/Michael/Pager/Menu Screens VGDD/Pictures/Salads/tacosald.bmp</path>
+<compression>None</compression>
+</Bitmap_Resource>
+<Bitmap_Resource>
+<label>BlackTil</label>
+<path>../../../../../Desktop/Michael/Pager/Menu Screens VGDD/Pictures/Sandwiches/BlackTil.bmp</path>
+<compression>None</compression>
+</Bitmap_Resource>
+<Bitmap_Resource>
+<label>Gardensw</label>
+<path>../../../../../Desktop/Michael/Pager/Menu Screens VGDD/Pictures/Sandwiches/Gardensw.bmp</path>
+<compression>None</compression>
+</Bitmap_Resource>
+<Bitmap_Resource>
+<label>GrillChe</label>
+<path>../../../../../Desktop/Michael/Pager/Menu Screens VGDD/Pictures/Sandwiches/GrillChe.bmp</path>
+<compression>None</compression>
+</Bitmap_Resource>
+<Bitmap_Resource>
+<label>Reuben</label>
+<path>../../../../../Desktop/Michael/Pager/Menu Screens VGDD/Pictures/Sandwiches/Reuben.bmp</path>
+<compression>None</compression>
+</Bitmap_Resource>
+<Bitmap_Resource>
+<label>TurkeyCl</label>
+<path>../../../../../Desktop/Michael/Pager/Menu Screens VGDD/Pictures/Sandwiches/TurkeyCl.bmp</path>
+<compression>None</compression>
+</Bitmap_Resource>
+<Bitmap_Resource>
+<label>buffaloc</label>
+<path>../../../../../Desktop/Michael/Pager/Menu Screens VGDD/Pictures/Sandwiches/buffaloc.bmp</path>
+<compression>None</compression>
+</Bitmap_Resource>
+<Bitmap_Resource>
+<label>cajunChi</label>
+<path>../../../../../Desktop/Michael/Pager/Menu Screens VGDD/Pictures/Sandwiches/cajunChi.bmp</path>
+<compression>None</compression>
+</Bitmap_Resource>
+<Bitmap_Resource>
+<label>corndog</label>
+<path>../../../../../Desktop/Michael/Pager/Menu Screens VGDD/Pictures/Sandwiches/corndog.bmp</path>
+<compression>None</compression>
+</Bitmap_Resource>
+<Bitmap_Resource>
+<label>friedsta</label>
+<path>../../../../../Desktop/Michael/Pager/Menu Screens VGDD/Pictures/Sandwiches/friedsta.bmp</path>
+<compression>None</compression>
+</Bitmap_Resource>
+<Bitmap_Resource>
+<label>grillChi</label>
+<path>../../../../../Desktop/Michael/Pager/Menu Screens VGDD/Pictures/Sandwiches/grillChi.bmp</path>
+<compression>None</compression>
+</Bitmap_Resource>
+<Bitmap_Resource>
+<label>grilledS</label>
+<path>../../../../../Desktop/Michael/Pager/Menu Screens VGDD/Pictures/Sandwiches/grilledS.bmp</path>
+<compression>None</compression>
+</Bitmap_Resource>
+<Bitmap_Resource>
+<label>smothere</label>
+<path>../../../../../Desktop/Michael/Pager/Menu Screens VGDD/Pictures/Sandwiches/smothere.bmp</path>
+<compression>None</compression>
+</Bitmap_Resource>
+<Bitmap_Resource>
+<label>steakwra</label>
+<path>../../../../../Desktop/Michael/Pager/Menu Screens VGDD/Pictures/Sandwiches/steakwra.bmp</path>
+<compression>None</compression>
+</Bitmap_Resource>
+<Bitmap_Resource>
+<label>veggieRe</label>
+<path>../../../../../Desktop/Michael/Pager/Menu Screens VGDD/Pictures/Sandwiches/veggieRe.bmp</path>
+<compression>None</compression>
+</Bitmap_Resource>
+<Bitmap_Resource>
+<label>veggiemu</label>
+<path>../../../../../Desktop/Michael/Pager/Menu Screens VGDD/Pictures/Sandwiches/veggiemu.bmp</path>
+<compression>None</compression>
+</Bitmap_Resource>
+<Bitmap_Resource>
+<label>BBroccol</label>
+<path>../../../../../Desktop/Michael/Pager/Menu Screens VGDD/Pictures/Sides/BBroccol.bmp</path>
+<compression>None</compression>
+</Bitmap_Resource>
+<Bitmap_Resource>
+<label>Baked</label>
+<path>../../../../../Desktop/Michael/Pager/Menu Screens VGDD/Pictures/Sides/Baked.bmp</path>
+<compression>None</compression>
+</Bitmap_Resource>
+<Bitmap_Resource>
+<label>Coleslaw</label>
+<path>../../../../../Desktop/Michael/Pager/Menu Screens VGDD/Pictures/Sides/Coleslaw.bmp</path>
+<compression>None</compression>
+</Bitmap_Resource>
+<Bitmap_Resource>
+<label>Fries</label>
+<path>../../../../../Desktop/Michael/Pager/Menu Screens VGDD/Pictures/Sides/Fries.bmp</path>
+<compression>None</compression>
+</Bitmap_Resource>
+<Bitmap_Resource>
+<label>fruit</label>
+<path>../../../../../Desktop/Michael/Pager/Menu Screens VGDD/Pictures/Sides/fruit.bmp</path>
+<compression>None</compression>
+</Bitmap_Resource>
+<Bitmap_Resource>
+<label>mashed</label>
+<path>../../../../../Desktop/Michael/Pager/Menu Screens VGDD/Pictures/Sides/mashed.bmp</path>
+<compression>None</compression>
+</Bitmap_Resource>
+<Bitmap_Resource>
+<label>onion</label>
+<path>../../../../../Desktop/Michael/Pager/Menu Screens VGDD/Pictures/Sides/onion.bmp</path>
+<compression>None</compression>
+</Bitmap_Resource>
+<Bitmap_Resource>
+<label>ChickenS</label>
+<path>../../../../../Desktop/Michael/Pager/Menu Screens VGDD/Pictures/Soups/ChickenS.bmp</path>
+<compression>None</compression>
+</Bitmap_Resource>
+<Bitmap_Resource>
+<label>Fishsoup</label>
+<path>../../../../../Desktop/Michael/Pager/Menu Screens VGDD/Pictures/Soups/Fishsoup.bmp</path>
+<compression>None</compression>
+</Bitmap_Resource>
+<Bitmap_Resource>
+<label>HamandBe</label>
+<path>../../../../../Desktop/Michael/Pager/Menu Screens VGDD/Pictures/Soups/HamandBe.bmp</path>
+<compression>None</compression>
+</Bitmap_Resource>
+<Bitmap_Resource>
+<label>ItalianS</label>
+<path>../../../../../Desktop/Michael/Pager/Menu Screens VGDD/Pictures/Soups/ItalianS.bmp</path>
+<compression>None</compression>
+</Bitmap_Resource>
+<Bitmap_Resource>
+<label>broccoli</label>
+<path>../../../../../Desktop/Michael/Pager/Menu Screens VGDD/Pictures/Soups/broccoli.bmp</path>
+<compression>None</compression>
+</Bitmap_Resource>
+<Bitmap_Resource>
+<label>gumbol</label>
+<path>../../../../../Desktop/Michael/Pager/Menu Screens VGDD/Pictures/Soups/gumbol.bmp</path>
+<compression>None</compression>
+</Bitmap_Resource>
+<Bitmap_Resource>
+<label>jambalay</label>
+<path>../../../../../Desktop/Michael/Pager/Menu Screens VGDD/Pictures/Soups/jambalay.bmp</path>
+<compression>None</compression>
+</Bitmap_Resource>
+<Bitmap_Resource>
+<label>misomush</label>
+<path>../../../../../Desktop/Michael/Pager/Menu Screens VGDD/Pictures/Soups/misomush.bmp</path>
+<compression>None</compression>
+</Bitmap_Resource>
+<Bitmap_Resource>
+<label>spicyVeg</label>
+<path>../../../../../Desktop/Michael/Pager/Menu Screens VGDD/Pictures/Soups/spicyVeg.bmp</path>
+<compression>None</compression>
+</Bitmap_Resource>
+<Bitmap_Resource>
+<label>tomatoSp</label>
+<path>../../../../../Desktop/Michael/Pager/Menu Screens VGDD/Pictures/Soups/tomatoSp.bmp</path>
+<compression>None</compression>
+</Bitmap_Resource>
+<Bitmap_Resource>
+<label>endofuni</label>
+<path>../../../../../Desktop/Michael/Pager/Menu Screens VGDD/Pictures/Title/endofuni.bmp</path>
+<compression>None</compression>
+</Bitmap_Resource>
+</Bitmaps>
+</Graphics_Resource_Converter>

@@ -505,6 +505,215 @@ const XCHAR SaladBaconator_Button3_Text[] = "Main Menu"; // Main Menu
 const XCHAR SaladBaconator_Button4_Text[] = "Salads"; // Salads
 const XCHAR SaladBaconator_Button5_Text[] = "<"; // <
 const XCHAR SaladBaconator_Button6_Text[] = ">"; // >
+const XCHAR DessApple_Window1_Text[] = "Desserts: Apple Pie"; // Desserts: Apple Pie
+XCHAR DessApple_EditBox1_Text[251] = "Warm apple pie with a scoop of ice\n cream. -$2.99"; // Warm apple pie with a scoop of ice\n cream. -$2.99
+const XCHAR DessApple_Button8_Text[] = "Food Menu"; // Food Menu
+const XCHAR DessApple_Button3_Text[] = "Main Menu"; // Main Menu
+const XCHAR DessApple_Button4_Text[] = "Desserts"; // Desserts
+const XCHAR DessApple_Button5_Text[] = "<"; // <
+const XCHAR DessApple_Button6_Text[] = ">"; // >
+const XCHAR DessertsList_Window1_Text[] = "Desserts Menu"; // Desserts Menu
+const XCHAR DessertsList_Button1_Text[] = "Sundae"; // Sundae
+const XCHAR DessertsList_Button2_Text[] = "Brownie"; // Brownie
+const XCHAR DessertsList_Button3_Text[] = "Chocolate Mousse"; // Chocolate Mousse
+const XCHAR DessertsList_Button5_Text[] = "Blueberry Pie"; // Blueberry Pie
+const XCHAR DessertsList_Button7_Text[] = "Red Velvet "; // Red Velvet 
+const XCHAR DessertsList_Button8_Text[] = "Main Menu"; // Main Menu
+const XCHAR DessertsList_Button9_Text[] = "Apple Pie"; // Apple Pie
+const XCHAR DessertsList_Button10_Text[] = "Peanut Butter "; // Peanut Butter 
+const XCHAR DessertsList_Button11_Text[] = "Strawberry"; // Strawberry
+const XCHAR DessertsList_Button12_Text[] = "Food Menu"; // Food Menu
+const XCHAR DessBlue_Window1_Text[] = "Desserts: Blueberry Pie"; // Desserts: Blueberry Pie
+XCHAR DessBlue_EditBox1_Text[251] = "Cheesecake with juicy blueberries! \nWhip cream, just ask! -$2.99"; // Cheesecake with juicy blueberries! \nWhip cream, just ask! -$2.99
+const XCHAR DessBlue_Button8_Text[] = "Food Menu"; // Food Menu
+const XCHAR DessBlue_Button3_Text[] = "Main Menu"; // Main Menu
+const XCHAR DessBlue_Button4_Text[] = "Desserts"; // Desserts
+const XCHAR DessBlue_Button5_Text[] = "<"; // <
+const XCHAR DessBlue_Button6_Text[] = ">"; // >
+const XCHAR DessBrownie_Window1_Text[] = "Desserts: Brownie"; // Desserts: Brownie
+XCHAR DessBrownie_EditBox1_Text[251] = "Warm brownie with whip cream \nand choice of chocolate or \nvanilla ice cream!! -$2.99"; // Warm brownie with whip cream \nand choice of chocolate or \nvanilla ice cream!! -$2.99
+const XCHAR DessBrownie_Button8_Text[] = "Food Menu"; // Food Menu
+const XCHAR DessBrownie_Button3_Text[] = "Main Menu"; // Main Menu
+const XCHAR DessBrownie_Button4_Text[] = "Desserts"; // Desserts
+const XCHAR DessBrownie_Button5_Text[] = "<"; // <
+const XCHAR DessBrownie_Button6_Text[] = ">"; // >
+const XCHAR DessMousse_Window1_Text[] = "Desserts: Mousse Cake"; // Desserts: Mousse Cake
+XCHAR DessMousse_EditBox1_Text[251] = "Rich, moist chocolate mousse \ncake! -$2.99"; // Rich, moist chocolate mousse \ncake! -$2.99
+const XCHAR DessMousse_Button8_Text[] = "Food Menu"; // Food Menu
+const XCHAR DessMousse_Button3_Text[] = "Main Menu"; // Main Menu
+const XCHAR DessMousse_Button4_Text[] = "Desserts"; // Desserts
+const XCHAR DessMousse_Button5_Text[] = "<"; // <
+const XCHAR DessMousse_Button6_Text[] = ">"; // >
+const XCHAR DessPeanut_Window1_Text[] = "Desserts: Peanut Butter Cupcake"; // Desserts: Peanut Butter Cupcake
+XCHAR DessPeanut_EditBox1_Text[251] = "Rich chocolate cupcake with \npeanut butter whipping. \nDelicious!!!-$1.99"; // Rich chocolate cupcake with \npeanut butter whipping. \nDelicious!!!-$1.99
+const XCHAR DessPeanut_Button8_Text[] = "Food Menu"; // Food Menu
+const XCHAR DessPeanut_Button3_Text[] = "Main Menu"; // Main Menu
+const XCHAR DessPeanut_Button4_Text[] = "Desserts"; // Desserts
+const XCHAR DessPeanut_Button5_Text[] = "<"; // <
+const XCHAR DessPeanut_Button6_Text[] = ">"; // >
+const XCHAR DessRedVel_Window1_Text[] = "Desserts: Red Velvet"; // Desserts: Red Velvet
+XCHAR DessRedVel_EditBox1_Text[251] = "Rich red velvet with a cream layer.\n-$1.99"; // Rich red velvet with a cream layer.\n-$1.99
+const XCHAR DessRedVel_Button8_Text[] = "Food Menu"; // Food Menu
+const XCHAR DessRedVel_Button3_Text[] = "Main Menu"; // Main Menu
+const XCHAR DessRedVel_Button4_Text[] = "Desserts"; // Desserts
+const XCHAR DessRedVel_Button5_Text[] = "<"; // <
+const XCHAR DessRedVel_Button6_Text[] = ">"; // >
+const XCHAR DessStraw_Window1_Text[] = "Desserts: Strawberry Delight"; // Desserts: Strawberry Delight
+XCHAR DessStraw_EditBox1_Text[251] = "Strawberries with whip cream,\n a healthy choice! $1.99"; // Strawberries with whip cream,\n a healthy choice! $1.99
+const XCHAR DessStraw_Button8_Text[] = "Food Menu"; // Food Menu
+const XCHAR DessStraw_Button3_Text[] = "Main Menu"; // Main Menu
+const XCHAR DessStraw_Button4_Text[] = "Desserts"; // Desserts
+const XCHAR DessStraw_Button5_Text[] = "<"; // <
+const XCHAR DessStraw_Button6_Text[] = ">"; // >
+const XCHAR DessSundae_Window1_Text[] = "Desserts: Sundae"; // Desserts: Sundae
+XCHAR DessSundae_EditBox1_Text[251] = "Bananna, strawberries, whip cream \nand ice cream! Delicious!! -$2.99"; // Bananna, strawberries, whip cream \nand ice cream! Delicious!! -$2.99
+const XCHAR DessSundae_Button8_Text[] = "Food Menu"; // Food Menu
+const XCHAR DessSundae_Button3_Text[] = "Main Menu"; // Main Menu
+const XCHAR DessSundae_Button4_Text[] = "Desserts"; // Desserts
+const XCHAR DessSundae_Button5_Text[] = "<"; // <
+const XCHAR DessSundae_Button6_Text[] = ">"; // >
+const XCHAR DinCornBeef_Window1_Text[] = "Dinners: Corn Beef and Cabbage"; // Dinners: Corn Beef and Cabbage
+XCHAR DinCornBeef_EditBox1_Text[251] = "Corn beef with red skin potatoes, \ncarrots, celery and a wedge of \ncabbage. -$7.99"; // Corn beef with red skin potatoes, \ncarrots, celery and a wedge of \ncabbage. -$7.99
+const XCHAR DinCornBeef_Button8_Text[] = "Food Menu"; // Food Menu
+const XCHAR DinCornBeef_Button3_Text[] = "Main Menu"; // Main Menu
+const XCHAR DinCornBeef_Button4_Text[] = "Dinners"; // Dinners
+const XCHAR DinCornBeef_Button5_Text[] = "<"; // <
+const XCHAR DinCornBeef_Button6_Text[] = ">"; // >
+const XCHAR DinnerList_Window1_Text[] = "Dinner Menu"; // Dinner Menu
+const XCHAR DinnerList_Button1_Text[] = "Quesadilla"; // Quesadilla
+const XCHAR DinnerList_Button2_Text[] = "Margherita Pizza"; // Margherita Pizza
+const XCHAR DinnerList_Button3_Text[] = "Grilled Chicken"; // Grilled Chicken
+const XCHAR DinnerList_Button4_Text[] = "Steak & Potato"; // Steak & Potato
+const XCHAR DinnerList_Button5_Text[] = "Fried Chicken"; // Fried Chicken
+const XCHAR DinnerList_Button6_Text[] = "Spaghetti"; // Spaghetti
+const XCHAR DinnerList_Button7_Text[] = "Lasagna"; // Lasagna
+const XCHAR DinnerList_Button8_Text[] = "Main Menu"; // Main Menu
+const XCHAR DinnerList_Button9_Text[] = "Tilapia"; // Tilapia
+const XCHAR DinnerList_Button10_Text[] = "Corn beef"; // Corn beef
+const XCHAR DinnerList_Button11_Text[] = "Vegetable Pizza"; // Vegetable Pizza
+const XCHAR DinnerList_Button12_Text[] = "Food Menu"; // Food Menu
+const XCHAR DinFriedChiken_Window1_Text[] = "Dinners: Fried Chicken with Broccoli"; // Dinners: Fried Chicken with Broccoli
+XCHAR DinFriedChiken_EditBox1_Text[251] = "Two fried chicken patties topped\nwith a broccoli sauce and fresh\nbroccoli. -$7.99"; // Two fried chicken patties topped\nwith a broccoli sauce and fresh\nbroccoli. -$7.99
+const XCHAR DinFriedChiken_Button8_Text[] = "Food Menu"; // Food Menu
+const XCHAR DinFriedChiken_Button3_Text[] = "Main Menu"; // Main Menu
+const XCHAR DinFriedChiken_Button4_Text[] = "Dinners"; // Dinners
+const XCHAR DinFriedChiken_Button5_Text[] = "<"; // <
+const XCHAR DinFriedChiken_Button6_Text[] = ">"; // >
+const XCHAR DinGrilledChicken_Window1_Text[] = "Dinners: Grilled Chicken with Broccoli"; // Dinners: Grilled Chicken with Broccoli
+XCHAR DinGrilledChicken_EditBox1_Text[251] = "Two grilled chicken patties topped\nwith a broccoli sauce and fresh\nbroccoli. -$7.99"; // Two grilled chicken patties topped\nwith a broccoli sauce and fresh\nbroccoli. -$7.99
+const XCHAR DinGrilledChicken_Button8_Text[] = "Food Menu"; // Food Menu
+const XCHAR DinGrilledChicken_Button3_Text[] = "Main Menu"; // Main Menu
+const XCHAR DinGrilledChicken_Button4_Text[] = "Dinners"; // Dinners
+const XCHAR DinGrilledChicken_Button5_Text[] = "<"; // <
+const XCHAR DinGrilledChicken_Button6_Text[] = ">"; // >
+const XCHAR DinLasagna_Window1_Text[] = "Dinners: Lasagna"; // Dinners: Lasagna
+XCHAR DinLasagna_EditBox1_Text[251] = "Layered lasagna, fresh ricotta \ncheese, and spinach.... \nItalian at its best!! -$6.99"; // Layered lasagna, fresh ricotta \ncheese, and spinach.... \nItalian at its best!! -$6.99
+const XCHAR DinLasagna_Button8_Text[] = "Food Menu"; // Food Menu
+const XCHAR DinLasagna_Button3_Text[] = "Main Menu"; // Main Menu
+const XCHAR DinLasagna_Button4_Text[] = "Dinners"; // Dinners
+const XCHAR DinLasagna_Button5_Text[] = "<"; // <
+const XCHAR DinLasagna_Button6_Text[] = ">"; // >
+const XCHAR DinMarPizza_Window1_Text[] = "Dinners: Margherita Pizza"; // Dinners: Margherita Pizza
+XCHAR DinMarPizza_EditBox1_Text[251] = "A pizza big enough for two or\nmaybe just you! Fresh and\ndelicious! -$8.49"; // A pizza big enough for two or\nmaybe just you! Fresh and\ndelicious! -$8.49
+const XCHAR DinMarPizza_Button8_Text[] = "Food Menu"; // Food Menu
+const XCHAR DinMarPizza_Button3_Text[] = "Main Menu"; // Main Menu
+const XCHAR DinMarPizza_Button4_Text[] = "Dinners"; // Dinners
+const XCHAR DinMarPizza_Button5_Text[] = "<"; // <
+const XCHAR DinMarPizza_Button6_Text[] = ">"; // >
+const XCHAR DinQuesadilla_Window1_Text[] = "Dinners: Quesadilla"; // Dinners: Quesadilla
+XCHAR DinQuesadilla_EditBox1_Text[251] = "Fried chicken tenders thrown\nin buffalo sauce, pepper jack\ncheese with tomato and lettuce\non the side. -$7.99"; // Fried chicken tenders thrown\nin buffalo sauce, pepper jack\ncheese with tomato and lettuce\non the side. -$7.99
+const XCHAR DinQuesadilla_Button8_Text[] = "Food Menu"; // Food Menu
+const XCHAR DinQuesadilla_Button3_Text[] = "Main Menu"; // Main Menu
+const XCHAR DinQuesadilla_Button4_Text[] = "Dinners"; // Dinners
+const XCHAR DinQuesadilla_Button5_Text[] = "<"; // <
+const XCHAR DinQuesadilla_Button6_Text[] = ">"; // >
+const XCHAR DinSpaghetti_Window1_Text[] = "Dinners: Spaghetti and Meatballs"; // Dinners: Spaghetti and Meatballs
+XCHAR DinSpaghetti_EditBox1_Text[251] = "Al dente spaghetti, with a perfect\nblend of spices and three large\nmeatballs! -$7.99"; // Al dente spaghetti, with a perfect\nblend of spices and three large\nmeatballs! -$7.99
+const XCHAR DinSpaghetti_Button8_Text[] = "Food Menu"; // Food Menu
+const XCHAR DinSpaghetti_Button3_Text[] = "Main Menu"; // Main Menu
+const XCHAR DinSpaghetti_Button4_Text[] = "Dinners"; // Dinners
+const XCHAR DinSpaghetti_Button5_Text[] = "<"; // <
+const XCHAR DinSpaghetti_Button6_Text[] = ">"; // >
+const XCHAR DinSteak_Window1_Text[] = "Dinners: Steak with Potato"; // Dinners: Steak with Potato
+XCHAR DinSteak_EditBox1_Text[251] = "Steak done to your preference,\nwith a side of baked, mashed \nor fires. -$8.99"; // Steak done to your preference,\nwith a side of baked, mashed \nor fires. -$8.99
+const XCHAR DinSteak_Button8_Text[] = "Food Menu"; // Food Menu
+const XCHAR DinSteak_Button3_Text[] = "Main Menu"; // Main Menu
+const XCHAR DinSteak_Button4_Text[] = "Dinners"; // Dinners
+const XCHAR DinSteak_Button5_Text[] = "<"; // <
+const XCHAR DinSteak_Button6_Text[] = ">"; // >
+const XCHAR DinTilapia_Window1_Text[] = "Dinners: Tilapia with Cajun Rice"; // Dinners: Tilapia with Cajun Rice
+XCHAR DinTilapia_EditBox1_Text[251] = "Two fillets, blackened tilapia with\na spicy side of cajun rice. -$9.99"; // Two fillets, blackened tilapia with\na spicy side of cajun rice. -$9.99
+const XCHAR DinTilapia_Button8_Text[] = "Food Menu"; // Food Menu
+const XCHAR DinTilapia_Button3_Text[] = "Main Menu"; // Main Menu
+const XCHAR DinTilapia_Button4_Text[] = "Dinners"; // Dinners
+const XCHAR DinTilapia_Button5_Text[] = "<"; // <
+const XCHAR DinTilapia_Button6_Text[] = ">"; // >
+const XCHAR DinVegPizza_Window1_Text[] = "Dinners: Vegetable Pizza"; // Dinners: Vegetable Pizza
+XCHAR DinVegPizza_EditBox1_Text[251] = "Onions, tomato, green peppers, \nblack olives, banana peppers \nand mushrooms!-$7.99"; // Onions, tomato, green peppers, \nblack olives, banana peppers \nand mushrooms!-$7.99
+const XCHAR DinVegPizza_Button8_Text[] = "Food Menu"; // Food Menu
+const XCHAR DinVegPizza_Button3_Text[] = "Main Menu"; // Main Menu
+const XCHAR DinVegPizza_Button4_Text[] = "Dinners"; // Dinners
+const XCHAR DinVegPizza_Button5_Text[] = "<"; // <
+const XCHAR DinVegPizza_Button6_Text[] = ">"; // >
+const XCHAR SidesList_Window1_Text[] = "Sides Menu"; // Sides Menu
+const XCHAR SidesList_Button1_Text[] = "Fries"; // Fries
+const XCHAR SidesList_Button3_Text[] = "Baked Potato"; // Baked Potato
+const XCHAR SidesList_Button5_Text[] = "Mashed Potato"; // Mashed Potato
+const XCHAR SidesList_Button6_Text[] = "Broccoli"; // Broccoli
+const XCHAR SidesList_Button7_Text[] = "Creamy Coleslaw"; // Creamy Coleslaw
+const XCHAR SidesList_Button8_Text[] = "Main Menu"; // Main Menu
+const XCHAR SidesList_Button9_Text[] = "O'Rings"; // O'Rings
+const XCHAR SidesList_Button10_Text[] = "Fruit"; // Fruit
+const XCHAR SidesList_Button12_Text[] = "Food Menu"; // Food Menu
+const XCHAR SidesBakedPot_Window1_Text[] = "Sides: Baked Potato"; // Sides: Baked Potato
+XCHAR SidesBakedPot_EditBox1_Text[251] = "Baked potato with choice of butter, \nsour cream, bacon and cheese.\n-$1.99"; // Baked potato with choice of butter, \nsour cream, bacon and cheese.\n-$1.99
+const XCHAR SidesBakedPot_Button8_Text[] = "Food Menu"; // Food Menu
+const XCHAR SidesBakedPot_Button3_Text[] = "Main Menu"; // Main Menu
+const XCHAR SidesBakedPot_Button4_Text[] = "Sides"; // Sides
+const XCHAR SidesBakedPot_Button5_Text[] = "<"; // <
+const XCHAR SidesBakedPot_Button6_Text[] = ">"; // >
+const XCHAR SidesBroccoli_Window1_Text[] = "Sides: Broccoli"; // Sides: Broccoli
+XCHAR SidesBroccoli_EditBox1_Text[251] = "Fresh steamed broccoli with\n or without butter. -$1.99"; // Fresh steamed broccoli with\n or without butter. -$1.99
+const XCHAR SidesBroccoli_Button8_Text[] = "Food Menu"; // Food Menu
+const XCHAR SidesBroccoli_Button3_Text[] = "Main Menu"; // Main Menu
+const XCHAR SidesBroccoli_Button4_Text[] = "Sides"; // Sides
+const XCHAR SidesBroccoli_Button5_Text[] = "<"; // <
+const XCHAR SidesBroccoli_Button6_Text[] = ">"; // >
+const XCHAR SidesFries_Window1_Text[] = "Sides: Fries"; // Sides: Fries
+XCHAR SidesFries_EditBox1_Text[251] = "Try a basket of our crispy fries, \nligtly salted! -$1.99"; // Try a basket of our crispy fries, \nligtly salted! -$1.99
+const XCHAR SidesFries_Button8_Text[] = "Food Menu"; // Food Menu
+const XCHAR SidesFries_Button3_Text[] = "Main Menu"; // Main Menu
+const XCHAR SidesFries_Button4_Text[] = "Sides"; // Sides
+const XCHAR SidesFries_Button5_Text[] = "<"; // <
+const XCHAR SidesFries_Button6_Text[] = ">"; // >
+const XCHAR SidesFruit_Window1_Text[] = "Sides: Fruit"; // Sides: Fruit
+XCHAR SidesFruit_EditBox1_Text[251] = "Strawberries, pineapple, grapes,\ncantaloupe and honey dew.-$1.99"; // Strawberries, pineapple, grapes,\ncantaloupe and honey dew.-$1.99
+const XCHAR SidesFruit_Button8_Text[] = "Food Menu"; // Food Menu
+const XCHAR SidesFruit_Button3_Text[] = "Main Menu"; // Main Menu
+const XCHAR SidesFruit_Button4_Text[] = "Sides"; // Sides
+const XCHAR SidesFruit_Button5_Text[] = "<"; // <
+const XCHAR SidesFruit_Button6_Text[] = ">"; // >
+const XCHAR SidesMashed_Window1_Text[] = "Sides: Mashed Potato"; // Sides: Mashed Potato
+XCHAR SidesMashed_EditBox1_Text[251] = "Thick homemade mashed potatoes,\nwith or without butter. \nGravy-just ask! -$1.99"; // Thick homemade mashed potatoes,\nwith or without butter. \nGravy-just ask! -$1.99
+const XCHAR SidesMashed_Button8_Text[] = "Food Menu"; // Food Menu
+const XCHAR SidesMashed_Button3_Text[] = "Main Menu"; // Main Menu
+const XCHAR SidesMashed_Button4_Text[] = "Sides"; // Sides
+const XCHAR SidesMashed_Button5_Text[] = "<"; // <
+const XCHAR SidesMashed_Button6_Text[] = ">"; // >
+const XCHAR SidesORings_Window1_Text[] = "Sides: O'Rings"; // Sides: O'Rings
+XCHAR SidesORings_EditBox1_Text[251] = "Thick beer battered O'Rings,\nenough to share! -$1.99"; // Thick beer battered O'Rings,\nenough to share! -$1.99
+const XCHAR SidesORings_Button8_Text[] = "Food Menu"; // Food Menu
+const XCHAR SidesORings_Button3_Text[] = "Main Menu"; // Main Menu
+const XCHAR SidesORings_Button4_Text[] = "Sides"; // Sides
+const XCHAR SidesORings_Button5_Text[] = "<"; // <
+const XCHAR SidesORings_Button6_Text[] = ">"; // >
+const XCHAR SidesSlaw_Window1_Text[] = "Sides: Creamy Coleslaw "; // Sides: Creamy Coleslaw 
+XCHAR SidesSlaw_EditBox1_Text[251] = "Shredded cabbage with plenty of\ncarrots and onions. -$1.99"; // Shredded cabbage with plenty of\ncarrots and onions. -$1.99
+const XCHAR SidesSlaw_Button8_Text[] = "Food Menu"; // Food Menu
+const XCHAR SidesSlaw_Button3_Text[] = "Main Menu"; // Main Menu
+const XCHAR SidesSlaw_Button4_Text[] = "Sides"; // Sides
+const XCHAR SidesSlaw_Button5_Text[] = "<"; // <
+const XCHAR SidesSlaw_Button6_Text[] = ">"; // >
 
     void CreateScheme_ButtonTx(void) {
     if(GOLScheme_ButtonTx != NULL) free(GOLScheme_ButtonTx);
@@ -573,14 +782,14 @@ const XCHAR SaladBaconator_Button6_Text[] = ">"; // >
     CreateScheme_WinSch();
     CreateScheme_DescText();
     CreateScheme_MainName();
-//PICTURE *pMainMenu_Picture1;
-//    pMainMenu_Picture1 = PictCreate(ID_MainMenu_Picture1,90,5,478,269,PICT_DRAW,1,(void *)&bmpendofuni,GOLScheme_ButtonTx);
+PICTURE *pMainMenu_Picture1;
+    pMainMenu_Picture1 = PictCreate(ID_MainMenu_Picture1,90,5,478,269,PICT_DRAW,1,(void *)&endofuni,GOLScheme_ButtonTx);
 BUTTON *pMainMenu_Button1;
     pMainMenu_Button1 = BtnCreate(ID_MainMenu_Button1,189,221,287,258,1,BTN_DRAW,NULL,(XCHAR*)MainMenu_Button1_Text,GOLScheme_ButtonTx);
 BUTTON *pMainMenu_Button2;
     pMainMenu_Button2 = BtnCreate(ID_MainMenu_Button2,85,221,183,258,1,BTN_DRAW,NULL,(XCHAR*)MainMenu_Button2_Text,GOLScheme_ButtonTx);
 EDITBOX *pMainMenu_EditBox1;
-    pMainMenu_EditBox1 = EbCreate(ID_MainMenu_EditBox1,124,100,350,182,EB_DRAW,(XCHAR*)MainMenu_EditBox1_Text,250,GOLScheme_DescText);
+    pMainMenu_EditBox1 = EbCreate(ID_MainMenu_EditBox1,118,100,352,182,EB_DRAW,(XCHAR*)MainMenu_EditBox1_Text,250,GOLScheme_DescText);
 BUTTON *pMainMenu_Button3;
     pMainMenu_Button3 = BtnCreate(ID_MainMenu_Button3,297,221,395,258,1,BTN_DRAW,NULL,(XCHAR*)MainMenu_Button3_Text,GOLScheme_ButtonTx);
 STATICTEXT *pMainMenu_StaticText1;
@@ -719,8 +928,8 @@ BUTTON *pSoupList_Button12;
     CreateScheme_MainName();
 WINDOW *pSoupChickenNoodle_Window1;
     pSoupChickenNoodle_Window1 = WndCreate(ID_SoupChickenNoodle_Window1,0,0,480,42,WND_DRAW|WND_TITLECENTER,NULL,(XCHAR*)SoupChickenNoodle_Window1_Text,GOLScheme_WinSch);
-//PICTURE *pSoupChickenNoodle_Picture1;
-//   pSoupChickenNoodle_Picture1 = PictCreate(ID_SoupChickenNoodle_Picture1,353,64,463,174,PICT_DRAW,1,(void *)&bmpChickenS,GOLScheme_ButtonTx);
+PICTURE *pSoupChickenNoodle_Picture1;
+    pSoupChickenNoodle_Picture1 = PictCreate(ID_SoupChickenNoodle_Picture1,353,64,463,174,PICT_DRAW,1,(void *)&ChickenS,GOLScheme_ButtonTx);
 EDITBOX *pSoupChickenNoodle_EditBox1;
     pSoupChickenNoodle_EditBox1 = EbCreate(ID_SoupChickenNoodle_EditBox1,17,64,262,194,EB_DRAW,(XCHAR*)SoupChickenNoodle_EditBox1_Text,250,GOLScheme_DescText);
 BUTTON *pSoupChickenNoodle_Button1;
@@ -751,8 +960,8 @@ BUTTON *pSoupChickenNoodle_Button6;
     CreateScheme_MainName();
 WINDOW *pSoupJambalaya_Window1;
     pSoupJambalaya_Window1 = WndCreate(ID_SoupJambalaya_Window1,0,0,480,42,WND_DRAW|WND_TITLECENTER,NULL,(XCHAR*)SoupJambalaya_Window1_Text,GOLScheme_WinSch);
-//PICTURE *pSoupJambalaya_Picture1;
-//    pSoupJambalaya_Picture1 = PictCreate(ID_SoupJambalaya_Picture1,353,64,463,174,PICT_DRAW,1,(void *)&bmpjambalay,GOLScheme_ButtonTx);
+PICTURE *pSoupJambalaya_Picture1;
+    pSoupJambalaya_Picture1 = PictCreate(ID_SoupJambalaya_Picture1,353,64,463,174,PICT_DRAW,1,(void *)&jambalay,GOLScheme_ButtonTx);
 EDITBOX *pSoupJambalaya_EditBox1;
     pSoupJambalaya_EditBox1 = EbCreate(ID_SoupJambalaya_EditBox1,17,64,262,194,EB_DRAW,(XCHAR*)SoupJambalaya_EditBox1_Text,250,GOLScheme_DescText);
 BUTTON *pSoupJambalaya_Button1;
@@ -783,8 +992,8 @@ BUTTON *pSoupJambalaya_Button6;
     CreateScheme_MainName();
 WINDOW *pSoupSpicyVegetable_Window1;
     pSoupSpicyVegetable_Window1 = WndCreate(ID_SoupSpicyVegetable_Window1,0,0,480,42,WND_DRAW|WND_TITLECENTER,NULL,(XCHAR*)SoupSpicyVegetable_Window1_Text,GOLScheme_WinSch);
-//PICTURE *pSoupSpicyVegetable_Picture1;
-//    pSoupSpicyVegetable_Picture1 = PictCreate(ID_SoupSpicyVegetable_Picture1,353,64,463,174,PICT_DRAW,1,(void *)&bmpjambalay,GOLScheme_ButtonTx);
+PICTURE *pSoupSpicyVegetable_Picture1;
+    pSoupSpicyVegetable_Picture1 = PictCreate(ID_SoupSpicyVegetable_Picture1,353,64,463,174,PICT_DRAW,1,(void *)&jambalay,GOLScheme_ButtonTx);
 EDITBOX *pSoupSpicyVegetable_EditBox1;
     pSoupSpicyVegetable_EditBox1 = EbCreate(ID_SoupSpicyVegetable_EditBox1,17,64,262,194,EB_DRAW,(XCHAR*)SoupSpicyVegetable_EditBox1_Text,250,GOLScheme_DescText);
 BUTTON *pSoupSpicyVegetable_Button1;
@@ -815,8 +1024,8 @@ BUTTON *pSoupSpicyVegetable_Button6;
     CreateScheme_MainName();
 WINDOW *pSoupsCheesyBroccoli_Window1;
     pSoupsCheesyBroccoli_Window1 = WndCreate(ID_SoupsCheesyBroccoli_Window1,0,0,480,42,WND_DRAW|WND_TITLECENTER,NULL,(XCHAR*)SoupsCheesyBroccoli_Window1_Text,GOLScheme_WinSch);
-//PICTURE *pSoupsCheesyBroccoli_Picture1;
-//    pSoupsCheesyBroccoli_Picture1 = PictCreate(ID_SoupsCheesyBroccoli_Picture1,353,64,463,174,PICT_DRAW,1,(void *)&bmpbroccoli,GOLScheme_ButtonTx);
+PICTURE *pSoupsCheesyBroccoli_Picture1;
+    pSoupsCheesyBroccoli_Picture1 = PictCreate(ID_SoupsCheesyBroccoli_Picture1,353,64,463,174,PICT_DRAW,1,(void *)&broccoli,GOLScheme_ButtonTx);
 EDITBOX *pSoupsCheesyBroccoli_EditBox1;
     pSoupsCheesyBroccoli_EditBox1 = EbCreate(ID_SoupsCheesyBroccoli_EditBox1,17,64,262,194,EB_DRAW,(XCHAR*)SoupsCheesyBroccoli_EditBox1_Text,250,GOLScheme_DescText);
 BUTTON *pSoupsCheesyBroccoli_Button1;
@@ -847,8 +1056,8 @@ BUTTON *pSoupsCheesyBroccoli_Button6;
     CreateScheme_MainName();
 WINDOW *pSoupCreamyTomato_Window1;
     pSoupCreamyTomato_Window1 = WndCreate(ID_SoupCreamyTomato_Window1,0,0,480,42,WND_DRAW|WND_TITLECENTER,NULL,(XCHAR*)SoupCreamyTomato_Window1_Text,GOLScheme_WinSch);
-//PICTURE *pSoupCreamyTomato_Picture1;
-//    pSoupCreamyTomato_Picture1 = PictCreate(ID_SoupCreamyTomato_Picture1,353,64,463,174,PICT_DRAW,1,(void *)&bmpsteaksal,GOLScheme_ButtonTx);
+PICTURE *pSoupCreamyTomato_Picture1;
+    pSoupCreamyTomato_Picture1 = PictCreate(ID_SoupCreamyTomato_Picture1,353,64,463,174,PICT_DRAW,1,(void *)&steaksal,GOLScheme_ButtonTx);
 EDITBOX *pSoupCreamyTomato_EditBox1;
     pSoupCreamyTomato_EditBox1 = EbCreate(ID_SoupCreamyTomato_EditBox1,17,64,262,194,EB_DRAW,(XCHAR*)SoupCreamyTomato_EditBox1_Text,250,GOLScheme_DescText);
 BUTTON *pSoupCreamyTomato_Button1;
@@ -879,8 +1088,8 @@ BUTTON *pSoupCreamyTomato_Button6;
     CreateScheme_MainName();
 WINDOW *pSoupBean_Window1;
     pSoupBean_Window1 = WndCreate(ID_SoupBean_Window1,0,0,480,42,WND_DRAW|WND_TITLECENTER,NULL,(XCHAR*)SoupBean_Window1_Text,GOLScheme_WinSch);
-//PICTURE *pSoupBean_Picture1;
- //   pSoupBean_Picture1 = PictCreate(ID_SoupBean_Picture1,353,64,463,174,PICT_DRAW,1,(void *)&bmpHamandBe,GOLScheme_ButtonTx);
+PICTURE *pSoupBean_Picture1;
+    pSoupBean_Picture1 = PictCreate(ID_SoupBean_Picture1,353,64,463,174,PICT_DRAW,1,(void *)&HamandBe,GOLScheme_ButtonTx);
 EDITBOX *pSoupBean_EditBox1;
     pSoupBean_EditBox1 = EbCreate(ID_SoupBean_EditBox1,17,64,262,194,EB_DRAW,(XCHAR*)SoupBean_EditBox1_Text,250,GOLScheme_DescText);
 BUTTON *pSoupBean_Button1;
@@ -911,10 +1120,10 @@ BUTTON *pSoupBean_Button6;
     CreateScheme_MainName();
 WINDOW *pSoupItalianWedding_Window1;
     pSoupItalianWedding_Window1 = WndCreate(ID_SoupItalianWedding_Window1,0,0,480,42,WND_DRAW|WND_TITLECENTER,NULL,(XCHAR*)SoupItalianWedding_Window1_Text,GOLScheme_WinSch);
-//PICTURE *pSoupItalianWedding_Picture1;
-//    pSoupItalianWedding_Picture1 = PictCreate(ID_SoupItalianWedding_Picture1,353,64,463,174,PICT_DRAW,1,(void *)&bmpItalianS,GOLScheme_ButtonTx);
+PICTURE *pSoupItalianWedding_Picture1;
+    pSoupItalianWedding_Picture1 = PictCreate(ID_SoupItalianWedding_Picture1,353,64,463,174,PICT_DRAW,1,(void *)&ItalianS,GOLScheme_ButtonTx);
 EDITBOX *pSoupItalianWedding_EditBox1;
-    pSoupItalianWedding_EditBox1 = EbCreate(ID_SoupItalianWedding_EditBox1,17,64,262,194,EB_DRAW,(XCHAR*)SoupItalianWedding_EditBox1_Text,16,GOLScheme_DescText);
+    pSoupItalianWedding_EditBox1 = EbCreate(ID_SoupItalianWedding_EditBox1,17,64,262,194,EB_DRAW,(XCHAR*)SoupItalianWedding_EditBox1_Text,250,GOLScheme_DescText);
 BUTTON *pSoupItalianWedding_Button1;
     pSoupItalianWedding_Button1 = BtnCreate(ID_SoupItalianWedding_Button1,365,183,463,208,1,BTN_DRAW,NULL,(XCHAR*)SoupItalianWedding_Button1_Text,GOLScheme_ButtonTx);
 BUTTON *pSoupItalianWedding_Button8;
@@ -943,8 +1152,8 @@ BUTTON *pSoupItalianWedding_Button6;
     CreateScheme_MainName();
 WINDOW *pGumboSoup_Window1;
     pGumboSoup_Window1 = WndCreate(ID_GumboSoup_Window1,0,0,480,42,WND_DRAW|WND_TITLECENTER,NULL,(XCHAR*)GumboSoup_Window1_Text,GOLScheme_WinSch);
-//PICTURE *pGumboSoup_Picture1;
-//    pGumboSoup_Picture1 = PictCreate(ID_GumboSoup_Picture1,353,64,463,174,PICT_DRAW,1,(void *)&bmpgumbol,GOLScheme_ButtonTx);
+PICTURE *pGumboSoup_Picture1;
+    pGumboSoup_Picture1 = PictCreate(ID_GumboSoup_Picture1,353,64,463,174,PICT_DRAW,1,(void *)&gumbol,GOLScheme_ButtonTx);
 EDITBOX *pGumboSoup_EditBox1;
     pGumboSoup_EditBox1 = EbCreate(ID_GumboSoup_EditBox1,17,64,262,194,EB_DRAW,(XCHAR*)GumboSoup_EditBox1_Text,250,GOLScheme_DescText);
 BUTTON *pGumboSoup_Button1;
@@ -975,8 +1184,8 @@ BUTTON *pGumboSoup_Button6;
     CreateScheme_MainName();
 WINDOW *pSoupFish_Window1;
     pSoupFish_Window1 = WndCreate(ID_SoupFish_Window1,0,0,480,42,WND_DRAW|WND_TITLECENTER,NULL,(XCHAR*)SoupFish_Window1_Text,GOLScheme_WinSch);
-//PICTURE *pSoupFish_Picture1;
-//    pSoupFish_Picture1 = PictCreate(ID_SoupFish_Picture1,353,64,463,174,PICT_DRAW,1,(void *)&bmpFishsoup,GOLScheme_ButtonTx);
+PICTURE *pSoupFish_Picture1;
+    pSoupFish_Picture1 = PictCreate(ID_SoupFish_Picture1,353,64,463,174,PICT_DRAW,1,(void *)&Fishsoup,GOLScheme_ButtonTx);
 EDITBOX *pSoupFish_EditBox1;
     pSoupFish_EditBox1 = EbCreate(ID_SoupFish_EditBox1,17,64,262,194,EB_DRAW,(XCHAR*)SoupFish_EditBox1_Text,250,GOLScheme_DescText);
 BUTTON *pSoupFish_Button1;
@@ -1007,8 +1216,8 @@ BUTTON *pSoupFish_Button6;
     CreateScheme_MainName();
 WINDOW *pSoupCreamyMushroom_Window1;
     pSoupCreamyMushroom_Window1 = WndCreate(ID_SoupCreamyMushroom_Window1,0,0,480,42,WND_DRAW|WND_TITLECENTER,NULL,(XCHAR*)SoupCreamyMushroom_Window1_Text,GOLScheme_WinSch);
-//PICTURE *pSoupCreamyMushroom_Picture1;
-//    pSoupCreamyMushroom_Picture1 = PictCreate(ID_SoupCreamyMushroom_Picture1,353,64,463,174,PICT_DRAW,1,(void *)&bmpmisomush,GOLScheme_ButtonTx);
+PICTURE *pSoupCreamyMushroom_Picture1;
+    pSoupCreamyMushroom_Picture1 = PictCreate(ID_SoupCreamyMushroom_Picture1,353,64,463,174,PICT_DRAW,1,(void *)&misomush,GOLScheme_ButtonTx);
 EDITBOX *pSoupCreamyMushroom_EditBox1;
     pSoupCreamyMushroom_EditBox1 = EbCreate(ID_SoupCreamyMushroom_EditBox1,18,69,263,202,EB_DRAW,(XCHAR*)SoupCreamyMushroom_EditBox1_Text,250,GOLScheme_DescText);
 BUTTON *pSoupCreamyMushroom_Button1;
@@ -1113,8 +1322,8 @@ BUTTON *pSandwichesList2_Button4;
     CreateScheme_MainName();
 WINDOW *pAppetFriedPickles_Window1;
     pAppetFriedPickles_Window1 = WndCreate(ID_AppetFriedPickles_Window1,0,0,480,42,WND_DRAW|WND_TITLECENTER,NULL,(XCHAR*)AppetFriedPickles_Window1_Text,GOLScheme_WinSch);
-//PICTURE *pAppetFriedPickles_Picture1;
- //   pAppetFriedPickles_Picture1 = PictCreate(ID_AppetFriedPickles_Picture1,353,64,463,174,PICT_DRAW,1,(void *)&bmpfriedpic,GOLScheme_ButtonTx);
+PICTURE *pAppetFriedPickles_Picture1;
+    pAppetFriedPickles_Picture1 = PictCreate(ID_AppetFriedPickles_Picture1,353,64,463,174,PICT_DRAW,1,(void *)&friedpic,GOLScheme_ButtonTx);
 EDITBOX *pAppetFriedPickles_EditBox1;
     pAppetFriedPickles_EditBox1 = EbCreate(ID_AppetFriedPickles_EditBox1,17,64,262,194,EB_DRAW,(XCHAR*)AppetFriedPickles_EditBox1_Text,250,GOLScheme_DescText);
 BUTTON *pAppetFriedPickles_Button1;
@@ -1145,8 +1354,8 @@ BUTTON *pAppetFriedPickles_Button6;
     CreateScheme_MainName();
 WINDOW *pAppetCheeseStick_Window1;
     pAppetCheeseStick_Window1 = WndCreate(ID_AppetCheeseStick_Window1,0,0,480,42,WND_DRAW|WND_TITLECENTER,NULL,(XCHAR*)AppetCheeseStick_Window1_Text,GOLScheme_WinSch);
-//PICTURE *pAppetCheeseStick_AppetCheeseSticks;
-//    pAppetCheeseStick_AppetCheeseSticks = PictCreate(ID_AppetCheeseStick_AppetCheeseSticks,353,64,463,174,PICT_DRAW,1,(void *)&bmpcheesest,GOLScheme_ButtonTx);
+PICTURE *pAppetCheeseStick_AppetCheeseSticks;
+    pAppetCheeseStick_AppetCheeseSticks = PictCreate(ID_AppetCheeseStick_AppetCheeseSticks,353,64,463,174,PICT_DRAW,1,(void *)&cheesest,GOLScheme_ButtonTx);
 EDITBOX *pAppetCheeseStick_EditBox1;
     pAppetCheeseStick_EditBox1 = EbCreate(ID_AppetCheeseStick_EditBox1,21,59,266,192,EB_DRAW,(XCHAR*)AppetCheeseStick_EditBox1_Text,250,GOLScheme_DescText);
 BUTTON *pAppetCheeseStick_Button1;
@@ -1177,8 +1386,8 @@ BUTTON *pAppetCheeseStick_Button6;
     CreateScheme_MainName();
 WINDOW *pAppetChiliFrie_Window1;
     pAppetChiliFrie_Window1 = WndCreate(ID_AppetChiliFrie_Window1,0,0,480,42,WND_DRAW|WND_TITLECENTER,NULL,(XCHAR*)AppetChiliFrie_Window1_Text,GOLScheme_WinSch);
-//PICTURE *pAppetChiliFrie_AppetChiliFries;
-//    pAppetChiliFrie_AppetChiliFries = PictCreate(ID_AppetChiliFrie_AppetChiliFries,353,64,463,174,PICT_DRAW,1,(void *)&bmpchiliche,GOLScheme_ButtonTx);
+PICTURE *pAppetChiliFrie_AppetChiliFries;
+    pAppetChiliFrie_AppetChiliFries = PictCreate(ID_AppetChiliFrie_AppetChiliFries,353,64,463,174,PICT_DRAW,1,(void *)&chiliche,GOLScheme_ButtonTx);
 EDITBOX *pAppetChiliFrie_EditBox1;
     pAppetChiliFrie_EditBox1 = EbCreate(ID_AppetChiliFrie_EditBox1,17,64,262,194,EB_DRAW,(XCHAR*)AppetChiliFrie_EditBox1_Text,250,GOLScheme_DescText);
 BUTTON *pAppetChiliFrie_Button1;
@@ -1209,8 +1418,8 @@ BUTTON *pAppetChiliFrie_Button6;
     CreateScheme_MainName();
 WINDOW *pAppetFairFrie_Window1;
     pAppetFairFrie_Window1 = WndCreate(ID_AppetFairFrie_Window1,0,0,480,42,WND_DRAW|WND_TITLECENTER,NULL,(XCHAR*)AppetFairFrie_Window1_Text,GOLScheme_WinSch);
-//PICTURE *pAppetFairFrie_AppetFairFries;
-//    pAppetFairFrie_AppetFairFries = PictCreate(ID_AppetFairFrie_AppetFairFries,353,64,463,174,PICT_DRAW,1,(void *)&bmpfrenchfr,GOLScheme_ButtonTx);
+PICTURE *pAppetFairFrie_AppetFairFries;
+    pAppetFairFrie_AppetFairFries = PictCreate(ID_AppetFairFrie_AppetFairFries,353,64,463,174,PICT_DRAW,1,(void *)&frenchfr,GOLScheme_ButtonTx);
 EDITBOX *pAppetFairFrie_EditBox1;
     pAppetFairFrie_EditBox1 = EbCreate(ID_AppetFairFrie_EditBox1,17,64,262,194,EB_DRAW,(XCHAR*)AppetFairFrie_EditBox1_Text,250,GOLScheme_DescText);
 BUTTON *pAppetFairFrie_Button1;
@@ -1241,8 +1450,8 @@ BUTTON *pAppetFairFrie_Button6;
     CreateScheme_MainName();
 WINDOW *pAppetGarlicFairFries_Window1;
     pAppetGarlicFairFries_Window1 = WndCreate(ID_AppetGarlicFairFries_Window1,0,0,480,42,WND_DRAW|WND_TITLECENTER,NULL,(XCHAR*)AppetGarlicFairFries_Window1_Text,GOLScheme_WinSch);
-//PICTURE *pAppetGarlicFairFries_Picture1;
- //   pAppetGarlicFairFries_Picture1 = PictCreate(ID_AppetGarlicFairFries_Picture1,353,64,463,174,PICT_DRAW,1,(void *)&bmpgarlicfr,GOLScheme_ButtonTx);
+PICTURE *pAppetGarlicFairFries_Picture1;
+    pAppetGarlicFairFries_Picture1 = PictCreate(ID_AppetGarlicFairFries_Picture1,353,64,463,174,PICT_DRAW,1,(void *)&garlicfr,GOLScheme_ButtonTx);
 EDITBOX *pAppetGarlicFairFries_EditBox1;
     pAppetGarlicFairFries_EditBox1 = EbCreate(ID_AppetGarlicFairFries_EditBox1,17,64,262,194,EB_DRAW,(XCHAR*)AppetGarlicFairFries_EditBox1_Text,250,GOLScheme_DescText);
 BUTTON *pAppetGarlicFairFries_Button1;
@@ -1273,8 +1482,8 @@ BUTTON *pAppetGarlicFairFries_Button6;
     CreateScheme_MainName();
 WINDOW *pAppetCarrotFries_Window1;
     pAppetCarrotFries_Window1 = WndCreate(ID_AppetCarrotFries_Window1,0,0,480,42,WND_DRAW|WND_TITLECENTER,NULL,(XCHAR*)AppetCarrotFries_Window1_Text,GOLScheme_WinSch);
-//PICTURE *pAppetCarrotFries_Picture1;
-//    pAppetCarrotFries_Picture1 = PictCreate(ID_AppetCarrotFries_Picture1,353,64,463,174,PICT_DRAW,1,(void *)&bmpcarrotfr,GOLScheme_ButtonTx);
+PICTURE *pAppetCarrotFries_Picture1;
+    pAppetCarrotFries_Picture1 = PictCreate(ID_AppetCarrotFries_Picture1,353,64,463,174,PICT_DRAW,1,(void *)&carrotfr,GOLScheme_ButtonTx);
 EDITBOX *pAppetCarrotFries_EditBox1;
     pAppetCarrotFries_EditBox1 = EbCreate(ID_AppetCarrotFries_EditBox1,17,64,262,194,EB_DRAW,(XCHAR*)AppetCarrotFries_EditBox1_Text,250,GOLScheme_DescText);
 BUTTON *pAppetCarrotFries_Button1;
@@ -1305,8 +1514,8 @@ BUTTON *pAppetCarrotFries_Button6;
     CreateScheme_MainName();
 WINDOW *pAppetFriedGreenBeans_Window1;
     pAppetFriedGreenBeans_Window1 = WndCreate(ID_AppetFriedGreenBeans_Window1,0,0,480,42,WND_DRAW|WND_TITLECENTER,NULL,(XCHAR*)AppetFriedGreenBeans_Window1_Text,GOLScheme_WinSch);
-//PICTURE *pAppetFriedGreenBeans_Picture1;
-//    pAppetFriedGreenBeans_Picture1 = PictCreate(ID_AppetFriedGreenBeans_Picture1,353,64,463,174,PICT_DRAW,1,(void *)&bmpfriedGre,GOLScheme_ButtonTx);
+PICTURE *pAppetFriedGreenBeans_Picture1;
+    pAppetFriedGreenBeans_Picture1 = PictCreate(ID_AppetFriedGreenBeans_Picture1,353,64,463,174,PICT_DRAW,1,(void *)&friedGre,GOLScheme_ButtonTx);
 EDITBOX *pAppetFriedGreenBeans_EditBox1;
     pAppetFriedGreenBeans_EditBox1 = EbCreate(ID_AppetFriedGreenBeans_EditBox1,17,64,262,194,EB_DRAW,(XCHAR*)AppetFriedGreenBeans_EditBox1_Text,250,GOLScheme_DescText);
 BUTTON *pAppetFriedGreenBeans_Button1;
@@ -1337,8 +1546,8 @@ BUTTON *pAppetFriedGreenBeans_Button6;
     CreateScheme_MainName();
 WINDOW *pAppetMexicanNachos_Window1;
     pAppetMexicanNachos_Window1 = WndCreate(ID_AppetMexicanNachos_Window1,0,0,480,42,WND_DRAW|WND_TITLECENTER,NULL,(XCHAR*)AppetMexicanNachos_Window1_Text,GOLScheme_WinSch);
-//PICTURE *pAppetMexicanNachos_Picture1;
-//    pAppetMexicanNachos_Picture1 = PictCreate(ID_AppetMexicanNachos_Picture1,353,64,463,174,PICT_DRAW,1,(void *)&bmpspicynac,GOLScheme_ButtonTx);
+PICTURE *pAppetMexicanNachos_Picture1;
+    pAppetMexicanNachos_Picture1 = PictCreate(ID_AppetMexicanNachos_Picture1,353,64,463,174,PICT_DRAW,1,(void *)&spicynac,GOLScheme_ButtonTx);
 EDITBOX *pAppetMexicanNachos_EditBox1;
     pAppetMexicanNachos_EditBox1 = EbCreate(ID_AppetMexicanNachos_EditBox1,24,68,269,201,EB_DRAW,(XCHAR*)AppetMexicanNachos_EditBox1_Text,250,GOLScheme_DescText);
 BUTTON *pAppetMexicanNachos_Button1;
@@ -1369,8 +1578,8 @@ BUTTON *pAppetMexicanNachos_Button6;
     CreateScheme_MainName();
 WINDOW *pAppetSpicyNachos_Window1;
     pAppetSpicyNachos_Window1 = WndCreate(ID_AppetSpicyNachos_Window1,0,0,480,42,WND_DRAW|WND_TITLECENTER,NULL,(XCHAR*)AppetSpicyNachos_Window1_Text,GOLScheme_WinSch);
-//PICTURE *pAppetSpicyNachos_Picture1;
-//    pAppetSpicyNachos_Picture1 = PictCreate(ID_AppetSpicyNachos_Picture1,353,64,463,174,PICT_DRAW,1,(void *)&bmpspicynac,GOLScheme_ButtonTx);
+PICTURE *pAppetSpicyNachos_Picture1;
+    pAppetSpicyNachos_Picture1 = PictCreate(ID_AppetSpicyNachos_Picture1,353,64,463,174,PICT_DRAW,1,(void *)&spicynac,GOLScheme_ButtonTx);
 EDITBOX *pAppetSpicyNachos_EditBox1;
     pAppetSpicyNachos_EditBox1 = EbCreate(ID_AppetSpicyNachos_EditBox1,25,67,270,200,EB_DRAW,(XCHAR*)AppetSpicyNachos_EditBox1_Text,250,GOLScheme_DescText);
 BUTTON *pAppetSpicyNachos_Button1;
@@ -1401,8 +1610,8 @@ BUTTON *pAppetSpicyNachos_Button6;
     CreateScheme_MainName();
 WINDOW *pAppetORings_Window1;
     pAppetORings_Window1 = WndCreate(ID_AppetORings_Window1,0,0,480,42,WND_DRAW|WND_TITLECENTER,NULL,(XCHAR*)AppetORings_Window1_Text,GOLScheme_WinSch);
-//PICTURE *pAppetORings_Picture1;
-//    pAppetORings_Picture1 = PictCreate(ID_AppetORings_Picture1,353,64,463,174,PICT_DRAW,1,(void *)&bmponirings,GOLScheme_ButtonTx);
+PICTURE *pAppetORings_Picture1;
+    pAppetORings_Picture1 = PictCreate(ID_AppetORings_Picture1,353,64,463,174,PICT_DRAW,1,(void *)&onirings,GOLScheme_ButtonTx);
 EDITBOX *pAppetORings_EditBox1;
     pAppetORings_EditBox1 = EbCreate(ID_AppetORings_EditBox1,26,65,271,198,EB_DRAW,(XCHAR*)AppetORings_EditBox1_Text,250,GOLScheme_DescText);
 BUTTON *pAppetORings_Button1;
@@ -1433,8 +1642,8 @@ BUTTON *pAppetORings_Button6;
     CreateScheme_MainName();
 WINDOW *pSandTurkeyClub_Window1;
     pSandTurkeyClub_Window1 = WndCreate(ID_SandTurkeyClub_Window1,0,0,480,42,WND_DRAW|WND_TITLECENTER,NULL,(XCHAR*)SandTurkeyClub_Window1_Text,GOLScheme_WinSch);
-//PICTURE *pSandTurkeyClub_Picture1;
-//    pSandTurkeyClub_Picture1 = PictCreate(ID_SandTurkeyClub_Picture1,353,64,463,174,PICT_DRAW,1,(void *)&bmpTurkeyCl,GOLScheme_ButtonTx);
+PICTURE *pSandTurkeyClub_Picture1;
+    pSandTurkeyClub_Picture1 = PictCreate(ID_SandTurkeyClub_Picture1,353,64,463,174,PICT_DRAW,1,(void *)&TurkeyCl,GOLScheme_ButtonTx);
 EDITBOX *pSandTurkeyClub_EditBox1;
     pSandTurkeyClub_EditBox1 = EbCreate(ID_SandTurkeyClub_EditBox1,17,64,262,194,EB_DRAW,(XCHAR*)SandTurkeyClub_EditBox1_Text,250,GOLScheme_DescText);
 BUTTON *pSandTurkeyClub_Button8;
@@ -1463,8 +1672,8 @@ BUTTON *pSandTurkeyClub_Button6;
     CreateScheme_MainName();
 WINDOW *pSandReuben_Window1;
     pSandReuben_Window1 = WndCreate(ID_SandReuben_Window1,0,0,480,42,WND_DRAW|WND_TITLECENTER,NULL,(XCHAR*)SandReuben_Window1_Text,GOLScheme_WinSch);
-//PICTURE *pSandReuben_Picture1;
-//    pSandReuben_Picture1 = PictCreate(ID_SandReuben_Picture1,353,64,463,174,PICT_DRAW,1,(void *)&bmpReuben,GOLScheme_ButtonTx);
+PICTURE *pSandReuben_Picture1;
+    pSandReuben_Picture1 = PictCreate(ID_SandReuben_Picture1,353,64,463,174,PICT_DRAW,1,(void *)&Reuben,GOLScheme_ButtonTx);
 EDITBOX *pSandReuben_EditBox1;
     pSandReuben_EditBox1 = EbCreate(ID_SandReuben_EditBox1,17,64,262,194,EB_DRAW,(XCHAR*)SandReuben_EditBox1_Text,250,GOLScheme_DescText);
 BUTTON *pSandReuben_Button8;
@@ -1493,8 +1702,8 @@ BUTTON *pSandReuben_Button6;
     CreateScheme_MainName();
 WINDOW *pSandVeggieReuben_Window1;
     pSandVeggieReuben_Window1 = WndCreate(ID_SandVeggieReuben_Window1,0,0,480,42,WND_DRAW|WND_TITLECENTER,NULL,(XCHAR*)SandVeggieReuben_Window1_Text,GOLScheme_WinSch);
-//PICTURE *pSandVeggieReuben_Picture1;
-//    pSandVeggieReuben_Picture1 = PictCreate(ID_SandVeggieReuben_Picture1,353,64,463,174,PICT_DRAW,1,(void *)&bmpveggieRe,GOLScheme_ButtonTx);
+PICTURE *pSandVeggieReuben_Picture1;
+    pSandVeggieReuben_Picture1 = PictCreate(ID_SandVeggieReuben_Picture1,353,64,463,174,PICT_DRAW,1,(void *)&veggieRe,GOLScheme_ButtonTx);
 EDITBOX *pSandVeggieReuben_EditBox1;
     pSandVeggieReuben_EditBox1 = EbCreate(ID_SandVeggieReuben_EditBox1,17,64,262,194,EB_DRAW,(XCHAR*)SandVeggieReuben_EditBox1_Text,250,GOLScheme_DescText);
 BUTTON *pSandVeggieReuben_Button8;
@@ -1523,8 +1732,8 @@ BUTTON *pSandVeggieReuben_Button6;
     CreateScheme_MainName();
 WINDOW *pSandSmothered_Window1;
     pSandSmothered_Window1 = WndCreate(ID_SandSmothered_Window1,0,0,480,42,WND_DRAW|WND_TITLECENTER,NULL,(XCHAR*)SandSmothered_Window1_Text,GOLScheme_WinSch);
-//PICTURE *pSandSmothered_Picture1;
-//    pSandSmothered_Picture1 = PictCreate(ID_SandSmothered_Picture1,353,64,463,174,PICT_DRAW,1,(void *)&bmpsmothere,GOLScheme_ButtonTx);
+PICTURE *pSandSmothered_Picture1;
+    pSandSmothered_Picture1 = PictCreate(ID_SandSmothered_Picture1,353,64,463,174,PICT_DRAW,1,(void *)&smothere,GOLScheme_ButtonTx);
 EDITBOX *pSandSmothered_EditBox1;
     pSandSmothered_EditBox1 = EbCreate(ID_SandSmothered_EditBox1,17,64,262,194,EB_DRAW,(XCHAR*)SandSmothered_EditBox1_Text,250,GOLScheme_DescText);
 BUTTON *pSandSmothered_Button8;
@@ -1553,8 +1762,8 @@ BUTTON *pSandSmothered_Button6;
     CreateScheme_MainName();
 WINDOW *pSandSmotheredBuffalo_Window1;
     pSandSmotheredBuffalo_Window1 = WndCreate(ID_SandSmotheredBuffalo_Window1,0,0,480,42,WND_DRAW|WND_TITLECENTER,NULL,(XCHAR*)SandSmotheredBuffalo_Window1_Text,GOLScheme_WinSch);
-//PICTURE *pSandSmotheredBuffalo_Picture1;
- //   pSandSmotheredBuffalo_Picture1 = PictCreate(ID_SandSmotheredBuffalo_Picture1,353,64,463,174,PICT_DRAW,1,(void *)&bmpbuffaloc,GOLScheme_ButtonTx);
+PICTURE *pSandSmotheredBuffalo_Picture1;
+    pSandSmotheredBuffalo_Picture1 = PictCreate(ID_SandSmotheredBuffalo_Picture1,353,64,463,174,PICT_DRAW,1,(void *)&buffaloc,GOLScheme_ButtonTx);
 EDITBOX *pSandSmotheredBuffalo_EditBox1;
     pSandSmotheredBuffalo_EditBox1 = EbCreate(ID_SandSmotheredBuffalo_EditBox1,17,64,262,194,EB_DRAW,(XCHAR*)SandSmotheredBuffalo_EditBox1_Text,250,GOLScheme_DescText);
 BUTTON *pSandSmotheredBuffalo_Button8;
@@ -1583,8 +1792,8 @@ BUTTON *pSandSmotheredBuffalo_Button6;
     CreateScheme_MainName();
 WINDOW *pSandCornDog_Window1;
     pSandCornDog_Window1 = WndCreate(ID_SandCornDog_Window1,0,0,480,42,WND_DRAW|WND_TITLECENTER,NULL,(XCHAR*)SandCornDog_Window1_Text,GOLScheme_WinSch);
-//PICTURE *pSandCornDog_Picture1;
-//    pSandCornDog_Picture1 = PictCreate(ID_SandCornDog_Picture1,353,64,463,174,PICT_DRAW,1,(void *)&bmpcorndog,GOLScheme_ButtonTx);
+PICTURE *pSandCornDog_Picture1;
+    pSandCornDog_Picture1 = PictCreate(ID_SandCornDog_Picture1,353,64,463,174,PICT_DRAW,1,(void *)&corndog,GOLScheme_ButtonTx);
 EDITBOX *pSandCornDog_EditBox1;
     pSandCornDog_EditBox1 = EbCreate(ID_SandCornDog_EditBox1,17,64,262,194,EB_DRAW,(XCHAR*)SandCornDog_EditBox1_Text,250,GOLScheme_DescText);
 BUTTON *pSandCornDog_Button8;
@@ -1613,8 +1822,8 @@ BUTTON *pSandCornDog_Button6;
     CreateScheme_MainName();
 WINDOW *pSandSteakInAWrap_Window1;
     pSandSteakInAWrap_Window1 = WndCreate(ID_SandSteakInAWrap_Window1,0,0,480,42,WND_DRAW|WND_TITLECENTER,NULL,(XCHAR*)SandSteakInAWrap_Window1_Text,GOLScheme_WinSch);
-//PICTURE *pSandSteakInAWrap_Picture1;
-//    pSandSteakInAWrap_Picture1 = PictCreate(ID_SandSteakInAWrap_Picture1,353,64,463,174,PICT_DRAW,1,(void *)&bmpsteakwra,GOLScheme_ButtonTx);
+PICTURE *pSandSteakInAWrap_Picture1;
+    pSandSteakInAWrap_Picture1 = PictCreate(ID_SandSteakInAWrap_Picture1,353,64,463,174,PICT_DRAW,1,(void *)&steakwra,GOLScheme_ButtonTx);
 EDITBOX *pSandSteakInAWrap_EditBox1;
     pSandSteakInAWrap_EditBox1 = EbCreate(ID_SandSteakInAWrap_EditBox1,17,64,262,194,EB_DRAW,(XCHAR*)SandSteakInAWrap_EditBox1_Text,250,GOLScheme_DescText);
 BUTTON *pSandSteakInAWrap_Button8;
@@ -1643,8 +1852,8 @@ BUTTON *pSandSteakInAWrap_Button6;
     CreateScheme_MainName();
 WINDOW *pSandGardenSandwich_Window1;
     pSandGardenSandwich_Window1 = WndCreate(ID_SandGardenSandwich_Window1,0,0,480,42,WND_DRAW|WND_TITLECENTER,NULL,(XCHAR*)SandGardenSandwich_Window1_Text,GOLScheme_WinSch);
-//PICTURE *pSandGardenSandwich_Picture1;
-//    pSandGardenSandwich_Picture1 = PictCreate(ID_SandGardenSandwich_Picture1,353,64,463,174,PICT_DRAW,1,(void *)&bmpGardensw,GOLScheme_ButtonTx);
+PICTURE *pSandGardenSandwich_Picture1;
+    pSandGardenSandwich_Picture1 = PictCreate(ID_SandGardenSandwich_Picture1,353,64,463,174,PICT_DRAW,1,(void *)&Gardensw,GOLScheme_ButtonTx);
 EDITBOX *pSandGardenSandwich_EditBox1;
     pSandGardenSandwich_EditBox1 = EbCreate(ID_SandGardenSandwich_EditBox1,17,64,262,194,EB_DRAW,(XCHAR*)SandGardenSandwich_EditBox1_Text,250,GOLScheme_DescText);
 BUTTON *pSandGardenSandwich_Button8;
@@ -1673,8 +1882,8 @@ BUTTON *pSandGardenSandwich_Button6;
     CreateScheme_MainName();
 WINDOW *pSandGrilledChicken_Window1;
     pSandGrilledChicken_Window1 = WndCreate(ID_SandGrilledChicken_Window1,0,0,480,42,WND_DRAW|WND_TITLECENTER,NULL,(XCHAR*)SandGrilledChicken_Window1_Text,GOLScheme_WinSch);
-//PICTURE *pSandGrilledChicken_Picture1;
-//    pSandGrilledChicken_Picture1 = PictCreate(ID_SandGrilledChicken_Picture1,353,64,463,174,PICT_DRAW,1,(void *)&bmpgrillChi,GOLScheme_ButtonTx);
+PICTURE *pSandGrilledChicken_Picture1;
+    pSandGrilledChicken_Picture1 = PictCreate(ID_SandGrilledChicken_Picture1,353,64,463,174,PICT_DRAW,1,(void *)&grillChi,GOLScheme_ButtonTx);
 EDITBOX *pSandGrilledChicken_EditBox1;
     pSandGrilledChicken_EditBox1 = EbCreate(ID_SandGrilledChicken_EditBox1,17,64,262,194,EB_DRAW,(XCHAR*)SandGrilledChicken_EditBox1_Text,250,GOLScheme_DescText);
 BUTTON *pSandGrilledChicken_Button8;
@@ -1703,8 +1912,8 @@ BUTTON *pSandGrilledChicken_Button6;
     CreateScheme_MainName();
 WINDOW *pSandCajun_Window1;
     pSandCajun_Window1 = WndCreate(ID_SandCajun_Window1,0,0,480,42,WND_DRAW|WND_TITLECENTER,NULL,(XCHAR*)SandCajun_Window1_Text,GOLScheme_WinSch);
-//PICTURE *pSandCajun_Picture1;
-//    pSandCajun_Picture1 = PictCreate(ID_SandCajun_Picture1,353,64,463,174,PICT_DRAW,1,(void *)&bmpcajunChi,GOLScheme_ButtonTx);
+PICTURE *pSandCajun_Picture1;
+    pSandCajun_Picture1 = PictCreate(ID_SandCajun_Picture1,353,64,463,174,PICT_DRAW,1,(void *)&cajunChi,GOLScheme_ButtonTx);
 EDITBOX *pSandCajun_EditBox1;
     pSandCajun_EditBox1 = EbCreate(ID_SandCajun_EditBox1,17,64,262,194,EB_DRAW,(XCHAR*)SandCajun_EditBox1_Text,250,GOLScheme_DescText);
 BUTTON *pSandCajun_Button8;
@@ -1733,8 +1942,8 @@ BUTTON *pSandCajun_Button6;
     CreateScheme_MainName();
 WINDOW *pSandFriedStacker_Window1;
     pSandFriedStacker_Window1 = WndCreate(ID_SandFriedStacker_Window1,0,0,480,42,WND_DRAW|WND_TITLECENTER,NULL,(XCHAR*)SandFriedStacker_Window1_Text,GOLScheme_WinSch);
-//PICTURE *pSandFriedStacker_Picture1;
-//    pSandFriedStacker_Picture1 = PictCreate(ID_SandFriedStacker_Picture1,353,64,463,174,PICT_DRAW,1,(void *)&bmpfriedsta,GOLScheme_ButtonTx);
+PICTURE *pSandFriedStacker_Picture1;
+    pSandFriedStacker_Picture1 = PictCreate(ID_SandFriedStacker_Picture1,353,64,463,174,PICT_DRAW,1,(void *)&friedsta,GOLScheme_ButtonTx);
 EDITBOX *pSandFriedStacker_EditBox1;
     pSandFriedStacker_EditBox1 = EbCreate(ID_SandFriedStacker_EditBox1,17,64,262,194,EB_DRAW,(XCHAR*)SandFriedStacker_EditBox1_Text,250,GOLScheme_DescText);
 BUTTON *pSandFriedStacker_Button8;
@@ -1763,8 +1972,8 @@ BUTTON *pSandFriedStacker_Button6;
     CreateScheme_MainName();
 WINDOW *pSandGrilledStacker_Window1;
     pSandGrilledStacker_Window1 = WndCreate(ID_SandGrilledStacker_Window1,0,0,480,42,WND_DRAW|WND_TITLECENTER,NULL,(XCHAR*)SandGrilledStacker_Window1_Text,GOLScheme_WinSch);
-//PICTURE *pSandGrilledStacker_Picture1;
-//    pSandGrilledStacker_Picture1 = PictCreate(ID_SandGrilledStacker_Picture1,353,64,463,174,PICT_DRAW,1,(void *)&bmpgrilledS,GOLScheme_ButtonTx);
+PICTURE *pSandGrilledStacker_Picture1;
+    pSandGrilledStacker_Picture1 = PictCreate(ID_SandGrilledStacker_Picture1,353,64,463,174,PICT_DRAW,1,(void *)&grilledS,GOLScheme_ButtonTx);
 EDITBOX *pSandGrilledStacker_EditBox1;
     pSandGrilledStacker_EditBox1 = EbCreate(ID_SandGrilledStacker_EditBox1,17,64,262,194,EB_DRAW,(XCHAR*)SandGrilledStacker_EditBox1_Text,250,GOLScheme_DescText);
 BUTTON *pSandGrilledStacker_Button8;
@@ -1793,8 +2002,8 @@ BUTTON *pSandGrilledStacker_Button6;
     CreateScheme_MainName();
 WINDOW *pSandBlackenedTilapia_Window1;
     pSandBlackenedTilapia_Window1 = WndCreate(ID_SandBlackenedTilapia_Window1,0,0,480,42,WND_DRAW|WND_TITLECENTER,NULL,(XCHAR*)SandBlackenedTilapia_Window1_Text,GOLScheme_WinSch);
-//PICTURE *pSandBlackenedTilapia_Picture1;
-//    pSandBlackenedTilapia_Picture1 = PictCreate(ID_SandBlackenedTilapia_Picture1,353,64,463,174,PICT_DRAW,1,(void *)&bmpBlackTil,GOLScheme_ButtonTx);
+PICTURE *pSandBlackenedTilapia_Picture1;
+    pSandBlackenedTilapia_Picture1 = PictCreate(ID_SandBlackenedTilapia_Picture1,353,64,463,174,PICT_DRAW,1,(void *)&BlackTil,GOLScheme_ButtonTx);
 EDITBOX *pSandBlackenedTilapia_EditBox1;
     pSandBlackenedTilapia_EditBox1 = EbCreate(ID_SandBlackenedTilapia_EditBox1,17,64,262,194,EB_DRAW,(XCHAR*)SandBlackenedTilapia_EditBox1_Text,250,GOLScheme_DescText);
 BUTTON *pSandBlackenedTilapia_Button8;
@@ -1823,8 +2032,8 @@ BUTTON *pSandBlackenedTilapia_Button6;
     CreateScheme_MainName();
 WINDOW *pSandVeggieMushroom_Window1;
     pSandVeggieMushroom_Window1 = WndCreate(ID_SandVeggieMushroom_Window1,0,0,480,42,WND_DRAW|WND_TITLECENTER,NULL,(XCHAR*)SandVeggieMushroom_Window1_Text,GOLScheme_WinSch);
-//PICTURE *pSandVeggieMushroom_Picture1;
-//    pSandVeggieMushroom_Picture1 = PictCreate(ID_SandVeggieMushroom_Picture1,353,64,463,174,PICT_DRAW,1,(void *)&bmpMushroom,GOLScheme_ButtonTx);
+PICTURE *pSandVeggieMushroom_Picture1;
+    pSandVeggieMushroom_Picture1 = PictCreate(ID_SandVeggieMushroom_Picture1,353,64,463,174,PICT_DRAW,1,(void *)&Mushroom,GOLScheme_ButtonTx);
 EDITBOX *pSandVeggieMushroom_EditBox1;
     pSandVeggieMushroom_EditBox1 = EbCreate(ID_SandVeggieMushroom_EditBox1,17,64,262,194,EB_DRAW,(XCHAR*)SandVeggieMushroom_EditBox1_Text,250,GOLScheme_DescText);
 BUTTON *pSandVeggieMushroom_Button8;
@@ -1853,8 +2062,8 @@ BUTTON *pSandVeggieMushroom_Button6;
     CreateScheme_MainName();
 WINDOW *pSandGrilledCheese_Window1;
     pSandGrilledCheese_Window1 = WndCreate(ID_SandGrilledCheese_Window1,0,0,480,42,WND_DRAW|WND_TITLECENTER,NULL,(XCHAR*)SandGrilledCheese_Window1_Text,GOLScheme_WinSch);
-//PICTURE *pSandGrilledCheese_Picture1;
- //   pSandGrilledCheese_Picture1 = PictCreate(ID_SandGrilledCheese_Picture1,353,64,463,174,PICT_DRAW,1,(void *)&bmpGrillChe,GOLScheme_ButtonTx);
+PICTURE *pSandGrilledCheese_Picture1;
+    pSandGrilledCheese_Picture1 = PictCreate(ID_SandGrilledCheese_Picture1,353,64,463,174,PICT_DRAW,1,(void *)&GrillChe,GOLScheme_ButtonTx);
 EDITBOX *pSandGrilledCheese_EditBox1;
     pSandGrilledCheese_EditBox1 = EbCreate(ID_SandGrilledCheese_EditBox1,17,64,262,194,EB_DRAW,(XCHAR*)SandGrilledCheese_EditBox1_Text,250,GOLScheme_DescText);
 BUTTON *pSandGrilledCheese_Button8;
@@ -1915,8 +2124,8 @@ BUTTON *pBurgerList_Button12;
     CreateScheme_MainName();
 WINDOW *pBurgerCheese_Window1;
     pBurgerCheese_Window1 = WndCreate(ID_BurgerCheese_Window1,0,0,480,42,WND_DRAW|WND_TITLECENTER,NULL,(XCHAR*)BurgerCheese_Window1_Text,GOLScheme_WinSch);
-//PICTURE *pBurgerCheese_Picture1;
-//    pBurgerCheese_Picture1 = PictCreate(ID_BurgerCheese_Picture1,353,64,463,174,PICT_DRAW,1,(void *)&bmpcheesebu,GOLScheme_ButtonTx);
+PICTURE *pBurgerCheese_Picture1;
+    pBurgerCheese_Picture1 = PictCreate(ID_BurgerCheese_Picture1,353,64,463,174,PICT_DRAW,1,(void *)&cheesebu,GOLScheme_ButtonTx);
 EDITBOX *pBurgerCheese_EditBox1;
     pBurgerCheese_EditBox1 = EbCreate(ID_BurgerCheese_EditBox1,17,64,262,194,EB_DRAW,(XCHAR*)BurgerCheese_EditBox1_Text,250,GOLScheme_DescText);
 BUTTON *pBurgerCheese_Button8;
@@ -1945,10 +2154,10 @@ BUTTON *pBurgerCheese_Button6;
     CreateScheme_MainName();
 WINDOW *pBurgerHam_Window1;
     pBurgerHam_Window1 = WndCreate(ID_BurgerHam_Window1,0,0,480,42,WND_DRAW|WND_TITLECENTER,NULL,(XCHAR*)BurgerHam_Window1_Text,GOLScheme_WinSch);
-//PICTURE *pBurgerHam_Picture1;
-//    pBurgerHam_Picture1 = PictCreate(ID_BurgerHam_Picture1,353,64,463,174,PICT_DRAW,1,(void *)&bmphamburge,GOLScheme_ButtonTx);
+PICTURE *pBurgerHam_Picture1;
+    pBurgerHam_Picture1 = PictCreate(ID_BurgerHam_Picture1,353,64,463,174,PICT_DRAW,1,(void *)&blackene,GOLScheme_ButtonTx);
 EDITBOX *pBurgerHam_EditBox1;
-    pBurgerHam_EditBox1 = EbCreate(ID_BurgerHam_EditBox1,17,64,262,194,EB_DRAW,(XCHAR*)BurgerHam_EditBox1_Text,16,GOLScheme_DescText);
+    pBurgerHam_EditBox1 = EbCreate(ID_BurgerHam_EditBox1,17,64,262,194,EB_DRAW,(XCHAR*)BurgerHam_EditBox1_Text,250,GOLScheme_DescText);
 BUTTON *pBurgerHam_Button8;
     pBurgerHam_Button8 = BtnCreate(ID_BurgerHam_Button8,191,218,289,255,1,BTN_DRAW,NULL,(XCHAR*)BurgerHam_Button8_Text,GOLScheme_ButtonTx);
 BUTTON *pBurgerHam_Button3;
@@ -1975,8 +2184,8 @@ BUTTON *pBurgerHam_Button6;
     CreateScheme_MainName();
 WINDOW *pBurgerPepper_Window1;
     pBurgerPepper_Window1 = WndCreate(ID_BurgerPepper_Window1,0,0,480,42,WND_DRAW|WND_TITLECENTER,NULL,(XCHAR*)BurgerPepper_Window1_Text,GOLScheme_WinSch);
-//PICTURE *pBurgerPepper_Picture1;
-//    pBurgerPepper_Picture1 = PictCreate(ID_BurgerPepper_Picture1,353,64,463,174,PICT_DRAW,1,(void *)&bmppepperja,GOLScheme_ButtonTx);
+PICTURE *pBurgerPepper_Picture1;
+    pBurgerPepper_Picture1 = PictCreate(ID_BurgerPepper_Picture1,353,64,463,174,PICT_DRAW,1,(void *)&pepperja,GOLScheme_ButtonTx);
 EDITBOX *pBurgerPepper_EditBox1;
     pBurgerPepper_EditBox1 = EbCreate(ID_BurgerPepper_EditBox1,17,64,262,194,EB_DRAW,(XCHAR*)BurgerPepper_EditBox1_Text,250,GOLScheme_DescText);
 BUTTON *pBurgerPepper_Button8;
@@ -2005,8 +2214,8 @@ BUTTON *pBurgerPepper_Button6;
     CreateScheme_MainName();
 WINDOW *pBurgerCajun_Window1;
     pBurgerCajun_Window1 = WndCreate(ID_BurgerCajun_Window1,0,0,480,42,WND_DRAW|WND_TITLECENTER,NULL,(XCHAR*)BurgerCajun_Window1_Text,GOLScheme_WinSch);
-//PICTURE *pBurgerCajun_Picture1;
-//    pBurgerCajun_Picture1 = PictCreate(ID_BurgerCajun_Picture1,353,64,463,174,PICT_DRAW,1,(void *)&bmpCajunBur,GOLScheme_ButtonTx);
+PICTURE *pBurgerCajun_Picture1;
+    pBurgerCajun_Picture1 = PictCreate(ID_BurgerCajun_Picture1,353,64,463,174,PICT_DRAW,1,(void *)&Coleslaw,GOLScheme_ButtonTx);
 EDITBOX *pBurgerCajun_EditBox1;
     pBurgerCajun_EditBox1 = EbCreate(ID_BurgerCajun_EditBox1,17,64,262,194,EB_DRAW,(XCHAR*)BurgerCajun_EditBox1_Text,250,GOLScheme_DescText);
 BUTTON *pBurgerCajun_Button8;
@@ -2035,8 +2244,8 @@ BUTTON *pBurgerCajun_Button6;
     CreateScheme_MainName();
 WINDOW *pBurgerMonster_Window1;
     pBurgerMonster_Window1 = WndCreate(ID_BurgerMonster_Window1,0,0,480,42,WND_DRAW|WND_TITLECENTER,NULL,(XCHAR*)BurgerMonster_Window1_Text,GOLScheme_WinSch);
-//PICTURE *pBurgerMonster_Picture1;
-//    pBurgerMonster_Picture1 = PictCreate(ID_BurgerMonster_Picture1,353,64,463,174,PICT_DRAW,1,(void *)&bmpMonsterC,GOLScheme_ButtonTx);
+PICTURE *pBurgerMonster_Picture1;
+    pBurgerMonster_Picture1 = PictCreate(ID_BurgerMonster_Picture1,353,64,463,174,PICT_DRAW,1,(void *)&MonsterC,GOLScheme_ButtonTx);
 EDITBOX *pBurgerMonster_EditBox1;
     pBurgerMonster_EditBox1 = EbCreate(ID_BurgerMonster_EditBox1,17,64,262,194,EB_DRAW,(XCHAR*)BurgerMonster_EditBox1_Text,250,GOLScheme_DescText);
 BUTTON *pBurgerMonster_Button8;
@@ -2065,10 +2274,10 @@ BUTTON *pBurgerMonster_Button6;
     CreateScheme_MainName();
 WINDOW *pBurgerMushroom_Window1;
     pBurgerMushroom_Window1 = WndCreate(ID_BurgerMushroom_Window1,0,0,480,42,WND_DRAW|WND_TITLECENTER,NULL,(XCHAR*)BurgerMushroom_Window1_Text,GOLScheme_WinSch);
-//PICTURE *pBurgerMushroom_Picture1;
-//    pBurgerMushroom_Picture1 = PictCreate(ID_BurgerMushroom_Picture1,353,64,463,174,PICT_DRAW,1,(void *)&bmpMushroom,GOLScheme_ButtonTx);
+PICTURE *pBurgerMushroom_Picture1;
+    pBurgerMushroom_Picture1 = PictCreate(ID_BurgerMushroom_Picture1,353,64,463,174,PICT_DRAW,1,(void *)&Mushroom,GOLScheme_ButtonTx);
 EDITBOX *pBurgerMushroom_EditBox1;
-    pBurgerMushroom_EditBox1 = EbCreate(ID_BurgerMushroom_EditBox1,17,64,262,194,EB_DRAW,(XCHAR*)BurgerMushroom_EditBox1_Text,16,GOLScheme_DescText);
+    pBurgerMushroom_EditBox1 = EbCreate(ID_BurgerMushroom_EditBox1,17,64,262,194,EB_DRAW,(XCHAR*)BurgerMushroom_EditBox1_Text,250,GOLScheme_DescText);
 BUTTON *pBurgerMushroom_Button8;
     pBurgerMushroom_Button8 = BtnCreate(ID_BurgerMushroom_Button8,191,218,289,255,1,BTN_DRAW,NULL,(XCHAR*)BurgerMushroom_Button8_Text,GOLScheme_ButtonTx);
 BUTTON *pBurgerMushroom_Button3;
@@ -2163,8 +2372,8 @@ BUTTON *pSaladList2_Button4;
     CreateScheme_MainName();
 WINDOW *pSaladVegetable_Window1;
     pSaladVegetable_Window1 = WndCreate(ID_SaladVegetable_Window1,0,0,480,42,WND_DRAW|WND_TITLECENTER,NULL,(XCHAR*)SaladVegetable_Window1_Text,GOLScheme_WinSch);
-//PICTURE *pSaladVegetable_Picture1;
-//    pSaladVegetable_Picture1 = PictCreate(ID_SaladVegetable_Picture1,353,64,463,174,PICT_DRAW,1,(void *)&bmpVegsalad,GOLScheme_ButtonTx);
+PICTURE *pSaladVegetable_Picture1;
+    pSaladVegetable_Picture1 = PictCreate(ID_SaladVegetable_Picture1,353,64,463,174,PICT_DRAW,1,(void *)&Vegsalad,GOLScheme_ButtonTx);
 EDITBOX *pSaladVegetable_EditBox1;
     pSaladVegetable_EditBox1 = EbCreate(ID_SaladVegetable_EditBox1,17,64,262,194,EB_DRAW,(XCHAR*)SaladVegetable_EditBox1_Text,250,GOLScheme_DescText);
 BUTTON *pSaladVegetable_Button8;
@@ -2193,8 +2402,8 @@ BUTTON *pSaladVegetable_Button6;
     CreateScheme_MainName();
 WINDOW *pSaladSpicyVeg_Window1;
     pSaladSpicyVeg_Window1 = WndCreate(ID_SaladSpicyVeg_Window1,0,0,480,42,WND_DRAW|WND_TITLECENTER,NULL,(XCHAR*)SaladSpicyVeg_Window1_Text,GOLScheme_WinSch);
-//PICTURE *pSaladSpicyVeg_Picture1;
-//    pSaladSpicyVeg_Picture1 = PictCreate(ID_SaladSpicyVeg_Picture1,353,64,463,174,PICT_DRAW,1,(void *)&bmpspicyVeg,GOLScheme_ButtonTx);
+PICTURE *pSaladSpicyVeg_Picture1;
+    pSaladSpicyVeg_Picture1 = PictCreate(ID_SaladSpicyVeg_Picture1,353,64,463,174,PICT_DRAW,1,(void *)&spicyVeg,GOLScheme_ButtonTx);
 EDITBOX *pSaladSpicyVeg_EditBox1;
     pSaladSpicyVeg_EditBox1 = EbCreate(ID_SaladSpicyVeg_EditBox1,17,64,262,194,EB_DRAW,(XCHAR*)SaladSpicyVeg_EditBox1_Text,250,GOLScheme_DescText);
 BUTTON *pSaladSpicyVeg_Button8;
@@ -2223,8 +2432,8 @@ BUTTON *pSaladSpicyVeg_Button6;
     CreateScheme_MainName();
 WINDOW *pSaladSupremeTaco_Window1;
     pSaladSupremeTaco_Window1 = WndCreate(ID_SaladSupremeTaco_Window1,0,0,480,42,WND_DRAW|WND_TITLECENTER,NULL,(XCHAR*)SaladSupremeTaco_Window1_Text,GOLScheme_WinSch);
-//PICTURE *pSaladSupremeTaco_Picture1;
-//    pSaladSupremeTaco_Picture1 = PictCreate(ID_SaladSupremeTaco_Picture1,353,64,463,174,PICT_DRAW,1,(void *)&bmptacosald,GOLScheme_ButtonTx);
+PICTURE *pSaladSupremeTaco_Picture1;
+    pSaladSupremeTaco_Picture1 = PictCreate(ID_SaladSupremeTaco_Picture1,353,64,463,174,PICT_DRAW,1,(void *)&tacosald,GOLScheme_ButtonTx);
 EDITBOX *pSaladSupremeTaco_EditBox1;
     pSaladSupremeTaco_EditBox1 = EbCreate(ID_SaladSupremeTaco_EditBox1,17,64,262,194,EB_DRAW,(XCHAR*)SaladSupremeTaco_EditBox1_Text,250,GOLScheme_DescText);
 BUTTON *pSaladSupremeTaco_Button8;
@@ -2253,8 +2462,8 @@ BUTTON *pSaladSupremeTaco_Button6;
     CreateScheme_MainName();
 WINDOW *pSaladLemonShrimp_Window1;
     pSaladLemonShrimp_Window1 = WndCreate(ID_SaladLemonShrimp_Window1,0,0,480,42,WND_DRAW|WND_TITLECENTER,NULL,(XCHAR*)SaladLemonShrimp_Window1_Text,GOLScheme_WinSch);
-//PICTURE *pSaladLemonShrimp_Picture1;
-//    pSaladLemonShrimp_Picture1 = PictCreate(ID_SaladLemonShrimp_Picture1,353,64,463,174,PICT_DRAW,1,(void *)&bmplemonshr,GOLScheme_ButtonTx);
+PICTURE *pSaladLemonShrimp_Picture1;
+    pSaladLemonShrimp_Picture1 = PictCreate(ID_SaladLemonShrimp_Picture1,353,64,463,174,PICT_DRAW,1,(void *)&lemonshr,GOLScheme_ButtonTx);
 EDITBOX *pSaladLemonShrimp_EditBox1;
     pSaladLemonShrimp_EditBox1 = EbCreate(ID_SaladLemonShrimp_EditBox1,17,64,262,194,EB_DRAW,(XCHAR*)SaladLemonShrimp_EditBox1_Text,250,GOLScheme_DescText);
 BUTTON *pSaladLemonShrimp_Button8;
@@ -2283,8 +2492,8 @@ BUTTON *pSaladLemonShrimp_Button6;
     CreateScheme_MainName();
 WINDOW *pSaladHam_Window1;
     pSaladHam_Window1 = WndCreate(ID_SaladHam_Window1,0,0,480,42,WND_DRAW|WND_TITLECENTER,NULL,(XCHAR*)SaladHam_Window1_Text,GOLScheme_WinSch);
-//PICTURE *pSaladHam_Picture1;
-//    pSaladHam_Picture1 = PictCreate(ID_SaladHam_Picture1,353,64,463,174,PICT_DRAW,1,(void *)&bmphamsalad,GOLScheme_ButtonTx);
+PICTURE *pSaladHam_Picture1;
+    pSaladHam_Picture1 = PictCreate(ID_SaladHam_Picture1,353,64,463,174,PICT_DRAW,1,(void *)&hamsalad,GOLScheme_ButtonTx);
 EDITBOX *pSaladHam_EditBox1;
     pSaladHam_EditBox1 = EbCreate(ID_SaladHam_EditBox1,17,64,262,194,EB_DRAW,(XCHAR*)SaladHam_EditBox1_Text,250,GOLScheme_DescText);
 BUTTON *pSaladHam_Button8;
@@ -2313,8 +2522,8 @@ BUTTON *pSaladHam_Button6;
     CreateScheme_MainName();
 WINDOW *pSaladFriedChicken_Window1;
     pSaladFriedChicken_Window1 = WndCreate(ID_SaladFriedChicken_Window1,0,0,480,42,WND_DRAW|WND_TITLECENTER,NULL,(XCHAR*)SaladFriedChicken_Window1_Text,GOLScheme_WinSch);
-//PICTURE *pSaladFriedChicken_Picture1;
-//    pSaladFriedChicken_Picture1 = PictCreate(ID_SaladFriedChicken_Picture1,353,64,463,174,PICT_DRAW,1,(void *)&bmpfriedchi,GOLScheme_ButtonTx);
+PICTURE *pSaladFriedChicken_Picture1;
+    pSaladFriedChicken_Picture1 = PictCreate(ID_SaladFriedChicken_Picture1,353,64,463,174,PICT_DRAW,1,(void *)&friedchi,GOLScheme_ButtonTx);
 EDITBOX *pSaladFriedChicken_EditBox1;
     pSaladFriedChicken_EditBox1 = EbCreate(ID_SaladFriedChicken_EditBox1,17,64,262,194,EB_DRAW,(XCHAR*)SaladFriedChicken_EditBox1_Text,250,GOLScheme_DescText);
 BUTTON *pSaladFriedChicken_Button8;
@@ -2343,8 +2552,8 @@ BUTTON *pSaladFriedChicken_Button6;
     CreateScheme_MainName();
 WINDOW *pSaladSteak_Window1;
     pSaladSteak_Window1 = WndCreate(ID_SaladSteak_Window1,0,0,480,42,WND_DRAW|WND_TITLECENTER,NULL,(XCHAR*)SaladSteak_Window1_Text,GOLScheme_WinSch);
-//PICTURE *pSaladSteak_Picture1;
-//    pSaladSteak_Picture1 = PictCreate(ID_SaladSteak_Picture1,353,64,463,174,PICT_DRAW,1,(void *)&bmpsteaksal,GOLScheme_ButtonTx);
+PICTURE *pSaladSteak_Picture1;
+    pSaladSteak_Picture1 = PictCreate(ID_SaladSteak_Picture1,353,64,463,174,PICT_DRAW,1,(void *)&steaksal,GOLScheme_ButtonTx);
 EDITBOX *pSaladSteak_EditBox1;
     pSaladSteak_EditBox1 = EbCreate(ID_SaladSteak_EditBox1,17,64,262,194,EB_DRAW,(XCHAR*)SaladSteak_EditBox1_Text,250,GOLScheme_DescText);
 BUTTON *pSaladSteak_Button8;
@@ -2373,8 +2582,8 @@ BUTTON *pSaladSteak_Button6;
     CreateScheme_MainName();
 WINDOW *pSaladFruit_Window1;
     pSaladFruit_Window1 = WndCreate(ID_SaladFruit_Window1,0,0,480,42,WND_DRAW|WND_TITLECENTER,NULL,(XCHAR*)SaladFruit_Window1_Text,GOLScheme_WinSch);
-//PICTURE *pSaladFruit_Picture1;
- //   pSaladFruit_Picture1 = PictCreate(ID_SaladFruit_Picture1,353,64,463,174,PICT_DRAW,1,(void *)&bmpFruitSal,GOLScheme_ButtonTx);
+PICTURE *pSaladFruit_Picture1;
+    pSaladFruit_Picture1 = PictCreate(ID_SaladFruit_Picture1,353,64,463,174,PICT_DRAW,1,(void *)&FruitSal,GOLScheme_ButtonTx);
 EDITBOX *pSaladFruit_EditBox1;
     pSaladFruit_EditBox1 = EbCreate(ID_SaladFruit_EditBox1,17,64,262,194,EB_DRAW,(XCHAR*)SaladFruit_EditBox1_Text,250,GOLScheme_DescText);
 BUTTON *pSaladFruit_Button8;
@@ -2403,8 +2612,8 @@ BUTTON *pSaladFruit_Button6;
     CreateScheme_MainName();
 WINDOW *pSaladFetaFruit_Window1;
     pSaladFetaFruit_Window1 = WndCreate(ID_SaladFetaFruit_Window1,0,0,480,42,WND_DRAW|WND_TITLECENTER,NULL,(XCHAR*)SaladFetaFruit_Window1_Text,GOLScheme_WinSch);
-//PICTURE *pSaladFetaFruit_Picture1;
-//    pSaladFetaFruit_Picture1 = PictCreate(ID_SaladFetaFruit_Picture1,353,64,463,174,PICT_DRAW,1,(void *)&bmpfetafruc,GOLScheme_ButtonTx);
+PICTURE *pSaladFetaFruit_Picture1;
+    pSaladFetaFruit_Picture1 = PictCreate(ID_SaladFetaFruit_Picture1,353,64,463,174,PICT_DRAW,1,(void *)&fetafruc,GOLScheme_ButtonTx);
 EDITBOX *pSaladFetaFruit_EditBox1;
     pSaladFetaFruit_EditBox1 = EbCreate(ID_SaladFetaFruit_EditBox1,17,64,262,194,EB_DRAW,(XCHAR*)SaladFetaFruit_EditBox1_Text,250,GOLScheme_DescText);
 BUTTON *pSaladFetaFruit_Button8;
@@ -2433,8 +2642,8 @@ BUTTON *pSaladFetaFruit_Button6;
     CreateScheme_MainName();
 WINDOW *pSaladBlackenedTil_Window1;
     pSaladBlackenedTil_Window1 = WndCreate(ID_SaladBlackenedTil_Window1,0,0,480,42,WND_DRAW|WND_TITLECENTER,NULL,(XCHAR*)SaladBlackenedTil_Window1_Text,GOLScheme_WinSch);
-//PICTURE *pSaladBlackenedTil_Picture1;
-//    pSaladBlackenedTil_Picture1 = PictCreate(ID_SaladBlackenedTil_Picture1,353,64,463,174,PICT_DRAW,1,(void *)&bmpblackene,GOLScheme_ButtonTx);
+PICTURE *pSaladBlackenedTil_Picture1;
+    pSaladBlackenedTil_Picture1 = PictCreate(ID_SaladBlackenedTil_Picture1,353,64,463,174,PICT_DRAW,1,(void *)&blackene,GOLScheme_ButtonTx);
 EDITBOX *pSaladBlackenedTil_EditBox1;
     pSaladBlackenedTil_EditBox1 = EbCreate(ID_SaladBlackenedTil_EditBox1,17,64,262,194,EB_DRAW,(XCHAR*)SaladBlackenedTil_EditBox1_Text,250,GOLScheme_DescText);
 BUTTON *pSaladBlackenedTil_Button8;
@@ -2463,8 +2672,8 @@ BUTTON *pSaladBlackenedTil_Button6;
     CreateScheme_MainName();
 WINDOW *pSaladGarden_Window1;
     pSaladGarden_Window1 = WndCreate(ID_SaladGarden_Window1,0,0,480,42,WND_DRAW|WND_TITLECENTER,NULL,(XCHAR*)SaladGarden_Window1_Text,GOLScheme_WinSch);
-//PICTURE *pSaladGarden_Picture1;
-//    pSaladGarden_Picture1 = PictCreate(ID_SaladGarden_Picture1,353,64,463,174,PICT_DRAW,1,(void *)&bmpGardenBu,GOLScheme_ButtonTx);
+PICTURE *pSaladGarden_Picture1;
+    pSaladGarden_Picture1 = PictCreate(ID_SaladGarden_Picture1,353,64,463,174,PICT_DRAW,1,(void *)&GardenBu,GOLScheme_ButtonTx);
 EDITBOX *pSaladGarden_EditBox1;
     pSaladGarden_EditBox1 = EbCreate(ID_SaladGarden_EditBox1,17,64,262,194,EB_DRAW,(XCHAR*)SaladGarden_EditBox1_Text,250,GOLScheme_DescText);
 BUTTON *pSaladGarden_Button8;
@@ -2493,8 +2702,8 @@ BUTTON *pSaladGarden_Button6;
     CreateScheme_MainName();
 WINDOW *pSaladBaconator_Window1;
     pSaladBaconator_Window1 = WndCreate(ID_SaladBaconator_Window1,0,0,480,42,WND_DRAW|WND_TITLECENTER,NULL,(XCHAR*)SaladBaconator_Window1_Text,GOLScheme_WinSch);
-//PICTURE *pSaladBaconator_Picture1;
-//    pSaladBaconator_Picture1 = PictCreate(ID_SaladBaconator_Picture1,353,64,463,174,PICT_DRAW,1,(void *)&bmpbaconSal,GOLScheme_ButtonTx);
+PICTURE *pSaladBaconator_Picture1;
+    pSaladBaconator_Picture1 = PictCreate(ID_SaladBaconator_Picture1,353,64,463,174,PICT_DRAW,1,(void *)&baconSal,GOLScheme_ButtonTx);
 EDITBOX *pSaladBaconator_EditBox1;
     pSaladBaconator_EditBox1 = EbCreate(ID_SaladBaconator_EditBox1,17,64,262,194,EB_DRAW,(XCHAR*)SaladBaconator_EditBox1_Text,250,GOLScheme_DescText);
 BUTTON *pSaladBaconator_Button8;
@@ -2508,6 +2717,866 @@ BUTTON *pSaladBaconator_Button5;
 BUTTON *pSaladBaconator_Button6;
     pSaladBaconator_Button6 = BtnCreate(ID_SaladBaconator_Button6,421,218,463,255,1,BTN_DRAW,NULL,(XCHAR*)SaladBaconator_Button6_Text,GOLScheme_ButtonTx);
 } // End of CreateSaladBaconator
+
+
+    void CreateDessApple(void) {
+    GOLFree();
+    SetColor(0); // Color [Black]
+    ClearDevice();
+    #ifdef USE_TRANSPARENT_COLOR
+    TransparentColorEnable(0); // Color [A=0, R=0, G=0, B=0]
+    #endif
+    CreateScheme_ButtonTx();
+    CreateScheme_WinSch();
+    CreateScheme_DescText();
+    CreateScheme_MainName();
+WINDOW *pDessApple_Window1;
+    pDessApple_Window1 = WndCreate(ID_DessApple_Window1,0,0,480,42,WND_DRAW|WND_TITLECENTER,NULL,(XCHAR*)DessApple_Window1_Text,GOLScheme_WinSch);
+PICTURE *pDessApple_Picture1;
+    pDessApple_Picture1 = PictCreate(ID_DessApple_Picture1,353,64,463,174,PICT_DRAW,1,(void *)&apple,GOLScheme_ButtonTx);
+EDITBOX *pDessApple_EditBox1;
+    pDessApple_EditBox1 = EbCreate(ID_DessApple_EditBox1,17,64,262,194,EB_DRAW,(XCHAR*)DessApple_EditBox1_Text,250,GOLScheme_DescText);
+BUTTON *pDessApple_Button8;
+    pDessApple_Button8 = BtnCreate(ID_DessApple_Button8,306,218,404,255,1,BTN_DRAW,NULL,(XCHAR*)DessApple_Button8_Text,GOLScheme_ButtonTx);
+BUTTON *pDessApple_Button3;
+    pDessApple_Button3 = BtnCreate(ID_DessApple_Button3,191,218,289,255,1,BTN_DRAW,NULL,(XCHAR*)DessApple_Button3_Text,GOLScheme_ButtonTx);
+BUTTON *pDessApple_Button4;
+    pDessApple_Button4 = BtnCreate(ID_DessApple_Button4,76,218,174,255,1,BTN_DRAW,NULL,(XCHAR*)DessApple_Button4_Text,GOLScheme_ButtonTx);
+BUTTON *pDessApple_Button5;
+    pDessApple_Button5 = BtnCreate(ID_DessApple_Button5,17,218,59,255,1,BTN_DRAW,NULL,(XCHAR*)DessApple_Button5_Text,GOLScheme_ButtonTx);
+BUTTON *pDessApple_Button6;
+    pDessApple_Button6 = BtnCreate(ID_DessApple_Button6,421,218,463,255,1,BTN_DRAW,NULL,(XCHAR*)DessApple_Button6_Text,GOLScheme_ButtonTx);
+} // End of CreateDessApple
+
+
+    void CreateDessertsList(void) {
+    GOLFree();
+    SetColor(0); // Color [Black]
+    ClearDevice();
+    #ifdef USE_TRANSPARENT_COLOR
+    TransparentColorEnable(0); // Color [A=0, R=0, G=0, B=0]
+    #endif
+    CreateScheme_ButtonTx();
+    CreateScheme_WinSch();
+    CreateScheme_DescText();
+    CreateScheme_MainName();
+WINDOW *pDessertsList_Window1;
+    pDessertsList_Window1 = WndCreate(ID_DessertsList_Window1,0,0,480,42,WND_DRAW|WND_TITLECENTER,NULL,(XCHAR*)DessertsList_Window1_Text,GOLScheme_WinSch);
+BUTTON *pDessertsList_Button1;
+    pDessertsList_Button1 = BtnCreate(ID_DessertsList_Button1,11,69,154,92,1,BTN_DRAW,NULL,(XCHAR*)DessertsList_Button1_Text,GOLScheme_ButtonTx);
+BUTTON *pDessertsList_Button2;
+    pDessertsList_Button2 = BtnCreate(ID_DessertsList_Button2,11,156,154,179,1,BTN_DRAW,NULL,(XCHAR*)DessertsList_Button2_Text,GOLScheme_ButtonTx);
+BUTTON *pDessertsList_Button3;
+    pDessertsList_Button3 = BtnCreate(ID_DessertsList_Button3,176,111,319,134,1,BTN_DRAW,NULL,(XCHAR*)DessertsList_Button3_Text,GOLScheme_ButtonTx);
+BUTTON *pDessertsList_Button5;
+    pDessertsList_Button5 = BtnCreate(ID_DessertsList_Button5,176,69,319,92,1,BTN_DRAW,NULL,(XCHAR*)DessertsList_Button5_Text,GOLScheme_ButtonTx);
+BUTTON *pDessertsList_Button7;
+    pDessertsList_Button7 = BtnCreate(ID_DessertsList_Button7,330,111,475,134,1,BTN_DRAW,NULL,(XCHAR*)DessertsList_Button7_Text,GOLScheme_ButtonTx);
+BUTTON *pDessertsList_Button8;
+    pDessertsList_Button8 = BtnCreate(ID_DessertsList_Button8,344,227,442,264,1,BTN_DRAW,NULL,(XCHAR*)DessertsList_Button8_Text,GOLScheme_ButtonTx);
+BUTTON *pDessertsList_Button9;
+    pDessertsList_Button9 = BtnCreate(ID_DessertsList_Button9,11,111,154,134,1,BTN_DRAW,NULL,(XCHAR*)DessertsList_Button9_Text,GOLScheme_ButtonTx);
+BUTTON *pDessertsList_Button10;
+    pDessertsList_Button10 = BtnCreate(ID_DessertsList_Button10,330,69,475,92,1,BTN_DRAW,NULL,(XCHAR*)DessertsList_Button10_Text,GOLScheme_ButtonTx);
+BUTTON *pDessertsList_Button11;
+    pDessertsList_Button11 = BtnCreate(ID_DessertsList_Button11,330,156,475,179,1,BTN_DRAW,NULL,(XCHAR*)DessertsList_Button11_Text,GOLScheme_ButtonTx);
+BUTTON *pDessertsList_Button12;
+    pDessertsList_Button12 = BtnCreate(ID_DessertsList_Button12,39,227,137,264,1,BTN_DRAW,NULL,(XCHAR*)DessertsList_Button12_Text,GOLScheme_ButtonTx);
+} // End of CreateDessertsList
+
+
+    void CreateDessBlue(void) {
+    GOLFree();
+    SetColor(0); // Color [Black]
+    ClearDevice();
+    #ifdef USE_TRANSPARENT_COLOR
+    TransparentColorEnable(0); // Color [A=0, R=0, G=0, B=0]
+    #endif
+    CreateScheme_ButtonTx();
+    CreateScheme_WinSch();
+    CreateScheme_DescText();
+    CreateScheme_MainName();
+WINDOW *pDessBlue_Window1;
+    pDessBlue_Window1 = WndCreate(ID_DessBlue_Window1,0,0,480,42,WND_DRAW|WND_TITLECENTER,NULL,(XCHAR*)DessBlue_Window1_Text,GOLScheme_WinSch);
+PICTURE *pDessBlue_Picture1;
+    pDessBlue_Picture1 = PictCreate(ID_DessBlue_Picture1,353,64,463,174,PICT_DRAW,1,(void *)&blueberr,GOLScheme_ButtonTx);
+EDITBOX *pDessBlue_EditBox1;
+    pDessBlue_EditBox1 = EbCreate(ID_DessBlue_EditBox1,17,64,262,194,EB_DRAW,(XCHAR*)DessBlue_EditBox1_Text,250,GOLScheme_DescText);
+BUTTON *pDessBlue_Button8;
+    pDessBlue_Button8 = BtnCreate(ID_DessBlue_Button8,306,218,404,255,1,BTN_DRAW,NULL,(XCHAR*)DessBlue_Button8_Text,GOLScheme_ButtonTx);
+BUTTON *pDessBlue_Button3;
+    pDessBlue_Button3 = BtnCreate(ID_DessBlue_Button3,191,218,289,255,1,BTN_DRAW,NULL,(XCHAR*)DessBlue_Button3_Text,GOLScheme_ButtonTx);
+BUTTON *pDessBlue_Button4;
+    pDessBlue_Button4 = BtnCreate(ID_DessBlue_Button4,76,218,174,255,1,BTN_DRAW,NULL,(XCHAR*)DessBlue_Button4_Text,GOLScheme_ButtonTx);
+BUTTON *pDessBlue_Button5;
+    pDessBlue_Button5 = BtnCreate(ID_DessBlue_Button5,17,218,59,255,1,BTN_DRAW,NULL,(XCHAR*)DessBlue_Button5_Text,GOLScheme_ButtonTx);
+BUTTON *pDessBlue_Button6;
+    pDessBlue_Button6 = BtnCreate(ID_DessBlue_Button6,421,218,463,255,1,BTN_DRAW,NULL,(XCHAR*)DessBlue_Button6_Text,GOLScheme_ButtonTx);
+} // End of CreateDessBlue
+
+
+    void CreateDessBrownie(void) {
+    GOLFree();
+    SetColor(0); // Color [Black]
+    ClearDevice();
+    #ifdef USE_TRANSPARENT_COLOR
+    TransparentColorEnable(0); // Color [A=0, R=0, G=0, B=0]
+    #endif
+    CreateScheme_ButtonTx();
+    CreateScheme_WinSch();
+    CreateScheme_DescText();
+    CreateScheme_MainName();
+WINDOW *pDessBrownie_Window1;
+    pDessBrownie_Window1 = WndCreate(ID_DessBrownie_Window1,0,0,480,42,WND_DRAW|WND_TITLECENTER,NULL,(XCHAR*)DessBrownie_Window1_Text,GOLScheme_WinSch);
+PICTURE *pDessBrownie_Picture1;
+    pDessBrownie_Picture1 = PictCreate(ID_DessBrownie_Picture1,353,64,463,174,PICT_DRAW,1,(void *)&Brownie,GOLScheme_ButtonTx);
+EDITBOX *pDessBrownie_EditBox1;
+    pDessBrownie_EditBox1 = EbCreate(ID_DessBrownie_EditBox1,17,64,262,194,EB_DRAW,(XCHAR*)DessBrownie_EditBox1_Text,250,GOLScheme_DescText);
+BUTTON *pDessBrownie_Button8;
+    pDessBrownie_Button8 = BtnCreate(ID_DessBrownie_Button8,306,218,404,255,1,BTN_DRAW,NULL,(XCHAR*)DessBrownie_Button8_Text,GOLScheme_ButtonTx);
+BUTTON *pDessBrownie_Button3;
+    pDessBrownie_Button3 = BtnCreate(ID_DessBrownie_Button3,191,218,289,255,1,BTN_DRAW,NULL,(XCHAR*)DessBrownie_Button3_Text,GOLScheme_ButtonTx);
+BUTTON *pDessBrownie_Button4;
+    pDessBrownie_Button4 = BtnCreate(ID_DessBrownie_Button4,76,218,174,255,1,BTN_DRAW,NULL,(XCHAR*)DessBrownie_Button4_Text,GOLScheme_ButtonTx);
+BUTTON *pDessBrownie_Button5;
+    pDessBrownie_Button5 = BtnCreate(ID_DessBrownie_Button5,17,218,59,255,1,BTN_DRAW,NULL,(XCHAR*)DessBrownie_Button5_Text,GOLScheme_ButtonTx);
+BUTTON *pDessBrownie_Button6;
+    pDessBrownie_Button6 = BtnCreate(ID_DessBrownie_Button6,421,218,463,255,1,BTN_DRAW,NULL,(XCHAR*)DessBrownie_Button6_Text,GOLScheme_ButtonTx);
+} // End of CreateDessBrownie
+
+
+    void CreateDessMousse(void) {
+    GOLFree();
+    SetColor(0); // Color [Black]
+    ClearDevice();
+    #ifdef USE_TRANSPARENT_COLOR
+    TransparentColorEnable(0); // Color [A=0, R=0, G=0, B=0]
+    #endif
+    CreateScheme_ButtonTx();
+    CreateScheme_WinSch();
+    CreateScheme_DescText();
+    CreateScheme_MainName();
+WINDOW *pDessMousse_Window1;
+    pDessMousse_Window1 = WndCreate(ID_DessMousse_Window1,0,0,480,42,WND_DRAW|WND_TITLECENTER,NULL,(XCHAR*)DessMousse_Window1_Text,GOLScheme_WinSch);
+PICTURE *pDessMousse_Picture1;
+    pDessMousse_Picture1 = PictCreate(ID_DessMousse_Picture1,353,64,463,174,PICT_DRAW,1,(void *)&Mousse,GOLScheme_ButtonTx);
+EDITBOX *pDessMousse_EditBox1;
+    pDessMousse_EditBox1 = EbCreate(ID_DessMousse_EditBox1,17,64,262,194,EB_DRAW,(XCHAR*)DessMousse_EditBox1_Text,250,GOLScheme_DescText);
+BUTTON *pDessMousse_Button8;
+    pDessMousse_Button8 = BtnCreate(ID_DessMousse_Button8,306,218,404,255,1,BTN_DRAW,NULL,(XCHAR*)DessMousse_Button8_Text,GOLScheme_ButtonTx);
+BUTTON *pDessMousse_Button3;
+    pDessMousse_Button3 = BtnCreate(ID_DessMousse_Button3,191,218,289,255,1,BTN_DRAW,NULL,(XCHAR*)DessMousse_Button3_Text,GOLScheme_ButtonTx);
+BUTTON *pDessMousse_Button4;
+    pDessMousse_Button4 = BtnCreate(ID_DessMousse_Button4,76,218,174,255,1,BTN_DRAW,NULL,(XCHAR*)DessMousse_Button4_Text,GOLScheme_ButtonTx);
+BUTTON *pDessMousse_Button5;
+    pDessMousse_Button5 = BtnCreate(ID_DessMousse_Button5,17,218,59,255,1,BTN_DRAW,NULL,(XCHAR*)DessMousse_Button5_Text,GOLScheme_ButtonTx);
+BUTTON *pDessMousse_Button6;
+    pDessMousse_Button6 = BtnCreate(ID_DessMousse_Button6,421,218,463,255,1,BTN_DRAW,NULL,(XCHAR*)DessMousse_Button6_Text,GOLScheme_ButtonTx);
+} // End of CreateDessMousse
+
+
+    void CreateDessPeanut(void) {
+    GOLFree();
+    SetColor(0); // Color [Black]
+    ClearDevice();
+    #ifdef USE_TRANSPARENT_COLOR
+    TransparentColorEnable(0); // Color [A=0, R=0, G=0, B=0]
+    #endif
+    CreateScheme_ButtonTx();
+    CreateScheme_WinSch();
+    CreateScheme_DescText();
+    CreateScheme_MainName();
+WINDOW *pDessPeanut_Window1;
+    pDessPeanut_Window1 = WndCreate(ID_DessPeanut_Window1,0,0,480,42,WND_DRAW|WND_TITLECENTER,NULL,(XCHAR*)DessPeanut_Window1_Text,GOLScheme_WinSch);
+PICTURE *pDessPeanut_Picture1;
+    pDessPeanut_Picture1 = PictCreate(ID_DessPeanut_Picture1,353,64,463,174,PICT_DRAW,1,(void *)&peanut,GOLScheme_ButtonTx);
+EDITBOX *pDessPeanut_EditBox1;
+    pDessPeanut_EditBox1 = EbCreate(ID_DessPeanut_EditBox1,17,64,262,194,EB_DRAW,(XCHAR*)DessPeanut_EditBox1_Text,250,GOLScheme_DescText);
+BUTTON *pDessPeanut_Button8;
+    pDessPeanut_Button8 = BtnCreate(ID_DessPeanut_Button8,306,218,404,255,1,BTN_DRAW,NULL,(XCHAR*)DessPeanut_Button8_Text,GOLScheme_ButtonTx);
+BUTTON *pDessPeanut_Button3;
+    pDessPeanut_Button3 = BtnCreate(ID_DessPeanut_Button3,191,218,289,255,1,BTN_DRAW,NULL,(XCHAR*)DessPeanut_Button3_Text,GOLScheme_ButtonTx);
+BUTTON *pDessPeanut_Button4;
+    pDessPeanut_Button4 = BtnCreate(ID_DessPeanut_Button4,76,218,174,255,1,BTN_DRAW,NULL,(XCHAR*)DessPeanut_Button4_Text,GOLScheme_ButtonTx);
+BUTTON *pDessPeanut_Button5;
+    pDessPeanut_Button5 = BtnCreate(ID_DessPeanut_Button5,17,218,59,255,1,BTN_DRAW,NULL,(XCHAR*)DessPeanut_Button5_Text,GOLScheme_ButtonTx);
+BUTTON *pDessPeanut_Button6;
+    pDessPeanut_Button6 = BtnCreate(ID_DessPeanut_Button6,421,218,463,255,1,BTN_DRAW,NULL,(XCHAR*)DessPeanut_Button6_Text,GOLScheme_ButtonTx);
+} // End of CreateDessPeanut
+
+
+    void CreateDessRedVel(void) {
+    GOLFree();
+    SetColor(0); // Color [Black]
+    ClearDevice();
+    #ifdef USE_TRANSPARENT_COLOR
+    TransparentColorEnable(0); // Color [A=0, R=0, G=0, B=0]
+    #endif
+    CreateScheme_ButtonTx();
+    CreateScheme_WinSch();
+    CreateScheme_DescText();
+    CreateScheme_MainName();
+WINDOW *pDessRedVel_Window1;
+    pDessRedVel_Window1 = WndCreate(ID_DessRedVel_Window1,0,0,480,42,WND_DRAW|WND_TITLECENTER,NULL,(XCHAR*)DessRedVel_Window1_Text,GOLScheme_WinSch);
+PICTURE *pDessRedVel_Picture1;
+    pDessRedVel_Picture1 = PictCreate(ID_DessRedVel_Picture1,353,64,463,174,PICT_DRAW,1,(void *)&redvel,GOLScheme_ButtonTx);
+EDITBOX *pDessRedVel_EditBox1;
+    pDessRedVel_EditBox1 = EbCreate(ID_DessRedVel_EditBox1,17,64,262,194,EB_DRAW,(XCHAR*)DessRedVel_EditBox1_Text,250,GOLScheme_DescText);
+BUTTON *pDessRedVel_Button8;
+    pDessRedVel_Button8 = BtnCreate(ID_DessRedVel_Button8,306,218,404,255,1,BTN_DRAW,NULL,(XCHAR*)DessRedVel_Button8_Text,GOLScheme_ButtonTx);
+BUTTON *pDessRedVel_Button3;
+    pDessRedVel_Button3 = BtnCreate(ID_DessRedVel_Button3,191,218,289,255,1,BTN_DRAW,NULL,(XCHAR*)DessRedVel_Button3_Text,GOLScheme_ButtonTx);
+BUTTON *pDessRedVel_Button4;
+    pDessRedVel_Button4 = BtnCreate(ID_DessRedVel_Button4,76,218,174,255,1,BTN_DRAW,NULL,(XCHAR*)DessRedVel_Button4_Text,GOLScheme_ButtonTx);
+BUTTON *pDessRedVel_Button5;
+    pDessRedVel_Button5 = BtnCreate(ID_DessRedVel_Button5,17,218,59,255,1,BTN_DRAW,NULL,(XCHAR*)DessRedVel_Button5_Text,GOLScheme_ButtonTx);
+BUTTON *pDessRedVel_Button6;
+    pDessRedVel_Button6 = BtnCreate(ID_DessRedVel_Button6,421,218,463,255,1,BTN_DRAW,NULL,(XCHAR*)DessRedVel_Button6_Text,GOLScheme_ButtonTx);
+} // End of CreateDessRedVel
+
+
+    void CreateDessStraw(void) {
+    GOLFree();
+    SetColor(0); // Color [Black]
+    ClearDevice();
+    #ifdef USE_TRANSPARENT_COLOR
+    TransparentColorEnable(0); // Color [A=0, R=0, G=0, B=0]
+    #endif
+    CreateScheme_ButtonTx();
+    CreateScheme_WinSch();
+    CreateScheme_DescText();
+    CreateScheme_MainName();
+WINDOW *pDessStraw_Window1;
+    pDessStraw_Window1 = WndCreate(ID_DessStraw_Window1,0,0,480,42,WND_DRAW|WND_TITLECENTER,NULL,(XCHAR*)DessStraw_Window1_Text,GOLScheme_WinSch);
+PICTURE *pDessStraw_Picture1;
+    pDessStraw_Picture1 = PictCreate(ID_DessStraw_Picture1,353,64,463,174,PICT_DRAW,1,(void *)&Strawb,GOLScheme_ButtonTx);
+EDITBOX *pDessStraw_EditBox1;
+    pDessStraw_EditBox1 = EbCreate(ID_DessStraw_EditBox1,17,64,262,194,EB_DRAW,(XCHAR*)DessStraw_EditBox1_Text,250,GOLScheme_DescText);
+BUTTON *pDessStraw_Button8;
+    pDessStraw_Button8 = BtnCreate(ID_DessStraw_Button8,306,218,404,255,1,BTN_DRAW,NULL,(XCHAR*)DessStraw_Button8_Text,GOLScheme_ButtonTx);
+BUTTON *pDessStraw_Button3;
+    pDessStraw_Button3 = BtnCreate(ID_DessStraw_Button3,191,218,289,255,1,BTN_DRAW,NULL,(XCHAR*)DessStraw_Button3_Text,GOLScheme_ButtonTx);
+BUTTON *pDessStraw_Button4;
+    pDessStraw_Button4 = BtnCreate(ID_DessStraw_Button4,76,218,174,255,1,BTN_DRAW,NULL,(XCHAR*)DessStraw_Button4_Text,GOLScheme_ButtonTx);
+BUTTON *pDessStraw_Button5;
+    pDessStraw_Button5 = BtnCreate(ID_DessStraw_Button5,17,218,59,255,1,BTN_DRAW,NULL,(XCHAR*)DessStraw_Button5_Text,GOLScheme_ButtonTx);
+BUTTON *pDessStraw_Button6;
+    pDessStraw_Button6 = BtnCreate(ID_DessStraw_Button6,421,218,463,255,1,BTN_DRAW,NULL,(XCHAR*)DessStraw_Button6_Text,GOLScheme_ButtonTx);
+} // End of CreateDessStraw
+
+
+    void CreateDessSundae(void) {
+    GOLFree();
+    SetColor(0); // Color [Black]
+    ClearDevice();
+    #ifdef USE_TRANSPARENT_COLOR
+    TransparentColorEnable(0); // Color [A=0, R=0, G=0, B=0]
+    #endif
+    CreateScheme_ButtonTx();
+    CreateScheme_WinSch();
+    CreateScheme_DescText();
+    CreateScheme_MainName();
+WINDOW *pDessSundae_Window1;
+    pDessSundae_Window1 = WndCreate(ID_DessSundae_Window1,0,0,480,42,WND_DRAW|WND_TITLECENTER,NULL,(XCHAR*)DessSundae_Window1_Text,GOLScheme_WinSch);
+PICTURE *pDessSundae_Picture1;
+    pDessSundae_Picture1 = PictCreate(ID_DessSundae_Picture1,353,64,463,174,PICT_DRAW,1,(void *)&Sundae,GOLScheme_ButtonTx);
+EDITBOX *pDessSundae_EditBox1;
+    pDessSundae_EditBox1 = EbCreate(ID_DessSundae_EditBox1,17,64,262,194,EB_DRAW,(XCHAR*)DessSundae_EditBox1_Text,250,GOLScheme_DescText);
+BUTTON *pDessSundae_Button8;
+    pDessSundae_Button8 = BtnCreate(ID_DessSundae_Button8,306,218,404,255,1,BTN_DRAW,NULL,(XCHAR*)DessSundae_Button8_Text,GOLScheme_ButtonTx);
+BUTTON *pDessSundae_Button3;
+    pDessSundae_Button3 = BtnCreate(ID_DessSundae_Button3,191,218,289,255,1,BTN_DRAW,NULL,(XCHAR*)DessSundae_Button3_Text,GOLScheme_ButtonTx);
+BUTTON *pDessSundae_Button4;
+    pDessSundae_Button4 = BtnCreate(ID_DessSundae_Button4,76,218,174,255,1,BTN_DRAW,NULL,(XCHAR*)DessSundae_Button4_Text,GOLScheme_ButtonTx);
+BUTTON *pDessSundae_Button5;
+    pDessSundae_Button5 = BtnCreate(ID_DessSundae_Button5,17,218,59,255,1,BTN_DRAW,NULL,(XCHAR*)DessSundae_Button5_Text,GOLScheme_ButtonTx);
+BUTTON *pDessSundae_Button6;
+    pDessSundae_Button6 = BtnCreate(ID_DessSundae_Button6,421,218,463,255,1,BTN_DRAW,NULL,(XCHAR*)DessSundae_Button6_Text,GOLScheme_ButtonTx);
+} // End of CreateDessSundae
+
+
+    void CreateDinCornBeef(void) {
+    GOLFree();
+    SetColor(0); // Color [Black]
+    ClearDevice();
+    #ifdef USE_TRANSPARENT_COLOR
+    TransparentColorEnable(0); // Color [A=0, R=0, G=0, B=0]
+    #endif
+    CreateScheme_ButtonTx();
+    CreateScheme_WinSch();
+    CreateScheme_DescText();
+    CreateScheme_MainName();
+WINDOW *pDinCornBeef_Window1;
+    pDinCornBeef_Window1 = WndCreate(ID_DinCornBeef_Window1,0,0,480,42,WND_DRAW|WND_TITLECENTER,NULL,(XCHAR*)DinCornBeef_Window1_Text,GOLScheme_WinSch);
+PICTURE *pDinCornBeef_Picture1;
+    pDinCornBeef_Picture1 = PictCreate(ID_DinCornBeef_Picture1,353,64,463,174,PICT_DRAW,1,(void *)&cabbage,GOLScheme_ButtonTx);
+EDITBOX *pDinCornBeef_EditBox1;
+    pDinCornBeef_EditBox1 = EbCreate(ID_DinCornBeef_EditBox1,17,64,262,194,EB_DRAW,(XCHAR*)DinCornBeef_EditBox1_Text,250,GOLScheme_DescText);
+BUTTON *pDinCornBeef_Button8;
+    pDinCornBeef_Button8 = BtnCreate(ID_DinCornBeef_Button8,191,218,289,255,1,BTN_DRAW,NULL,(XCHAR*)DinCornBeef_Button8_Text,GOLScheme_ButtonTx);
+BUTTON *pDinCornBeef_Button3;
+    pDinCornBeef_Button3 = BtnCreate(ID_DinCornBeef_Button3,306,218,404,255,1,BTN_DRAW,NULL,(XCHAR*)DinCornBeef_Button3_Text,GOLScheme_ButtonTx);
+BUTTON *pDinCornBeef_Button4;
+    pDinCornBeef_Button4 = BtnCreate(ID_DinCornBeef_Button4,76,218,174,255,1,BTN_DRAW,NULL,(XCHAR*)DinCornBeef_Button4_Text,GOLScheme_ButtonTx);
+BUTTON *pDinCornBeef_Button5;
+    pDinCornBeef_Button5 = BtnCreate(ID_DinCornBeef_Button5,17,218,59,255,1,BTN_DRAW,NULL,(XCHAR*)DinCornBeef_Button5_Text,GOLScheme_ButtonTx);
+BUTTON *pDinCornBeef_Button6;
+    pDinCornBeef_Button6 = BtnCreate(ID_DinCornBeef_Button6,421,218,463,255,1,BTN_DRAW,NULL,(XCHAR*)DinCornBeef_Button6_Text,GOLScheme_ButtonTx);
+} // End of CreateDinCornBeef
+
+
+    void CreateDinnerList(void) {
+    GOLFree();
+    SetColor(0); // Color [Black]
+    ClearDevice();
+    #ifdef USE_TRANSPARENT_COLOR
+    TransparentColorEnable(0); // Color [A=0, R=0, G=0, B=0]
+    #endif
+    CreateScheme_ButtonTx();
+    CreateScheme_WinSch();
+    CreateScheme_DescText();
+    CreateScheme_MainName();
+WINDOW *pDinnerList_Window1;
+    pDinnerList_Window1 = WndCreate(ID_DinnerList_Window1,0,0,480,42,WND_DRAW|WND_TITLECENTER,NULL,(XCHAR*)DinnerList_Window1_Text,GOLScheme_WinSch);
+BUTTON *pDinnerList_Button1;
+    pDinnerList_Button1 = BtnCreate(ID_DinnerList_Button1,11,69,154,92,1,BTN_DRAW,NULL,(XCHAR*)DinnerList_Button1_Text,GOLScheme_ButtonTx);
+BUTTON *pDinnerList_Button2;
+    pDinnerList_Button2 = BtnCreate(ID_DinnerList_Button2,11,156,154,179,1,BTN_DRAW,NULL,(XCHAR*)DinnerList_Button2_Text,GOLScheme_ButtonTx);
+BUTTON *pDinnerList_Button3;
+    pDinnerList_Button3 = BtnCreate(ID_DinnerList_Button3,176,111,319,134,1,BTN_DRAW,NULL,(XCHAR*)DinnerList_Button3_Text,GOLScheme_ButtonTx);
+BUTTON *pDinnerList_Button4;
+    pDinnerList_Button4 = BtnCreate(ID_DinnerList_Button4,174,194,319,217,1,BTN_DRAW,NULL,(XCHAR*)DinnerList_Button4_Text,GOLScheme_ButtonTx);
+BUTTON *pDinnerList_Button5;
+    pDinnerList_Button5 = BtnCreate(ID_DinnerList_Button5,176,69,319,92,1,BTN_DRAW,NULL,(XCHAR*)DinnerList_Button5_Text,GOLScheme_ButtonTx);
+BUTTON *pDinnerList_Button6;
+    pDinnerList_Button6 = BtnCreate(ID_DinnerList_Button6,174,156,317,179,1,BTN_DRAW,NULL,(XCHAR*)DinnerList_Button6_Text,GOLScheme_ButtonTx);
+BUTTON *pDinnerList_Button7;
+    pDinnerList_Button7 = BtnCreate(ID_DinnerList_Button7,330,111,475,134,1,BTN_DRAW,NULL,(XCHAR*)DinnerList_Button7_Text,GOLScheme_ButtonTx);
+BUTTON *pDinnerList_Button8;
+    pDinnerList_Button8 = BtnCreate(ID_DinnerList_Button8,344,227,442,264,1,BTN_DRAW,NULL,(XCHAR*)DinnerList_Button8_Text,GOLScheme_ButtonTx);
+BUTTON *pDinnerList_Button9;
+    pDinnerList_Button9 = BtnCreate(ID_DinnerList_Button9,11,111,154,134,1,BTN_DRAW,NULL,(XCHAR*)DinnerList_Button9_Text,GOLScheme_ButtonTx);
+BUTTON *pDinnerList_Button10;
+    pDinnerList_Button10 = BtnCreate(ID_DinnerList_Button10,330,69,475,92,1,BTN_DRAW,NULL,(XCHAR*)DinnerList_Button10_Text,GOLScheme_ButtonTx);
+BUTTON *pDinnerList_Button11;
+    pDinnerList_Button11 = BtnCreate(ID_DinnerList_Button11,330,156,475,179,1,BTN_DRAW,NULL,(XCHAR*)DinnerList_Button11_Text,GOLScheme_ButtonTx);
+BUTTON *pDinnerList_Button12;
+    pDinnerList_Button12 = BtnCreate(ID_DinnerList_Button12,39,227,137,264,1,BTN_DRAW,NULL,(XCHAR*)DinnerList_Button12_Text,GOLScheme_ButtonTx);
+} // End of CreateDinnerList
+
+
+    void CreateDinFriedChiken(void) {
+    GOLFree();
+    SetColor(0); // Color [Black]
+    ClearDevice();
+    #ifdef USE_TRANSPARENT_COLOR
+    TransparentColorEnable(0); // Color [A=0, R=0, G=0, B=0]
+    #endif
+    CreateScheme_ButtonTx();
+    CreateScheme_WinSch();
+    CreateScheme_DescText();
+    CreateScheme_MainName();
+WINDOW *pDinFriedChiken_Window1;
+    pDinFriedChiken_Window1 = WndCreate(ID_DinFriedChiken_Window1,0,0,480,42,WND_DRAW|WND_TITLECENTER,NULL,(XCHAR*)DinFriedChiken_Window1_Text,GOLScheme_WinSch);
+PICTURE *pDinFriedChiken_Picture1;
+    pDinFriedChiken_Picture1 = PictCreate(ID_DinFriedChiken_Picture1,353,64,463,174,PICT_DRAW,1,(void *)&FrChx,GOLScheme_ButtonTx);
+EDITBOX *pDinFriedChiken_EditBox1;
+    pDinFriedChiken_EditBox1 = EbCreate(ID_DinFriedChiken_EditBox1,17,64,262,194,EB_DRAW,(XCHAR*)DinFriedChiken_EditBox1_Text,250,GOLScheme_DescText);
+BUTTON *pDinFriedChiken_Button8;
+    pDinFriedChiken_Button8 = BtnCreate(ID_DinFriedChiken_Button8,191,218,289,255,1,BTN_DRAW,NULL,(XCHAR*)DinFriedChiken_Button8_Text,GOLScheme_ButtonTx);
+BUTTON *pDinFriedChiken_Button3;
+    pDinFriedChiken_Button3 = BtnCreate(ID_DinFriedChiken_Button3,306,218,404,255,1,BTN_DRAW,NULL,(XCHAR*)DinFriedChiken_Button3_Text,GOLScheme_ButtonTx);
+BUTTON *pDinFriedChiken_Button4;
+    pDinFriedChiken_Button4 = BtnCreate(ID_DinFriedChiken_Button4,76,218,174,255,1,BTN_DRAW,NULL,(XCHAR*)DinFriedChiken_Button4_Text,GOLScheme_ButtonTx);
+BUTTON *pDinFriedChiken_Button5;
+    pDinFriedChiken_Button5 = BtnCreate(ID_DinFriedChiken_Button5,17,218,59,255,1,BTN_DRAW,NULL,(XCHAR*)DinFriedChiken_Button5_Text,GOLScheme_ButtonTx);
+BUTTON *pDinFriedChiken_Button6;
+    pDinFriedChiken_Button6 = BtnCreate(ID_DinFriedChiken_Button6,421,218,463,255,1,BTN_DRAW,NULL,(XCHAR*)DinFriedChiken_Button6_Text,GOLScheme_ButtonTx);
+} // End of CreateDinFriedChiken
+
+
+    void CreateDinGrilledChicken(void) {
+    GOLFree();
+    SetColor(0); // Color [Black]
+    ClearDevice();
+    #ifdef USE_TRANSPARENT_COLOR
+    TransparentColorEnable(0); // Color [A=0, R=0, G=0, B=0]
+    #endif
+    CreateScheme_ButtonTx();
+    CreateScheme_WinSch();
+    CreateScheme_DescText();
+    CreateScheme_MainName();
+WINDOW *pDinGrilledChicken_Window1;
+    pDinGrilledChicken_Window1 = WndCreate(ID_DinGrilledChicken_Window1,0,0,480,42,WND_DRAW|WND_TITLECENTER,NULL,(XCHAR*)DinGrilledChicken_Window1_Text,GOLScheme_WinSch);
+PICTURE *pDinGrilledChicken_Picture1;
+    pDinGrilledChicken_Picture1 = PictCreate(ID_DinGrilledChicken_Picture1,353,64,463,174,PICT_DRAW,1,(void *)&GrChx,GOLScheme_ButtonTx);
+EDITBOX *pDinGrilledChicken_EditBox1;
+    pDinGrilledChicken_EditBox1 = EbCreate(ID_DinGrilledChicken_EditBox1,17,64,262,194,EB_DRAW,(XCHAR*)DinGrilledChicken_EditBox1_Text,250,GOLScheme_DescText);
+BUTTON *pDinGrilledChicken_Button8;
+    pDinGrilledChicken_Button8 = BtnCreate(ID_DinGrilledChicken_Button8,191,218,289,255,1,BTN_DRAW,NULL,(XCHAR*)DinGrilledChicken_Button8_Text,GOLScheme_ButtonTx);
+BUTTON *pDinGrilledChicken_Button3;
+    pDinGrilledChicken_Button3 = BtnCreate(ID_DinGrilledChicken_Button3,306,218,404,255,1,BTN_DRAW,NULL,(XCHAR*)DinGrilledChicken_Button3_Text,GOLScheme_ButtonTx);
+BUTTON *pDinGrilledChicken_Button4;
+    pDinGrilledChicken_Button4 = BtnCreate(ID_DinGrilledChicken_Button4,76,218,174,255,1,BTN_DRAW,NULL,(XCHAR*)DinGrilledChicken_Button4_Text,GOLScheme_ButtonTx);
+BUTTON *pDinGrilledChicken_Button5;
+    pDinGrilledChicken_Button5 = BtnCreate(ID_DinGrilledChicken_Button5,17,218,59,255,1,BTN_DRAW,NULL,(XCHAR*)DinGrilledChicken_Button5_Text,GOLScheme_ButtonTx);
+BUTTON *pDinGrilledChicken_Button6;
+    pDinGrilledChicken_Button6 = BtnCreate(ID_DinGrilledChicken_Button6,421,218,463,255,1,BTN_DRAW,NULL,(XCHAR*)DinGrilledChicken_Button6_Text,GOLScheme_ButtonTx);
+} // End of CreateDinGrilledChicken
+
+
+    void CreateDinLasagna(void) {
+    GOLFree();
+    SetColor(0); // Color [Black]
+    ClearDevice();
+    #ifdef USE_TRANSPARENT_COLOR
+    TransparentColorEnable(0); // Color [A=0, R=0, G=0, B=0]
+    #endif
+    CreateScheme_ButtonTx();
+    CreateScheme_WinSch();
+    CreateScheme_DescText();
+    CreateScheme_MainName();
+WINDOW *pDinLasagna_Window1;
+    pDinLasagna_Window1 = WndCreate(ID_DinLasagna_Window1,0,0,480,42,WND_DRAW|WND_TITLECENTER,NULL,(XCHAR*)DinLasagna_Window1_Text,GOLScheme_WinSch);
+PICTURE *pDinLasagna_Picture1;
+    pDinLasagna_Picture1 = PictCreate(ID_DinLasagna_Picture1,353,64,463,174,PICT_DRAW,1,(void *)&Lasagna,GOLScheme_ButtonTx);
+EDITBOX *pDinLasagna_EditBox1;
+    pDinLasagna_EditBox1 = EbCreate(ID_DinLasagna_EditBox1,17,64,262,194,EB_DRAW,(XCHAR*)DinLasagna_EditBox1_Text,250,GOLScheme_DescText);
+BUTTON *pDinLasagna_Button8;
+    pDinLasagna_Button8 = BtnCreate(ID_DinLasagna_Button8,191,218,289,255,1,BTN_DRAW,NULL,(XCHAR*)DinLasagna_Button8_Text,GOLScheme_ButtonTx);
+BUTTON *pDinLasagna_Button3;
+    pDinLasagna_Button3 = BtnCreate(ID_DinLasagna_Button3,306,218,404,255,1,BTN_DRAW,NULL,(XCHAR*)DinLasagna_Button3_Text,GOLScheme_ButtonTx);
+BUTTON *pDinLasagna_Button4;
+    pDinLasagna_Button4 = BtnCreate(ID_DinLasagna_Button4,76,218,174,255,1,BTN_DRAW,NULL,(XCHAR*)DinLasagna_Button4_Text,GOLScheme_ButtonTx);
+BUTTON *pDinLasagna_Button5;
+    pDinLasagna_Button5 = BtnCreate(ID_DinLasagna_Button5,17,218,59,255,1,BTN_DRAW,NULL,(XCHAR*)DinLasagna_Button5_Text,GOLScheme_ButtonTx);
+BUTTON *pDinLasagna_Button6;
+    pDinLasagna_Button6 = BtnCreate(ID_DinLasagna_Button6,421,218,463,255,1,BTN_DRAW,NULL,(XCHAR*)DinLasagna_Button6_Text,GOLScheme_ButtonTx);
+} // End of CreateDinLasagna
+
+
+    void CreateDinMarPizza(void) {
+    GOLFree();
+    SetColor(0); // Color [Black]
+    ClearDevice();
+    #ifdef USE_TRANSPARENT_COLOR
+    TransparentColorEnable(0); // Color [A=0, R=0, G=0, B=0]
+    #endif
+    CreateScheme_ButtonTx();
+    CreateScheme_WinSch();
+    CreateScheme_DescText();
+    CreateScheme_MainName();
+WINDOW *pDinMarPizza_Window1;
+    pDinMarPizza_Window1 = WndCreate(ID_DinMarPizza_Window1,0,0,480,42,WND_DRAW|WND_TITLECENTER,NULL,(XCHAR*)DinMarPizza_Window1_Text,GOLScheme_WinSch);
+PICTURE *pDinMarPizza_Picture1;
+    pDinMarPizza_Picture1 = PictCreate(ID_DinMarPizza_Picture1,353,64,463,174,PICT_DRAW,1,(void *)&MPizza,GOLScheme_ButtonTx);
+EDITBOX *pDinMarPizza_EditBox1;
+    pDinMarPizza_EditBox1 = EbCreate(ID_DinMarPizza_EditBox1,17,64,262,194,EB_DRAW,(XCHAR*)DinMarPizza_EditBox1_Text,250,GOLScheme_DescText);
+BUTTON *pDinMarPizza_Button8;
+    pDinMarPizza_Button8 = BtnCreate(ID_DinMarPizza_Button8,191,218,289,255,1,BTN_DRAW,NULL,(XCHAR*)DinMarPizza_Button8_Text,GOLScheme_ButtonTx);
+BUTTON *pDinMarPizza_Button3;
+    pDinMarPizza_Button3 = BtnCreate(ID_DinMarPizza_Button3,306,218,404,255,1,BTN_DRAW,NULL,(XCHAR*)DinMarPizza_Button3_Text,GOLScheme_ButtonTx);
+BUTTON *pDinMarPizza_Button4;
+    pDinMarPizza_Button4 = BtnCreate(ID_DinMarPizza_Button4,76,218,174,255,1,BTN_DRAW,NULL,(XCHAR*)DinMarPizza_Button4_Text,GOLScheme_ButtonTx);
+BUTTON *pDinMarPizza_Button5;
+    pDinMarPizza_Button5 = BtnCreate(ID_DinMarPizza_Button5,17,218,59,255,1,BTN_DRAW,NULL,(XCHAR*)DinMarPizza_Button5_Text,GOLScheme_ButtonTx);
+BUTTON *pDinMarPizza_Button6;
+    pDinMarPizza_Button6 = BtnCreate(ID_DinMarPizza_Button6,421,218,463,255,1,BTN_DRAW,NULL,(XCHAR*)DinMarPizza_Button6_Text,GOLScheme_ButtonTx);
+} // End of CreateDinMarPizza
+
+
+    void CreateDinQuesadilla(void) {
+    GOLFree();
+    SetColor(0); // Color [Black]
+    ClearDevice();
+    #ifdef USE_TRANSPARENT_COLOR
+    TransparentColorEnable(0); // Color [A=0, R=0, G=0, B=0]
+    #endif
+    CreateScheme_ButtonTx();
+    CreateScheme_WinSch();
+    CreateScheme_DescText();
+    CreateScheme_MainName();
+WINDOW *pDinQuesadilla_Window1;
+    pDinQuesadilla_Window1 = WndCreate(ID_DinQuesadilla_Window1,0,0,480,42,WND_DRAW|WND_TITLECENTER,NULL,(XCHAR*)DinQuesadilla_Window1_Text,GOLScheme_WinSch);
+PICTURE *pDinQuesadilla_Picture1;
+    pDinQuesadilla_Picture1 = PictCreate(ID_DinQuesadilla_Picture1,353,64,463,174,PICT_DRAW,1,(void *)&Quesd,GOLScheme_ButtonTx);
+EDITBOX *pDinQuesadilla_EditBox1;
+    pDinQuesadilla_EditBox1 = EbCreate(ID_DinQuesadilla_EditBox1,17,64,262,194,EB_DRAW,(XCHAR*)DinQuesadilla_EditBox1_Text,250,GOLScheme_DescText);
+BUTTON *pDinQuesadilla_Button8;
+    pDinQuesadilla_Button8 = BtnCreate(ID_DinQuesadilla_Button8,191,218,289,255,1,BTN_DRAW,NULL,(XCHAR*)DinQuesadilla_Button8_Text,GOLScheme_ButtonTx);
+BUTTON *pDinQuesadilla_Button3;
+    pDinQuesadilla_Button3 = BtnCreate(ID_DinQuesadilla_Button3,306,218,404,255,1,BTN_DRAW,NULL,(XCHAR*)DinQuesadilla_Button3_Text,GOLScheme_ButtonTx);
+BUTTON *pDinQuesadilla_Button4;
+    pDinQuesadilla_Button4 = BtnCreate(ID_DinQuesadilla_Button4,76,218,174,255,1,BTN_DRAW,NULL,(XCHAR*)DinQuesadilla_Button4_Text,GOLScheme_ButtonTx);
+BUTTON *pDinQuesadilla_Button5;
+    pDinQuesadilla_Button5 = BtnCreate(ID_DinQuesadilla_Button5,17,218,59,255,1,BTN_DRAW,NULL,(XCHAR*)DinQuesadilla_Button5_Text,GOLScheme_ButtonTx);
+BUTTON *pDinQuesadilla_Button6;
+    pDinQuesadilla_Button6 = BtnCreate(ID_DinQuesadilla_Button6,421,218,463,255,1,BTN_DRAW,NULL,(XCHAR*)DinQuesadilla_Button6_Text,GOLScheme_ButtonTx);
+} // End of CreateDinQuesadilla
+
+
+    void CreateDinSpaghetti(void) {
+    GOLFree();
+    SetColor(0); // Color [Black]
+    ClearDevice();
+    #ifdef USE_TRANSPARENT_COLOR
+    TransparentColorEnable(0); // Color [A=0, R=0, G=0, B=0]
+    #endif
+    CreateScheme_ButtonTx();
+    CreateScheme_WinSch();
+    CreateScheme_DescText();
+    CreateScheme_MainName();
+WINDOW *pDinSpaghetti_Window1;
+    pDinSpaghetti_Window1 = WndCreate(ID_DinSpaghetti_Window1,0,0,480,42,WND_DRAW|WND_TITLECENTER,NULL,(XCHAR*)DinSpaghetti_Window1_Text,GOLScheme_WinSch);
+PICTURE *pDinSpaghetti_Picture1;
+    pDinSpaghetti_Picture1 = PictCreate(ID_DinSpaghetti_Picture1,353,64,463,174,PICT_DRAW,1,(void *)&spagmeat,GOLScheme_ButtonTx);
+EDITBOX *pDinSpaghetti_EditBox1;
+    pDinSpaghetti_EditBox1 = EbCreate(ID_DinSpaghetti_EditBox1,17,64,262,194,EB_DRAW,(XCHAR*)DinSpaghetti_EditBox1_Text,250,GOLScheme_DescText);
+BUTTON *pDinSpaghetti_Button8;
+    pDinSpaghetti_Button8 = BtnCreate(ID_DinSpaghetti_Button8,191,218,289,255,1,BTN_DRAW,NULL,(XCHAR*)DinSpaghetti_Button8_Text,GOLScheme_ButtonTx);
+BUTTON *pDinSpaghetti_Button3;
+    pDinSpaghetti_Button3 = BtnCreate(ID_DinSpaghetti_Button3,306,218,404,255,1,BTN_DRAW,NULL,(XCHAR*)DinSpaghetti_Button3_Text,GOLScheme_ButtonTx);
+BUTTON *pDinSpaghetti_Button4;
+    pDinSpaghetti_Button4 = BtnCreate(ID_DinSpaghetti_Button4,76,218,174,255,1,BTN_DRAW,NULL,(XCHAR*)DinSpaghetti_Button4_Text,GOLScheme_ButtonTx);
+BUTTON *pDinSpaghetti_Button5;
+    pDinSpaghetti_Button5 = BtnCreate(ID_DinSpaghetti_Button5,17,218,59,255,1,BTN_DRAW,NULL,(XCHAR*)DinSpaghetti_Button5_Text,GOLScheme_ButtonTx);
+BUTTON *pDinSpaghetti_Button6;
+    pDinSpaghetti_Button6 = BtnCreate(ID_DinSpaghetti_Button6,421,218,463,255,1,BTN_DRAW,NULL,(XCHAR*)DinSpaghetti_Button6_Text,GOLScheme_ButtonTx);
+} // End of CreateDinSpaghetti
+
+
+    void CreateDinSteak(void) {
+    GOLFree();
+    SetColor(0); // Color [Black]
+    ClearDevice();
+    #ifdef USE_TRANSPARENT_COLOR
+    TransparentColorEnable(0); // Color [A=0, R=0, G=0, B=0]
+    #endif
+    CreateScheme_ButtonTx();
+    CreateScheme_WinSch();
+    CreateScheme_DescText();
+    CreateScheme_MainName();
+WINDOW *pDinSteak_Window1;
+    pDinSteak_Window1 = WndCreate(ID_DinSteak_Window1,0,0,480,42,WND_DRAW|WND_TITLECENTER,NULL,(XCHAR*)DinSteak_Window1_Text,GOLScheme_WinSch);
+PICTURE *pDinSteak_Picture1;
+    pDinSteak_Picture1 = PictCreate(ID_DinSteak_Picture1,353,64,463,174,PICT_DRAW,1,(void *)&Steak,GOLScheme_ButtonTx);
+EDITBOX *pDinSteak_EditBox1;
+    pDinSteak_EditBox1 = EbCreate(ID_DinSteak_EditBox1,17,64,262,194,EB_DRAW,(XCHAR*)DinSteak_EditBox1_Text,250,GOLScheme_DescText);
+BUTTON *pDinSteak_Button8;
+    pDinSteak_Button8 = BtnCreate(ID_DinSteak_Button8,191,218,289,255,1,BTN_DRAW,NULL,(XCHAR*)DinSteak_Button8_Text,GOLScheme_ButtonTx);
+BUTTON *pDinSteak_Button3;
+    pDinSteak_Button3 = BtnCreate(ID_DinSteak_Button3,306,218,404,255,1,BTN_DRAW,NULL,(XCHAR*)DinSteak_Button3_Text,GOLScheme_ButtonTx);
+BUTTON *pDinSteak_Button4;
+    pDinSteak_Button4 = BtnCreate(ID_DinSteak_Button4,76,218,174,255,1,BTN_DRAW,NULL,(XCHAR*)DinSteak_Button4_Text,GOLScheme_ButtonTx);
+BUTTON *pDinSteak_Button5;
+    pDinSteak_Button5 = BtnCreate(ID_DinSteak_Button5,17,218,59,255,1,BTN_DRAW,NULL,(XCHAR*)DinSteak_Button5_Text,GOLScheme_ButtonTx);
+BUTTON *pDinSteak_Button6;
+    pDinSteak_Button6 = BtnCreate(ID_DinSteak_Button6,421,218,463,255,1,BTN_DRAW,NULL,(XCHAR*)DinSteak_Button6_Text,GOLScheme_ButtonTx);
+} // End of CreateDinSteak
+
+
+    void CreateDinTilapia(void) {
+    GOLFree();
+    SetColor(0); // Color [Black]
+    ClearDevice();
+    #ifdef USE_TRANSPARENT_COLOR
+    TransparentColorEnable(0); // Color [A=0, R=0, G=0, B=0]
+    #endif
+    CreateScheme_ButtonTx();
+    CreateScheme_WinSch();
+    CreateScheme_DescText();
+    CreateScheme_MainName();
+WINDOW *pDinTilapia_Window1;
+    pDinTilapia_Window1 = WndCreate(ID_DinTilapia_Window1,0,0,480,42,WND_DRAW|WND_TITLECENTER,NULL,(XCHAR*)DinTilapia_Window1_Text,GOLScheme_WinSch);
+PICTURE *pDinTilapia_Picture1;
+    pDinTilapia_Picture1 = PictCreate(ID_DinTilapia_Picture1,353,64,463,174,PICT_DRAW,1,(void *)&Tilipia,GOLScheme_ButtonTx);
+EDITBOX *pDinTilapia_EditBox1;
+    pDinTilapia_EditBox1 = EbCreate(ID_DinTilapia_EditBox1,17,64,262,194,EB_DRAW,(XCHAR*)DinTilapia_EditBox1_Text,250,GOLScheme_DescText);
+BUTTON *pDinTilapia_Button8;
+    pDinTilapia_Button8 = BtnCreate(ID_DinTilapia_Button8,191,218,289,255,1,BTN_DRAW,NULL,(XCHAR*)DinTilapia_Button8_Text,GOLScheme_ButtonTx);
+BUTTON *pDinTilapia_Button3;
+    pDinTilapia_Button3 = BtnCreate(ID_DinTilapia_Button3,306,218,404,255,1,BTN_DRAW,NULL,(XCHAR*)DinTilapia_Button3_Text,GOLScheme_ButtonTx);
+BUTTON *pDinTilapia_Button4;
+    pDinTilapia_Button4 = BtnCreate(ID_DinTilapia_Button4,76,218,174,255,1,BTN_DRAW,NULL,(XCHAR*)DinTilapia_Button4_Text,GOLScheme_ButtonTx);
+BUTTON *pDinTilapia_Button5;
+    pDinTilapia_Button5 = BtnCreate(ID_DinTilapia_Button5,17,218,59,255,1,BTN_DRAW,NULL,(XCHAR*)DinTilapia_Button5_Text,GOLScheme_ButtonTx);
+BUTTON *pDinTilapia_Button6;
+    pDinTilapia_Button6 = BtnCreate(ID_DinTilapia_Button6,421,218,463,255,1,BTN_DRAW,NULL,(XCHAR*)DinTilapia_Button6_Text,GOLScheme_ButtonTx);
+} // End of CreateDinTilapia
+
+
+    void CreateDinVegPizza(void) {
+    GOLFree();
+    SetColor(0); // Color [Black]
+    ClearDevice();
+    #ifdef USE_TRANSPARENT_COLOR
+    TransparentColorEnable(0); // Color [A=0, R=0, G=0, B=0]
+    #endif
+    CreateScheme_ButtonTx();
+    CreateScheme_WinSch();
+    CreateScheme_DescText();
+    CreateScheme_MainName();
+WINDOW *pDinVegPizza_Window1;
+    pDinVegPizza_Window1 = WndCreate(ID_DinVegPizza_Window1,0,0,480,42,WND_DRAW|WND_TITLECENTER,NULL,(XCHAR*)DinVegPizza_Window1_Text,GOLScheme_WinSch);
+PICTURE *pDinVegPizza_Picture1;
+    pDinVegPizza_Picture1 = PictCreate(ID_DinVegPizza_Picture1,353,64,463,174,PICT_DRAW,1,(void *)&VegPizza,GOLScheme_ButtonTx);
+EDITBOX *pDinVegPizza_EditBox1;
+    pDinVegPizza_EditBox1 = EbCreate(ID_DinVegPizza_EditBox1,17,64,262,194,EB_DRAW,(XCHAR*)DinVegPizza_EditBox1_Text,250,GOLScheme_DescText);
+BUTTON *pDinVegPizza_Button8;
+    pDinVegPizza_Button8 = BtnCreate(ID_DinVegPizza_Button8,191,218,289,255,1,BTN_DRAW,NULL,(XCHAR*)DinVegPizza_Button8_Text,GOLScheme_ButtonTx);
+BUTTON *pDinVegPizza_Button3;
+    pDinVegPizza_Button3 = BtnCreate(ID_DinVegPizza_Button3,306,218,404,255,1,BTN_DRAW,NULL,(XCHAR*)DinVegPizza_Button3_Text,GOLScheme_ButtonTx);
+BUTTON *pDinVegPizza_Button4;
+    pDinVegPizza_Button4 = BtnCreate(ID_DinVegPizza_Button4,76,218,174,255,1,BTN_DRAW,NULL,(XCHAR*)DinVegPizza_Button4_Text,GOLScheme_ButtonTx);
+BUTTON *pDinVegPizza_Button5;
+    pDinVegPizza_Button5 = BtnCreate(ID_DinVegPizza_Button5,17,218,59,255,1,BTN_DRAW,NULL,(XCHAR*)DinVegPizza_Button5_Text,GOLScheme_ButtonTx);
+BUTTON *pDinVegPizza_Button6;
+    pDinVegPizza_Button6 = BtnCreate(ID_DinVegPizza_Button6,421,218,463,255,1,BTN_DRAW,NULL,(XCHAR*)DinVegPizza_Button6_Text,GOLScheme_ButtonTx);
+} // End of CreateDinVegPizza
+
+
+    void CreateSidesList(void) {
+    GOLFree();
+    SetColor(0); // Color [Black]
+    ClearDevice();
+    #ifdef USE_TRANSPARENT_COLOR
+    TransparentColorEnable(0); // Color [A=0, R=0, G=0, B=0]
+    #endif
+    CreateScheme_ButtonTx();
+    CreateScheme_WinSch();
+    CreateScheme_DescText();
+    CreateScheme_MainName();
+WINDOW *pSidesList_Window1;
+    pSidesList_Window1 = WndCreate(ID_SidesList_Window1,0,0,480,42,WND_DRAW|WND_TITLECENTER,NULL,(XCHAR*)SidesList_Window1_Text,GOLScheme_WinSch);
+BUTTON *pSidesList_Button1;
+    pSidesList_Button1 = BtnCreate(ID_SidesList_Button1,11,69,154,92,1,BTN_DRAW,NULL,(XCHAR*)SidesList_Button1_Text,GOLScheme_ButtonTx);
+BUTTON *pSidesList_Button3;
+    pSidesList_Button3 = BtnCreate(ID_SidesList_Button3,176,111,319,134,1,BTN_DRAW,NULL,(XCHAR*)SidesList_Button3_Text,GOLScheme_ButtonTx);
+BUTTON *pSidesList_Button5;
+    pSidesList_Button5 = BtnCreate(ID_SidesList_Button5,176,69,319,92,1,BTN_DRAW,NULL,(XCHAR*)SidesList_Button5_Text,GOLScheme_ButtonTx);
+BUTTON *pSidesList_Button6;
+    pSidesList_Button6 = BtnCreate(ID_SidesList_Button6,174,156,317,179,1,BTN_DRAW,NULL,(XCHAR*)SidesList_Button6_Text,GOLScheme_ButtonTx);
+BUTTON *pSidesList_Button7;
+    pSidesList_Button7 = BtnCreate(ID_SidesList_Button7,330,111,475,134,1,BTN_DRAW,NULL,(XCHAR*)SidesList_Button7_Text,GOLScheme_ButtonTx);
+BUTTON *pSidesList_Button8;
+    pSidesList_Button8 = BtnCreate(ID_SidesList_Button8,344,227,442,264,1,BTN_DRAW,NULL,(XCHAR*)SidesList_Button8_Text,GOLScheme_ButtonTx);
+BUTTON *pSidesList_Button9;
+    pSidesList_Button9 = BtnCreate(ID_SidesList_Button9,11,111,154,134,1,BTN_DRAW,NULL,(XCHAR*)SidesList_Button9_Text,GOLScheme_ButtonTx);
+BUTTON *pSidesList_Button10;
+    pSidesList_Button10 = BtnCreate(ID_SidesList_Button10,330,69,475,92,1,BTN_DRAW,NULL,(XCHAR*)SidesList_Button10_Text,GOLScheme_ButtonTx);
+BUTTON *pSidesList_Button12;
+    pSidesList_Button12 = BtnCreate(ID_SidesList_Button12,39,227,137,264,1,BTN_DRAW,NULL,(XCHAR*)SidesList_Button12_Text,GOLScheme_ButtonTx);
+} // End of CreateSidesList
+
+
+    void CreateSidesBakedPot(void) {
+    GOLFree();
+    SetColor(0); // Color [Black]
+    ClearDevice();
+    #ifdef USE_TRANSPARENT_COLOR
+    TransparentColorEnable(0); // Color [A=0, R=0, G=0, B=0]
+    #endif
+    CreateScheme_ButtonTx();
+    CreateScheme_WinSch();
+    CreateScheme_DescText();
+    CreateScheme_MainName();
+WINDOW *pSidesBakedPot_Window1;
+    pSidesBakedPot_Window1 = WndCreate(ID_SidesBakedPot_Window1,0,0,480,42,WND_DRAW|WND_TITLECENTER,NULL,(XCHAR*)SidesBakedPot_Window1_Text,GOLScheme_WinSch);
+PICTURE *pSidesBakedPot_Picture1;
+    pSidesBakedPot_Picture1 = PictCreate(ID_SidesBakedPot_Picture1,353,64,463,174,PICT_DRAW,1,(void *)&Baked,GOLScheme_ButtonTx);
+EDITBOX *pSidesBakedPot_EditBox1;
+    pSidesBakedPot_EditBox1 = EbCreate(ID_SidesBakedPot_EditBox1,17,64,262,194,EB_DRAW,(XCHAR*)SidesBakedPot_EditBox1_Text,250,GOLScheme_DescText);
+BUTTON *pSidesBakedPot_Button8;
+    pSidesBakedPot_Button8 = BtnCreate(ID_SidesBakedPot_Button8,191,218,289,255,1,BTN_DRAW,NULL,(XCHAR*)SidesBakedPot_Button8_Text,GOLScheme_ButtonTx);
+BUTTON *pSidesBakedPot_Button3;
+    pSidesBakedPot_Button3 = BtnCreate(ID_SidesBakedPot_Button3,306,218,404,255,1,BTN_DRAW,NULL,(XCHAR*)SidesBakedPot_Button3_Text,GOLScheme_ButtonTx);
+BUTTON *pSidesBakedPot_Button4;
+    pSidesBakedPot_Button4 = BtnCreate(ID_SidesBakedPot_Button4,76,218,174,255,1,BTN_DRAW,NULL,(XCHAR*)SidesBakedPot_Button4_Text,GOLScheme_ButtonTx);
+BUTTON *pSidesBakedPot_Button5;
+    pSidesBakedPot_Button5 = BtnCreate(ID_SidesBakedPot_Button5,17,218,59,255,1,BTN_DRAW,NULL,(XCHAR*)SidesBakedPot_Button5_Text,GOLScheme_ButtonTx);
+BUTTON *pSidesBakedPot_Button6;
+    pSidesBakedPot_Button6 = BtnCreate(ID_SidesBakedPot_Button6,421,218,463,255,1,BTN_DRAW,NULL,(XCHAR*)SidesBakedPot_Button6_Text,GOLScheme_ButtonTx);
+} // End of CreateSidesBakedPot
+
+
+    void CreateSidesBroccoli(void) {
+    GOLFree();
+    SetColor(0); // Color [Black]
+    ClearDevice();
+    #ifdef USE_TRANSPARENT_COLOR
+    TransparentColorEnable(0); // Color [A=0, R=0, G=0, B=0]
+    #endif
+    CreateScheme_ButtonTx();
+    CreateScheme_WinSch();
+    CreateScheme_DescText();
+    CreateScheme_MainName();
+WINDOW *pSidesBroccoli_Window1;
+    pSidesBroccoli_Window1 = WndCreate(ID_SidesBroccoli_Window1,0,0,480,42,WND_DRAW|WND_TITLECENTER,NULL,(XCHAR*)SidesBroccoli_Window1_Text,GOLScheme_WinSch);
+PICTURE *pSidesBroccoli_Picture1;
+    pSidesBroccoli_Picture1 = PictCreate(ID_SidesBroccoli_Picture1,353,64,463,174,PICT_DRAW,1,(void *)&BBroccol,GOLScheme_ButtonTx);
+EDITBOX *pSidesBroccoli_EditBox1;
+    pSidesBroccoli_EditBox1 = EbCreate(ID_SidesBroccoli_EditBox1,17,64,262,194,EB_DRAW,(XCHAR*)SidesBroccoli_EditBox1_Text,250,GOLScheme_DescText);
+BUTTON *pSidesBroccoli_Button8;
+    pSidesBroccoli_Button8 = BtnCreate(ID_SidesBroccoli_Button8,191,218,289,255,1,BTN_DRAW,NULL,(XCHAR*)SidesBroccoli_Button8_Text,GOLScheme_ButtonTx);
+BUTTON *pSidesBroccoli_Button3;
+    pSidesBroccoli_Button3 = BtnCreate(ID_SidesBroccoli_Button3,306,218,404,255,1,BTN_DRAW,NULL,(XCHAR*)SidesBroccoli_Button3_Text,GOLScheme_ButtonTx);
+BUTTON *pSidesBroccoli_Button4;
+    pSidesBroccoli_Button4 = BtnCreate(ID_SidesBroccoli_Button4,76,218,174,255,1,BTN_DRAW,NULL,(XCHAR*)SidesBroccoli_Button4_Text,GOLScheme_ButtonTx);
+BUTTON *pSidesBroccoli_Button5;
+    pSidesBroccoli_Button5 = BtnCreate(ID_SidesBroccoli_Button5,17,218,59,255,1,BTN_DRAW,NULL,(XCHAR*)SidesBroccoli_Button5_Text,GOLScheme_ButtonTx);
+BUTTON *pSidesBroccoli_Button6;
+    pSidesBroccoli_Button6 = BtnCreate(ID_SidesBroccoli_Button6,421,218,463,255,1,BTN_DRAW,NULL,(XCHAR*)SidesBroccoli_Button6_Text,GOLScheme_ButtonTx);
+} // End of CreateSidesBroccoli
+
+
+    void CreateSidesFries(void) {
+    GOLFree();
+    SetColor(0); // Color [Black]
+    ClearDevice();
+    #ifdef USE_TRANSPARENT_COLOR
+    TransparentColorEnable(0); // Color [A=0, R=0, G=0, B=0]
+    #endif
+    CreateScheme_ButtonTx();
+    CreateScheme_WinSch();
+    CreateScheme_DescText();
+    CreateScheme_MainName();
+WINDOW *pSidesFries_Window1;
+    pSidesFries_Window1 = WndCreate(ID_SidesFries_Window1,0,0,480,42,WND_DRAW|WND_TITLECENTER,NULL,(XCHAR*)SidesFries_Window1_Text,GOLScheme_WinSch);
+PICTURE *pSidesFries_Picture1;
+    pSidesFries_Picture1 = PictCreate(ID_SidesFries_Picture1,353,64,463,174,PICT_DRAW,1,(void *)&Fries,GOLScheme_ButtonTx);
+EDITBOX *pSidesFries_EditBox1;
+    pSidesFries_EditBox1 = EbCreate(ID_SidesFries_EditBox1,17,64,262,194,EB_DRAW,(XCHAR*)SidesFries_EditBox1_Text,250,GOLScheme_DescText);
+BUTTON *pSidesFries_Button8;
+    pSidesFries_Button8 = BtnCreate(ID_SidesFries_Button8,191,218,289,255,1,BTN_DRAW,NULL,(XCHAR*)SidesFries_Button8_Text,GOLScheme_ButtonTx);
+BUTTON *pSidesFries_Button3;
+    pSidesFries_Button3 = BtnCreate(ID_SidesFries_Button3,306,218,404,255,1,BTN_DRAW,NULL,(XCHAR*)SidesFries_Button3_Text,GOLScheme_ButtonTx);
+BUTTON *pSidesFries_Button4;
+    pSidesFries_Button4 = BtnCreate(ID_SidesFries_Button4,76,218,174,255,1,BTN_DRAW,NULL,(XCHAR*)SidesFries_Button4_Text,GOLScheme_ButtonTx);
+BUTTON *pSidesFries_Button5;
+    pSidesFries_Button5 = BtnCreate(ID_SidesFries_Button5,17,218,59,255,1,BTN_DRAW,NULL,(XCHAR*)SidesFries_Button5_Text,GOLScheme_ButtonTx);
+BUTTON *pSidesFries_Button6;
+    pSidesFries_Button6 = BtnCreate(ID_SidesFries_Button6,421,218,463,255,1,BTN_DRAW,NULL,(XCHAR*)SidesFries_Button6_Text,GOLScheme_ButtonTx);
+} // End of CreateSidesFries
+
+
+    void CreateSidesFruit(void) {
+    GOLFree();
+    SetColor(0); // Color [Black]
+    ClearDevice();
+    #ifdef USE_TRANSPARENT_COLOR
+    TransparentColorEnable(0); // Color [A=0, R=0, G=0, B=0]
+    #endif
+    CreateScheme_ButtonTx();
+    CreateScheme_WinSch();
+    CreateScheme_DescText();
+    CreateScheme_MainName();
+WINDOW *pSidesFruit_Window1;
+    pSidesFruit_Window1 = WndCreate(ID_SidesFruit_Window1,0,0,480,42,WND_DRAW|WND_TITLECENTER,NULL,(XCHAR*)SidesFruit_Window1_Text,GOLScheme_WinSch);
+PICTURE *pSidesFruit_Picture1;
+    pSidesFruit_Picture1 = PictCreate(ID_SidesFruit_Picture1,353,64,463,174,PICT_DRAW,1,(void *)&fruit,GOLScheme_ButtonTx);
+EDITBOX *pSidesFruit_EditBox1;
+    pSidesFruit_EditBox1 = EbCreate(ID_SidesFruit_EditBox1,17,64,262,194,EB_DRAW,(XCHAR*)SidesFruit_EditBox1_Text,250,GOLScheme_DescText);
+BUTTON *pSidesFruit_Button8;
+    pSidesFruit_Button8 = BtnCreate(ID_SidesFruit_Button8,191,218,289,255,1,BTN_DRAW,NULL,(XCHAR*)SidesFruit_Button8_Text,GOLScheme_ButtonTx);
+BUTTON *pSidesFruit_Button3;
+    pSidesFruit_Button3 = BtnCreate(ID_SidesFruit_Button3,306,218,404,255,1,BTN_DRAW,NULL,(XCHAR*)SidesFruit_Button3_Text,GOLScheme_ButtonTx);
+BUTTON *pSidesFruit_Button4;
+    pSidesFruit_Button4 = BtnCreate(ID_SidesFruit_Button4,76,218,174,255,1,BTN_DRAW,NULL,(XCHAR*)SidesFruit_Button4_Text,GOLScheme_ButtonTx);
+BUTTON *pSidesFruit_Button5;
+    pSidesFruit_Button5 = BtnCreate(ID_SidesFruit_Button5,17,218,59,255,1,BTN_DRAW,NULL,(XCHAR*)SidesFruit_Button5_Text,GOLScheme_ButtonTx);
+BUTTON *pSidesFruit_Button6;
+    pSidesFruit_Button6 = BtnCreate(ID_SidesFruit_Button6,421,218,463,255,1,BTN_DRAW,NULL,(XCHAR*)SidesFruit_Button6_Text,GOLScheme_ButtonTx);
+} // End of CreateSidesFruit
+
+
+    void CreateSidesMashed(void) {
+    GOLFree();
+    SetColor(0); // Color [Black]
+    ClearDevice();
+    #ifdef USE_TRANSPARENT_COLOR
+    TransparentColorEnable(0); // Color [A=0, R=0, G=0, B=0]
+    #endif
+    CreateScheme_ButtonTx();
+    CreateScheme_WinSch();
+    CreateScheme_DescText();
+    CreateScheme_MainName();
+WINDOW *pSidesMashed_Window1;
+    pSidesMashed_Window1 = WndCreate(ID_SidesMashed_Window1,0,0,480,42,WND_DRAW|WND_TITLECENTER,NULL,(XCHAR*)SidesMashed_Window1_Text,GOLScheme_WinSch);
+PICTURE *pSidesMashed_Picture1;
+    pSidesMashed_Picture1 = PictCreate(ID_SidesMashed_Picture1,353,64,463,174,PICT_DRAW,1,(void *)&mashed,GOLScheme_ButtonTx);
+EDITBOX *pSidesMashed_EditBox1;
+    pSidesMashed_EditBox1 = EbCreate(ID_SidesMashed_EditBox1,17,64,262,194,EB_DRAW,(XCHAR*)SidesMashed_EditBox1_Text,250,GOLScheme_DescText);
+BUTTON *pSidesMashed_Button8;
+    pSidesMashed_Button8 = BtnCreate(ID_SidesMashed_Button8,191,218,289,255,1,BTN_DRAW,NULL,(XCHAR*)SidesMashed_Button8_Text,GOLScheme_ButtonTx);
+BUTTON *pSidesMashed_Button3;
+    pSidesMashed_Button3 = BtnCreate(ID_SidesMashed_Button3,306,218,404,255,1,BTN_DRAW,NULL,(XCHAR*)SidesMashed_Button3_Text,GOLScheme_ButtonTx);
+BUTTON *pSidesMashed_Button4;
+    pSidesMashed_Button4 = BtnCreate(ID_SidesMashed_Button4,76,218,174,255,1,BTN_DRAW,NULL,(XCHAR*)SidesMashed_Button4_Text,GOLScheme_ButtonTx);
+BUTTON *pSidesMashed_Button5;
+    pSidesMashed_Button5 = BtnCreate(ID_SidesMashed_Button5,17,218,59,255,1,BTN_DRAW,NULL,(XCHAR*)SidesMashed_Button5_Text,GOLScheme_ButtonTx);
+BUTTON *pSidesMashed_Button6;
+    pSidesMashed_Button6 = BtnCreate(ID_SidesMashed_Button6,421,218,463,255,1,BTN_DRAW,NULL,(XCHAR*)SidesMashed_Button6_Text,GOLScheme_ButtonTx);
+} // End of CreateSidesMashed
+
+
+    void CreateSidesORings(void) {
+    GOLFree();
+    SetColor(0); // Color [Black]
+    ClearDevice();
+    #ifdef USE_TRANSPARENT_COLOR
+    TransparentColorEnable(0); // Color [A=0, R=0, G=0, B=0]
+    #endif
+    CreateScheme_ButtonTx();
+    CreateScheme_WinSch();
+    CreateScheme_DescText();
+    CreateScheme_MainName();
+WINDOW *pSidesORings_Window1;
+    pSidesORings_Window1 = WndCreate(ID_SidesORings_Window1,0,0,480,42,WND_DRAW|WND_TITLECENTER,NULL,(XCHAR*)SidesORings_Window1_Text,GOLScheme_WinSch);
+PICTURE *pSidesORings_Picture1;
+    pSidesORings_Picture1 = PictCreate(ID_SidesORings_Picture1,352,72,462,182,PICT_DRAW,1,(void *)&onion,GOLScheme_ButtonTx);
+EDITBOX *pSidesORings_EditBox1;
+    pSidesORings_EditBox1 = EbCreate(ID_SidesORings_EditBox1,16,72,261,202,EB_DRAW,(XCHAR*)SidesORings_EditBox1_Text,250,GOLScheme_DescText);
+BUTTON *pSidesORings_Button8;
+    pSidesORings_Button8 = BtnCreate(ID_SidesORings_Button8,191,218,289,255,1,BTN_DRAW,NULL,(XCHAR*)SidesORings_Button8_Text,GOLScheme_ButtonTx);
+BUTTON *pSidesORings_Button3;
+    pSidesORings_Button3 = BtnCreate(ID_SidesORings_Button3,306,218,404,255,1,BTN_DRAW,NULL,(XCHAR*)SidesORings_Button3_Text,GOLScheme_ButtonTx);
+BUTTON *pSidesORings_Button4;
+    pSidesORings_Button4 = BtnCreate(ID_SidesORings_Button4,75,218,173,255,1,BTN_DRAW,NULL,(XCHAR*)SidesORings_Button4_Text,GOLScheme_ButtonTx);
+BUTTON *pSidesORings_Button5;
+    pSidesORings_Button5 = BtnCreate(ID_SidesORings_Button5,16,218,58,255,1,BTN_DRAW,NULL,(XCHAR*)SidesORings_Button5_Text,GOLScheme_ButtonTx);
+BUTTON *pSidesORings_Button6;
+    pSidesORings_Button6 = BtnCreate(ID_SidesORings_Button6,420,218,462,255,1,BTN_DRAW,NULL,(XCHAR*)SidesORings_Button6_Text,GOLScheme_ButtonTx);
+} // End of CreateSidesORings
+
+
+    void CreateSidesSlaw(void) {
+    GOLFree();
+    SetColor(0); // Color [Black]
+    ClearDevice();
+    #ifdef USE_TRANSPARENT_COLOR
+    TransparentColorEnable(0); // Color [A=0, R=0, G=0, B=0]
+    #endif
+    CreateScheme_ButtonTx();
+    CreateScheme_WinSch();
+    CreateScheme_DescText();
+    CreateScheme_MainName();
+WINDOW *pSidesSlaw_Window1;
+    pSidesSlaw_Window1 = WndCreate(ID_SidesSlaw_Window1,0,0,480,42,WND_DRAW|WND_TITLECENTER,NULL,(XCHAR*)SidesSlaw_Window1_Text,GOLScheme_WinSch);
+PICTURE *pSidesSlaw_Picture1;
+    pSidesSlaw_Picture1 = PictCreate(ID_SidesSlaw_Picture1,353,64,463,174,PICT_DRAW,1,(void *)&Coleslaw,GOLScheme_ButtonTx);
+EDITBOX *pSidesSlaw_EditBox1;
+    pSidesSlaw_EditBox1 = EbCreate(ID_SidesSlaw_EditBox1,17,64,262,194,EB_DRAW,(XCHAR*)SidesSlaw_EditBox1_Text,250,GOLScheme_DescText);
+BUTTON *pSidesSlaw_Button8;
+    pSidesSlaw_Button8 = BtnCreate(ID_SidesSlaw_Button8,191,218,289,255,1,BTN_DRAW,NULL,(XCHAR*)SidesSlaw_Button8_Text,GOLScheme_ButtonTx);
+BUTTON *pSidesSlaw_Button3;
+    pSidesSlaw_Button3 = BtnCreate(ID_SidesSlaw_Button3,306,218,404,255,1,BTN_DRAW,NULL,(XCHAR*)SidesSlaw_Button3_Text,GOLScheme_ButtonTx);
+BUTTON *pSidesSlaw_Button4;
+    pSidesSlaw_Button4 = BtnCreate(ID_SidesSlaw_Button4,76,218,174,255,1,BTN_DRAW,NULL,(XCHAR*)SidesSlaw_Button4_Text,GOLScheme_ButtonTx);
+BUTTON *pSidesSlaw_Button5;
+    pSidesSlaw_Button5 = BtnCreate(ID_SidesSlaw_Button5,17,218,59,255,1,BTN_DRAW,NULL,(XCHAR*)SidesSlaw_Button5_Text,GOLScheme_ButtonTx);
+BUTTON *pSidesSlaw_Button6;
+    pSidesSlaw_Button6 = BtnCreate(ID_SidesSlaw_Button6,421,218,463,255,1,BTN_DRAW,NULL,(XCHAR*)SidesSlaw_Button6_Text,GOLScheme_ButtonTx);
+} // End of CreateSidesSlaw
 
 // ------------------------------------------------------------------------------------------------------------
 // VGDD Automatic Event Handling - Events messages routine
@@ -2570,13 +3639,13 @@ WORD VGDD_MenuScreens_MsgCallback(WORD objMsg, OBJ_HEADER *pObj, GOL_MSG *pMsg) 
                     
                 case ID_FoodMenu_Button6:
                     if (objMsg == BTN_MSG_RELEASED) {
-                        
+                        screenState=CREATE_DINNERLIST;
                     }
                     break;
                     
                 case ID_FoodMenu_Button7:
                     if (objMsg == BTN_MSG_RELEASED) {
-                        
+                        screenState=CREATE_SIDESLIST;
                     }
                     break;
                     
@@ -2588,7 +3657,7 @@ WORD VGDD_MenuScreens_MsgCallback(WORD objMsg, OBJ_HEADER *pObj, GOL_MSG *pMsg) 
                     
                 case ID_FoodMenu_Button9:
                     if (objMsg == BTN_MSG_RELEASED) {
-                        
+                        screenState=CREATE_DESSERTSLIST;
                     }
                     break;
                     
@@ -3903,6 +4972,12 @@ WORD VGDD_MenuScreens_MsgCallback(WORD objMsg, OBJ_HEADER *pObj, GOL_MSG *pMsg) 
                     }
                     break;
                     
+                case ID_BurgerList_Button8:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_MAINMENU;
+                    }
+                    break;
+                    
                 case ID_BurgerList_Button9:
                     if (objMsg == BTN_MSG_RELEASED) {
                         screenState=CREATE_BURGERCHEESE;
@@ -3912,6 +4987,12 @@ WORD VGDD_MenuScreens_MsgCallback(WORD objMsg, OBJ_HEADER *pObj, GOL_MSG *pMsg) 
                 case ID_BurgerList_Button10:
                     if (objMsg == BTN_MSG_RELEASED) {
                         screenState=CREATE_BURGERMONSTER;
+                    }
+                    break;
+                    
+                case ID_BurgerList_Button12:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_FOODMENU;
                     }
                     break;
                     
@@ -4043,6 +5124,31 @@ WORD VGDD_MenuScreens_MsgCallback(WORD objMsg, OBJ_HEADER *pObj, GOL_MSG *pMsg) 
                 default:
                     break;
             } // End switch (id) for DISPLAY_BURGERMONSTER
+            return (1);
+            
+        case DISPLAY_BURGERMUSHROOM:
+            switch (id) {
+                case ID_BurgerMushroom_Button8:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_FOODMENU;
+                    }
+                    break;
+                    
+                case ID_BurgerMushroom_Button3:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_MAINMENU;
+                    }
+                    break;
+                    
+                case ID_BurgerMushroom_Button4:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_BURGERLIST;
+                    }
+                    break;
+                    
+                default:
+                    break;
+            } // End switch (id) for DISPLAY_BURGERMUSHROOM
             return (1);
             
         case DISPLAY_SALADSLIST1:
@@ -4507,6 +5613,1138 @@ WORD VGDD_MenuScreens_MsgCallback(WORD objMsg, OBJ_HEADER *pObj, GOL_MSG *pMsg) 
                 default:
                     break;
             } // End switch (id) for DISPLAY_SALADBACONATOR
+            return (1);
+            
+        case DISPLAY_DESSAPPLE:
+            switch (id) {
+                case ID_DessApple_Button8:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_FOODMENU;
+                    }
+                    break;
+                    
+                case ID_DessApple_Button3:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_MAINMENU;
+                    }
+                    break;
+                    
+                case ID_DessApple_Button4:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_DESSERTSLIST;
+                    }
+                    break;
+                    
+                case ID_DessApple_Button5:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_APPETIZERLIST;
+                    }
+                    break;
+                    
+                case ID_DessApple_Button6:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_APPETIZERLIST;
+                    }
+                    break;
+                    
+                default:
+                    break;
+            } // End switch (id) for DISPLAY_DESSAPPLE
+            return (1);
+            
+        case DISPLAY_DESSERTSLIST:
+            switch (id) {
+                case ID_DessertsList_Button1:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_DESSSUNDAE;
+                    }
+                    break;
+                    
+                case ID_DessertsList_Button2:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_DESSBROWNIE;
+                    }
+                    break;
+                    
+                case ID_DessertsList_Button3:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_DESSMOUSSE;
+                    }
+                    break;
+                    
+                case ID_DessertsList_Button5:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_DESSBLUE;
+                    }
+                    break;
+                    
+                case ID_DessertsList_Button7:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_DESSREDVEL;
+                    }
+                    break;
+                    
+                case ID_DessertsList_Button8:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_MAINMENU;
+                    }
+                    break;
+                    
+                case ID_DessertsList_Button9:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_DESSAPPLE;
+                    }
+                    break;
+                    
+                case ID_DessertsList_Button10:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_DESSPEANUT;
+                    }
+                    break;
+                    
+                case ID_DessertsList_Button11:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_DESSSTRAW;
+                    }
+                    break;
+                    
+                case ID_DessertsList_Button12:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_FOODMENU;
+                    }
+                    break;
+                    
+                default:
+                    break;
+            } // End switch (id) for DISPLAY_DESSERTSLIST
+            return (1);
+            
+        case DISPLAY_DESSBLUE:
+            switch (id) {
+                case ID_DessBlue_Button8:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_FOODMENU;
+                    }
+                    break;
+                    
+                case ID_DessBlue_Button3:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_MAINMENU;
+                    }
+                    break;
+                    
+                case ID_DessBlue_Button4:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_DESSERTSLIST;
+                    }
+                    break;
+                    
+                case ID_DessBlue_Button5:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_APPETIZERLIST;
+                    }
+                    break;
+                    
+                case ID_DessBlue_Button6:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_APPETIZERLIST;
+                    }
+                    break;
+                    
+                default:
+                    break;
+            } // End switch (id) for DISPLAY_DESSBLUE
+            return (1);
+            
+        case DISPLAY_DESSBROWNIE:
+            switch (id) {
+                case ID_DessBrownie_Button8:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_FOODMENU;
+                    }
+                    break;
+                    
+                case ID_DessBrownie_Button3:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_MAINMENU;
+                    }
+                    break;
+                    
+                case ID_DessBrownie_Button4:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_DESSERTSLIST;
+                    }
+                    break;
+                    
+                case ID_DessBrownie_Button5:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_APPETIZERLIST;
+                    }
+                    break;
+                    
+                case ID_DessBrownie_Button6:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_APPETIZERLIST;
+                    }
+                    break;
+                    
+                default:
+                    break;
+            } // End switch (id) for DISPLAY_DESSBROWNIE
+            return (1);
+            
+        case DISPLAY_DESSMOUSSE:
+            switch (id) {
+                case ID_DessMousse_Button8:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_FOODMENU;
+                    }
+                    break;
+                    
+                case ID_DessMousse_Button3:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_MAINMENU;
+                    }
+                    break;
+                    
+                case ID_DessMousse_Button4:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_DESSERTSLIST;
+                    }
+                    break;
+                    
+                case ID_DessMousse_Button5:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_APPETIZERLIST;
+                    }
+                    break;
+                    
+                case ID_DessMousse_Button6:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_APPETIZERLIST;
+                    }
+                    break;
+                    
+                default:
+                    break;
+            } // End switch (id) for DISPLAY_DESSMOUSSE
+            return (1);
+            
+        case DISPLAY_DESSPEANUT:
+            switch (id) {
+                case ID_DessPeanut_Button8:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_FOODMENU;
+                    }
+                    break;
+                    
+                case ID_DessPeanut_Button3:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_MAINMENU;
+                    }
+                    break;
+                    
+                case ID_DessPeanut_Button4:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_DESSERTSLIST;
+                    }
+                    break;
+                    
+                case ID_DessPeanut_Button5:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_APPETIZERLIST;
+                    }
+                    break;
+                    
+                case ID_DessPeanut_Button6:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_APPETIZERLIST;
+                    }
+                    break;
+                    
+                default:
+                    break;
+            } // End switch (id) for DISPLAY_DESSPEANUT
+            return (1);
+            
+        case DISPLAY_DESSREDVEL:
+            switch (id) {
+                case ID_DessRedVel_Button8:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_FOODMENU;
+                    }
+                    break;
+                    
+                case ID_DessRedVel_Button3:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_MAINMENU;
+                    }
+                    break;
+                    
+                case ID_DessRedVel_Button4:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_DESSERTSLIST;
+                    }
+                    break;
+                    
+                case ID_DessRedVel_Button5:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_APPETIZERLIST;
+                    }
+                    break;
+                    
+                case ID_DessRedVel_Button6:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_APPETIZERLIST;
+                    }
+                    break;
+                    
+                default:
+                    break;
+            } // End switch (id) for DISPLAY_DESSREDVEL
+            return (1);
+            
+        case DISPLAY_DESSSTRAW:
+            switch (id) {
+                case ID_DessStraw_Button8:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_FOODMENU;
+                    }
+                    break;
+                    
+                case ID_DessStraw_Button3:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_MAINMENU;
+                    }
+                    break;
+                    
+                case ID_DessStraw_Button4:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_DESSERTSLIST;
+                    }
+                    break;
+                    
+                case ID_DessStraw_Button5:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_APPETIZERLIST;
+                    }
+                    break;
+                    
+                case ID_DessStraw_Button6:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_APPETIZERLIST;
+                    }
+                    break;
+                    
+                default:
+                    break;
+            } // End switch (id) for DISPLAY_DESSSTRAW
+            return (1);
+            
+        case DISPLAY_DESSSUNDAE:
+            switch (id) {
+                case ID_DessSundae_Button8:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_FOODMENU;
+                    }
+                    break;
+                    
+                case ID_DessSundae_Button3:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_MAINMENU;
+                    }
+                    break;
+                    
+                case ID_DessSundae_Button4:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_DESSERTSLIST;
+                    }
+                    break;
+                    
+                case ID_DessSundae_Button5:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_APPETIZERLIST;
+                    }
+                    break;
+                    
+                case ID_DessSundae_Button6:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_APPETIZERLIST;
+                    }
+                    break;
+                    
+                default:
+                    break;
+            } // End switch (id) for DISPLAY_DESSSUNDAE
+            return (1);
+            
+        case DISPLAY_DINCORNBEEF:
+            switch (id) {
+                case ID_DinCornBeef_Button8:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_FOODMENU;
+                    }
+                    break;
+                    
+                case ID_DinCornBeef_Button3:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_MAINMENU;
+                    }
+                    break;
+                    
+                case ID_DinCornBeef_Button4:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_DINNERLIST;
+                    }
+                    break;
+                    
+                case ID_DinCornBeef_Button5:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_APPETIZERLIST;
+                    }
+                    break;
+                    
+                case ID_DinCornBeef_Button6:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_APPETIZERLIST;
+                    }
+                    break;
+                    
+                default:
+                    break;
+            } // End switch (id) for DISPLAY_DINCORNBEEF
+            return (1);
+            
+        case DISPLAY_DINNERLIST:
+            switch (id) {
+                case ID_DinnerList_Button1:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_DINQUESADILLA;
+                    }
+                    break;
+                    
+                case ID_DinnerList_Button2:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_DINMARPIZZA;
+                    }
+                    break;
+                    
+                case ID_DinnerList_Button3:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_DINTILAPIA;
+                    }
+                    break;
+                    
+                case ID_DinnerList_Button4:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_DINSTEAK;
+                    }
+                    break;
+                    
+                case ID_DinnerList_Button5:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_DINFRIEDCHIKEN;
+                    }
+                    break;
+                    
+                case ID_DinnerList_Button6:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_DINSPAGHETTI;
+                    }
+                    break;
+                    
+                case ID_DinnerList_Button7:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_DINLASAGNA;
+                    }
+                    break;
+                    
+                case ID_DinnerList_Button8:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_MAINMENU;
+                    }
+                    break;
+                    
+                case ID_DinnerList_Button9:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_DINTILAPIA;
+                    }
+                    break;
+                    
+                case ID_DinnerList_Button10:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_DINCORNBEEF;
+                    }
+                    break;
+                    
+                case ID_DinnerList_Button11:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_DINVEGPIZZA;
+                    }
+                    break;
+                    
+                case ID_DinnerList_Button12:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_FOODMENU;
+                    }
+                    break;
+                    
+                default:
+                    break;
+            } // End switch (id) for DISPLAY_DINNERLIST
+            return (1);
+            
+        case DISPLAY_DINFRIEDCHIKEN:
+            switch (id) {
+                case ID_DinFriedChiken_Button8:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_FOODMENU;
+                    }
+                    break;
+                    
+                case ID_DinFriedChiken_Button3:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_MAINMENU;
+                    }
+                    break;
+                    
+                case ID_DinFriedChiken_Button4:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_DINNERLIST;
+                    }
+                    break;
+                    
+                case ID_DinFriedChiken_Button5:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_APPETIZERLIST;
+                    }
+                    break;
+                    
+                case ID_DinFriedChiken_Button6:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_APPETIZERLIST;
+                    }
+                    break;
+                    
+                default:
+                    break;
+            } // End switch (id) for DISPLAY_DINFRIEDCHIKEN
+            return (1);
+            
+        case DISPLAY_DINGRILLEDCHICKEN:
+            switch (id) {
+                case ID_DinGrilledChicken_Button8:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_FOODMENU;
+                    }
+                    break;
+                    
+                case ID_DinGrilledChicken_Button3:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_MAINMENU;
+                    }
+                    break;
+                    
+                case ID_DinGrilledChicken_Button4:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_DINNERLIST;
+                    }
+                    break;
+                    
+                case ID_DinGrilledChicken_Button5:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_APPETIZERLIST;
+                    }
+                    break;
+                    
+                case ID_DinGrilledChicken_Button6:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_APPETIZERLIST;
+                    }
+                    break;
+                    
+                default:
+                    break;
+            } // End switch (id) for DISPLAY_DINGRILLEDCHICKEN
+            return (1);
+            
+        case DISPLAY_DINLASAGNA:
+            switch (id) {
+                case ID_DinLasagna_Button8:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_FOODMENU;
+                    }
+                    break;
+                    
+                case ID_DinLasagna_Button3:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_MAINMENU;
+                    }
+                    break;
+                    
+                case ID_DinLasagna_Button4:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_DINNERLIST;
+                    }
+                    break;
+                    
+                case ID_DinLasagna_Button5:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_APPETIZERLIST;
+                    }
+                    break;
+                    
+                case ID_DinLasagna_Button6:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_APPETIZERLIST;
+                    }
+                    break;
+                    
+                default:
+                    break;
+            } // End switch (id) for DISPLAY_DINLASAGNA
+            return (1);
+            
+        case DISPLAY_DINMARPIZZA:
+            switch (id) {
+                case ID_DinMarPizza_Button8:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_FOODMENU;
+                    }
+                    break;
+                    
+                case ID_DinMarPizza_Button3:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_MAINMENU;
+                    }
+                    break;
+                    
+                case ID_DinMarPizza_Button4:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_DINNERLIST;
+                    }
+                    break;
+                    
+                case ID_DinMarPizza_Button5:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_APPETIZERLIST;
+                    }
+                    break;
+                    
+                case ID_DinMarPizza_Button6:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_APPETIZERLIST;
+                    }
+                    break;
+                    
+                default:
+                    break;
+            } // End switch (id) for DISPLAY_DINMARPIZZA
+            return (1);
+            
+        case DISPLAY_DINQUESADILLA:
+            switch (id) {
+                case ID_DinQuesadilla_Button8:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_FOODMENU;
+                    }
+                    break;
+                    
+                case ID_DinQuesadilla_Button3:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_MAINMENU;
+                    }
+                    break;
+                    
+                case ID_DinQuesadilla_Button4:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_DINNERLIST;
+                    }
+                    break;
+                    
+                case ID_DinQuesadilla_Button5:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_APPETIZERLIST;
+                    }
+                    break;
+                    
+                case ID_DinQuesadilla_Button6:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_APPETIZERLIST;
+                    }
+                    break;
+                    
+                default:
+                    break;
+            } // End switch (id) for DISPLAY_DINQUESADILLA
+            return (1);
+            
+        case DISPLAY_DINSPAGHETTI:
+            switch (id) {
+                case ID_DinSpaghetti_Button8:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_FOODMENU;
+                    }
+                    break;
+                    
+                case ID_DinSpaghetti_Button3:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_MAINMENU;
+                    }
+                    break;
+                    
+                case ID_DinSpaghetti_Button4:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_DINNERLIST;
+                    }
+                    break;
+                    
+                case ID_DinSpaghetti_Button5:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_APPETIZERLIST;
+                    }
+                    break;
+                    
+                case ID_DinSpaghetti_Button6:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_APPETIZERLIST;
+                    }
+                    break;
+                    
+                default:
+                    break;
+            } // End switch (id) for DISPLAY_DINSPAGHETTI
+            return (1);
+            
+        case DISPLAY_DINSTEAK:
+            switch (id) {
+                case ID_DinSteak_Button8:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_FOODMENU;
+                    }
+                    break;
+                    
+                case ID_DinSteak_Button3:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_MAINMENU;
+                    }
+                    break;
+                    
+                case ID_DinSteak_Button4:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_DINNERLIST;
+                    }
+                    break;
+                    
+                case ID_DinSteak_Button5:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_APPETIZERLIST;
+                    }
+                    break;
+                    
+                case ID_DinSteak_Button6:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_APPETIZERLIST;
+                    }
+                    break;
+                    
+                default:
+                    break;
+            } // End switch (id) for DISPLAY_DINSTEAK
+            return (1);
+            
+        case DISPLAY_DINTILAPIA:
+            switch (id) {
+                case ID_DinTilapia_Button8:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_FOODMENU;
+                    }
+                    break;
+                    
+                case ID_DinTilapia_Button3:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_MAINMENU;
+                    }
+                    break;
+                    
+                case ID_DinTilapia_Button4:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_DINNERLIST;
+                    }
+                    break;
+                    
+                case ID_DinTilapia_Button5:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_APPETIZERLIST;
+                    }
+                    break;
+                    
+                case ID_DinTilapia_Button6:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_APPETIZERLIST;
+                    }
+                    break;
+                    
+                default:
+                    break;
+            } // End switch (id) for DISPLAY_DINTILAPIA
+            return (1);
+            
+        case DISPLAY_DINVEGPIZZA:
+            switch (id) {
+                case ID_DinVegPizza_Button8:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_FOODMENU;
+                    }
+                    break;
+                    
+                case ID_DinVegPizza_Button3:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_MAINMENU;
+                    }
+                    break;
+                    
+                case ID_DinVegPizza_Button4:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_DINNERLIST;
+                    }
+                    break;
+                    
+                case ID_DinVegPizza_Button5:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_APPETIZERLIST;
+                    }
+                    break;
+                    
+                case ID_DinVegPizza_Button6:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_APPETIZERLIST;
+                    }
+                    break;
+                    
+                default:
+                    break;
+            } // End switch (id) for DISPLAY_DINVEGPIZZA
+            return (1);
+            
+        case DISPLAY_SIDESLIST:
+            switch (id) {
+                case ID_SidesList_Button1:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_SIDESFRIES;
+                    }
+                    break;
+                    
+                case ID_SidesList_Button3:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_SIDESBAKEDPOT;
+                    }
+                    break;
+                    
+                case ID_SidesList_Button5:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_SIDESMASHED;
+                    }
+                    break;
+                    
+                case ID_SidesList_Button6:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_SIDESBROCCOLI;
+                    }
+                    break;
+                    
+                case ID_SidesList_Button7:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_SIDESSLAW;
+                    }
+                    break;
+                    
+                case ID_SidesList_Button8:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_MAINMENU;
+                    }
+                    break;
+                    
+                case ID_SidesList_Button9:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_SIDESORINGS;
+                    }
+                    break;
+                    
+                case ID_SidesList_Button10:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_SIDESFRUIT;
+                    }
+                    break;
+                    
+                case ID_SidesList_Button12:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_FOODMENU;
+                    }
+                    break;
+                    
+                default:
+                    break;
+            } // End switch (id) for DISPLAY_SIDESLIST
+            return (1);
+            
+        case DISPLAY_SIDESBAKEDPOT:
+            switch (id) {
+                case ID_SidesBakedPot_Button8:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_FOODMENU;
+                    }
+                    break;
+                    
+                case ID_SidesBakedPot_Button3:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_MAINMENU;
+                    }
+                    break;
+                    
+                case ID_SidesBakedPot_Button4:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_SIDESLIST;
+                    }
+                    break;
+                    
+                case ID_SidesBakedPot_Button5:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_APPETIZERLIST;
+                    }
+                    break;
+                    
+                case ID_SidesBakedPot_Button6:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_APPETIZERLIST;
+                    }
+                    break;
+                    
+                default:
+                    break;
+            } // End switch (id) for DISPLAY_SIDESBAKEDPOT
+            return (1);
+            
+        case DISPLAY_SIDESBROCCOLI:
+            switch (id) {
+                case ID_SidesBroccoli_Button8:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_FOODMENU;
+                    }
+                    break;
+                    
+                case ID_SidesBroccoli_Button3:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_MAINMENU;
+                    }
+                    break;
+                    
+                case ID_SidesBroccoli_Button4:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_SIDESLIST;
+                    }
+                    break;
+                    
+                case ID_SidesBroccoli_Button5:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_APPETIZERLIST;
+                    }
+                    break;
+                    
+                case ID_SidesBroccoli_Button6:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_APPETIZERLIST;
+                    }
+                    break;
+                    
+                default:
+                    break;
+            } // End switch (id) for DISPLAY_SIDESBROCCOLI
+            return (1);
+            
+        case DISPLAY_SIDESFRIES:
+            switch (id) {
+                case ID_SidesFries_Button8:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_FOODMENU;
+                    }
+                    break;
+                    
+                case ID_SidesFries_Button3:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_MAINMENU;
+                    }
+                    break;
+                    
+                case ID_SidesFries_Button4:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_SIDESLIST;
+                    }
+                    break;
+                    
+                case ID_SidesFries_Button5:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_APPETIZERLIST;
+                    }
+                    break;
+                    
+                case ID_SidesFries_Button6:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_APPETIZERLIST;
+                    }
+                    break;
+                    
+                default:
+                    break;
+            } // End switch (id) for DISPLAY_SIDESFRIES
+            return (1);
+            
+        case DISPLAY_SIDESFRUIT:
+            switch (id) {
+                case ID_SidesFruit_Button8:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_FOODMENU;
+                    }
+                    break;
+                    
+                case ID_SidesFruit_Button3:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_MAINMENU;
+                    }
+                    break;
+                    
+                case ID_SidesFruit_Button4:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_SIDESLIST;
+                    }
+                    break;
+                    
+                case ID_SidesFruit_Button5:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_APPETIZERLIST;
+                    }
+                    break;
+                    
+                case ID_SidesFruit_Button6:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_APPETIZERLIST;
+                    }
+                    break;
+                    
+                default:
+                    break;
+            } // End switch (id) for DISPLAY_SIDESFRUIT
+            return (1);
+            
+        case DISPLAY_SIDESMASHED:
+            switch (id) {
+                case ID_SidesMashed_Button8:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_FOODMENU;
+                    }
+                    break;
+                    
+                case ID_SidesMashed_Button3:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_MAINMENU;
+                    }
+                    break;
+                    
+                case ID_SidesMashed_Button4:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_SIDESLIST;
+                    }
+                    break;
+                    
+                case ID_SidesMashed_Button5:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_APPETIZERLIST;
+                    }
+                    break;
+                    
+                case ID_SidesMashed_Button6:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_APPETIZERLIST;
+                    }
+                    break;
+                    
+                default:
+                    break;
+            } // End switch (id) for DISPLAY_SIDESMASHED
+            return (1);
+            
+        case DISPLAY_SIDESORINGS:
+            switch (id) {
+                case ID_SidesORings_Button8:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_FOODMENU;
+                    }
+                    break;
+                    
+                case ID_SidesORings_Button3:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_MAINMENU;
+                    }
+                    break;
+                    
+                case ID_SidesORings_Button4:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_SIDESLIST;
+                    }
+                    break;
+                    
+                case ID_SidesORings_Button5:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_APPETIZERLIST;
+                    }
+                    break;
+                    
+                case ID_SidesORings_Button6:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_APPETIZERLIST;
+                    }
+                    break;
+                    
+                default:
+                    break;
+            } // End switch (id) for DISPLAY_SIDESORINGS
+            return (1);
+            
+        case DISPLAY_SIDESSLAW:
+            switch (id) {
+                case ID_SidesSlaw_Button8:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_FOODMENU;
+                    }
+                    break;
+                    
+                case ID_SidesSlaw_Button3:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_MAINMENU;
+                    }
+                    break;
+                    
+                case ID_SidesSlaw_Button4:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_SIDESLIST;
+                    }
+                    break;
+                    
+                case ID_SidesSlaw_Button5:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_APPETIZERLIST;
+                    }
+                    break;
+                    
+                case ID_SidesSlaw_Button6:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_APPETIZERLIST;
+                    }
+                    break;
+                    
+                default:
+                    break;
+            } // End switch (id) for DISPLAY_SIDESSLAW
             return (1);
             
             
@@ -5031,6 +7269,17 @@ WORD VGDD_MenuScreens_DrawCallback(void) {
         case DISPLAY_BURGERMONSTER:
             break;
             
+        case CREATE_BURGERMUSHROOM:
+            CreateBurgerMushroom();
+            screenState = UPDATE_BURGERMUSHROOM;
+            break;
+        case UPDATE_BURGERMUSHROOM:
+            
+            screenState = DISPLAY_BURGERMUSHROOM;
+            break;
+        case DISPLAY_BURGERMUSHROOM:
+            break;
+            
         case CREATE_SALADSLIST1:
             CreateSaladsList1();
             screenState = UPDATE_SALADSLIST1;
@@ -5183,6 +7432,314 @@ WORD VGDD_MenuScreens_DrawCallback(void) {
             screenState = DISPLAY_SALADBACONATOR;
             break;
         case DISPLAY_SALADBACONATOR:
+            break;
+            
+        case CREATE_DESSAPPLE:
+            CreateDessApple();
+            screenState = UPDATE_DESSAPPLE;
+            break;
+        case UPDATE_DESSAPPLE:
+            
+            screenState = DISPLAY_DESSAPPLE;
+            break;
+        case DISPLAY_DESSAPPLE:
+            break;
+            
+        case CREATE_DESSERTSLIST:
+            CreateDessertsList();
+            screenState = UPDATE_DESSERTSLIST;
+            break;
+        case UPDATE_DESSERTSLIST:
+            
+            screenState = DISPLAY_DESSERTSLIST;
+            break;
+        case DISPLAY_DESSERTSLIST:
+            break;
+            
+        case CREATE_DESSBLUE:
+            CreateDessBlue();
+            screenState = UPDATE_DESSBLUE;
+            break;
+        case UPDATE_DESSBLUE:
+            
+            screenState = DISPLAY_DESSBLUE;
+            break;
+        case DISPLAY_DESSBLUE:
+            break;
+            
+        case CREATE_DESSBROWNIE:
+            CreateDessBrownie();
+            screenState = UPDATE_DESSBROWNIE;
+            break;
+        case UPDATE_DESSBROWNIE:
+            
+            screenState = DISPLAY_DESSBROWNIE;
+            break;
+        case DISPLAY_DESSBROWNIE:
+            break;
+            
+        case CREATE_DESSMOUSSE:
+            CreateDessMousse();
+            screenState = UPDATE_DESSMOUSSE;
+            break;
+        case UPDATE_DESSMOUSSE:
+            
+            screenState = DISPLAY_DESSMOUSSE;
+            break;
+        case DISPLAY_DESSMOUSSE:
+            break;
+            
+        case CREATE_DESSPEANUT:
+            CreateDessPeanut();
+            screenState = UPDATE_DESSPEANUT;
+            break;
+        case UPDATE_DESSPEANUT:
+            
+            screenState = DISPLAY_DESSPEANUT;
+            break;
+        case DISPLAY_DESSPEANUT:
+            break;
+            
+        case CREATE_DESSREDVEL:
+            CreateDessRedVel();
+            screenState = UPDATE_DESSREDVEL;
+            break;
+        case UPDATE_DESSREDVEL:
+            
+            screenState = DISPLAY_DESSREDVEL;
+            break;
+        case DISPLAY_DESSREDVEL:
+            break;
+            
+        case CREATE_DESSSTRAW:
+            CreateDessStraw();
+            screenState = UPDATE_DESSSTRAW;
+            break;
+        case UPDATE_DESSSTRAW:
+            
+            screenState = DISPLAY_DESSSTRAW;
+            break;
+        case DISPLAY_DESSSTRAW:
+            break;
+            
+        case CREATE_DESSSUNDAE:
+            CreateDessSundae();
+            screenState = UPDATE_DESSSUNDAE;
+            break;
+        case UPDATE_DESSSUNDAE:
+            
+            screenState = DISPLAY_DESSSUNDAE;
+            break;
+        case DISPLAY_DESSSUNDAE:
+            break;
+            
+        case CREATE_DINCORNBEEF:
+            CreateDinCornBeef();
+            screenState = UPDATE_DINCORNBEEF;
+            break;
+        case UPDATE_DINCORNBEEF:
+            
+            screenState = DISPLAY_DINCORNBEEF;
+            break;
+        case DISPLAY_DINCORNBEEF:
+            break;
+            
+        case CREATE_DINNERLIST:
+            CreateDinnerList();
+            screenState = UPDATE_DINNERLIST;
+            break;
+        case UPDATE_DINNERLIST:
+            
+            screenState = DISPLAY_DINNERLIST;
+            break;
+        case DISPLAY_DINNERLIST:
+            break;
+            
+        case CREATE_DINFRIEDCHIKEN:
+            CreateDinFriedChiken();
+            screenState = UPDATE_DINFRIEDCHIKEN;
+            break;
+        case UPDATE_DINFRIEDCHIKEN:
+            
+            screenState = DISPLAY_DINFRIEDCHIKEN;
+            break;
+        case DISPLAY_DINFRIEDCHIKEN:
+            break;
+            
+        case CREATE_DINGRILLEDCHICKEN:
+            CreateDinGrilledChicken();
+            screenState = UPDATE_DINGRILLEDCHICKEN;
+            break;
+        case UPDATE_DINGRILLEDCHICKEN:
+            
+            screenState = DISPLAY_DINGRILLEDCHICKEN;
+            break;
+        case DISPLAY_DINGRILLEDCHICKEN:
+            break;
+            
+        case CREATE_DINLASAGNA:
+            CreateDinLasagna();
+            screenState = UPDATE_DINLASAGNA;
+            break;
+        case UPDATE_DINLASAGNA:
+            
+            screenState = DISPLAY_DINLASAGNA;
+            break;
+        case DISPLAY_DINLASAGNA:
+            break;
+            
+        case CREATE_DINMARPIZZA:
+            CreateDinMarPizza();
+            screenState = UPDATE_DINMARPIZZA;
+            break;
+        case UPDATE_DINMARPIZZA:
+            
+            screenState = DISPLAY_DINMARPIZZA;
+            break;
+        case DISPLAY_DINMARPIZZA:
+            break;
+            
+        case CREATE_DINQUESADILLA:
+            CreateDinQuesadilla();
+            screenState = UPDATE_DINQUESADILLA;
+            break;
+        case UPDATE_DINQUESADILLA:
+            
+            screenState = DISPLAY_DINQUESADILLA;
+            break;
+        case DISPLAY_DINQUESADILLA:
+            break;
+            
+        case CREATE_DINSPAGHETTI:
+            CreateDinSpaghetti();
+            screenState = UPDATE_DINSPAGHETTI;
+            break;
+        case UPDATE_DINSPAGHETTI:
+            
+            screenState = DISPLAY_DINSPAGHETTI;
+            break;
+        case DISPLAY_DINSPAGHETTI:
+            break;
+            
+        case CREATE_DINSTEAK:
+            CreateDinSteak();
+            screenState = UPDATE_DINSTEAK;
+            break;
+        case UPDATE_DINSTEAK:
+            
+            screenState = DISPLAY_DINSTEAK;
+            break;
+        case DISPLAY_DINSTEAK:
+            break;
+            
+        case CREATE_DINTILAPIA:
+            CreateDinTilapia();
+            screenState = UPDATE_DINTILAPIA;
+            break;
+        case UPDATE_DINTILAPIA:
+            
+            screenState = DISPLAY_DINTILAPIA;
+            break;
+        case DISPLAY_DINTILAPIA:
+            break;
+            
+        case CREATE_DINVEGPIZZA:
+            CreateDinVegPizza();
+            screenState = UPDATE_DINVEGPIZZA;
+            break;
+        case UPDATE_DINVEGPIZZA:
+            
+            screenState = DISPLAY_DINVEGPIZZA;
+            break;
+        case DISPLAY_DINVEGPIZZA:
+            break;
+            
+        case CREATE_SIDESLIST:
+            CreateSidesList();
+            screenState = UPDATE_SIDESLIST;
+            break;
+        case UPDATE_SIDESLIST:
+            
+            screenState = DISPLAY_SIDESLIST;
+            break;
+        case DISPLAY_SIDESLIST:
+            break;
+            
+        case CREATE_SIDESBAKEDPOT:
+            CreateSidesBakedPot();
+            screenState = UPDATE_SIDESBAKEDPOT;
+            break;
+        case UPDATE_SIDESBAKEDPOT:
+            
+            screenState = DISPLAY_SIDESBAKEDPOT;
+            break;
+        case DISPLAY_SIDESBAKEDPOT:
+            break;
+            
+        case CREATE_SIDESBROCCOLI:
+            CreateSidesBroccoli();
+            screenState = UPDATE_SIDESBROCCOLI;
+            break;
+        case UPDATE_SIDESBROCCOLI:
+            
+            screenState = DISPLAY_SIDESBROCCOLI;
+            break;
+        case DISPLAY_SIDESBROCCOLI:
+            break;
+            
+        case CREATE_SIDESFRIES:
+            CreateSidesFries();
+            screenState = UPDATE_SIDESFRIES;
+            break;
+        case UPDATE_SIDESFRIES:
+            
+            screenState = DISPLAY_SIDESFRIES;
+            break;
+        case DISPLAY_SIDESFRIES:
+            break;
+            
+        case CREATE_SIDESFRUIT:
+            CreateSidesFruit();
+            screenState = UPDATE_SIDESFRUIT;
+            break;
+        case UPDATE_SIDESFRUIT:
+            
+            screenState = DISPLAY_SIDESFRUIT;
+            break;
+        case DISPLAY_SIDESFRUIT:
+            break;
+            
+        case CREATE_SIDESMASHED:
+            CreateSidesMashed();
+            screenState = UPDATE_SIDESMASHED;
+            break;
+        case UPDATE_SIDESMASHED:
+            
+            screenState = DISPLAY_SIDESMASHED;
+            break;
+        case DISPLAY_SIDESMASHED:
+            break;
+            
+        case CREATE_SIDESORINGS:
+            CreateSidesORings();
+            screenState = UPDATE_SIDESORINGS;
+            break;
+        case UPDATE_SIDESORINGS:
+            
+            screenState = DISPLAY_SIDESORINGS;
+            break;
+        case DISPLAY_SIDESORINGS:
+            break;
+            
+        case CREATE_SIDESSLAW:
+            CreateSidesSlaw();
+            screenState = UPDATE_SIDESSLAW;
+            break;
+        case UPDATE_SIDESSLAW:
+            
+            screenState = DISPLAY_SIDESSLAW;
+            break;
+        case DISPLAY_SIDESSLAW:
             break;
             
             

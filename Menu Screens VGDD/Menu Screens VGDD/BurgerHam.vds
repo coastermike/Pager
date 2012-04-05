@@ -52,7 +52,7 @@
     <Property name="Location">353, 64</Property>
     <Property name="Transparent">False</Property>
     <Property name="Name">Picture1</Property>
-    <Property name="Bitmap">hamburge</Property>
+    <Property name="Bitmap">blackene</Property>
     <Property name="Size">110, 110</Property>
     <Property name="State">Enabled</Property>
     <Property name="Scale">1</Property>
