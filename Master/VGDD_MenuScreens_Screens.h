@@ -10,84 +10,114 @@ extern GOL_SCHEME* GOLScheme_DescText;
 void CreateScheme_DescText(void);
 extern GOL_SCHEME* GOLScheme_MainName;
 void CreateScheme_MainName(void);
-extern const IMAGE_EXTERNAL cheesest;	// C:\Users\Michael\Pager\Menu Screens VGDD\Menu Screens VGDD\..\Pictures\Appetizers\cheesest. 110x110 24BPP
-extern const IMAGE_EXTERNAL chiliche;	// C:\Users\Michael\Pager\Menu Screens VGDD\Menu Screens VGDD\..\Pictures\Appetizers\chiliche. 110x110 24BPP
-extern const IMAGE_EXTERNAL friedGre;	// C:\Users\Michael\Pager\Menu Screens VGDD\Menu Screens VGDD\..\Pictures\Appetizers\friedGre. 110x110 24BPP
-extern const IMAGE_EXTERNAL friedpic;	// C:\Users\Michael\Pager\Menu Screens VGDD\Menu Screens VGDD\..\Pictures\Appetizers\friedpic. 110x110 24BPP
-extern const IMAGE_EXTERNAL garlicfr;	// C:\Users\Michael\Pager\Menu Screens VGDD\Menu Screens VGDD\..\Pictures\Appetizers\garlicfr. 110x110 24BPP
-extern const IMAGE_EXTERNAL nachos;	// C:\Users\Michael\Pager\Menu Screens VGDD\Menu Screens VGDD\..\Pictures\Appetizers\nachos. 110x110 24BPP
-extern const IMAGE_EXTERNAL spicynac;	// C:\Users\Michael\Pager\Menu Screens VGDD\Menu Screens VGDD\..\Pictures\Appetizers\spicynac. 110x110 24BPP
-extern const IMAGE_EXTERNAL jambalay;	// C:\Users\Michael\Pager\Menu Screens VGDD\Menu Screens VGDD\..\Pictures\Soups\jambalay. 110x110 24BPP
-extern const IMAGE_EXTERNAL spicyVeg;	// C:\Users\Michael\Pager\Menu Screens VGDD\Menu Screens VGDD\..\Pictures\Soups\spicyVeg. 110x110 24BPP
-extern const IMAGE_EXTERNAL broccoli;	// C:\Users\Michael\Pager\Menu Screens VGDD\Menu Screens VGDD\..\Pictures\Soups\broccoli. 110x110 24BPP
-extern const IMAGE_EXTERNAL HamandBe;	// C:\Users\Michael\Pager\Menu Screens VGDD\Menu Screens VGDD\..\Pictures\Soups\HamandBe. 110x110 24BPP
-extern const IMAGE_EXTERNAL gumbol;	// C:\Users\Michael\Pager\Menu Screens VGDD\Menu Screens VGDD\..\Pictures\Soups\gumbol. 110x110 24BPP
-extern const IMAGE_EXTERNAL TurkeyCl;	// C:\Users\Michael\Pager\Menu Screens VGDD\Menu Screens VGDD\..\Pictures\Sandwiches\TurkeyCl. 110x110 24BPP
-extern const IMAGE_EXTERNAL Reuben;	// C:\Users\Michael\Pager\Menu Screens VGDD\Menu Screens VGDD\..\Pictures\Sandwiches\Reuben. 110x110 24BPP
-extern const IMAGE_EXTERNAL veggieRe;	// C:\Users\Michael\Pager\Menu Screens VGDD\Menu Screens VGDD\..\Pictures\Sandwiches\veggieRe. 110x110 24BPP
-extern const IMAGE_EXTERNAL smothere;	// C:\Users\Michael\Pager\Menu Screens VGDD\Menu Screens VGDD\..\Pictures\Sandwiches\smothere. 110x110 24BPP
-extern const IMAGE_EXTERNAL cajunChi;	// C:\Users\Michael\Pager\Menu Screens VGDD\Menu Screens VGDD\..\Pictures\Sandwiches\cajunChi. 110x110 24BPP
-extern const IMAGE_EXTERNAL friedsta;	// C:\Users\Michael\Pager\Menu Screens VGDD\Menu Screens VGDD\..\Pictures\Sandwiches\friedsta. 110x110 24BPP
-extern const IMAGE_EXTERNAL grilledS;	// C:\Users\Michael\Pager\Menu Screens VGDD\Menu Screens VGDD\..\Pictures\Sandwiches\grilledS. 110x110 24BPP
-extern const IMAGE_EXTERNAL cheesebu;	// C:\Users\Michael\Pager\Menu Screens VGDD\Menu Screens VGDD\..\Pictures\Burger\cheesebu. 110x110 24BPP
-extern const IMAGE_EXTERNAL hamburge;	// C:\Users\Michael\Pager\Menu Screens VGDD\Menu Screens VGDD\..\Pictures\Burger\hamburge. 110x110 24BPP
-extern const IMAGE_EXTERNAL pepperja;	// C:\Users\Michael\Pager\Menu Screens VGDD\Menu Screens VGDD\..\Pictures\Burger\pepperja. 110x110 24BPP
-extern const IMAGE_EXTERNAL Mushroom;	// C:\Users\Michael\Pager\Menu Screens VGDD\Menu Screens VGDD\..\Pictures\Burger\Mushroom. 110x110 24BPP
-extern const IMAGE_EXTERNAL lemonshr;	// C:\Users\Michael\Pager\Menu Screens VGDD\Menu Screens VGDD\..\Pictures\Salads\lemonshr. 110x110 24BPP
-extern const IMAGE_EXTERNAL friedchi;	// C:\Users\Michael\Pager\Menu Screens VGDD\Menu Screens VGDD\..\Pictures\Salads\friedchi. 110x110 24BPP
-extern const IMAGE_EXTERNAL steaksal;	// C:\Users\Michael\Pager\Menu Screens VGDD\Menu Screens VGDD\..\Pictures\Salads\steaksal. 110x110 24BPP
-extern const IMAGE_EXTERNAL FruitSal;	// C:\Users\Michael\Pager\Menu Screens VGDD\Menu Screens VGDD\..\Pictures\Salads\FruitSal. 110x110 24BPP
-extern const IMAGE_EXTERNAL GardenBu;	// C:\Users\Michael\Pager\Menu Screens VGDD\Menu Screens VGDD\..\Pictures\Salads\GardenBu. 110x110 24BPP
-extern const IMAGE_EXTERNAL ChickenS;	// C:\Users\Michael\Pager\Menu Screens VGDD\Menu Screens VGDD\..\Pictures\Soups\ChickenS. 110x110 24BPP
-extern const IMAGE_EXTERNAL tomatoSp;	// C:\Users\Michael\Pager\Menu Screens VGDD\Menu Screens VGDD\..\Pictures\Soups\tomatoSp. 110x110 24BPP
-extern const IMAGE_EXTERNAL ItalianS;	// C:\Users\Michael\Pager\Menu Screens VGDD\Menu Screens VGDD\..\Pictures\Soups\ItalianS. 110x110 24BPP
-extern const IMAGE_EXTERNAL Fishsoup;	// C:\Users\Michael\Pager\Menu Screens VGDD\Menu Screens VGDD\..\Pictures\Soups\Fishsoup. 110x110 24BPP
-extern const IMAGE_EXTERNAL misomush;	// C:\Users\Michael\Pager\Menu Screens VGDD\Menu Screens VGDD\..\Pictures\Soups\misomush. 110x110 24BPP
-extern const IMAGE_EXTERNAL onirings;	// C:\Users\Michael\Pager\Menu Screens VGDD\Menu Screens VGDD\..\Pictures\Appetizers\onirings. 110x110 24BPP
-extern const IMAGE_EXTERNAL frenchfr;	// C:\Users\Michael\Pager\Menu Screens VGDD\Menu Screens VGDD\..\Pictures\Appetizers\frenchfr. 110x110 24BPP
-extern const IMAGE_EXTERNAL carrotfr;	// C:\Users\Michael\Pager\Menu Screens VGDD\Menu Screens VGDD\..\Pictures\Appetizers\carrotfr. 110x110 24BPP
-extern const IMAGE_EXTERNAL GrillChe;	// C:\Users\Michael\Pager\Menu Screens VGDD\Menu Screens VGDD\..\Pictures\Sandwiches\GrillChe. 110x110 24BPP
-extern const IMAGE_EXTERNAL buffaloc;	// C:\Users\Michael\Pager\Menu Screens VGDD\Menu Screens VGDD\..\Pictures\Sandwiches\buffaloc. 110x110 24BPP
-extern const IMAGE_EXTERNAL corndog;	// C:\Users\Michael\Pager\Menu Screens VGDD\Menu Screens VGDD\..\Pictures\Sandwiches\corndog. 110x110 24BPP
-extern const IMAGE_EXTERNAL steakwra;	// C:\Users\Michael\Pager\Menu Screens VGDD\Menu Screens VGDD\..\Pictures\Sandwiches\steakwra. 110x110 24BPP
-extern const IMAGE_EXTERNAL Gardensw;	// C:\Users\Michael\Pager\Menu Screens VGDD\Menu Screens VGDD\..\Pictures\Sandwiches\Gardensw. 110x110 24BPP
-extern const IMAGE_EXTERNAL grillChi;	// C:\Users\Michael\Pager\Menu Screens VGDD\Menu Screens VGDD\..\Pictures\Sandwiches\grillChi. 110x110 24BPP
-extern const IMAGE_EXTERNAL CajunBur;	// C:\Users\Michael\Pager\Menu Screens VGDD\Menu Screens VGDD\..\Pictures\Burger\CajunBur. 110x110 24BPP
-extern const IMAGE_EXTERNAL blackene;	// C:\Users\Michael\Pager\Menu Screens VGDD\Menu Screens VGDD\..\Pictures\Salads\blackene. 110x110 24BPP
-extern const IMAGE_EXTERNAL fetafruc;	// C:\Users\Michael\Pager\Menu Screens VGDD\Menu Screens VGDD\..\Pictures\Salads\fetafruc. 110x110 24BPP
-extern const IMAGE_EXTERNAL Vegsalad;	// C:\Users\Michael\Pager\Menu Screens VGDD\Menu Screens VGDD\..\Pictures\Salads\Vegsalad. 110x110 24BPP
-extern const IMAGE_EXTERNAL tacosald;	// C:\Users\Michael\Pager\Menu Screens VGDD\Menu Screens VGDD\..\Pictures\Salads\tacosald. 110x110 24BPP
-extern const IMAGE_EXTERNAL hamsalad;	// C:\Users\Michael\Pager\Menu Screens VGDD\Menu Screens VGDD\..\Pictures\Salads\hamsalad. 110x110 24BPP
-extern const IMAGE_EXTERNAL baconSal;	// C:\Users\Michael\Pager\Menu Screens VGDD\Menu Screens VGDD\..\Pictures\Salads\baconSal. 110x110 24BPP
-extern const IMAGE_EXTERNAL veggiemu;	// C:\Users\Michael\Pager\Menu Screens VGDD\Menu Screens VGDD\..\Pictures\Sandwiches\veggiemu. 110x110 24BPP
-extern const IMAGE_EXTERNAL MonsterC;	// C:\Users\Michael\Pager\Menu Screens VGDD\Menu Screens VGDD\..\Pictures\Burger\MonsterC. 110x110 24BPP
-extern const IMAGE_EXTERNAL BlackTil;	// C:\Users\Michael\Pager\Menu Screens VGDD\Menu Screens VGDD\..\Pictures\Sandwiches\BlackTil. 110x110 24BPP
-extern const IMAGE_EXTERNAL endofuni;	// C:\Users\Michael\Pager\Menu Screens VGDD\Menu Screens VGDD\..\Pictures\Title\endofuni. 388x264 24BPP
-extern const IMAGE_EXTERNAL apple;	// C:\Users\Michael\Pager\Menu Screens VGDD\Menu Screens VGDD\..\Pictures\Desserts\apple. 110x110 24BPP
-extern const IMAGE_EXTERNAL blueberr;	// C:\Users\Michael\Pager\Menu Screens VGDD\Menu Screens VGDD\..\Pictures\Desserts\blueberr. 110x110 24BPP
-extern const IMAGE_EXTERNAL Brownie;	// C:\Users\Michael\Pager\Menu Screens VGDD\Menu Screens VGDD\..\Pictures\Desserts\Brownie. 110x110 24BPP
-extern const IMAGE_EXTERNAL Mousse;	// C:\Users\Michael\Pager\Menu Screens VGDD\Menu Screens VGDD\..\Pictures\Desserts\Mousse. 110x110 24BPP
-extern const IMAGE_EXTERNAL peanut;	// C:\Users\Michael\Pager\Menu Screens VGDD\Menu Screens VGDD\..\Pictures\Desserts\peanut. 110x110 24BPP
-extern const IMAGE_EXTERNAL redvel;	// C:\Users\Michael\Pager\Menu Screens VGDD\Menu Screens VGDD\..\Pictures\Desserts\redvel. 110x110 24BPP
-extern const IMAGE_EXTERNAL Strawb;	// C:\Users\Michael\Pager\Menu Screens VGDD\Menu Screens VGDD\..\Pictures\Desserts\Strawb. 110x110 24BPP
-extern const IMAGE_EXTERNAL Sundae;	// C:\Users\Michael\Pager\Menu Screens VGDD\Menu Screens VGDD\..\Pictures\Desserts\Sundae. 110x110 24BPP
-extern const IMAGE_EXTERNAL cabbage;	// C:\Users\Michael\Pager\Menu Screens VGDD\Menu Screens VGDD\..\Pictures\Dinners\cabbage. 110x110 24BPP
-extern const IMAGE_EXTERNAL VegPizza;	// C:\Users\Michael\Pager\Menu Screens VGDD\Menu Screens VGDD\..\Pictures\Dinners\VegPizza. 110x110 24BPP
-extern const IMAGE_EXTERNAL MPizza;	// C:\Users\Michael\Pager\Menu Screens VGDD\Menu Screens VGDD\..\Pictures\Dinners\MPizza. 110x110 24BPP
-extern const IMAGE_EXTERNAL Quesd;	// C:\Users\Michael\Pager\Menu Screens VGDD\Menu Screens VGDD\..\Pictures\Dinners\Quesd. 110x110 24BPP
-extern const IMAGE_EXTERNAL spagmeat;	// C:\Users\Michael\Pager\Menu Screens VGDD\Menu Screens VGDD\..\Pictures\Dinners\spagmeat. 110x110 24BPP
-extern const IMAGE_EXTERNAL Steak;	// C:\Users\Michael\Pager\Menu Screens VGDD\Menu Screens VGDD\..\Pictures\Dinners\Steak. 110x110 24BPP
-extern const IMAGE_EXTERNAL Tilipia;	// C:\Users\Michael\Pager\Menu Screens VGDD\Menu Screens VGDD\..\Pictures\Dinners\Tilipia. 110x110 24BPP
-extern const IMAGE_EXTERNAL Lasagna;	// C:\Users\Michael\Pager\Menu Screens VGDD\Menu Screens VGDD\..\Pictures\Dinners\Lasagna. 110x110 24BPP
-extern const IMAGE_EXTERNAL GrChx;	// C:\Users\Michael\Pager\Menu Screens VGDD\Menu Screens VGDD\..\Pictures\Dinners\GrChx. 110x110 24BPP
-extern const IMAGE_EXTERNAL FrChx;	// C:\Users\Michael\Pager\Menu Screens VGDD\Menu Screens VGDD\..\Pictures\Dinners\FrChx. 110x110 24BPP
-extern const IMAGE_EXTERNAL Coleslaw;	// C:\Users\Michael\Pager\Menu Screens VGDD\Menu Screens VGDD\..\Pictures\Sides\Coleslaw. 110x110 24BPP
-extern const IMAGE_EXTERNAL Baked;	// C:\Users\Michael\Pager\Menu Screens VGDD\Menu Screens VGDD\..\Pictures\Sides\Baked. 110x110 24BPP
-extern const IMAGE_EXTERNAL BBroccol;	// C:\Users\Michael\Pager\Menu Screens VGDD\Menu Screens VGDD\..\Pictures\Sides\BBroccol. 110x110 24BPP
-extern const IMAGE_EXTERNAL Fries;	// C:\Users\Michael\Pager\Menu Screens VGDD\Menu Screens VGDD\..\Pictures\Sides\Fries. 110x110 24BPP
-extern const IMAGE_EXTERNAL fruit;	// C:\Users\Michael\Pager\Menu Screens VGDD\Menu Screens VGDD\..\Pictures\Sides\fruit. 110x110 24BPP
-extern const IMAGE_EXTERNAL mashed;	// C:\Users\Michael\Pager\Menu Screens VGDD\Menu Screens VGDD\..\Pictures\Sides\mashed. 110x110 24BPP
-extern const IMAGE_EXTERNAL onion;	// C:\Users\Michael\Pager\Menu Screens VGDD\Menu Screens VGDD\..\Pictures\Sides\onion. 110x110 24BPP
+extern const IMAGE_EXTERNAL bmpcheesest;	// C:\Users\Michael\Pager\Menu Screens VGDD\Menu Screens VGDD\..\Pictures\Appetizers\cheesest.bmp 110x110 24BPP
+extern const IMAGE_EXTERNAL bmpchiliche;	// C:\Users\Michael\Pager\Menu Screens VGDD\Menu Screens VGDD\..\Pictures\Appetizers\chiliche.bmp 110x110 24BPP
+extern const IMAGE_EXTERNAL bmpfriedGre;	// C:\Users\Michael\Pager\Menu Screens VGDD\Menu Screens VGDD\..\Pictures\Appetizers\friedGre.bmp 110x110 24BPP
+extern const IMAGE_EXTERNAL bmpfriedpic;	// C:\Users\Michael\Pager\Menu Screens VGDD\Menu Screens VGDD\..\Pictures\Appetizers\friedpic.bmp 110x110 24BPP
+extern const IMAGE_EXTERNAL bmpgarlicfr;	// C:\Users\Michael\Pager\Menu Screens VGDD\Menu Screens VGDD\..\Pictures\Appetizers\garlicfr.bmp 110x110 24BPP
+extern const IMAGE_EXTERNAL bmpnachos;	// C:\Users\Michael\Pager\Menu Screens VGDD\Menu Screens VGDD\..\Pictures\Appetizers\nachos.bmp 110x110 24BPP
+extern const IMAGE_EXTERNAL bmpspicynac;	// C:\Users\Michael\Pager\Menu Screens VGDD\Menu Screens VGDD\..\Pictures\Appetizers\spicynac.bmp 110x110 24BPP
+extern const IMAGE_EXTERNAL bmpjambalay;	// C:\Users\Michael\Pager\Menu Screens VGDD\Menu Screens VGDD\..\Pictures\Soups\jambalay.bmp 110x110 24BPP
+extern const IMAGE_EXTERNAL bmpspicyVeg;	// C:\Users\Michael\Pager\Menu Screens VGDD\Menu Screens VGDD\..\Pictures\Soups\spicyVeg.bmp 110x110 24BPP
+extern const IMAGE_EXTERNAL bmpbroccoli;	// C:\Users\Michael\Pager\Menu Screens VGDD\Menu Screens VGDD\..\Pictures\Soups\broccoli.bmp 110x110 24BPP
+extern const IMAGE_EXTERNAL bmpHamandBe;	// C:\Users\Michael\Pager\Menu Screens VGDD\Menu Screens VGDD\..\Pictures\Soups\HamandBe.bmp 110x110 24BPP
+extern const IMAGE_EXTERNAL bmpgumbol;	// C:\Users\Michael\Pager\Menu Screens VGDD\Menu Screens VGDD\..\Pictures\Soups\gumbol.bmp 110x110 24BPP
+extern const IMAGE_EXTERNAL bmpTurkeyCl;	// C:\Users\Michael\Pager\Menu Screens VGDD\Menu Screens VGDD\..\Pictures\Sandwiches\TurkeyCl.bmp 110x110 24BPP
+extern const IMAGE_EXTERNAL bmpReuben;	// C:\Users\Michael\Pager\Menu Screens VGDD\Menu Screens VGDD\..\Pictures\Sandwiches\Reuben.bmp 110x110 24BPP
+extern const IMAGE_EXTERNAL bmpveggieRe;	// C:\Users\Michael\Pager\Menu Screens VGDD\Menu Screens VGDD\..\Pictures\Sandwiches\veggieRe.bmp 110x110 24BPP
+extern const IMAGE_EXTERNAL bmpsmothere;	// C:\Users\Michael\Pager\Menu Screens VGDD\Menu Screens VGDD\..\Pictures\Sandwiches\smothere.bmp 110x110 24BPP
+extern const IMAGE_EXTERNAL bmpcajunChi;	// C:\Users\Michael\Pager\Menu Screens VGDD\Menu Screens VGDD\..\Pictures\Sandwiches\cajunChi.bmp 110x110 24BPP
+extern const IMAGE_EXTERNAL bmpfriedsta;	// C:\Users\Michael\Pager\Menu Screens VGDD\Menu Screens VGDD\..\Pictures\Sandwiches\friedsta.bmp 110x110 24BPP
+extern const IMAGE_EXTERNAL bmpgrilledS;	// C:\Users\Michael\Pager\Menu Screens VGDD\Menu Screens VGDD\..\Pictures\Sandwiches\grilledS.bmp 110x110 24BPP
+extern const IMAGE_EXTERNAL bmpcheesebu;	// C:\Users\Michael\Pager\Menu Screens VGDD\Menu Screens VGDD\..\Pictures\Burger\cheesebu.bmp 110x110 24BPP
+extern const IMAGE_EXTERNAL bmphamburge;	// C:\Users\Michael\Pager\Menu Screens VGDD\Menu Screens VGDD\..\Pictures\Burger\hamburge.bmp 110x110 24BPP
+extern const IMAGE_EXTERNAL bmppepperja;	// C:\Users\Michael\Pager\Menu Screens VGDD\Menu Screens VGDD\..\Pictures\Burger\pepperja.bmp 110x110 24BPP
+extern const IMAGE_EXTERNAL bmpMushroom;	// C:\Users\Michael\Pager\Menu Screens VGDD\Menu Screens VGDD\..\Pictures\Burger\Mushroom.bmp 110x110 24BPP
+extern const IMAGE_EXTERNAL bmplemonshr;	// C:\Users\Michael\Pager\Menu Screens VGDD\Menu Screens VGDD\..\Pictures\Salads\lemonshr.bmp 110x110 24BPP
+extern const IMAGE_EXTERNAL bmpfriedchi;	// C:\Users\Michael\Pager\Menu Screens VGDD\Menu Screens VGDD\..\Pictures\Salads\friedchi.bmp 110x110 24BPP
+extern const IMAGE_EXTERNAL bmpsteaksal;	// C:\Users\Michael\Pager\Menu Screens VGDD\Menu Screens VGDD\..\Pictures\Salads\steaksal.bmp 110x110 24BPP
+extern const IMAGE_EXTERNAL bmpFruitSal;	// C:\Users\Michael\Pager\Menu Screens VGDD\Menu Screens VGDD\..\Pictures\Salads\FruitSal.bmp 110x110 24BPP
+extern const IMAGE_EXTERNAL bmpGardenBu;	// C:\Users\Michael\Pager\Menu Screens VGDD\Menu Screens VGDD\..\Pictures\Salads\GardenBu.bmp 110x110 24BPP
+extern const IMAGE_EXTERNAL bmpChickenS;	// C:\Users\Michael\Pager\Menu Screens VGDD\Menu Screens VGDD\..\Pictures\Soups\ChickenS.bmp 110x110 24BPP
+extern const IMAGE_EXTERNAL bmptomatoSp;	// C:\Users\Michael\Pager\Menu Screens VGDD\Menu Screens VGDD\..\Pictures\Soups\tomatoSp.bmp 110x110 24BPP
+extern const IMAGE_EXTERNAL bmpItalianS;	// C:\Users\Michael\Pager\Menu Screens VGDD\Menu Screens VGDD\..\Pictures\Soups\ItalianS.bmp 110x110 24BPP
+extern const IMAGE_EXTERNAL bmpFishsoup;	// C:\Users\Michael\Pager\Menu Screens VGDD\Menu Screens VGDD\..\Pictures\Soups\Fishsoup.bmp 110x110 24BPP
+extern const IMAGE_EXTERNAL bmpmisomush;	// C:\Users\Michael\Pager\Menu Screens VGDD\Menu Screens VGDD\..\Pictures\Soups\misomush.bmp 110x110 24BPP
+extern const IMAGE_EXTERNAL bmponirings;	// C:\Users\Michael\Pager\Menu Screens VGDD\Menu Screens VGDD\..\Pictures\Appetizers\onirings.bmp 110x110 24BPP
+extern const IMAGE_EXTERNAL bmpfrenchfr;	// C:\Users\Michael\Pager\Menu Screens VGDD\Menu Screens VGDD\..\Pictures\Appetizers\frenchfr.bmp 110x110 24BPP
+extern const IMAGE_EXTERNAL bmpcarrotfr;	// C:\Users\Michael\Pager\Menu Screens VGDD\Menu Screens VGDD\..\Pictures\Appetizers\carrotfr.bmp 110x110 24BPP
+extern const IMAGE_EXTERNAL bmpGrillChe;	// C:\Users\Michael\Pager\Menu Screens VGDD\Menu Screens VGDD\..\Pictures\Sandwiches\GrillChe.bmp 110x110 24BPP
+extern const IMAGE_EXTERNAL bmpbuffaloc;	// C:\Users\Michael\Pager\Menu Screens VGDD\Menu Screens VGDD\..\Pictures\Sandwiches\buffaloc.bmp 110x110 24BPP
+extern const IMAGE_EXTERNAL bmpcorndog;	// C:\Users\Michael\Pager\Menu Screens VGDD\Menu Screens VGDD\..\Pictures\Sandwiches\corndog.bmp 110x110 24BPP
+extern const IMAGE_EXTERNAL bmpsteakwra;	// C:\Users\Michael\Pager\Menu Screens VGDD\Menu Screens VGDD\..\Pictures\Sandwiches\steakwra.bmp 110x110 24BPP
+extern const IMAGE_EXTERNAL bmpGardensw;	// C:\Users\Michael\Pager\Menu Screens VGDD\Menu Screens VGDD\..\Pictures\Sandwiches\Gardensw.bmp 110x110 24BPP
+extern const IMAGE_EXTERNAL bmpgrillChi;	// C:\Users\Michael\Pager\Menu Screens VGDD\Menu Screens VGDD\..\Pictures\Sandwiches\grillChi.bmp 110x110 24BPP
+extern const IMAGE_EXTERNAL bmpCajunBur;	// C:\Users\Michael\Pager\Menu Screens VGDD\Menu Screens VGDD\..\Pictures\Burger\CajunBur.bmp 110x110 24BPP
+extern const IMAGE_EXTERNAL bmpblackene;	// C:\Users\Michael\Pager\Menu Screens VGDD\Menu Screens VGDD\..\Pictures\Salads\blackene.bmp 110x110 24BPP
+extern const IMAGE_EXTERNAL bmpfetafruc;	// C:\Users\Michael\Pager\Menu Screens VGDD\Menu Screens VGDD\..\Pictures\Salads\fetafruc.bmp 110x110 24BPP
+extern const IMAGE_EXTERNAL bmpVegsalad;	// C:\Users\Michael\Pager\Menu Screens VGDD\Menu Screens VGDD\..\Pictures\Salads\Vegsalad.bmp 110x110 24BPP
+extern const IMAGE_EXTERNAL bmptacosald;	// C:\Users\Michael\Pager\Menu Screens VGDD\Menu Screens VGDD\..\Pictures\Salads\tacosald.bmp 110x110 24BPP
+extern const IMAGE_EXTERNAL bmphamsalad;	// C:\Users\Michael\Pager\Menu Screens VGDD\Menu Screens VGDD\..\Pictures\Salads\hamsalad.bmp 110x110 24BPP
+extern const IMAGE_EXTERNAL bmpbaconSal;	// C:\Users\Michael\Pager\Menu Screens VGDD\Menu Screens VGDD\..\Pictures\Salads\baconSal.bmp 110x110 24BPP
+extern const IMAGE_EXTERNAL bmpveggiemu;	// C:\Users\Michael\Pager\Menu Screens VGDD\Menu Screens VGDD\..\Pictures\Sandwiches\veggiemu.bmp 110x110 24BPP
+extern const IMAGE_EXTERNAL bmpMonsterC;	// C:\Users\Michael\Pager\Menu Screens VGDD\Menu Screens VGDD\..\Pictures\Burger\MonsterC.bmp 110x110 24BPP
+extern const IMAGE_EXTERNAL bmpBlackTil;	// C:\Users\Michael\Pager\Menu Screens VGDD\Menu Screens VGDD\..\Pictures\Sandwiches\BlackTil.bmp 110x110 24BPP
+extern const IMAGE_EXTERNAL bmpendofuni;	// C:\Users\Michael\Pager\Menu Screens VGDD\Menu Screens VGDD\..\Pictures\Title\endofuni.bmp 267x220 24BPP
+extern const IMAGE_EXTERNAL bmpapple;	// C:\Users\Michael\Pager\Menu Screens VGDD\Menu Screens VGDD\..\Pictures\Desserts\apple.bmp 110x110 24BPP
+extern const IMAGE_EXTERNAL bmpblueberr;	// C:\Users\Michael\Pager\Menu Screens VGDD\Menu Screens VGDD\..\Pictures\Desserts\blueberr.bmp 110x110 24BPP
+extern const IMAGE_EXTERNAL bmpBrownie;	// C:\Users\Michael\Pager\Menu Screens VGDD\Menu Screens VGDD\..\Pictures\Desserts\Brownie.bmp 110x110 24BPP
+extern const IMAGE_EXTERNAL bmpMousse;	// C:\Users\Michael\Pager\Menu Screens VGDD\Menu Screens VGDD\..\Pictures\Desserts\Mousse.bmp 110x110 24BPP
+extern const IMAGE_EXTERNAL bmppeanut;	// C:\Users\Michael\Pager\Menu Screens VGDD\Menu Screens VGDD\..\Pictures\Desserts\peanut.bmp 110x110 24BPP
+extern const IMAGE_EXTERNAL bmpredvel;	// C:\Users\Michael\Pager\Menu Screens VGDD\Menu Screens VGDD\..\Pictures\Desserts\redvel.bmp 110x110 24BPP
+extern const IMAGE_EXTERNAL bmpStrawb;	// C:\Users\Michael\Pager\Menu Screens VGDD\Menu Screens VGDD\..\Pictures\Desserts\Strawb.bmp 110x110 24BPP
+extern const IMAGE_EXTERNAL bmpSundae;	// C:\Users\Michael\Pager\Menu Screens VGDD\Menu Screens VGDD\..\Pictures\Desserts\Sundae.bmp 110x110 24BPP
+extern const IMAGE_EXTERNAL bmpcabbage;	// C:\Users\Michael\Pager\Menu Screens VGDD\Menu Screens VGDD\..\Pictures\Dinners\cabbage.bmp 110x110 24BPP
+extern const IMAGE_EXTERNAL bmpVegPizza;	// C:\Users\Michael\Pager\Menu Screens VGDD\Menu Screens VGDD\..\Pictures\Dinners\VegPizza.bmp 110x110 24BPP
+extern const IMAGE_EXTERNAL bmpMPizza;	// C:\Users\Michael\Pager\Menu Screens VGDD\Menu Screens VGDD\..\Pictures\Dinners\MPizza.bmp 110x110 24BPP
+extern const IMAGE_EXTERNAL bmpQuesd;	// C:\Users\Michael\Pager\Menu Screens VGDD\Menu Screens VGDD\..\Pictures\Dinners\Quesd.bmp 110x110 24BPP
+extern const IMAGE_EXTERNAL bmpspagmeat;	// C:\Users\Michael\Pager\Menu Screens VGDD\Menu Screens VGDD\..\Pictures\Dinners\spagmeat.bmp 110x110 24BPP
+extern const IMAGE_EXTERNAL bmpSteak;	// C:\Users\Michael\Pager\Menu Screens VGDD\Menu Screens VGDD\..\Pictures\Dinners\Steak.bmp 110x110 24BPP
+extern const IMAGE_EXTERNAL bmpTilipia;	// C:\Users\Michael\Pager\Menu Screens VGDD\Menu Screens VGDD\..\Pictures\Dinners\Tilipia.bmp 110x110 24BPP
+extern const IMAGE_EXTERNAL bmpLasagna;	// C:\Users\Michael\Pager\Menu Screens VGDD\Menu Screens VGDD\..\Pictures\Dinners\Lasagna.bmp 110x110 24BPP
+extern const IMAGE_EXTERNAL bmpGrChx;	// C:\Users\Michael\Pager\Menu Screens VGDD\Menu Screens VGDD\..\Pictures\Dinners\GrChx.bmp 110x110 24BPP
+extern const IMAGE_EXTERNAL bmpFrChx;	// C:\Users\Michael\Pager\Menu Screens VGDD\Menu Screens VGDD\..\Pictures\Dinners\FrChx.bmp 110x110 24BPP
+extern const IMAGE_EXTERNAL bmpColeslaw;	// C:\Users\Michael\Pager\Menu Screens VGDD\Menu Screens VGDD\..\Pictures\Sides\Coleslaw.bmp 110x110 24BPP
+extern const IMAGE_EXTERNAL bmpBaked;	// C:\Users\Michael\Pager\Menu Screens VGDD\Menu Screens VGDD\..\Pictures\Sides\Baked.bmp 110x110 24BPP
+extern const IMAGE_EXTERNAL bmpBBroccol;	// C:\Users\Michael\Pager\Menu Screens VGDD\Menu Screens VGDD\..\Pictures\Sides\BBroccol.bmp 110x110 24BPP
+extern const IMAGE_EXTERNAL bmpFries;	// C:\Users\Michael\Pager\Menu Screens VGDD\Menu Screens VGDD\..\Pictures\Sides\Fries.bmp 110x110 24BPP
+extern const IMAGE_EXTERNAL bmpfruit;	// C:\Users\Michael\Pager\Menu Screens VGDD\Menu Screens VGDD\..\Pictures\Sides\fruit.bmp 110x110 24BPP
+extern const IMAGE_EXTERNAL bmpmashed;	// C:\Users\Michael\Pager\Menu Screens VGDD\Menu Screens VGDD\..\Pictures\Sides\mashed.bmp 110x110 24BPP
+extern const IMAGE_EXTERNAL bmponion;	// C:\Users\Michael\Pager\Menu Screens VGDD\Menu Screens VGDD\..\Pictures\Sides\onion.bmp 110x110 24BPP
+extern const IMAGE_EXTERNAL bmpYuen;	// C:\Users\Michael\Pager\Menu Screens VGDD\Menu Screens VGDD\..\Pictures\Alcohol\Yuen.bmp 110x110 24BPP
+extern const IMAGE_EXTERNAL bmpBud;	// C:\Users\Michael\Pager\Menu Screens VGDD\Menu Screens VGDD\..\Pictures\Alcohol\Bud.bmp 110x110 24BPP
+extern const IMAGE_EXTERNAL bmpBudL;	// C:\Users\Michael\Pager\Menu Screens VGDD\Menu Screens VGDD\..\Pictures\Alcohol\BudL.bmp 110x110 24BPP
+extern const IMAGE_EXTERNAL bmpCoorsL;	// C:\Users\Michael\Pager\Menu Screens VGDD\Menu Screens VGDD\..\Pictures\Alcohol\CoorsL.bmp 110x110 24BPP
+extern const IMAGE_EXTERNAL bmpCorona;	// C:\Users\Michael\Pager\Menu Screens VGDD\Menu Screens VGDD\..\Pictures\Alcohol\Corona.bmp 110x110 24BPP
+extern const IMAGE_EXTERNAL bmpGuinness;	// C:\Users\Michael\Pager\Menu Screens VGDD\Menu Screens VGDD\..\Pictures\Alcohol\Guinness.bmp 110x110 24BPP
+extern const IMAGE_EXTERNAL bmpMichelo;	// C:\Users\Michael\Pager\Menu Screens VGDD\Menu Screens VGDD\..\Pictures\Alcohol\Michelo.bmp 110x110 24BPP
+extern const IMAGE_EXTERNAL bmpMillerL;	// C:\Users\Michael\Pager\Menu Screens VGDD\Menu Screens VGDD\..\Pictures\Alcohol\MillerL.bmp 110x110 24BPP
+extern const IMAGE_EXTERNAL bmpBanana;	// C:\Users\Michael\Pager\Menu Screens VGDD\Menu Screens VGDD\..\Pictures\Smothies_Shakes\Banana.bmp 110x110 24BPP
+extern const IMAGE_EXTERNAL bmpberry;	// C:\Users\Michael\Pager\Menu Screens VGDD\Menu Screens VGDD\..\Pictures\Smothies_Shakes\berry.bmp 110x110 24BPP
+extern const IMAGE_EXTERNAL bmpchoc;	// C:\Users\Michael\Pager\Menu Screens VGDD\Menu Screens VGDD\..\Pictures\Smothies_Shakes\choc.bmp 110x110 24BPP
+extern const IMAGE_EXTERNAL bmporeo;	// C:\Users\Michael\Pager\Menu Screens VGDD\Menu Screens VGDD\..\Pictures\Smothies_Shakes\oreo.bmp 110x110 24BPP
+extern const IMAGE_EXTERNAL bmpvan;	// C:\Users\Michael\Pager\Menu Screens VGDD\Menu Screens VGDD\..\Pictures\Smothies_Shakes\van.bmp 110x110 24BPP
+extern const IMAGE_EXTERNAL bmpsmpean;	// C:\Users\Michael\Pager\Menu Screens VGDD\Menu Screens VGDD\..\Pictures\Smothies_Shakes\smpean.bmp 110x110 24BPP
+extern const IMAGE_EXTERNAL bmpChocMilk;	// C:\Users\Michael\Pager\Menu Screens VGDD\Menu Screens VGDD\..\Pictures\Drinks\ChocMilk.bmp 110x110 24BPP
+extern const IMAGE_EXTERNAL bmpCoffee;	// C:\Users\Michael\Pager\Menu Screens VGDD\Menu Screens VGDD\..\Pictures\Drinks\Coffee.bmp 110x110 24BPP
+extern const IMAGE_EXTERNAL bmpcoke;	// C:\Users\Michael\Pager\Menu Screens VGDD\Menu Screens VGDD\..\Pictures\Drinks\coke.bmp 110x110 24BPP
+extern const IMAGE_EXTERNAL bmpDcoffee;	// C:\Users\Michael\Pager\Menu Screens VGDD\Menu Screens VGDD\..\Pictures\Drinks\Dcoffee.bmp 110x110 24BPP
+extern const IMAGE_EXTERNAL bmpdietcoke;	// C:\Users\Michael\Pager\Menu Screens VGDD\Menu Screens VGDD\..\Pictures\Drinks\dietcoke.bmp 110x110 24BPP
+extern const IMAGE_EXTERNAL bmpdietspri;	// C:\Users\Michael\Pager\Menu Screens VGDD\Menu Screens VGDD\..\Pictures\Drinks\dietspri.bmp 110x110 24BPP
+extern const IMAGE_EXTERNAL bmpgingera;	// C:\Users\Michael\Pager\Menu Screens VGDD\Menu Screens VGDD\..\Pictures\Drinks\gingera.bmp 110x110 24BPP
+extern const IMAGE_EXTERNAL bmpHotTea;	// C:\Users\Michael\Pager\Menu Screens VGDD\Menu Screens VGDD\..\Pictures\Drinks\HotTea.bmp 110x110 24BPP
+extern const IMAGE_EXTERNAL bmpIcedTea;	// C:\Users\Michael\Pager\Menu Screens VGDD\Menu Screens VGDD\..\Pictures\Drinks\IcedTea.bmp 110x110 24BPP
+extern const IMAGE_EXTERNAL bmpLem;	// C:\Users\Michael\Pager\Menu Screens VGDD\Menu Screens VGDD\..\Pictures\Drinks\Lem.bmp 110x110 24BPP
+extern const IMAGE_EXTERNAL bmpmilk;	// C:\Users\Michael\Pager\Menu Screens VGDD\Menu Screens VGDD\..\Pictures\Drinks\milk.bmp 110x110 24BPP
+extern const IMAGE_EXTERNAL bmpraspberr;	// C:\Users\Michael\Pager\Menu Screens VGDD\Menu Screens VGDD\..\Pictures\Drinks\raspberr.bmp 110x110 24BPP
+extern const IMAGE_EXTERNAL bmprootbeer;	// C:\Users\Michael\Pager\Menu Screens VGDD\Menu Screens VGDD\..\Pictures\Drinks\rootbeer.bmp 110x110 24BPP
+extern const IMAGE_EXTERNAL bmpsprite;	// C:\Users\Michael\Pager\Menu Screens VGDD\Menu Screens VGDD\..\Pictures\Drinks\sprite.bmp 110x110 24BPP
+extern const IMAGE_EXTERNAL bmpSweetTea;	// C:\Users\Michael\Pager\Menu Screens VGDD\Menu Screens VGDD\..\Pictures\Drinks\SweetTea.bmp 110x110 24BPP
+extern const IMAGE_EXTERNAL bmpwater;	// C:\Users\Michael\Pager\Menu Screens VGDD\Menu Screens VGDD\..\Pictures\Drinks\water.bmp 110x110 24BPP
 void CreateMainMenu(void);
 #define ID_MainMenu_Picture1   1
 #define ID_MainMenu_Button1   2
@@ -1042,5 +1072,368 @@ void CreateSidesSlaw(void);
 #define ID_SidesSlaw_Button5   773
 #define ID_SidesSlaw_Button6   774
 
-#define	NUM_VGDD_SCREENS	90
+void CreateAlcoholBud(void);
+#define ID_AlcoholBud_Window1   775
+#define ID_AlcoholBud_Picture1   776
+#define ID_AlcoholBud_EditBox1   777
+#define ID_AlcoholBud_Button8   778
+#define ID_AlcoholBud_Button3   779
+#define ID_AlcoholBud_Button4   780
+#define ID_AlcoholBud_Button5   781
+#define ID_AlcoholBud_Button6   782
+
+void CreateAlcoholList(void);
+#define ID_AlcoholList_Window1   783
+#define ID_AlcoholList_Button1   784
+#define ID_AlcoholList_Button3   785
+#define ID_AlcoholList_Button5   786
+#define ID_AlcoholList_Button7   787
+#define ID_AlcoholList_Button8   788
+#define ID_AlcoholList_Button9   789
+#define ID_AlcoholList_Button10   790
+#define ID_AlcoholList_Button12   791
+#define ID_AlcoholList_Button11   792
+#define ID_AlcoholList_Button13   793
+
+void CreateAlcoholBudLight(void);
+#define ID_AlcoholBudLight_Window1   794
+#define ID_AlcoholBudLight_Picture1   795
+#define ID_AlcoholBudLight_EditBox1   796
+#define ID_AlcoholBudLight_Button8   797
+#define ID_AlcoholBudLight_Button3   798
+#define ID_AlcoholBudLight_Button4   799
+#define ID_AlcoholBudLight_Button5   800
+#define ID_AlcoholBudLight_Button6   801
+
+void CreateAlcoholCoorsLight(void);
+#define ID_AlcoholCoorsLight_Window1   802
+#define ID_AlcoholCoorsLight_Picture1   803
+#define ID_AlcoholCoorsLight_EditBox1   804
+#define ID_AlcoholCoorsLight_Button8   805
+#define ID_AlcoholCoorsLight_Button3   806
+#define ID_AlcoholCoorsLight_Button4   807
+#define ID_AlcoholCoorsLight_Button5   808
+#define ID_AlcoholCoorsLight_Button6   809
+
+void CreateAlcoholCorona(void);
+#define ID_AlcoholCorona_Window1   810
+#define ID_AlcoholCorona_Picture1   811
+#define ID_AlcoholCorona_EditBox1   812
+#define ID_AlcoholCorona_Button8   813
+#define ID_AlcoholCorona_Button3   814
+#define ID_AlcoholCorona_Button4   815
+#define ID_AlcoholCorona_Button5   816
+#define ID_AlcoholCorona_Button6   817
+
+void CreateAlcoholGuinness(void);
+#define ID_AlcoholGuinness_Window1   818
+#define ID_AlcoholGuinness_Picture1   819
+#define ID_AlcoholGuinness_EditBox1   820
+#define ID_AlcoholGuinness_Button8   821
+#define ID_AlcoholGuinness_Button3   822
+#define ID_AlcoholGuinness_Button4   823
+#define ID_AlcoholGuinness_Button5   824
+#define ID_AlcoholGuinness_Button6   825
+
+void CreateAlcoholMichelob(void);
+#define ID_AlcoholMichelob_Window1   826
+#define ID_AlcoholMichelob_Picture1   827
+#define ID_AlcoholMichelob_EditBox1   828
+#define ID_AlcoholMichelob_Button8   829
+#define ID_AlcoholMichelob_Button3   830
+#define ID_AlcoholMichelob_Button4   831
+#define ID_AlcoholMichelob_Button5   832
+#define ID_AlcoholMichelob_Button6   833
+
+void CreateAlcoholMillerLite(void);
+#define ID_AlcoholMillerLite_Window1   834
+#define ID_AlcoholMillerLite_Picture1   835
+#define ID_AlcoholMillerLite_EditBox1   836
+#define ID_AlcoholMillerLite_Button8   837
+#define ID_AlcoholMillerLite_Button3   838
+#define ID_AlcoholMillerLite_Button4   839
+#define ID_AlcoholMillerLite_Button5   840
+#define ID_AlcoholMillerLite_Button6   841
+
+void CreateAlcoholYuengling(void);
+#define ID_AlcoholYuengling_Window1   842
+#define ID_AlcoholYuengling_Picture1   843
+#define ID_AlcoholYuengling_EditBox1   844
+#define ID_AlcoholYuengling_Button8   845
+#define ID_AlcoholYuengling_Button3   846
+#define ID_AlcoholYuengling_Button4   847
+#define ID_AlcoholYuengling_Button5   848
+#define ID_AlcoholYuengling_Button6   849
+
+void CreateDrinkMenu(void);
+#define ID_DrinkMenu_Drink_Menu   850
+#define ID_DrinkMenu_Button1   851
+#define ID_DrinkMenu_Button5   852
+#define ID_DrinkMenu_Button8   853
+#define ID_DrinkMenu_Button10   854
+#define ID_DrinkMenu_Button12   855
+
+void CreateSmoShakeMenu(void);
+#define ID_SmoShakeMenu_Window1   856
+#define ID_SmoShakeMenu_Button1   857
+#define ID_SmoShakeMenu_Button3   858
+#define ID_SmoShakeMenu_Button5   859
+#define ID_SmoShakeMenu_Button7   860
+#define ID_SmoShakeMenu_Button8   861
+#define ID_SmoShakeMenu_Button9   862
+#define ID_SmoShakeMenu_Button10   863
+#define ID_SmoShakeMenu_Button12   864
+#define ID_SmoShakeMenu_Button11   865
+
+void CreateShakeBanana(void);
+#define ID_ShakeBanana_Window1   866
+#define ID_ShakeBanana_Picture1   867
+#define ID_ShakeBanana_EditBox1   868
+#define ID_ShakeBanana_Button1   869
+#define ID_ShakeBanana_Button8   870
+#define ID_ShakeBanana_Button3   871
+#define ID_ShakeBanana_Button4   872
+#define ID_ShakeBanana_Button5   873
+#define ID_ShakeBanana_Button6   874
+
+void CreateShakeBlueberry(void);
+#define ID_ShakeBlueberry_Window1   875
+#define ID_ShakeBlueberry_Picture1   876
+#define ID_ShakeBlueberry_EditBox1   877
+#define ID_ShakeBlueberry_Button1   878
+#define ID_ShakeBlueberry_Button8   879
+#define ID_ShakeBlueberry_Button3   880
+#define ID_ShakeBlueberry_Button4   881
+#define ID_ShakeBlueberry_Button5   882
+#define ID_ShakeBlueberry_Button6   883
+
+void CreateShakeChocolate(void);
+#define ID_ShakeChocolate_Window1   884
+#define ID_ShakeChocolate_Picture1   885
+#define ID_ShakeChocolate_EditBox1   886
+#define ID_ShakeChocolate_Button1   887
+#define ID_ShakeChocolate_Button8   888
+#define ID_ShakeChocolate_Button3   889
+#define ID_ShakeChocolate_Button4   890
+#define ID_ShakeChocolate_Button5   891
+#define ID_ShakeChocolate_Button6   892
+
+void CreateShakeOreo(void);
+#define ID_ShakeOreo_Window1   893
+#define ID_ShakeOreo_Picture1   894
+#define ID_ShakeOreo_EditBox1   895
+#define ID_ShakeOreo_Button1   896
+#define ID_ShakeOreo_Button8   897
+#define ID_ShakeOreo_Button3   898
+#define ID_ShakeOreo_Button4   899
+#define ID_ShakeOreo_Button5   900
+#define ID_ShakeOreo_Button6   901
+
+void CreateShakePeanut(void);
+#define ID_ShakePeanut_Window1   902
+#define ID_ShakePeanut_Picture1   903
+#define ID_ShakePeanut_EditBox1   904
+#define ID_ShakePeanut_Button1   905
+#define ID_ShakePeanut_Button8   906
+#define ID_ShakePeanut_Button3   907
+#define ID_ShakePeanut_Button4   908
+#define ID_ShakePeanut_Button5   909
+#define ID_ShakePeanut_Button6   910
+
+void CreateShakeVanilla(void);
+#define ID_ShakeVanilla_Window1   911
+#define ID_ShakeVanilla_Picture1   912
+#define ID_ShakeVanilla_EditBox1   913
+#define ID_ShakeVanilla_Button1   914
+#define ID_ShakeVanilla_Button8   915
+#define ID_ShakeVanilla_Button3   916
+#define ID_ShakeVanilla_Button4   917
+#define ID_ShakeVanilla_Button5   918
+#define ID_ShakeVanilla_Button6   919
+
+void CreateSoftDrinkList(void);
+#define ID_SoftDrinkList_Window1   920
+#define ID_SoftDrinkList_Button3   921
+#define ID_SoftDrinkList_Button4   922
+#define ID_SoftDrinkList_Button5   923
+#define ID_SoftDrinkList_Button6   924
+#define ID_SoftDrinkList_Button7   925
+#define ID_SoftDrinkList_Button8   926
+#define ID_SoftDrinkList_Button9   927
+#define ID_SoftDrinkList_Button10   928
+#define ID_SoftDrinkList_Button12   929
+#define ID_SoftDrinkList_Button11   930
+#define ID_SoftDrinkList_Button13   931
+
+void CreateSoftDrinkList2(void);
+#define ID_SoftDrinkList2_Window1   932
+#define ID_SoftDrinkList2_Button3   933
+#define ID_SoftDrinkList2_Button4   934
+#define ID_SoftDrinkList2_Button5   935
+#define ID_SoftDrinkList2_Button7   936
+#define ID_SoftDrinkList2_Button8   937
+#define ID_SoftDrinkList2_Button12   938
+#define ID_SoftDrinkList2_Button11   939
+#define ID_SoftDrinkList2_Button13   940
+#define ID_SoftDrinkList2_Button14   941
+
+void CreateSoftChocolateMilk(void);
+#define ID_SoftChocolateMilk_Window1   942
+#define ID_SoftChocolateMilk_Picture1   943
+#define ID_SoftChocolateMilk_EditBox1   944
+#define ID_SoftChocolateMilk_Button1   945
+#define ID_SoftChocolateMilk_Button8   946
+#define ID_SoftChocolateMilk_Button3   947
+#define ID_SoftChocolateMilk_Button4   948
+#define ID_SoftChocolateMilk_Button5   949
+#define ID_SoftChocolateMilk_Button6   950
+
+void CreateSoftCoffeeDecaf(void);
+#define ID_SoftCoffeeDecaf_Window1   951
+#define ID_SoftCoffeeDecaf_Picture1   952
+#define ID_SoftCoffeeDecaf_EditBox1   953
+#define ID_SoftCoffeeDecaf_Button1   954
+#define ID_SoftCoffeeDecaf_Button8   955
+#define ID_SoftCoffeeDecaf_Button3   956
+#define ID_SoftCoffeeDecaf_Button4   957
+#define ID_SoftCoffeeDecaf_Button5   958
+#define ID_SoftCoffeeDecaf_Button6   959
+
+void CreateSoftCoffeeRegular(void);
+#define ID_SoftCoffeeRegular_Window1   960
+#define ID_SoftCoffeeRegular_Picture1   961
+#define ID_SoftCoffeeRegular_EditBox1   962
+#define ID_SoftCoffeeRegular_Button1   963
+#define ID_SoftCoffeeRegular_Button8   964
+#define ID_SoftCoffeeRegular_Button3   965
+#define ID_SoftCoffeeRegular_Button4   966
+#define ID_SoftCoffeeRegular_Button5   967
+#define ID_SoftCoffeeRegular_Button6   968
+
+void CreateSoftCoke(void);
+#define ID_SoftCoke_Window1   969
+#define ID_SoftCoke_Picture1   970
+#define ID_SoftCoke_EditBox1   971
+#define ID_SoftCoke_Button1   972
+#define ID_SoftCoke_Button8   973
+#define ID_SoftCoke_Button3   974
+#define ID_SoftCoke_Button4   975
+#define ID_SoftCoke_Button5   976
+#define ID_SoftCoke_Button6   977
+
+void CreateSoftDietCoke(void);
+#define ID_SoftDietCoke_Window1   978
+#define ID_SoftDietCoke_Picture1   979
+#define ID_SoftDietCoke_EditBox1   980
+#define ID_SoftDietCoke_Button1   981
+#define ID_SoftDietCoke_Button8   982
+#define ID_SoftDietCoke_Button3   983
+#define ID_SoftDietCoke_Button4   984
+#define ID_SoftDietCoke_Button5   985
+#define ID_SoftDietCoke_Button6   986
+
+void CreateSoftDietSprite(void);
+#define ID_SoftDietSprite_Window1   987
+#define ID_SoftDietSprite_Picture1   988
+#define ID_SoftDietSprite_EditBox1   989
+#define ID_SoftDietSprite_Button1   990
+#define ID_SoftDietSprite_Button8   991
+#define ID_SoftDietSprite_Button3   992
+#define ID_SoftDietSprite_Button4   993
+#define ID_SoftDietSprite_Button5   994
+#define ID_SoftDietSprite_Button6   995
+
+void CreateSoftGingerale(void);
+#define ID_SoftGingerale_Window1   996
+#define ID_SoftGingerale_Picture1   997
+#define ID_SoftGingerale_EditBox1   998
+#define ID_SoftGingerale_Button1   999
+#define ID_SoftGingerale_Button8   1000
+#define ID_SoftGingerale_Button3   1001
+#define ID_SoftGingerale_Button4   1002
+#define ID_SoftGingerale_Button5   1003
+#define ID_SoftGingerale_Button6   1004
+
+void CreateSoftLemonade(void);
+#define ID_SoftLemonade_Window1   1005
+#define ID_SoftLemonade_Picture1   1006
+#define ID_SoftLemonade_EditBox1   1007
+#define ID_SoftLemonade_Button1   1008
+#define ID_SoftLemonade_Button8   1009
+#define ID_SoftLemonade_Button3   1010
+#define ID_SoftLemonade_Button4   1011
+#define ID_SoftLemonade_Button5   1012
+#define ID_SoftLemonade_Button6   1013
+
+void CreateSoftMilk(void);
+#define ID_SoftMilk_Window1   1014
+#define ID_SoftMilk_Picture1   1015
+#define ID_SoftMilk_EditBox1   1016
+#define ID_SoftMilk_Button1   1017
+#define ID_SoftMilk_Button8   1018
+#define ID_SoftMilk_Button3   1019
+#define ID_SoftMilk_Button4   1020
+#define ID_SoftMilk_Button5   1021
+#define ID_SoftMilk_Button6   1022
+
+void CreateSoftRootbeer(void);
+#define ID_SoftRootbeer_Window1   1023
+#define ID_SoftRootbeer_Picture1   1024
+#define ID_SoftRootbeer_EditBox1   1025
+#define ID_SoftRootbeer_Button1   1026
+#define ID_SoftRootbeer_Button8   1027
+#define ID_SoftRootbeer_Button3   1028
+#define ID_SoftRootbeer_Button4   1029
+#define ID_SoftRootbeer_Button5   1030
+#define ID_SoftRootbeer_Button6   1031
+
+void CreateSoftSprite(void);
+#define ID_SoftSprite_Window1   1032
+#define ID_SoftSprite_Picture1   1033
+#define ID_SoftSprite_EditBox1   1034
+#define ID_SoftSprite_Button1   1035
+#define ID_SoftSprite_Button8   1036
+#define ID_SoftSprite_Button3   1037
+#define ID_SoftSprite_Button4   1038
+#define ID_SoftSprite_Button5   1039
+#define ID_SoftSprite_Button6   1040
+
+void CreateSoftWater(void);
+#define ID_SoftWater_Window1   1041
+#define ID_SoftWater_Picture1   1042
+#define ID_SoftWater_EditBox1   1043
+#define ID_SoftWater_Button1   1044
+#define ID_SoftWater_Button8   1045
+#define ID_SoftWater_Button3   1046
+#define ID_SoftWater_Button4   1047
+#define ID_SoftWater_Button5   1048
+#define ID_SoftWater_Button6   1049
+
+void CreateScreenOff(void);
+#define ID_ScreenOff_StaticText1   1050
+
+void CreateNumGuests(void);
+#define ID_NumGuests_Button1   1051
+#define ID_NumGuests_Button2   1052
+#define ID_NumGuests_Button3   1053
+#define ID_NumGuests_Button4   1054
+#define ID_NumGuests_Button5   1055
+#define ID_NumGuests_Button6   1056
+#define ID_NumGuests_Button7   1057
+#define ID_NumGuests_Button8   1058
+#define ID_NumGuests_Button9   1059
+#define ID_NumGuests_Button10   1060
+#define ID_NumGuests_Button11   1061
+#define ID_NumGuests_Button12   1062
+#define ID_NumGuests_StaticText1   1063
+#define ID_NumGuests_EditBox1   1064
+#define ID_NumGuests_ProgressBar1   1065
+
+void CreateNumGuestsConfirm(void);
+#define ID_NumGuestsConfirm_Button11   1066
+#define ID_NumGuestsConfirm_Button2   1067
+#define ID_NumGuestsConfirm_EditBox1   1068
+#define ID_NumGuestsConfirm_StaticText1   1069
+
+#define	NUM_VGDD_SCREENS	124
 #endif // ifndef _VGDD_SCREENS_H_

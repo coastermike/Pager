@@ -15,16 +15,12 @@ GOL_SCHEME* GOLScheme_ButtonTx;
 GOL_SCHEME* GOLScheme_WinSch;
 GOL_SCHEME* GOLScheme_DescText;
 GOL_SCHEME* GOLScheme_MainName;
-extern const char LMicrosoftSansSerifRegular11[] __attribute__((aligned(2)));
-const FONT_FLASH MicrosoftSansSerifRegular11 = {0, LMicrosoftSansSerifRegular11};
-extern const char LHobbitonBrushhandRegular20[] __attribute__((aligned(2)));
-const FONT_FLASH HobbitonBrushhandRegular20 = {0, LHobbitonBrushhandRegular20};
 const XCHAR MainMenu_Button1_Text[] = "Order"; // Order
 const XCHAR MainMenu_Button2_Text[] = "Food Menu"; // Food Menu
-XCHAR MainMenu_EditBox1_Text[251] = "Today's Features Are:\n   Cheese Sticks- $5.99/$8.99\n   Buffalo Quesadilla-$7.99\n   Pan Galactic Gargle Blaster- $6"; // Today's Features Are:\n   Cheese Sticks- $5.99/$8.99\n   Buffalo Quesadilla-$7.99\n   Pan Galactic Gargle Blaster- $6
+XCHAR MainMenu_EditBox1_Text[107] = "Today's Features Are:\n   Ameglian Major Cow-$21\n   Green Salad-$5\n   Pan Galactic Gargle Blaster- $6"; // Today's Features Are:\n   Ameglian Major Cow-$21\n   Green Salad-$5\n   Pan Galactic Gargle Blaster- $6
 const XCHAR MainMenu_Button3_Text[] = "Drink Menu"; // Drink Menu
 const XCHAR MainMenu_StaticText1_Text[] = "Pager 00"; // Pager 00
-XCHAR MainMenu_EditBox2_Text[101] = "Welcome To Milliways"; // Welcome To Milliways
+XCHAR MainMenu_EditBox2_Text[22] = "Welcome To Milliways"; // Welcome To Milliways
 const XCHAR MainMenu_StaticText2_Text[] = "The Restaurant at the End of the Universe"; // The Restaurant at the End of the Universe
 const XCHAR FoodMenu_Window1_Text[] = "Food Menu"; // Food Menu
 const XCHAR FoodMenu_Button1_Text[] = "Appetizers"; // Appetizers
@@ -63,7 +59,7 @@ const XCHAR SoupList_Button10_Text[] = "Fish"; // Fish
 const XCHAR SoupList_Button11_Text[] = "Spicy Vegetable"; // Spicy Vegetable
 const XCHAR SoupList_Button12_Text[] = "Food Menu"; // Food Menu
 const XCHAR SoupChickenNoodle_Window1_Text[] = "Soups: Chicken & Noodle Soup"; // Soups: Chicken & Noodle Soup
-XCHAR SoupChickenNoodle_EditBox1_Text[251] = "Thick homemade noodles with\njuicy chicken, carrots, onions,\ncelery and peas. -$2.99"; // Thick homemade noodles with\njuicy chicken, carrots, onions,\ncelery and peas. -$2.99
+XCHAR SoupChickenNoodle_EditBox1_Text[88] = "Thick homemade noodles with\njuicy chicken, carrots, onions,\ncelery and peas. -$2.99"; // Thick homemade noodles with\njuicy chicken, carrots, onions,\ncelery and peas. -$2.99
 const XCHAR SoupChickenNoodle_Button1_Text[] = "Add to Order"; // Add to Order
 const XCHAR SoupChickenNoodle_Button8_Text[] = "Food Menu"; // Food Menu
 const XCHAR SoupChickenNoodle_Button3_Text[] = "Main Menu"; // Main Menu
@@ -71,7 +67,7 @@ const XCHAR SoupChickenNoodle_Button4_Text[] = "Soups"; // Soups
 const XCHAR SoupChickenNoodle_Button5_Text[] = "<"; // <
 const XCHAR SoupChickenNoodle_Button6_Text[] = ">"; // >
 const XCHAR SoupJambalaya_Window1_Text[] = "Soups: Jambalaya Soup"; // Soups: Jambalaya Soup
-XCHAR SoupJambalaya_EditBox1_Text[251] = "A very hearty soup with many\nflavors, with many vegetables\nsausage and brown rice. -$2.99"; // A very hearty soup with many\nflavors, with many vegetables\nsausage and brown rice. -$2.99
+XCHAR SoupJambalaya_EditBox1_Text[94] = "A very hearty soup with many\nflavors, with many vegetables\nsausage and brown rice. -$2.99"; // A very hearty soup with many\nflavors, with many vegetables\nsausage and brown rice. -$2.99
 const XCHAR SoupJambalaya_Button1_Text[] = "Add to Order"; // Add to Order
 const XCHAR SoupJambalaya_Button8_Text[] = "Food Menu"; // Food Menu
 const XCHAR SoupJambalaya_Button3_Text[] = "Main Menu"; // Main Menu
@@ -79,7 +75,7 @@ const XCHAR SoupJambalaya_Button4_Text[] = "Soups"; // Soups
 const XCHAR SoupJambalaya_Button5_Text[] = "<"; // <
 const XCHAR SoupJambalaya_Button6_Text[] = ">"; // >
 const XCHAR SoupSpicyVegetable_Window1_Text[] = "Soups: Spicy Vegetable & Noodle Soup"; // Soups: Spicy Vegetable & Noodle Soup
-XCHAR SoupSpicyVegetable_EditBox1_Text[251] = "A savory mix of green peppers\ncarrots, onions, broccoli and thick\nnoodles-a vegetarian must! -$2.99"; // A savory mix of green peppers\ncarrots, onions, broccoli and thick\nnoodles-a vegetarian must! -$2.99
+XCHAR SoupSpicyVegetable_EditBox1_Text[104] = "A savory mix of green peppers\ncarrots, onions, broccoli and thick\nnoodles-a vegetarian must! -$2.99"; // A savory mix of green peppers\ncarrots, onions, broccoli and thick\nnoodles-a vegetarian must! -$2.99
 const XCHAR SoupSpicyVegetable_Button1_Text[] = "Add to Order"; // Add to Order
 const XCHAR SoupSpicyVegetable_Button8_Text[] = "Food Menu"; // Food Menu
 const XCHAR SoupSpicyVegetable_Button3_Text[] = "Main Menu"; // Main Menu
@@ -87,7 +83,7 @@ const XCHAR SoupSpicyVegetable_Button4_Text[] = "Soups"; // Soups
 const XCHAR SoupSpicyVegetable_Button5_Text[] = "<"; // <
 const XCHAR SoupSpicyVegetable_Button6_Text[] = ">"; // >
 const XCHAR SoupsCheesyBroccoli_Window1_Text[] = "Soups: Cheesy Broccoli Soup"; // Soups: Cheesy Broccoli Soup
-XCHAR SoupsCheesyBroccoli_EditBox1_Text[251] = "This thick cheesy soup is a must for\nall cheese lovers! -$2.99"; // This thick cheesy soup is a must for\nall cheese lovers! -$2.99
+XCHAR SoupsCheesyBroccoli_EditBox1_Text[65] = "This thick cheesy soup is a must for\nall cheese lovers! -$2.99"; // This thick cheesy soup is a must for\nall cheese lovers! -$2.99
 const XCHAR SoupsCheesyBroccoli_Button1_Text[] = "Add to Order"; // Add to Order
 const XCHAR SoupsCheesyBroccoli_Button8_Text[] = "Food Menu"; // Food Menu
 const XCHAR SoupsCheesyBroccoli_Button3_Text[] = "Main Menu"; // Main Menu
@@ -95,7 +91,7 @@ const XCHAR SoupsCheesyBroccoli_Button4_Text[] = "Soups"; // Soups
 const XCHAR SoupsCheesyBroccoli_Button5_Text[] = "<"; // <
 const XCHAR SoupsCheesyBroccoli_Button6_Text[] = ">"; // >
 const XCHAR SoupCreamyTomato_Window1_Text[] = "Soups: Creamy Tomato Soup"; // Soups: Creamy Tomato Soup
-XCHAR SoupCreamyTomato_EditBox1_Text[251] = "This thick creamy soup can be\ntopped off with any cheese,we\nrecommend feta! -$2.99"; // This thick creamy soup can be\ntopped off with any cheese,we\nrecommend feta! -$2.99
+XCHAR SoupCreamyTomato_EditBox1_Text[87] = "This thick creamy soup can be\ntopped off with any cheese,we\nrecommend feta! -$2.99"; // This thick creamy soup can be\ntopped off with any cheese,we\nrecommend feta! -$2.99
 const XCHAR SoupCreamyTomato_Button1_Text[] = "Add to Order"; // Add to Order
 const XCHAR SoupCreamyTomato_Button8_Text[] = "Food Menu"; // Food Menu
 const XCHAR SoupCreamyTomato_Button3_Text[] = "Main Menu"; // Main Menu
@@ -103,7 +99,7 @@ const XCHAR SoupCreamyTomato_Button4_Text[] = "Soups"; // Soups
 const XCHAR SoupCreamyTomato_Button5_Text[] = "<"; // <
 const XCHAR SoupCreamyTomato_Button6_Text[] = ">"; // >
 const XCHAR SoupBean_Window1_Text[] = "Soups: Bean Soup"; // Soups: Bean Soup
-XCHAR SoupBean_EditBox1_Text[251] = "Pinto, black, lima and green beans\nall in a thick broth with hearty\npieces of sausage. Topped with\nonions, cheddar cheese and rice.\n-$2.99"; // Pinto, black, lima and green beans\nall in a thick broth with hearty\npieces of sausage. Topped with\nonions, cheddar cheese and rice.\n-$2.99
+XCHAR SoupBean_EditBox1_Text[147] = "Pinto, black, lima and green beans\nall in a thick broth with hearty\npieces of sausage. Topped with\nonions, cheddar cheese and rice.\n-$2.99"; // Pinto, black, lima and green beans\nall in a thick broth with hearty\npieces of sausage. Topped with\nonions, cheddar cheese and rice.\n-$2.99
 const XCHAR SoupBean_Button1_Text[] = "Add to Order"; // Add to Order
 const XCHAR SoupBean_Button8_Text[] = "Food Menu"; // Food Menu
 const XCHAR SoupBean_Button3_Text[] = "Main Menu"; // Main Menu
@@ -111,7 +107,7 @@ const XCHAR SoupBean_Button4_Text[] = "Soups"; // Soups
 const XCHAR SoupBean_Button5_Text[] = "<"; // <
 const XCHAR SoupBean_Button6_Text[] = ">"; // >
 const XCHAR SoupItalianWedding_Window1_Text[] = "Soups: Italian Wedding Soup"; // Soups: Italian Wedding Soup
-XCHAR SoupItalianWedding_EditBox1_Text[251] = "The perfect blend of meatballs,\nspinach and cavatelli. $2.99"; // The perfect blend of meatballs,\nspinach and cavatelli. $2.99
+XCHAR SoupItalianWedding_EditBox1_Text[63] = "The perfect blend of meatballs,\nspinach and cavatelli. $2.99"; // The perfect blend of meatballs,\nspinach and cavatelli. $2.99
 const XCHAR SoupItalianWedding_Button1_Text[] = "Add to Order"; // Add to Order
 const XCHAR SoupItalianWedding_Button8_Text[] = "Food Menu"; // Food Menu
 const XCHAR SoupItalianWedding_Button3_Text[] = "Main Menu"; // Main Menu
@@ -119,7 +115,7 @@ const XCHAR SoupItalianWedding_Button4_Text[] = "Soups"; // Soups
 const XCHAR SoupItalianWedding_Button5_Text[] = "<"; // <
 const XCHAR SoupItalianWedding_Button6_Text[] = ">"; // >
 const XCHAR GumboSoup_Window1_Text[] = "Soups: Gumbo Soup"; // Soups: Gumbo Soup
-XCHAR GumboSoup_EditBox1_Text[251] = "Thick spicy broth full of rice\nand five different types of\nseafood! WOW! $2.99"; // Thick spicy broth full of rice\nand five different types of\nseafood! WOW! $2.99
+XCHAR GumboSoup_EditBox1_Text[83] = "Thick spicy broth full of rice\nand five different types of\nseafood! WOW! $2.99"; // Thick spicy broth full of rice\nand five different types of\nseafood! WOW! $2.99
 const XCHAR GumboSoup_Button1_Text[] = "Add to Order"; // Add to Order
 const XCHAR GumboSoup_Button8_Text[] = "Food Menu"; // Food Menu
 const XCHAR GumboSoup_Button3_Text[] = "Main Menu"; // Main Menu
@@ -127,7 +123,7 @@ const XCHAR GumboSoup_Button4_Text[] = "Soups"; // Soups
 const XCHAR GumboSoup_Button5_Text[] = "<"; // <
 const XCHAR GumboSoup_Button6_Text[] = ">"; // >
 const XCHAR SoupFish_Window1_Text[] = "Soups: Fish Soup"; // Soups: Fish Soup
-XCHAR SoupFish_EditBox1_Text[251] = "This hearty soup contains a\nwhite fish, Grouper, with\nparsley, tomato, lettuce and\nonions. -$2.99"; // This hearty soup contains a\nwhite fish, Grouper, with\nparsley, tomato, lettuce and\nonions. -$2.99
+XCHAR SoupFish_EditBox1_Text[104] = "This hearty soup contains a\nwhite fish, Grouper, with\nparsley, tomato, lettuce and\nonions. -$2.99"; // This hearty soup contains a\nwhite fish, Grouper, with\nparsley, tomato, lettuce and\nonions. -$2.99
 const XCHAR SoupFish_Button1_Text[] = "Add to Order"; // Add to Order
 const XCHAR SoupFish_Button8_Text[] = "Food Menu"; // Food Menu
 const XCHAR SoupFish_Button3_Text[] = "Main Menu"; // Main Menu
@@ -135,7 +131,7 @@ const XCHAR SoupFish_Button4_Text[] = "Soups"; // Soups
 const XCHAR SoupFish_Button5_Text[] = "<"; // <
 const XCHAR SoupFish_Button6_Text[] = ">"; // >
 const XCHAR SoupCreamyMushroom_Window1_Text[] = "Soups: Creamy Mushroom"; // Soups: Creamy Mushroom
-XCHAR SoupCreamyMushroom_EditBox1_Text[251] = "For the mushroom lover! More\nmushrooms then you can imagine,\nin a creamy cheese broth. -$2.99"; // For the mushroom lover! More\nmushrooms then you can imagine,\nin a creamy cheese broth. -$2.99
+XCHAR SoupCreamyMushroom_EditBox1_Text[98] = "For the mushroom lover! More\nmushrooms then you can imagine,\nin a creamy cheese broth. -$2.99"; // For the mushroom lover! More\nmushrooms then you can imagine,\nin a creamy cheese broth. -$2.99
 const XCHAR SoupCreamyMushroom_Button1_Text[] = "Add to Order"; // Add to Order
 const XCHAR SoupCreamyMushroom_Button8_Text[] = "Food Menu"; // Food Menu
 const XCHAR SoupCreamyMushroom_Button3_Text[] = "Main Menu"; // Main Menu
@@ -166,7 +162,7 @@ const XCHAR SandwichesList2_Button12_Text[] = "Food Menu"; // Food Menu
 const XCHAR SandwichesList2_Button11_Text[] = "Cajun Grilled "; // Cajun Grilled 
 const XCHAR SandwichesList2_Button4_Text[] = "<-- PREVIOUS"; // <-- PREVIOUS
 const XCHAR AppetFriedPickles_Window1_Text[] = "Appetizer: Fried Pickles"; // Appetizer: Fried Pickles
-XCHAR AppetFriedPickles_EditBox1_Text[251] = "Try a basket of our dill pickles\ndeep fried with a thin breading\nand a side of ranch dipping sauce.\n\n8 Piece- $3.99\n12 Piece- $4.99"; // Try a basket of our dill pickles\ndeep fried with a thin breading\nand a side of ranch dipping sauce.\n\n8 Piece- $3.99\n12 Piece- $4.99
+XCHAR AppetFriedPickles_EditBox1_Text[142] = "Try a basket of our dill pickles\ndeep fried with a thin breading\nand a side of ranch dipping sauce.\n\n8 Piece- $3.99\n12 Piece- $4.99"; // Try a basket of our dill pickles\ndeep fried with a thin breading\nand a side of ranch dipping sauce.\n\n8 Piece- $3.99\n12 Piece- $4.99
 const XCHAR AppetFriedPickles_Button1_Text[] = "Add to Order"; // Add to Order
 const XCHAR AppetFriedPickles_Button8_Text[] = "Food Menu"; // Food Menu
 const XCHAR AppetFriedPickles_Button3_Text[] = "Main Menu"; // Main Menu
@@ -174,7 +170,7 @@ const XCHAR AppetFriedPickles_Button4_Text[] = "Appetizers"; // Appetizers
 const XCHAR AppetFriedPickles_Button5_Text[] = "<"; // <
 const XCHAR AppetFriedPickles_Button6_Text[] = ">"; // >
 const XCHAR AppetCheeseStick_Window1_Text[] = "Appetizer: Cheese Sticks"; // Appetizer: Cheese Sticks
-XCHAR AppetCheeseStick_EditBox1_Text[251] = "These thick breaded cheese sticks\n are filled with chewy mozzarella\ncheese with a side of marinara or\n ranch dipping sauce.\n\n6 Piece- $5.99\n12 Piece- $8.99"; // These thick breaded cheese sticks\n are filled with chewy mozzarella\ncheese with a side of marinara or\n ranch dipping sauce.\n\n6 Piece- $5.99\n12 Piece- $8.99
+XCHAR AppetCheeseStick_EditBox1_Text[168] = "These thick breaded cheese sticks\n are filled with chewy mozzarella\ncheese with a side of marinara or\n ranch dipping sauce.\n\n6 Piece- $5.99\n12 Piece- $8.99"; // These thick breaded cheese sticks\n are filled with chewy mozzarella\ncheese with a side of marinara or\n ranch dipping sauce.\n\n6 Piece- $5.99\n12 Piece- $8.99
 const XCHAR AppetCheeseStick_Button1_Text[] = "Add to Order"; // Add to Order
 const XCHAR AppetCheeseStick_Button8_Text[] = "Food Menu"; // Food Menu
 const XCHAR AppetCheeseStick_Button3_Text[] = "Main Menu"; // Main Menu
@@ -182,7 +178,7 @@ const XCHAR AppetCheeseStick_Button4_Text[] = "Appetizers"; // Appetizers
 const XCHAR AppetCheeseStick_Button5_Text[] = "<"; // <
 const XCHAR AppetCheeseStick_Button6_Text[] = ">"; // >
 const XCHAR AppetChiliFrie_Window1_Text[] = "Appetizer: Chili Fries"; // Appetizer: Chili Fries
-XCHAR AppetChiliFrie_EditBox1_Text[251] = "These loaded fries are topped with\nour legendary chili, cheddar cheese,\nonions and sour cream.\nWE DARE YOU!\n\nServes 1-3- $4.99\nServes 3-6- $7.99"; // These loaded fries are topped with\nour legendary chili, cheddar cheese,\nonions and sour cream.\nWE DARE YOU!\n\nServes 1-3- $4.99\nServes 3-6- $7.99
+XCHAR AppetChiliFrie_EditBox1_Text[157] = "These loaded fries are topped with\nour legendary chili, cheddar cheese,\nonions and sour cream.\nWE DARE YOU!\n\nServes 1-3- $4.99\nServes 3-6- $7.99"; // These loaded fries are topped with\nour legendary chili, cheddar cheese,\nonions and sour cream.\nWE DARE YOU!\n\nServes 1-3- $4.99\nServes 3-6- $7.99
 const XCHAR AppetChiliFrie_Button1_Text[] = "Add to Order"; // Add to Order
 const XCHAR AppetChiliFrie_Button8_Text[] = "Food Menu"; // Food Menu
 const XCHAR AppetChiliFrie_Button3_Text[] = "Main Menu"; // Main Menu
@@ -190,7 +186,7 @@ const XCHAR AppetChiliFrie_Button4_Text[] = "Appetizers"; // Appetizers
 const XCHAR AppetChiliFrie_Button5_Text[] = "<"; // <
 const XCHAR AppetChiliFrie_Button6_Text[] = ">"; // >
 const XCHAR AppetFairFrie_Window1_Text[] = "Appetizer: Fair Fries"; // Appetizer: Fair Fries
-XCHAR AppetFairFrie_EditBox1_Text[251] = "Thin shoe string fries are lightly\nsalted, the crispy taste of each\nthin fry will have you finishing\nthe entire basket before you\nknow it.-$1.99"; // Thin shoe string fries are lightly\nsalted, the crispy taste of each\nthin fry will have you finishing\nthe entire basket before you\nknow it.-$1.99
+XCHAR AppetFairFrie_EditBox1_Text[153] = "Thin shoe string fries are lightly\nsalted, the crispy taste of each\nthin fry will have you finishing\nthe entire basket before you\nknow it.-$1.99"; // Thin shoe string fries are lightly\nsalted, the crispy taste of each\nthin fry will have you finishing\nthe entire basket before you\nknow it.-$1.99
 const XCHAR AppetFairFrie_Button1_Text[] = "Add to Order"; // Add to Order
 const XCHAR AppetFairFrie_Button8_Text[] = "Food Menu"; // Food Menu
 const XCHAR AppetFairFrie_Button3_Text[] = "Main Menu"; // Main Menu
@@ -198,7 +194,7 @@ const XCHAR AppetFairFrie_Button4_Text[] = "Appetizers"; // Appetizers
 const XCHAR AppetFairFrie_Button5_Text[] = "<"; // <
 const XCHAR AppetFairFrie_Button6_Text[] = ">"; // >
 const XCHAR AppetGarlicFairFries_Window1_Text[] = "Appetizer: Garlic Fair Fries"; // Appetizer: Garlic Fair Fries
-XCHAR AppetGarlicFairFries_EditBox1_Text[251] = "These thin shoe string fries are\nlightly battered in just the right\namount of garlic to make your\nmouth water for more.- $2.50"; // These thin shoe string fries are\nlightly battered in just the right\namount of garlic to make your\nmouth water for more.- $2.50
+XCHAR AppetGarlicFairFries_EditBox1_Text[133] = "These thin shoe string fries are\nlightly battered in just the right\namount of garlic to make your\nmouth water for more.- $2.50"; // These thin shoe string fries are\nlightly battered in just the right\namount of garlic to make your\nmouth water for more.- $2.50
 const XCHAR AppetGarlicFairFries_Button1_Text[] = "Add to Order"; // Add to Order
 const XCHAR AppetGarlicFairFries_Button8_Text[] = "Food Menu"; // Food Menu
 const XCHAR AppetGarlicFairFries_Button3_Text[] = "Main Menu"; // Main Menu
@@ -206,7 +202,7 @@ const XCHAR AppetGarlicFairFries_Button4_Text[] = "Appetizers"; // Appetizers
 const XCHAR AppetGarlicFairFries_Button5_Text[] = "<"; // <
 const XCHAR AppetGarlicFairFries_Button6_Text[] = ">"; // >
 const XCHAR AppetCarrotFries_Window1_Text[] = "Appetizer: Carrot Fries"; // Appetizer: Carrot Fries
-XCHAR AppetCarrotFries_EditBox1_Text[251] = "Homemade every day, these\ncarrot fries are one of a kind\nwith a fresh crispy bite to sink\nyour teeth into.- $2.50"; // Homemade every day, these\ncarrot fries are one of a kind\nwith a fresh crispy bite to sink\nyour teeth into.- $2.50
+XCHAR AppetCarrotFries_EditBox1_Text[120] = "Homemade every day, these\ncarrot fries are one of a kind\nwith a fresh crispy bite to sink\nyour teeth into.- $2.50"; // Homemade every day, these\ncarrot fries are one of a kind\nwith a fresh crispy bite to sink\nyour teeth into.- $2.50
 const XCHAR AppetCarrotFries_Button1_Text[] = "Add to Order"; // Add to Order
 const XCHAR AppetCarrotFries_Button8_Text[] = "Food Menu"; // Food Menu
 const XCHAR AppetCarrotFries_Button3_Text[] = "Main Menu"; // Main Menu
@@ -214,7 +210,7 @@ const XCHAR AppetCarrotFries_Button4_Text[] = "Appetizers"; // Appetizers
 const XCHAR AppetCarrotFries_Button5_Text[] = "<"; // <
 const XCHAR AppetCarrotFries_Button6_Text[] = ">"; // >
 const XCHAR AppetFriedGreenBeans_Window1_Text[] = "Appetizer: Fried Green Beans"; // Appetizer: Fried Green Beans
-XCHAR AppetFriedGreenBeans_EditBox1_Text[251] = "Try a basket of our lightly breaded\ngreen beans, extra crispy\nJUST ASK! Served with a tangy\nmild dipping sauce. -$4.99"; // Try a basket of our lightly breaded\ngreen beans, extra crispy\nJUST ASK! Served with a tangy\nmild dipping sauce. -$4.99
+XCHAR AppetFriedGreenBeans_EditBox1_Text[125] = "Try a basket of our lightly breaded\ngreen beans, extra crispy\nJUST ASK! Served with a tangy\nmild dipping sauce. -$4.99"; // Try a basket of our lightly breaded\ngreen beans, extra crispy\nJUST ASK! Served with a tangy\nmild dipping sauce. -$4.99
 const XCHAR AppetFriedGreenBeans_Button1_Text[] = "Add to Order"; // Add to Order
 const XCHAR AppetFriedGreenBeans_Button8_Text[] = "Food Menu"; // Food Menu
 const XCHAR AppetFriedGreenBeans_Button3_Text[] = "Main Menu"; // Main Menu
@@ -230,7 +226,7 @@ const XCHAR AppetMexicanNachos_Button4_Text[] = "Appetizers"; // Appetizers
 const XCHAR AppetMexicanNachos_Button5_Text[] = "<"; // <
 const XCHAR AppetMexicanNachos_Button6_Text[] = ">"; // >
 const XCHAR AppetSpicyNachos_Window1_Text[] = "Appetizer: Hot & Spicy MexicaNACHOS"; // Appetizer: Hot & Spicy MexicaNACHOS
-XCHAR AppetSpicyNachos_EditBox1_Text[251] = "These nachos are loaded with\neverything in the MexicaNACHOS,\nwith adding a ton of jalapenos,\ndrizzle of hot buffalo sauce and\nbanana peppers-Enough to make\nyou sweat!!!- $7.99"; // These nachos are loaded with\neverything in the MexicaNACHOS,\nwith adding a ton of jalapenos,\ndrizzle of hot buffalo sauce and\nbanana peppers-Enough to make\nyou sweat!!!- $7.99
+XCHAR AppetSpicyNachos_EditBox1_Text[186] = "These nachos are loaded with\neverything in the MexicaNACHOS,\nwith adding a ton of jalapenos,\ndrizzle of hot buffalo sauce and\nbanana peppers-Enough to make\nyou sweat!!!- $7.99"; // These nachos are loaded with\neverything in the MexicaNACHOS,\nwith adding a ton of jalapenos,\ndrizzle of hot buffalo sauce and\nbanana peppers-Enough to make\nyou sweat!!!- $7.99
 const XCHAR AppetSpicyNachos_Button1_Text[] = "Add to Order"; // Add to Order
 const XCHAR AppetSpicyNachos_Button8_Text[] = "Food Menu"; // Food Menu
 const XCHAR AppetSpicyNachos_Button3_Text[] = "Main Menu"; // Main Menu
@@ -238,7 +234,7 @@ const XCHAR AppetSpicyNachos_Button4_Text[] = "Appetizers"; // Appetizers
 const XCHAR AppetSpicyNachos_Button5_Text[] = "<"; // <
 const XCHAR AppetSpicyNachos_Button6_Text[] = ">"; // >
 const XCHAR AppetORings_Window1_Text[] = "Appetizer: Onion Rings"; // Appetizer: Onion Rings
-XCHAR AppetORings_EditBox1_Text[251] = "These thickly beer battered Rings\nhave the perfect amount of salt\nand pepper on each one, making\nthis a very light and flavorful\ntreat. -$2.99"; // These thickly beer battered Rings\nhave the perfect amount of salt\nand pepper on each one, making\nthis a very light and flavorful\ntreat. -$2.99
+XCHAR AppetORings_EditBox1_Text[151] = "These thickly beer battered Rings\nhave the perfect amount of salt\nand pepper on each one, making\nthis a very light and flavorful\ntreat. -$2.99"; // These thickly beer battered Rings\nhave the perfect amount of salt\nand pepper on each one, making\nthis a very light and flavorful\ntreat. -$2.99
 const XCHAR AppetORings_Button1_Text[] = "Add to Order"; // Add to Order
 const XCHAR AppetORings_Button8_Text[] = "Food Menu"; // Food Menu
 const XCHAR AppetORings_Button3_Text[] = "Main Menu"; // Main Menu
@@ -246,105 +242,105 @@ const XCHAR AppetORings_Button4_Text[] = "Appetizers"; // Appetizers
 const XCHAR AppetORings_Button5_Text[] = "<"; // <
 const XCHAR AppetORings_Button6_Text[] = ">"; // >
 const XCHAR SandTurkeyClub_Window1_Text[] = "Sandwiches: Turkey Club"; // Sandwiches: Turkey Club
-XCHAR SandTurkeyClub_EditBox1_Text[251] = "Honey roasted turkey with tomato,\nlettuce, crispy bacon, choice of\ncheese, served on a thick wheat\nbread with a side of mayonnaise.\n-$6.99"; // Honey roasted turkey with tomato,\nlettuce, crispy bacon, choice of\ncheese, served on a thick wheat\nbread with a side of mayonnaise.\n-$6.99
+XCHAR SandTurkeyClub_EditBox1_Text[147] = "Honey roasted turkey with tomato,\nlettuce, crispy bacon, choice of\ncheese, served on a thick wheat\nbread with a side of mayonnaise.\n-$6.99"; // Honey roasted turkey with tomato,\nlettuce, crispy bacon, choice of\ncheese, served on a thick wheat\nbread with a side of mayonnaise.\n-$6.99
 const XCHAR SandTurkeyClub_Button8_Text[] = "Food Menu"; // Food Menu
 const XCHAR SandTurkeyClub_Button3_Text[] = "Main Menu"; // Main Menu
 const XCHAR SandTurkeyClub_Button4_Text[] = "Sandwiches"; // Sandwiches
 const XCHAR SandTurkeyClub_Button5_Text[] = "<"; // <
 const XCHAR SandTurkeyClub_Button6_Text[] = ">"; // >
 const XCHAR SandReuben_Window1_Text[] = "Sandwiches: Reuben"; // Sandwiches: Reuben
-XCHAR SandReuben_EditBox1_Text[251] = "A heaping layer of kraut, corn\nbeef, Swiss cheese, 1,000\nisland dressing, served on thick\nrye bread. -$6.99"; // A heaping layer of kraut, corn\nbeef, Swiss cheese, 1,000\nisland dressing, served on thick\nrye bread. -$6.99
+XCHAR SandReuben_EditBox1_Text[114] = "A heaping layer of kraut, corn\nbeef, Swiss cheese, 1,000\nisland dressing, served on thick\nrye bread. -$6.99"; // A heaping layer of kraut, corn\nbeef, Swiss cheese, 1,000\nisland dressing, served on thick\nrye bread. -$6.99
 const XCHAR SandReuben_Button8_Text[] = "Food Menu"; // Food Menu
 const XCHAR SandReuben_Button3_Text[] = "Main Menu"; // Main Menu
 const XCHAR SandReuben_Button4_Text[] = "Sandwiches"; // Sandwiches
 const XCHAR SandReuben_Button5_Text[] = "<"; // <
 const XCHAR SandReuben_Button6_Text[] = ">"; // >
 const XCHAR SandVeggieReuben_Window1_Text[] = "Sandwiches: Veggie Reuben"; // Sandwiches: Veggie Reuben
-XCHAR SandVeggieReuben_EditBox1_Text[251] = "How about a garden burger\nwith your kraut! We think so!\n-$5.99"; // How about a garden burger\nwith your kraut! We think so!\n-$5.99
+XCHAR SandVeggieReuben_EditBox1_Text[67] = "How about a garden burger\nwith your kraut! We think so!\n-$5.99"; // How about a garden burger\nwith your kraut! We think so!\n-$5.99
 const XCHAR SandVeggieReuben_Button8_Text[] = "Food Menu"; // Food Menu
 const XCHAR SandVeggieReuben_Button3_Text[] = "Main Menu"; // Main Menu
 const XCHAR SandVeggieReuben_Button4_Text[] = "Sandwiches"; // Sandwiches
 const XCHAR SandVeggieReuben_Button5_Text[] = "<"; // <
 const XCHAR SandVeggieReuben_Button6_Text[] = ">"; // >
 const XCHAR SandSmothered_Window1_Text[] = "Sandwiches: Smothered Chicken Sandwich"; // Sandwiches: Smothered Chicken Sandwich
-XCHAR SandSmothered_EditBox1_Text[251] = "Grilled or fried chicken with your\nchoice of cheese, we prefer Swiss!\nLayers upon layers of mushrooms\nand grilled onions, with a side of\nmayonnaise.\n-$7.99"; // Grilled or fried chicken with your\nchoice of cheese, we prefer Swiss!\nLayers upon layers of mushrooms\nand grilled onions, with a side of\nmayonnaise.\n-$7.99
+XCHAR SandSmothered_EditBox1_Text[166] = "Grilled or fried chicken with your\nchoice of cheese, we prefer Swiss!\nLayers upon layers of mushrooms\nand grilled onions, with a side of\nmayonnaise.\n-$7.99"; // Grilled or fried chicken with your\nchoice of cheese, we prefer Swiss!\nLayers upon layers of mushrooms\nand grilled onions, with a side of\nmayonnaise.\n-$7.99
 const XCHAR SandSmothered_Button8_Text[] = "Food Menu"; // Food Menu
 const XCHAR SandSmothered_Button3_Text[] = "Main Menu"; // Main Menu
 const XCHAR SandSmothered_Button4_Text[] = "Sandwiches"; // Sandwiches
 const XCHAR SandSmothered_Button5_Text[] = "<"; // <
 const XCHAR SandSmothered_Button6_Text[] = ">"; // >
 const XCHAR SandSmotheredBuffalo_Window1_Text[] = "Sandwiches: Smothered Buffalo Chicken Sandwich"; // Sandwiches: Smothered Buffalo Chicken Sandwich
-XCHAR SandSmotheredBuffalo_EditBox1_Text[251] = "Grilled or fried chicken dipped in a\nhot buffalo sauce with a layer of\ndry bleu cheese ontop, a thick\npiece of lettuce, tomato and celery\non the side.\n-$7.99"; // Grilled or fried chicken dipped in a\nhot buffalo sauce with a layer of\ndry bleu cheese ontop, a thick\npiece of lettuce, tomato and celery\non the side.\n-$7.99
+XCHAR SandSmotheredBuffalo_EditBox1_Text[168] = "Grilled or fried chicken dipped in a\nhot buffalo sauce with a layer of\ndry bleu cheese ontop, a thick\npiece of lettuce, tomato and celery\non the side.\n-$7.99"; // Grilled or fried chicken dipped in a\nhot buffalo sauce with a layer of\ndry bleu cheese ontop, a thick\npiece of lettuce, tomato and celery\non the side.\n-$7.99
 const XCHAR SandSmotheredBuffalo_Button8_Text[] = "Food Menu"; // Food Menu
 const XCHAR SandSmotheredBuffalo_Button3_Text[] = "Main Menu"; // Main Menu
 const XCHAR SandSmotheredBuffalo_Button4_Text[] = "Sandwiches"; // Sandwiches
 const XCHAR SandSmotheredBuffalo_Button5_Text[] = "<"; // <
 const XCHAR SandSmotheredBuffalo_Button6_Text[] = ">"; // >
 const XCHAR SandCornDog_Window1_Text[] = "Sandwiches: Corn Dog Deluxe Wrap"; // Sandwiches: Corn Dog Deluxe Wrap
-XCHAR SandCornDog_EditBox1_Text[251] = "Try our homemade thick bread\nbattered dog, with your choice\nof dipping sauce! - $6.99"; // Try our homemade thick bread\nbattered dog, with your choice\nof dipping sauce! - $6.99
+XCHAR SandCornDog_EditBox1_Text[90] = "Try our homemade thick bread\nbattered dog, with your choice\nof dipping sauce! - $6.99"; // Try our homemade thick bread\nbattered dog, with your choice\nof dipping sauce! - $6.99
 const XCHAR SandCornDog_Button8_Text[] = "Food Menu"; // Food Menu
 const XCHAR SandCornDog_Button3_Text[] = "Main Menu"; // Main Menu
 const XCHAR SandCornDog_Button4_Text[] = "Sandwiches"; // Sandwiches
 const XCHAR SandCornDog_Button5_Text[] = "<"; // <
 const XCHAR SandCornDog_Button6_Text[] = ">"; // >
 const XCHAR SandSteakInAWrap_Window1_Text[] = "Sandwiches: Steak-In-A-Wrap"; // Sandwiches: Steak-In-A-Wrap
-XCHAR SandSteakInAWrap_EditBox1_Text[251] = "Juicy black angus prepared\nprepared however you'd like,\nwith lettuce,tomato and steak\nsauce. Add onions and mushrooms,\nJUST ASK!-$6.99"; // Juicy black angus prepared\nprepared however you'd like,\nwith lettuce,tomato and steak\nsauce. Add onions and mushrooms,\nJUST ASK!-$6.99
+XCHAR SandSteakInAWrap_EditBox1_Text[143] = "Juicy black angus prepared\nprepared however you'd like,\nwith lettuce,tomato and steak\nsauce. Add onions and mushrooms,\nJUST ASK!-$6.99"; // Juicy black angus prepared\nprepared however you'd like,\nwith lettuce,tomato and steak\nsauce. Add onions and mushrooms,\nJUST ASK!-$6.99
 const XCHAR SandSteakInAWrap_Button8_Text[] = "Food Menu"; // Food Menu
 const XCHAR SandSteakInAWrap_Button3_Text[] = "Main Menu"; // Main Menu
 const XCHAR SandSteakInAWrap_Button4_Text[] = "Sandwiches"; // Sandwiches
 const XCHAR SandSteakInAWrap_Button5_Text[] = "<"; // <
 const XCHAR SandSteakInAWrap_Button6_Text[] = ">"; // >
 const XCHAR SandGardenSandwich_Window1_Text[] = "Sandwiches: Garden Sandwich"; // Sandwiches: Garden Sandwich
-XCHAR SandGardenSandwich_EditBox1_Text[251] = "This mouthwatering sandwich\nis like a garden of vegetables\nbetween two slices of wheat bread,\n--vegan. $6.99"; // This mouthwatering sandwich\nis like a garden of vegetables\nbetween two slices of wheat bread,\n--vegan. $6.99
+XCHAR SandGardenSandwich_EditBox1_Text[115] = "This mouthwatering sandwich\nis like a garden of vegetables\nbetween two slices of wheat bread,\n--vegan. $6.99"; // This mouthwatering sandwich\nis like a garden of vegetables\nbetween two slices of wheat bread,\n--vegan. $6.99
 const XCHAR SandGardenSandwich_Button8_Text[] = "Food Menu"; // Food Menu
 const XCHAR SandGardenSandwich_Button3_Text[] = "Main Menu"; // Main Menu
 const XCHAR SandGardenSandwich_Button4_Text[] = "Sandwiches"; // Sandwiches
 const XCHAR SandGardenSandwich_Button5_Text[] = "<"; // <
 const XCHAR SandGardenSandwich_Button6_Text[] = ">"; // >
 const XCHAR SandGrilledChicken_Window1_Text[] = "Sandwiches: Grilled Chicken Sandwich"; // Sandwiches: Grilled Chicken Sandwich
-XCHAR SandGrilledChicken_EditBox1_Text[251] = "Our grilled chicken with lettuce,\ntomato, onions and red pepeprs,\nbetween our scumptious wheat\nbread. $6.99"; // Our grilled chicken with lettuce,\ntomato, onions and red pepeprs,\nbetween our scumptious wheat\nbread. $6.99
+XCHAR SandGrilledChicken_EditBox1_Text[114] = "Our grilled chicken with lettuce,\ntomato, onions and red pepeprs,\nbetween our scumptious wheat\nbread. $6.99"; // Our grilled chicken with lettuce,\ntomato, onions and red pepeprs,\nbetween our scumptious wheat\nbread. $6.99
 const XCHAR SandGrilledChicken_Button8_Text[] = "Food Menu"; // Food Menu
 const XCHAR SandGrilledChicken_Button3_Text[] = "Main Menu"; // Main Menu
 const XCHAR SandGrilledChicken_Button4_Text[] = "Sandwiches"; // Sandwiches
 const XCHAR SandGrilledChicken_Button5_Text[] = "<"; // <
 const XCHAR SandGrilledChicken_Button6_Text[] = ">"; // >
 const XCHAR SandCajun_Window1_Text[] = "Sandwiches: Cajun Grilled Chicken Sandwich"; // Sandwiches: Cajun Grilled Chicken Sandwich
-XCHAR SandCajun_EditBox1_Text[251] = "Try our lip smacking Cajun grilled\nchicken, a little kick to wake your\nmouth up! Want to cool it down,\ntry some of our thick Ranch on\nthe side. - $6.99"; // Try our lip smacking Cajun grilled\nchicken, a little kick to wake your\nmouth up! Want to cool it down,\ntry some of our thick Ranch on\nthe side. - $6.99
+XCHAR SandCajun_EditBox1_Text[160] = "Try our lip smacking Cajun grilled\nchicken, a little kick to wake your\nmouth up! Want to cool it down,\ntry some of our thick Ranch on\nthe side. - $6.99"; // Try our lip smacking Cajun grilled\nchicken, a little kick to wake your\nmouth up! Want to cool it down,\ntry some of our thick Ranch on\nthe side. - $6.99
 const XCHAR SandCajun_Button8_Text[] = "Food Menu"; // Food Menu
 const XCHAR SandCajun_Button3_Text[] = "Main Menu"; // Main Menu
 const XCHAR SandCajun_Button4_Text[] = "Sandwiches"; // Sandwiches
 const XCHAR SandCajun_Button5_Text[] = "<"; // <
 const XCHAR SandCajun_Button6_Text[] = ">"; // >
 const XCHAR SandFriedStacker_Window1_Text[] = "Sandwiches: Fried Stacker"; // Sandwiches: Fried Stacker
-XCHAR SandFriedStacker_EditBox1_Text[251] = "Five breaded tenders on a long\nsub bun, choice of cheese, lettuce,\ntomato, onions and a side of BBQ\nfor dipping it! The bigger the better!!\n- $8.99"; // Five breaded tenders on a long\nsub bun, choice of cheese, lettuce,\ntomato, onions and a side of BBQ\nfor dipping it! The bigger the better!!\n- $8.99
+XCHAR SandFriedStacker_EditBox1_Text[156] = "Five breaded tenders on a long\nsub bun, choice of cheese, lettuce,\ntomato, onions and a side of BBQ\nfor dipping it! The bigger the better!!\n- $8.99"; // Five breaded tenders on a long\nsub bun, choice of cheese, lettuce,\ntomato, onions and a side of BBQ\nfor dipping it! The bigger the better!!\n- $8.99
 const XCHAR SandFriedStacker_Button8_Text[] = "Food Menu"; // Food Menu
 const XCHAR SandFriedStacker_Button3_Text[] = "Main Menu"; // Main Menu
 const XCHAR SandFriedStacker_Button4_Text[] = "Sandwiches"; // Sandwiches
 const XCHAR SandFriedStacker_Button5_Text[] = "<"; // <
 const XCHAR SandFriedStacker_Button6_Text[] = ">"; // >
 const XCHAR SandGrilledStacker_Window1_Text[] = "Sandwiches: Grilled Stacker"; // Sandwiches: Grilled Stacker
-XCHAR SandGrilledStacker_EditBox1_Text[251] = "Try this \"healthy\" long sub bun if\nyou dare! Eight strips of grilled\nchicken layered with lettuce, tomato,\nonions and your choice of cheese. BBQ\nor honey m ustard on the side for\ndipping. - $8.99"; // Try this \"healthy\" long sub bun if\nyou dare! Eight strips of grilled\nchicken layered with lettuce, tomato,\nonions and your choice of cheese. BBQ\nor honey m ustard on the side for\ndipping. - $8.99
+XCHAR SandGrilledStacker_EditBox1_Text[208] = "Try this \"healthy\" long sub bun if\nyou dare! Eight strips of grilled\nchicken layered with lettuce, tomato,\nonions and your choice of cheese. BBQ\nor honey m ustard on the side for\ndipping. - $8.99"; // Try this \"healthy\" long sub bun if\nyou dare! Eight strips of grilled\nchicken layered with lettuce, tomato,\nonions and your choice of cheese. BBQ\nor honey m ustard on the side for\ndipping. - $8.99
 const XCHAR SandGrilledStacker_Button8_Text[] = "Food Menu"; // Food Menu
 const XCHAR SandGrilledStacker_Button3_Text[] = "Main Menu"; // Main Menu
 const XCHAR SandGrilledStacker_Button4_Text[] = "Sandwiches"; // Sandwiches
 const XCHAR SandGrilledStacker_Button5_Text[] = "<"; // <
 const XCHAR SandGrilledStacker_Button6_Text[] = ">"; // >
 const XCHAR SandBlackenedTilapia_Window1_Text[] = "Sandwiches: Blackened Tilapia Sandwich"; // Sandwiches: Blackened Tilapia Sandwich
-XCHAR SandBlackenedTilapia_EditBox1_Text[251] = "Fresh Tilapia blackened just right\nwith lettuce and tomato, on rye\nbread. Served with lemon on the\n side.- $8.99"; // Fresh Tilapia blackened just right\nwith lettuce and tomato, on rye\nbread. Served with lemon on the\n side.- $8.99
+XCHAR SandBlackenedTilapia_EditBox1_Text[119] = "Fresh Tilapia blackened just right\nwith lettuce and tomato, on rye\nbread. Served with lemon on the\n side.- $8.99"; // Fresh Tilapia blackened just right\nwith lettuce and tomato, on rye\nbread. Served with lemon on the\n side.- $8.99
 const XCHAR SandBlackenedTilapia_Button8_Text[] = "Food Menu"; // Food Menu
 const XCHAR SandBlackenedTilapia_Button3_Text[] = "Main Menu"; // Main Menu
 const XCHAR SandBlackenedTilapia_Button4_Text[] = "Sandwiches"; // Sandwiches
 const XCHAR SandBlackenedTilapia_Button5_Text[] = "<"; // <
 const XCHAR SandBlackenedTilapia_Button6_Text[] = ">"; // >
 const XCHAR SandVeggieMushroom_Window1_Text[] = "Sandwiches: Veggie Mushroom Monster"; // Sandwiches: Veggie Mushroom Monster
-XCHAR SandVeggieMushroom_EditBox1_Text[251] = "The biggest mushroom that we\ncould find, we put it on our grilled\nwheat bread with sauteed peppers\nand onions! Pick your cheese! -$7.99"; // The biggest mushroom that we\ncould find, we put it on our grilled\nwheat bread with sauteed peppers\nand onions! Pick your cheese! -$7.99
+XCHAR SandVeggieMushroom_EditBox1_Text[142] = "The biggest mushroom that we\ncould find, we put it on our grilled\nwheat bread with sauteed peppers\nand onions! Pick your cheese! -$7.99"; // The biggest mushroom that we\ncould find, we put it on our grilled\nwheat bread with sauteed peppers\nand onions! Pick your cheese! -$7.99
 const XCHAR SandVeggieMushroom_Button8_Text[] = "Food Menu"; // Food Menu
 const XCHAR SandVeggieMushroom_Button3_Text[] = "Main Menu"; // Main Menu
 const XCHAR SandVeggieMushroom_Button4_Text[] = "Sandwiches"; // Sandwiches
 const XCHAR SandVeggieMushroom_Button5_Text[] = "<"; // <
 const XCHAR SandVeggieMushroom_Button6_Text[] = ">"; // >
 const XCHAR SandGrilledCheese_Window1_Text[] = "Sandwiches: Grilled Cheese"; // Sandwiches: Grilled Cheese
-XCHAR SandGrilledCheese_EditBox1_Text[251] = "When we say grilled cheese, we\nmeanGRILLED CHEESE,\nProvolone,Swiss, American,\nCheddar and feta!-$5.99"; // When we say grilled cheese, we\nmeanGRILLED CHEESE,\nProvolone,Swiss, American,\nCheddar and feta!-$5.99
+XCHAR SandGrilledCheese_EditBox1_Text[108] = "When we say grilled cheese, we\nmeanGRILLED CHEESE,\nProvolone,Swiss, American,\nCheddar and feta!-$5.99"; // When we say grilled cheese, we\nmeanGRILLED CHEESE,\nProvolone,Swiss, American,\nCheddar and feta!-$5.99
 const XCHAR SandGrilledCheese_Button8_Text[] = "Food Menu"; // Food Menu
 const XCHAR SandGrilledCheese_Button3_Text[] = "Main Menu"; // Main Menu
 const XCHAR SandGrilledCheese_Button4_Text[] = "Sandwiches"; // Sandwiches
@@ -360,42 +356,42 @@ const XCHAR BurgerList_Button9_Text[] = "Cheeseburger"; // Cheeseburger
 const XCHAR BurgerList_Button10_Text[] = "Monster Crawler"; // Monster Crawler
 const XCHAR BurgerList_Button12_Text[] = "Food Menu"; // Food Menu
 const XCHAR BurgerCheese_Window1_Text[] = "Burgers: Cheeseburger"; // Burgers: Cheeseburger
-XCHAR BurgerCheese_EditBox1_Text[251] = "Cheddar cheese with your choice\nof pickles, lettuce, mayo, onions\nand tomatoes. -$6.99"; // Cheddar cheese with your choice\nof pickles, lettuce, mayo, onions\nand tomatoes. -$6.99
+XCHAR BurgerCheese_EditBox1_Text[91] = "Cheddar cheese with your choice\nof pickles, lettuce, mayo, onions\nand tomatoes. -$6.99"; // Cheddar cheese with your choice\nof pickles, lettuce, mayo, onions\nand tomatoes. -$6.99
 const XCHAR BurgerCheese_Button8_Text[] = "Food Menu"; // Food Menu
 const XCHAR BurgerCheese_Button3_Text[] = "Main Menu"; // Main Menu
 const XCHAR BurgerCheese_Button4_Text[] = "Burgers"; // Burgers
 const XCHAR BurgerCheese_Button5_Text[] = "<"; // <
 const XCHAR BurgerCheese_Button6_Text[] = ">"; // >
 const XCHAR BurgerHam_Window1_Text[] = "Burgers: Hamburger"; // Burgers: Hamburger
-XCHAR BurgerHam_EditBox1_Text[251] = "Juicy burger patties with your\nchoice of pickles, lettuce, mayo,\nonions and tomatoes. -$6.99"; // Juicy burger patties with your\nchoice of pickles, lettuce, mayo,\nonions and tomatoes. -$6.99
+XCHAR BurgerHam_EditBox1_Text[97] = "Juicy burger patties with your\nchoice of pickles, lettuce, mayo,\nonions and tomatoes. -$6.99"; // Juicy burger patties with your\nchoice of pickles, lettuce, mayo,\nonions and tomatoes. -$6.99
 const XCHAR BurgerHam_Button8_Text[] = "Food Menu"; // Food Menu
 const XCHAR BurgerHam_Button3_Text[] = "Main Menu"; // Main Menu
 const XCHAR BurgerHam_Button4_Text[] = "Burgers"; // Burgers
 const XCHAR BurgerHam_Button5_Text[] = "<"; // <
 const XCHAR BurgerHam_Button6_Text[] = ">"; // >
 const XCHAR BurgerPepper_Window1_Text[] = "Burgers: PepperJackBack Burger"; // Burgers: PepperJackBack Burger
-XCHAR BurgerPepper_EditBox1_Text[251] = "Spicy pepper jack cheese with\nyour choice of pickles, lettuce,\nonions and tomatoes. -$6.99"; // Spicy pepper jack cheese with\nyour choice of pickles, lettuce,\nonions and tomatoes. -$6.99
+XCHAR BurgerPepper_EditBox1_Text[95] = "Spicy pepper jack cheese with\nyour choice of pickles, lettuce,\nonions and tomatoes. -$6.99"; // Spicy pepper jack cheese with\nyour choice of pickles, lettuce,\nonions and tomatoes. -$6.99
 const XCHAR BurgerPepper_Button8_Text[] = "Food Menu"; // Food Menu
 const XCHAR BurgerPepper_Button3_Text[] = "Main Menu"; // Main Menu
 const XCHAR BurgerPepper_Button4_Text[] = "Burgers"; // Burgers
 const XCHAR BurgerPepper_Button5_Text[] = "<"; // <
 const XCHAR BurgerPepper_Button6_Text[] = ">"; // >
 const XCHAR BurgerCajun_Window1_Text[] = "Burgers: Cajun Burger"; // Burgers: Cajun Burger
-XCHAR BurgerCajun_EditBox1_Text[251] = "Juicy burger made with cajun\nspices topped with pepper jack\ncheese! -$6.99"; // Juicy burger made with cajun\nspices topped with pepper jack\ncheese! -$6.99
+XCHAR BurgerCajun_EditBox1_Text[79] = "Juicy burger made with cajun\nspices topped with pepper jack\ncheese! -$6.99"; // Juicy burger made with cajun\nspices topped with pepper jack\ncheese! -$6.99
 const XCHAR BurgerCajun_Button8_Text[] = "Food Menu"; // Food Menu
 const XCHAR BurgerCajun_Button3_Text[] = "Main Menu"; // Main Menu
 const XCHAR BurgerCajun_Button4_Text[] = "Burgers"; // Burgers
 const XCHAR BurgerCajun_Button5_Text[] = "<"; // <
 const XCHAR BurgerCajun_Button6_Text[] = ">"; // >
 const XCHAR BurgerMonster_Window1_Text[] = "Burgers: Monster Crawler Burger"; // Burgers: Monster Crawler Burger
-XCHAR BurgerMonster_EditBox1_Text[251] = "WE DARE YOU! Six patties \nstacked between bread and\ntoppings! -$7.99"; // WE DARE YOU! Six patties \nstacked between bread and\ntoppings! -$7.99
+XCHAR BurgerMonster_EditBox1_Text[73] = "WE DARE YOU! Six patties \nstacked between bread and\ntoppings! -$7.99"; // WE DARE YOU! Six patties \nstacked between bread and\ntoppings! -$7.99
 const XCHAR BurgerMonster_Button8_Text[] = "Food Menu"; // Food Menu
 const XCHAR BurgerMonster_Button3_Text[] = "Main Menu"; // Main Menu
 const XCHAR BurgerMonster_Button4_Text[] = "Burgers"; // Burgers
 const XCHAR BurgerMonster_Button5_Text[] = "<"; // <
 const XCHAR BurgerMonster_Button6_Text[] = ">"; // >
 const XCHAR BurgerMushroom_Window1_Text[] = "Burgers: Mushroom Monster Burger"; // Burgers: Mushroom Monster Burger
-XCHAR BurgerMushroom_EditBox1_Text[251] = "The biggest mushroom we could\nfind, stacked with feta cheeses\nand toppings! -$7.99"; // The biggest mushroom we could\nfind, stacked with feta cheeses\nand toppings! -$7.99
+XCHAR BurgerMushroom_EditBox1_Text[87] = "The biggest mushroom we could\nfind, stacked with feta cheeses\nand toppings! -$7.99"; // The biggest mushroom we could\nfind, stacked with feta cheeses\nand toppings! -$7.99
 const XCHAR BurgerMushroom_Button8_Text[] = "Food Menu"; // Food Menu
 const XCHAR BurgerMushroom_Button3_Text[] = "Main Menu"; // Main Menu
 const XCHAR BurgerMushroom_Button4_Text[] = "Burgers"; // Burgers
@@ -422,91 +418,91 @@ const XCHAR SaladList2_Button10_Text[] = "Tilapia Salad"; // Tilapia Salad
 const XCHAR SaladList2_Button12_Text[] = "Food Menu"; // Food Menu
 const XCHAR SaladList2_Button4_Text[] = "<-- PREVIOUS"; // <-- PREVIOUS
 const XCHAR SaladVegetable_Window1_Text[] = "Salads: Vegetable Salad"; // Salads: Vegetable Salad
-XCHAR SaladVegetable_EditBox1_Text[251] = "Romaine and spinach with\nall the vegetables you could\nthink of! -$6.99"; // Romaine and spinach with\nall the vegetables you could\nthink of! -$6.99
+XCHAR SaladVegetable_EditBox1_Text[75] = "Romaine and spinach with\nall the vegetables you could\nthink of! -$6.99"; // Romaine and spinach with\nall the vegetables you could\nthink of! -$6.99
 const XCHAR SaladVegetable_Button8_Text[] = "Food Menu"; // Food Menu
 const XCHAR SaladVegetable_Button3_Text[] = "Main Menu"; // Main Menu
 const XCHAR SaladVegetable_Button4_Text[] = "Salads"; // Salads
 const XCHAR SaladVegetable_Button5_Text[] = "<"; // <
 const XCHAR SaladVegetable_Button6_Text[] = ">"; // >
 const XCHAR SaladSpicyVeg_Window1_Text[] = "Salads: Spicy Vegetable Salad"; // Salads: Spicy Vegetable Salad
-XCHAR SaladSpicyVeg_EditBox1_Text[251] = "Romaine and spinch with\nvegetables marinated in cajun\nspices! -$7.99"; // Romaine and spinch with\nvegetables marinated in cajun\nspices! -$7.99
+XCHAR SaladSpicyVeg_EditBox1_Text[73] = "Romaine and spinch with\nvegetables marinated in cajun\nspices! -$7.99"; // Romaine and spinch with\nvegetables marinated in cajun\nspices! -$7.99
 const XCHAR SaladSpicyVeg_Button8_Text[] = "Food Menu"; // Food Menu
 const XCHAR SaladSpicyVeg_Button3_Text[] = "Main Menu"; // Main Menu
 const XCHAR SaladSpicyVeg_Button4_Text[] = "Salads"; // Salads
 const XCHAR SaladSpicyVeg_Button5_Text[] = "<"; // <
 const XCHAR SaladSpicyVeg_Button6_Text[] = ">"; // >
 const XCHAR SaladSupremeTaco_Window1_Text[] = "Salads: Supreme Taco Salad"; // Salads: Supreme Taco Salad
-XCHAR SaladSupremeTaco_EditBox1_Text[251] = "Shredded lettuce, choice of\ncheese, black olives, tomato\nand salsa & sour cream on\nthe side. -$7.99"; // Shredded lettuce, choice of\ncheese, black olives, tomato\nand salsa & sour cream on\nthe side. -$7.99
+XCHAR SaladSupremeTaco_EditBox1_Text[106] = "Shredded lettuce, choice of\ncheese, black olives, tomato\nand salsa & sour cream on\nthe side. -$7.99"; // Shredded lettuce, choice of\ncheese, black olives, tomato\nand salsa & sour cream on\nthe side. -$7.99
 const XCHAR SaladSupremeTaco_Button8_Text[] = "Food Menu"; // Food Menu
 const XCHAR SaladSupremeTaco_Button3_Text[] = "Main Menu"; // Main Menu
 const XCHAR SaladSupremeTaco_Button4_Text[] = "Salads"; // Salads
 const XCHAR SaladSupremeTaco_Button5_Text[] = "<"; // <
 const XCHAR SaladSupremeTaco_Button6_Text[] = ">"; // >
 const XCHAR SaladLemonShrimp_Window1_Text[] = "Salads: Gilled Lemon Shrimp Salad"; // Salads: Gilled Lemon Shrimp Salad
-XCHAR SaladLemonShrimp_EditBox1_Text[251] = "Zesty shrimp marinated in lemons,\nspinach, wedged tomatoes and\nlemon dressing. -$7.99"; // Zesty shrimp marinated in lemons,\nspinach, wedged tomatoes and\nlemon dressing. -$7.99
+XCHAR SaladLemonShrimp_EditBox1_Text[90] = "Zesty shrimp marinated in lemons,\nspinach, wedged tomatoes and\nlemon dressing. -$7.99"; // Zesty shrimp marinated in lemons,\nspinach, wedged tomatoes and\nlemon dressing. -$7.99
 const XCHAR SaladLemonShrimp_Button8_Text[] = "Food Menu"; // Food Menu
 const XCHAR SaladLemonShrimp_Button3_Text[] = "Main Menu"; // Main Menu
 const XCHAR SaladLemonShrimp_Button4_Text[] = "Salads"; // Salads
 const XCHAR SaladLemonShrimp_Button5_Text[] = "<"; // <
 const XCHAR SaladLemonShrimp_Button6_Text[] = ">"; // >
 const XCHAR SaladHam_Window1_Text[] = "Salads: Ham Salad"; // Salads: Ham Salad
-XCHAR SaladHam_EditBox1_Text[251] = "Honey chopped ham over a\nbed of lettuce, carrots,\ncheddar cheese and choice\nof dressing. -$7.99"; // Honey chopped ham over a\nbed of lettuce, carrots,\ncheddar cheese and choice\nof dressing. -$7.99
+XCHAR SaladHam_EditBox1_Text[102] = "Honey chopped ham over a\nbed of lettuce, carrots,\ncheddar cheese and choice\nof dressing. -$7.99"; // Honey chopped ham over a\nbed of lettuce, carrots,\ncheddar cheese and choice\nof dressing. -$7.99
 const XCHAR SaladHam_Button8_Text[] = "Food Menu"; // Food Menu
 const XCHAR SaladHam_Button3_Text[] = "Main Menu"; // Main Menu
 const XCHAR SaladHam_Button4_Text[] = "Salads"; // Salads
 const XCHAR SaladHam_Button5_Text[] = "<"; // <
 const XCHAR SaladHam_Button6_Text[] = ">"; // >
 const XCHAR SaladFriedChicken_Window1_Text[] = "Salads: Fried Chicken Salad"; // Salads: Fried Chicken Salad
-XCHAR SaladFriedChicken_EditBox1_Text[251] = "Juicy fried chicken with your\nchoice of cheese, tomato wedges\nand dressing -$7.99"; // Juicy fried chicken with your\nchoice of cheese, tomato wedges\nand dressing -$7.99
+XCHAR SaladFriedChicken_EditBox1_Text[86] = "Juicy fried chicken with your\nchoice of cheese, tomato wedges\nand dressing -$7.99"; // Juicy fried chicken with your\nchoice of cheese, tomato wedges\nand dressing -$7.99
 const XCHAR SaladFriedChicken_Button8_Text[] = "Food Menu"; // Food Menu
 const XCHAR SaladFriedChicken_Button3_Text[] = "Main Menu"; // Main Menu
 const XCHAR SaladFriedChicken_Button4_Text[] = "Salads"; // Salads
 const XCHAR SaladFriedChicken_Button5_Text[] = "<"; // <
 const XCHAR SaladFriedChicken_Button6_Text[] = ">"; // >
 const XCHAR SaladSteak_Window1_Text[] = "Salads: Steak Salad"; // Salads: Steak Salad
-XCHAR SaladSteak_EditBox1_Text[251] = "Steak ontop of romaine lettuce, with\nfeta cheese, choice of dressing.\n-$7.99"; // Steak ontop of romaine lettuce, with\nfeta cheese, choice of dressing.\n-$7.99
+XCHAR SaladSteak_EditBox1_Text[81] = "Steak ontop of romaine lettuce, with\nfeta cheese, choice of dressing.\n-$7.99"; // Steak ontop of romaine lettuce, with\nfeta cheese, choice of dressing.\n-$7.99
 const XCHAR SaladSteak_Button8_Text[] = "Food Menu"; // Food Menu
 const XCHAR SaladSteak_Button3_Text[] = "Main Menu"; // Main Menu
 const XCHAR SaladSteak_Button4_Text[] = "Salads"; // Salads
 const XCHAR SaladSteak_Button5_Text[] = "<"; // <
 const XCHAR SaladSteak_Button6_Text[] = ">"; // >
 const XCHAR SaladFruit_Window1_Text[] = "Salads: Fruit Salad"; // Salads: Fruit Salad
-XCHAR SaladFruit_EditBox1_Text[251] = "Grapes, blue berries, pineapple\nand strawberries on shredded\nlettuce with sweet and sour\ndressing. -$7.99"; // Grapes, blue berries, pineapple\nand strawberries on shredded\nlettuce with sweet and sour\ndressing. -$7.99
+XCHAR SaladFruit_EditBox1_Text[112] = "Grapes, blue berries, pineapple\nand strawberries on shredded\nlettuce with sweet and sour\ndressing. -$7.99"; // Grapes, blue berries, pineapple\nand strawberries on shredded\nlettuce with sweet and sour\ndressing. -$7.99
 const XCHAR SaladFruit_Button8_Text[] = "Food Menu"; // Food Menu
 const XCHAR SaladFruit_Button3_Text[] = "Main Menu"; // Main Menu
 const XCHAR SaladFruit_Button4_Text[] = "Salads"; // Salads
 const XCHAR SaladFruit_Button5_Text[] = "<"; // <
 const XCHAR SaladFruit_Button6_Text[] = ">"; // >
 const XCHAR SaladFetaFruit_Window1_Text[] = "Salads: Fruit and Fruit Salad"; // Salads: Fruit and Fruit Salad
-XCHAR SaladFetaFruit_EditBox1_Text[251] = "Grapes, blue berries, pineapple\nand strawberries on shredded\nlettuce, a ton of feta and sweet and sour\ndressing. -$7.99"; // Grapes, blue berries, pineapple\nand strawberries on shredded\nlettuce, a ton of feta and sweet and sour\ndressing. -$7.99
+XCHAR SaladFetaFruit_EditBox1_Text[126] = "Grapes, blue berries, pineapple\nand strawberries on shredded\nlettuce, a ton of feta and sweet and sour\ndressing. -$7.99"; // Grapes, blue berries, pineapple\nand strawberries on shredded\nlettuce, a ton of feta and sweet and sour\ndressing. -$7.99
 const XCHAR SaladFetaFruit_Button8_Text[] = "Food Menu"; // Food Menu
 const XCHAR SaladFetaFruit_Button3_Text[] = "Main Menu"; // Main Menu
 const XCHAR SaladFetaFruit_Button4_Text[] = "Salads"; // Salads
 const XCHAR SaladFetaFruit_Button5_Text[] = "<"; // <
 const XCHAR SaladFetaFruit_Button6_Text[] = ">"; // >
 const XCHAR SaladBlackenedTil_Window1_Text[] = "Salads: Blackened Tilapia Salad"; // Salads: Blackened Tilapia Salad
-XCHAR SaladBlackenedTil_EditBox1_Text[251] = "Blackened tilapia over romaine\nwith tomatoes and choice of\ndressing.  -$7.99"; // Blackened tilapia over romaine\nwith tomatoes and choice of\ndressing.  -$7.99
+XCHAR SaladBlackenedTil_EditBox1_Text[81] = "Blackened tilapia over romaine\nwith tomatoes and choice of\ndressing.  -$7.99"; // Blackened tilapia over romaine\nwith tomatoes and choice of\ndressing.  -$7.99
 const XCHAR SaladBlackenedTil_Button8_Text[] = "Food Menu"; // Food Menu
 const XCHAR SaladBlackenedTil_Button3_Text[] = "Main Menu"; // Main Menu
 const XCHAR SaladBlackenedTil_Button4_Text[] = "Salads"; // Salads
 const XCHAR SaladBlackenedTil_Button5_Text[] = "<"; // <
 const XCHAR SaladBlackenedTil_Button6_Text[] = ">"; // >
 const XCHAR SaladGarden_Window1_Text[] = "Salads: Garden Burger Salad"; // Salads: Garden Burger Salad
-XCHAR SaladGarden_EditBox1_Text[251] = "The best garden burger you've\never had, diced over fresh romaine\nwith a ton of fresh vegetables!\n-$7.99"; // The best garden burger you've\never had, diced over fresh romaine\nwith a ton of fresh vegetables!\n-$7.99
+XCHAR SaladGarden_EditBox1_Text[110] = "The best garden burger you've\never had, diced over fresh romaine\nwith a ton of fresh vegetables!\n-$7.99"; // The best garden burger you've\never had, diced over fresh romaine\nwith a ton of fresh vegetables!\n-$7.99
 const XCHAR SaladGarden_Button8_Text[] = "Food Menu"; // Food Menu
 const XCHAR SaladGarden_Button3_Text[] = "Main Menu"; // Main Menu
 const XCHAR SaladGarden_Button4_Text[] = "Salads"; // Salads
 const XCHAR SaladGarden_Button5_Text[] = "<"; // <
 const XCHAR SaladGarden_Button6_Text[] = ">"; // >
 const XCHAR SaladBaconator_Window1_Text[] = "Salads: Baconator Salad"; // Salads: Baconator Salad
-XCHAR SaladBaconator_EditBox1_Text[251] = "Romaine lettuce with grilled bacon\non top, egg, tomato, choice of\ncheese and dressing.-$7.99"; // Romaine lettuce with grilled bacon\non top, egg, tomato, choice of\ncheese and dressing.-$7.99
+XCHAR SaladBaconator_EditBox1_Text[97] = "Romaine lettuce with grilled bacon\non top, egg, tomato, choice of\ncheese and dressing.-$7.99"; // Romaine lettuce with grilled bacon\non top, egg, tomato, choice of\ncheese and dressing.-$7.99
 const XCHAR SaladBaconator_Button8_Text[] = "Food Menu"; // Food Menu
 const XCHAR SaladBaconator_Button3_Text[] = "Main Menu"; // Main Menu
 const XCHAR SaladBaconator_Button4_Text[] = "Salads"; // Salads
 const XCHAR SaladBaconator_Button5_Text[] = "<"; // <
 const XCHAR SaladBaconator_Button6_Text[] = ">"; // >
 const XCHAR DessApple_Window1_Text[] = "Desserts: Apple Pie"; // Desserts: Apple Pie
-XCHAR DessApple_EditBox1_Text[251] = "Warm apple pie with a scoop of ice\n cream. -$2.99"; // Warm apple pie with a scoop of ice\n cream. -$2.99
+XCHAR DessApple_EditBox1_Text[52] = "Warm apple pie with a scoop of ice\n cream. -$2.99"; // Warm apple pie with a scoop of ice\n cream. -$2.99
 const XCHAR DessApple_Button8_Text[] = "Food Menu"; // Food Menu
 const XCHAR DessApple_Button3_Text[] = "Main Menu"; // Main Menu
 const XCHAR DessApple_Button4_Text[] = "Desserts"; // Desserts
@@ -524,56 +520,56 @@ const XCHAR DessertsList_Button10_Text[] = "Peanut Butter "; // Peanut Butter
 const XCHAR DessertsList_Button11_Text[] = "Strawberry"; // Strawberry
 const XCHAR DessertsList_Button12_Text[] = "Food Menu"; // Food Menu
 const XCHAR DessBlue_Window1_Text[] = "Desserts: Blueberry Pie"; // Desserts: Blueberry Pie
-XCHAR DessBlue_EditBox1_Text[251] = "Cheesecake with juicy blueberries! \nWhip cream, just ask! -$2.99"; // Cheesecake with juicy blueberries! \nWhip cream, just ask! -$2.99
+XCHAR DessBlue_EditBox1_Text[67] = "Cheesecake with juicy blueberries! \nWhip cream, just ask! -$2.99"; // Cheesecake with juicy blueberries! \nWhip cream, just ask! -$2.99
 const XCHAR DessBlue_Button8_Text[] = "Food Menu"; // Food Menu
 const XCHAR DessBlue_Button3_Text[] = "Main Menu"; // Main Menu
 const XCHAR DessBlue_Button4_Text[] = "Desserts"; // Desserts
 const XCHAR DessBlue_Button5_Text[] = "<"; // <
 const XCHAR DessBlue_Button6_Text[] = ">"; // >
 const XCHAR DessBrownie_Window1_Text[] = "Desserts: Brownie"; // Desserts: Brownie
-XCHAR DessBrownie_EditBox1_Text[251] = "Warm brownie with whip cream \nand choice of chocolate or \nvanilla ice cream!! -$2.99"; // Warm brownie with whip cream \nand choice of chocolate or \nvanilla ice cream!! -$2.99
+XCHAR DessBrownie_EditBox1_Text[89] = "Warm brownie with whip cream \nand choice of chocolate or \nvanilla ice cream!! -$2.99"; // Warm brownie with whip cream \nand choice of chocolate or \nvanilla ice cream!! -$2.99
 const XCHAR DessBrownie_Button8_Text[] = "Food Menu"; // Food Menu
 const XCHAR DessBrownie_Button3_Text[] = "Main Menu"; // Main Menu
 const XCHAR DessBrownie_Button4_Text[] = "Desserts"; // Desserts
 const XCHAR DessBrownie_Button5_Text[] = "<"; // <
 const XCHAR DessBrownie_Button6_Text[] = ">"; // >
 const XCHAR DessMousse_Window1_Text[] = "Desserts: Mousse Cake"; // Desserts: Mousse Cake
-XCHAR DessMousse_EditBox1_Text[251] = "Rich, moist chocolate mousse \ncake! -$2.99"; // Rich, moist chocolate mousse \ncake! -$2.99
+XCHAR DessMousse_EditBox1_Text[45] = "Rich, moist chocolate mousse \ncake! -$2.99"; // Rich, moist chocolate mousse \ncake! -$2.99
 const XCHAR DessMousse_Button8_Text[] = "Food Menu"; // Food Menu
 const XCHAR DessMousse_Button3_Text[] = "Main Menu"; // Main Menu
 const XCHAR DessMousse_Button4_Text[] = "Desserts"; // Desserts
 const XCHAR DessMousse_Button5_Text[] = "<"; // <
 const XCHAR DessMousse_Button6_Text[] = ">"; // >
 const XCHAR DessPeanut_Window1_Text[] = "Desserts: Peanut Butter Cupcake"; // Desserts: Peanut Butter Cupcake
-XCHAR DessPeanut_EditBox1_Text[251] = "Rich chocolate cupcake with \npeanut butter whipping. \nDelicious!!!-$1.99"; // Rich chocolate cupcake with \npeanut butter whipping. \nDelicious!!!-$1.99
+XCHAR DessPeanut_EditBox1_Text[77] = "Rich chocolate cupcake with \npeanut butter whipping. \nDelicious!!!-$1.99"; // Rich chocolate cupcake with \npeanut butter whipping. \nDelicious!!!-$1.99
 const XCHAR DessPeanut_Button8_Text[] = "Food Menu"; // Food Menu
 const XCHAR DessPeanut_Button3_Text[] = "Main Menu"; // Main Menu
 const XCHAR DessPeanut_Button4_Text[] = "Desserts"; // Desserts
 const XCHAR DessPeanut_Button5_Text[] = "<"; // <
 const XCHAR DessPeanut_Button6_Text[] = ">"; // >
 const XCHAR DessRedVel_Window1_Text[] = "Desserts: Red Velvet"; // Desserts: Red Velvet
-XCHAR DessRedVel_EditBox1_Text[251] = "Rich red velvet with a cream layer.\n-$1.99"; // Rich red velvet with a cream layer.\n-$1.99
+XCHAR DessRedVel_EditBox1_Text[45] = "Rich red velvet with a cream layer.\n-$1.99"; // Rich red velvet with a cream layer.\n-$1.99
 const XCHAR DessRedVel_Button8_Text[] = "Food Menu"; // Food Menu
 const XCHAR DessRedVel_Button3_Text[] = "Main Menu"; // Main Menu
 const XCHAR DessRedVel_Button4_Text[] = "Desserts"; // Desserts
 const XCHAR DessRedVel_Button5_Text[] = "<"; // <
 const XCHAR DessRedVel_Button6_Text[] = ">"; // >
 const XCHAR DessStraw_Window1_Text[] = "Desserts: Strawberry Delight"; // Desserts: Strawberry Delight
-XCHAR DessStraw_EditBox1_Text[251] = "Strawberries with whip cream,\n a healthy choice! $1.99"; // Strawberries with whip cream,\n a healthy choice! $1.99
+XCHAR DessStraw_EditBox1_Text[57] = "Strawberries with whip cream,\n a healthy choice! $1.99"; // Strawberries with whip cream,\n a healthy choice! $1.99
 const XCHAR DessStraw_Button8_Text[] = "Food Menu"; // Food Menu
 const XCHAR DessStraw_Button3_Text[] = "Main Menu"; // Main Menu
 const XCHAR DessStraw_Button4_Text[] = "Desserts"; // Desserts
 const XCHAR DessStraw_Button5_Text[] = "<"; // <
 const XCHAR DessStraw_Button6_Text[] = ">"; // >
 const XCHAR DessSundae_Window1_Text[] = "Desserts: Sundae"; // Desserts: Sundae
-XCHAR DessSundae_EditBox1_Text[251] = "Bananna, strawberries, whip cream \nand ice cream! Delicious!! -$2.99"; // Bananna, strawberries, whip cream \nand ice cream! Delicious!! -$2.99
+XCHAR DessSundae_EditBox1_Text[71] = "Bananna, strawberries, whip cream \nand ice cream! Delicious!! -$2.99"; // Bananna, strawberries, whip cream \nand ice cream! Delicious!! -$2.99
 const XCHAR DessSundae_Button8_Text[] = "Food Menu"; // Food Menu
 const XCHAR DessSundae_Button3_Text[] = "Main Menu"; // Main Menu
 const XCHAR DessSundae_Button4_Text[] = "Desserts"; // Desserts
 const XCHAR DessSundae_Button5_Text[] = "<"; // <
 const XCHAR DessSundae_Button6_Text[] = ">"; // >
 const XCHAR DinCornBeef_Window1_Text[] = "Dinners: Corn Beef and Cabbage"; // Dinners: Corn Beef and Cabbage
-XCHAR DinCornBeef_EditBox1_Text[251] = "Corn beef with red skin potatoes, \ncarrots, celery and a wedge of \ncabbage. -$7.99"; // Corn beef with red skin potatoes, \ncarrots, celery and a wedge of \ncabbage. -$7.99
+XCHAR DinCornBeef_EditBox1_Text[87] = "Corn beef with red skin potatoes, \ncarrots, celery and a wedge of \ncabbage. -$7.99"; // Corn beef with red skin potatoes, \ncarrots, celery and a wedge of \ncabbage. -$7.99
 const XCHAR DinCornBeef_Button8_Text[] = "Food Menu"; // Food Menu
 const XCHAR DinCornBeef_Button3_Text[] = "Main Menu"; // Main Menu
 const XCHAR DinCornBeef_Button4_Text[] = "Dinners"; // Dinners
@@ -593,63 +589,63 @@ const XCHAR DinnerList_Button10_Text[] = "Corn beef"; // Corn beef
 const XCHAR DinnerList_Button11_Text[] = "Vegetable Pizza"; // Vegetable Pizza
 const XCHAR DinnerList_Button12_Text[] = "Food Menu"; // Food Menu
 const XCHAR DinFriedChiken_Window1_Text[] = "Dinners: Fried Chicken with Broccoli"; // Dinners: Fried Chicken with Broccoli
-XCHAR DinFriedChiken_EditBox1_Text[251] = "Two fried chicken patties topped\nwith a broccoli sauce and fresh\nbroccoli. -$7.99"; // Two fried chicken patties topped\nwith a broccoli sauce and fresh\nbroccoli. -$7.99
+XCHAR DinFriedChiken_EditBox1_Text[86] = "Two fried chicken patties topped\nwith a broccoli sauce and fresh\nbroccoli. -$7.99"; // Two fried chicken patties topped\nwith a broccoli sauce and fresh\nbroccoli. -$7.99
 const XCHAR DinFriedChiken_Button8_Text[] = "Food Menu"; // Food Menu
 const XCHAR DinFriedChiken_Button3_Text[] = "Main Menu"; // Main Menu
 const XCHAR DinFriedChiken_Button4_Text[] = "Dinners"; // Dinners
 const XCHAR DinFriedChiken_Button5_Text[] = "<"; // <
 const XCHAR DinFriedChiken_Button6_Text[] = ">"; // >
 const XCHAR DinGrilledChicken_Window1_Text[] = "Dinners: Grilled Chicken with Broccoli"; // Dinners: Grilled Chicken with Broccoli
-XCHAR DinGrilledChicken_EditBox1_Text[251] = "Two grilled chicken patties topped\nwith a broccoli sauce and fresh\nbroccoli. -$7.99"; // Two grilled chicken patties topped\nwith a broccoli sauce and fresh\nbroccoli. -$7.99
+XCHAR DinGrilledChicken_EditBox1_Text[88] = "Two grilled chicken patties topped\nwith a broccoli sauce and fresh\nbroccoli. -$7.99"; // Two grilled chicken patties topped\nwith a broccoli sauce and fresh\nbroccoli. -$7.99
 const XCHAR DinGrilledChicken_Button8_Text[] = "Food Menu"; // Food Menu
 const XCHAR DinGrilledChicken_Button3_Text[] = "Main Menu"; // Main Menu
 const XCHAR DinGrilledChicken_Button4_Text[] = "Dinners"; // Dinners
 const XCHAR DinGrilledChicken_Button5_Text[] = "<"; // <
 const XCHAR DinGrilledChicken_Button6_Text[] = ">"; // >
 const XCHAR DinLasagna_Window1_Text[] = "Dinners: Lasagna"; // Dinners: Lasagna
-XCHAR DinLasagna_EditBox1_Text[251] = "Layered lasagna, fresh ricotta \ncheese, and spinach.... \nItalian at its best!! -$6.99"; // Layered lasagna, fresh ricotta \ncheese, and spinach.... \nItalian at its best!! -$6.99
+XCHAR DinLasagna_EditBox1_Text[90] = "Layered lasagna, fresh ricotta \ncheese, and spinach.... \nItalian at its best!! -$6.99"; // Layered lasagna, fresh ricotta \ncheese, and spinach.... \nItalian at its best!! -$6.99
 const XCHAR DinLasagna_Button8_Text[] = "Food Menu"; // Food Menu
 const XCHAR DinLasagna_Button3_Text[] = "Main Menu"; // Main Menu
 const XCHAR DinLasagna_Button4_Text[] = "Dinners"; // Dinners
 const XCHAR DinLasagna_Button5_Text[] = "<"; // <
 const XCHAR DinLasagna_Button6_Text[] = ">"; // >
 const XCHAR DinMarPizza_Window1_Text[] = "Dinners: Margherita Pizza"; // Dinners: Margherita Pizza
-XCHAR DinMarPizza_EditBox1_Text[251] = "A pizza big enough for two or\nmaybe just you! Fresh and\ndelicious! -$8.49"; // A pizza big enough for two or\nmaybe just you! Fresh and\ndelicious! -$8.49
+XCHAR DinMarPizza_EditBox1_Text[78] = "A pizza big enough for two or\nmaybe just you! Fresh and\ndelicious! -$8.49"; // A pizza big enough for two or\nmaybe just you! Fresh and\ndelicious! -$8.49
 const XCHAR DinMarPizza_Button8_Text[] = "Food Menu"; // Food Menu
 const XCHAR DinMarPizza_Button3_Text[] = "Main Menu"; // Main Menu
 const XCHAR DinMarPizza_Button4_Text[] = "Dinners"; // Dinners
 const XCHAR DinMarPizza_Button5_Text[] = "<"; // <
 const XCHAR DinMarPizza_Button6_Text[] = ">"; // >
 const XCHAR DinQuesadilla_Window1_Text[] = "Dinners: Quesadilla"; // Dinners: Quesadilla
-XCHAR DinQuesadilla_EditBox1_Text[251] = "Fried chicken tenders thrown\nin buffalo sauce, pepper jack\ncheese with tomato and lettuce\non the side. -$7.99"; // Fried chicken tenders thrown\nin buffalo sauce, pepper jack\ncheese with tomato and lettuce\non the side. -$7.99
+XCHAR DinQuesadilla_EditBox1_Text[116] = "Fried chicken tenders thrown\nin buffalo sauce, pepper jack\ncheese with tomato and lettuce\non the side. -$7.99"; // Fried chicken tenders thrown\nin buffalo sauce, pepper jack\ncheese with tomato and lettuce\non the side. -$7.99
 const XCHAR DinQuesadilla_Button8_Text[] = "Food Menu"; // Food Menu
 const XCHAR DinQuesadilla_Button3_Text[] = "Main Menu"; // Main Menu
 const XCHAR DinQuesadilla_Button4_Text[] = "Dinners"; // Dinners
 const XCHAR DinQuesadilla_Button5_Text[] = "<"; // <
 const XCHAR DinQuesadilla_Button6_Text[] = ">"; // >
 const XCHAR DinSpaghetti_Window1_Text[] = "Dinners: Spaghetti and Meatballs"; // Dinners: Spaghetti and Meatballs
-XCHAR DinSpaghetti_EditBox1_Text[251] = "Al dente spaghetti, with a perfect\nblend of spices and three large\nmeatballs! -$7.99"; // Al dente spaghetti, with a perfect\nblend of spices and three large\nmeatballs! -$7.99
+XCHAR DinSpaghetti_EditBox1_Text[89] = "Al dente spaghetti, with a perfect\nblend of spices and three large\nmeatballs! -$7.99"; // Al dente spaghetti, with a perfect\nblend of spices and three large\nmeatballs! -$7.99
 const XCHAR DinSpaghetti_Button8_Text[] = "Food Menu"; // Food Menu
 const XCHAR DinSpaghetti_Button3_Text[] = "Main Menu"; // Main Menu
 const XCHAR DinSpaghetti_Button4_Text[] = "Dinners"; // Dinners
 const XCHAR DinSpaghetti_Button5_Text[] = "<"; // <
 const XCHAR DinSpaghetti_Button6_Text[] = ">"; // >
 const XCHAR DinSteak_Window1_Text[] = "Dinners: Steak with Potato"; // Dinners: Steak with Potato
-XCHAR DinSteak_EditBox1_Text[251] = "Steak done to your preference,\nwith a side of baked, mashed \nor fires. -$8.99"; // Steak done to your preference,\nwith a side of baked, mashed \nor fires. -$8.99
+XCHAR DinSteak_EditBox1_Text[82] = "Steak done to your preference,\nwith a side of baked, mashed \nor fires. -$8.99"; // Steak done to your preference,\nwith a side of baked, mashed \nor fires. -$8.99
 const XCHAR DinSteak_Button8_Text[] = "Food Menu"; // Food Menu
 const XCHAR DinSteak_Button3_Text[] = "Main Menu"; // Main Menu
 const XCHAR DinSteak_Button4_Text[] = "Dinners"; // Dinners
 const XCHAR DinSteak_Button5_Text[] = "<"; // <
 const XCHAR DinSteak_Button6_Text[] = ">"; // >
 const XCHAR DinTilapia_Window1_Text[] = "Dinners: Tilapia with Cajun Rice"; // Dinners: Tilapia with Cajun Rice
-XCHAR DinTilapia_EditBox1_Text[251] = "Two fillets, blackened tilapia with\na spicy side of cajun rice. -$9.99"; // Two fillets, blackened tilapia with\na spicy side of cajun rice. -$9.99
+XCHAR DinTilapia_EditBox1_Text[73] = "Two fillets, blackened tilapia with\na spicy side of cajun rice. -$9.99"; // Two fillets, blackened tilapia with\na spicy side of cajun rice. -$9.99
 const XCHAR DinTilapia_Button8_Text[] = "Food Menu"; // Food Menu
 const XCHAR DinTilapia_Button3_Text[] = "Main Menu"; // Main Menu
 const XCHAR DinTilapia_Button4_Text[] = "Dinners"; // Dinners
 const XCHAR DinTilapia_Button5_Text[] = "<"; // <
 const XCHAR DinTilapia_Button6_Text[] = ">"; // >
 const XCHAR DinVegPizza_Window1_Text[] = "Dinners: Vegetable Pizza"; // Dinners: Vegetable Pizza
-XCHAR DinVegPizza_EditBox1_Text[251] = "Onions, tomato, green peppers, \nblack olives, banana peppers \nand mushrooms!-$7.99"; // Onions, tomato, green peppers, \nblack olives, banana peppers \nand mushrooms!-$7.99
+XCHAR DinVegPizza_EditBox1_Text[87] = "Onions, tomato, green peppers, \nblack olives, banana peppers \nand mushrooms!-$7.99"; // Onions, tomato, green peppers, \nblack olives, banana peppers \nand mushrooms!-$7.99
 const XCHAR DinVegPizza_Button8_Text[] = "Food Menu"; // Food Menu
 const XCHAR DinVegPizza_Button3_Text[] = "Main Menu"; // Main Menu
 const XCHAR DinVegPizza_Button4_Text[] = "Dinners"; // Dinners
@@ -666,54 +662,322 @@ const XCHAR SidesList_Button9_Text[] = "O'Rings"; // O'Rings
 const XCHAR SidesList_Button10_Text[] = "Fruit"; // Fruit
 const XCHAR SidesList_Button12_Text[] = "Food Menu"; // Food Menu
 const XCHAR SidesBakedPot_Window1_Text[] = "Sides: Baked Potato"; // Sides: Baked Potato
-XCHAR SidesBakedPot_EditBox1_Text[251] = "Baked potato with choice of butter, \nsour cream, bacon and cheese.\n-$1.99"; // Baked potato with choice of butter, \nsour cream, bacon and cheese.\n-$1.99
+XCHAR SidesBakedPot_EditBox1_Text[78] = "Baked potato with choice of butter, \nsour cream, bacon and cheese.\n-$1.99"; // Baked potato with choice of butter, \nsour cream, bacon and cheese.\n-$1.99
 const XCHAR SidesBakedPot_Button8_Text[] = "Food Menu"; // Food Menu
 const XCHAR SidesBakedPot_Button3_Text[] = "Main Menu"; // Main Menu
 const XCHAR SidesBakedPot_Button4_Text[] = "Sides"; // Sides
 const XCHAR SidesBakedPot_Button5_Text[] = "<"; // <
 const XCHAR SidesBakedPot_Button6_Text[] = ">"; // >
 const XCHAR SidesBroccoli_Window1_Text[] = "Sides: Broccoli"; // Sides: Broccoli
-XCHAR SidesBroccoli_EditBox1_Text[251] = "Fresh steamed broccoli with\n or without butter. -$1.99"; // Fresh steamed broccoli with\n or without butter. -$1.99
+XCHAR SidesBroccoli_EditBox1_Text[57] = "Fresh steamed broccoli with\n or without butter. -$1.99"; // Fresh steamed broccoli with\n or without butter. -$1.99
 const XCHAR SidesBroccoli_Button8_Text[] = "Food Menu"; // Food Menu
 const XCHAR SidesBroccoli_Button3_Text[] = "Main Menu"; // Main Menu
 const XCHAR SidesBroccoli_Button4_Text[] = "Sides"; // Sides
 const XCHAR SidesBroccoli_Button5_Text[] = "<"; // <
 const XCHAR SidesBroccoli_Button6_Text[] = ">"; // >
 const XCHAR SidesFries_Window1_Text[] = "Sides: Fries"; // Sides: Fries
-XCHAR SidesFries_EditBox1_Text[251] = "Try a basket of our crispy fries, \nligtly salted! -$1.99"; // Try a basket of our crispy fries, \nligtly salted! -$1.99
+XCHAR SidesFries_EditBox1_Text[59] = "Try a basket of our crispy fries, \nligtly salted! -$1.99"; // Try a basket of our crispy fries, \nligtly salted! -$1.99
 const XCHAR SidesFries_Button8_Text[] = "Food Menu"; // Food Menu
 const XCHAR SidesFries_Button3_Text[] = "Main Menu"; // Main Menu
 const XCHAR SidesFries_Button4_Text[] = "Sides"; // Sides
 const XCHAR SidesFries_Button5_Text[] = "<"; // <
 const XCHAR SidesFries_Button6_Text[] = ">"; // >
 const XCHAR SidesFruit_Window1_Text[] = "Sides: Fruit"; // Sides: Fruit
-XCHAR SidesFruit_EditBox1_Text[251] = "Strawberries, pineapple, grapes,\ncantaloupe and honey dew.-$1.99"; // Strawberries, pineapple, grapes,\ncantaloupe and honey dew.-$1.99
+XCHAR SidesFruit_EditBox1_Text[67] = "Strawberries, pineapple, grapes,\ncantaloupe and honey dew.-$1.99"; // Strawberries, pineapple, grapes,\ncantaloupe and honey dew.-$1.99
 const XCHAR SidesFruit_Button8_Text[] = "Food Menu"; // Food Menu
 const XCHAR SidesFruit_Button3_Text[] = "Main Menu"; // Main Menu
 const XCHAR SidesFruit_Button4_Text[] = "Sides"; // Sides
 const XCHAR SidesFruit_Button5_Text[] = "<"; // <
 const XCHAR SidesFruit_Button6_Text[] = ">"; // >
 const XCHAR SidesMashed_Window1_Text[] = "Sides: Mashed Potato"; // Sides: Mashed Potato
-XCHAR SidesMashed_EditBox1_Text[251] = "Thick homemade mashed potatoes,\nwith or without butter. \nGravy-just ask! -$1.99"; // Thick homemade mashed potatoes,\nwith or without butter. \nGravy-just ask! -$1.99
+XCHAR SidesMashed_EditBox1_Text[84] = "Thick homemade mashed potatoes,\nwith or without butter. \nGravy-just ask! -$1.99"; // Thick homemade mashed potatoes,\nwith or without butter. \nGravy-just ask! -$1.99
 const XCHAR SidesMashed_Button8_Text[] = "Food Menu"; // Food Menu
 const XCHAR SidesMashed_Button3_Text[] = "Main Menu"; // Main Menu
 const XCHAR SidesMashed_Button4_Text[] = "Sides"; // Sides
 const XCHAR SidesMashed_Button5_Text[] = "<"; // <
 const XCHAR SidesMashed_Button6_Text[] = ">"; // >
 const XCHAR SidesORings_Window1_Text[] = "Sides: O'Rings"; // Sides: O'Rings
-XCHAR SidesORings_EditBox1_Text[251] = "Thick beer battered O'Rings,\nenough to share! -$1.99"; // Thick beer battered O'Rings,\nenough to share! -$1.99
+XCHAR SidesORings_EditBox1_Text[55] = "Thick beer battered O'Rings,\nenough to share! -$1.99"; // Thick beer battered O'Rings,\nenough to share! -$1.99
 const XCHAR SidesORings_Button8_Text[] = "Food Menu"; // Food Menu
 const XCHAR SidesORings_Button3_Text[] = "Main Menu"; // Main Menu
 const XCHAR SidesORings_Button4_Text[] = "Sides"; // Sides
 const XCHAR SidesORings_Button5_Text[] = "<"; // <
 const XCHAR SidesORings_Button6_Text[] = ">"; // >
 const XCHAR SidesSlaw_Window1_Text[] = "Sides: Creamy Coleslaw "; // Sides: Creamy Coleslaw 
-XCHAR SidesSlaw_EditBox1_Text[251] = "Shredded cabbage with plenty of\ncarrots and onions. -$1.99"; // Shredded cabbage with plenty of\ncarrots and onions. -$1.99
+XCHAR SidesSlaw_EditBox1_Text[61] = "Shredded cabbage with plenty of\ncarrots and onions. -$1.99"; // Shredded cabbage with plenty of\ncarrots and onions. -$1.99
 const XCHAR SidesSlaw_Button8_Text[] = "Food Menu"; // Food Menu
 const XCHAR SidesSlaw_Button3_Text[] = "Main Menu"; // Main Menu
 const XCHAR SidesSlaw_Button4_Text[] = "Sides"; // Sides
 const XCHAR SidesSlaw_Button5_Text[] = "<"; // <
 const XCHAR SidesSlaw_Button6_Text[] = ">"; // >
+const XCHAR AlcoholBud_Window1_Text[] = "Alcohol: Budweiser "; // Alcohol: Budweiser 
+XCHAR AlcoholBud_EditBox1_Text[46] = "Bottle -$2.95\nDraft- $2.65\nPitcher- $5.99"; // Bottle -$2.95\nDraft- $2.65\nPitcher- $5.99
+const XCHAR AlcoholBud_Button8_Text[] = "Drinks Menu"; // Drinks Menu
+const XCHAR AlcoholBud_Button3_Text[] = "Main Menu"; // Main Menu
+const XCHAR AlcoholBud_Button4_Text[] = "Alcohol"; // Alcohol
+const XCHAR AlcoholBud_Button5_Text[] = "<"; // <
+const XCHAR AlcoholBud_Button6_Text[] = ">"; // >
+const XCHAR AlcoholList_Window1_Text[] = "Alcohol Menu"; // Alcohol Menu
+const XCHAR AlcoholList_Button1_Text[] = "Bud Light"; // Bud Light
+const XCHAR AlcoholList_Button3_Text[] = "Yuengling"; // Yuengling
+const XCHAR AlcoholList_Button5_Text[] = "Coors Light"; // Coors Light
+const XCHAR AlcoholList_Button7_Text[] = "Michelob Ultra"; // Michelob Ultra
+const XCHAR AlcoholList_Button8_Text[] = "Main Menu"; // Main Menu
+const XCHAR AlcoholList_Button9_Text[] = "Miller Lite"; // Miller Lite
+const XCHAR AlcoholList_Button10_Text[] = "Corona"; // Corona
+const XCHAR AlcoholList_Button12_Text[] = "Drinks Menu"; // Drinks Menu
+const XCHAR AlcoholList_Button11_Text[] = "Bud"; // Bud
+const XCHAR AlcoholList_Button13_Text[] = "Guinness"; // Guinness
+const XCHAR AlcoholBudLight_Window1_Text[] = "Alcohol: Bud Light"; // Alcohol: Bud Light
+XCHAR AlcoholBudLight_EditBox1_Text[46] = "Bottle -$2.95\nDraft- $2.65\nPitcher- $5.99"; // Bottle -$2.95\nDraft- $2.65\nPitcher- $5.99
+const XCHAR AlcoholBudLight_Button8_Text[] = "Drinks Menu"; // Drinks Menu
+const XCHAR AlcoholBudLight_Button3_Text[] = "Main Menu"; // Main Menu
+const XCHAR AlcoholBudLight_Button4_Text[] = "Alcohol"; // Alcohol
+const XCHAR AlcoholBudLight_Button5_Text[] = "<"; // <
+const XCHAR AlcoholBudLight_Button6_Text[] = ">"; // >
+const XCHAR AlcoholCoorsLight_Window1_Text[] = "Alcohol: Coors Light"; // Alcohol: Coors Light
+XCHAR AlcoholCoorsLight_EditBox1_Text[46] = "Bottle -$2.95\nDraft- $2.65\nPitcher- $5.99"; // Bottle -$2.95\nDraft- $2.65\nPitcher- $5.99
+const XCHAR AlcoholCoorsLight_Button8_Text[] = "Drinks Menu"; // Drinks Menu
+const XCHAR AlcoholCoorsLight_Button3_Text[] = "Main Menu"; // Main Menu
+const XCHAR AlcoholCoorsLight_Button4_Text[] = "Alcohol"; // Alcohol
+const XCHAR AlcoholCoorsLight_Button5_Text[] = "<"; // <
+const XCHAR AlcoholCoorsLight_Button6_Text[] = ">"; // >
+const XCHAR AlcoholCorona_Window1_Text[] = "Alcohol: Corona"; // Alcohol: Corona
+XCHAR AlcoholCorona_EditBox1_Text[46] = "Bottle -$2.95\nDraft- $2.65\nPitcher- $5.99"; // Bottle -$2.95\nDraft- $2.65\nPitcher- $5.99
+const XCHAR AlcoholCorona_Button8_Text[] = "Drinks Menu"; // Drinks Menu
+const XCHAR AlcoholCorona_Button3_Text[] = "Main Menu"; // Main Menu
+const XCHAR AlcoholCorona_Button4_Text[] = "Alcohol"; // Alcohol
+const XCHAR AlcoholCorona_Button5_Text[] = "<"; // <
+const XCHAR AlcoholCorona_Button6_Text[] = ">"; // >
+const XCHAR AlcoholGuinness_Window1_Text[] = "Alcohol: Guinness"; // Alcohol: Guinness
+XCHAR AlcoholGuinness_EditBox1_Text[46] = "Bottle -$2.95\nDraft- $2.65\nPitcher- $5.99"; // Bottle -$2.95\nDraft- $2.65\nPitcher- $5.99
+const XCHAR AlcoholGuinness_Button8_Text[] = "Drinks Menu"; // Drinks Menu
+const XCHAR AlcoholGuinness_Button3_Text[] = "Main Menu"; // Main Menu
+const XCHAR AlcoholGuinness_Button4_Text[] = "Alcohol"; // Alcohol
+const XCHAR AlcoholGuinness_Button5_Text[] = "<"; // <
+const XCHAR AlcoholGuinness_Button6_Text[] = ">"; // >
+const XCHAR AlcoholMichelob_Window1_Text[] = "Alcohol: Michelob Ultra"; // Alcohol: Michelob Ultra
+XCHAR AlcoholMichelob_EditBox1_Text[46] = "Bottle -$2.95\nDraft- $2.65\nPitcher- $5.99"; // Bottle -$2.95\nDraft- $2.65\nPitcher- $5.99
+const XCHAR AlcoholMichelob_Button8_Text[] = "Drinks Menu"; // Drinks Menu
+const XCHAR AlcoholMichelob_Button3_Text[] = "Main Menu"; // Main Menu
+const XCHAR AlcoholMichelob_Button4_Text[] = "Alcohol"; // Alcohol
+const XCHAR AlcoholMichelob_Button5_Text[] = "<"; // <
+const XCHAR AlcoholMichelob_Button6_Text[] = ">"; // >
+const XCHAR AlcoholMillerLite_Window1_Text[] = "Alcohol: Miller Lite"; // Alcohol: Miller Lite
+XCHAR AlcoholMillerLite_EditBox1_Text[46] = "Bottle -$2.95\nDraft- $2.65\nPitcher- $5.99"; // Bottle -$2.95\nDraft- $2.65\nPitcher- $5.99
+const XCHAR AlcoholMillerLite_Button8_Text[] = "Drinks Menu"; // Drinks Menu
+const XCHAR AlcoholMillerLite_Button3_Text[] = "Main Menu"; // Main Menu
+const XCHAR AlcoholMillerLite_Button4_Text[] = "Alcohol"; // Alcohol
+const XCHAR AlcoholMillerLite_Button5_Text[] = "<"; // <
+const XCHAR AlcoholMillerLite_Button6_Text[] = ">"; // >
+const XCHAR AlcoholYuengling_Window1_Text[] = "Alcohol: Yuengling"; // Alcohol: Yuengling
+XCHAR AlcoholYuengling_EditBox1_Text[46] = "Bottle -$2.95\nDraft- $2.65\nPitcher- $5.99"; // Bottle -$2.95\nDraft- $2.65\nPitcher- $5.99
+const XCHAR AlcoholYuengling_Button8_Text[] = "Drinks Menu"; // Drinks Menu
+const XCHAR AlcoholYuengling_Button3_Text[] = "Main Menu"; // Main Menu
+const XCHAR AlcoholYuengling_Button4_Text[] = "Alcohol"; // Alcohol
+const XCHAR AlcoholYuengling_Button5_Text[] = "<"; // <
+const XCHAR AlcoholYuengling_Button6_Text[] = ">"; // >
+const XCHAR DrinkMenu_Drink_Menu_Text[] = "Drink Menu"; // Drink Menu
+const XCHAR DrinkMenu_Button1_Text[] = "Soft Drinks"; // Soft Drinks
+const XCHAR DrinkMenu_Button5_Text[] = "Smoothies/Shakes"; // Smoothies/Shakes
+const XCHAR DrinkMenu_Button8_Text[] = "Main Menu"; // Main Menu
+const XCHAR DrinkMenu_Button10_Text[] = "Alcohol"; // Alcohol
+const XCHAR DrinkMenu_Button12_Text[] = "Food Menu"; // Food Menu
+const XCHAR SmoShakeMenu_Window1_Text[] = "Smoothies & Shakes Menu"; // Smoothies & Shakes Menu
+const XCHAR SmoShakeMenu_Button1_Text[] = "Banana Smoothie"; // Banana Smoothie
+const XCHAR SmoShakeMenu_Button3_Text[] = "Vanilla Shake"; // Vanilla Shake
+const XCHAR SmoShakeMenu_Button5_Text[] = "Chocolate Shake"; // Chocolate Shake
+const XCHAR SmoShakeMenu_Button7_Text[] = "Oreo Shake"; // Oreo Shake
+const XCHAR SmoShakeMenu_Button8_Text[] = "Main Menu"; // Main Menu
+const XCHAR SmoShakeMenu_Button9_Text[] = "Blueberry Smoothie"; // Blueberry Smoothie
+const XCHAR SmoShakeMenu_Button10_Text[] = "Peanut Butter Shake"; // Peanut Butter Shake
+const XCHAR SmoShakeMenu_Button12_Text[] = "Food Menu"; // Food Menu
+const XCHAR SmoShakeMenu_Button11_Text[] = "Drinks Menu"; // Drinks Menu
+const XCHAR ShakeBanana_Window1_Text[] = "Smoothies & Shakes: Banana Smoothie"; // Smoothies & Shakes: Banana Smoothie
+XCHAR ShakeBanana_EditBox1_Text[60] = "Rich creamy banana smoothie,\n whip cream-just ask! -$3.99"; // Rich creamy banana smoothie,\n whip cream-just ask! -$3.99
+const XCHAR ShakeBanana_Button1_Text[] = "Add to Order"; // Add to Order
+const XCHAR ShakeBanana_Button8_Text[] = "Drinks Menu"; // Drinks Menu
+const XCHAR ShakeBanana_Button3_Text[] = "Main Menu"; // Main Menu
+const XCHAR ShakeBanana_Button4_Text[] = "Shakes"; // Shakes
+const XCHAR ShakeBanana_Button5_Text[] = "<"; // <
+const XCHAR ShakeBanana_Button6_Text[] = ">"; // >
+const XCHAR ShakeBlueberry_Window1_Text[] = "Smoothies & Shakes: Blueberry Smoothie"; // Smoothies & Shakes: Blueberry Smoothie
+XCHAR ShakeBlueberry_EditBox1_Text[66] = "Fresh blueberries, naturally sweet \nwhip cream-just ask! -$3.99"; // Fresh blueberries, naturally sweet \nwhip cream-just ask! -$3.99
+const XCHAR ShakeBlueberry_Button1_Text[] = "Add to Order"; // Add to Order
+const XCHAR ShakeBlueberry_Button8_Text[] = "Drinks Menu"; // Drinks Menu
+const XCHAR ShakeBlueberry_Button3_Text[] = "Main Menu"; // Main Menu
+const XCHAR ShakeBlueberry_Button4_Text[] = "Shakes"; // Shakes
+const XCHAR ShakeBlueberry_Button5_Text[] = "<"; // <
+const XCHAR ShakeBlueberry_Button6_Text[] = ">"; // >
+const XCHAR ShakeChocolate_Window1_Text[] = "Smoothies & Shakes: Chocolate Shake"; // Smoothies & Shakes: Chocolate Shake
+XCHAR ShakeChocolate_EditBox1_Text[72] = "Thick chocolate milkshake,\nextra chocolate taste\n-just ask!! -$3.99"; // Thick chocolate milkshake,\nextra chocolate taste\n-just ask!! -$3.99
+const XCHAR ShakeChocolate_Button1_Text[] = "Add to Order"; // Add to Order
+const XCHAR ShakeChocolate_Button8_Text[] = "Drinks Menu"; // Drinks Menu
+const XCHAR ShakeChocolate_Button3_Text[] = "Main Menu"; // Main Menu
+const XCHAR ShakeChocolate_Button4_Text[] = "Shakes"; // Shakes
+const XCHAR ShakeChocolate_Button5_Text[] = "<"; // <
+const XCHAR ShakeChocolate_Button6_Text[] = ">"; // >
+const XCHAR ShakeOreo_Window1_Text[] = "Smoothies & Shakes: Oreo Shake"; // Smoothies & Shakes: Oreo Shake
+XCHAR ShakeOreo_EditBox1_Text[70] = "Orea shake with extra oreo \ncrumbles ontop and whip cream.\n-$3.99"; // Orea shake with extra oreo \ncrumbles ontop and whip cream.\n-$3.99
+const XCHAR ShakeOreo_Button1_Text[] = "Add to Order"; // Add to Order
+const XCHAR ShakeOreo_Button8_Text[] = "Drinks Menu"; // Drinks Menu
+const XCHAR ShakeOreo_Button3_Text[] = "Main Menu"; // Main Menu
+const XCHAR ShakeOreo_Button4_Text[] = "Shakes"; // Shakes
+const XCHAR ShakeOreo_Button5_Text[] = "<"; // <
+const XCHAR ShakeOreo_Button6_Text[] = ">"; // >
+const XCHAR ShakePeanut_Window1_Text[] = "Smoothies & Shakes: Peanut Butter Shake "; // Smoothies & Shakes: Peanut Butter Shake 
+XCHAR ShakePeanut_EditBox1_Text[66] = "Peanut butter shake, chocolate\nswirl and whip cream ontop.-3.99"; // Peanut butter shake, chocolate\nswirl and whip cream ontop.-3.99
+const XCHAR ShakePeanut_Button1_Text[] = "Add to Order"; // Add to Order
+const XCHAR ShakePeanut_Button8_Text[] = "Drinks Menu"; // Drinks Menu
+const XCHAR ShakePeanut_Button3_Text[] = "Main Menu"; // Main Menu
+const XCHAR ShakePeanut_Button4_Text[] = "Shakes"; // Shakes
+const XCHAR ShakePeanut_Button5_Text[] = "<"; // <
+const XCHAR ShakePeanut_Button6_Text[] = ">"; // >
+const XCHAR ShakeVanilla_Window1_Text[] = "Smoothies & Shakes: Vanilla Shake"; // Smoothies & Shakes: Vanilla Shake
+XCHAR ShakeVanilla_EditBox1_Text[69] = "Thick vanilla milkshake with whip\n cream and a cherry ontop!-$3.99"; // Thick vanilla milkshake with whip\n cream and a cherry ontop!-$3.99
+const XCHAR ShakeVanilla_Button1_Text[] = "Add to Order"; // Add to Order
+const XCHAR ShakeVanilla_Button8_Text[] = "Drinks Menu"; // Drinks Menu
+const XCHAR ShakeVanilla_Button3_Text[] = "Main Menu"; // Main Menu
+const XCHAR ShakeVanilla_Button4_Text[] = "Shakes"; // Shakes
+const XCHAR ShakeVanilla_Button5_Text[] = "<"; // <
+const XCHAR ShakeVanilla_Button6_Text[] = ">"; // >
+const XCHAR SoftDrinkList_Window1_Text[] = "Soft Drink Menu"; // Soft Drink Menu
+const XCHAR SoftDrinkList_Button3_Text[] = "Diet Sprite"; // Diet Sprite
+const XCHAR SoftDrinkList_Button4_Text[] = "NEXT --> "; // NEXT --> 
+const XCHAR SoftDrinkList_Button5_Text[] = "Sprite"; // Sprite
+const XCHAR SoftDrinkList_Button6_Text[] = "Diet Coke"; // Diet Coke
+const XCHAR SoftDrinkList_Button7_Text[] = "Rootbeer"; // Rootbeer
+const XCHAR SoftDrinkList_Button8_Text[] = "Main Menu"; // Main Menu
+const XCHAR SoftDrinkList_Button9_Text[] = "Coke"; // Coke
+const XCHAR SoftDrinkList_Button10_Text[] = "Ginger Ale"; // Ginger Ale
+const XCHAR SoftDrinkList_Button12_Text[] = "Food Menu"; // Food Menu
+const XCHAR SoftDrinkList_Button11_Text[] = "Pink Lemonade"; // Pink Lemonade
+const XCHAR SoftDrinkList_Button13_Text[] = "Drinks Menu"; // Drinks Menu
+const XCHAR SoftDrinkList2_Window1_Text[] = "Drinks Menu"; // Drinks Menu
+const XCHAR SoftDrinkList2_Button3_Text[] = "Coffee, Decaf"; // Coffee, Decaf
+const XCHAR SoftDrinkList2_Button4_Text[] = "<-- PREVIOUS "; // <-- PREVIOUS 
+const XCHAR SoftDrinkList2_Button5_Text[] = "Coffee, Regular"; // Coffee, Regular
+const XCHAR SoftDrinkList2_Button7_Text[] = "White Milk"; // White Milk
+const XCHAR SoftDrinkList2_Button8_Text[] = "Main Menu"; // Main Menu
+const XCHAR SoftDrinkList2_Button12_Text[] = "Food Menu"; // Food Menu
+const XCHAR SoftDrinkList2_Button11_Text[] = "Chocolate Milk"; // Chocolate Milk
+const XCHAR SoftDrinkList2_Button13_Text[] = "Drinks Menu"; // Drinks Menu
+const XCHAR SoftDrinkList2_Button14_Text[] = "Water"; // Water
+const XCHAR SoftChocolateMilk_Window1_Text[] = "Drinks: Chocolate Milk"; // Drinks: Chocolate Milk
+XCHAR SoftChocolateMilk_EditBox1_Text[48] = "Chocolate Milk with unlimited \nrefills.-$1.99"; // Chocolate Milk with unlimited \nrefills.-$1.99
+const XCHAR SoftChocolateMilk_Button1_Text[] = "Add to Order"; // Add to Order
+const XCHAR SoftChocolateMilk_Button8_Text[] = "Drinks Menu"; // Drinks Menu
+const XCHAR SoftChocolateMilk_Button3_Text[] = "Main Menu"; // Main Menu
+const XCHAR SoftChocolateMilk_Button4_Text[] = "Soft Drinks"; // Soft Drinks
+const XCHAR SoftChocolateMilk_Button5_Text[] = "<"; // <
+const XCHAR SoftChocolateMilk_Button6_Text[] = ">"; // >
+const XCHAR SoftCoffeeDecaf_Window1_Text[] = "Drinks: Coffee, Decaf"; // Drinks: Coffee, Decaf
+XCHAR SoftCoffeeDecaf_EditBox1_Text[61] = "Fresh decaf coffee, with or without\ncream-just ask. -$1.99"; // Fresh decaf coffee, with or without\ncream-just ask. -$1.99
+const XCHAR SoftCoffeeDecaf_Button1_Text[] = "Add to Order"; // Add to Order
+const XCHAR SoftCoffeeDecaf_Button8_Text[] = "Drinks Menu"; // Drinks Menu
+const XCHAR SoftCoffeeDecaf_Button3_Text[] = "Main Menu"; // Main Menu
+const XCHAR SoftCoffeeDecaf_Button4_Text[] = "Soft Drinks"; // Soft Drinks
+const XCHAR SoftCoffeeDecaf_Button5_Text[] = "<"; // <
+const XCHAR SoftCoffeeDecaf_Button6_Text[] = ">"; // >
+const XCHAR SoftCoffeeRegular_Window1_Text[] = "Drinks: Coffee, Regular"; // Drinks: Coffee, Regular
+XCHAR SoftCoffeeRegular_EditBox1_Text[56] = "Fresh coffee, with or without cream\n-just ask. -$1.99"; // Fresh coffee, with or without cream\n-just ask. -$1.99
+const XCHAR SoftCoffeeRegular_Button1_Text[] = "Add to Order"; // Add to Order
+const XCHAR SoftCoffeeRegular_Button8_Text[] = "Drinks Menu"; // Drinks Menu
+const XCHAR SoftCoffeeRegular_Button3_Text[] = "Main Menu"; // Main Menu
+const XCHAR SoftCoffeeRegular_Button4_Text[] = "Soft Drinks"; // Soft Drinks
+const XCHAR SoftCoffeeRegular_Button5_Text[] = "<"; // <
+const XCHAR SoftCoffeeRegular_Button6_Text[] = ">"; // >
+const XCHAR SoftCoke_Window1_Text[] = "Soft Drinks: Coke"; // Soft Drinks: Coke
+XCHAR SoftCoke_EditBox1_Text[62] = "Try a glass of our fresh Coke!\n Unlimited refills!!! -$1.99"; // Try a glass of our fresh Coke!\n Unlimited refills!!! -$1.99
+const XCHAR SoftCoke_Button1_Text[] = "Add to Order"; // Add to Order
+const XCHAR SoftCoke_Button8_Text[] = "Drinks Menu"; // Drinks Menu
+const XCHAR SoftCoke_Button3_Text[] = "Main Menu"; // Main Menu
+const XCHAR SoftCoke_Button4_Text[] = "Soft Drinks"; // Soft Drinks
+const XCHAR SoftCoke_Button5_Text[] = "<"; // <
+const XCHAR SoftCoke_Button6_Text[] = ">"; // >
+const XCHAR SoftDietCoke_Window1_Text[] = "Soft Drinks: Diet Coke"; // Soft Drinks: Diet Coke
+XCHAR SoftDietCoke_EditBox1_Text[66] = "Try a glass of our fresh Diet Coke!\nUnlimited refills!!! -$1.99"; // Try a glass of our fresh Diet Coke!\nUnlimited refills!!! -$1.99
+const XCHAR SoftDietCoke_Button1_Text[] = "Add to Order"; // Add to Order
+const XCHAR SoftDietCoke_Button8_Text[] = "Drinks Menu"; // Drinks Menu
+const XCHAR SoftDietCoke_Button3_Text[] = "Main Menu"; // Main Menu
+const XCHAR SoftDietCoke_Button4_Text[] = "Soft Drinks"; // Soft Drinks
+const XCHAR SoftDietCoke_Button5_Text[] = "<"; // <
+const XCHAR SoftDietCoke_Button6_Text[] = ">"; // >
+const XCHAR SoftDietSprite_Window1_Text[] = "Soft Drinks: Diet Sprite"; // Soft Drinks: Diet Sprite
+XCHAR SoftDietSprite_EditBox1_Text[89] = "Try a glass of our fresh Diet Sprite! \nCaffeine free and unlimited refills!!!\n-$1.99"; // Try a glass of our fresh Diet Sprite! \nCaffeine free and unlimited refills!!!\n-$1.99
+const XCHAR SoftDietSprite_Button1_Text[] = "Add to Order"; // Add to Order
+const XCHAR SoftDietSprite_Button8_Text[] = "Drinks Menu"; // Drinks Menu
+const XCHAR SoftDietSprite_Button3_Text[] = "Main Menu"; // Main Menu
+const XCHAR SoftDietSprite_Button4_Text[] = "Soft Drinks"; // Soft Drinks
+const XCHAR SoftDietSprite_Button5_Text[] = "<"; // <
+const XCHAR SoftDietSprite_Button6_Text[] = ">"; // >
+const XCHAR SoftGingerale_Window1_Text[] = "Soft Drinks: Gingerale"; // Soft Drinks: Gingerale
+XCHAR SoftGingerale_EditBox1_Text[71] = "Try a glass of our fresh Bald\nEagle Tears!\nUnlimited refills!!!-$1.99"; // Try a glass of our fresh Bald\nEagle Tears!\nUnlimited refills!!!-$1.99
+const XCHAR SoftGingerale_Button1_Text[] = "Add to Order"; // Add to Order
+const XCHAR SoftGingerale_Button8_Text[] = "Drinks Menu"; // Drinks Menu
+const XCHAR SoftGingerale_Button3_Text[] = "Main Menu"; // Main Menu
+const XCHAR SoftGingerale_Button4_Text[] = "Soft Drinks"; // Soft Drinks
+const XCHAR SoftGingerale_Button5_Text[] = "<"; // <
+const XCHAR SoftGingerale_Button6_Text[] = ">"; // >
+const XCHAR SoftLemonade_Window1_Text[] = "Soft Drinks: Pink Lemonade"; // Soft Drinks: Pink Lemonade
+XCHAR SoftLemonade_EditBox1_Text[55] = "Fresh pink lemonade, with a \nsqueeze of lime! -$1.99"; // Fresh pink lemonade, with a \nsqueeze of lime! -$1.99
+const XCHAR SoftLemonade_Button1_Text[] = "Add to Order"; // Add to Order
+const XCHAR SoftLemonade_Button8_Text[] = "Drinks Menu"; // Drinks Menu
+const XCHAR SoftLemonade_Button3_Text[] = "Main Menu"; // Main Menu
+const XCHAR SoftLemonade_Button4_Text[] = "Soft Drinks"; // Soft Drinks
+const XCHAR SoftLemonade_Button5_Text[] = "<"; // <
+const XCHAR SoftLemonade_Button6_Text[] = ">"; // >
+const XCHAR SoftMilk_Window1_Text[] = "Drinks: Milk"; // Drinks: Milk
+XCHAR SoftMilk_EditBox1_Text[45] = "Fresh milk with unlimited refills.\n -$1.99"; // Fresh milk with unlimited refills.\n -$1.99
+const XCHAR SoftMilk_Button1_Text[] = "Add to Order"; // Add to Order
+const XCHAR SoftMilk_Button8_Text[] = "Drinks Menu"; // Drinks Menu
+const XCHAR SoftMilk_Button3_Text[] = "Main Menu"; // Main Menu
+const XCHAR SoftMilk_Button4_Text[] = "Soft Drinks"; // Soft Drinks
+const XCHAR SoftMilk_Button5_Text[] = "<"; // <
+const XCHAR SoftMilk_Button6_Text[] = ">"; // >
+const XCHAR SoftRootbeer_Window1_Text[] = "Soft Drinks: Rootbeer"; // Soft Drinks: Rootbeer
+XCHAR SoftRootbeer_EditBox1_Text[63] = "Try a glass of our Mug Rootbeer!\n Unlimited refills!!!-$1.99"; // Try a glass of our Mug Rootbeer!\n Unlimited refills!!!-$1.99
+const XCHAR SoftRootbeer_Button1_Text[] = "Add to Order"; // Add to Order
+const XCHAR SoftRootbeer_Button8_Text[] = "Food Menu"; // Food Menu
+const XCHAR SoftRootbeer_Button3_Text[] = "Main Menu"; // Main Menu
+const XCHAR SoftRootbeer_Button4_Text[] = "Soft Drinks"; // Soft Drinks
+const XCHAR SoftRootbeer_Button5_Text[] = "<"; // <
+const XCHAR SoftRootbeer_Button6_Text[] = ">"; // >
+const XCHAR SoftSprite_Window1_Text[] = "Soft Drinks: Sprite"; // Soft Drinks: Sprite
+XCHAR SoftSprite_EditBox1_Text[84] = "Try a glass of our fresh Sprite! \nCaffeine free and unlimited refills!!!\n-$1.99"; // Try a glass of our fresh Sprite! \nCaffeine free and unlimited refills!!!\n-$1.99
+const XCHAR SoftSprite_Button1_Text[] = "Add to Order"; // Add to Order
+const XCHAR SoftSprite_Button8_Text[] = "Drinks Menu"; // Drinks Menu
+const XCHAR SoftSprite_Button3_Text[] = "Main Menu"; // Main Menu
+const XCHAR SoftSprite_Button4_Text[] = "Soft Drinks"; // Soft Drinks
+const XCHAR SoftSprite_Button5_Text[] = "<"; // <
+const XCHAR SoftSprite_Button6_Text[] = ">"; // >
+const XCHAR SoftWater_Window1_Text[] = "Drinks: Water"; // Drinks: Water
+XCHAR SoftWater_EditBox1_Text[63] = "Try a glass of our famous water!\nUnlimited refills!!! -$1.99"; // Try a glass of our famous water!\nUnlimited refills!!! -$1.99
+const XCHAR SoftWater_Button1_Text[] = "Add to Order"; // Add to Order
+const XCHAR SoftWater_Button8_Text[] = "Drinks Menu"; // Drinks Menu
+const XCHAR SoftWater_Button3_Text[] = "Main Menu"; // Main Menu
+const XCHAR SoftWater_Button4_Text[] = "Soft Drinks"; // Soft Drinks
+const XCHAR SoftWater_Button5_Text[] = "<"; // <
+const XCHAR SoftWater_Button6_Text[] = ">"; // >
+const XCHAR ScreenOff_StaticText1_Text[] = "ScreenOff"; // ScreenOff
+const XCHAR NumGuests_Button1_Text[] = "1"; // 1
+const XCHAR NumGuests_Button2_Text[] = "2"; // 2
+const XCHAR NumGuests_Button3_Text[] = "3"; // 3
+const XCHAR NumGuests_Button4_Text[] = "4"; // 4
+const XCHAR NumGuests_Button5_Text[] = "5"; // 5
+const XCHAR NumGuests_Button6_Text[] = "6"; // 6
+const XCHAR NumGuests_Button7_Text[] = "7"; // 7
+const XCHAR NumGuests_Button8_Text[] = "8"; // 8
+const XCHAR NumGuests_Button9_Text[] = "9"; // 9
+const XCHAR NumGuests_Button10_Text[] = "<--"; // <--
+const XCHAR NumGuests_Button11_Text[] = "Enter"; // Enter
+const XCHAR NumGuests_Button12_Text[] = "0"; // 0
+const XCHAR NumGuests_StaticText1_Text[] = "Please enter the number of guests"; // Please enter the number of guests
+XCHAR NumGuests_EditBox1_Text[17] = ""; // 
+const XCHAR NumGuestsConfirm_Button11_Text[] = "Go Back"; // Go Back
+const XCHAR NumGuestsConfirm_Button2_Text[] = "Submit"; // Submit
+XCHAR NumGuestsConfirm_EditBox1_Text[17] = ""; // 
+const XCHAR NumGuestsConfirm_StaticText1_Text[] = "Confirm correct number of guests"; // Confirm correct number of guests
 
     void CreateScheme_ButtonTx(void) {
     if(GOLScheme_ButtonTx != NULL) free(GOLScheme_ButtonTx);
@@ -726,7 +990,7 @@ const XCHAR SidesSlaw_Button6_Text[] = ">"; // >
     GOLScheme_ButtonTx->EmbossLtColor = 1048; //Color [R=0, G=128, B=192]
     GOLScheme_ButtonTx->TextColor0 = 65535; //Color [R=255, G=255, B=255]
     GOLScheme_ButtonTx->TextColor1 = 0; //Color [R=0, G=0, B=0]
-    GOLScheme_ButtonTx->pFont = (void*)&MicrosoftSansSerifRegular11; //
+    GOLScheme_ButtonTx->pFont = (void*)&MicrosoftSansSerifRegular14; //
     }
 
     void CreateScheme_WinSch(void) {
@@ -740,7 +1004,7 @@ const XCHAR SidesSlaw_Button6_Text[] = ">"; // >
     GOLScheme_WinSch->EmbossLtColor = 33808; //Color [R=128, G=128, B=128]
     GOLScheme_WinSch->TextColor0 = 65535; //Color [R=255, G=255, B=255]
     GOLScheme_WinSch->TextColor1 = 0; //Color [R=0, G=0, B=0]
-    GOLScheme_WinSch->pFont = (void*)&HobbitonBrushhandRegular20; //
+    GOLScheme_WinSch->pFont = (void*)&HobbitonBrushhandRegular26; //
     }
 
     void CreateScheme_DescText(void) {
@@ -754,7 +1018,7 @@ const XCHAR SidesSlaw_Button6_Text[] = ">"; // >
     GOLScheme_DescText->EmbossLtColor = 0; //Color [R=0, G=0, B=0]
     GOLScheme_DescText->TextColor0 = 65535; //Color [R=255, G=255, B=255]
     GOLScheme_DescText->TextColor1 = 0; //Color [R=0, G=0, B=0]
-    GOLScheme_DescText->pFont = (void*)&MicrosoftSansSerifRegular11; //
+    GOLScheme_DescText->pFont = (void*)&MicrosoftSansSerifRegular14; //
     }
 
     void CreateScheme_MainName(void) {
@@ -768,7 +1032,7 @@ const XCHAR SidesSlaw_Button6_Text[] = ">"; // >
     GOLScheme_MainName->EmbossLtColor = 0; //Color [R=0, G=0, B=0]
     GOLScheme_MainName->TextColor0 = 65535; //Color [R=255, G=255, B=255]
     GOLScheme_MainName->TextColor1 = 0; //Color [R=0, G=0, B=0]
-    GOLScheme_MainName->pFont = (void*)&HobbitonBrushhandRegular20; //
+    GOLScheme_MainName->pFont = (void*)&HobbitonBrushhandRegular26; //
     }
 
     void CreateMainMenu(void) {
@@ -783,19 +1047,19 @@ const XCHAR SidesSlaw_Button6_Text[] = ">"; // >
     CreateScheme_DescText();
     CreateScheme_MainName();
 PICTURE *pMainMenu_Picture1;
-    pMainMenu_Picture1 = PictCreate(ID_MainMenu_Picture1,90,5,478,269,PICT_DRAW,1,(void *)&endofuni,GOLScheme_ButtonTx);
+    pMainMenu_Picture1 = PictCreate(ID_MainMenu_Picture1,212,20,479,240,PICT_DRAW,1,(void *)&bmpendofuni,GOLScheme_ButtonTx);
 BUTTON *pMainMenu_Button1;
-    pMainMenu_Button1 = BtnCreate(ID_MainMenu_Button1,189,221,287,258,1,BTN_DRAW,NULL,(XCHAR*)MainMenu_Button1_Text,GOLScheme_ButtonTx);
+    pMainMenu_Button1 = BtnCreate(ID_MainMenu_Button1,306,218,404,255,1,BTN_DRAW,NULL,(XCHAR*)MainMenu_Button1_Text,GOLScheme_ButtonTx);
 BUTTON *pMainMenu_Button2;
-    pMainMenu_Button2 = BtnCreate(ID_MainMenu_Button2,85,221,183,258,1,BTN_DRAW,NULL,(XCHAR*)MainMenu_Button2_Text,GOLScheme_ButtonTx);
+    pMainMenu_Button2 = BtnCreate(ID_MainMenu_Button2,76,218,174,255,1,BTN_DRAW,NULL,(XCHAR*)MainMenu_Button2_Text,GOLScheme_ButtonTx);
 EDITBOX *pMainMenu_EditBox1;
-    pMainMenu_EditBox1 = EbCreate(ID_MainMenu_EditBox1,118,100,352,182,EB_DRAW,(XCHAR*)MainMenu_EditBox1_Text,250,GOLScheme_DescText);
+    pMainMenu_EditBox1 = EbCreate(ID_MainMenu_EditBox1,76,100,310,182,EB_DRAW,(XCHAR*)MainMenu_EditBox1_Text,106,GOLScheme_DescText);
 BUTTON *pMainMenu_Button3;
-    pMainMenu_Button3 = BtnCreate(ID_MainMenu_Button3,297,221,395,258,1,BTN_DRAW,NULL,(XCHAR*)MainMenu_Button3_Text,GOLScheme_ButtonTx);
+    pMainMenu_Button3 = BtnCreate(ID_MainMenu_Button3,191,218,289,255,1,BTN_DRAW,NULL,(XCHAR*)MainMenu_Button3_Text,GOLScheme_ButtonTx);
 STATICTEXT *pMainMenu_StaticText1;
     pMainMenu_StaticText1 = StCreate(ID_MainMenu_StaticText1,405,0,479,23,ST_DRAW,(XCHAR*)MainMenu_StaticText1_Text,GOLScheme_ButtonTx);
 EDITBOX *pMainMenu_EditBox2;
-    pMainMenu_EditBox2 = EbCreate(ID_MainMenu_EditBox2,109,12,369,58,EB_DRAW,(XCHAR*)MainMenu_EditBox2_Text,100,GOLScheme_MainName);
+    pMainMenu_EditBox2 = EbCreate(ID_MainMenu_EditBox2,109,12,369,58,EB_DRAW,(XCHAR*)MainMenu_EditBox2_Text,21,GOLScheme_MainName);
 STATICTEXT *pMainMenu_StaticText2;
     pMainMenu_StaticText2 = StCreate(ID_MainMenu_StaticText2,102,58,383,81,ST_DRAW,(XCHAR*)MainMenu_StaticText2_Text,GOLScheme_DescText);
 } // End of CreateMainMenu
@@ -829,7 +1093,7 @@ BUTTON *pFoodMenu_Button6;
 BUTTON *pFoodMenu_Button7;
     pFoodMenu_Button7 = BtnCreate(ID_FoodMenu_Button7,335,115,443,138,1,BTN_DRAW,NULL,(XCHAR*)FoodMenu_Button7_Text,GOLScheme_ButtonTx);
 BUTTON *pFoodMenu_Button8;
-    pFoodMenu_Button8 = BtnCreate(ID_FoodMenu_Button8,189,221,287,258,1,BTN_DRAW,NULL,(XCHAR*)FoodMenu_Button8_Text,GOLScheme_ButtonTx);
+    pFoodMenu_Button8 = BtnCreate(ID_FoodMenu_Button8,191,218,289,255,1,BTN_DRAW,NULL,(XCHAR*)FoodMenu_Button8_Text,GOLScheme_ButtonTx);
 BUTTON *pFoodMenu_Button9;
     pFoodMenu_Button9 = BtnCreate(ID_FoodMenu_Button9,335,158,443,181,1,BTN_DRAW,NULL,(XCHAR*)FoodMenu_Button9_Text,GOLScheme_ButtonTx);
 } // End of CreateFoodMenu
@@ -929,9 +1193,9 @@ BUTTON *pSoupList_Button12;
 WINDOW *pSoupChickenNoodle_Window1;
     pSoupChickenNoodle_Window1 = WndCreate(ID_SoupChickenNoodle_Window1,0,0,480,42,WND_DRAW|WND_TITLECENTER,NULL,(XCHAR*)SoupChickenNoodle_Window1_Text,GOLScheme_WinSch);
 PICTURE *pSoupChickenNoodle_Picture1;
-    pSoupChickenNoodle_Picture1 = PictCreate(ID_SoupChickenNoodle_Picture1,353,64,463,174,PICT_DRAW,1,(void *)&ChickenS,GOLScheme_ButtonTx);
+    pSoupChickenNoodle_Picture1 = PictCreate(ID_SoupChickenNoodle_Picture1,353,64,463,174,PICT_DRAW,1,(void *)&bmpChickenS,GOLScheme_ButtonTx);
 EDITBOX *pSoupChickenNoodle_EditBox1;
-    pSoupChickenNoodle_EditBox1 = EbCreate(ID_SoupChickenNoodle_EditBox1,17,64,262,194,EB_DRAW,(XCHAR*)SoupChickenNoodle_EditBox1_Text,250,GOLScheme_DescText);
+    pSoupChickenNoodle_EditBox1 = EbCreate(ID_SoupChickenNoodle_EditBox1,17,64,262,194,EB_DRAW,(XCHAR*)SoupChickenNoodle_EditBox1_Text,87,GOLScheme_DescText);
 BUTTON *pSoupChickenNoodle_Button1;
     pSoupChickenNoodle_Button1 = BtnCreate(ID_SoupChickenNoodle_Button1,365,183,463,208,1,BTN_DRAW,NULL,(XCHAR*)SoupChickenNoodle_Button1_Text,GOLScheme_ButtonTx);
 BUTTON *pSoupChickenNoodle_Button8;
@@ -961,9 +1225,9 @@ BUTTON *pSoupChickenNoodle_Button6;
 WINDOW *pSoupJambalaya_Window1;
     pSoupJambalaya_Window1 = WndCreate(ID_SoupJambalaya_Window1,0,0,480,42,WND_DRAW|WND_TITLECENTER,NULL,(XCHAR*)SoupJambalaya_Window1_Text,GOLScheme_WinSch);
 PICTURE *pSoupJambalaya_Picture1;
-    pSoupJambalaya_Picture1 = PictCreate(ID_SoupJambalaya_Picture1,353,64,463,174,PICT_DRAW,1,(void *)&jambalay,GOLScheme_ButtonTx);
+    pSoupJambalaya_Picture1 = PictCreate(ID_SoupJambalaya_Picture1,353,64,463,174,PICT_DRAW,1,(void *)&bmpjambalay,GOLScheme_ButtonTx);
 EDITBOX *pSoupJambalaya_EditBox1;
-    pSoupJambalaya_EditBox1 = EbCreate(ID_SoupJambalaya_EditBox1,17,64,262,194,EB_DRAW,(XCHAR*)SoupJambalaya_EditBox1_Text,250,GOLScheme_DescText);
+    pSoupJambalaya_EditBox1 = EbCreate(ID_SoupJambalaya_EditBox1,17,64,262,194,EB_DRAW,(XCHAR*)SoupJambalaya_EditBox1_Text,93,GOLScheme_DescText);
 BUTTON *pSoupJambalaya_Button1;
     pSoupJambalaya_Button1 = BtnCreate(ID_SoupJambalaya_Button1,365,183,463,208,1,BTN_DRAW,NULL,(XCHAR*)SoupJambalaya_Button1_Text,GOLScheme_ButtonTx);
 BUTTON *pSoupJambalaya_Button8;
@@ -993,9 +1257,9 @@ BUTTON *pSoupJambalaya_Button6;
 WINDOW *pSoupSpicyVegetable_Window1;
     pSoupSpicyVegetable_Window1 = WndCreate(ID_SoupSpicyVegetable_Window1,0,0,480,42,WND_DRAW|WND_TITLECENTER,NULL,(XCHAR*)SoupSpicyVegetable_Window1_Text,GOLScheme_WinSch);
 PICTURE *pSoupSpicyVegetable_Picture1;
-    pSoupSpicyVegetable_Picture1 = PictCreate(ID_SoupSpicyVegetable_Picture1,353,64,463,174,PICT_DRAW,1,(void *)&jambalay,GOLScheme_ButtonTx);
+    pSoupSpicyVegetable_Picture1 = PictCreate(ID_SoupSpicyVegetable_Picture1,353,64,463,174,PICT_DRAW,1,(void *)&bmpjambalay,GOLScheme_ButtonTx);
 EDITBOX *pSoupSpicyVegetable_EditBox1;
-    pSoupSpicyVegetable_EditBox1 = EbCreate(ID_SoupSpicyVegetable_EditBox1,17,64,262,194,EB_DRAW,(XCHAR*)SoupSpicyVegetable_EditBox1_Text,250,GOLScheme_DescText);
+    pSoupSpicyVegetable_EditBox1 = EbCreate(ID_SoupSpicyVegetable_EditBox1,17,64,262,194,EB_DRAW,(XCHAR*)SoupSpicyVegetable_EditBox1_Text,103,GOLScheme_DescText);
 BUTTON *pSoupSpicyVegetable_Button1;
     pSoupSpicyVegetable_Button1 = BtnCreate(ID_SoupSpicyVegetable_Button1,365,183,463,208,1,BTN_DRAW,NULL,(XCHAR*)SoupSpicyVegetable_Button1_Text,GOLScheme_ButtonTx);
 BUTTON *pSoupSpicyVegetable_Button8;
@@ -1025,9 +1289,9 @@ BUTTON *pSoupSpicyVegetable_Button6;
 WINDOW *pSoupsCheesyBroccoli_Window1;
     pSoupsCheesyBroccoli_Window1 = WndCreate(ID_SoupsCheesyBroccoli_Window1,0,0,480,42,WND_DRAW|WND_TITLECENTER,NULL,(XCHAR*)SoupsCheesyBroccoli_Window1_Text,GOLScheme_WinSch);
 PICTURE *pSoupsCheesyBroccoli_Picture1;
-    pSoupsCheesyBroccoli_Picture1 = PictCreate(ID_SoupsCheesyBroccoli_Picture1,353,64,463,174,PICT_DRAW,1,(void *)&broccoli,GOLScheme_ButtonTx);
+    pSoupsCheesyBroccoli_Picture1 = PictCreate(ID_SoupsCheesyBroccoli_Picture1,353,64,463,174,PICT_DRAW,1,(void *)&bmpbroccoli,GOLScheme_ButtonTx);
 EDITBOX *pSoupsCheesyBroccoli_EditBox1;
-    pSoupsCheesyBroccoli_EditBox1 = EbCreate(ID_SoupsCheesyBroccoli_EditBox1,17,64,262,194,EB_DRAW,(XCHAR*)SoupsCheesyBroccoli_EditBox1_Text,250,GOLScheme_DescText);
+    pSoupsCheesyBroccoli_EditBox1 = EbCreate(ID_SoupsCheesyBroccoli_EditBox1,17,64,262,194,EB_DRAW,(XCHAR*)SoupsCheesyBroccoli_EditBox1_Text,64,GOLScheme_DescText);
 BUTTON *pSoupsCheesyBroccoli_Button1;
     pSoupsCheesyBroccoli_Button1 = BtnCreate(ID_SoupsCheesyBroccoli_Button1,365,183,463,208,1,BTN_DRAW,NULL,(XCHAR*)SoupsCheesyBroccoli_Button1_Text,GOLScheme_ButtonTx);
 BUTTON *pSoupsCheesyBroccoli_Button8;
@@ -1057,9 +1321,9 @@ BUTTON *pSoupsCheesyBroccoli_Button6;
 WINDOW *pSoupCreamyTomato_Window1;
     pSoupCreamyTomato_Window1 = WndCreate(ID_SoupCreamyTomato_Window1,0,0,480,42,WND_DRAW|WND_TITLECENTER,NULL,(XCHAR*)SoupCreamyTomato_Window1_Text,GOLScheme_WinSch);
 PICTURE *pSoupCreamyTomato_Picture1;
-    pSoupCreamyTomato_Picture1 = PictCreate(ID_SoupCreamyTomato_Picture1,353,64,463,174,PICT_DRAW,1,(void *)&steaksal,GOLScheme_ButtonTx);
+    pSoupCreamyTomato_Picture1 = PictCreate(ID_SoupCreamyTomato_Picture1,353,64,463,174,PICT_DRAW,1,(void *)&bmpsteaksal,GOLScheme_ButtonTx);
 EDITBOX *pSoupCreamyTomato_EditBox1;
-    pSoupCreamyTomato_EditBox1 = EbCreate(ID_SoupCreamyTomato_EditBox1,17,64,262,194,EB_DRAW,(XCHAR*)SoupCreamyTomato_EditBox1_Text,250,GOLScheme_DescText);
+    pSoupCreamyTomato_EditBox1 = EbCreate(ID_SoupCreamyTomato_EditBox1,17,64,262,194,EB_DRAW,(XCHAR*)SoupCreamyTomato_EditBox1_Text,86,GOLScheme_DescText);
 BUTTON *pSoupCreamyTomato_Button1;
     pSoupCreamyTomato_Button1 = BtnCreate(ID_SoupCreamyTomato_Button1,365,183,463,208,1,BTN_DRAW,NULL,(XCHAR*)SoupCreamyTomato_Button1_Text,GOLScheme_ButtonTx);
 BUTTON *pSoupCreamyTomato_Button8;
@@ -1089,9 +1353,9 @@ BUTTON *pSoupCreamyTomato_Button6;
 WINDOW *pSoupBean_Window1;
     pSoupBean_Window1 = WndCreate(ID_SoupBean_Window1,0,0,480,42,WND_DRAW|WND_TITLECENTER,NULL,(XCHAR*)SoupBean_Window1_Text,GOLScheme_WinSch);
 PICTURE *pSoupBean_Picture1;
-    pSoupBean_Picture1 = PictCreate(ID_SoupBean_Picture1,353,64,463,174,PICT_DRAW,1,(void *)&HamandBe,GOLScheme_ButtonTx);
+    pSoupBean_Picture1 = PictCreate(ID_SoupBean_Picture1,353,64,463,174,PICT_DRAW,1,(void *)&bmpHamandBe,GOLScheme_ButtonTx);
 EDITBOX *pSoupBean_EditBox1;
-    pSoupBean_EditBox1 = EbCreate(ID_SoupBean_EditBox1,17,64,262,194,EB_DRAW,(XCHAR*)SoupBean_EditBox1_Text,250,GOLScheme_DescText);
+    pSoupBean_EditBox1 = EbCreate(ID_SoupBean_EditBox1,17,64,262,194,EB_DRAW,(XCHAR*)SoupBean_EditBox1_Text,146,GOLScheme_DescText);
 BUTTON *pSoupBean_Button1;
     pSoupBean_Button1 = BtnCreate(ID_SoupBean_Button1,365,183,463,208,1,BTN_DRAW,NULL,(XCHAR*)SoupBean_Button1_Text,GOLScheme_ButtonTx);
 BUTTON *pSoupBean_Button8;
@@ -1121,9 +1385,9 @@ BUTTON *pSoupBean_Button6;
 WINDOW *pSoupItalianWedding_Window1;
     pSoupItalianWedding_Window1 = WndCreate(ID_SoupItalianWedding_Window1,0,0,480,42,WND_DRAW|WND_TITLECENTER,NULL,(XCHAR*)SoupItalianWedding_Window1_Text,GOLScheme_WinSch);
 PICTURE *pSoupItalianWedding_Picture1;
-    pSoupItalianWedding_Picture1 = PictCreate(ID_SoupItalianWedding_Picture1,353,64,463,174,PICT_DRAW,1,(void *)&ItalianS,GOLScheme_ButtonTx);
+    pSoupItalianWedding_Picture1 = PictCreate(ID_SoupItalianWedding_Picture1,353,64,463,174,PICT_DRAW,1,(void *)&bmpItalianS,GOLScheme_ButtonTx);
 EDITBOX *pSoupItalianWedding_EditBox1;
-    pSoupItalianWedding_EditBox1 = EbCreate(ID_SoupItalianWedding_EditBox1,17,64,262,194,EB_DRAW,(XCHAR*)SoupItalianWedding_EditBox1_Text,250,GOLScheme_DescText);
+    pSoupItalianWedding_EditBox1 = EbCreate(ID_SoupItalianWedding_EditBox1,17,64,262,194,EB_DRAW,(XCHAR*)SoupItalianWedding_EditBox1_Text,62,GOLScheme_DescText);
 BUTTON *pSoupItalianWedding_Button1;
     pSoupItalianWedding_Button1 = BtnCreate(ID_SoupItalianWedding_Button1,365,183,463,208,1,BTN_DRAW,NULL,(XCHAR*)SoupItalianWedding_Button1_Text,GOLScheme_ButtonTx);
 BUTTON *pSoupItalianWedding_Button8;
@@ -1153,9 +1417,9 @@ BUTTON *pSoupItalianWedding_Button6;
 WINDOW *pGumboSoup_Window1;
     pGumboSoup_Window1 = WndCreate(ID_GumboSoup_Window1,0,0,480,42,WND_DRAW|WND_TITLECENTER,NULL,(XCHAR*)GumboSoup_Window1_Text,GOLScheme_WinSch);
 PICTURE *pGumboSoup_Picture1;
-    pGumboSoup_Picture1 = PictCreate(ID_GumboSoup_Picture1,353,64,463,174,PICT_DRAW,1,(void *)&gumbol,GOLScheme_ButtonTx);
+    pGumboSoup_Picture1 = PictCreate(ID_GumboSoup_Picture1,353,64,463,174,PICT_DRAW,1,(void *)&bmpgumbol,GOLScheme_ButtonTx);
 EDITBOX *pGumboSoup_EditBox1;
-    pGumboSoup_EditBox1 = EbCreate(ID_GumboSoup_EditBox1,17,64,262,194,EB_DRAW,(XCHAR*)GumboSoup_EditBox1_Text,250,GOLScheme_DescText);
+    pGumboSoup_EditBox1 = EbCreate(ID_GumboSoup_EditBox1,17,64,262,194,EB_DRAW,(XCHAR*)GumboSoup_EditBox1_Text,82,GOLScheme_DescText);
 BUTTON *pGumboSoup_Button1;
     pGumboSoup_Button1 = BtnCreate(ID_GumboSoup_Button1,365,183,463,208,1,BTN_DRAW,NULL,(XCHAR*)GumboSoup_Button1_Text,GOLScheme_ButtonTx);
 BUTTON *pGumboSoup_Button8;
@@ -1185,9 +1449,9 @@ BUTTON *pGumboSoup_Button6;
 WINDOW *pSoupFish_Window1;
     pSoupFish_Window1 = WndCreate(ID_SoupFish_Window1,0,0,480,42,WND_DRAW|WND_TITLECENTER,NULL,(XCHAR*)SoupFish_Window1_Text,GOLScheme_WinSch);
 PICTURE *pSoupFish_Picture1;
-    pSoupFish_Picture1 = PictCreate(ID_SoupFish_Picture1,353,64,463,174,PICT_DRAW,1,(void *)&Fishsoup,GOLScheme_ButtonTx);
+    pSoupFish_Picture1 = PictCreate(ID_SoupFish_Picture1,353,64,463,174,PICT_DRAW,1,(void *)&bmpFishsoup,GOLScheme_ButtonTx);
 EDITBOX *pSoupFish_EditBox1;
-    pSoupFish_EditBox1 = EbCreate(ID_SoupFish_EditBox1,17,64,262,194,EB_DRAW,(XCHAR*)SoupFish_EditBox1_Text,250,GOLScheme_DescText);
+    pSoupFish_EditBox1 = EbCreate(ID_SoupFish_EditBox1,17,64,262,194,EB_DRAW,(XCHAR*)SoupFish_EditBox1_Text,103,GOLScheme_DescText);
 BUTTON *pSoupFish_Button1;
     pSoupFish_Button1 = BtnCreate(ID_SoupFish_Button1,365,183,463,208,1,BTN_DRAW,NULL,(XCHAR*)SoupFish_Button1_Text,GOLScheme_ButtonTx);
 BUTTON *pSoupFish_Button8;
@@ -1217,9 +1481,9 @@ BUTTON *pSoupFish_Button6;
 WINDOW *pSoupCreamyMushroom_Window1;
     pSoupCreamyMushroom_Window1 = WndCreate(ID_SoupCreamyMushroom_Window1,0,0,480,42,WND_DRAW|WND_TITLECENTER,NULL,(XCHAR*)SoupCreamyMushroom_Window1_Text,GOLScheme_WinSch);
 PICTURE *pSoupCreamyMushroom_Picture1;
-    pSoupCreamyMushroom_Picture1 = PictCreate(ID_SoupCreamyMushroom_Picture1,353,64,463,174,PICT_DRAW,1,(void *)&misomush,GOLScheme_ButtonTx);
+    pSoupCreamyMushroom_Picture1 = PictCreate(ID_SoupCreamyMushroom_Picture1,353,64,463,174,PICT_DRAW,1,(void *)&bmpmisomush,GOLScheme_ButtonTx);
 EDITBOX *pSoupCreamyMushroom_EditBox1;
-    pSoupCreamyMushroom_EditBox1 = EbCreate(ID_SoupCreamyMushroom_EditBox1,18,69,263,202,EB_DRAW,(XCHAR*)SoupCreamyMushroom_EditBox1_Text,250,GOLScheme_DescText);
+    pSoupCreamyMushroom_EditBox1 = EbCreate(ID_SoupCreamyMushroom_EditBox1,17,64,262,194,EB_DRAW,(XCHAR*)SoupCreamyMushroom_EditBox1_Text,97,GOLScheme_DescText);
 BUTTON *pSoupCreamyMushroom_Button1;
     pSoupCreamyMushroom_Button1 = BtnCreate(ID_SoupCreamyMushroom_Button1,365,183,463,208,1,BTN_DRAW,NULL,(XCHAR*)SoupCreamyMushroom_Button1_Text,GOLScheme_ButtonTx);
 BUTTON *pSoupCreamyMushroom_Button8;
@@ -1323,9 +1587,9 @@ BUTTON *pSandwichesList2_Button4;
 WINDOW *pAppetFriedPickles_Window1;
     pAppetFriedPickles_Window1 = WndCreate(ID_AppetFriedPickles_Window1,0,0,480,42,WND_DRAW|WND_TITLECENTER,NULL,(XCHAR*)AppetFriedPickles_Window1_Text,GOLScheme_WinSch);
 PICTURE *pAppetFriedPickles_Picture1;
-    pAppetFriedPickles_Picture1 = PictCreate(ID_AppetFriedPickles_Picture1,353,64,463,174,PICT_DRAW,1,(void *)&friedpic,GOLScheme_ButtonTx);
+    pAppetFriedPickles_Picture1 = PictCreate(ID_AppetFriedPickles_Picture1,353,64,463,174,PICT_DRAW,1,(void *)&bmpfriedpic,GOLScheme_ButtonTx);
 EDITBOX *pAppetFriedPickles_EditBox1;
-    pAppetFriedPickles_EditBox1 = EbCreate(ID_AppetFriedPickles_EditBox1,17,64,262,194,EB_DRAW,(XCHAR*)AppetFriedPickles_EditBox1_Text,250,GOLScheme_DescText);
+    pAppetFriedPickles_EditBox1 = EbCreate(ID_AppetFriedPickles_EditBox1,17,64,262,194,EB_DRAW,(XCHAR*)AppetFriedPickles_EditBox1_Text,141,GOLScheme_DescText);
 BUTTON *pAppetFriedPickles_Button1;
     pAppetFriedPickles_Button1 = BtnCreate(ID_AppetFriedPickles_Button1,365,183,463,208,1,BTN_DRAW,NULL,(XCHAR*)AppetFriedPickles_Button1_Text,GOLScheme_ButtonTx);
 BUTTON *pAppetFriedPickles_Button8;
@@ -1355,9 +1619,9 @@ BUTTON *pAppetFriedPickles_Button6;
 WINDOW *pAppetCheeseStick_Window1;
     pAppetCheeseStick_Window1 = WndCreate(ID_AppetCheeseStick_Window1,0,0,480,42,WND_DRAW|WND_TITLECENTER,NULL,(XCHAR*)AppetCheeseStick_Window1_Text,GOLScheme_WinSch);
 PICTURE *pAppetCheeseStick_AppetCheeseSticks;
-    pAppetCheeseStick_AppetCheeseSticks = PictCreate(ID_AppetCheeseStick_AppetCheeseSticks,353,64,463,174,PICT_DRAW,1,(void *)&cheesest,GOLScheme_ButtonTx);
+    pAppetCheeseStick_AppetCheeseSticks = PictCreate(ID_AppetCheeseStick_AppetCheeseSticks,353,64,463,174,PICT_DRAW,1,(void *)&bmpcheesest,GOLScheme_ButtonTx);
 EDITBOX *pAppetCheeseStick_EditBox1;
-    pAppetCheeseStick_EditBox1 = EbCreate(ID_AppetCheeseStick_EditBox1,21,59,266,192,EB_DRAW,(XCHAR*)AppetCheeseStick_EditBox1_Text,250,GOLScheme_DescText);
+    pAppetCheeseStick_EditBox1 = EbCreate(ID_AppetCheeseStick_EditBox1,21,59,266,192,EB_DRAW,(XCHAR*)AppetCheeseStick_EditBox1_Text,167,GOLScheme_DescText);
 BUTTON *pAppetCheeseStick_Button1;
     pAppetCheeseStick_Button1 = BtnCreate(ID_AppetCheeseStick_Button1,365,183,463,208,1,BTN_DRAW,NULL,(XCHAR*)AppetCheeseStick_Button1_Text,GOLScheme_ButtonTx);
 BUTTON *pAppetCheeseStick_Button8;
@@ -1387,9 +1651,9 @@ BUTTON *pAppetCheeseStick_Button6;
 WINDOW *pAppetChiliFrie_Window1;
     pAppetChiliFrie_Window1 = WndCreate(ID_AppetChiliFrie_Window1,0,0,480,42,WND_DRAW|WND_TITLECENTER,NULL,(XCHAR*)AppetChiliFrie_Window1_Text,GOLScheme_WinSch);
 PICTURE *pAppetChiliFrie_AppetChiliFries;
-    pAppetChiliFrie_AppetChiliFries = PictCreate(ID_AppetChiliFrie_AppetChiliFries,353,64,463,174,PICT_DRAW,1,(void *)&chiliche,GOLScheme_ButtonTx);
+    pAppetChiliFrie_AppetChiliFries = PictCreate(ID_AppetChiliFrie_AppetChiliFries,353,64,463,174,PICT_DRAW,1,(void *)&bmpchiliche,GOLScheme_ButtonTx);
 EDITBOX *pAppetChiliFrie_EditBox1;
-    pAppetChiliFrie_EditBox1 = EbCreate(ID_AppetChiliFrie_EditBox1,17,64,262,194,EB_DRAW,(XCHAR*)AppetChiliFrie_EditBox1_Text,250,GOLScheme_DescText);
+    pAppetChiliFrie_EditBox1 = EbCreate(ID_AppetChiliFrie_EditBox1,17,64,262,194,EB_DRAW,(XCHAR*)AppetChiliFrie_EditBox1_Text,156,GOLScheme_DescText);
 BUTTON *pAppetChiliFrie_Button1;
     pAppetChiliFrie_Button1 = BtnCreate(ID_AppetChiliFrie_Button1,365,183,463,208,1,BTN_DRAW,NULL,(XCHAR*)AppetChiliFrie_Button1_Text,GOLScheme_ButtonTx);
 BUTTON *pAppetChiliFrie_Button8;
@@ -1419,9 +1683,9 @@ BUTTON *pAppetChiliFrie_Button6;
 WINDOW *pAppetFairFrie_Window1;
     pAppetFairFrie_Window1 = WndCreate(ID_AppetFairFrie_Window1,0,0,480,42,WND_DRAW|WND_TITLECENTER,NULL,(XCHAR*)AppetFairFrie_Window1_Text,GOLScheme_WinSch);
 PICTURE *pAppetFairFrie_AppetFairFries;
-    pAppetFairFrie_AppetFairFries = PictCreate(ID_AppetFairFrie_AppetFairFries,353,64,463,174,PICT_DRAW,1,(void *)&frenchfr,GOLScheme_ButtonTx);
+    pAppetFairFrie_AppetFairFries = PictCreate(ID_AppetFairFrie_AppetFairFries,353,64,463,174,PICT_DRAW,1,(void *)&bmpfrenchfr,GOLScheme_ButtonTx);
 EDITBOX *pAppetFairFrie_EditBox1;
-    pAppetFairFrie_EditBox1 = EbCreate(ID_AppetFairFrie_EditBox1,17,64,262,194,EB_DRAW,(XCHAR*)AppetFairFrie_EditBox1_Text,250,GOLScheme_DescText);
+    pAppetFairFrie_EditBox1 = EbCreate(ID_AppetFairFrie_EditBox1,17,64,262,194,EB_DRAW,(XCHAR*)AppetFairFrie_EditBox1_Text,152,GOLScheme_DescText);
 BUTTON *pAppetFairFrie_Button1;
     pAppetFairFrie_Button1 = BtnCreate(ID_AppetFairFrie_Button1,365,183,463,208,1,BTN_DRAW,NULL,(XCHAR*)AppetFairFrie_Button1_Text,GOLScheme_ButtonTx);
 BUTTON *pAppetFairFrie_Button8;
@@ -1451,9 +1715,9 @@ BUTTON *pAppetFairFrie_Button6;
 WINDOW *pAppetGarlicFairFries_Window1;
     pAppetGarlicFairFries_Window1 = WndCreate(ID_AppetGarlicFairFries_Window1,0,0,480,42,WND_DRAW|WND_TITLECENTER,NULL,(XCHAR*)AppetGarlicFairFries_Window1_Text,GOLScheme_WinSch);
 PICTURE *pAppetGarlicFairFries_Picture1;
-    pAppetGarlicFairFries_Picture1 = PictCreate(ID_AppetGarlicFairFries_Picture1,353,64,463,174,PICT_DRAW,1,(void *)&garlicfr,GOLScheme_ButtonTx);
+    pAppetGarlicFairFries_Picture1 = PictCreate(ID_AppetGarlicFairFries_Picture1,353,64,463,174,PICT_DRAW,1,(void *)&bmpgarlicfr,GOLScheme_ButtonTx);
 EDITBOX *pAppetGarlicFairFries_EditBox1;
-    pAppetGarlicFairFries_EditBox1 = EbCreate(ID_AppetGarlicFairFries_EditBox1,17,64,262,194,EB_DRAW,(XCHAR*)AppetGarlicFairFries_EditBox1_Text,250,GOLScheme_DescText);
+    pAppetGarlicFairFries_EditBox1 = EbCreate(ID_AppetGarlicFairFries_EditBox1,17,64,262,194,EB_DRAW,(XCHAR*)AppetGarlicFairFries_EditBox1_Text,132,GOLScheme_DescText);
 BUTTON *pAppetGarlicFairFries_Button1;
     pAppetGarlicFairFries_Button1 = BtnCreate(ID_AppetGarlicFairFries_Button1,365,183,463,208,1,BTN_DRAW,NULL,(XCHAR*)AppetGarlicFairFries_Button1_Text,GOLScheme_ButtonTx);
 BUTTON *pAppetGarlicFairFries_Button8;
@@ -1483,9 +1747,9 @@ BUTTON *pAppetGarlicFairFries_Button6;
 WINDOW *pAppetCarrotFries_Window1;
     pAppetCarrotFries_Window1 = WndCreate(ID_AppetCarrotFries_Window1,0,0,480,42,WND_DRAW|WND_TITLECENTER,NULL,(XCHAR*)AppetCarrotFries_Window1_Text,GOLScheme_WinSch);
 PICTURE *pAppetCarrotFries_Picture1;
-    pAppetCarrotFries_Picture1 = PictCreate(ID_AppetCarrotFries_Picture1,353,64,463,174,PICT_DRAW,1,(void *)&carrotfr,GOLScheme_ButtonTx);
+    pAppetCarrotFries_Picture1 = PictCreate(ID_AppetCarrotFries_Picture1,353,64,463,174,PICT_DRAW,1,(void *)&bmpcarrotfr,GOLScheme_ButtonTx);
 EDITBOX *pAppetCarrotFries_EditBox1;
-    pAppetCarrotFries_EditBox1 = EbCreate(ID_AppetCarrotFries_EditBox1,17,64,262,194,EB_DRAW,(XCHAR*)AppetCarrotFries_EditBox1_Text,250,GOLScheme_DescText);
+    pAppetCarrotFries_EditBox1 = EbCreate(ID_AppetCarrotFries_EditBox1,17,64,262,194,EB_DRAW,(XCHAR*)AppetCarrotFries_EditBox1_Text,119,GOLScheme_DescText);
 BUTTON *pAppetCarrotFries_Button1;
     pAppetCarrotFries_Button1 = BtnCreate(ID_AppetCarrotFries_Button1,365,183,463,208,1,BTN_DRAW,NULL,(XCHAR*)AppetCarrotFries_Button1_Text,GOLScheme_ButtonTx);
 BUTTON *pAppetCarrotFries_Button8;
@@ -1515,9 +1779,9 @@ BUTTON *pAppetCarrotFries_Button6;
 WINDOW *pAppetFriedGreenBeans_Window1;
     pAppetFriedGreenBeans_Window1 = WndCreate(ID_AppetFriedGreenBeans_Window1,0,0,480,42,WND_DRAW|WND_TITLECENTER,NULL,(XCHAR*)AppetFriedGreenBeans_Window1_Text,GOLScheme_WinSch);
 PICTURE *pAppetFriedGreenBeans_Picture1;
-    pAppetFriedGreenBeans_Picture1 = PictCreate(ID_AppetFriedGreenBeans_Picture1,353,64,463,174,PICT_DRAW,1,(void *)&friedGre,GOLScheme_ButtonTx);
+    pAppetFriedGreenBeans_Picture1 = PictCreate(ID_AppetFriedGreenBeans_Picture1,353,64,463,174,PICT_DRAW,1,(void *)&bmpfriedGre,GOLScheme_ButtonTx);
 EDITBOX *pAppetFriedGreenBeans_EditBox1;
-    pAppetFriedGreenBeans_EditBox1 = EbCreate(ID_AppetFriedGreenBeans_EditBox1,17,64,262,194,EB_DRAW,(XCHAR*)AppetFriedGreenBeans_EditBox1_Text,250,GOLScheme_DescText);
+    pAppetFriedGreenBeans_EditBox1 = EbCreate(ID_AppetFriedGreenBeans_EditBox1,17,64,262,194,EB_DRAW,(XCHAR*)AppetFriedGreenBeans_EditBox1_Text,124,GOLScheme_DescText);
 BUTTON *pAppetFriedGreenBeans_Button1;
     pAppetFriedGreenBeans_Button1 = BtnCreate(ID_AppetFriedGreenBeans_Button1,365,183,463,208,1,BTN_DRAW,NULL,(XCHAR*)AppetFriedGreenBeans_Button1_Text,GOLScheme_ButtonTx);
 BUTTON *pAppetFriedGreenBeans_Button8;
@@ -1547,9 +1811,9 @@ BUTTON *pAppetFriedGreenBeans_Button6;
 WINDOW *pAppetMexicanNachos_Window1;
     pAppetMexicanNachos_Window1 = WndCreate(ID_AppetMexicanNachos_Window1,0,0,480,42,WND_DRAW|WND_TITLECENTER,NULL,(XCHAR*)AppetMexicanNachos_Window1_Text,GOLScheme_WinSch);
 PICTURE *pAppetMexicanNachos_Picture1;
-    pAppetMexicanNachos_Picture1 = PictCreate(ID_AppetMexicanNachos_Picture1,353,64,463,174,PICT_DRAW,1,(void *)&spicynac,GOLScheme_ButtonTx);
+    pAppetMexicanNachos_Picture1 = PictCreate(ID_AppetMexicanNachos_Picture1,353,64,463,174,PICT_DRAW,1,(void *)&bmpspicynac,GOLScheme_ButtonTx);
 EDITBOX *pAppetMexicanNachos_EditBox1;
-    pAppetMexicanNachos_EditBox1 = EbCreate(ID_AppetMexicanNachos_EditBox1,24,68,269,201,EB_DRAW,(XCHAR*)AppetMexicanNachos_EditBox1_Text,250,GOLScheme_DescText);
+    pAppetMexicanNachos_EditBox1 = EbCreate(ID_AppetMexicanNachos_EditBox1,17,64,262,194,EB_DRAW,(XCHAR*)AppetMexicanNachos_EditBox1_Text,250,GOLScheme_DescText);
 BUTTON *pAppetMexicanNachos_Button1;
     pAppetMexicanNachos_Button1 = BtnCreate(ID_AppetMexicanNachos_Button1,365,183,463,208,1,BTN_DRAW,NULL,(XCHAR*)AppetMexicanNachos_Button1_Text,GOLScheme_ButtonTx);
 BUTTON *pAppetMexicanNachos_Button8;
@@ -1579,9 +1843,9 @@ BUTTON *pAppetMexicanNachos_Button6;
 WINDOW *pAppetSpicyNachos_Window1;
     pAppetSpicyNachos_Window1 = WndCreate(ID_AppetSpicyNachos_Window1,0,0,480,42,WND_DRAW|WND_TITLECENTER,NULL,(XCHAR*)AppetSpicyNachos_Window1_Text,GOLScheme_WinSch);
 PICTURE *pAppetSpicyNachos_Picture1;
-    pAppetSpicyNachos_Picture1 = PictCreate(ID_AppetSpicyNachos_Picture1,353,64,463,174,PICT_DRAW,1,(void *)&spicynac,GOLScheme_ButtonTx);
+    pAppetSpicyNachos_Picture1 = PictCreate(ID_AppetSpicyNachos_Picture1,353,64,463,174,PICT_DRAW,1,(void *)&bmpspicynac,GOLScheme_ButtonTx);
 EDITBOX *pAppetSpicyNachos_EditBox1;
-    pAppetSpicyNachos_EditBox1 = EbCreate(ID_AppetSpicyNachos_EditBox1,25,67,270,200,EB_DRAW,(XCHAR*)AppetSpicyNachos_EditBox1_Text,250,GOLScheme_DescText);
+    pAppetSpicyNachos_EditBox1 = EbCreate(ID_AppetSpicyNachos_EditBox1,17,64,262,194,EB_DRAW,(XCHAR*)AppetSpicyNachos_EditBox1_Text,185,GOLScheme_DescText);
 BUTTON *pAppetSpicyNachos_Button1;
     pAppetSpicyNachos_Button1 = BtnCreate(ID_AppetSpicyNachos_Button1,365,183,463,208,1,BTN_DRAW,NULL,(XCHAR*)AppetSpicyNachos_Button1_Text,GOLScheme_ButtonTx);
 BUTTON *pAppetSpicyNachos_Button8;
@@ -1611,9 +1875,9 @@ BUTTON *pAppetSpicyNachos_Button6;
 WINDOW *pAppetORings_Window1;
     pAppetORings_Window1 = WndCreate(ID_AppetORings_Window1,0,0,480,42,WND_DRAW|WND_TITLECENTER,NULL,(XCHAR*)AppetORings_Window1_Text,GOLScheme_WinSch);
 PICTURE *pAppetORings_Picture1;
-    pAppetORings_Picture1 = PictCreate(ID_AppetORings_Picture1,353,64,463,174,PICT_DRAW,1,(void *)&onirings,GOLScheme_ButtonTx);
+    pAppetORings_Picture1 = PictCreate(ID_AppetORings_Picture1,353,64,463,174,PICT_DRAW,1,(void *)&bmponirings,GOLScheme_ButtonTx);
 EDITBOX *pAppetORings_EditBox1;
-    pAppetORings_EditBox1 = EbCreate(ID_AppetORings_EditBox1,26,65,271,198,EB_DRAW,(XCHAR*)AppetORings_EditBox1_Text,250,GOLScheme_DescText);
+    pAppetORings_EditBox1 = EbCreate(ID_AppetORings_EditBox1,26,65,271,198,EB_DRAW,(XCHAR*)AppetORings_EditBox1_Text,150,GOLScheme_DescText);
 BUTTON *pAppetORings_Button1;
     pAppetORings_Button1 = BtnCreate(ID_AppetORings_Button1,365,183,463,208,1,BTN_DRAW,NULL,(XCHAR*)AppetORings_Button1_Text,GOLScheme_ButtonTx);
 BUTTON *pAppetORings_Button8;
@@ -1643,9 +1907,9 @@ BUTTON *pAppetORings_Button6;
 WINDOW *pSandTurkeyClub_Window1;
     pSandTurkeyClub_Window1 = WndCreate(ID_SandTurkeyClub_Window1,0,0,480,42,WND_DRAW|WND_TITLECENTER,NULL,(XCHAR*)SandTurkeyClub_Window1_Text,GOLScheme_WinSch);
 PICTURE *pSandTurkeyClub_Picture1;
-    pSandTurkeyClub_Picture1 = PictCreate(ID_SandTurkeyClub_Picture1,353,64,463,174,PICT_DRAW,1,(void *)&TurkeyCl,GOLScheme_ButtonTx);
+    pSandTurkeyClub_Picture1 = PictCreate(ID_SandTurkeyClub_Picture1,353,64,463,174,PICT_DRAW,1,(void *)&bmpTurkeyCl,GOLScheme_ButtonTx);
 EDITBOX *pSandTurkeyClub_EditBox1;
-    pSandTurkeyClub_EditBox1 = EbCreate(ID_SandTurkeyClub_EditBox1,17,64,262,194,EB_DRAW,(XCHAR*)SandTurkeyClub_EditBox1_Text,250,GOLScheme_DescText);
+    pSandTurkeyClub_EditBox1 = EbCreate(ID_SandTurkeyClub_EditBox1,17,64,262,194,EB_DRAW,(XCHAR*)SandTurkeyClub_EditBox1_Text,146,GOLScheme_DescText);
 BUTTON *pSandTurkeyClub_Button8;
     pSandTurkeyClub_Button8 = BtnCreate(ID_SandTurkeyClub_Button8,191,218,289,255,1,BTN_DRAW,NULL,(XCHAR*)SandTurkeyClub_Button8_Text,GOLScheme_ButtonTx);
 BUTTON *pSandTurkeyClub_Button3;
@@ -1673,9 +1937,9 @@ BUTTON *pSandTurkeyClub_Button6;
 WINDOW *pSandReuben_Window1;
     pSandReuben_Window1 = WndCreate(ID_SandReuben_Window1,0,0,480,42,WND_DRAW|WND_TITLECENTER,NULL,(XCHAR*)SandReuben_Window1_Text,GOLScheme_WinSch);
 PICTURE *pSandReuben_Picture1;
-    pSandReuben_Picture1 = PictCreate(ID_SandReuben_Picture1,353,64,463,174,PICT_DRAW,1,(void *)&Reuben,GOLScheme_ButtonTx);
+    pSandReuben_Picture1 = PictCreate(ID_SandReuben_Picture1,353,64,463,174,PICT_DRAW,1,(void *)&bmpReuben,GOLScheme_ButtonTx);
 EDITBOX *pSandReuben_EditBox1;
-    pSandReuben_EditBox1 = EbCreate(ID_SandReuben_EditBox1,17,64,262,194,EB_DRAW,(XCHAR*)SandReuben_EditBox1_Text,250,GOLScheme_DescText);
+    pSandReuben_EditBox1 = EbCreate(ID_SandReuben_EditBox1,17,64,262,194,EB_DRAW,(XCHAR*)SandReuben_EditBox1_Text,113,GOLScheme_DescText);
 BUTTON *pSandReuben_Button8;
     pSandReuben_Button8 = BtnCreate(ID_SandReuben_Button8,191,218,289,255,1,BTN_DRAW,NULL,(XCHAR*)SandReuben_Button8_Text,GOLScheme_ButtonTx);
 BUTTON *pSandReuben_Button3;
@@ -1703,9 +1967,9 @@ BUTTON *pSandReuben_Button6;
 WINDOW *pSandVeggieReuben_Window1;
     pSandVeggieReuben_Window1 = WndCreate(ID_SandVeggieReuben_Window1,0,0,480,42,WND_DRAW|WND_TITLECENTER,NULL,(XCHAR*)SandVeggieReuben_Window1_Text,GOLScheme_WinSch);
 PICTURE *pSandVeggieReuben_Picture1;
-    pSandVeggieReuben_Picture1 = PictCreate(ID_SandVeggieReuben_Picture1,353,64,463,174,PICT_DRAW,1,(void *)&veggieRe,GOLScheme_ButtonTx);
+    pSandVeggieReuben_Picture1 = PictCreate(ID_SandVeggieReuben_Picture1,353,64,463,174,PICT_DRAW,1,(void *)&bmpveggieRe,GOLScheme_ButtonTx);
 EDITBOX *pSandVeggieReuben_EditBox1;
-    pSandVeggieReuben_EditBox1 = EbCreate(ID_SandVeggieReuben_EditBox1,17,64,262,194,EB_DRAW,(XCHAR*)SandVeggieReuben_EditBox1_Text,250,GOLScheme_DescText);
+    pSandVeggieReuben_EditBox1 = EbCreate(ID_SandVeggieReuben_EditBox1,17,64,262,194,EB_DRAW,(XCHAR*)SandVeggieReuben_EditBox1_Text,66,GOLScheme_DescText);
 BUTTON *pSandVeggieReuben_Button8;
     pSandVeggieReuben_Button8 = BtnCreate(ID_SandVeggieReuben_Button8,191,218,289,255,1,BTN_DRAW,NULL,(XCHAR*)SandVeggieReuben_Button8_Text,GOLScheme_ButtonTx);
 BUTTON *pSandVeggieReuben_Button3;
@@ -1733,9 +1997,9 @@ BUTTON *pSandVeggieReuben_Button6;
 WINDOW *pSandSmothered_Window1;
     pSandSmothered_Window1 = WndCreate(ID_SandSmothered_Window1,0,0,480,42,WND_DRAW|WND_TITLECENTER,NULL,(XCHAR*)SandSmothered_Window1_Text,GOLScheme_WinSch);
 PICTURE *pSandSmothered_Picture1;
-    pSandSmothered_Picture1 = PictCreate(ID_SandSmothered_Picture1,353,64,463,174,PICT_DRAW,1,(void *)&smothere,GOLScheme_ButtonTx);
+    pSandSmothered_Picture1 = PictCreate(ID_SandSmothered_Picture1,353,64,463,174,PICT_DRAW,1,(void *)&bmpsmothere,GOLScheme_ButtonTx);
 EDITBOX *pSandSmothered_EditBox1;
-    pSandSmothered_EditBox1 = EbCreate(ID_SandSmothered_EditBox1,17,64,262,194,EB_DRAW,(XCHAR*)SandSmothered_EditBox1_Text,250,GOLScheme_DescText);
+    pSandSmothered_EditBox1 = EbCreate(ID_SandSmothered_EditBox1,17,64,262,194,EB_DRAW,(XCHAR*)SandSmothered_EditBox1_Text,165,GOLScheme_DescText);
 BUTTON *pSandSmothered_Button8;
     pSandSmothered_Button8 = BtnCreate(ID_SandSmothered_Button8,191,218,289,255,1,BTN_DRAW,NULL,(XCHAR*)SandSmothered_Button8_Text,GOLScheme_ButtonTx);
 BUTTON *pSandSmothered_Button3;
@@ -1763,9 +2027,9 @@ BUTTON *pSandSmothered_Button6;
 WINDOW *pSandSmotheredBuffalo_Window1;
     pSandSmotheredBuffalo_Window1 = WndCreate(ID_SandSmotheredBuffalo_Window1,0,0,480,42,WND_DRAW|WND_TITLECENTER,NULL,(XCHAR*)SandSmotheredBuffalo_Window1_Text,GOLScheme_WinSch);
 PICTURE *pSandSmotheredBuffalo_Picture1;
-    pSandSmotheredBuffalo_Picture1 = PictCreate(ID_SandSmotheredBuffalo_Picture1,353,64,463,174,PICT_DRAW,1,(void *)&buffaloc,GOLScheme_ButtonTx);
+    pSandSmotheredBuffalo_Picture1 = PictCreate(ID_SandSmotheredBuffalo_Picture1,353,64,463,174,PICT_DRAW,1,(void *)&bmpbuffaloc,GOLScheme_ButtonTx);
 EDITBOX *pSandSmotheredBuffalo_EditBox1;
-    pSandSmotheredBuffalo_EditBox1 = EbCreate(ID_SandSmotheredBuffalo_EditBox1,17,64,262,194,EB_DRAW,(XCHAR*)SandSmotheredBuffalo_EditBox1_Text,250,GOLScheme_DescText);
+    pSandSmotheredBuffalo_EditBox1 = EbCreate(ID_SandSmotheredBuffalo_EditBox1,17,64,262,194,EB_DRAW,(XCHAR*)SandSmotheredBuffalo_EditBox1_Text,167,GOLScheme_DescText);
 BUTTON *pSandSmotheredBuffalo_Button8;
     pSandSmotheredBuffalo_Button8 = BtnCreate(ID_SandSmotheredBuffalo_Button8,191,218,289,255,1,BTN_DRAW,NULL,(XCHAR*)SandSmotheredBuffalo_Button8_Text,GOLScheme_ButtonTx);
 BUTTON *pSandSmotheredBuffalo_Button3;
@@ -1793,9 +2057,9 @@ BUTTON *pSandSmotheredBuffalo_Button6;
 WINDOW *pSandCornDog_Window1;
     pSandCornDog_Window1 = WndCreate(ID_SandCornDog_Window1,0,0,480,42,WND_DRAW|WND_TITLECENTER,NULL,(XCHAR*)SandCornDog_Window1_Text,GOLScheme_WinSch);
 PICTURE *pSandCornDog_Picture1;
-    pSandCornDog_Picture1 = PictCreate(ID_SandCornDog_Picture1,353,64,463,174,PICT_DRAW,1,(void *)&corndog,GOLScheme_ButtonTx);
+    pSandCornDog_Picture1 = PictCreate(ID_SandCornDog_Picture1,353,64,463,174,PICT_DRAW,1,(void *)&bmpcorndog,GOLScheme_ButtonTx);
 EDITBOX *pSandCornDog_EditBox1;
-    pSandCornDog_EditBox1 = EbCreate(ID_SandCornDog_EditBox1,17,64,262,194,EB_DRAW,(XCHAR*)SandCornDog_EditBox1_Text,250,GOLScheme_DescText);
+    pSandCornDog_EditBox1 = EbCreate(ID_SandCornDog_EditBox1,17,64,262,194,EB_DRAW,(XCHAR*)SandCornDog_EditBox1_Text,89,GOLScheme_DescText);
 BUTTON *pSandCornDog_Button8;
     pSandCornDog_Button8 = BtnCreate(ID_SandCornDog_Button8,191,218,289,255,1,BTN_DRAW,NULL,(XCHAR*)SandCornDog_Button8_Text,GOLScheme_ButtonTx);
 BUTTON *pSandCornDog_Button3;
@@ -1823,9 +2087,9 @@ BUTTON *pSandCornDog_Button6;
 WINDOW *pSandSteakInAWrap_Window1;
     pSandSteakInAWrap_Window1 = WndCreate(ID_SandSteakInAWrap_Window1,0,0,480,42,WND_DRAW|WND_TITLECENTER,NULL,(XCHAR*)SandSteakInAWrap_Window1_Text,GOLScheme_WinSch);
 PICTURE *pSandSteakInAWrap_Picture1;
-    pSandSteakInAWrap_Picture1 = PictCreate(ID_SandSteakInAWrap_Picture1,353,64,463,174,PICT_DRAW,1,(void *)&steakwra,GOLScheme_ButtonTx);
+    pSandSteakInAWrap_Picture1 = PictCreate(ID_SandSteakInAWrap_Picture1,353,64,463,174,PICT_DRAW,1,(void *)&bmpsteakwra,GOLScheme_ButtonTx);
 EDITBOX *pSandSteakInAWrap_EditBox1;
-    pSandSteakInAWrap_EditBox1 = EbCreate(ID_SandSteakInAWrap_EditBox1,17,64,262,194,EB_DRAW,(XCHAR*)SandSteakInAWrap_EditBox1_Text,250,GOLScheme_DescText);
+    pSandSteakInAWrap_EditBox1 = EbCreate(ID_SandSteakInAWrap_EditBox1,17,64,262,194,EB_DRAW,(XCHAR*)SandSteakInAWrap_EditBox1_Text,142,GOLScheme_DescText);
 BUTTON *pSandSteakInAWrap_Button8;
     pSandSteakInAWrap_Button8 = BtnCreate(ID_SandSteakInAWrap_Button8,191,218,289,255,1,BTN_DRAW,NULL,(XCHAR*)SandSteakInAWrap_Button8_Text,GOLScheme_ButtonTx);
 BUTTON *pSandSteakInAWrap_Button3;
@@ -1853,9 +2117,9 @@ BUTTON *pSandSteakInAWrap_Button6;
 WINDOW *pSandGardenSandwich_Window1;
     pSandGardenSandwich_Window1 = WndCreate(ID_SandGardenSandwich_Window1,0,0,480,42,WND_DRAW|WND_TITLECENTER,NULL,(XCHAR*)SandGardenSandwich_Window1_Text,GOLScheme_WinSch);
 PICTURE *pSandGardenSandwich_Picture1;
-    pSandGardenSandwich_Picture1 = PictCreate(ID_SandGardenSandwich_Picture1,353,64,463,174,PICT_DRAW,1,(void *)&Gardensw,GOLScheme_ButtonTx);
+    pSandGardenSandwich_Picture1 = PictCreate(ID_SandGardenSandwich_Picture1,353,64,463,174,PICT_DRAW,1,(void *)&bmpGardensw,GOLScheme_ButtonTx);
 EDITBOX *pSandGardenSandwich_EditBox1;
-    pSandGardenSandwich_EditBox1 = EbCreate(ID_SandGardenSandwich_EditBox1,17,64,262,194,EB_DRAW,(XCHAR*)SandGardenSandwich_EditBox1_Text,250,GOLScheme_DescText);
+    pSandGardenSandwich_EditBox1 = EbCreate(ID_SandGardenSandwich_EditBox1,17,64,262,194,EB_DRAW,(XCHAR*)SandGardenSandwich_EditBox1_Text,114,GOLScheme_DescText);
 BUTTON *pSandGardenSandwich_Button8;
     pSandGardenSandwich_Button8 = BtnCreate(ID_SandGardenSandwich_Button8,191,218,289,255,1,BTN_DRAW,NULL,(XCHAR*)SandGardenSandwich_Button8_Text,GOLScheme_ButtonTx);
 BUTTON *pSandGardenSandwich_Button3;
@@ -1883,9 +2147,9 @@ BUTTON *pSandGardenSandwich_Button6;
 WINDOW *pSandGrilledChicken_Window1;
     pSandGrilledChicken_Window1 = WndCreate(ID_SandGrilledChicken_Window1,0,0,480,42,WND_DRAW|WND_TITLECENTER,NULL,(XCHAR*)SandGrilledChicken_Window1_Text,GOLScheme_WinSch);
 PICTURE *pSandGrilledChicken_Picture1;
-    pSandGrilledChicken_Picture1 = PictCreate(ID_SandGrilledChicken_Picture1,353,64,463,174,PICT_DRAW,1,(void *)&grillChi,GOLScheme_ButtonTx);
+    pSandGrilledChicken_Picture1 = PictCreate(ID_SandGrilledChicken_Picture1,353,64,463,174,PICT_DRAW,1,(void *)&bmpgrillChi,GOLScheme_ButtonTx);
 EDITBOX *pSandGrilledChicken_EditBox1;
-    pSandGrilledChicken_EditBox1 = EbCreate(ID_SandGrilledChicken_EditBox1,17,64,262,194,EB_DRAW,(XCHAR*)SandGrilledChicken_EditBox1_Text,250,GOLScheme_DescText);
+    pSandGrilledChicken_EditBox1 = EbCreate(ID_SandGrilledChicken_EditBox1,17,64,262,194,EB_DRAW,(XCHAR*)SandGrilledChicken_EditBox1_Text,113,GOLScheme_DescText);
 BUTTON *pSandGrilledChicken_Button8;
     pSandGrilledChicken_Button8 = BtnCreate(ID_SandGrilledChicken_Button8,191,218,289,255,1,BTN_DRAW,NULL,(XCHAR*)SandGrilledChicken_Button8_Text,GOLScheme_ButtonTx);
 BUTTON *pSandGrilledChicken_Button3;
@@ -1913,9 +2177,9 @@ BUTTON *pSandGrilledChicken_Button6;
 WINDOW *pSandCajun_Window1;
     pSandCajun_Window1 = WndCreate(ID_SandCajun_Window1,0,0,480,42,WND_DRAW|WND_TITLECENTER,NULL,(XCHAR*)SandCajun_Window1_Text,GOLScheme_WinSch);
 PICTURE *pSandCajun_Picture1;
-    pSandCajun_Picture1 = PictCreate(ID_SandCajun_Picture1,353,64,463,174,PICT_DRAW,1,(void *)&cajunChi,GOLScheme_ButtonTx);
+    pSandCajun_Picture1 = PictCreate(ID_SandCajun_Picture1,353,64,463,174,PICT_DRAW,1,(void *)&bmpcajunChi,GOLScheme_ButtonTx);
 EDITBOX *pSandCajun_EditBox1;
-    pSandCajun_EditBox1 = EbCreate(ID_SandCajun_EditBox1,17,64,262,194,EB_DRAW,(XCHAR*)SandCajun_EditBox1_Text,250,GOLScheme_DescText);
+    pSandCajun_EditBox1 = EbCreate(ID_SandCajun_EditBox1,17,64,262,194,EB_DRAW,(XCHAR*)SandCajun_EditBox1_Text,159,GOLScheme_DescText);
 BUTTON *pSandCajun_Button8;
     pSandCajun_Button8 = BtnCreate(ID_SandCajun_Button8,191,218,289,255,1,BTN_DRAW,NULL,(XCHAR*)SandCajun_Button8_Text,GOLScheme_ButtonTx);
 BUTTON *pSandCajun_Button3;
@@ -1943,9 +2207,9 @@ BUTTON *pSandCajun_Button6;
 WINDOW *pSandFriedStacker_Window1;
     pSandFriedStacker_Window1 = WndCreate(ID_SandFriedStacker_Window1,0,0,480,42,WND_DRAW|WND_TITLECENTER,NULL,(XCHAR*)SandFriedStacker_Window1_Text,GOLScheme_WinSch);
 PICTURE *pSandFriedStacker_Picture1;
-    pSandFriedStacker_Picture1 = PictCreate(ID_SandFriedStacker_Picture1,353,64,463,174,PICT_DRAW,1,(void *)&friedsta,GOLScheme_ButtonTx);
+    pSandFriedStacker_Picture1 = PictCreate(ID_SandFriedStacker_Picture1,353,64,463,174,PICT_DRAW,1,(void *)&bmpfriedsta,GOLScheme_ButtonTx);
 EDITBOX *pSandFriedStacker_EditBox1;
-    pSandFriedStacker_EditBox1 = EbCreate(ID_SandFriedStacker_EditBox1,17,64,262,194,EB_DRAW,(XCHAR*)SandFriedStacker_EditBox1_Text,250,GOLScheme_DescText);
+    pSandFriedStacker_EditBox1 = EbCreate(ID_SandFriedStacker_EditBox1,17,64,262,194,EB_DRAW,(XCHAR*)SandFriedStacker_EditBox1_Text,155,GOLScheme_DescText);
 BUTTON *pSandFriedStacker_Button8;
     pSandFriedStacker_Button8 = BtnCreate(ID_SandFriedStacker_Button8,191,218,289,255,1,BTN_DRAW,NULL,(XCHAR*)SandFriedStacker_Button8_Text,GOLScheme_ButtonTx);
 BUTTON *pSandFriedStacker_Button3;
@@ -1973,9 +2237,9 @@ BUTTON *pSandFriedStacker_Button6;
 WINDOW *pSandGrilledStacker_Window1;
     pSandGrilledStacker_Window1 = WndCreate(ID_SandGrilledStacker_Window1,0,0,480,42,WND_DRAW|WND_TITLECENTER,NULL,(XCHAR*)SandGrilledStacker_Window1_Text,GOLScheme_WinSch);
 PICTURE *pSandGrilledStacker_Picture1;
-    pSandGrilledStacker_Picture1 = PictCreate(ID_SandGrilledStacker_Picture1,353,64,463,174,PICT_DRAW,1,(void *)&grilledS,GOLScheme_ButtonTx);
+    pSandGrilledStacker_Picture1 = PictCreate(ID_SandGrilledStacker_Picture1,353,64,463,174,PICT_DRAW,1,(void *)&bmpgrilledS,GOLScheme_ButtonTx);
 EDITBOX *pSandGrilledStacker_EditBox1;
-    pSandGrilledStacker_EditBox1 = EbCreate(ID_SandGrilledStacker_EditBox1,17,64,262,194,EB_DRAW,(XCHAR*)SandGrilledStacker_EditBox1_Text,250,GOLScheme_DescText);
+    pSandGrilledStacker_EditBox1 = EbCreate(ID_SandGrilledStacker_EditBox1,17,64,262,194,EB_DRAW,(XCHAR*)SandGrilledStacker_EditBox1_Text,207,GOLScheme_DescText);
 BUTTON *pSandGrilledStacker_Button8;
     pSandGrilledStacker_Button8 = BtnCreate(ID_SandGrilledStacker_Button8,191,218,289,255,1,BTN_DRAW,NULL,(XCHAR*)SandGrilledStacker_Button8_Text,GOLScheme_ButtonTx);
 BUTTON *pSandGrilledStacker_Button3;
@@ -2003,9 +2267,9 @@ BUTTON *pSandGrilledStacker_Button6;
 WINDOW *pSandBlackenedTilapia_Window1;
     pSandBlackenedTilapia_Window1 = WndCreate(ID_SandBlackenedTilapia_Window1,0,0,480,42,WND_DRAW|WND_TITLECENTER,NULL,(XCHAR*)SandBlackenedTilapia_Window1_Text,GOLScheme_WinSch);
 PICTURE *pSandBlackenedTilapia_Picture1;
-    pSandBlackenedTilapia_Picture1 = PictCreate(ID_SandBlackenedTilapia_Picture1,353,64,463,174,PICT_DRAW,1,(void *)&BlackTil,GOLScheme_ButtonTx);
+    pSandBlackenedTilapia_Picture1 = PictCreate(ID_SandBlackenedTilapia_Picture1,353,64,463,174,PICT_DRAW,1,(void *)&bmpBlackTil,GOLScheme_ButtonTx);
 EDITBOX *pSandBlackenedTilapia_EditBox1;
-    pSandBlackenedTilapia_EditBox1 = EbCreate(ID_SandBlackenedTilapia_EditBox1,17,64,262,194,EB_DRAW,(XCHAR*)SandBlackenedTilapia_EditBox1_Text,250,GOLScheme_DescText);
+    pSandBlackenedTilapia_EditBox1 = EbCreate(ID_SandBlackenedTilapia_EditBox1,17,64,262,194,EB_DRAW,(XCHAR*)SandBlackenedTilapia_EditBox1_Text,118,GOLScheme_DescText);
 BUTTON *pSandBlackenedTilapia_Button8;
     pSandBlackenedTilapia_Button8 = BtnCreate(ID_SandBlackenedTilapia_Button8,191,218,289,255,1,BTN_DRAW,NULL,(XCHAR*)SandBlackenedTilapia_Button8_Text,GOLScheme_ButtonTx);
 BUTTON *pSandBlackenedTilapia_Button3;
@@ -2033,9 +2297,9 @@ BUTTON *pSandBlackenedTilapia_Button6;
 WINDOW *pSandVeggieMushroom_Window1;
     pSandVeggieMushroom_Window1 = WndCreate(ID_SandVeggieMushroom_Window1,0,0,480,42,WND_DRAW|WND_TITLECENTER,NULL,(XCHAR*)SandVeggieMushroom_Window1_Text,GOLScheme_WinSch);
 PICTURE *pSandVeggieMushroom_Picture1;
-    pSandVeggieMushroom_Picture1 = PictCreate(ID_SandVeggieMushroom_Picture1,353,64,463,174,PICT_DRAW,1,(void *)&Mushroom,GOLScheme_ButtonTx);
+    pSandVeggieMushroom_Picture1 = PictCreate(ID_SandVeggieMushroom_Picture1,353,64,463,174,PICT_DRAW,1,(void *)&bmpMushroom,GOLScheme_ButtonTx);
 EDITBOX *pSandVeggieMushroom_EditBox1;
-    pSandVeggieMushroom_EditBox1 = EbCreate(ID_SandVeggieMushroom_EditBox1,17,64,262,194,EB_DRAW,(XCHAR*)SandVeggieMushroom_EditBox1_Text,250,GOLScheme_DescText);
+    pSandVeggieMushroom_EditBox1 = EbCreate(ID_SandVeggieMushroom_EditBox1,17,64,262,194,EB_DRAW,(XCHAR*)SandVeggieMushroom_EditBox1_Text,141,GOLScheme_DescText);
 BUTTON *pSandVeggieMushroom_Button8;
     pSandVeggieMushroom_Button8 = BtnCreate(ID_SandVeggieMushroom_Button8,191,218,289,255,1,BTN_DRAW,NULL,(XCHAR*)SandVeggieMushroom_Button8_Text,GOLScheme_ButtonTx);
 BUTTON *pSandVeggieMushroom_Button3;
@@ -2063,9 +2327,9 @@ BUTTON *pSandVeggieMushroom_Button6;
 WINDOW *pSandGrilledCheese_Window1;
     pSandGrilledCheese_Window1 = WndCreate(ID_SandGrilledCheese_Window1,0,0,480,42,WND_DRAW|WND_TITLECENTER,NULL,(XCHAR*)SandGrilledCheese_Window1_Text,GOLScheme_WinSch);
 PICTURE *pSandGrilledCheese_Picture1;
-    pSandGrilledCheese_Picture1 = PictCreate(ID_SandGrilledCheese_Picture1,353,64,463,174,PICT_DRAW,1,(void *)&GrillChe,GOLScheme_ButtonTx);
+    pSandGrilledCheese_Picture1 = PictCreate(ID_SandGrilledCheese_Picture1,353,64,463,174,PICT_DRAW,1,(void *)&bmpGrillChe,GOLScheme_ButtonTx);
 EDITBOX *pSandGrilledCheese_EditBox1;
-    pSandGrilledCheese_EditBox1 = EbCreate(ID_SandGrilledCheese_EditBox1,17,64,262,194,EB_DRAW,(XCHAR*)SandGrilledCheese_EditBox1_Text,250,GOLScheme_DescText);
+    pSandGrilledCheese_EditBox1 = EbCreate(ID_SandGrilledCheese_EditBox1,17,64,262,194,EB_DRAW,(XCHAR*)SandGrilledCheese_EditBox1_Text,107,GOLScheme_DescText);
 BUTTON *pSandGrilledCheese_Button8;
     pSandGrilledCheese_Button8 = BtnCreate(ID_SandGrilledCheese_Button8,191,218,289,255,1,BTN_DRAW,NULL,(XCHAR*)SandGrilledCheese_Button8_Text,GOLScheme_ButtonTx);
 BUTTON *pSandGrilledCheese_Button3;
@@ -2125,9 +2389,9 @@ BUTTON *pBurgerList_Button12;
 WINDOW *pBurgerCheese_Window1;
     pBurgerCheese_Window1 = WndCreate(ID_BurgerCheese_Window1,0,0,480,42,WND_DRAW|WND_TITLECENTER,NULL,(XCHAR*)BurgerCheese_Window1_Text,GOLScheme_WinSch);
 PICTURE *pBurgerCheese_Picture1;
-    pBurgerCheese_Picture1 = PictCreate(ID_BurgerCheese_Picture1,353,64,463,174,PICT_DRAW,1,(void *)&cheesebu,GOLScheme_ButtonTx);
+    pBurgerCheese_Picture1 = PictCreate(ID_BurgerCheese_Picture1,353,64,463,174,PICT_DRAW,1,(void *)&bmpcheesebu,GOLScheme_ButtonTx);
 EDITBOX *pBurgerCheese_EditBox1;
-    pBurgerCheese_EditBox1 = EbCreate(ID_BurgerCheese_EditBox1,17,64,262,194,EB_DRAW,(XCHAR*)BurgerCheese_EditBox1_Text,250,GOLScheme_DescText);
+    pBurgerCheese_EditBox1 = EbCreate(ID_BurgerCheese_EditBox1,17,64,262,194,EB_DRAW,(XCHAR*)BurgerCheese_EditBox1_Text,90,GOLScheme_DescText);
 BUTTON *pBurgerCheese_Button8;
     pBurgerCheese_Button8 = BtnCreate(ID_BurgerCheese_Button8,191,218,289,255,1,BTN_DRAW,NULL,(XCHAR*)BurgerCheese_Button8_Text,GOLScheme_ButtonTx);
 BUTTON *pBurgerCheese_Button3;
@@ -2155,9 +2419,9 @@ BUTTON *pBurgerCheese_Button6;
 WINDOW *pBurgerHam_Window1;
     pBurgerHam_Window1 = WndCreate(ID_BurgerHam_Window1,0,0,480,42,WND_DRAW|WND_TITLECENTER,NULL,(XCHAR*)BurgerHam_Window1_Text,GOLScheme_WinSch);
 PICTURE *pBurgerHam_Picture1;
-    pBurgerHam_Picture1 = PictCreate(ID_BurgerHam_Picture1,353,64,463,174,PICT_DRAW,1,(void *)&blackene,GOLScheme_ButtonTx);
+    pBurgerHam_Picture1 = PictCreate(ID_BurgerHam_Picture1,353,64,463,174,PICT_DRAW,1,(void *)&bmpcheesebu,GOLScheme_ButtonTx);
 EDITBOX *pBurgerHam_EditBox1;
-    pBurgerHam_EditBox1 = EbCreate(ID_BurgerHam_EditBox1,17,64,262,194,EB_DRAW,(XCHAR*)BurgerHam_EditBox1_Text,250,GOLScheme_DescText);
+    pBurgerHam_EditBox1 = EbCreate(ID_BurgerHam_EditBox1,17,64,262,194,EB_DRAW,(XCHAR*)BurgerHam_EditBox1_Text,96,GOLScheme_DescText);
 BUTTON *pBurgerHam_Button8;
     pBurgerHam_Button8 = BtnCreate(ID_BurgerHam_Button8,191,218,289,255,1,BTN_DRAW,NULL,(XCHAR*)BurgerHam_Button8_Text,GOLScheme_ButtonTx);
 BUTTON *pBurgerHam_Button3;
@@ -2185,9 +2449,9 @@ BUTTON *pBurgerHam_Button6;
 WINDOW *pBurgerPepper_Window1;
     pBurgerPepper_Window1 = WndCreate(ID_BurgerPepper_Window1,0,0,480,42,WND_DRAW|WND_TITLECENTER,NULL,(XCHAR*)BurgerPepper_Window1_Text,GOLScheme_WinSch);
 PICTURE *pBurgerPepper_Picture1;
-    pBurgerPepper_Picture1 = PictCreate(ID_BurgerPepper_Picture1,353,64,463,174,PICT_DRAW,1,(void *)&pepperja,GOLScheme_ButtonTx);
+    pBurgerPepper_Picture1 = PictCreate(ID_BurgerPepper_Picture1,353,64,463,174,PICT_DRAW,1,(void *)&bmppepperja,GOLScheme_ButtonTx);
 EDITBOX *pBurgerPepper_EditBox1;
-    pBurgerPepper_EditBox1 = EbCreate(ID_BurgerPepper_EditBox1,17,64,262,194,EB_DRAW,(XCHAR*)BurgerPepper_EditBox1_Text,250,GOLScheme_DescText);
+    pBurgerPepper_EditBox1 = EbCreate(ID_BurgerPepper_EditBox1,17,64,262,194,EB_DRAW,(XCHAR*)BurgerPepper_EditBox1_Text,94,GOLScheme_DescText);
 BUTTON *pBurgerPepper_Button8;
     pBurgerPepper_Button8 = BtnCreate(ID_BurgerPepper_Button8,191,218,289,255,1,BTN_DRAW,NULL,(XCHAR*)BurgerPepper_Button8_Text,GOLScheme_ButtonTx);
 BUTTON *pBurgerPepper_Button3;
@@ -2215,9 +2479,9 @@ BUTTON *pBurgerPepper_Button6;
 WINDOW *pBurgerCajun_Window1;
     pBurgerCajun_Window1 = WndCreate(ID_BurgerCajun_Window1,0,0,480,42,WND_DRAW|WND_TITLECENTER,NULL,(XCHAR*)BurgerCajun_Window1_Text,GOLScheme_WinSch);
 PICTURE *pBurgerCajun_Picture1;
-    pBurgerCajun_Picture1 = PictCreate(ID_BurgerCajun_Picture1,353,64,463,174,PICT_DRAW,1,(void *)&Coleslaw,GOLScheme_ButtonTx);
+    pBurgerCajun_Picture1 = PictCreate(ID_BurgerCajun_Picture1,353,64,463,174,PICT_DRAW,1,(void *)&bmpCajunBur,GOLScheme_ButtonTx);
 EDITBOX *pBurgerCajun_EditBox1;
-    pBurgerCajun_EditBox1 = EbCreate(ID_BurgerCajun_EditBox1,17,64,262,194,EB_DRAW,(XCHAR*)BurgerCajun_EditBox1_Text,250,GOLScheme_DescText);
+    pBurgerCajun_EditBox1 = EbCreate(ID_BurgerCajun_EditBox1,17,64,262,194,EB_DRAW,(XCHAR*)BurgerCajun_EditBox1_Text,78,GOLScheme_DescText);
 BUTTON *pBurgerCajun_Button8;
     pBurgerCajun_Button8 = BtnCreate(ID_BurgerCajun_Button8,191,218,289,255,1,BTN_DRAW,NULL,(XCHAR*)BurgerCajun_Button8_Text,GOLScheme_ButtonTx);
 BUTTON *pBurgerCajun_Button3;
@@ -2245,9 +2509,9 @@ BUTTON *pBurgerCajun_Button6;
 WINDOW *pBurgerMonster_Window1;
     pBurgerMonster_Window1 = WndCreate(ID_BurgerMonster_Window1,0,0,480,42,WND_DRAW|WND_TITLECENTER,NULL,(XCHAR*)BurgerMonster_Window1_Text,GOLScheme_WinSch);
 PICTURE *pBurgerMonster_Picture1;
-    pBurgerMonster_Picture1 = PictCreate(ID_BurgerMonster_Picture1,353,64,463,174,PICT_DRAW,1,(void *)&MonsterC,GOLScheme_ButtonTx);
+    pBurgerMonster_Picture1 = PictCreate(ID_BurgerMonster_Picture1,353,64,463,174,PICT_DRAW,1,(void *)&bmpMonsterC,GOLScheme_ButtonTx);
 EDITBOX *pBurgerMonster_EditBox1;
-    pBurgerMonster_EditBox1 = EbCreate(ID_BurgerMonster_EditBox1,17,64,262,194,EB_DRAW,(XCHAR*)BurgerMonster_EditBox1_Text,250,GOLScheme_DescText);
+    pBurgerMonster_EditBox1 = EbCreate(ID_BurgerMonster_EditBox1,17,64,262,194,EB_DRAW,(XCHAR*)BurgerMonster_EditBox1_Text,72,GOLScheme_DescText);
 BUTTON *pBurgerMonster_Button8;
     pBurgerMonster_Button8 = BtnCreate(ID_BurgerMonster_Button8,191,218,289,255,1,BTN_DRAW,NULL,(XCHAR*)BurgerMonster_Button8_Text,GOLScheme_ButtonTx);
 BUTTON *pBurgerMonster_Button3;
@@ -2275,9 +2539,9 @@ BUTTON *pBurgerMonster_Button6;
 WINDOW *pBurgerMushroom_Window1;
     pBurgerMushroom_Window1 = WndCreate(ID_BurgerMushroom_Window1,0,0,480,42,WND_DRAW|WND_TITLECENTER,NULL,(XCHAR*)BurgerMushroom_Window1_Text,GOLScheme_WinSch);
 PICTURE *pBurgerMushroom_Picture1;
-    pBurgerMushroom_Picture1 = PictCreate(ID_BurgerMushroom_Picture1,353,64,463,174,PICT_DRAW,1,(void *)&Mushroom,GOLScheme_ButtonTx);
+    pBurgerMushroom_Picture1 = PictCreate(ID_BurgerMushroom_Picture1,353,64,463,174,PICT_DRAW,1,(void *)&bmpMushroom,GOLScheme_ButtonTx);
 EDITBOX *pBurgerMushroom_EditBox1;
-    pBurgerMushroom_EditBox1 = EbCreate(ID_BurgerMushroom_EditBox1,17,64,262,194,EB_DRAW,(XCHAR*)BurgerMushroom_EditBox1_Text,250,GOLScheme_DescText);
+    pBurgerMushroom_EditBox1 = EbCreate(ID_BurgerMushroom_EditBox1,17,64,262,194,EB_DRAW,(XCHAR*)BurgerMushroom_EditBox1_Text,86,GOLScheme_DescText);
 BUTTON *pBurgerMushroom_Button8;
     pBurgerMushroom_Button8 = BtnCreate(ID_BurgerMushroom_Button8,191,218,289,255,1,BTN_DRAW,NULL,(XCHAR*)BurgerMushroom_Button8_Text,GOLScheme_ButtonTx);
 BUTTON *pBurgerMushroom_Button3;
@@ -2373,9 +2637,9 @@ BUTTON *pSaladList2_Button4;
 WINDOW *pSaladVegetable_Window1;
     pSaladVegetable_Window1 = WndCreate(ID_SaladVegetable_Window1,0,0,480,42,WND_DRAW|WND_TITLECENTER,NULL,(XCHAR*)SaladVegetable_Window1_Text,GOLScheme_WinSch);
 PICTURE *pSaladVegetable_Picture1;
-    pSaladVegetable_Picture1 = PictCreate(ID_SaladVegetable_Picture1,353,64,463,174,PICT_DRAW,1,(void *)&Vegsalad,GOLScheme_ButtonTx);
+    pSaladVegetable_Picture1 = PictCreate(ID_SaladVegetable_Picture1,353,64,463,174,PICT_DRAW,1,(void *)&bmpVegsalad,GOLScheme_ButtonTx);
 EDITBOX *pSaladVegetable_EditBox1;
-    pSaladVegetable_EditBox1 = EbCreate(ID_SaladVegetable_EditBox1,17,64,262,194,EB_DRAW,(XCHAR*)SaladVegetable_EditBox1_Text,250,GOLScheme_DescText);
+    pSaladVegetable_EditBox1 = EbCreate(ID_SaladVegetable_EditBox1,17,64,262,194,EB_DRAW,(XCHAR*)SaladVegetable_EditBox1_Text,74,GOLScheme_DescText);
 BUTTON *pSaladVegetable_Button8;
     pSaladVegetable_Button8 = BtnCreate(ID_SaladVegetable_Button8,191,218,289,255,1,BTN_DRAW,NULL,(XCHAR*)SaladVegetable_Button8_Text,GOLScheme_ButtonTx);
 BUTTON *pSaladVegetable_Button3;
@@ -2403,9 +2667,9 @@ BUTTON *pSaladVegetable_Button6;
 WINDOW *pSaladSpicyVeg_Window1;
     pSaladSpicyVeg_Window1 = WndCreate(ID_SaladSpicyVeg_Window1,0,0,480,42,WND_DRAW|WND_TITLECENTER,NULL,(XCHAR*)SaladSpicyVeg_Window1_Text,GOLScheme_WinSch);
 PICTURE *pSaladSpicyVeg_Picture1;
-    pSaladSpicyVeg_Picture1 = PictCreate(ID_SaladSpicyVeg_Picture1,353,64,463,174,PICT_DRAW,1,(void *)&spicyVeg,GOLScheme_ButtonTx);
+    pSaladSpicyVeg_Picture1 = PictCreate(ID_SaladSpicyVeg_Picture1,353,64,463,174,PICT_DRAW,1,(void *)&bmpspicyVeg,GOLScheme_ButtonTx);
 EDITBOX *pSaladSpicyVeg_EditBox1;
-    pSaladSpicyVeg_EditBox1 = EbCreate(ID_SaladSpicyVeg_EditBox1,17,64,262,194,EB_DRAW,(XCHAR*)SaladSpicyVeg_EditBox1_Text,250,GOLScheme_DescText);
+    pSaladSpicyVeg_EditBox1 = EbCreate(ID_SaladSpicyVeg_EditBox1,17,64,262,194,EB_DRAW,(XCHAR*)SaladSpicyVeg_EditBox1_Text,72,GOLScheme_DescText);
 BUTTON *pSaladSpicyVeg_Button8;
     pSaladSpicyVeg_Button8 = BtnCreate(ID_SaladSpicyVeg_Button8,191,218,289,255,1,BTN_DRAW,NULL,(XCHAR*)SaladSpicyVeg_Button8_Text,GOLScheme_ButtonTx);
 BUTTON *pSaladSpicyVeg_Button3;
@@ -2433,9 +2697,9 @@ BUTTON *pSaladSpicyVeg_Button6;
 WINDOW *pSaladSupremeTaco_Window1;
     pSaladSupremeTaco_Window1 = WndCreate(ID_SaladSupremeTaco_Window1,0,0,480,42,WND_DRAW|WND_TITLECENTER,NULL,(XCHAR*)SaladSupremeTaco_Window1_Text,GOLScheme_WinSch);
 PICTURE *pSaladSupremeTaco_Picture1;
-    pSaladSupremeTaco_Picture1 = PictCreate(ID_SaladSupremeTaco_Picture1,353,64,463,174,PICT_DRAW,1,(void *)&tacosald,GOLScheme_ButtonTx);
+    pSaladSupremeTaco_Picture1 = PictCreate(ID_SaladSupremeTaco_Picture1,353,64,463,174,PICT_DRAW,1,(void *)&bmptacosald,GOLScheme_ButtonTx);
 EDITBOX *pSaladSupremeTaco_EditBox1;
-    pSaladSupremeTaco_EditBox1 = EbCreate(ID_SaladSupremeTaco_EditBox1,17,64,262,194,EB_DRAW,(XCHAR*)SaladSupremeTaco_EditBox1_Text,250,GOLScheme_DescText);
+    pSaladSupremeTaco_EditBox1 = EbCreate(ID_SaladSupremeTaco_EditBox1,17,64,262,194,EB_DRAW,(XCHAR*)SaladSupremeTaco_EditBox1_Text,105,GOLScheme_DescText);
 BUTTON *pSaladSupremeTaco_Button8;
     pSaladSupremeTaco_Button8 = BtnCreate(ID_SaladSupremeTaco_Button8,191,218,289,255,1,BTN_DRAW,NULL,(XCHAR*)SaladSupremeTaco_Button8_Text,GOLScheme_ButtonTx);
 BUTTON *pSaladSupremeTaco_Button3;
@@ -2463,9 +2727,9 @@ BUTTON *pSaladSupremeTaco_Button6;
 WINDOW *pSaladLemonShrimp_Window1;
     pSaladLemonShrimp_Window1 = WndCreate(ID_SaladLemonShrimp_Window1,0,0,480,42,WND_DRAW|WND_TITLECENTER,NULL,(XCHAR*)SaladLemonShrimp_Window1_Text,GOLScheme_WinSch);
 PICTURE *pSaladLemonShrimp_Picture1;
-    pSaladLemonShrimp_Picture1 = PictCreate(ID_SaladLemonShrimp_Picture1,353,64,463,174,PICT_DRAW,1,(void *)&lemonshr,GOLScheme_ButtonTx);
+    pSaladLemonShrimp_Picture1 = PictCreate(ID_SaladLemonShrimp_Picture1,353,64,463,174,PICT_DRAW,1,(void *)&bmplemonshr,GOLScheme_ButtonTx);
 EDITBOX *pSaladLemonShrimp_EditBox1;
-    pSaladLemonShrimp_EditBox1 = EbCreate(ID_SaladLemonShrimp_EditBox1,17,64,262,194,EB_DRAW,(XCHAR*)SaladLemonShrimp_EditBox1_Text,250,GOLScheme_DescText);
+    pSaladLemonShrimp_EditBox1 = EbCreate(ID_SaladLemonShrimp_EditBox1,17,64,262,194,EB_DRAW,(XCHAR*)SaladLemonShrimp_EditBox1_Text,89,GOLScheme_DescText);
 BUTTON *pSaladLemonShrimp_Button8;
     pSaladLemonShrimp_Button8 = BtnCreate(ID_SaladLemonShrimp_Button8,191,218,289,255,1,BTN_DRAW,NULL,(XCHAR*)SaladLemonShrimp_Button8_Text,GOLScheme_ButtonTx);
 BUTTON *pSaladLemonShrimp_Button3;
@@ -2493,9 +2757,9 @@ BUTTON *pSaladLemonShrimp_Button6;
 WINDOW *pSaladHam_Window1;
     pSaladHam_Window1 = WndCreate(ID_SaladHam_Window1,0,0,480,42,WND_DRAW|WND_TITLECENTER,NULL,(XCHAR*)SaladHam_Window1_Text,GOLScheme_WinSch);
 PICTURE *pSaladHam_Picture1;
-    pSaladHam_Picture1 = PictCreate(ID_SaladHam_Picture1,353,64,463,174,PICT_DRAW,1,(void *)&hamsalad,GOLScheme_ButtonTx);
+    pSaladHam_Picture1 = PictCreate(ID_SaladHam_Picture1,353,64,463,174,PICT_DRAW,1,(void *)&bmphamsalad,GOLScheme_ButtonTx);
 EDITBOX *pSaladHam_EditBox1;
-    pSaladHam_EditBox1 = EbCreate(ID_SaladHam_EditBox1,17,64,262,194,EB_DRAW,(XCHAR*)SaladHam_EditBox1_Text,250,GOLScheme_DescText);
+    pSaladHam_EditBox1 = EbCreate(ID_SaladHam_EditBox1,17,64,262,194,EB_DRAW,(XCHAR*)SaladHam_EditBox1_Text,101,GOLScheme_DescText);
 BUTTON *pSaladHam_Button8;
     pSaladHam_Button8 = BtnCreate(ID_SaladHam_Button8,191,218,289,255,1,BTN_DRAW,NULL,(XCHAR*)SaladHam_Button8_Text,GOLScheme_ButtonTx);
 BUTTON *pSaladHam_Button3;
@@ -2523,9 +2787,9 @@ BUTTON *pSaladHam_Button6;
 WINDOW *pSaladFriedChicken_Window1;
     pSaladFriedChicken_Window1 = WndCreate(ID_SaladFriedChicken_Window1,0,0,480,42,WND_DRAW|WND_TITLECENTER,NULL,(XCHAR*)SaladFriedChicken_Window1_Text,GOLScheme_WinSch);
 PICTURE *pSaladFriedChicken_Picture1;
-    pSaladFriedChicken_Picture1 = PictCreate(ID_SaladFriedChicken_Picture1,353,64,463,174,PICT_DRAW,1,(void *)&friedchi,GOLScheme_ButtonTx);
+    pSaladFriedChicken_Picture1 = PictCreate(ID_SaladFriedChicken_Picture1,353,64,463,174,PICT_DRAW,1,(void *)&bmpfriedchi,GOLScheme_ButtonTx);
 EDITBOX *pSaladFriedChicken_EditBox1;
-    pSaladFriedChicken_EditBox1 = EbCreate(ID_SaladFriedChicken_EditBox1,17,64,262,194,EB_DRAW,(XCHAR*)SaladFriedChicken_EditBox1_Text,250,GOLScheme_DescText);
+    pSaladFriedChicken_EditBox1 = EbCreate(ID_SaladFriedChicken_EditBox1,17,64,262,194,EB_DRAW,(XCHAR*)SaladFriedChicken_EditBox1_Text,85,GOLScheme_DescText);
 BUTTON *pSaladFriedChicken_Button8;
     pSaladFriedChicken_Button8 = BtnCreate(ID_SaladFriedChicken_Button8,191,218,289,255,1,BTN_DRAW,NULL,(XCHAR*)SaladFriedChicken_Button8_Text,GOLScheme_ButtonTx);
 BUTTON *pSaladFriedChicken_Button3;
@@ -2553,9 +2817,9 @@ BUTTON *pSaladFriedChicken_Button6;
 WINDOW *pSaladSteak_Window1;
     pSaladSteak_Window1 = WndCreate(ID_SaladSteak_Window1,0,0,480,42,WND_DRAW|WND_TITLECENTER,NULL,(XCHAR*)SaladSteak_Window1_Text,GOLScheme_WinSch);
 PICTURE *pSaladSteak_Picture1;
-    pSaladSteak_Picture1 = PictCreate(ID_SaladSteak_Picture1,353,64,463,174,PICT_DRAW,1,(void *)&steaksal,GOLScheme_ButtonTx);
+    pSaladSteak_Picture1 = PictCreate(ID_SaladSteak_Picture1,353,64,463,174,PICT_DRAW,1,(void *)&bmpsteaksal,GOLScheme_ButtonTx);
 EDITBOX *pSaladSteak_EditBox1;
-    pSaladSteak_EditBox1 = EbCreate(ID_SaladSteak_EditBox1,17,64,262,194,EB_DRAW,(XCHAR*)SaladSteak_EditBox1_Text,250,GOLScheme_DescText);
+    pSaladSteak_EditBox1 = EbCreate(ID_SaladSteak_EditBox1,17,64,262,194,EB_DRAW,(XCHAR*)SaladSteak_EditBox1_Text,80,GOLScheme_DescText);
 BUTTON *pSaladSteak_Button8;
     pSaladSteak_Button8 = BtnCreate(ID_SaladSteak_Button8,191,218,289,255,1,BTN_DRAW,NULL,(XCHAR*)SaladSteak_Button8_Text,GOLScheme_ButtonTx);
 BUTTON *pSaladSteak_Button3;
@@ -2583,9 +2847,9 @@ BUTTON *pSaladSteak_Button6;
 WINDOW *pSaladFruit_Window1;
     pSaladFruit_Window1 = WndCreate(ID_SaladFruit_Window1,0,0,480,42,WND_DRAW|WND_TITLECENTER,NULL,(XCHAR*)SaladFruit_Window1_Text,GOLScheme_WinSch);
 PICTURE *pSaladFruit_Picture1;
-    pSaladFruit_Picture1 = PictCreate(ID_SaladFruit_Picture1,353,64,463,174,PICT_DRAW,1,(void *)&FruitSal,GOLScheme_ButtonTx);
+    pSaladFruit_Picture1 = PictCreate(ID_SaladFruit_Picture1,353,64,463,174,PICT_DRAW,1,(void *)&bmpFruitSal,GOLScheme_ButtonTx);
 EDITBOX *pSaladFruit_EditBox1;
-    pSaladFruit_EditBox1 = EbCreate(ID_SaladFruit_EditBox1,17,64,262,194,EB_DRAW,(XCHAR*)SaladFruit_EditBox1_Text,250,GOLScheme_DescText);
+    pSaladFruit_EditBox1 = EbCreate(ID_SaladFruit_EditBox1,17,64,262,194,EB_DRAW,(XCHAR*)SaladFruit_EditBox1_Text,111,GOLScheme_DescText);
 BUTTON *pSaladFruit_Button8;
     pSaladFruit_Button8 = BtnCreate(ID_SaladFruit_Button8,191,218,289,255,1,BTN_DRAW,NULL,(XCHAR*)SaladFruit_Button8_Text,GOLScheme_ButtonTx);
 BUTTON *pSaladFruit_Button3;
@@ -2613,9 +2877,9 @@ BUTTON *pSaladFruit_Button6;
 WINDOW *pSaladFetaFruit_Window1;
     pSaladFetaFruit_Window1 = WndCreate(ID_SaladFetaFruit_Window1,0,0,480,42,WND_DRAW|WND_TITLECENTER,NULL,(XCHAR*)SaladFetaFruit_Window1_Text,GOLScheme_WinSch);
 PICTURE *pSaladFetaFruit_Picture1;
-    pSaladFetaFruit_Picture1 = PictCreate(ID_SaladFetaFruit_Picture1,353,64,463,174,PICT_DRAW,1,(void *)&fetafruc,GOLScheme_ButtonTx);
+    pSaladFetaFruit_Picture1 = PictCreate(ID_SaladFetaFruit_Picture1,353,64,463,174,PICT_DRAW,1,(void *)&bmpfetafruc,GOLScheme_ButtonTx);
 EDITBOX *pSaladFetaFruit_EditBox1;
-    pSaladFetaFruit_EditBox1 = EbCreate(ID_SaladFetaFruit_EditBox1,17,64,262,194,EB_DRAW,(XCHAR*)SaladFetaFruit_EditBox1_Text,250,GOLScheme_DescText);
+    pSaladFetaFruit_EditBox1 = EbCreate(ID_SaladFetaFruit_EditBox1,17,64,262,194,EB_DRAW,(XCHAR*)SaladFetaFruit_EditBox1_Text,125,GOLScheme_DescText);
 BUTTON *pSaladFetaFruit_Button8;
     pSaladFetaFruit_Button8 = BtnCreate(ID_SaladFetaFruit_Button8,191,218,289,255,1,BTN_DRAW,NULL,(XCHAR*)SaladFetaFruit_Button8_Text,GOLScheme_ButtonTx);
 BUTTON *pSaladFetaFruit_Button3;
@@ -2643,9 +2907,9 @@ BUTTON *pSaladFetaFruit_Button6;
 WINDOW *pSaladBlackenedTil_Window1;
     pSaladBlackenedTil_Window1 = WndCreate(ID_SaladBlackenedTil_Window1,0,0,480,42,WND_DRAW|WND_TITLECENTER,NULL,(XCHAR*)SaladBlackenedTil_Window1_Text,GOLScheme_WinSch);
 PICTURE *pSaladBlackenedTil_Picture1;
-    pSaladBlackenedTil_Picture1 = PictCreate(ID_SaladBlackenedTil_Picture1,353,64,463,174,PICT_DRAW,1,(void *)&blackene,GOLScheme_ButtonTx);
+    pSaladBlackenedTil_Picture1 = PictCreate(ID_SaladBlackenedTil_Picture1,353,64,463,174,PICT_DRAW,1,(void *)&bmpblackene,GOLScheme_ButtonTx);
 EDITBOX *pSaladBlackenedTil_EditBox1;
-    pSaladBlackenedTil_EditBox1 = EbCreate(ID_SaladBlackenedTil_EditBox1,17,64,262,194,EB_DRAW,(XCHAR*)SaladBlackenedTil_EditBox1_Text,250,GOLScheme_DescText);
+    pSaladBlackenedTil_EditBox1 = EbCreate(ID_SaladBlackenedTil_EditBox1,17,64,262,194,EB_DRAW,(XCHAR*)SaladBlackenedTil_EditBox1_Text,80,GOLScheme_DescText);
 BUTTON *pSaladBlackenedTil_Button8;
     pSaladBlackenedTil_Button8 = BtnCreate(ID_SaladBlackenedTil_Button8,191,218,289,255,1,BTN_DRAW,NULL,(XCHAR*)SaladBlackenedTil_Button8_Text,GOLScheme_ButtonTx);
 BUTTON *pSaladBlackenedTil_Button3;
@@ -2673,9 +2937,9 @@ BUTTON *pSaladBlackenedTil_Button6;
 WINDOW *pSaladGarden_Window1;
     pSaladGarden_Window1 = WndCreate(ID_SaladGarden_Window1,0,0,480,42,WND_DRAW|WND_TITLECENTER,NULL,(XCHAR*)SaladGarden_Window1_Text,GOLScheme_WinSch);
 PICTURE *pSaladGarden_Picture1;
-    pSaladGarden_Picture1 = PictCreate(ID_SaladGarden_Picture1,353,64,463,174,PICT_DRAW,1,(void *)&GardenBu,GOLScheme_ButtonTx);
+    pSaladGarden_Picture1 = PictCreate(ID_SaladGarden_Picture1,353,64,463,174,PICT_DRAW,1,(void *)&bmpGardenBu,GOLScheme_ButtonTx);
 EDITBOX *pSaladGarden_EditBox1;
-    pSaladGarden_EditBox1 = EbCreate(ID_SaladGarden_EditBox1,17,64,262,194,EB_DRAW,(XCHAR*)SaladGarden_EditBox1_Text,250,GOLScheme_DescText);
+    pSaladGarden_EditBox1 = EbCreate(ID_SaladGarden_EditBox1,17,64,262,194,EB_DRAW,(XCHAR*)SaladGarden_EditBox1_Text,109,GOLScheme_DescText);
 BUTTON *pSaladGarden_Button8;
     pSaladGarden_Button8 = BtnCreate(ID_SaladGarden_Button8,191,218,289,255,1,BTN_DRAW,NULL,(XCHAR*)SaladGarden_Button8_Text,GOLScheme_ButtonTx);
 BUTTON *pSaladGarden_Button3;
@@ -2703,9 +2967,9 @@ BUTTON *pSaladGarden_Button6;
 WINDOW *pSaladBaconator_Window1;
     pSaladBaconator_Window1 = WndCreate(ID_SaladBaconator_Window1,0,0,480,42,WND_DRAW|WND_TITLECENTER,NULL,(XCHAR*)SaladBaconator_Window1_Text,GOLScheme_WinSch);
 PICTURE *pSaladBaconator_Picture1;
-    pSaladBaconator_Picture1 = PictCreate(ID_SaladBaconator_Picture1,353,64,463,174,PICT_DRAW,1,(void *)&baconSal,GOLScheme_ButtonTx);
+    pSaladBaconator_Picture1 = PictCreate(ID_SaladBaconator_Picture1,353,64,463,174,PICT_DRAW,1,(void *)&bmpbaconSal,GOLScheme_ButtonTx);
 EDITBOX *pSaladBaconator_EditBox1;
-    pSaladBaconator_EditBox1 = EbCreate(ID_SaladBaconator_EditBox1,17,64,262,194,EB_DRAW,(XCHAR*)SaladBaconator_EditBox1_Text,250,GOLScheme_DescText);
+    pSaladBaconator_EditBox1 = EbCreate(ID_SaladBaconator_EditBox1,17,64,262,194,EB_DRAW,(XCHAR*)SaladBaconator_EditBox1_Text,96,GOLScheme_DescText);
 BUTTON *pSaladBaconator_Button8;
     pSaladBaconator_Button8 = BtnCreate(ID_SaladBaconator_Button8,191,218,289,255,1,BTN_DRAW,NULL,(XCHAR*)SaladBaconator_Button8_Text,GOLScheme_ButtonTx);
 BUTTON *pSaladBaconator_Button3;
@@ -2733,13 +2997,13 @@ BUTTON *pSaladBaconator_Button6;
 WINDOW *pDessApple_Window1;
     pDessApple_Window1 = WndCreate(ID_DessApple_Window1,0,0,480,42,WND_DRAW|WND_TITLECENTER,NULL,(XCHAR*)DessApple_Window1_Text,GOLScheme_WinSch);
 PICTURE *pDessApple_Picture1;
-    pDessApple_Picture1 = PictCreate(ID_DessApple_Picture1,353,64,463,174,PICT_DRAW,1,(void *)&apple,GOLScheme_ButtonTx);
+    pDessApple_Picture1 = PictCreate(ID_DessApple_Picture1,353,64,463,174,PICT_DRAW,1,(void *)&bmpapple,GOLScheme_ButtonTx);
 EDITBOX *pDessApple_EditBox1;
-    pDessApple_EditBox1 = EbCreate(ID_DessApple_EditBox1,17,64,262,194,EB_DRAW,(XCHAR*)DessApple_EditBox1_Text,250,GOLScheme_DescText);
+    pDessApple_EditBox1 = EbCreate(ID_DessApple_EditBox1,17,64,262,194,EB_DRAW,(XCHAR*)DessApple_EditBox1_Text,51,GOLScheme_DescText);
 BUTTON *pDessApple_Button8;
-    pDessApple_Button8 = BtnCreate(ID_DessApple_Button8,306,218,404,255,1,BTN_DRAW,NULL,(XCHAR*)DessApple_Button8_Text,GOLScheme_ButtonTx);
+    pDessApple_Button8 = BtnCreate(ID_DessApple_Button8,191,218,289,255,1,BTN_DRAW,NULL,(XCHAR*)DessApple_Button8_Text,GOLScheme_ButtonTx);
 BUTTON *pDessApple_Button3;
-    pDessApple_Button3 = BtnCreate(ID_DessApple_Button3,191,218,289,255,1,BTN_DRAW,NULL,(XCHAR*)DessApple_Button3_Text,GOLScheme_ButtonTx);
+    pDessApple_Button3 = BtnCreate(ID_DessApple_Button3,306,218,404,255,1,BTN_DRAW,NULL,(XCHAR*)DessApple_Button3_Text,GOLScheme_ButtonTx);
 BUTTON *pDessApple_Button4;
     pDessApple_Button4 = BtnCreate(ID_DessApple_Button4,76,218,174,255,1,BTN_DRAW,NULL,(XCHAR*)DessApple_Button4_Text,GOLScheme_ButtonTx);
 BUTTON *pDessApple_Button5;
@@ -2799,13 +3063,13 @@ BUTTON *pDessertsList_Button12;
 WINDOW *pDessBlue_Window1;
     pDessBlue_Window1 = WndCreate(ID_DessBlue_Window1,0,0,480,42,WND_DRAW|WND_TITLECENTER,NULL,(XCHAR*)DessBlue_Window1_Text,GOLScheme_WinSch);
 PICTURE *pDessBlue_Picture1;
-    pDessBlue_Picture1 = PictCreate(ID_DessBlue_Picture1,353,64,463,174,PICT_DRAW,1,(void *)&blueberr,GOLScheme_ButtonTx);
+    pDessBlue_Picture1 = PictCreate(ID_DessBlue_Picture1,353,64,463,174,PICT_DRAW,1,(void *)&bmpblueberr,GOLScheme_ButtonTx);
 EDITBOX *pDessBlue_EditBox1;
-    pDessBlue_EditBox1 = EbCreate(ID_DessBlue_EditBox1,17,64,262,194,EB_DRAW,(XCHAR*)DessBlue_EditBox1_Text,250,GOLScheme_DescText);
+    pDessBlue_EditBox1 = EbCreate(ID_DessBlue_EditBox1,17,64,262,194,EB_DRAW,(XCHAR*)DessBlue_EditBox1_Text,66,GOLScheme_DescText);
 BUTTON *pDessBlue_Button8;
-    pDessBlue_Button8 = BtnCreate(ID_DessBlue_Button8,306,218,404,255,1,BTN_DRAW,NULL,(XCHAR*)DessBlue_Button8_Text,GOLScheme_ButtonTx);
+    pDessBlue_Button8 = BtnCreate(ID_DessBlue_Button8,191,218,289,255,1,BTN_DRAW,NULL,(XCHAR*)DessBlue_Button8_Text,GOLScheme_ButtonTx);
 BUTTON *pDessBlue_Button3;
-    pDessBlue_Button3 = BtnCreate(ID_DessBlue_Button3,191,218,289,255,1,BTN_DRAW,NULL,(XCHAR*)DessBlue_Button3_Text,GOLScheme_ButtonTx);
+    pDessBlue_Button3 = BtnCreate(ID_DessBlue_Button3,306,218,404,255,1,BTN_DRAW,NULL,(XCHAR*)DessBlue_Button3_Text,GOLScheme_ButtonTx);
 BUTTON *pDessBlue_Button4;
     pDessBlue_Button4 = BtnCreate(ID_DessBlue_Button4,76,218,174,255,1,BTN_DRAW,NULL,(XCHAR*)DessBlue_Button4_Text,GOLScheme_ButtonTx);
 BUTTON *pDessBlue_Button5;
@@ -2829,13 +3093,13 @@ BUTTON *pDessBlue_Button6;
 WINDOW *pDessBrownie_Window1;
     pDessBrownie_Window1 = WndCreate(ID_DessBrownie_Window1,0,0,480,42,WND_DRAW|WND_TITLECENTER,NULL,(XCHAR*)DessBrownie_Window1_Text,GOLScheme_WinSch);
 PICTURE *pDessBrownie_Picture1;
-    pDessBrownie_Picture1 = PictCreate(ID_DessBrownie_Picture1,353,64,463,174,PICT_DRAW,1,(void *)&Brownie,GOLScheme_ButtonTx);
+    pDessBrownie_Picture1 = PictCreate(ID_DessBrownie_Picture1,353,64,463,174,PICT_DRAW,1,(void *)&bmpBrownie,GOLScheme_ButtonTx);
 EDITBOX *pDessBrownie_EditBox1;
-    pDessBrownie_EditBox1 = EbCreate(ID_DessBrownie_EditBox1,17,64,262,194,EB_DRAW,(XCHAR*)DessBrownie_EditBox1_Text,250,GOLScheme_DescText);
+    pDessBrownie_EditBox1 = EbCreate(ID_DessBrownie_EditBox1,17,64,262,194,EB_DRAW,(XCHAR*)DessBrownie_EditBox1_Text,88,GOLScheme_DescText);
 BUTTON *pDessBrownie_Button8;
-    pDessBrownie_Button8 = BtnCreate(ID_DessBrownie_Button8,306,218,404,255,1,BTN_DRAW,NULL,(XCHAR*)DessBrownie_Button8_Text,GOLScheme_ButtonTx);
+    pDessBrownie_Button8 = BtnCreate(ID_DessBrownie_Button8,191,218,289,255,1,BTN_DRAW,NULL,(XCHAR*)DessBrownie_Button8_Text,GOLScheme_ButtonTx);
 BUTTON *pDessBrownie_Button3;
-    pDessBrownie_Button3 = BtnCreate(ID_DessBrownie_Button3,191,218,289,255,1,BTN_DRAW,NULL,(XCHAR*)DessBrownie_Button3_Text,GOLScheme_ButtonTx);
+    pDessBrownie_Button3 = BtnCreate(ID_DessBrownie_Button3,306,218,404,255,1,BTN_DRAW,NULL,(XCHAR*)DessBrownie_Button3_Text,GOLScheme_ButtonTx);
 BUTTON *pDessBrownie_Button4;
     pDessBrownie_Button4 = BtnCreate(ID_DessBrownie_Button4,76,218,174,255,1,BTN_DRAW,NULL,(XCHAR*)DessBrownie_Button4_Text,GOLScheme_ButtonTx);
 BUTTON *pDessBrownie_Button5;
@@ -2859,13 +3123,13 @@ BUTTON *pDessBrownie_Button6;
 WINDOW *pDessMousse_Window1;
     pDessMousse_Window1 = WndCreate(ID_DessMousse_Window1,0,0,480,42,WND_DRAW|WND_TITLECENTER,NULL,(XCHAR*)DessMousse_Window1_Text,GOLScheme_WinSch);
 PICTURE *pDessMousse_Picture1;
-    pDessMousse_Picture1 = PictCreate(ID_DessMousse_Picture1,353,64,463,174,PICT_DRAW,1,(void *)&Mousse,GOLScheme_ButtonTx);
+    pDessMousse_Picture1 = PictCreate(ID_DessMousse_Picture1,353,64,463,174,PICT_DRAW,1,(void *)&bmpMousse,GOLScheme_ButtonTx);
 EDITBOX *pDessMousse_EditBox1;
-    pDessMousse_EditBox1 = EbCreate(ID_DessMousse_EditBox1,17,64,262,194,EB_DRAW,(XCHAR*)DessMousse_EditBox1_Text,250,GOLScheme_DescText);
+    pDessMousse_EditBox1 = EbCreate(ID_DessMousse_EditBox1,17,64,262,194,EB_DRAW,(XCHAR*)DessMousse_EditBox1_Text,44,GOLScheme_DescText);
 BUTTON *pDessMousse_Button8;
-    pDessMousse_Button8 = BtnCreate(ID_DessMousse_Button8,306,218,404,255,1,BTN_DRAW,NULL,(XCHAR*)DessMousse_Button8_Text,GOLScheme_ButtonTx);
+    pDessMousse_Button8 = BtnCreate(ID_DessMousse_Button8,191,218,289,255,1,BTN_DRAW,NULL,(XCHAR*)DessMousse_Button8_Text,GOLScheme_ButtonTx);
 BUTTON *pDessMousse_Button3;
-    pDessMousse_Button3 = BtnCreate(ID_DessMousse_Button3,191,218,289,255,1,BTN_DRAW,NULL,(XCHAR*)DessMousse_Button3_Text,GOLScheme_ButtonTx);
+    pDessMousse_Button3 = BtnCreate(ID_DessMousse_Button3,306,218,404,255,1,BTN_DRAW,NULL,(XCHAR*)DessMousse_Button3_Text,GOLScheme_ButtonTx);
 BUTTON *pDessMousse_Button4;
     pDessMousse_Button4 = BtnCreate(ID_DessMousse_Button4,76,218,174,255,1,BTN_DRAW,NULL,(XCHAR*)DessMousse_Button4_Text,GOLScheme_ButtonTx);
 BUTTON *pDessMousse_Button5;
@@ -2889,13 +3153,13 @@ BUTTON *pDessMousse_Button6;
 WINDOW *pDessPeanut_Window1;
     pDessPeanut_Window1 = WndCreate(ID_DessPeanut_Window1,0,0,480,42,WND_DRAW|WND_TITLECENTER,NULL,(XCHAR*)DessPeanut_Window1_Text,GOLScheme_WinSch);
 PICTURE *pDessPeanut_Picture1;
-    pDessPeanut_Picture1 = PictCreate(ID_DessPeanut_Picture1,353,64,463,174,PICT_DRAW,1,(void *)&peanut,GOLScheme_ButtonTx);
+    pDessPeanut_Picture1 = PictCreate(ID_DessPeanut_Picture1,353,64,463,174,PICT_DRAW,1,(void *)&bmppeanut,GOLScheme_ButtonTx);
 EDITBOX *pDessPeanut_EditBox1;
-    pDessPeanut_EditBox1 = EbCreate(ID_DessPeanut_EditBox1,17,64,262,194,EB_DRAW,(XCHAR*)DessPeanut_EditBox1_Text,250,GOLScheme_DescText);
+    pDessPeanut_EditBox1 = EbCreate(ID_DessPeanut_EditBox1,17,64,262,194,EB_DRAW,(XCHAR*)DessPeanut_EditBox1_Text,76,GOLScheme_DescText);
 BUTTON *pDessPeanut_Button8;
-    pDessPeanut_Button8 = BtnCreate(ID_DessPeanut_Button8,306,218,404,255,1,BTN_DRAW,NULL,(XCHAR*)DessPeanut_Button8_Text,GOLScheme_ButtonTx);
+    pDessPeanut_Button8 = BtnCreate(ID_DessPeanut_Button8,191,218,289,255,1,BTN_DRAW,NULL,(XCHAR*)DessPeanut_Button8_Text,GOLScheme_ButtonTx);
 BUTTON *pDessPeanut_Button3;
-    pDessPeanut_Button3 = BtnCreate(ID_DessPeanut_Button3,191,218,289,255,1,BTN_DRAW,NULL,(XCHAR*)DessPeanut_Button3_Text,GOLScheme_ButtonTx);
+    pDessPeanut_Button3 = BtnCreate(ID_DessPeanut_Button3,306,218,404,255,1,BTN_DRAW,NULL,(XCHAR*)DessPeanut_Button3_Text,GOLScheme_ButtonTx);
 BUTTON *pDessPeanut_Button4;
     pDessPeanut_Button4 = BtnCreate(ID_DessPeanut_Button4,76,218,174,255,1,BTN_DRAW,NULL,(XCHAR*)DessPeanut_Button4_Text,GOLScheme_ButtonTx);
 BUTTON *pDessPeanut_Button5;
@@ -2919,13 +3183,13 @@ BUTTON *pDessPeanut_Button6;
 WINDOW *pDessRedVel_Window1;
     pDessRedVel_Window1 = WndCreate(ID_DessRedVel_Window1,0,0,480,42,WND_DRAW|WND_TITLECENTER,NULL,(XCHAR*)DessRedVel_Window1_Text,GOLScheme_WinSch);
 PICTURE *pDessRedVel_Picture1;
-    pDessRedVel_Picture1 = PictCreate(ID_DessRedVel_Picture1,353,64,463,174,PICT_DRAW,1,(void *)&redvel,GOLScheme_ButtonTx);
+    pDessRedVel_Picture1 = PictCreate(ID_DessRedVel_Picture1,353,64,463,174,PICT_DRAW,1,(void *)&bmpredvel,GOLScheme_ButtonTx);
 EDITBOX *pDessRedVel_EditBox1;
-    pDessRedVel_EditBox1 = EbCreate(ID_DessRedVel_EditBox1,17,64,262,194,EB_DRAW,(XCHAR*)DessRedVel_EditBox1_Text,250,GOLScheme_DescText);
+    pDessRedVel_EditBox1 = EbCreate(ID_DessRedVel_EditBox1,17,64,262,194,EB_DRAW,(XCHAR*)DessRedVel_EditBox1_Text,44,GOLScheme_DescText);
 BUTTON *pDessRedVel_Button8;
-    pDessRedVel_Button8 = BtnCreate(ID_DessRedVel_Button8,306,218,404,255,1,BTN_DRAW,NULL,(XCHAR*)DessRedVel_Button8_Text,GOLScheme_ButtonTx);
+    pDessRedVel_Button8 = BtnCreate(ID_DessRedVel_Button8,191,218,289,255,1,BTN_DRAW,NULL,(XCHAR*)DessRedVel_Button8_Text,GOLScheme_ButtonTx);
 BUTTON *pDessRedVel_Button3;
-    pDessRedVel_Button3 = BtnCreate(ID_DessRedVel_Button3,191,218,289,255,1,BTN_DRAW,NULL,(XCHAR*)DessRedVel_Button3_Text,GOLScheme_ButtonTx);
+    pDessRedVel_Button3 = BtnCreate(ID_DessRedVel_Button3,306,218,404,255,1,BTN_DRAW,NULL,(XCHAR*)DessRedVel_Button3_Text,GOLScheme_ButtonTx);
 BUTTON *pDessRedVel_Button4;
     pDessRedVel_Button4 = BtnCreate(ID_DessRedVel_Button4,76,218,174,255,1,BTN_DRAW,NULL,(XCHAR*)DessRedVel_Button4_Text,GOLScheme_ButtonTx);
 BUTTON *pDessRedVel_Button5;
@@ -2949,13 +3213,13 @@ BUTTON *pDessRedVel_Button6;
 WINDOW *pDessStraw_Window1;
     pDessStraw_Window1 = WndCreate(ID_DessStraw_Window1,0,0,480,42,WND_DRAW|WND_TITLECENTER,NULL,(XCHAR*)DessStraw_Window1_Text,GOLScheme_WinSch);
 PICTURE *pDessStraw_Picture1;
-    pDessStraw_Picture1 = PictCreate(ID_DessStraw_Picture1,353,64,463,174,PICT_DRAW,1,(void *)&Strawb,GOLScheme_ButtonTx);
+    pDessStraw_Picture1 = PictCreate(ID_DessStraw_Picture1,353,64,463,174,PICT_DRAW,1,(void *)&bmpStrawb,GOLScheme_ButtonTx);
 EDITBOX *pDessStraw_EditBox1;
-    pDessStraw_EditBox1 = EbCreate(ID_DessStraw_EditBox1,17,64,262,194,EB_DRAW,(XCHAR*)DessStraw_EditBox1_Text,250,GOLScheme_DescText);
+    pDessStraw_EditBox1 = EbCreate(ID_DessStraw_EditBox1,17,64,262,194,EB_DRAW,(XCHAR*)DessStraw_EditBox1_Text,56,GOLScheme_DescText);
 BUTTON *pDessStraw_Button8;
-    pDessStraw_Button8 = BtnCreate(ID_DessStraw_Button8,306,218,404,255,1,BTN_DRAW,NULL,(XCHAR*)DessStraw_Button8_Text,GOLScheme_ButtonTx);
+    pDessStraw_Button8 = BtnCreate(ID_DessStraw_Button8,191,218,289,255,1,BTN_DRAW,NULL,(XCHAR*)DessStraw_Button8_Text,GOLScheme_ButtonTx);
 BUTTON *pDessStraw_Button3;
-    pDessStraw_Button3 = BtnCreate(ID_DessStraw_Button3,191,218,289,255,1,BTN_DRAW,NULL,(XCHAR*)DessStraw_Button3_Text,GOLScheme_ButtonTx);
+    pDessStraw_Button3 = BtnCreate(ID_DessStraw_Button3,306,218,404,255,1,BTN_DRAW,NULL,(XCHAR*)DessStraw_Button3_Text,GOLScheme_ButtonTx);
 BUTTON *pDessStraw_Button4;
     pDessStraw_Button4 = BtnCreate(ID_DessStraw_Button4,76,218,174,255,1,BTN_DRAW,NULL,(XCHAR*)DessStraw_Button4_Text,GOLScheme_ButtonTx);
 BUTTON *pDessStraw_Button5;
@@ -2979,13 +3243,13 @@ BUTTON *pDessStraw_Button6;
 WINDOW *pDessSundae_Window1;
     pDessSundae_Window1 = WndCreate(ID_DessSundae_Window1,0,0,480,42,WND_DRAW|WND_TITLECENTER,NULL,(XCHAR*)DessSundae_Window1_Text,GOLScheme_WinSch);
 PICTURE *pDessSundae_Picture1;
-    pDessSundae_Picture1 = PictCreate(ID_DessSundae_Picture1,353,64,463,174,PICT_DRAW,1,(void *)&Sundae,GOLScheme_ButtonTx);
+    pDessSundae_Picture1 = PictCreate(ID_DessSundae_Picture1,353,64,463,174,PICT_DRAW,1,(void *)&bmpSundae,GOLScheme_ButtonTx);
 EDITBOX *pDessSundae_EditBox1;
-    pDessSundae_EditBox1 = EbCreate(ID_DessSundae_EditBox1,17,64,262,194,EB_DRAW,(XCHAR*)DessSundae_EditBox1_Text,250,GOLScheme_DescText);
+    pDessSundae_EditBox1 = EbCreate(ID_DessSundae_EditBox1,17,64,262,194,EB_DRAW,(XCHAR*)DessSundae_EditBox1_Text,70,GOLScheme_DescText);
 BUTTON *pDessSundae_Button8;
-    pDessSundae_Button8 = BtnCreate(ID_DessSundae_Button8,306,218,404,255,1,BTN_DRAW,NULL,(XCHAR*)DessSundae_Button8_Text,GOLScheme_ButtonTx);
+    pDessSundae_Button8 = BtnCreate(ID_DessSundae_Button8,191,218,289,255,1,BTN_DRAW,NULL,(XCHAR*)DessSundae_Button8_Text,GOLScheme_ButtonTx);
 BUTTON *pDessSundae_Button3;
-    pDessSundae_Button3 = BtnCreate(ID_DessSundae_Button3,191,218,289,255,1,BTN_DRAW,NULL,(XCHAR*)DessSundae_Button3_Text,GOLScheme_ButtonTx);
+    pDessSundae_Button3 = BtnCreate(ID_DessSundae_Button3,306,218,404,255,1,BTN_DRAW,NULL,(XCHAR*)DessSundae_Button3_Text,GOLScheme_ButtonTx);
 BUTTON *pDessSundae_Button4;
     pDessSundae_Button4 = BtnCreate(ID_DessSundae_Button4,76,218,174,255,1,BTN_DRAW,NULL,(XCHAR*)DessSundae_Button4_Text,GOLScheme_ButtonTx);
 BUTTON *pDessSundae_Button5;
@@ -3009,9 +3273,9 @@ BUTTON *pDessSundae_Button6;
 WINDOW *pDinCornBeef_Window1;
     pDinCornBeef_Window1 = WndCreate(ID_DinCornBeef_Window1,0,0,480,42,WND_DRAW|WND_TITLECENTER,NULL,(XCHAR*)DinCornBeef_Window1_Text,GOLScheme_WinSch);
 PICTURE *pDinCornBeef_Picture1;
-    pDinCornBeef_Picture1 = PictCreate(ID_DinCornBeef_Picture1,353,64,463,174,PICT_DRAW,1,(void *)&cabbage,GOLScheme_ButtonTx);
+    pDinCornBeef_Picture1 = PictCreate(ID_DinCornBeef_Picture1,353,64,463,174,PICT_DRAW,1,(void *)&bmpcabbage,GOLScheme_ButtonTx);
 EDITBOX *pDinCornBeef_EditBox1;
-    pDinCornBeef_EditBox1 = EbCreate(ID_DinCornBeef_EditBox1,17,64,262,194,EB_DRAW,(XCHAR*)DinCornBeef_EditBox1_Text,250,GOLScheme_DescText);
+    pDinCornBeef_EditBox1 = EbCreate(ID_DinCornBeef_EditBox1,17,64,262,194,EB_DRAW,(XCHAR*)DinCornBeef_EditBox1_Text,86,GOLScheme_DescText);
 BUTTON *pDinCornBeef_Button8;
     pDinCornBeef_Button8 = BtnCreate(ID_DinCornBeef_Button8,191,218,289,255,1,BTN_DRAW,NULL,(XCHAR*)DinCornBeef_Button8_Text,GOLScheme_ButtonTx);
 BUTTON *pDinCornBeef_Button3;
@@ -3079,9 +3343,9 @@ BUTTON *pDinnerList_Button12;
 WINDOW *pDinFriedChiken_Window1;
     pDinFriedChiken_Window1 = WndCreate(ID_DinFriedChiken_Window1,0,0,480,42,WND_DRAW|WND_TITLECENTER,NULL,(XCHAR*)DinFriedChiken_Window1_Text,GOLScheme_WinSch);
 PICTURE *pDinFriedChiken_Picture1;
-    pDinFriedChiken_Picture1 = PictCreate(ID_DinFriedChiken_Picture1,353,64,463,174,PICT_DRAW,1,(void *)&FrChx,GOLScheme_ButtonTx);
+    pDinFriedChiken_Picture1 = PictCreate(ID_DinFriedChiken_Picture1,353,64,463,174,PICT_DRAW,1,(void *)&bmpFrChx,GOLScheme_ButtonTx);
 EDITBOX *pDinFriedChiken_EditBox1;
-    pDinFriedChiken_EditBox1 = EbCreate(ID_DinFriedChiken_EditBox1,17,64,262,194,EB_DRAW,(XCHAR*)DinFriedChiken_EditBox1_Text,250,GOLScheme_DescText);
+    pDinFriedChiken_EditBox1 = EbCreate(ID_DinFriedChiken_EditBox1,17,64,262,194,EB_DRAW,(XCHAR*)DinFriedChiken_EditBox1_Text,85,GOLScheme_DescText);
 BUTTON *pDinFriedChiken_Button8;
     pDinFriedChiken_Button8 = BtnCreate(ID_DinFriedChiken_Button8,191,218,289,255,1,BTN_DRAW,NULL,(XCHAR*)DinFriedChiken_Button8_Text,GOLScheme_ButtonTx);
 BUTTON *pDinFriedChiken_Button3;
@@ -3109,9 +3373,9 @@ BUTTON *pDinFriedChiken_Button6;
 WINDOW *pDinGrilledChicken_Window1;
     pDinGrilledChicken_Window1 = WndCreate(ID_DinGrilledChicken_Window1,0,0,480,42,WND_DRAW|WND_TITLECENTER,NULL,(XCHAR*)DinGrilledChicken_Window1_Text,GOLScheme_WinSch);
 PICTURE *pDinGrilledChicken_Picture1;
-    pDinGrilledChicken_Picture1 = PictCreate(ID_DinGrilledChicken_Picture1,353,64,463,174,PICT_DRAW,1,(void *)&GrChx,GOLScheme_ButtonTx);
+    pDinGrilledChicken_Picture1 = PictCreate(ID_DinGrilledChicken_Picture1,353,64,463,174,PICT_DRAW,1,(void *)&bmpGrChx,GOLScheme_ButtonTx);
 EDITBOX *pDinGrilledChicken_EditBox1;
-    pDinGrilledChicken_EditBox1 = EbCreate(ID_DinGrilledChicken_EditBox1,17,64,262,194,EB_DRAW,(XCHAR*)DinGrilledChicken_EditBox1_Text,250,GOLScheme_DescText);
+    pDinGrilledChicken_EditBox1 = EbCreate(ID_DinGrilledChicken_EditBox1,17,64,262,194,EB_DRAW,(XCHAR*)DinGrilledChicken_EditBox1_Text,87,GOLScheme_DescText);
 BUTTON *pDinGrilledChicken_Button8;
     pDinGrilledChicken_Button8 = BtnCreate(ID_DinGrilledChicken_Button8,191,218,289,255,1,BTN_DRAW,NULL,(XCHAR*)DinGrilledChicken_Button8_Text,GOLScheme_ButtonTx);
 BUTTON *pDinGrilledChicken_Button3;
@@ -3139,9 +3403,9 @@ BUTTON *pDinGrilledChicken_Button6;
 WINDOW *pDinLasagna_Window1;
     pDinLasagna_Window1 = WndCreate(ID_DinLasagna_Window1,0,0,480,42,WND_DRAW|WND_TITLECENTER,NULL,(XCHAR*)DinLasagna_Window1_Text,GOLScheme_WinSch);
 PICTURE *pDinLasagna_Picture1;
-    pDinLasagna_Picture1 = PictCreate(ID_DinLasagna_Picture1,353,64,463,174,PICT_DRAW,1,(void *)&Lasagna,GOLScheme_ButtonTx);
+    pDinLasagna_Picture1 = PictCreate(ID_DinLasagna_Picture1,353,64,463,174,PICT_DRAW,1,(void *)&bmpLasagna,GOLScheme_ButtonTx);
 EDITBOX *pDinLasagna_EditBox1;
-    pDinLasagna_EditBox1 = EbCreate(ID_DinLasagna_EditBox1,17,64,262,194,EB_DRAW,(XCHAR*)DinLasagna_EditBox1_Text,250,GOLScheme_DescText);
+    pDinLasagna_EditBox1 = EbCreate(ID_DinLasagna_EditBox1,17,64,262,194,EB_DRAW,(XCHAR*)DinLasagna_EditBox1_Text,89,GOLScheme_DescText);
 BUTTON *pDinLasagna_Button8;
     pDinLasagna_Button8 = BtnCreate(ID_DinLasagna_Button8,191,218,289,255,1,BTN_DRAW,NULL,(XCHAR*)DinLasagna_Button8_Text,GOLScheme_ButtonTx);
 BUTTON *pDinLasagna_Button3;
@@ -3169,9 +3433,9 @@ BUTTON *pDinLasagna_Button6;
 WINDOW *pDinMarPizza_Window1;
     pDinMarPizza_Window1 = WndCreate(ID_DinMarPizza_Window1,0,0,480,42,WND_DRAW|WND_TITLECENTER,NULL,(XCHAR*)DinMarPizza_Window1_Text,GOLScheme_WinSch);
 PICTURE *pDinMarPizza_Picture1;
-    pDinMarPizza_Picture1 = PictCreate(ID_DinMarPizza_Picture1,353,64,463,174,PICT_DRAW,1,(void *)&MPizza,GOLScheme_ButtonTx);
+    pDinMarPizza_Picture1 = PictCreate(ID_DinMarPizza_Picture1,353,64,463,174,PICT_DRAW,1,(void *)&bmpMPizza,GOLScheme_ButtonTx);
 EDITBOX *pDinMarPizza_EditBox1;
-    pDinMarPizza_EditBox1 = EbCreate(ID_DinMarPizza_EditBox1,17,64,262,194,EB_DRAW,(XCHAR*)DinMarPizza_EditBox1_Text,250,GOLScheme_DescText);
+    pDinMarPizza_EditBox1 = EbCreate(ID_DinMarPizza_EditBox1,17,64,262,194,EB_DRAW,(XCHAR*)DinMarPizza_EditBox1_Text,77,GOLScheme_DescText);
 BUTTON *pDinMarPizza_Button8;
     pDinMarPizza_Button8 = BtnCreate(ID_DinMarPizza_Button8,191,218,289,255,1,BTN_DRAW,NULL,(XCHAR*)DinMarPizza_Button8_Text,GOLScheme_ButtonTx);
 BUTTON *pDinMarPizza_Button3;
@@ -3199,9 +3463,9 @@ BUTTON *pDinMarPizza_Button6;
 WINDOW *pDinQuesadilla_Window1;
     pDinQuesadilla_Window1 = WndCreate(ID_DinQuesadilla_Window1,0,0,480,42,WND_DRAW|WND_TITLECENTER,NULL,(XCHAR*)DinQuesadilla_Window1_Text,GOLScheme_WinSch);
 PICTURE *pDinQuesadilla_Picture1;
-    pDinQuesadilla_Picture1 = PictCreate(ID_DinQuesadilla_Picture1,353,64,463,174,PICT_DRAW,1,(void *)&Quesd,GOLScheme_ButtonTx);
+    pDinQuesadilla_Picture1 = PictCreate(ID_DinQuesadilla_Picture1,353,64,463,174,PICT_DRAW,1,(void *)&bmpQuesd,GOLScheme_ButtonTx);
 EDITBOX *pDinQuesadilla_EditBox1;
-    pDinQuesadilla_EditBox1 = EbCreate(ID_DinQuesadilla_EditBox1,17,64,262,194,EB_DRAW,(XCHAR*)DinQuesadilla_EditBox1_Text,250,GOLScheme_DescText);
+    pDinQuesadilla_EditBox1 = EbCreate(ID_DinQuesadilla_EditBox1,17,64,262,194,EB_DRAW,(XCHAR*)DinQuesadilla_EditBox1_Text,115,GOLScheme_DescText);
 BUTTON *pDinQuesadilla_Button8;
     pDinQuesadilla_Button8 = BtnCreate(ID_DinQuesadilla_Button8,191,218,289,255,1,BTN_DRAW,NULL,(XCHAR*)DinQuesadilla_Button8_Text,GOLScheme_ButtonTx);
 BUTTON *pDinQuesadilla_Button3;
@@ -3229,9 +3493,9 @@ BUTTON *pDinQuesadilla_Button6;
 WINDOW *pDinSpaghetti_Window1;
     pDinSpaghetti_Window1 = WndCreate(ID_DinSpaghetti_Window1,0,0,480,42,WND_DRAW|WND_TITLECENTER,NULL,(XCHAR*)DinSpaghetti_Window1_Text,GOLScheme_WinSch);
 PICTURE *pDinSpaghetti_Picture1;
-    pDinSpaghetti_Picture1 = PictCreate(ID_DinSpaghetti_Picture1,353,64,463,174,PICT_DRAW,1,(void *)&spagmeat,GOLScheme_ButtonTx);
+    pDinSpaghetti_Picture1 = PictCreate(ID_DinSpaghetti_Picture1,353,64,463,174,PICT_DRAW,1,(void *)&bmpspagmeat,GOLScheme_ButtonTx);
 EDITBOX *pDinSpaghetti_EditBox1;
-    pDinSpaghetti_EditBox1 = EbCreate(ID_DinSpaghetti_EditBox1,17,64,262,194,EB_DRAW,(XCHAR*)DinSpaghetti_EditBox1_Text,250,GOLScheme_DescText);
+    pDinSpaghetti_EditBox1 = EbCreate(ID_DinSpaghetti_EditBox1,17,64,262,194,EB_DRAW,(XCHAR*)DinSpaghetti_EditBox1_Text,88,GOLScheme_DescText);
 BUTTON *pDinSpaghetti_Button8;
     pDinSpaghetti_Button8 = BtnCreate(ID_DinSpaghetti_Button8,191,218,289,255,1,BTN_DRAW,NULL,(XCHAR*)DinSpaghetti_Button8_Text,GOLScheme_ButtonTx);
 BUTTON *pDinSpaghetti_Button3;
@@ -3259,9 +3523,9 @@ BUTTON *pDinSpaghetti_Button6;
 WINDOW *pDinSteak_Window1;
     pDinSteak_Window1 = WndCreate(ID_DinSteak_Window1,0,0,480,42,WND_DRAW|WND_TITLECENTER,NULL,(XCHAR*)DinSteak_Window1_Text,GOLScheme_WinSch);
 PICTURE *pDinSteak_Picture1;
-    pDinSteak_Picture1 = PictCreate(ID_DinSteak_Picture1,353,64,463,174,PICT_DRAW,1,(void *)&Steak,GOLScheme_ButtonTx);
+    pDinSteak_Picture1 = PictCreate(ID_DinSteak_Picture1,353,64,463,174,PICT_DRAW,1,(void *)&bmpSteak,GOLScheme_ButtonTx);
 EDITBOX *pDinSteak_EditBox1;
-    pDinSteak_EditBox1 = EbCreate(ID_DinSteak_EditBox1,17,64,262,194,EB_DRAW,(XCHAR*)DinSteak_EditBox1_Text,250,GOLScheme_DescText);
+    pDinSteak_EditBox1 = EbCreate(ID_DinSteak_EditBox1,17,64,262,194,EB_DRAW,(XCHAR*)DinSteak_EditBox1_Text,81,GOLScheme_DescText);
 BUTTON *pDinSteak_Button8;
     pDinSteak_Button8 = BtnCreate(ID_DinSteak_Button8,191,218,289,255,1,BTN_DRAW,NULL,(XCHAR*)DinSteak_Button8_Text,GOLScheme_ButtonTx);
 BUTTON *pDinSteak_Button3;
@@ -3289,9 +3553,9 @@ BUTTON *pDinSteak_Button6;
 WINDOW *pDinTilapia_Window1;
     pDinTilapia_Window1 = WndCreate(ID_DinTilapia_Window1,0,0,480,42,WND_DRAW|WND_TITLECENTER,NULL,(XCHAR*)DinTilapia_Window1_Text,GOLScheme_WinSch);
 PICTURE *pDinTilapia_Picture1;
-    pDinTilapia_Picture1 = PictCreate(ID_DinTilapia_Picture1,353,64,463,174,PICT_DRAW,1,(void *)&Tilipia,GOLScheme_ButtonTx);
+    pDinTilapia_Picture1 = PictCreate(ID_DinTilapia_Picture1,353,64,463,174,PICT_DRAW,1,(void *)&bmpTilipia,GOLScheme_ButtonTx);
 EDITBOX *pDinTilapia_EditBox1;
-    pDinTilapia_EditBox1 = EbCreate(ID_DinTilapia_EditBox1,17,64,262,194,EB_DRAW,(XCHAR*)DinTilapia_EditBox1_Text,250,GOLScheme_DescText);
+    pDinTilapia_EditBox1 = EbCreate(ID_DinTilapia_EditBox1,17,64,262,194,EB_DRAW,(XCHAR*)DinTilapia_EditBox1_Text,72,GOLScheme_DescText);
 BUTTON *pDinTilapia_Button8;
     pDinTilapia_Button8 = BtnCreate(ID_DinTilapia_Button8,191,218,289,255,1,BTN_DRAW,NULL,(XCHAR*)DinTilapia_Button8_Text,GOLScheme_ButtonTx);
 BUTTON *pDinTilapia_Button3;
@@ -3319,9 +3583,9 @@ BUTTON *pDinTilapia_Button6;
 WINDOW *pDinVegPizza_Window1;
     pDinVegPizza_Window1 = WndCreate(ID_DinVegPizza_Window1,0,0,480,42,WND_DRAW|WND_TITLECENTER,NULL,(XCHAR*)DinVegPizza_Window1_Text,GOLScheme_WinSch);
 PICTURE *pDinVegPizza_Picture1;
-    pDinVegPizza_Picture1 = PictCreate(ID_DinVegPizza_Picture1,353,64,463,174,PICT_DRAW,1,(void *)&VegPizza,GOLScheme_ButtonTx);
+    pDinVegPizza_Picture1 = PictCreate(ID_DinVegPizza_Picture1,353,64,463,174,PICT_DRAW,1,(void *)&bmpVegPizza,GOLScheme_ButtonTx);
 EDITBOX *pDinVegPizza_EditBox1;
-    pDinVegPizza_EditBox1 = EbCreate(ID_DinVegPizza_EditBox1,17,64,262,194,EB_DRAW,(XCHAR*)DinVegPizza_EditBox1_Text,250,GOLScheme_DescText);
+    pDinVegPizza_EditBox1 = EbCreate(ID_DinVegPizza_EditBox1,17,64,262,194,EB_DRAW,(XCHAR*)DinVegPizza_EditBox1_Text,86,GOLScheme_DescText);
 BUTTON *pDinVegPizza_Button8;
     pDinVegPizza_Button8 = BtnCreate(ID_DinVegPizza_Button8,191,218,289,255,1,BTN_DRAW,NULL,(XCHAR*)DinVegPizza_Button8_Text,GOLScheme_ButtonTx);
 BUTTON *pDinVegPizza_Button3;
@@ -3383,9 +3647,9 @@ BUTTON *pSidesList_Button12;
 WINDOW *pSidesBakedPot_Window1;
     pSidesBakedPot_Window1 = WndCreate(ID_SidesBakedPot_Window1,0,0,480,42,WND_DRAW|WND_TITLECENTER,NULL,(XCHAR*)SidesBakedPot_Window1_Text,GOLScheme_WinSch);
 PICTURE *pSidesBakedPot_Picture1;
-    pSidesBakedPot_Picture1 = PictCreate(ID_SidesBakedPot_Picture1,353,64,463,174,PICT_DRAW,1,(void *)&Baked,GOLScheme_ButtonTx);
+    pSidesBakedPot_Picture1 = PictCreate(ID_SidesBakedPot_Picture1,353,64,463,174,PICT_DRAW,1,(void *)&bmpBaked,GOLScheme_ButtonTx);
 EDITBOX *pSidesBakedPot_EditBox1;
-    pSidesBakedPot_EditBox1 = EbCreate(ID_SidesBakedPot_EditBox1,17,64,262,194,EB_DRAW,(XCHAR*)SidesBakedPot_EditBox1_Text,250,GOLScheme_DescText);
+    pSidesBakedPot_EditBox1 = EbCreate(ID_SidesBakedPot_EditBox1,17,64,262,194,EB_DRAW,(XCHAR*)SidesBakedPot_EditBox1_Text,77,GOLScheme_DescText);
 BUTTON *pSidesBakedPot_Button8;
     pSidesBakedPot_Button8 = BtnCreate(ID_SidesBakedPot_Button8,191,218,289,255,1,BTN_DRAW,NULL,(XCHAR*)SidesBakedPot_Button8_Text,GOLScheme_ButtonTx);
 BUTTON *pSidesBakedPot_Button3;
@@ -3413,9 +3677,9 @@ BUTTON *pSidesBakedPot_Button6;
 WINDOW *pSidesBroccoli_Window1;
     pSidesBroccoli_Window1 = WndCreate(ID_SidesBroccoli_Window1,0,0,480,42,WND_DRAW|WND_TITLECENTER,NULL,(XCHAR*)SidesBroccoli_Window1_Text,GOLScheme_WinSch);
 PICTURE *pSidesBroccoli_Picture1;
-    pSidesBroccoli_Picture1 = PictCreate(ID_SidesBroccoli_Picture1,353,64,463,174,PICT_DRAW,1,(void *)&BBroccol,GOLScheme_ButtonTx);
+    pSidesBroccoli_Picture1 = PictCreate(ID_SidesBroccoli_Picture1,353,64,463,174,PICT_DRAW,1,(void *)&bmpBBroccol,GOLScheme_ButtonTx);
 EDITBOX *pSidesBroccoli_EditBox1;
-    pSidesBroccoli_EditBox1 = EbCreate(ID_SidesBroccoli_EditBox1,17,64,262,194,EB_DRAW,(XCHAR*)SidesBroccoli_EditBox1_Text,250,GOLScheme_DescText);
+    pSidesBroccoli_EditBox1 = EbCreate(ID_SidesBroccoli_EditBox1,17,64,262,194,EB_DRAW,(XCHAR*)SidesBroccoli_EditBox1_Text,56,GOLScheme_DescText);
 BUTTON *pSidesBroccoli_Button8;
     pSidesBroccoli_Button8 = BtnCreate(ID_SidesBroccoli_Button8,191,218,289,255,1,BTN_DRAW,NULL,(XCHAR*)SidesBroccoli_Button8_Text,GOLScheme_ButtonTx);
 BUTTON *pSidesBroccoli_Button3;
@@ -3443,9 +3707,9 @@ BUTTON *pSidesBroccoli_Button6;
 WINDOW *pSidesFries_Window1;
     pSidesFries_Window1 = WndCreate(ID_SidesFries_Window1,0,0,480,42,WND_DRAW|WND_TITLECENTER,NULL,(XCHAR*)SidesFries_Window1_Text,GOLScheme_WinSch);
 PICTURE *pSidesFries_Picture1;
-    pSidesFries_Picture1 = PictCreate(ID_SidesFries_Picture1,353,64,463,174,PICT_DRAW,1,(void *)&Fries,GOLScheme_ButtonTx);
+    pSidesFries_Picture1 = PictCreate(ID_SidesFries_Picture1,353,64,463,174,PICT_DRAW,1,(void *)&bmpFries,GOLScheme_ButtonTx);
 EDITBOX *pSidesFries_EditBox1;
-    pSidesFries_EditBox1 = EbCreate(ID_SidesFries_EditBox1,17,64,262,194,EB_DRAW,(XCHAR*)SidesFries_EditBox1_Text,250,GOLScheme_DescText);
+    pSidesFries_EditBox1 = EbCreate(ID_SidesFries_EditBox1,17,64,262,194,EB_DRAW,(XCHAR*)SidesFries_EditBox1_Text,58,GOLScheme_DescText);
 BUTTON *pSidesFries_Button8;
     pSidesFries_Button8 = BtnCreate(ID_SidesFries_Button8,191,218,289,255,1,BTN_DRAW,NULL,(XCHAR*)SidesFries_Button8_Text,GOLScheme_ButtonTx);
 BUTTON *pSidesFries_Button3;
@@ -3473,9 +3737,9 @@ BUTTON *pSidesFries_Button6;
 WINDOW *pSidesFruit_Window1;
     pSidesFruit_Window1 = WndCreate(ID_SidesFruit_Window1,0,0,480,42,WND_DRAW|WND_TITLECENTER,NULL,(XCHAR*)SidesFruit_Window1_Text,GOLScheme_WinSch);
 PICTURE *pSidesFruit_Picture1;
-    pSidesFruit_Picture1 = PictCreate(ID_SidesFruit_Picture1,353,64,463,174,PICT_DRAW,1,(void *)&fruit,GOLScheme_ButtonTx);
+    pSidesFruit_Picture1 = PictCreate(ID_SidesFruit_Picture1,353,64,463,174,PICT_DRAW,1,(void *)&bmpfruit,GOLScheme_ButtonTx);
 EDITBOX *pSidesFruit_EditBox1;
-    pSidesFruit_EditBox1 = EbCreate(ID_SidesFruit_EditBox1,17,64,262,194,EB_DRAW,(XCHAR*)SidesFruit_EditBox1_Text,250,GOLScheme_DescText);
+    pSidesFruit_EditBox1 = EbCreate(ID_SidesFruit_EditBox1,17,64,262,194,EB_DRAW,(XCHAR*)SidesFruit_EditBox1_Text,66,GOLScheme_DescText);
 BUTTON *pSidesFruit_Button8;
     pSidesFruit_Button8 = BtnCreate(ID_SidesFruit_Button8,191,218,289,255,1,BTN_DRAW,NULL,(XCHAR*)SidesFruit_Button8_Text,GOLScheme_ButtonTx);
 BUTTON *pSidesFruit_Button3;
@@ -3503,9 +3767,9 @@ BUTTON *pSidesFruit_Button6;
 WINDOW *pSidesMashed_Window1;
     pSidesMashed_Window1 = WndCreate(ID_SidesMashed_Window1,0,0,480,42,WND_DRAW|WND_TITLECENTER,NULL,(XCHAR*)SidesMashed_Window1_Text,GOLScheme_WinSch);
 PICTURE *pSidesMashed_Picture1;
-    pSidesMashed_Picture1 = PictCreate(ID_SidesMashed_Picture1,353,64,463,174,PICT_DRAW,1,(void *)&mashed,GOLScheme_ButtonTx);
+    pSidesMashed_Picture1 = PictCreate(ID_SidesMashed_Picture1,353,64,463,174,PICT_DRAW,1,(void *)&bmpmashed,GOLScheme_ButtonTx);
 EDITBOX *pSidesMashed_EditBox1;
-    pSidesMashed_EditBox1 = EbCreate(ID_SidesMashed_EditBox1,17,64,262,194,EB_DRAW,(XCHAR*)SidesMashed_EditBox1_Text,250,GOLScheme_DescText);
+    pSidesMashed_EditBox1 = EbCreate(ID_SidesMashed_EditBox1,17,64,262,194,EB_DRAW,(XCHAR*)SidesMashed_EditBox1_Text,83,GOLScheme_DescText);
 BUTTON *pSidesMashed_Button8;
     pSidesMashed_Button8 = BtnCreate(ID_SidesMashed_Button8,191,218,289,255,1,BTN_DRAW,NULL,(XCHAR*)SidesMashed_Button8_Text,GOLScheme_ButtonTx);
 BUTTON *pSidesMashed_Button3;
@@ -3533,9 +3797,9 @@ BUTTON *pSidesMashed_Button6;
 WINDOW *pSidesORings_Window1;
     pSidesORings_Window1 = WndCreate(ID_SidesORings_Window1,0,0,480,42,WND_DRAW|WND_TITLECENTER,NULL,(XCHAR*)SidesORings_Window1_Text,GOLScheme_WinSch);
 PICTURE *pSidesORings_Picture1;
-    pSidesORings_Picture1 = PictCreate(ID_SidesORings_Picture1,352,72,462,182,PICT_DRAW,1,(void *)&onion,GOLScheme_ButtonTx);
+    pSidesORings_Picture1 = PictCreate(ID_SidesORings_Picture1,352,72,462,182,PICT_DRAW,1,(void *)&bmponion,GOLScheme_ButtonTx);
 EDITBOX *pSidesORings_EditBox1;
-    pSidesORings_EditBox1 = EbCreate(ID_SidesORings_EditBox1,16,72,261,202,EB_DRAW,(XCHAR*)SidesORings_EditBox1_Text,250,GOLScheme_DescText);
+    pSidesORings_EditBox1 = EbCreate(ID_SidesORings_EditBox1,16,72,261,202,EB_DRAW,(XCHAR*)SidesORings_EditBox1_Text,54,GOLScheme_DescText);
 BUTTON *pSidesORings_Button8;
     pSidesORings_Button8 = BtnCreate(ID_SidesORings_Button8,191,218,289,255,1,BTN_DRAW,NULL,(XCHAR*)SidesORings_Button8_Text,GOLScheme_ButtonTx);
 BUTTON *pSidesORings_Button3;
@@ -3563,9 +3827,9 @@ BUTTON *pSidesORings_Button6;
 WINDOW *pSidesSlaw_Window1;
     pSidesSlaw_Window1 = WndCreate(ID_SidesSlaw_Window1,0,0,480,42,WND_DRAW|WND_TITLECENTER,NULL,(XCHAR*)SidesSlaw_Window1_Text,GOLScheme_WinSch);
 PICTURE *pSidesSlaw_Picture1;
-    pSidesSlaw_Picture1 = PictCreate(ID_SidesSlaw_Picture1,353,64,463,174,PICT_DRAW,1,(void *)&Coleslaw,GOLScheme_ButtonTx);
+    pSidesSlaw_Picture1 = PictCreate(ID_SidesSlaw_Picture1,353,64,463,174,PICT_DRAW,1,(void *)&bmpColeslaw,GOLScheme_ButtonTx);
 EDITBOX *pSidesSlaw_EditBox1;
-    pSidesSlaw_EditBox1 = EbCreate(ID_SidesSlaw_EditBox1,17,64,262,194,EB_DRAW,(XCHAR*)SidesSlaw_EditBox1_Text,250,GOLScheme_DescText);
+    pSidesSlaw_EditBox1 = EbCreate(ID_SidesSlaw_EditBox1,17,64,262,194,EB_DRAW,(XCHAR*)SidesSlaw_EditBox1_Text,60,GOLScheme_DescText);
 BUTTON *pSidesSlaw_Button8;
     pSidesSlaw_Button8 = BtnCreate(ID_SidesSlaw_Button8,191,218,289,255,1,BTN_DRAW,NULL,(XCHAR*)SidesSlaw_Button8_Text,GOLScheme_ButtonTx);
 BUTTON *pSidesSlaw_Button3;
@@ -3577,6 +3841,1072 @@ BUTTON *pSidesSlaw_Button5;
 BUTTON *pSidesSlaw_Button6;
     pSidesSlaw_Button6 = BtnCreate(ID_SidesSlaw_Button6,421,218,463,255,1,BTN_DRAW,NULL,(XCHAR*)SidesSlaw_Button6_Text,GOLScheme_ButtonTx);
 } // End of CreateSidesSlaw
+
+
+    void CreateAlcoholBud(void) {
+    GOLFree();
+    SetColor(0); // Color [Black]
+    ClearDevice();
+    #ifdef USE_TRANSPARENT_COLOR
+    TransparentColorEnable(0); // Color [A=0, R=0, G=0, B=0]
+    #endif
+    CreateScheme_ButtonTx();
+    CreateScheme_WinSch();
+    CreateScheme_DescText();
+    CreateScheme_MainName();
+WINDOW *pAlcoholBud_Window1;
+    pAlcoholBud_Window1 = WndCreate(ID_AlcoholBud_Window1,0,0,480,42,WND_DRAW|WND_TITLECENTER,NULL,(XCHAR*)AlcoholBud_Window1_Text,GOLScheme_WinSch);
+PICTURE *pAlcoholBud_Picture1;
+    pAlcoholBud_Picture1 = PictCreate(ID_AlcoholBud_Picture1,353,64,463,174,PICT_DRAW,1,(void *)&bmpBud,GOLScheme_ButtonTx);
+EDITBOX *pAlcoholBud_EditBox1;
+    pAlcoholBud_EditBox1 = EbCreate(ID_AlcoholBud_EditBox1,17,64,262,194,EB_DRAW,(XCHAR*)AlcoholBud_EditBox1_Text,45,GOLScheme_DescText);
+BUTTON *pAlcoholBud_Button8;
+    pAlcoholBud_Button8 = BtnCreate(ID_AlcoholBud_Button8,191,218,289,255,1,BTN_DRAW,NULL,(XCHAR*)AlcoholBud_Button8_Text,GOLScheme_ButtonTx);
+BUTTON *pAlcoholBud_Button3;
+    pAlcoholBud_Button3 = BtnCreate(ID_AlcoholBud_Button3,306,218,404,255,1,BTN_DRAW,NULL,(XCHAR*)AlcoholBud_Button3_Text,GOLScheme_ButtonTx);
+BUTTON *pAlcoholBud_Button4;
+    pAlcoholBud_Button4 = BtnCreate(ID_AlcoholBud_Button4,76,218,174,255,1,BTN_DRAW,NULL,(XCHAR*)AlcoholBud_Button4_Text,GOLScheme_ButtonTx);
+BUTTON *pAlcoholBud_Button5;
+    pAlcoholBud_Button5 = BtnCreate(ID_AlcoholBud_Button5,17,218,59,255,1,BTN_DRAW,NULL,(XCHAR*)AlcoholBud_Button5_Text,GOLScheme_ButtonTx);
+BUTTON *pAlcoholBud_Button6;
+    pAlcoholBud_Button6 = BtnCreate(ID_AlcoholBud_Button6,421,218,463,255,1,BTN_DRAW,NULL,(XCHAR*)AlcoholBud_Button6_Text,GOLScheme_ButtonTx);
+} // End of CreateAlcoholBud
+
+
+    void CreateAlcoholList(void) {
+    GOLFree();
+    SetColor(0); // Color [Black]
+    ClearDevice();
+    #ifdef USE_TRANSPARENT_COLOR
+    TransparentColorEnable(0); // Color [A=0, R=0, G=0, B=0]
+    #endif
+    CreateScheme_ButtonTx();
+    CreateScheme_WinSch();
+    CreateScheme_DescText();
+    CreateScheme_MainName();
+WINDOW *pAlcoholList_Window1;
+    pAlcoholList_Window1 = WndCreate(ID_AlcoholList_Window1,0,0,480,42,WND_DRAW|WND_TITLECENTER,NULL,(XCHAR*)AlcoholList_Window1_Text,GOLScheme_WinSch);
+BUTTON *pAlcoholList_Button1;
+    pAlcoholList_Button1 = BtnCreate(ID_AlcoholList_Button1,12,63,155,86,1,BTN_DRAW,NULL,(XCHAR*)AlcoholList_Button1_Text,GOLScheme_ButtonTx);
+BUTTON *pAlcoholList_Button3;
+    pAlcoholList_Button3 = BtnCreate(ID_AlcoholList_Button3,177,105,320,128,1,BTN_DRAW,NULL,(XCHAR*)AlcoholList_Button3_Text,GOLScheme_ButtonTx);
+BUTTON *pAlcoholList_Button5;
+    pAlcoholList_Button5 = BtnCreate(ID_AlcoholList_Button5,177,63,320,86,1,BTN_DRAW,NULL,(XCHAR*)AlcoholList_Button5_Text,GOLScheme_ButtonTx);
+BUTTON *pAlcoholList_Button7;
+    pAlcoholList_Button7 = BtnCreate(ID_AlcoholList_Button7,331,105,476,128,1,BTN_DRAW,NULL,(XCHAR*)AlcoholList_Button7_Text,GOLScheme_ButtonTx);
+BUTTON *pAlcoholList_Button8;
+    pAlcoholList_Button8 = BtnCreate(ID_AlcoholList_Button8,345,221,443,258,1,BTN_DRAW,NULL,(XCHAR*)AlcoholList_Button8_Text,GOLScheme_ButtonTx);
+BUTTON *pAlcoholList_Button9;
+    pAlcoholList_Button9 = BtnCreate(ID_AlcoholList_Button9,12,105,155,128,1,BTN_DRAW,NULL,(XCHAR*)AlcoholList_Button9_Text,GOLScheme_ButtonTx);
+BUTTON *pAlcoholList_Button10;
+    pAlcoholList_Button10 = BtnCreate(ID_AlcoholList_Button10,331,63,476,86,1,BTN_DRAW,NULL,(XCHAR*)AlcoholList_Button10_Text,GOLScheme_ButtonTx);
+BUTTON *pAlcoholList_Button12;
+    pAlcoholList_Button12 = BtnCreate(ID_AlcoholList_Button12,40,221,138,258,1,BTN_DRAW,NULL,(XCHAR*)AlcoholList_Button12_Text,GOLScheme_ButtonTx);
+BUTTON *pAlcoholList_Button11;
+    pAlcoholList_Button11 = BtnCreate(ID_AlcoholList_Button11,12,149,155,172,1,BTN_DRAW,NULL,(XCHAR*)AlcoholList_Button11_Text,GOLScheme_ButtonTx);
+BUTTON *pAlcoholList_Button13;
+    pAlcoholList_Button13 = BtnCreate(ID_AlcoholList_Button13,331,149,476,172,1,BTN_DRAW,NULL,(XCHAR*)AlcoholList_Button13_Text,GOLScheme_ButtonTx);
+} // End of CreateAlcoholList
+
+
+    void CreateAlcoholBudLight(void) {
+    GOLFree();
+    SetColor(0); // Color [Black]
+    ClearDevice();
+    #ifdef USE_TRANSPARENT_COLOR
+    TransparentColorEnable(0); // Color [A=0, R=0, G=0, B=0]
+    #endif
+    CreateScheme_ButtonTx();
+    CreateScheme_WinSch();
+    CreateScheme_DescText();
+    CreateScheme_MainName();
+WINDOW *pAlcoholBudLight_Window1;
+    pAlcoholBudLight_Window1 = WndCreate(ID_AlcoholBudLight_Window1,0,0,480,42,WND_DRAW|WND_TITLECENTER,NULL,(XCHAR*)AlcoholBudLight_Window1_Text,GOLScheme_WinSch);
+PICTURE *pAlcoholBudLight_Picture1;
+    pAlcoholBudLight_Picture1 = PictCreate(ID_AlcoholBudLight_Picture1,353,64,463,174,PICT_DRAW,1,(void *)&bmpBudL,GOLScheme_ButtonTx);
+EDITBOX *pAlcoholBudLight_EditBox1;
+    pAlcoholBudLight_EditBox1 = EbCreate(ID_AlcoholBudLight_EditBox1,17,64,262,194,EB_DRAW,(XCHAR*)AlcoholBudLight_EditBox1_Text,45,GOLScheme_DescText);
+BUTTON *pAlcoholBudLight_Button8;
+    pAlcoholBudLight_Button8 = BtnCreate(ID_AlcoholBudLight_Button8,191,218,289,255,1,BTN_DRAW,NULL,(XCHAR*)AlcoholBudLight_Button8_Text,GOLScheme_ButtonTx);
+BUTTON *pAlcoholBudLight_Button3;
+    pAlcoholBudLight_Button3 = BtnCreate(ID_AlcoholBudLight_Button3,306,218,404,255,1,BTN_DRAW,NULL,(XCHAR*)AlcoholBudLight_Button3_Text,GOLScheme_ButtonTx);
+BUTTON *pAlcoholBudLight_Button4;
+    pAlcoholBudLight_Button4 = BtnCreate(ID_AlcoholBudLight_Button4,76,218,174,255,1,BTN_DRAW,NULL,(XCHAR*)AlcoholBudLight_Button4_Text,GOLScheme_ButtonTx);
+BUTTON *pAlcoholBudLight_Button5;
+    pAlcoholBudLight_Button5 = BtnCreate(ID_AlcoholBudLight_Button5,17,218,59,255,1,BTN_DRAW,NULL,(XCHAR*)AlcoholBudLight_Button5_Text,GOLScheme_ButtonTx);
+BUTTON *pAlcoholBudLight_Button6;
+    pAlcoholBudLight_Button6 = BtnCreate(ID_AlcoholBudLight_Button6,421,218,463,255,1,BTN_DRAW,NULL,(XCHAR*)AlcoholBudLight_Button6_Text,GOLScheme_ButtonTx);
+} // End of CreateAlcoholBudLight
+
+
+    void CreateAlcoholCoorsLight(void) {
+    GOLFree();
+    SetColor(0); // Color [Black]
+    ClearDevice();
+    #ifdef USE_TRANSPARENT_COLOR
+    TransparentColorEnable(0); // Color [A=0, R=0, G=0, B=0]
+    #endif
+    CreateScheme_ButtonTx();
+    CreateScheme_WinSch();
+    CreateScheme_DescText();
+    CreateScheme_MainName();
+WINDOW *pAlcoholCoorsLight_Window1;
+    pAlcoholCoorsLight_Window1 = WndCreate(ID_AlcoholCoorsLight_Window1,0,0,480,42,WND_DRAW|WND_TITLECENTER,NULL,(XCHAR*)AlcoholCoorsLight_Window1_Text,GOLScheme_WinSch);
+PICTURE *pAlcoholCoorsLight_Picture1;
+    pAlcoholCoorsLight_Picture1 = PictCreate(ID_AlcoholCoorsLight_Picture1,353,64,463,174,PICT_DRAW,1,(void *)&bmpCoorsL,GOLScheme_ButtonTx);
+EDITBOX *pAlcoholCoorsLight_EditBox1;
+    pAlcoholCoorsLight_EditBox1 = EbCreate(ID_AlcoholCoorsLight_EditBox1,17,64,262,194,EB_DRAW,(XCHAR*)AlcoholCoorsLight_EditBox1_Text,45,GOLScheme_DescText);
+BUTTON *pAlcoholCoorsLight_Button8;
+    pAlcoholCoorsLight_Button8 = BtnCreate(ID_AlcoholCoorsLight_Button8,191,218,289,255,1,BTN_DRAW,NULL,(XCHAR*)AlcoholCoorsLight_Button8_Text,GOLScheme_ButtonTx);
+BUTTON *pAlcoholCoorsLight_Button3;
+    pAlcoholCoorsLight_Button3 = BtnCreate(ID_AlcoholCoorsLight_Button3,306,218,404,255,1,BTN_DRAW,NULL,(XCHAR*)AlcoholCoorsLight_Button3_Text,GOLScheme_ButtonTx);
+BUTTON *pAlcoholCoorsLight_Button4;
+    pAlcoholCoorsLight_Button4 = BtnCreate(ID_AlcoholCoorsLight_Button4,76,218,174,255,1,BTN_DRAW,NULL,(XCHAR*)AlcoholCoorsLight_Button4_Text,GOLScheme_ButtonTx);
+BUTTON *pAlcoholCoorsLight_Button5;
+    pAlcoholCoorsLight_Button5 = BtnCreate(ID_AlcoholCoorsLight_Button5,17,218,59,255,1,BTN_DRAW,NULL,(XCHAR*)AlcoholCoorsLight_Button5_Text,GOLScheme_ButtonTx);
+BUTTON *pAlcoholCoorsLight_Button6;
+    pAlcoholCoorsLight_Button6 = BtnCreate(ID_AlcoholCoorsLight_Button6,421,218,463,255,1,BTN_DRAW,NULL,(XCHAR*)AlcoholCoorsLight_Button6_Text,GOLScheme_ButtonTx);
+} // End of CreateAlcoholCoorsLight
+
+
+    void CreateAlcoholCorona(void) {
+    GOLFree();
+    SetColor(0); // Color [Black]
+    ClearDevice();
+    #ifdef USE_TRANSPARENT_COLOR
+    TransparentColorEnable(0); // Color [A=0, R=0, G=0, B=0]
+    #endif
+    CreateScheme_ButtonTx();
+    CreateScheme_WinSch();
+    CreateScheme_DescText();
+    CreateScheme_MainName();
+WINDOW *pAlcoholCorona_Window1;
+    pAlcoholCorona_Window1 = WndCreate(ID_AlcoholCorona_Window1,0,0,480,42,WND_DRAW|WND_TITLECENTER,NULL,(XCHAR*)AlcoholCorona_Window1_Text,GOLScheme_WinSch);
+PICTURE *pAlcoholCorona_Picture1;
+    pAlcoholCorona_Picture1 = PictCreate(ID_AlcoholCorona_Picture1,353,64,463,174,PICT_DRAW,1,(void *)&bmpCorona,GOLScheme_ButtonTx);
+EDITBOX *pAlcoholCorona_EditBox1;
+    pAlcoholCorona_EditBox1 = EbCreate(ID_AlcoholCorona_EditBox1,17,64,262,194,EB_DRAW,(XCHAR*)AlcoholCorona_EditBox1_Text,45,GOLScheme_DescText);
+BUTTON *pAlcoholCorona_Button8;
+    pAlcoholCorona_Button8 = BtnCreate(ID_AlcoholCorona_Button8,191,218,289,255,1,BTN_DRAW,NULL,(XCHAR*)AlcoholCorona_Button8_Text,GOLScheme_ButtonTx);
+BUTTON *pAlcoholCorona_Button3;
+    pAlcoholCorona_Button3 = BtnCreate(ID_AlcoholCorona_Button3,306,218,404,255,1,BTN_DRAW,NULL,(XCHAR*)AlcoholCorona_Button3_Text,GOLScheme_ButtonTx);
+BUTTON *pAlcoholCorona_Button4;
+    pAlcoholCorona_Button4 = BtnCreate(ID_AlcoholCorona_Button4,76,218,174,255,1,BTN_DRAW,NULL,(XCHAR*)AlcoholCorona_Button4_Text,GOLScheme_ButtonTx);
+BUTTON *pAlcoholCorona_Button5;
+    pAlcoholCorona_Button5 = BtnCreate(ID_AlcoholCorona_Button5,17,218,59,255,1,BTN_DRAW,NULL,(XCHAR*)AlcoholCorona_Button5_Text,GOLScheme_ButtonTx);
+BUTTON *pAlcoholCorona_Button6;
+    pAlcoholCorona_Button6 = BtnCreate(ID_AlcoholCorona_Button6,421,218,463,255,1,BTN_DRAW,NULL,(XCHAR*)AlcoholCorona_Button6_Text,GOLScheme_ButtonTx);
+} // End of CreateAlcoholCorona
+
+
+    void CreateAlcoholGuinness(void) {
+    GOLFree();
+    SetColor(0); // Color [Black]
+    ClearDevice();
+    #ifdef USE_TRANSPARENT_COLOR
+    TransparentColorEnable(0); // Color [A=0, R=0, G=0, B=0]
+    #endif
+    CreateScheme_ButtonTx();
+    CreateScheme_WinSch();
+    CreateScheme_DescText();
+    CreateScheme_MainName();
+WINDOW *pAlcoholGuinness_Window1;
+    pAlcoholGuinness_Window1 = WndCreate(ID_AlcoholGuinness_Window1,0,0,480,42,WND_DRAW|WND_TITLECENTER,NULL,(XCHAR*)AlcoholGuinness_Window1_Text,GOLScheme_WinSch);
+PICTURE *pAlcoholGuinness_Picture1;
+    pAlcoholGuinness_Picture1 = PictCreate(ID_AlcoholGuinness_Picture1,353,64,463,174,PICT_DRAW,1,(void *)&bmpGuinness,GOLScheme_ButtonTx);
+EDITBOX *pAlcoholGuinness_EditBox1;
+    pAlcoholGuinness_EditBox1 = EbCreate(ID_AlcoholGuinness_EditBox1,17,64,262,194,EB_DRAW,(XCHAR*)AlcoholGuinness_EditBox1_Text,45,GOLScheme_DescText);
+BUTTON *pAlcoholGuinness_Button8;
+    pAlcoholGuinness_Button8 = BtnCreate(ID_AlcoholGuinness_Button8,191,218,289,255,1,BTN_DRAW,NULL,(XCHAR*)AlcoholGuinness_Button8_Text,GOLScheme_ButtonTx);
+BUTTON *pAlcoholGuinness_Button3;
+    pAlcoholGuinness_Button3 = BtnCreate(ID_AlcoholGuinness_Button3,306,218,404,255,1,BTN_DRAW,NULL,(XCHAR*)AlcoholGuinness_Button3_Text,GOLScheme_ButtonTx);
+BUTTON *pAlcoholGuinness_Button4;
+    pAlcoholGuinness_Button4 = BtnCreate(ID_AlcoholGuinness_Button4,76,218,174,255,1,BTN_DRAW,NULL,(XCHAR*)AlcoholGuinness_Button4_Text,GOLScheme_ButtonTx);
+BUTTON *pAlcoholGuinness_Button5;
+    pAlcoholGuinness_Button5 = BtnCreate(ID_AlcoholGuinness_Button5,17,218,59,255,1,BTN_DRAW,NULL,(XCHAR*)AlcoholGuinness_Button5_Text,GOLScheme_ButtonTx);
+BUTTON *pAlcoholGuinness_Button6;
+    pAlcoholGuinness_Button6 = BtnCreate(ID_AlcoholGuinness_Button6,421,218,463,255,1,BTN_DRAW,NULL,(XCHAR*)AlcoholGuinness_Button6_Text,GOLScheme_ButtonTx);
+} // End of CreateAlcoholGuinness
+
+
+    void CreateAlcoholMichelob(void) {
+    GOLFree();
+    SetColor(0); // Color [Black]
+    ClearDevice();
+    #ifdef USE_TRANSPARENT_COLOR
+    TransparentColorEnable(0); // Color [A=0, R=0, G=0, B=0]
+    #endif
+    CreateScheme_ButtonTx();
+    CreateScheme_WinSch();
+    CreateScheme_DescText();
+    CreateScheme_MainName();
+WINDOW *pAlcoholMichelob_Window1;
+    pAlcoholMichelob_Window1 = WndCreate(ID_AlcoholMichelob_Window1,0,0,480,42,WND_DRAW|WND_TITLECENTER,NULL,(XCHAR*)AlcoholMichelob_Window1_Text,GOLScheme_WinSch);
+PICTURE *pAlcoholMichelob_Picture1;
+    pAlcoholMichelob_Picture1 = PictCreate(ID_AlcoholMichelob_Picture1,353,64,463,174,PICT_DRAW,1,(void *)&bmpMichelo,GOLScheme_ButtonTx);
+EDITBOX *pAlcoholMichelob_EditBox1;
+    pAlcoholMichelob_EditBox1 = EbCreate(ID_AlcoholMichelob_EditBox1,17,64,262,194,EB_DRAW,(XCHAR*)AlcoholMichelob_EditBox1_Text,45,GOLScheme_DescText);
+BUTTON *pAlcoholMichelob_Button8;
+    pAlcoholMichelob_Button8 = BtnCreate(ID_AlcoholMichelob_Button8,191,218,289,255,1,BTN_DRAW,NULL,(XCHAR*)AlcoholMichelob_Button8_Text,GOLScheme_ButtonTx);
+BUTTON *pAlcoholMichelob_Button3;
+    pAlcoholMichelob_Button3 = BtnCreate(ID_AlcoholMichelob_Button3,306,218,404,255,1,BTN_DRAW,NULL,(XCHAR*)AlcoholMichelob_Button3_Text,GOLScheme_ButtonTx);
+BUTTON *pAlcoholMichelob_Button4;
+    pAlcoholMichelob_Button4 = BtnCreate(ID_AlcoholMichelob_Button4,76,218,174,255,1,BTN_DRAW,NULL,(XCHAR*)AlcoholMichelob_Button4_Text,GOLScheme_ButtonTx);
+BUTTON *pAlcoholMichelob_Button5;
+    pAlcoholMichelob_Button5 = BtnCreate(ID_AlcoholMichelob_Button5,17,218,59,255,1,BTN_DRAW,NULL,(XCHAR*)AlcoholMichelob_Button5_Text,GOLScheme_ButtonTx);
+BUTTON *pAlcoholMichelob_Button6;
+    pAlcoholMichelob_Button6 = BtnCreate(ID_AlcoholMichelob_Button6,421,218,463,255,1,BTN_DRAW,NULL,(XCHAR*)AlcoholMichelob_Button6_Text,GOLScheme_ButtonTx);
+} // End of CreateAlcoholMichelob
+
+
+    void CreateAlcoholMillerLite(void) {
+    GOLFree();
+    SetColor(0); // Color [Black]
+    ClearDevice();
+    #ifdef USE_TRANSPARENT_COLOR
+    TransparentColorEnable(0); // Color [A=0, R=0, G=0, B=0]
+    #endif
+    CreateScheme_ButtonTx();
+    CreateScheme_WinSch();
+    CreateScheme_DescText();
+    CreateScheme_MainName();
+WINDOW *pAlcoholMillerLite_Window1;
+    pAlcoholMillerLite_Window1 = WndCreate(ID_AlcoholMillerLite_Window1,0,0,480,42,WND_DRAW|WND_TITLECENTER,NULL,(XCHAR*)AlcoholMillerLite_Window1_Text,GOLScheme_WinSch);
+PICTURE *pAlcoholMillerLite_Picture1;
+    pAlcoholMillerLite_Picture1 = PictCreate(ID_AlcoholMillerLite_Picture1,353,64,463,174,PICT_DRAW,1,(void *)&bmpMillerL,GOLScheme_ButtonTx);
+EDITBOX *pAlcoholMillerLite_EditBox1;
+    pAlcoholMillerLite_EditBox1 = EbCreate(ID_AlcoholMillerLite_EditBox1,17,64,262,194,EB_DRAW,(XCHAR*)AlcoholMillerLite_EditBox1_Text,45,GOLScheme_DescText);
+BUTTON *pAlcoholMillerLite_Button8;
+    pAlcoholMillerLite_Button8 = BtnCreate(ID_AlcoholMillerLite_Button8,191,218,289,255,1,BTN_DRAW,NULL,(XCHAR*)AlcoholMillerLite_Button8_Text,GOLScheme_ButtonTx);
+BUTTON *pAlcoholMillerLite_Button3;
+    pAlcoholMillerLite_Button3 = BtnCreate(ID_AlcoholMillerLite_Button3,306,218,404,255,1,BTN_DRAW,NULL,(XCHAR*)AlcoholMillerLite_Button3_Text,GOLScheme_ButtonTx);
+BUTTON *pAlcoholMillerLite_Button4;
+    pAlcoholMillerLite_Button4 = BtnCreate(ID_AlcoholMillerLite_Button4,76,218,174,255,1,BTN_DRAW,NULL,(XCHAR*)AlcoholMillerLite_Button4_Text,GOLScheme_ButtonTx);
+BUTTON *pAlcoholMillerLite_Button5;
+    pAlcoholMillerLite_Button5 = BtnCreate(ID_AlcoholMillerLite_Button5,17,218,59,255,1,BTN_DRAW,NULL,(XCHAR*)AlcoholMillerLite_Button5_Text,GOLScheme_ButtonTx);
+BUTTON *pAlcoholMillerLite_Button6;
+    pAlcoholMillerLite_Button6 = BtnCreate(ID_AlcoholMillerLite_Button6,421,218,463,255,1,BTN_DRAW,NULL,(XCHAR*)AlcoholMillerLite_Button6_Text,GOLScheme_ButtonTx);
+} // End of CreateAlcoholMillerLite
+
+
+    void CreateAlcoholYuengling(void) {
+    GOLFree();
+    SetColor(0); // Color [Black]
+    ClearDevice();
+    #ifdef USE_TRANSPARENT_COLOR
+    TransparentColorEnable(0); // Color [A=0, R=0, G=0, B=0]
+    #endif
+    CreateScheme_ButtonTx();
+    CreateScheme_WinSch();
+    CreateScheme_DescText();
+    CreateScheme_MainName();
+WINDOW *pAlcoholYuengling_Window1;
+    pAlcoholYuengling_Window1 = WndCreate(ID_AlcoholYuengling_Window1,0,0,480,42,WND_DRAW|WND_TITLECENTER,NULL,(XCHAR*)AlcoholYuengling_Window1_Text,GOLScheme_WinSch);
+PICTURE *pAlcoholYuengling_Picture1;
+    pAlcoholYuengling_Picture1 = PictCreate(ID_AlcoholYuengling_Picture1,353,64,463,174,PICT_DRAW,1,(void *)&bmpYuen,GOLScheme_ButtonTx);
+EDITBOX *pAlcoholYuengling_EditBox1;
+    pAlcoholYuengling_EditBox1 = EbCreate(ID_AlcoholYuengling_EditBox1,17,64,262,194,EB_DRAW,(XCHAR*)AlcoholYuengling_EditBox1_Text,45,GOLScheme_DescText);
+BUTTON *pAlcoholYuengling_Button8;
+    pAlcoholYuengling_Button8 = BtnCreate(ID_AlcoholYuengling_Button8,191,218,289,255,1,BTN_DRAW,NULL,(XCHAR*)AlcoholYuengling_Button8_Text,GOLScheme_ButtonTx);
+BUTTON *pAlcoholYuengling_Button3;
+    pAlcoholYuengling_Button3 = BtnCreate(ID_AlcoholYuengling_Button3,306,218,404,255,1,BTN_DRAW,NULL,(XCHAR*)AlcoholYuengling_Button3_Text,GOLScheme_ButtonTx);
+BUTTON *pAlcoholYuengling_Button4;
+    pAlcoholYuengling_Button4 = BtnCreate(ID_AlcoholYuengling_Button4,76,218,174,255,1,BTN_DRAW,NULL,(XCHAR*)AlcoholYuengling_Button4_Text,GOLScheme_ButtonTx);
+BUTTON *pAlcoholYuengling_Button5;
+    pAlcoholYuengling_Button5 = BtnCreate(ID_AlcoholYuengling_Button5,17,218,59,255,1,BTN_DRAW,NULL,(XCHAR*)AlcoholYuengling_Button5_Text,GOLScheme_ButtonTx);
+BUTTON *pAlcoholYuengling_Button6;
+    pAlcoholYuengling_Button6 = BtnCreate(ID_AlcoholYuengling_Button6,421,218,463,255,1,BTN_DRAW,NULL,(XCHAR*)AlcoholYuengling_Button6_Text,GOLScheme_ButtonTx);
+} // End of CreateAlcoholYuengling
+
+
+    void CreateDrinkMenu(void) {
+    GOLFree();
+    SetColor(0); // Color [Black]
+    ClearDevice();
+    #ifdef USE_TRANSPARENT_COLOR
+    TransparentColorEnable(0); // Color [A=0, R=0, G=0, B=0]
+    #endif
+    CreateScheme_ButtonTx();
+    CreateScheme_WinSch();
+    CreateScheme_DescText();
+    CreateScheme_MainName();
+WINDOW *pDrinkMenu_Drink_Menu;
+    pDrinkMenu_Drink_Menu = WndCreate(ID_DrinkMenu_Drink_Menu,0,0,480,42,WND_DRAW|WND_TITLECENTER,NULL,(XCHAR*)DrinkMenu_Drink_Menu_Text,GOLScheme_WinSch);
+BUTTON *pDrinkMenu_Button1;
+    pDrinkMenu_Button1 = BtnCreate(ID_DrinkMenu_Button1,19,113,162,136,1,BTN_DRAW,NULL,(XCHAR*)DrinkMenu_Button1_Text,GOLScheme_ButtonTx);
+BUTTON *pDrinkMenu_Button5;
+    pDrinkMenu_Button5 = BtnCreate(ID_DrinkMenu_Button5,177,113,320,136,1,BTN_DRAW,NULL,(XCHAR*)DrinkMenu_Button5_Text,GOLScheme_ButtonTx);
+BUTTON *pDrinkMenu_Button8;
+    pDrinkMenu_Button8 = BtnCreate(ID_DrinkMenu_Button8,345,221,443,258,1,BTN_DRAW,NULL,(XCHAR*)DrinkMenu_Button8_Text,GOLScheme_ButtonTx);
+BUTTON *pDrinkMenu_Button10;
+    pDrinkMenu_Button10 = BtnCreate(ID_DrinkMenu_Button10,328,113,473,136,1,BTN_DRAW,NULL,(XCHAR*)DrinkMenu_Button10_Text,GOLScheme_ButtonTx);
+BUTTON *pDrinkMenu_Button12;
+    pDrinkMenu_Button12 = BtnCreate(ID_DrinkMenu_Button12,40,221,138,258,1,BTN_DRAW,NULL,(XCHAR*)DrinkMenu_Button12_Text,GOLScheme_ButtonTx);
+} // End of CreateDrinkMenu
+
+
+    void CreateSmoShakeMenu(void) {
+    GOLFree();
+    SetColor(0); // Color [Black]
+    ClearDevice();
+    #ifdef USE_TRANSPARENT_COLOR
+    TransparentColorEnable(0); // Color [A=0, R=0, G=0, B=0]
+    #endif
+    CreateScheme_ButtonTx();
+    CreateScheme_WinSch();
+    CreateScheme_DescText();
+    CreateScheme_MainName();
+WINDOW *pSmoShakeMenu_Window1;
+    pSmoShakeMenu_Window1 = WndCreate(ID_SmoShakeMenu_Window1,0,0,480,42,WND_DRAW|WND_TITLECENTER,NULL,(XCHAR*)SmoShakeMenu_Window1_Text,GOLScheme_WinSch);
+BUTTON *pSmoShakeMenu_Button1;
+    pSmoShakeMenu_Button1 = BtnCreate(ID_SmoShakeMenu_Button1,12,63,155,86,1,BTN_DRAW,NULL,(XCHAR*)SmoShakeMenu_Button1_Text,GOLScheme_ButtonTx);
+BUTTON *pSmoShakeMenu_Button3;
+    pSmoShakeMenu_Button3 = BtnCreate(ID_SmoShakeMenu_Button3,177,105,320,128,1,BTN_DRAW,NULL,(XCHAR*)SmoShakeMenu_Button3_Text,GOLScheme_ButtonTx);
+BUTTON *pSmoShakeMenu_Button5;
+    pSmoShakeMenu_Button5 = BtnCreate(ID_SmoShakeMenu_Button5,177,63,320,86,1,BTN_DRAW,NULL,(XCHAR*)SmoShakeMenu_Button5_Text,GOLScheme_ButtonTx);
+BUTTON *pSmoShakeMenu_Button7;
+    pSmoShakeMenu_Button7 = BtnCreate(ID_SmoShakeMenu_Button7,331,105,476,128,1,BTN_DRAW,NULL,(XCHAR*)SmoShakeMenu_Button7_Text,GOLScheme_ButtonTx);
+BUTTON *pSmoShakeMenu_Button8;
+    pSmoShakeMenu_Button8 = BtnCreate(ID_SmoShakeMenu_Button8,345,221,443,258,1,BTN_DRAW,NULL,(XCHAR*)SmoShakeMenu_Button8_Text,GOLScheme_ButtonTx);
+BUTTON *pSmoShakeMenu_Button9;
+    pSmoShakeMenu_Button9 = BtnCreate(ID_SmoShakeMenu_Button9,12,105,155,128,1,BTN_DRAW,NULL,(XCHAR*)SmoShakeMenu_Button9_Text,GOLScheme_ButtonTx);
+BUTTON *pSmoShakeMenu_Button10;
+    pSmoShakeMenu_Button10 = BtnCreate(ID_SmoShakeMenu_Button10,331,63,476,86,1,BTN_DRAW,NULL,(XCHAR*)SmoShakeMenu_Button10_Text,GOLScheme_ButtonTx);
+BUTTON *pSmoShakeMenu_Button12;
+    pSmoShakeMenu_Button12 = BtnCreate(ID_SmoShakeMenu_Button12,40,221,138,258,1,BTN_DRAW,NULL,(XCHAR*)SmoShakeMenu_Button12_Text,GOLScheme_ButtonTx);
+BUTTON *pSmoShakeMenu_Button11;
+    pSmoShakeMenu_Button11 = BtnCreate(ID_SmoShakeMenu_Button11,191,221,289,258,1,BTN_DRAW,NULL,(XCHAR*)SmoShakeMenu_Button11_Text,GOLScheme_ButtonTx);
+} // End of CreateSmoShakeMenu
+
+
+    void CreateShakeBanana(void) {
+    GOLFree();
+    SetColor(0); // Color [Black]
+    ClearDevice();
+    #ifdef USE_TRANSPARENT_COLOR
+    TransparentColorEnable(0); // Color [A=0, R=0, G=0, B=0]
+    #endif
+    CreateScheme_ButtonTx();
+    CreateScheme_WinSch();
+    CreateScheme_DescText();
+    CreateScheme_MainName();
+WINDOW *pShakeBanana_Window1;
+    pShakeBanana_Window1 = WndCreate(ID_ShakeBanana_Window1,0,0,480,42,WND_DRAW|WND_TITLECENTER,NULL,(XCHAR*)ShakeBanana_Window1_Text,GOLScheme_WinSch);
+PICTURE *pShakeBanana_Picture1;
+    pShakeBanana_Picture1 = PictCreate(ID_ShakeBanana_Picture1,353,64,463,174,PICT_DRAW,1,(void *)&bmpBanana,GOLScheme_ButtonTx);
+EDITBOX *pShakeBanana_EditBox1;
+    pShakeBanana_EditBox1 = EbCreate(ID_ShakeBanana_EditBox1,17,64,262,194,EB_DRAW,(XCHAR*)ShakeBanana_EditBox1_Text,59,GOLScheme_DescText);
+BUTTON *pShakeBanana_Button1;
+    pShakeBanana_Button1 = BtnCreate(ID_ShakeBanana_Button1,365,183,463,208,1,BTN_DRAW,NULL,(XCHAR*)ShakeBanana_Button1_Text,GOLScheme_ButtonTx);
+BUTTON *pShakeBanana_Button8;
+    pShakeBanana_Button8 = BtnCreate(ID_ShakeBanana_Button8,191,218,289,255,1,BTN_DRAW,NULL,(XCHAR*)ShakeBanana_Button8_Text,GOLScheme_ButtonTx);
+BUTTON *pShakeBanana_Button3;
+    pShakeBanana_Button3 = BtnCreate(ID_ShakeBanana_Button3,306,218,404,255,1,BTN_DRAW,NULL,(XCHAR*)ShakeBanana_Button3_Text,GOLScheme_ButtonTx);
+BUTTON *pShakeBanana_Button4;
+    pShakeBanana_Button4 = BtnCreate(ID_ShakeBanana_Button4,76,218,174,255,1,BTN_DRAW,NULL,(XCHAR*)ShakeBanana_Button4_Text,GOLScheme_ButtonTx);
+BUTTON *pShakeBanana_Button5;
+    pShakeBanana_Button5 = BtnCreate(ID_ShakeBanana_Button5,17,218,59,255,1,BTN_DRAW,NULL,(XCHAR*)ShakeBanana_Button5_Text,GOLScheme_ButtonTx);
+BUTTON *pShakeBanana_Button6;
+    pShakeBanana_Button6 = BtnCreate(ID_ShakeBanana_Button6,421,218,463,255,1,BTN_DRAW,NULL,(XCHAR*)ShakeBanana_Button6_Text,GOLScheme_ButtonTx);
+} // End of CreateShakeBanana
+
+
+    void CreateShakeBlueberry(void) {
+    GOLFree();
+    SetColor(0); // Color [Black]
+    ClearDevice();
+    #ifdef USE_TRANSPARENT_COLOR
+    TransparentColorEnable(0); // Color [A=0, R=0, G=0, B=0]
+    #endif
+    CreateScheme_ButtonTx();
+    CreateScheme_WinSch();
+    CreateScheme_DescText();
+    CreateScheme_MainName();
+WINDOW *pShakeBlueberry_Window1;
+    pShakeBlueberry_Window1 = WndCreate(ID_ShakeBlueberry_Window1,0,0,480,42,WND_DRAW|WND_TITLECENTER,NULL,(XCHAR*)ShakeBlueberry_Window1_Text,GOLScheme_WinSch);
+PICTURE *pShakeBlueberry_Picture1;
+    pShakeBlueberry_Picture1 = PictCreate(ID_ShakeBlueberry_Picture1,353,64,463,174,PICT_DRAW,1,(void *)&bmpberry,GOLScheme_ButtonTx);
+EDITBOX *pShakeBlueberry_EditBox1;
+    pShakeBlueberry_EditBox1 = EbCreate(ID_ShakeBlueberry_EditBox1,17,64,262,194,EB_DRAW,(XCHAR*)ShakeBlueberry_EditBox1_Text,65,GOLScheme_DescText);
+BUTTON *pShakeBlueberry_Button1;
+    pShakeBlueberry_Button1 = BtnCreate(ID_ShakeBlueberry_Button1,365,183,463,208,1,BTN_DRAW,NULL,(XCHAR*)ShakeBlueberry_Button1_Text,GOLScheme_ButtonTx);
+BUTTON *pShakeBlueberry_Button8;
+    pShakeBlueberry_Button8 = BtnCreate(ID_ShakeBlueberry_Button8,191,218,289,255,1,BTN_DRAW,NULL,(XCHAR*)ShakeBlueberry_Button8_Text,GOLScheme_ButtonTx);
+BUTTON *pShakeBlueberry_Button3;
+    pShakeBlueberry_Button3 = BtnCreate(ID_ShakeBlueberry_Button3,306,218,404,255,1,BTN_DRAW,NULL,(XCHAR*)ShakeBlueberry_Button3_Text,GOLScheme_ButtonTx);
+BUTTON *pShakeBlueberry_Button4;
+    pShakeBlueberry_Button4 = BtnCreate(ID_ShakeBlueberry_Button4,76,218,174,255,1,BTN_DRAW,NULL,(XCHAR*)ShakeBlueberry_Button4_Text,GOLScheme_ButtonTx);
+BUTTON *pShakeBlueberry_Button5;
+    pShakeBlueberry_Button5 = BtnCreate(ID_ShakeBlueberry_Button5,17,218,59,255,1,BTN_DRAW,NULL,(XCHAR*)ShakeBlueberry_Button5_Text,GOLScheme_ButtonTx);
+BUTTON *pShakeBlueberry_Button6;
+    pShakeBlueberry_Button6 = BtnCreate(ID_ShakeBlueberry_Button6,421,218,463,255,1,BTN_DRAW,NULL,(XCHAR*)ShakeBlueberry_Button6_Text,GOLScheme_ButtonTx);
+} // End of CreateShakeBlueberry
+
+
+    void CreateShakeChocolate(void) {
+    GOLFree();
+    SetColor(0); // Color [Black]
+    ClearDevice();
+    #ifdef USE_TRANSPARENT_COLOR
+    TransparentColorEnable(0); // Color [A=0, R=0, G=0, B=0]
+    #endif
+    CreateScheme_ButtonTx();
+    CreateScheme_WinSch();
+    CreateScheme_DescText();
+    CreateScheme_MainName();
+WINDOW *pShakeChocolate_Window1;
+    pShakeChocolate_Window1 = WndCreate(ID_ShakeChocolate_Window1,0,0,480,42,WND_DRAW|WND_TITLECENTER,NULL,(XCHAR*)ShakeChocolate_Window1_Text,GOLScheme_WinSch);
+PICTURE *pShakeChocolate_Picture1;
+    pShakeChocolate_Picture1 = PictCreate(ID_ShakeChocolate_Picture1,353,64,463,174,PICT_DRAW,1,(void *)&bmpchoc,GOLScheme_ButtonTx);
+EDITBOX *pShakeChocolate_EditBox1;
+    pShakeChocolate_EditBox1 = EbCreate(ID_ShakeChocolate_EditBox1,17,64,262,194,EB_DRAW,(XCHAR*)ShakeChocolate_EditBox1_Text,71,GOLScheme_DescText);
+BUTTON *pShakeChocolate_Button1;
+    pShakeChocolate_Button1 = BtnCreate(ID_ShakeChocolate_Button1,365,183,463,208,1,BTN_DRAW,NULL,(XCHAR*)ShakeChocolate_Button1_Text,GOLScheme_ButtonTx);
+BUTTON *pShakeChocolate_Button8;
+    pShakeChocolate_Button8 = BtnCreate(ID_ShakeChocolate_Button8,191,218,289,255,1,BTN_DRAW,NULL,(XCHAR*)ShakeChocolate_Button8_Text,GOLScheme_ButtonTx);
+BUTTON *pShakeChocolate_Button3;
+    pShakeChocolate_Button3 = BtnCreate(ID_ShakeChocolate_Button3,306,218,404,255,1,BTN_DRAW,NULL,(XCHAR*)ShakeChocolate_Button3_Text,GOLScheme_ButtonTx);
+BUTTON *pShakeChocolate_Button4;
+    pShakeChocolate_Button4 = BtnCreate(ID_ShakeChocolate_Button4,76,218,174,255,1,BTN_DRAW,NULL,(XCHAR*)ShakeChocolate_Button4_Text,GOLScheme_ButtonTx);
+BUTTON *pShakeChocolate_Button5;
+    pShakeChocolate_Button5 = BtnCreate(ID_ShakeChocolate_Button5,17,218,59,255,1,BTN_DRAW,NULL,(XCHAR*)ShakeChocolate_Button5_Text,GOLScheme_ButtonTx);
+BUTTON *pShakeChocolate_Button6;
+    pShakeChocolate_Button6 = BtnCreate(ID_ShakeChocolate_Button6,421,218,463,255,1,BTN_DRAW,NULL,(XCHAR*)ShakeChocolate_Button6_Text,GOLScheme_ButtonTx);
+} // End of CreateShakeChocolate
+
+
+    void CreateShakeOreo(void) {
+    GOLFree();
+    SetColor(0); // Color [Black]
+    ClearDevice();
+    #ifdef USE_TRANSPARENT_COLOR
+    TransparentColorEnable(0); // Color [A=0, R=0, G=0, B=0]
+    #endif
+    CreateScheme_ButtonTx();
+    CreateScheme_WinSch();
+    CreateScheme_DescText();
+    CreateScheme_MainName();
+WINDOW *pShakeOreo_Window1;
+    pShakeOreo_Window1 = WndCreate(ID_ShakeOreo_Window1,0,0,480,42,WND_DRAW|WND_TITLECENTER,NULL,(XCHAR*)ShakeOreo_Window1_Text,GOLScheme_WinSch);
+PICTURE *pShakeOreo_Picture1;
+    pShakeOreo_Picture1 = PictCreate(ID_ShakeOreo_Picture1,353,64,463,174,PICT_DRAW,1,(void *)&bmporeo,GOLScheme_ButtonTx);
+EDITBOX *pShakeOreo_EditBox1;
+    pShakeOreo_EditBox1 = EbCreate(ID_ShakeOreo_EditBox1,17,64,262,194,EB_DRAW,(XCHAR*)ShakeOreo_EditBox1_Text,69,GOLScheme_DescText);
+BUTTON *pShakeOreo_Button1;
+    pShakeOreo_Button1 = BtnCreate(ID_ShakeOreo_Button1,365,183,463,208,1,BTN_DRAW,NULL,(XCHAR*)ShakeOreo_Button1_Text,GOLScheme_ButtonTx);
+BUTTON *pShakeOreo_Button8;
+    pShakeOreo_Button8 = BtnCreate(ID_ShakeOreo_Button8,191,218,289,255,1,BTN_DRAW,NULL,(XCHAR*)ShakeOreo_Button8_Text,GOLScheme_ButtonTx);
+BUTTON *pShakeOreo_Button3;
+    pShakeOreo_Button3 = BtnCreate(ID_ShakeOreo_Button3,306,218,404,255,1,BTN_DRAW,NULL,(XCHAR*)ShakeOreo_Button3_Text,GOLScheme_ButtonTx);
+BUTTON *pShakeOreo_Button4;
+    pShakeOreo_Button4 = BtnCreate(ID_ShakeOreo_Button4,76,218,174,255,1,BTN_DRAW,NULL,(XCHAR*)ShakeOreo_Button4_Text,GOLScheme_ButtonTx);
+BUTTON *pShakeOreo_Button5;
+    pShakeOreo_Button5 = BtnCreate(ID_ShakeOreo_Button5,17,218,59,255,1,BTN_DRAW,NULL,(XCHAR*)ShakeOreo_Button5_Text,GOLScheme_ButtonTx);
+BUTTON *pShakeOreo_Button6;
+    pShakeOreo_Button6 = BtnCreate(ID_ShakeOreo_Button6,421,218,463,255,1,BTN_DRAW,NULL,(XCHAR*)ShakeOreo_Button6_Text,GOLScheme_ButtonTx);
+} // End of CreateShakeOreo
+
+
+    void CreateShakePeanut(void) {
+    GOLFree();
+    SetColor(0); // Color [Black]
+    ClearDevice();
+    #ifdef USE_TRANSPARENT_COLOR
+    TransparentColorEnable(0); // Color [A=0, R=0, G=0, B=0]
+    #endif
+    CreateScheme_ButtonTx();
+    CreateScheme_WinSch();
+    CreateScheme_DescText();
+    CreateScheme_MainName();
+WINDOW *pShakePeanut_Window1;
+    pShakePeanut_Window1 = WndCreate(ID_ShakePeanut_Window1,0,0,480,42,WND_DRAW|WND_TITLECENTER,NULL,(XCHAR*)ShakePeanut_Window1_Text,GOLScheme_WinSch);
+PICTURE *pShakePeanut_Picture1;
+    pShakePeanut_Picture1 = PictCreate(ID_ShakePeanut_Picture1,353,64,463,174,PICT_DRAW,1,(void *)&bmpsmpean,GOLScheme_ButtonTx);
+EDITBOX *pShakePeanut_EditBox1;
+    pShakePeanut_EditBox1 = EbCreate(ID_ShakePeanut_EditBox1,17,64,262,194,EB_DRAW,(XCHAR*)ShakePeanut_EditBox1_Text,65,GOLScheme_DescText);
+BUTTON *pShakePeanut_Button1;
+    pShakePeanut_Button1 = BtnCreate(ID_ShakePeanut_Button1,365,183,463,208,1,BTN_DRAW,NULL,(XCHAR*)ShakePeanut_Button1_Text,GOLScheme_ButtonTx);
+BUTTON *pShakePeanut_Button8;
+    pShakePeanut_Button8 = BtnCreate(ID_ShakePeanut_Button8,191,218,289,255,1,BTN_DRAW,NULL,(XCHAR*)ShakePeanut_Button8_Text,GOLScheme_ButtonTx);
+BUTTON *pShakePeanut_Button3;
+    pShakePeanut_Button3 = BtnCreate(ID_ShakePeanut_Button3,306,218,404,255,1,BTN_DRAW,NULL,(XCHAR*)ShakePeanut_Button3_Text,GOLScheme_ButtonTx);
+BUTTON *pShakePeanut_Button4;
+    pShakePeanut_Button4 = BtnCreate(ID_ShakePeanut_Button4,76,218,174,255,1,BTN_DRAW,NULL,(XCHAR*)ShakePeanut_Button4_Text,GOLScheme_ButtonTx);
+BUTTON *pShakePeanut_Button5;
+    pShakePeanut_Button5 = BtnCreate(ID_ShakePeanut_Button5,17,218,59,255,1,BTN_DRAW,NULL,(XCHAR*)ShakePeanut_Button5_Text,GOLScheme_ButtonTx);
+BUTTON *pShakePeanut_Button6;
+    pShakePeanut_Button6 = BtnCreate(ID_ShakePeanut_Button6,421,218,463,255,1,BTN_DRAW,NULL,(XCHAR*)ShakePeanut_Button6_Text,GOLScheme_ButtonTx);
+} // End of CreateShakePeanut
+
+
+    void CreateShakeVanilla(void) {
+    GOLFree();
+    SetColor(0); // Color [Black]
+    ClearDevice();
+    #ifdef USE_TRANSPARENT_COLOR
+    TransparentColorEnable(0); // Color [A=0, R=0, G=0, B=0]
+    #endif
+    CreateScheme_ButtonTx();
+    CreateScheme_WinSch();
+    CreateScheme_DescText();
+    CreateScheme_MainName();
+WINDOW *pShakeVanilla_Window1;
+    pShakeVanilla_Window1 = WndCreate(ID_ShakeVanilla_Window1,0,0,480,42,WND_DRAW|WND_TITLECENTER,NULL,(XCHAR*)ShakeVanilla_Window1_Text,GOLScheme_WinSch);
+PICTURE *pShakeVanilla_Picture1;
+    pShakeVanilla_Picture1 = PictCreate(ID_ShakeVanilla_Picture1,353,64,463,174,PICT_DRAW,1,(void *)&bmpvan,GOLScheme_ButtonTx);
+EDITBOX *pShakeVanilla_EditBox1;
+    pShakeVanilla_EditBox1 = EbCreate(ID_ShakeVanilla_EditBox1,17,64,262,194,EB_DRAW,(XCHAR*)ShakeVanilla_EditBox1_Text,68,GOLScheme_DescText);
+BUTTON *pShakeVanilla_Button1;
+    pShakeVanilla_Button1 = BtnCreate(ID_ShakeVanilla_Button1,365,183,463,208,1,BTN_DRAW,NULL,(XCHAR*)ShakeVanilla_Button1_Text,GOLScheme_ButtonTx);
+BUTTON *pShakeVanilla_Button8;
+    pShakeVanilla_Button8 = BtnCreate(ID_ShakeVanilla_Button8,191,218,289,255,1,BTN_DRAW,NULL,(XCHAR*)ShakeVanilla_Button8_Text,GOLScheme_ButtonTx);
+BUTTON *pShakeVanilla_Button3;
+    pShakeVanilla_Button3 = BtnCreate(ID_ShakeVanilla_Button3,306,218,404,255,1,BTN_DRAW,NULL,(XCHAR*)ShakeVanilla_Button3_Text,GOLScheme_ButtonTx);
+BUTTON *pShakeVanilla_Button4;
+    pShakeVanilla_Button4 = BtnCreate(ID_ShakeVanilla_Button4,76,218,174,255,1,BTN_DRAW,NULL,(XCHAR*)ShakeVanilla_Button4_Text,GOLScheme_ButtonTx);
+BUTTON *pShakeVanilla_Button5;
+    pShakeVanilla_Button5 = BtnCreate(ID_ShakeVanilla_Button5,17,218,59,255,1,BTN_DRAW,NULL,(XCHAR*)ShakeVanilla_Button5_Text,GOLScheme_ButtonTx);
+BUTTON *pShakeVanilla_Button6;
+    pShakeVanilla_Button6 = BtnCreate(ID_ShakeVanilla_Button6,421,218,463,255,1,BTN_DRAW,NULL,(XCHAR*)ShakeVanilla_Button6_Text,GOLScheme_ButtonTx);
+} // End of CreateShakeVanilla
+
+
+    void CreateSoftDrinkList(void) {
+    GOLFree();
+    SetColor(0); // Color [Black]
+    ClearDevice();
+    #ifdef USE_TRANSPARENT_COLOR
+    TransparentColorEnable(0); // Color [A=0, R=0, G=0, B=0]
+    #endif
+    CreateScheme_ButtonTx();
+    CreateScheme_WinSch();
+    CreateScheme_DescText();
+    CreateScheme_MainName();
+WINDOW *pSoftDrinkList_Window1;
+    pSoftDrinkList_Window1 = WndCreate(ID_SoftDrinkList_Window1,0,0,480,42,WND_DRAW|WND_TITLECENTER,NULL,(XCHAR*)SoftDrinkList_Window1_Text,GOLScheme_WinSch);
+BUTTON *pSoftDrinkList_Button3;
+    pSoftDrinkList_Button3 = BtnCreate(ID_SoftDrinkList_Button3,177,105,320,128,1,BTN_DRAW,NULL,(XCHAR*)SoftDrinkList_Button3_Text,GOLScheme_ButtonTx);
+BUTTON *pSoftDrinkList_Button4;
+    pSoftDrinkList_Button4 = BtnCreate(ID_SoftDrinkList_Button4,327,192,472,215,1,BTN_DRAW,NULL,(XCHAR*)SoftDrinkList_Button4_Text,GOLScheme_ButtonTx);
+BUTTON *pSoftDrinkList_Button5;
+    pSoftDrinkList_Button5 = BtnCreate(ID_SoftDrinkList_Button5,177,63,320,86,1,BTN_DRAW,NULL,(XCHAR*)SoftDrinkList_Button5_Text,GOLScheme_ButtonTx);
+BUTTON *pSoftDrinkList_Button6;
+    pSoftDrinkList_Button6 = BtnCreate(ID_SoftDrinkList_Button6,12,105,155,128,1,BTN_DRAW,NULL,(XCHAR*)SoftDrinkList_Button6_Text,GOLScheme_ButtonTx);
+BUTTON *pSoftDrinkList_Button7;
+    pSoftDrinkList_Button7 = BtnCreate(ID_SoftDrinkList_Button7,331,105,476,128,1,BTN_DRAW,NULL,(XCHAR*)SoftDrinkList_Button7_Text,GOLScheme_ButtonTx);
+BUTTON *pSoftDrinkList_Button8;
+    pSoftDrinkList_Button8 = BtnCreate(ID_SoftDrinkList_Button8,345,221,443,258,1,BTN_DRAW,NULL,(XCHAR*)SoftDrinkList_Button8_Text,GOLScheme_ButtonTx);
+BUTTON *pSoftDrinkList_Button9;
+    pSoftDrinkList_Button9 = BtnCreate(ID_SoftDrinkList_Button9,12,63,155,86,1,BTN_DRAW,NULL,(XCHAR*)SoftDrinkList_Button9_Text,GOLScheme_ButtonTx);
+BUTTON *pSoftDrinkList_Button10;
+    pSoftDrinkList_Button10 = BtnCreate(ID_SoftDrinkList_Button10,331,63,476,86,1,BTN_DRAW,NULL,(XCHAR*)SoftDrinkList_Button10_Text,GOLScheme_ButtonTx);
+BUTTON *pSoftDrinkList_Button12;
+    pSoftDrinkList_Button12 = BtnCreate(ID_SoftDrinkList_Button12,40,221,138,258,1,BTN_DRAW,NULL,(XCHAR*)SoftDrinkList_Button12_Text,GOLScheme_ButtonTx);
+BUTTON *pSoftDrinkList_Button11;
+    pSoftDrinkList_Button11 = BtnCreate(ID_SoftDrinkList_Button11,177,149,322,172,1,BTN_DRAW,NULL,(XCHAR*)SoftDrinkList_Button11_Text,GOLScheme_ButtonTx);
+BUTTON *pSoftDrinkList_Button13;
+    pSoftDrinkList_Button13 = BtnCreate(ID_SoftDrinkList_Button13,191,221,289,258,1,BTN_DRAW,NULL,(XCHAR*)SoftDrinkList_Button13_Text,GOLScheme_ButtonTx);
+} // End of CreateSoftDrinkList
+
+
+    void CreateSoftDrinkList2(void) {
+    GOLFree();
+    SetColor(0); // Color [Black]
+    ClearDevice();
+    #ifdef USE_TRANSPARENT_COLOR
+    TransparentColorEnable(0); // Color [A=0, R=0, G=0, B=0]
+    #endif
+    CreateScheme_ButtonTx();
+    CreateScheme_WinSch();
+    CreateScheme_DescText();
+    CreateScheme_MainName();
+WINDOW *pSoftDrinkList2_Window1;
+    pSoftDrinkList2_Window1 = WndCreate(ID_SoftDrinkList2_Window1,0,0,480,42,WND_DRAW|WND_TITLECENTER,NULL,(XCHAR*)SoftDrinkList2_Window1_Text,GOLScheme_WinSch);
+BUTTON *pSoftDrinkList2_Button3;
+    pSoftDrinkList2_Button3 = BtnCreate(ID_SoftDrinkList2_Button3,14,105,157,128,1,BTN_DRAW,NULL,(XCHAR*)SoftDrinkList2_Button3_Text,GOLScheme_ButtonTx);
+BUTTON *pSoftDrinkList2_Button4;
+    pSoftDrinkList2_Button4 = BtnCreate(ID_SoftDrinkList2_Button4,12,192,157,215,1,BTN_DRAW,NULL,(XCHAR*)SoftDrinkList2_Button4_Text,GOLScheme_ButtonTx);
+BUTTON *pSoftDrinkList2_Button5;
+    pSoftDrinkList2_Button5 = BtnCreate(ID_SoftDrinkList2_Button5,14,63,157,86,1,BTN_DRAW,NULL,(XCHAR*)SoftDrinkList2_Button5_Text,GOLScheme_ButtonTx);
+BUTTON *pSoftDrinkList2_Button7;
+    pSoftDrinkList2_Button7 = BtnCreate(ID_SoftDrinkList2_Button7,331,63,476,86,1,BTN_DRAW,NULL,(XCHAR*)SoftDrinkList2_Button7_Text,GOLScheme_ButtonTx);
+BUTTON *pSoftDrinkList2_Button8;
+    pSoftDrinkList2_Button8 = BtnCreate(ID_SoftDrinkList2_Button8,345,221,443,258,1,BTN_DRAW,NULL,(XCHAR*)SoftDrinkList2_Button8_Text,GOLScheme_ButtonTx);
+BUTTON *pSoftDrinkList2_Button12;
+    pSoftDrinkList2_Button12 = BtnCreate(ID_SoftDrinkList2_Button12,40,221,138,258,1,BTN_DRAW,NULL,(XCHAR*)SoftDrinkList2_Button12_Text,GOLScheme_ButtonTx);
+BUTTON *pSoftDrinkList2_Button11;
+    pSoftDrinkList2_Button11 = BtnCreate(ID_SoftDrinkList2_Button11,331,105,476,128,1,BTN_DRAW,NULL,(XCHAR*)SoftDrinkList2_Button11_Text,GOLScheme_ButtonTx);
+BUTTON *pSoftDrinkList2_Button13;
+    pSoftDrinkList2_Button13 = BtnCreate(ID_SoftDrinkList2_Button13,191,221,289,258,1,BTN_DRAW,NULL,(XCHAR*)SoftDrinkList2_Button13_Text,GOLScheme_ButtonTx);
+BUTTON *pSoftDrinkList2_Button14;
+    pSoftDrinkList2_Button14 = BtnCreate(ID_SoftDrinkList2_Button14,177,63,320,86,1,BTN_DRAW,NULL,(XCHAR*)SoftDrinkList2_Button14_Text,GOLScheme_ButtonTx);
+} // End of CreateSoftDrinkList2
+
+
+    void CreateSoftChocolateMilk(void) {
+    GOLFree();
+    SetColor(0); // Color [Black]
+    ClearDevice();
+    #ifdef USE_TRANSPARENT_COLOR
+    TransparentColorEnable(0); // Color [A=0, R=0, G=0, B=0]
+    #endif
+    CreateScheme_ButtonTx();
+    CreateScheme_WinSch();
+    CreateScheme_DescText();
+    CreateScheme_MainName();
+WINDOW *pSoftChocolateMilk_Window1;
+    pSoftChocolateMilk_Window1 = WndCreate(ID_SoftChocolateMilk_Window1,0,0,480,42,WND_DRAW|WND_TITLECENTER,NULL,(XCHAR*)SoftChocolateMilk_Window1_Text,GOLScheme_WinSch);
+PICTURE *pSoftChocolateMilk_Picture1;
+    pSoftChocolateMilk_Picture1 = PictCreate(ID_SoftChocolateMilk_Picture1,353,64,463,174,PICT_DRAW,1,(void *)&bmpChocMilk,GOLScheme_ButtonTx);
+EDITBOX *pSoftChocolateMilk_EditBox1;
+    pSoftChocolateMilk_EditBox1 = EbCreate(ID_SoftChocolateMilk_EditBox1,17,64,262,194,EB_DRAW,(XCHAR*)SoftChocolateMilk_EditBox1_Text,47,GOLScheme_DescText);
+BUTTON *pSoftChocolateMilk_Button1;
+    pSoftChocolateMilk_Button1 = BtnCreate(ID_SoftChocolateMilk_Button1,365,183,463,208,1,BTN_DRAW,NULL,(XCHAR*)SoftChocolateMilk_Button1_Text,GOLScheme_ButtonTx);
+BUTTON *pSoftChocolateMilk_Button8;
+    pSoftChocolateMilk_Button8 = BtnCreate(ID_SoftChocolateMilk_Button8,191,218,289,255,1,BTN_DRAW,NULL,(XCHAR*)SoftChocolateMilk_Button8_Text,GOLScheme_ButtonTx);
+BUTTON *pSoftChocolateMilk_Button3;
+    pSoftChocolateMilk_Button3 = BtnCreate(ID_SoftChocolateMilk_Button3,306,218,404,255,1,BTN_DRAW,NULL,(XCHAR*)SoftChocolateMilk_Button3_Text,GOLScheme_ButtonTx);
+BUTTON *pSoftChocolateMilk_Button4;
+    pSoftChocolateMilk_Button4 = BtnCreate(ID_SoftChocolateMilk_Button4,76,218,174,255,1,BTN_DRAW,NULL,(XCHAR*)SoftChocolateMilk_Button4_Text,GOLScheme_ButtonTx);
+BUTTON *pSoftChocolateMilk_Button5;
+    pSoftChocolateMilk_Button5 = BtnCreate(ID_SoftChocolateMilk_Button5,17,218,59,255,1,BTN_DRAW,NULL,(XCHAR*)SoftChocolateMilk_Button5_Text,GOLScheme_ButtonTx);
+BUTTON *pSoftChocolateMilk_Button6;
+    pSoftChocolateMilk_Button6 = BtnCreate(ID_SoftChocolateMilk_Button6,421,218,463,255,1,BTN_DRAW,NULL,(XCHAR*)SoftChocolateMilk_Button6_Text,GOLScheme_ButtonTx);
+} // End of CreateSoftChocolateMilk
+
+
+    void CreateSoftCoffeeDecaf(void) {
+    GOLFree();
+    SetColor(0); // Color [Black]
+    ClearDevice();
+    #ifdef USE_TRANSPARENT_COLOR
+    TransparentColorEnable(0); // Color [A=0, R=0, G=0, B=0]
+    #endif
+    CreateScheme_ButtonTx();
+    CreateScheme_WinSch();
+    CreateScheme_DescText();
+    CreateScheme_MainName();
+WINDOW *pSoftCoffeeDecaf_Window1;
+    pSoftCoffeeDecaf_Window1 = WndCreate(ID_SoftCoffeeDecaf_Window1,0,0,480,42,WND_DRAW|WND_TITLECENTER,NULL,(XCHAR*)SoftCoffeeDecaf_Window1_Text,GOLScheme_WinSch);
+PICTURE *pSoftCoffeeDecaf_Picture1;
+    pSoftCoffeeDecaf_Picture1 = PictCreate(ID_SoftCoffeeDecaf_Picture1,353,64,463,174,PICT_DRAW,1,(void *)&bmpDcoffee,GOLScheme_ButtonTx);
+EDITBOX *pSoftCoffeeDecaf_EditBox1;
+    pSoftCoffeeDecaf_EditBox1 = EbCreate(ID_SoftCoffeeDecaf_EditBox1,17,64,262,194,EB_DRAW,(XCHAR*)SoftCoffeeDecaf_EditBox1_Text,60,GOLScheme_DescText);
+BUTTON *pSoftCoffeeDecaf_Button1;
+    pSoftCoffeeDecaf_Button1 = BtnCreate(ID_SoftCoffeeDecaf_Button1,365,183,463,208,1,BTN_DRAW,NULL,(XCHAR*)SoftCoffeeDecaf_Button1_Text,GOLScheme_ButtonTx);
+BUTTON *pSoftCoffeeDecaf_Button8;
+    pSoftCoffeeDecaf_Button8 = BtnCreate(ID_SoftCoffeeDecaf_Button8,191,218,289,255,1,BTN_DRAW,NULL,(XCHAR*)SoftCoffeeDecaf_Button8_Text,GOLScheme_ButtonTx);
+BUTTON *pSoftCoffeeDecaf_Button3;
+    pSoftCoffeeDecaf_Button3 = BtnCreate(ID_SoftCoffeeDecaf_Button3,306,218,404,255,1,BTN_DRAW,NULL,(XCHAR*)SoftCoffeeDecaf_Button3_Text,GOLScheme_ButtonTx);
+BUTTON *pSoftCoffeeDecaf_Button4;
+    pSoftCoffeeDecaf_Button4 = BtnCreate(ID_SoftCoffeeDecaf_Button4,76,218,174,255,1,BTN_DRAW,NULL,(XCHAR*)SoftCoffeeDecaf_Button4_Text,GOLScheme_ButtonTx);
+BUTTON *pSoftCoffeeDecaf_Button5;
+    pSoftCoffeeDecaf_Button5 = BtnCreate(ID_SoftCoffeeDecaf_Button5,17,218,59,255,1,BTN_DRAW,NULL,(XCHAR*)SoftCoffeeDecaf_Button5_Text,GOLScheme_ButtonTx);
+BUTTON *pSoftCoffeeDecaf_Button6;
+    pSoftCoffeeDecaf_Button6 = BtnCreate(ID_SoftCoffeeDecaf_Button6,421,218,463,255,1,BTN_DRAW,NULL,(XCHAR*)SoftCoffeeDecaf_Button6_Text,GOLScheme_ButtonTx);
+} // End of CreateSoftCoffeeDecaf
+
+
+    void CreateSoftCoffeeRegular(void) {
+    GOLFree();
+    SetColor(0); // Color [Black]
+    ClearDevice();
+    #ifdef USE_TRANSPARENT_COLOR
+    TransparentColorEnable(0); // Color [A=0, R=0, G=0, B=0]
+    #endif
+    CreateScheme_ButtonTx();
+    CreateScheme_WinSch();
+    CreateScheme_DescText();
+    CreateScheme_MainName();
+WINDOW *pSoftCoffeeRegular_Window1;
+    pSoftCoffeeRegular_Window1 = WndCreate(ID_SoftCoffeeRegular_Window1,0,0,480,42,WND_DRAW|WND_TITLECENTER,NULL,(XCHAR*)SoftCoffeeRegular_Window1_Text,GOLScheme_WinSch);
+PICTURE *pSoftCoffeeRegular_Picture1;
+    pSoftCoffeeRegular_Picture1 = PictCreate(ID_SoftCoffeeRegular_Picture1,353,64,463,174,PICT_DRAW,1,(void *)&bmpCoffee,GOLScheme_ButtonTx);
+EDITBOX *pSoftCoffeeRegular_EditBox1;
+    pSoftCoffeeRegular_EditBox1 = EbCreate(ID_SoftCoffeeRegular_EditBox1,17,64,262,194,EB_DRAW,(XCHAR*)SoftCoffeeRegular_EditBox1_Text,55,GOLScheme_DescText);
+BUTTON *pSoftCoffeeRegular_Button1;
+    pSoftCoffeeRegular_Button1 = BtnCreate(ID_SoftCoffeeRegular_Button1,365,183,463,208,1,BTN_DRAW,NULL,(XCHAR*)SoftCoffeeRegular_Button1_Text,GOLScheme_ButtonTx);
+BUTTON *pSoftCoffeeRegular_Button8;
+    pSoftCoffeeRegular_Button8 = BtnCreate(ID_SoftCoffeeRegular_Button8,191,218,289,255,1,BTN_DRAW,NULL,(XCHAR*)SoftCoffeeRegular_Button8_Text,GOLScheme_ButtonTx);
+BUTTON *pSoftCoffeeRegular_Button3;
+    pSoftCoffeeRegular_Button3 = BtnCreate(ID_SoftCoffeeRegular_Button3,306,218,404,255,1,BTN_DRAW,NULL,(XCHAR*)SoftCoffeeRegular_Button3_Text,GOLScheme_ButtonTx);
+BUTTON *pSoftCoffeeRegular_Button4;
+    pSoftCoffeeRegular_Button4 = BtnCreate(ID_SoftCoffeeRegular_Button4,76,218,174,255,1,BTN_DRAW,NULL,(XCHAR*)SoftCoffeeRegular_Button4_Text,GOLScheme_ButtonTx);
+BUTTON *pSoftCoffeeRegular_Button5;
+    pSoftCoffeeRegular_Button5 = BtnCreate(ID_SoftCoffeeRegular_Button5,17,218,59,255,1,BTN_DRAW,NULL,(XCHAR*)SoftCoffeeRegular_Button5_Text,GOLScheme_ButtonTx);
+BUTTON *pSoftCoffeeRegular_Button6;
+    pSoftCoffeeRegular_Button6 = BtnCreate(ID_SoftCoffeeRegular_Button6,421,218,463,255,1,BTN_DRAW,NULL,(XCHAR*)SoftCoffeeRegular_Button6_Text,GOLScheme_ButtonTx);
+} // End of CreateSoftCoffeeRegular
+
+
+    void CreateSoftCoke(void) {
+    GOLFree();
+    SetColor(0); // Color [Black]
+    ClearDevice();
+    #ifdef USE_TRANSPARENT_COLOR
+    TransparentColorEnable(0); // Color [A=0, R=0, G=0, B=0]
+    #endif
+    CreateScheme_ButtonTx();
+    CreateScheme_WinSch();
+    CreateScheme_DescText();
+    CreateScheme_MainName();
+WINDOW *pSoftCoke_Window1;
+    pSoftCoke_Window1 = WndCreate(ID_SoftCoke_Window1,0,0,480,42,WND_DRAW|WND_TITLECENTER,NULL,(XCHAR*)SoftCoke_Window1_Text,GOLScheme_WinSch);
+PICTURE *pSoftCoke_Picture1;
+    pSoftCoke_Picture1 = PictCreate(ID_SoftCoke_Picture1,353,64,463,174,PICT_DRAW,1,(void *)&bmpcoke,GOLScheme_ButtonTx);
+EDITBOX *pSoftCoke_EditBox1;
+    pSoftCoke_EditBox1 = EbCreate(ID_SoftCoke_EditBox1,17,64,262,194,EB_DRAW,(XCHAR*)SoftCoke_EditBox1_Text,61,GOLScheme_DescText);
+BUTTON *pSoftCoke_Button1;
+    pSoftCoke_Button1 = BtnCreate(ID_SoftCoke_Button1,365,183,463,208,1,BTN_DRAW,NULL,(XCHAR*)SoftCoke_Button1_Text,GOLScheme_ButtonTx);
+BUTTON *pSoftCoke_Button8;
+    pSoftCoke_Button8 = BtnCreate(ID_SoftCoke_Button8,191,218,289,255,1,BTN_DRAW,NULL,(XCHAR*)SoftCoke_Button8_Text,GOLScheme_ButtonTx);
+BUTTON *pSoftCoke_Button3;
+    pSoftCoke_Button3 = BtnCreate(ID_SoftCoke_Button3,306,218,404,255,1,BTN_DRAW,NULL,(XCHAR*)SoftCoke_Button3_Text,GOLScheme_ButtonTx);
+BUTTON *pSoftCoke_Button4;
+    pSoftCoke_Button4 = BtnCreate(ID_SoftCoke_Button4,76,218,174,255,1,BTN_DRAW,NULL,(XCHAR*)SoftCoke_Button4_Text,GOLScheme_ButtonTx);
+BUTTON *pSoftCoke_Button5;
+    pSoftCoke_Button5 = BtnCreate(ID_SoftCoke_Button5,17,218,59,255,1,BTN_DRAW,NULL,(XCHAR*)SoftCoke_Button5_Text,GOLScheme_ButtonTx);
+BUTTON *pSoftCoke_Button6;
+    pSoftCoke_Button6 = BtnCreate(ID_SoftCoke_Button6,421,218,463,255,1,BTN_DRAW,NULL,(XCHAR*)SoftCoke_Button6_Text,GOLScheme_ButtonTx);
+} // End of CreateSoftCoke
+
+
+    void CreateSoftDietCoke(void) {
+    GOLFree();
+    SetColor(0); // Color [Black]
+    ClearDevice();
+    #ifdef USE_TRANSPARENT_COLOR
+    TransparentColorEnable(0); // Color [A=0, R=0, G=0, B=0]
+    #endif
+    CreateScheme_ButtonTx();
+    CreateScheme_WinSch();
+    CreateScheme_DescText();
+    CreateScheme_MainName();
+WINDOW *pSoftDietCoke_Window1;
+    pSoftDietCoke_Window1 = WndCreate(ID_SoftDietCoke_Window1,0,0,480,42,WND_DRAW|WND_TITLECENTER,NULL,(XCHAR*)SoftDietCoke_Window1_Text,GOLScheme_WinSch);
+PICTURE *pSoftDietCoke_Picture1;
+    pSoftDietCoke_Picture1 = PictCreate(ID_SoftDietCoke_Picture1,353,64,463,174,PICT_DRAW,1,(void *)&bmpdietcoke,GOLScheme_ButtonTx);
+EDITBOX *pSoftDietCoke_EditBox1;
+    pSoftDietCoke_EditBox1 = EbCreate(ID_SoftDietCoke_EditBox1,17,64,262,194,EB_DRAW,(XCHAR*)SoftDietCoke_EditBox1_Text,65,GOLScheme_DescText);
+BUTTON *pSoftDietCoke_Button1;
+    pSoftDietCoke_Button1 = BtnCreate(ID_SoftDietCoke_Button1,365,183,463,208,1,BTN_DRAW,NULL,(XCHAR*)SoftDietCoke_Button1_Text,GOLScheme_ButtonTx);
+BUTTON *pSoftDietCoke_Button8;
+    pSoftDietCoke_Button8 = BtnCreate(ID_SoftDietCoke_Button8,191,218,289,255,1,BTN_DRAW,NULL,(XCHAR*)SoftDietCoke_Button8_Text,GOLScheme_ButtonTx);
+BUTTON *pSoftDietCoke_Button3;
+    pSoftDietCoke_Button3 = BtnCreate(ID_SoftDietCoke_Button3,306,218,404,255,1,BTN_DRAW,NULL,(XCHAR*)SoftDietCoke_Button3_Text,GOLScheme_ButtonTx);
+BUTTON *pSoftDietCoke_Button4;
+    pSoftDietCoke_Button4 = BtnCreate(ID_SoftDietCoke_Button4,76,218,174,255,1,BTN_DRAW,NULL,(XCHAR*)SoftDietCoke_Button4_Text,GOLScheme_ButtonTx);
+BUTTON *pSoftDietCoke_Button5;
+    pSoftDietCoke_Button5 = BtnCreate(ID_SoftDietCoke_Button5,17,218,59,255,1,BTN_DRAW,NULL,(XCHAR*)SoftDietCoke_Button5_Text,GOLScheme_ButtonTx);
+BUTTON *pSoftDietCoke_Button6;
+    pSoftDietCoke_Button6 = BtnCreate(ID_SoftDietCoke_Button6,421,218,463,255,1,BTN_DRAW,NULL,(XCHAR*)SoftDietCoke_Button6_Text,GOLScheme_ButtonTx);
+} // End of CreateSoftDietCoke
+
+
+    void CreateSoftDietSprite(void) {
+    GOLFree();
+    SetColor(0); // Color [Black]
+    ClearDevice();
+    #ifdef USE_TRANSPARENT_COLOR
+    TransparentColorEnable(0); // Color [A=0, R=0, G=0, B=0]
+    #endif
+    CreateScheme_ButtonTx();
+    CreateScheme_WinSch();
+    CreateScheme_DescText();
+    CreateScheme_MainName();
+WINDOW *pSoftDietSprite_Window1;
+    pSoftDietSprite_Window1 = WndCreate(ID_SoftDietSprite_Window1,0,0,480,42,WND_DRAW|WND_TITLECENTER,NULL,(XCHAR*)SoftDietSprite_Window1_Text,GOLScheme_WinSch);
+PICTURE *pSoftDietSprite_Picture1;
+    pSoftDietSprite_Picture1 = PictCreate(ID_SoftDietSprite_Picture1,353,64,463,174,PICT_DRAW,1,(void *)&bmpdietspri,GOLScheme_ButtonTx);
+EDITBOX *pSoftDietSprite_EditBox1;
+    pSoftDietSprite_EditBox1 = EbCreate(ID_SoftDietSprite_EditBox1,17,64,262,194,EB_DRAW,(XCHAR*)SoftDietSprite_EditBox1_Text,88,GOLScheme_DescText);
+BUTTON *pSoftDietSprite_Button1;
+    pSoftDietSprite_Button1 = BtnCreate(ID_SoftDietSprite_Button1,365,183,463,208,1,BTN_DRAW,NULL,(XCHAR*)SoftDietSprite_Button1_Text,GOLScheme_ButtonTx);
+BUTTON *pSoftDietSprite_Button8;
+    pSoftDietSprite_Button8 = BtnCreate(ID_SoftDietSprite_Button8,191,218,289,255,1,BTN_DRAW,NULL,(XCHAR*)SoftDietSprite_Button8_Text,GOLScheme_ButtonTx);
+BUTTON *pSoftDietSprite_Button3;
+    pSoftDietSprite_Button3 = BtnCreate(ID_SoftDietSprite_Button3,306,218,404,255,1,BTN_DRAW,NULL,(XCHAR*)SoftDietSprite_Button3_Text,GOLScheme_ButtonTx);
+BUTTON *pSoftDietSprite_Button4;
+    pSoftDietSprite_Button4 = BtnCreate(ID_SoftDietSprite_Button4,76,218,174,255,1,BTN_DRAW,NULL,(XCHAR*)SoftDietSprite_Button4_Text,GOLScheme_ButtonTx);
+BUTTON *pSoftDietSprite_Button5;
+    pSoftDietSprite_Button5 = BtnCreate(ID_SoftDietSprite_Button5,17,218,59,255,1,BTN_DRAW,NULL,(XCHAR*)SoftDietSprite_Button5_Text,GOLScheme_ButtonTx);
+BUTTON *pSoftDietSprite_Button6;
+    pSoftDietSprite_Button6 = BtnCreate(ID_SoftDietSprite_Button6,421,218,463,255,1,BTN_DRAW,NULL,(XCHAR*)SoftDietSprite_Button6_Text,GOLScheme_ButtonTx);
+} // End of CreateSoftDietSprite
+
+
+    void CreateSoftGingerale(void) {
+    GOLFree();
+    SetColor(0); // Color [Black]
+    ClearDevice();
+    #ifdef USE_TRANSPARENT_COLOR
+    TransparentColorEnable(0); // Color [A=0, R=0, G=0, B=0]
+    #endif
+    CreateScheme_ButtonTx();
+    CreateScheme_WinSch();
+    CreateScheme_DescText();
+    CreateScheme_MainName();
+WINDOW *pSoftGingerale_Window1;
+    pSoftGingerale_Window1 = WndCreate(ID_SoftGingerale_Window1,0,0,480,42,WND_DRAW|WND_TITLECENTER,NULL,(XCHAR*)SoftGingerale_Window1_Text,GOLScheme_WinSch);
+PICTURE *pSoftGingerale_Picture1;
+    pSoftGingerale_Picture1 = PictCreate(ID_SoftGingerale_Picture1,353,64,463,174,PICT_DRAW,1,(void *)&bmpgingera,GOLScheme_ButtonTx);
+EDITBOX *pSoftGingerale_EditBox1;
+    pSoftGingerale_EditBox1 = EbCreate(ID_SoftGingerale_EditBox1,17,64,262,194,EB_DRAW,(XCHAR*)SoftGingerale_EditBox1_Text,70,GOLScheme_DescText);
+BUTTON *pSoftGingerale_Button1;
+    pSoftGingerale_Button1 = BtnCreate(ID_SoftGingerale_Button1,365,183,463,208,1,BTN_DRAW,NULL,(XCHAR*)SoftGingerale_Button1_Text,GOLScheme_ButtonTx);
+BUTTON *pSoftGingerale_Button8;
+    pSoftGingerale_Button8 = BtnCreate(ID_SoftGingerale_Button8,191,218,289,255,1,BTN_DRAW,NULL,(XCHAR*)SoftGingerale_Button8_Text,GOLScheme_ButtonTx);
+BUTTON *pSoftGingerale_Button3;
+    pSoftGingerale_Button3 = BtnCreate(ID_SoftGingerale_Button3,306,218,404,255,1,BTN_DRAW,NULL,(XCHAR*)SoftGingerale_Button3_Text,GOLScheme_ButtonTx);
+BUTTON *pSoftGingerale_Button4;
+    pSoftGingerale_Button4 = BtnCreate(ID_SoftGingerale_Button4,76,218,174,255,1,BTN_DRAW,NULL,(XCHAR*)SoftGingerale_Button4_Text,GOLScheme_ButtonTx);
+BUTTON *pSoftGingerale_Button5;
+    pSoftGingerale_Button5 = BtnCreate(ID_SoftGingerale_Button5,17,218,59,255,1,BTN_DRAW,NULL,(XCHAR*)SoftGingerale_Button5_Text,GOLScheme_ButtonTx);
+BUTTON *pSoftGingerale_Button6;
+    pSoftGingerale_Button6 = BtnCreate(ID_SoftGingerale_Button6,421,218,463,255,1,BTN_DRAW,NULL,(XCHAR*)SoftGingerale_Button6_Text,GOLScheme_ButtonTx);
+} // End of CreateSoftGingerale
+
+
+    void CreateSoftLemonade(void) {
+    GOLFree();
+    SetColor(0); // Color [Black]
+    ClearDevice();
+    #ifdef USE_TRANSPARENT_COLOR
+    TransparentColorEnable(0); // Color [A=0, R=0, G=0, B=0]
+    #endif
+    CreateScheme_ButtonTx();
+    CreateScheme_WinSch();
+    CreateScheme_DescText();
+    CreateScheme_MainName();
+WINDOW *pSoftLemonade_Window1;
+    pSoftLemonade_Window1 = WndCreate(ID_SoftLemonade_Window1,0,0,480,42,WND_DRAW|WND_TITLECENTER,NULL,(XCHAR*)SoftLemonade_Window1_Text,GOLScheme_WinSch);
+PICTURE *pSoftLemonade_Picture1;
+    pSoftLemonade_Picture1 = PictCreate(ID_SoftLemonade_Picture1,353,64,463,174,PICT_DRAW,1,(void *)&bmpLem,GOLScheme_ButtonTx);
+EDITBOX *pSoftLemonade_EditBox1;
+    pSoftLemonade_EditBox1 = EbCreate(ID_SoftLemonade_EditBox1,17,64,262,194,EB_DRAW,(XCHAR*)SoftLemonade_EditBox1_Text,54,GOLScheme_DescText);
+BUTTON *pSoftLemonade_Button1;
+    pSoftLemonade_Button1 = BtnCreate(ID_SoftLemonade_Button1,365,183,463,208,1,BTN_DRAW,NULL,(XCHAR*)SoftLemonade_Button1_Text,GOLScheme_ButtonTx);
+BUTTON *pSoftLemonade_Button8;
+    pSoftLemonade_Button8 = BtnCreate(ID_SoftLemonade_Button8,191,218,289,255,1,BTN_DRAW,NULL,(XCHAR*)SoftLemonade_Button8_Text,GOLScheme_ButtonTx);
+BUTTON *pSoftLemonade_Button3;
+    pSoftLemonade_Button3 = BtnCreate(ID_SoftLemonade_Button3,306,218,404,255,1,BTN_DRAW,NULL,(XCHAR*)SoftLemonade_Button3_Text,GOLScheme_ButtonTx);
+BUTTON *pSoftLemonade_Button4;
+    pSoftLemonade_Button4 = BtnCreate(ID_SoftLemonade_Button4,76,218,174,255,1,BTN_DRAW,NULL,(XCHAR*)SoftLemonade_Button4_Text,GOLScheme_ButtonTx);
+BUTTON *pSoftLemonade_Button5;
+    pSoftLemonade_Button5 = BtnCreate(ID_SoftLemonade_Button5,17,218,59,255,1,BTN_DRAW,NULL,(XCHAR*)SoftLemonade_Button5_Text,GOLScheme_ButtonTx);
+BUTTON *pSoftLemonade_Button6;
+    pSoftLemonade_Button6 = BtnCreate(ID_SoftLemonade_Button6,421,218,463,255,1,BTN_DRAW,NULL,(XCHAR*)SoftLemonade_Button6_Text,GOLScheme_ButtonTx);
+} // End of CreateSoftLemonade
+
+
+    void CreateSoftMilk(void) {
+    GOLFree();
+    SetColor(0); // Color [Black]
+    ClearDevice();
+    #ifdef USE_TRANSPARENT_COLOR
+    TransparentColorEnable(0); // Color [A=0, R=0, G=0, B=0]
+    #endif
+    CreateScheme_ButtonTx();
+    CreateScheme_WinSch();
+    CreateScheme_DescText();
+    CreateScheme_MainName();
+WINDOW *pSoftMilk_Window1;
+    pSoftMilk_Window1 = WndCreate(ID_SoftMilk_Window1,0,0,480,42,WND_DRAW|WND_TITLECENTER,NULL,(XCHAR*)SoftMilk_Window1_Text,GOLScheme_WinSch);
+PICTURE *pSoftMilk_Picture1;
+    pSoftMilk_Picture1 = PictCreate(ID_SoftMilk_Picture1,353,64,463,174,PICT_DRAW,1,(void *)&bmpmilk,GOLScheme_ButtonTx);
+EDITBOX *pSoftMilk_EditBox1;
+    pSoftMilk_EditBox1 = EbCreate(ID_SoftMilk_EditBox1,17,64,262,194,EB_DRAW,(XCHAR*)SoftMilk_EditBox1_Text,44,GOLScheme_DescText);
+BUTTON *pSoftMilk_Button1;
+    pSoftMilk_Button1 = BtnCreate(ID_SoftMilk_Button1,365,183,463,208,1,BTN_DRAW,NULL,(XCHAR*)SoftMilk_Button1_Text,GOLScheme_ButtonTx);
+BUTTON *pSoftMilk_Button8;
+    pSoftMilk_Button8 = BtnCreate(ID_SoftMilk_Button8,191,218,289,255,1,BTN_DRAW,NULL,(XCHAR*)SoftMilk_Button8_Text,GOLScheme_ButtonTx);
+BUTTON *pSoftMilk_Button3;
+    pSoftMilk_Button3 = BtnCreate(ID_SoftMilk_Button3,306,218,404,255,1,BTN_DRAW,NULL,(XCHAR*)SoftMilk_Button3_Text,GOLScheme_ButtonTx);
+BUTTON *pSoftMilk_Button4;
+    pSoftMilk_Button4 = BtnCreate(ID_SoftMilk_Button4,76,218,174,255,1,BTN_DRAW,NULL,(XCHAR*)SoftMilk_Button4_Text,GOLScheme_ButtonTx);
+BUTTON *pSoftMilk_Button5;
+    pSoftMilk_Button5 = BtnCreate(ID_SoftMilk_Button5,17,218,59,255,1,BTN_DRAW,NULL,(XCHAR*)SoftMilk_Button5_Text,GOLScheme_ButtonTx);
+BUTTON *pSoftMilk_Button6;
+    pSoftMilk_Button6 = BtnCreate(ID_SoftMilk_Button6,421,218,463,255,1,BTN_DRAW,NULL,(XCHAR*)SoftMilk_Button6_Text,GOLScheme_ButtonTx);
+} // End of CreateSoftMilk
+
+
+    void CreateSoftRootbeer(void) {
+    GOLFree();
+    SetColor(0); // Color [Black]
+    ClearDevice();
+    #ifdef USE_TRANSPARENT_COLOR
+    TransparentColorEnable(0); // Color [A=0, R=0, G=0, B=0]
+    #endif
+    CreateScheme_ButtonTx();
+    CreateScheme_WinSch();
+    CreateScheme_DescText();
+    CreateScheme_MainName();
+WINDOW *pSoftRootbeer_Window1;
+    pSoftRootbeer_Window1 = WndCreate(ID_SoftRootbeer_Window1,0,0,480,42,WND_DRAW|WND_TITLECENTER,NULL,(XCHAR*)SoftRootbeer_Window1_Text,GOLScheme_WinSch);
+PICTURE *pSoftRootbeer_Picture1;
+    pSoftRootbeer_Picture1 = PictCreate(ID_SoftRootbeer_Picture1,353,64,463,174,PICT_DRAW,1,(void *)&bmprootbeer,GOLScheme_ButtonTx);
+EDITBOX *pSoftRootbeer_EditBox1;
+    pSoftRootbeer_EditBox1 = EbCreate(ID_SoftRootbeer_EditBox1,17,64,262,194,EB_DRAW,(XCHAR*)SoftRootbeer_EditBox1_Text,62,GOLScheme_DescText);
+BUTTON *pSoftRootbeer_Button1;
+    pSoftRootbeer_Button1 = BtnCreate(ID_SoftRootbeer_Button1,365,183,463,208,1,BTN_DRAW,NULL,(XCHAR*)SoftRootbeer_Button1_Text,GOLScheme_ButtonTx);
+BUTTON *pSoftRootbeer_Button8;
+    pSoftRootbeer_Button8 = BtnCreate(ID_SoftRootbeer_Button8,306,218,404,255,1,BTN_DRAW,NULL,(XCHAR*)SoftRootbeer_Button8_Text,GOLScheme_ButtonTx);
+BUTTON *pSoftRootbeer_Button3;
+    pSoftRootbeer_Button3 = BtnCreate(ID_SoftRootbeer_Button3,191,218,289,255,1,BTN_DRAW,NULL,(XCHAR*)SoftRootbeer_Button3_Text,GOLScheme_ButtonTx);
+BUTTON *pSoftRootbeer_Button4;
+    pSoftRootbeer_Button4 = BtnCreate(ID_SoftRootbeer_Button4,76,218,174,255,1,BTN_DRAW,NULL,(XCHAR*)SoftRootbeer_Button4_Text,GOLScheme_ButtonTx);
+BUTTON *pSoftRootbeer_Button5;
+    pSoftRootbeer_Button5 = BtnCreate(ID_SoftRootbeer_Button5,17,218,59,255,1,BTN_DRAW,NULL,(XCHAR*)SoftRootbeer_Button5_Text,GOLScheme_ButtonTx);
+BUTTON *pSoftRootbeer_Button6;
+    pSoftRootbeer_Button6 = BtnCreate(ID_SoftRootbeer_Button6,421,218,463,255,1,BTN_DRAW,NULL,(XCHAR*)SoftRootbeer_Button6_Text,GOLScheme_ButtonTx);
+} // End of CreateSoftRootbeer
+
+
+    void CreateSoftSprite(void) {
+    GOLFree();
+    SetColor(0); // Color [Black]
+    ClearDevice();
+    #ifdef USE_TRANSPARENT_COLOR
+    TransparentColorEnable(0); // Color [A=0, R=0, G=0, B=0]
+    #endif
+    CreateScheme_ButtonTx();
+    CreateScheme_WinSch();
+    CreateScheme_DescText();
+    CreateScheme_MainName();
+WINDOW *pSoftSprite_Window1;
+    pSoftSprite_Window1 = WndCreate(ID_SoftSprite_Window1,0,0,480,42,WND_DRAW|WND_TITLECENTER,NULL,(XCHAR*)SoftSprite_Window1_Text,GOLScheme_WinSch);
+PICTURE *pSoftSprite_Picture1;
+    pSoftSprite_Picture1 = PictCreate(ID_SoftSprite_Picture1,353,64,463,174,PICT_DRAW,1,(void *)&bmpsprite,GOLScheme_ButtonTx);
+EDITBOX *pSoftSprite_EditBox1;
+    pSoftSprite_EditBox1 = EbCreate(ID_SoftSprite_EditBox1,17,64,262,194,EB_DRAW,(XCHAR*)SoftSprite_EditBox1_Text,83,GOLScheme_DescText);
+BUTTON *pSoftSprite_Button1;
+    pSoftSprite_Button1 = BtnCreate(ID_SoftSprite_Button1,365,183,463,208,1,BTN_DRAW,NULL,(XCHAR*)SoftSprite_Button1_Text,GOLScheme_ButtonTx);
+BUTTON *pSoftSprite_Button8;
+    pSoftSprite_Button8 = BtnCreate(ID_SoftSprite_Button8,191,218,289,255,1,BTN_DRAW,NULL,(XCHAR*)SoftSprite_Button8_Text,GOLScheme_ButtonTx);
+BUTTON *pSoftSprite_Button3;
+    pSoftSprite_Button3 = BtnCreate(ID_SoftSprite_Button3,306,218,404,255,1,BTN_DRAW,NULL,(XCHAR*)SoftSprite_Button3_Text,GOLScheme_ButtonTx);
+BUTTON *pSoftSprite_Button4;
+    pSoftSprite_Button4 = BtnCreate(ID_SoftSprite_Button4,76,218,174,255,1,BTN_DRAW,NULL,(XCHAR*)SoftSprite_Button4_Text,GOLScheme_ButtonTx);
+BUTTON *pSoftSprite_Button5;
+    pSoftSprite_Button5 = BtnCreate(ID_SoftSprite_Button5,17,218,59,255,1,BTN_DRAW,NULL,(XCHAR*)SoftSprite_Button5_Text,GOLScheme_ButtonTx);
+BUTTON *pSoftSprite_Button6;
+    pSoftSprite_Button6 = BtnCreate(ID_SoftSprite_Button6,421,218,463,255,1,BTN_DRAW,NULL,(XCHAR*)SoftSprite_Button6_Text,GOLScheme_ButtonTx);
+} // End of CreateSoftSprite
+
+
+    void CreateSoftWater(void) {
+    GOLFree();
+    SetColor(0); // Color [Black]
+    ClearDevice();
+    #ifdef USE_TRANSPARENT_COLOR
+    TransparentColorEnable(0); // Color [A=0, R=0, G=0, B=0]
+    #endif
+    CreateScheme_ButtonTx();
+    CreateScheme_WinSch();
+    CreateScheme_DescText();
+    CreateScheme_MainName();
+WINDOW *pSoftWater_Window1;
+    pSoftWater_Window1 = WndCreate(ID_SoftWater_Window1,0,0,480,42,WND_DRAW|WND_TITLECENTER,NULL,(XCHAR*)SoftWater_Window1_Text,GOLScheme_WinSch);
+PICTURE *pSoftWater_Picture1;
+    pSoftWater_Picture1 = PictCreate(ID_SoftWater_Picture1,353,64,463,174,PICT_DRAW,1,(void *)&bmpwater,GOLScheme_ButtonTx);
+EDITBOX *pSoftWater_EditBox1;
+    pSoftWater_EditBox1 = EbCreate(ID_SoftWater_EditBox1,17,64,262,194,EB_DRAW,(XCHAR*)SoftWater_EditBox1_Text,62,GOLScheme_DescText);
+BUTTON *pSoftWater_Button1;
+    pSoftWater_Button1 = BtnCreate(ID_SoftWater_Button1,365,183,463,208,1,BTN_DRAW,NULL,(XCHAR*)SoftWater_Button1_Text,GOLScheme_ButtonTx);
+BUTTON *pSoftWater_Button8;
+    pSoftWater_Button8 = BtnCreate(ID_SoftWater_Button8,191,218,289,255,1,BTN_DRAW,NULL,(XCHAR*)SoftWater_Button8_Text,GOLScheme_ButtonTx);
+BUTTON *pSoftWater_Button3;
+    pSoftWater_Button3 = BtnCreate(ID_SoftWater_Button3,306,218,404,255,1,BTN_DRAW,NULL,(XCHAR*)SoftWater_Button3_Text,GOLScheme_ButtonTx);
+BUTTON *pSoftWater_Button4;
+    pSoftWater_Button4 = BtnCreate(ID_SoftWater_Button4,76,218,174,255,1,BTN_DRAW,NULL,(XCHAR*)SoftWater_Button4_Text,GOLScheme_ButtonTx);
+BUTTON *pSoftWater_Button5;
+    pSoftWater_Button5 = BtnCreate(ID_SoftWater_Button5,17,218,59,255,1,BTN_DRAW,NULL,(XCHAR*)SoftWater_Button5_Text,GOLScheme_ButtonTx);
+BUTTON *pSoftWater_Button6;
+    pSoftWater_Button6 = BtnCreate(ID_SoftWater_Button6,421,218,463,255,1,BTN_DRAW,NULL,(XCHAR*)SoftWater_Button6_Text,GOLScheme_ButtonTx);
+} // End of CreateSoftWater
+
+
+    void CreateScreenOff(void) {
+    GOLFree();
+    SetColor(0); // Color [Black]
+    ClearDevice();
+    #ifdef USE_TRANSPARENT_COLOR
+    TransparentColorEnable(0); // Color [A=0, R=0, G=0, B=0]
+    #endif
+    CreateScheme_ButtonTx();
+    CreateScheme_WinSch();
+    CreateScheme_DescText();
+    CreateScheme_MainName();
+STATICTEXT *pScreenOff_StaticText1;
+    pScreenOff_StaticText1 = StCreate(ID_ScreenOff_StaticText1,0,247,75,270,ST_DRAW,(XCHAR*)ScreenOff_StaticText1_Text,GOLScheme_ButtonTx);
+} // End of CreateScreenOff
+
+
+    void CreateNumGuests(void) {
+    GOLFree();
+    SetColor(0); // Color [Black]
+    ClearDevice();
+    #ifdef USE_TRANSPARENT_COLOR
+    TransparentColorEnable(0); // Color [A=0, R=0, G=0, B=0]
+    #endif
+    CreateScheme_ButtonTx();
+    CreateScheme_WinSch();
+    CreateScheme_DescText();
+    CreateScheme_MainName();
+BUTTON *pNumGuests_Button1;
+    pNumGuests_Button1 = BtnCreate(ID_NumGuests_Button1,27,27,77,77,1,BTN_DRAW,NULL,(XCHAR*)NumGuests_Button1_Text,GOLScheme_ButtonTx);
+BUTTON *pNumGuests_Button2;
+    pNumGuests_Button2 = BtnCreate(ID_NumGuests_Button2,83,27,133,77,1,BTN_DRAW,NULL,(XCHAR*)NumGuests_Button2_Text,GOLScheme_ButtonTx);
+BUTTON *pNumGuests_Button3;
+    pNumGuests_Button3 = BtnCreate(ID_NumGuests_Button3,139,27,189,77,1,BTN_DRAW,NULL,(XCHAR*)NumGuests_Button3_Text,GOLScheme_ButtonTx);
+BUTTON *pNumGuests_Button4;
+    pNumGuests_Button4 = BtnCreate(ID_NumGuests_Button4,27,83,77,133,1,BTN_DRAW,NULL,(XCHAR*)NumGuests_Button4_Text,GOLScheme_ButtonTx);
+BUTTON *pNumGuests_Button5;
+    pNumGuests_Button5 = BtnCreate(ID_NumGuests_Button5,83,83,133,133,1,BTN_DRAW,NULL,(XCHAR*)NumGuests_Button5_Text,GOLScheme_ButtonTx);
+BUTTON *pNumGuests_Button6;
+    pNumGuests_Button6 = BtnCreate(ID_NumGuests_Button6,139,83,189,133,1,BTN_DRAW,NULL,(XCHAR*)NumGuests_Button6_Text,GOLScheme_ButtonTx);
+BUTTON *pNumGuests_Button7;
+    pNumGuests_Button7 = BtnCreate(ID_NumGuests_Button7,27,139,77,189,1,BTN_DRAW,NULL,(XCHAR*)NumGuests_Button7_Text,GOLScheme_ButtonTx);
+BUTTON *pNumGuests_Button8;
+    pNumGuests_Button8 = BtnCreate(ID_NumGuests_Button8,83,139,133,189,1,BTN_DRAW,NULL,(XCHAR*)NumGuests_Button8_Text,GOLScheme_ButtonTx);
+BUTTON *pNumGuests_Button9;
+    pNumGuests_Button9 = BtnCreate(ID_NumGuests_Button9,139,139,189,189,1,BTN_DRAW,NULL,(XCHAR*)NumGuests_Button9_Text,GOLScheme_ButtonTx);
+BUTTON *pNumGuests_Button10;
+    pNumGuests_Button10 = BtnCreate(ID_NumGuests_Button10,139,195,189,245,1,BTN_DRAW,NULL,(XCHAR*)NumGuests_Button10_Text,GOLScheme_ButtonTx);
+BUTTON *pNumGuests_Button11;
+    pNumGuests_Button11 = BtnCreate(ID_NumGuests_Button11,355,199,453,249,1,BTN_DRAW,NULL,(XCHAR*)NumGuests_Button11_Text,GOLScheme_ButtonTx);
+BUTTON *pNumGuests_Button12;
+    pNumGuests_Button12 = BtnCreate(ID_NumGuests_Button12,83,195,133,245,1,BTN_DRAW,NULL,(XCHAR*)NumGuests_Button12_Text,GOLScheme_ButtonTx);
+STATICTEXT *pNumGuests_StaticText1;
+    pNumGuests_StaticText1 = StCreate(ID_NumGuests_StaticText1,221,27,453,50,ST_DRAW,(XCHAR*)NumGuests_StaticText1_Text,GOLScheme_ButtonTx);
+EDITBOX *pNumGuests_EditBox1;
+    pNumGuests_EditBox1 = EbCreate(ID_NumGuests_EditBox1,289,71,382,133,EB_DRAW,(XCHAR*)NumGuests_EditBox1_Text,16,GOLScheme_ButtonTx);
+PROGRESSBAR *pNumGuests_ProgressBar1;
+    pNumGuests_ProgressBar1 = PbCreate(ID_NumGuests_ProgressBar1,233,222,308,245,PB_DRAW,30,100,GOLScheme_DescText);
+} // End of CreateNumGuests
+
+
+    void CreateNumGuestsConfirm(void) {
+    GOLFree();
+    SetColor(0); // Color [Black]
+    ClearDevice();
+    #ifdef USE_TRANSPARENT_COLOR
+    TransparentColorEnable(0); // Color [A=0, R=0, G=0, B=0]
+    #endif
+    CreateScheme_ButtonTx();
+    CreateScheme_WinSch();
+    CreateScheme_DescText();
+    CreateScheme_MainName();
+BUTTON *pNumGuestsConfirm_Button11;
+    pNumGuestsConfirm_Button11 = BtnCreate(ID_NumGuestsConfirm_Button11,120,180,218,230,1,BTN_DRAW,NULL,(XCHAR*)NumGuestsConfirm_Button11_Text,GOLScheme_ButtonTx);
+BUTTON *pNumGuestsConfirm_Button2;
+    pNumGuestsConfirm_Button2 = BtnCreate(ID_NumGuestsConfirm_Button2,262,180,360,230,1,BTN_DRAW,NULL,(XCHAR*)NumGuestsConfirm_Button2_Text,GOLScheme_ButtonTx);
+EDITBOX *pNumGuestsConfirm_EditBox1;
+    pNumGuestsConfirm_EditBox1 = EbCreate(ID_NumGuestsConfirm_EditBox1,193,84,286,146,EB_DRAW,(XCHAR*)NumGuestsConfirm_EditBox1_Text,16,GOLScheme_ButtonTx);
+STATICTEXT *pNumGuestsConfirm_StaticText1;
+    pNumGuestsConfirm_StaticText1 = StCreate(ID_NumGuestsConfirm_StaticText1,120,29,354,52,ST_DRAW,(XCHAR*)NumGuestsConfirm_StaticText1_Text,GOLScheme_ButtonTx);
+} // End of CreateNumGuestsConfirm
 
 // ------------------------------------------------------------------------------------------------------------
 // VGDD Automatic Event Handling - Events messages routine
@@ -3597,6 +4927,12 @@ WORD VGDD_MenuScreens_MsgCallback(WORD objMsg, OBJ_HEADER *pObj, GOL_MSG *pMsg) 
                 case ID_MainMenu_Button2:
                     if (objMsg == BTN_MSG_RELEASED) {
                         screenState=CREATE_FOODMENU;
+                    }
+                    break;
+                    
+                case ID_MainMenu_Button3:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_DRINKMENU;
                     }
                     break;
                     
@@ -3844,6 +5180,18 @@ WORD VGDD_MenuScreens_MsgCallback(WORD objMsg, OBJ_HEADER *pObj, GOL_MSG *pMsg) 
                     }
                     break;
                     
+                case ID_SoupChickenNoodle_Button5:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_SOUPCREAMYMUSHROOM;
+                    }
+                    break;
+                    
+                case ID_SoupChickenNoodle_Button6:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_SOUPJAMBALAYA;
+                    }
+                    break;
+                    
                 default:
                     break;
             } // End switch (id) for DISPLAY_SOUPCHICKENNOODLE
@@ -3866,6 +5214,18 @@ WORD VGDD_MenuScreens_MsgCallback(WORD objMsg, OBJ_HEADER *pObj, GOL_MSG *pMsg) 
                 case ID_SoupJambalaya_Button4:
                     if (objMsg == BTN_MSG_RELEASED) {
                         screenState=CREATE_SOUPLIST;
+                    }
+                    break;
+                    
+                case ID_SoupJambalaya_Button5:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_SOUPCHICKENNOODLE;
+                    }
+                    break;
+                    
+                case ID_SoupJambalaya_Button6:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_SOUPSPICYVEGETABLE;
                     }
                     break;
                     
@@ -3896,13 +5256,13 @@ WORD VGDD_MenuScreens_MsgCallback(WORD objMsg, OBJ_HEADER *pObj, GOL_MSG *pMsg) 
                     
                 case ID_SoupSpicyVegetable_Button5:
                     if (objMsg == BTN_MSG_RELEASED) {
-                        screenState=CREATE_APPETIZERLIST;
+                        screenState=CREATE_SOUPJAMBALAYA;
                     }
                     break;
                     
                 case ID_SoupSpicyVegetable_Button6:
                     if (objMsg == BTN_MSG_RELEASED) {
-                        screenState=CREATE_APPETIZERLIST;
+                        screenState=CREATE_SOUPSCHEESYBROCCOLI;
                     }
                     break;
                     
@@ -3933,13 +5293,13 @@ WORD VGDD_MenuScreens_MsgCallback(WORD objMsg, OBJ_HEADER *pObj, GOL_MSG *pMsg) 
                     
                 case ID_SoupsCheesyBroccoli_Button5:
                     if (objMsg == BTN_MSG_RELEASED) {
-                        screenState=CREATE_APPETIZERLIST;
+                        screenState=CREATE_SOUPSPICYVEGETABLE;
                     }
                     break;
                     
                 case ID_SoupsCheesyBroccoli_Button6:
                     if (objMsg == BTN_MSG_RELEASED) {
-                        screenState=CREATE_APPETIZERLIST;
+                        screenState=CREATE_SOUPCREAMYTOMATO;
                     }
                     break;
                     
@@ -3970,7 +5330,13 @@ WORD VGDD_MenuScreens_MsgCallback(WORD objMsg, OBJ_HEADER *pObj, GOL_MSG *pMsg) 
                     
                 case ID_SoupCreamyTomato_Button5:
                     if (objMsg == BTN_MSG_RELEASED) {
-                        screenState=CREATE_APPETIZERLIST;
+                        screenState=CREATE_SOUPSCHEESYBROCCOLI;
+                    }
+                    break;
+                    
+                case ID_SoupCreamyTomato_Button6:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_SOUPBEAN;
                     }
                     break;
                     
@@ -4001,7 +5367,13 @@ WORD VGDD_MenuScreens_MsgCallback(WORD objMsg, OBJ_HEADER *pObj, GOL_MSG *pMsg) 
                     
                 case ID_SoupBean_Button5:
                     if (objMsg == BTN_MSG_RELEASED) {
-                        screenState=CREATE_APPETIZERLIST;
+                        screenState=CREATE_SOUPCREAMYTOMATO;
+                    }
+                    break;
+                    
+                case ID_SoupBean_Button6:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_SOUPITALIANWEDDING;
                     }
                     break;
                     
@@ -4032,7 +5404,13 @@ WORD VGDD_MenuScreens_MsgCallback(WORD objMsg, OBJ_HEADER *pObj, GOL_MSG *pMsg) 
                     
                 case ID_SoupItalianWedding_Button5:
                     if (objMsg == BTN_MSG_RELEASED) {
-                        screenState=CREATE_APPETIZERLIST;
+                        screenState=CREATE_SOUPBEAN;
+                    }
+                    break;
+                    
+                case ID_SoupItalianWedding_Button6:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_GUMBOSOUP;
                     }
                     break;
                     
@@ -4063,7 +5441,13 @@ WORD VGDD_MenuScreens_MsgCallback(WORD objMsg, OBJ_HEADER *pObj, GOL_MSG *pMsg) 
                     
                 case ID_GumboSoup_Button5:
                     if (objMsg == BTN_MSG_RELEASED) {
-                        screenState=CREATE_APPETIZERLIST;
+                        screenState=CREATE_SOUPITALIANWEDDING;
+                    }
+                    break;
+                    
+                case ID_GumboSoup_Button6:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_SOUPFISH;
                     }
                     break;
                     
@@ -4094,7 +5478,13 @@ WORD VGDD_MenuScreens_MsgCallback(WORD objMsg, OBJ_HEADER *pObj, GOL_MSG *pMsg) 
                     
                 case ID_SoupFish_Button5:
                     if (objMsg == BTN_MSG_RELEASED) {
-                        screenState=CREATE_APPETIZERLIST;
+                        screenState=CREATE_GUMBOSOUP;
+                    }
+                    break;
+                    
+                case ID_SoupFish_Button6:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_SOUPCREAMYMUSHROOM;
                     }
                     break;
                     
@@ -4125,7 +5515,13 @@ WORD VGDD_MenuScreens_MsgCallback(WORD objMsg, OBJ_HEADER *pObj, GOL_MSG *pMsg) 
                     
                 case ID_SoupCreamyMushroom_Button5:
                     if (objMsg == BTN_MSG_RELEASED) {
-                        screenState=CREATE_APPETIZERLIST;
+                        screenState=CREATE_SOUPFISH;
+                    }
+                    break;
+                    
+                case ID_SoupCreamyMushroom_Button6:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_SOUPCHICKENNOODLE;
                     }
                     break;
                     
@@ -4296,7 +5692,13 @@ WORD VGDD_MenuScreens_MsgCallback(WORD objMsg, OBJ_HEADER *pObj, GOL_MSG *pMsg) 
                     
                 case ID_AppetFriedPickles_Button5:
                     if (objMsg == BTN_MSG_RELEASED) {
-                        screenState=CREATE_APPETIZERLIST;
+                        screenState=CREATE_APPETORINGS;
+                    }
+                    break;
+                    
+                case ID_AppetFriedPickles_Button6:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_APPETCHEESESTICK;
                     }
                     break;
                     
@@ -4327,7 +5729,13 @@ WORD VGDD_MenuScreens_MsgCallback(WORD objMsg, OBJ_HEADER *pObj, GOL_MSG *pMsg) 
                     
                 case ID_AppetCheeseStick_Button5:
                     if (objMsg == BTN_MSG_RELEASED) {
-                        screenState=CREATE_APPETIZERLIST;
+                        screenState=CREATE_APPETFRIEDPICKLES;
+                    }
+                    break;
+                    
+                case ID_AppetCheeseStick_Button6:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_APPETCHILIFRIE;
                     }
                     break;
                     
@@ -4358,7 +5766,13 @@ WORD VGDD_MenuScreens_MsgCallback(WORD objMsg, OBJ_HEADER *pObj, GOL_MSG *pMsg) 
                     
                 case ID_AppetChiliFrie_Button5:
                     if (objMsg == BTN_MSG_RELEASED) {
-                        screenState=CREATE_APPETIZERLIST;
+                        screenState=CREATE_APPETCHEESESTICK;
+                    }
+                    break;
+                    
+                case ID_AppetChiliFrie_Button6:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_APPETFAIRFRIE;
                     }
                     break;
                     
@@ -4389,7 +5803,13 @@ WORD VGDD_MenuScreens_MsgCallback(WORD objMsg, OBJ_HEADER *pObj, GOL_MSG *pMsg) 
                     
                 case ID_AppetFairFrie_Button5:
                     if (objMsg == BTN_MSG_RELEASED) {
-                        screenState=CREATE_APPETIZERLIST;
+                        screenState=CREATE_APPETCHILIFRIE;
+                    }
+                    break;
+                    
+                case ID_AppetFairFrie_Button6:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_APPETGARLICFAIRFRIES;
                     }
                     break;
                     
@@ -4420,7 +5840,13 @@ WORD VGDD_MenuScreens_MsgCallback(WORD objMsg, OBJ_HEADER *pObj, GOL_MSG *pMsg) 
                     
                 case ID_AppetGarlicFairFries_Button5:
                     if (objMsg == BTN_MSG_RELEASED) {
-                        screenState=CREATE_APPETIZERLIST;
+                        screenState=CREATE_APPETFAIRFRIE;
+                    }
+                    break;
+                    
+                case ID_AppetGarlicFairFries_Button6:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_APPETCARROTFRIES;
                     }
                     break;
                     
@@ -4451,7 +5877,13 @@ WORD VGDD_MenuScreens_MsgCallback(WORD objMsg, OBJ_HEADER *pObj, GOL_MSG *pMsg) 
                     
                 case ID_AppetCarrotFries_Button5:
                     if (objMsg == BTN_MSG_RELEASED) {
-                        screenState=CREATE_APPETIZERLIST;
+                        screenState=CREATE_APPETGARLICFAIRFRIES;
+                    }
+                    break;
+                    
+                case ID_AppetCarrotFries_Button6:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_APPETFRIEDGREENBEANS;
                     }
                     break;
                     
@@ -4482,7 +5914,13 @@ WORD VGDD_MenuScreens_MsgCallback(WORD objMsg, OBJ_HEADER *pObj, GOL_MSG *pMsg) 
                     
                 case ID_AppetFriedGreenBeans_Button5:
                     if (objMsg == BTN_MSG_RELEASED) {
-                        screenState=CREATE_APPETIZERLIST;
+                        screenState=CREATE_APPETCARROTFRIES;
+                    }
+                    break;
+                    
+                case ID_AppetFriedGreenBeans_Button6:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_APPETMEXICANNACHOS;
                     }
                     break;
                     
@@ -4513,7 +5951,13 @@ WORD VGDD_MenuScreens_MsgCallback(WORD objMsg, OBJ_HEADER *pObj, GOL_MSG *pMsg) 
                     
                 case ID_AppetMexicanNachos_Button5:
                     if (objMsg == BTN_MSG_RELEASED) {
-                        screenState=CREATE_APPETIZERLIST;
+                        screenState=CREATE_APPETFRIEDGREENBEANS;
+                    }
+                    break;
+                    
+                case ID_AppetMexicanNachos_Button6:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_APPETSPICYNACHOS;
                     }
                     break;
                     
@@ -4544,7 +5988,13 @@ WORD VGDD_MenuScreens_MsgCallback(WORD objMsg, OBJ_HEADER *pObj, GOL_MSG *pMsg) 
                     
                 case ID_AppetSpicyNachos_Button5:
                     if (objMsg == BTN_MSG_RELEASED) {
-                        screenState=CREATE_APPETIZERLIST;
+                        screenState=CREATE_APPETMEXICANNACHOS;
+                    }
+                    break;
+                    
+                case ID_AppetSpicyNachos_Button6:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_APPETORINGS;
                     }
                     break;
                     
@@ -4569,7 +6019,13 @@ WORD VGDD_MenuScreens_MsgCallback(WORD objMsg, OBJ_HEADER *pObj, GOL_MSG *pMsg) 
                     
                 case ID_AppetORings_Button5:
                     if (objMsg == BTN_MSG_RELEASED) {
-                        screenState=CREATE_APPETIZERLIST;
+                        screenState=CREATE_APPETSPICYNACHOS;
+                    }
+                    break;
+                    
+                case ID_AppetORings_Button6:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_APPETFRIEDPICKLES;
                     }
                     break;
                     
@@ -4600,7 +6056,13 @@ WORD VGDD_MenuScreens_MsgCallback(WORD objMsg, OBJ_HEADER *pObj, GOL_MSG *pMsg) 
                     
                 case ID_SandTurkeyClub_Button5:
                     if (objMsg == BTN_MSG_RELEASED) {
-                        screenState=CREATE_APPETIZERLIST;
+                        screenState=CREATE_SANDGRILLEDCHEESE;
+                    }
+                    break;
+                    
+                case ID_SandTurkeyClub_Button6:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_SANDREUBEN;
                     }
                     break;
                     
@@ -4631,7 +6093,13 @@ WORD VGDD_MenuScreens_MsgCallback(WORD objMsg, OBJ_HEADER *pObj, GOL_MSG *pMsg) 
                     
                 case ID_SandReuben_Button5:
                     if (objMsg == BTN_MSG_RELEASED) {
-                        screenState=CREATE_APPETIZERLIST;
+                        screenState=CREATE_SANDTURKEYCLUB;
+                    }
+                    break;
+                    
+                case ID_SandReuben_Button6:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_SANDVEGGIEREUBEN;
                     }
                     break;
                     
@@ -4660,9 +6128,40 @@ WORD VGDD_MenuScreens_MsgCallback(WORD objMsg, OBJ_HEADER *pObj, GOL_MSG *pMsg) 
                     }
                     break;
                     
+                case ID_SandVeggieReuben_Button5:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_SANDREUBEN;
+                    }
+                    break;
+                    
+                case ID_SandVeggieReuben_Button6:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_SANDSMOTHERED;
+                    }
+                    break;
+                    
                 default:
                     break;
             } // End switch (id) for DISPLAY_SANDVEGGIEREUBEN
+            return (1);
+            
+        case DISPLAY_SANDSMOTHERED:
+            switch (id) {
+                case ID_SandSmothered_Button5:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_SANDVEGGIEREUBEN;
+                    }
+                    break;
+                    
+                case ID_SandSmothered_Button6:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_SANDSMOTHEREDBUFFALO;
+                    }
+                    break;
+                    
+                default:
+                    break;
+            } // End switch (id) for DISPLAY_SANDSMOTHERED
             return (1);
             
         case DISPLAY_SANDSMOTHEREDBUFFALO:
@@ -4682,6 +6181,18 @@ WORD VGDD_MenuScreens_MsgCallback(WORD objMsg, OBJ_HEADER *pObj, GOL_MSG *pMsg) 
                 case ID_SandSmotheredBuffalo_Button4:
                     if (objMsg == BTN_MSG_RELEASED) {
                         screenState=CREATE_SANDWICHESLIST;
+                    }
+                    break;
+                    
+                case ID_SandSmotheredBuffalo_Button5:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_SANDSMOTHERED;
+                    }
+                    break;
+                    
+                case ID_SandSmotheredBuffalo_Button6:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_SANDCORNDOG;
                     }
                     break;
                     
@@ -4710,6 +6221,18 @@ WORD VGDD_MenuScreens_MsgCallback(WORD objMsg, OBJ_HEADER *pObj, GOL_MSG *pMsg) 
                     }
                     break;
                     
+                case ID_SandCornDog_Button5:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_SANDSMOTHEREDBUFFALO;
+                    }
+                    break;
+                    
+                case ID_SandCornDog_Button6:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_SANDSTEAKINAWRAP;
+                    }
+                    break;
+                    
                 default:
                     break;
             } // End switch (id) for DISPLAY_SANDCORNDOG
@@ -4732,6 +6255,18 @@ WORD VGDD_MenuScreens_MsgCallback(WORD objMsg, OBJ_HEADER *pObj, GOL_MSG *pMsg) 
                 case ID_SandSteakInAWrap_Button4:
                     if (objMsg == BTN_MSG_RELEASED) {
                         screenState=CREATE_SANDWICHESLIST;
+                    }
+                    break;
+                    
+                case ID_SandSteakInAWrap_Button5:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_SANDCORNDOG;
+                    }
+                    break;
+                    
+                case ID_SandSteakInAWrap_Button6:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_SANDGARDENSANDWICH;
                     }
                     break;
                     
@@ -4760,6 +6295,18 @@ WORD VGDD_MenuScreens_MsgCallback(WORD objMsg, OBJ_HEADER *pObj, GOL_MSG *pMsg) 
                     }
                     break;
                     
+                case ID_SandGardenSandwich_Button5:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_SANDSTEAKINAWRAP;
+                    }
+                    break;
+                    
+                case ID_SandGardenSandwich_Button6:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_SANDGRILLEDCHICKEN;
+                    }
+                    break;
+                    
                 default:
                     break;
             } // End switch (id) for DISPLAY_SANDGARDENSANDWICH
@@ -4782,6 +6329,18 @@ WORD VGDD_MenuScreens_MsgCallback(WORD objMsg, OBJ_HEADER *pObj, GOL_MSG *pMsg) 
                 case ID_SandGrilledChicken_Button4:
                     if (objMsg == BTN_MSG_RELEASED) {
                         screenState=CREATE_SANDWICHESLIST;
+                    }
+                    break;
+                    
+                case ID_SandGrilledChicken_Button5:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_SANDGARDENSANDWICH;
+                    }
+                    break;
+                    
+                case ID_SandGrilledChicken_Button6:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_SANDCAJUN;
                     }
                     break;
                     
@@ -4812,7 +6371,13 @@ WORD VGDD_MenuScreens_MsgCallback(WORD objMsg, OBJ_HEADER *pObj, GOL_MSG *pMsg) 
                     
                 case ID_SandCajun_Button5:
                     if (objMsg == BTN_MSG_RELEASED) {
-                        screenState=CREATE_APPETIZERLIST;
+                        screenState=CREATE_SANDGRILLEDCHICKEN;
+                    }
+                    break;
+                    
+                case ID_SandCajun_Button6:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_SANDFRIEDSTACKER;
                     }
                     break;
                     
@@ -4841,6 +6406,18 @@ WORD VGDD_MenuScreens_MsgCallback(WORD objMsg, OBJ_HEADER *pObj, GOL_MSG *pMsg) 
                     }
                     break;
                     
+                case ID_SandFriedStacker_Button5:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_SANDCAJUN;
+                    }
+                    break;
+                    
+                case ID_SandFriedStacker_Button6:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_SANDGRILLEDSTACKER;
+                    }
+                    break;
+                    
                 default:
                     break;
             } // End switch (id) for DISPLAY_SANDFRIEDSTACKER
@@ -4856,7 +6433,13 @@ WORD VGDD_MenuScreens_MsgCallback(WORD objMsg, OBJ_HEADER *pObj, GOL_MSG *pMsg) 
                     
                 case ID_SandGrilledStacker_Button5:
                     if (objMsg == BTN_MSG_RELEASED) {
-                        screenState=CREATE_APPETIZERLIST;
+                        screenState=CREATE_SANDFRIEDSTACKER;
+                    }
+                    break;
+                    
+                case ID_SandGrilledStacker_Button6:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_SANDBLACKENEDTILAPIA;
                     }
                     break;
                     
@@ -4885,6 +6468,18 @@ WORD VGDD_MenuScreens_MsgCallback(WORD objMsg, OBJ_HEADER *pObj, GOL_MSG *pMsg) 
                     }
                     break;
                     
+                case ID_SandBlackenedTilapia_Button5:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_SANDGRILLEDSTACKER;
+                    }
+                    break;
+                    
+                case ID_SandBlackenedTilapia_Button6:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_SANDVEGGIEMUSHROOM;
+                    }
+                    break;
+                    
                 default:
                     break;
             } // End switch (id) for DISPLAY_SANDBLACKENEDTILAPIA
@@ -4907,6 +6502,18 @@ WORD VGDD_MenuScreens_MsgCallback(WORD objMsg, OBJ_HEADER *pObj, GOL_MSG *pMsg) 
                 case ID_SandVeggieMushroom_Button4:
                     if (objMsg == BTN_MSG_RELEASED) {
                         screenState=CREATE_SANDWICHESLIST;
+                    }
+                    break;
+                    
+                case ID_SandVeggieMushroom_Button5:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_SANDBLACKENEDTILAPIA;
+                    }
+                    break;
+                    
+                case ID_SandVeggieMushroom_Button6:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_SANDGRILLEDCHEESE;
                     }
                     break;
                     
@@ -4937,7 +6544,13 @@ WORD VGDD_MenuScreens_MsgCallback(WORD objMsg, OBJ_HEADER *pObj, GOL_MSG *pMsg) 
                     
                 case ID_SandGrilledCheese_Button5:
                     if (objMsg == BTN_MSG_RELEASED) {
-                        screenState=CREATE_APPETIZERLIST;
+                        screenState=CREATE_SANDVEGGIEMUSHROOM;
+                    }
+                    break;
+                    
+                case ID_SandGrilledCheese_Button6:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_SANDTURKEYCLUB;
                     }
                     break;
                     
@@ -5021,6 +6634,18 @@ WORD VGDD_MenuScreens_MsgCallback(WORD objMsg, OBJ_HEADER *pObj, GOL_MSG *pMsg) 
                     }
                     break;
                     
+                case ID_BurgerCheese_Button5:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_BURGERMUSHROOM;
+                    }
+                    break;
+                    
+                case ID_BurgerCheese_Button6:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_BURGERHAM;
+                    }
+                    break;
+                    
                 default:
                     break;
             } // End switch (id) for DISPLAY_BURGERCHEESE
@@ -5043,6 +6668,18 @@ WORD VGDD_MenuScreens_MsgCallback(WORD objMsg, OBJ_HEADER *pObj, GOL_MSG *pMsg) 
                 case ID_BurgerHam_Button4:
                     if (objMsg == BTN_MSG_STILLPRESSED) {
                         screenState=CREATE_BURGERLIST;
+                    }
+                    break;
+                    
+                case ID_BurgerHam_Button5:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_BURGERCHEESE;
+                    }
+                    break;
+                    
+                case ID_BurgerHam_Button6:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_BURGERPEPPER;
                     }
                     break;
                     
@@ -5071,6 +6708,18 @@ WORD VGDD_MenuScreens_MsgCallback(WORD objMsg, OBJ_HEADER *pObj, GOL_MSG *pMsg) 
                     }
                     break;
                     
+                case ID_BurgerPepper_Button5:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_BURGERHAM;
+                    }
+                    break;
+                    
+                case ID_BurgerPepper_Button6:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_BURGERCAJUN;
+                    }
+                    break;
+                    
                 default:
                     break;
             } // End switch (id) for DISPLAY_BURGERPEPPER
@@ -5093,6 +6742,18 @@ WORD VGDD_MenuScreens_MsgCallback(WORD objMsg, OBJ_HEADER *pObj, GOL_MSG *pMsg) 
                 case ID_BurgerCajun_Button4:
                     if (objMsg == BTN_MSG_RELEASED) {
                         screenState=CREATE_BURGERLIST;
+                    }
+                    break;
+                    
+                case ID_BurgerCajun_Button5:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_BURGERPEPPER;
+                    }
+                    break;
+                    
+                case ID_BurgerCajun_Button6:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_BURGERMONSTER;
                     }
                     break;
                     
@@ -5121,6 +6782,18 @@ WORD VGDD_MenuScreens_MsgCallback(WORD objMsg, OBJ_HEADER *pObj, GOL_MSG *pMsg) 
                     }
                     break;
                     
+                case ID_BurgerMonster_Button5:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_BURGERCAJUN;
+                    }
+                    break;
+                    
+                case ID_BurgerMonster_Button6:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_BURGERMUSHROOM;
+                    }
+                    break;
+                    
                 default:
                     break;
             } // End switch (id) for DISPLAY_BURGERMONSTER
@@ -5143,6 +6816,18 @@ WORD VGDD_MenuScreens_MsgCallback(WORD objMsg, OBJ_HEADER *pObj, GOL_MSG *pMsg) 
                 case ID_BurgerMushroom_Button4:
                     if (objMsg == BTN_MSG_RELEASED) {
                         screenState=CREATE_BURGERLIST;
+                    }
+                    break;
+                    
+                case ID_BurgerMushroom_Button5:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_BURGERMONSTER;
+                    }
+                    break;
+                    
+                case ID_BurgerMushroom_Button6:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_BURGERCHEESE;
                     }
                     break;
                     
@@ -5203,7 +6888,7 @@ WORD VGDD_MenuScreens_MsgCallback(WORD objMsg, OBJ_HEADER *pObj, GOL_MSG *pMsg) 
                     
                 case ID_SaladsList1_Button12:
                     if (objMsg == BTN_MSG_RELEASED) {
-                        screenState=CREATE_MAINMENU;
+                        screenState=CREATE_FOODMENU;
                     }
                     break;
                     
@@ -5283,7 +6968,13 @@ WORD VGDD_MenuScreens_MsgCallback(WORD objMsg, OBJ_HEADER *pObj, GOL_MSG *pMsg) 
                     
                 case ID_SaladVegetable_Button5:
                     if (objMsg == BTN_MSG_RELEASED) {
-                        screenState=CREATE_APPETIZERLIST;
+                        screenState=CREATE_SALADBACONATOR;
+                    }
+                    break;
+                    
+                case ID_SaladVegetable_Button6:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_SALADSPICYVEG;
                     }
                     break;
                     
@@ -5314,7 +7005,13 @@ WORD VGDD_MenuScreens_MsgCallback(WORD objMsg, OBJ_HEADER *pObj, GOL_MSG *pMsg) 
                     
                 case ID_SaladSpicyVeg_Button5:
                     if (objMsg == BTN_MSG_RELEASED) {
-                        screenState=CREATE_APPETIZERLIST;
+                        screenState=CREATE_SALADVEGETABLE;
+                    }
+                    break;
+                    
+                case ID_SaladSpicyVeg_Button6:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_SALADSUPREMETACO;
                     }
                     break;
                     
@@ -5345,7 +7042,13 @@ WORD VGDD_MenuScreens_MsgCallback(WORD objMsg, OBJ_HEADER *pObj, GOL_MSG *pMsg) 
                     
                 case ID_SaladSupremeTaco_Button5:
                     if (objMsg == BTN_MSG_RELEASED) {
-                        screenState=CREATE_APPETIZERLIST;
+                        screenState=CREATE_SALADSPICYVEG;
+                    }
+                    break;
+                    
+                case ID_SaladSupremeTaco_Button6:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_SALADLEMONSHRIMP;
                     }
                     break;
                     
@@ -5376,7 +7079,13 @@ WORD VGDD_MenuScreens_MsgCallback(WORD objMsg, OBJ_HEADER *pObj, GOL_MSG *pMsg) 
                     
                 case ID_SaladLemonShrimp_Button5:
                     if (objMsg == BTN_MSG_RELEASED) {
-                        screenState=CREATE_APPETIZERLIST;
+                        screenState=CREATE_SALADSUPREMETACO;
+                    }
+                    break;
+                    
+                case ID_SaladLemonShrimp_Button6:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_SALADHAM;
                     }
                     break;
                     
@@ -5407,7 +7116,13 @@ WORD VGDD_MenuScreens_MsgCallback(WORD objMsg, OBJ_HEADER *pObj, GOL_MSG *pMsg) 
                     
                 case ID_SaladHam_Button5:
                     if (objMsg == BTN_MSG_RELEASED) {
-                        screenState=CREATE_APPETIZERLIST;
+                        screenState=CREATE_SALADLEMONSHRIMP;
+                    }
+                    break;
+                    
+                case ID_SaladHam_Button6:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_SALADFRIEDCHICKEN;
                     }
                     break;
                     
@@ -5438,7 +7153,13 @@ WORD VGDD_MenuScreens_MsgCallback(WORD objMsg, OBJ_HEADER *pObj, GOL_MSG *pMsg) 
                     
                 case ID_SaladFriedChicken_Button5:
                     if (objMsg == BTN_MSG_RELEASED) {
-                        screenState=CREATE_APPETIZERLIST;
+                        screenState=CREATE_SALADHAM;
+                    }
+                    break;
+                    
+                case ID_SaladFriedChicken_Button6:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_SALADSTEAK;
                     }
                     break;
                     
@@ -5469,7 +7190,13 @@ WORD VGDD_MenuScreens_MsgCallback(WORD objMsg, OBJ_HEADER *pObj, GOL_MSG *pMsg) 
                     
                 case ID_SaladSteak_Button5:
                     if (objMsg == BTN_MSG_RELEASED) {
-                        screenState=CREATE_APPETIZERLIST;
+                        screenState=CREATE_SALADFRIEDCHICKEN;
+                    }
+                    break;
+                    
+                case ID_SaladSteak_Button6:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_SALADFRUIT;
                     }
                     break;
                     
@@ -5500,7 +7227,13 @@ WORD VGDD_MenuScreens_MsgCallback(WORD objMsg, OBJ_HEADER *pObj, GOL_MSG *pMsg) 
                     
                 case ID_SaladFruit_Button5:
                     if (objMsg == BTN_MSG_RELEASED) {
-                        screenState=CREATE_APPETIZERLIST;
+                        screenState=CREATE_SALADSTEAK;
+                    }
+                    break;
+                    
+                case ID_SaladFruit_Button6:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_SALADFETAFRUIT;
                     }
                     break;
                     
@@ -5531,7 +7264,13 @@ WORD VGDD_MenuScreens_MsgCallback(WORD objMsg, OBJ_HEADER *pObj, GOL_MSG *pMsg) 
                     
                 case ID_SaladFetaFruit_Button5:
                     if (objMsg == BTN_MSG_RELEASED) {
-                        screenState=CREATE_APPETIZERLIST;
+                        screenState=CREATE_SALADFRUIT;
+                    }
+                    break;
+                    
+                case ID_SaladFetaFruit_Button6:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_SALADBLACKENEDTIL;
                     }
                     break;
                     
@@ -5562,7 +7301,13 @@ WORD VGDD_MenuScreens_MsgCallback(WORD objMsg, OBJ_HEADER *pObj, GOL_MSG *pMsg) 
                     
                 case ID_SaladBlackenedTil_Button5:
                     if (objMsg == BTN_MSG_RELEASED) {
-                        screenState=CREATE_APPETIZERLIST;
+                        screenState=CREATE_SALADFETAFRUIT;
+                    }
+                    break;
+                    
+                case ID_SaladBlackenedTil_Button6:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_SALADGARDEN;
                     }
                     break;
                     
@@ -5593,7 +7338,13 @@ WORD VGDD_MenuScreens_MsgCallback(WORD objMsg, OBJ_HEADER *pObj, GOL_MSG *pMsg) 
                     
                 case ID_SaladGarden_Button5:
                     if (objMsg == BTN_MSG_RELEASED) {
-                        screenState=CREATE_APPETIZERLIST;
+                        screenState=CREATE_SALADBLACKENEDTIL;
+                    }
+                    break;
+                    
+                case ID_SaladGarden_Button6:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_SALADBACONATOR;
                     }
                     break;
                     
@@ -5604,9 +7355,33 @@ WORD VGDD_MenuScreens_MsgCallback(WORD objMsg, OBJ_HEADER *pObj, GOL_MSG *pMsg) 
             
         case DISPLAY_SALADBACONATOR:
             switch (id) {
+                case ID_SaladBaconator_Button8:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_FOODMENU;
+                    }
+                    break;
+                    
+                case ID_SaladBaconator_Button3:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_MAINMENU;
+                    }
+                    break;
+                    
+                case ID_SaladBaconator_Button4:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_SALADSLIST1;
+                    }
+                    break;
+                    
                 case ID_SaladBaconator_Button5:
                     if (objMsg == BTN_MSG_RELEASED) {
-                        screenState=CREATE_APPETIZERLIST;
+                        screenState=CREATE_SALADGARDEN;
+                    }
+                    break;
+                    
+                case ID_SaladBaconator_Button6:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_SALADVEGETABLE;
                     }
                     break;
                     
@@ -5637,13 +7412,13 @@ WORD VGDD_MenuScreens_MsgCallback(WORD objMsg, OBJ_HEADER *pObj, GOL_MSG *pMsg) 
                     
                 case ID_DessApple_Button5:
                     if (objMsg == BTN_MSG_RELEASED) {
-                        screenState=CREATE_APPETIZERLIST;
+                        screenState=CREATE_DESSSUNDAE;
                     }
                     break;
                     
                 case ID_DessApple_Button6:
                     if (objMsg == BTN_MSG_RELEASED) {
-                        screenState=CREATE_APPETIZERLIST;
+                        screenState=CREATE_DESSBLUE;
                     }
                     break;
                     
@@ -5741,13 +7516,13 @@ WORD VGDD_MenuScreens_MsgCallback(WORD objMsg, OBJ_HEADER *pObj, GOL_MSG *pMsg) 
                     
                 case ID_DessBlue_Button5:
                     if (objMsg == BTN_MSG_RELEASED) {
-                        screenState=CREATE_APPETIZERLIST;
+                        screenState=CREATE_DESSAPPLE;
                     }
                     break;
                     
                 case ID_DessBlue_Button6:
                     if (objMsg == BTN_MSG_RELEASED) {
-                        screenState=CREATE_APPETIZERLIST;
+                        screenState=CREATE_DESSBROWNIE;
                     }
                     break;
                     
@@ -5778,13 +7553,13 @@ WORD VGDD_MenuScreens_MsgCallback(WORD objMsg, OBJ_HEADER *pObj, GOL_MSG *pMsg) 
                     
                 case ID_DessBrownie_Button5:
                     if (objMsg == BTN_MSG_RELEASED) {
-                        screenState=CREATE_APPETIZERLIST;
+                        screenState=CREATE_DESSBLUE;
                     }
                     break;
                     
                 case ID_DessBrownie_Button6:
                     if (objMsg == BTN_MSG_RELEASED) {
-                        screenState=CREATE_APPETIZERLIST;
+                        screenState=CREATE_DESSMOUSSE;
                     }
                     break;
                     
@@ -5815,13 +7590,13 @@ WORD VGDD_MenuScreens_MsgCallback(WORD objMsg, OBJ_HEADER *pObj, GOL_MSG *pMsg) 
                     
                 case ID_DessMousse_Button5:
                     if (objMsg == BTN_MSG_RELEASED) {
-                        screenState=CREATE_APPETIZERLIST;
+                        screenState=CREATE_DESSBROWNIE;
                     }
                     break;
                     
                 case ID_DessMousse_Button6:
                     if (objMsg == BTN_MSG_RELEASED) {
-                        screenState=CREATE_APPETIZERLIST;
+                        screenState=CREATE_DESSPEANUT;
                     }
                     break;
                     
@@ -5852,13 +7627,13 @@ WORD VGDD_MenuScreens_MsgCallback(WORD objMsg, OBJ_HEADER *pObj, GOL_MSG *pMsg) 
                     
                 case ID_DessPeanut_Button5:
                     if (objMsg == BTN_MSG_RELEASED) {
-                        screenState=CREATE_APPETIZERLIST;
+                        screenState=CREATE_DESSMOUSSE;
                     }
                     break;
                     
                 case ID_DessPeanut_Button6:
                     if (objMsg == BTN_MSG_RELEASED) {
-                        screenState=CREATE_APPETIZERLIST;
+                        screenState=CREATE_DESSREDVEL;
                     }
                     break;
                     
@@ -5889,13 +7664,13 @@ WORD VGDD_MenuScreens_MsgCallback(WORD objMsg, OBJ_HEADER *pObj, GOL_MSG *pMsg) 
                     
                 case ID_DessRedVel_Button5:
                     if (objMsg == BTN_MSG_RELEASED) {
-                        screenState=CREATE_APPETIZERLIST;
+                        screenState=CREATE_DESSPEANUT;
                     }
                     break;
                     
                 case ID_DessRedVel_Button6:
                     if (objMsg == BTN_MSG_RELEASED) {
-                        screenState=CREATE_APPETIZERLIST;
+                        screenState=CREATE_DESSSTRAW;
                     }
                     break;
                     
@@ -5926,13 +7701,13 @@ WORD VGDD_MenuScreens_MsgCallback(WORD objMsg, OBJ_HEADER *pObj, GOL_MSG *pMsg) 
                     
                 case ID_DessStraw_Button5:
                     if (objMsg == BTN_MSG_RELEASED) {
-                        screenState=CREATE_APPETIZERLIST;
+                        screenState=CREATE_DESSREDVEL;
                     }
                     break;
                     
                 case ID_DessStraw_Button6:
                     if (objMsg == BTN_MSG_RELEASED) {
-                        screenState=CREATE_APPETIZERLIST;
+                        screenState=CREATE_DESSSUNDAE;
                     }
                     break;
                     
@@ -5963,13 +7738,13 @@ WORD VGDD_MenuScreens_MsgCallback(WORD objMsg, OBJ_HEADER *pObj, GOL_MSG *pMsg) 
                     
                 case ID_DessSundae_Button5:
                     if (objMsg == BTN_MSG_RELEASED) {
-                        screenState=CREATE_APPETIZERLIST;
+                        screenState=CREATE_DESSSTRAW;
                     }
                     break;
                     
                 case ID_DessSundae_Button6:
                     if (objMsg == BTN_MSG_RELEASED) {
-                        screenState=CREATE_APPETIZERLIST;
+                        screenState=CREATE_DESSAPPLE;
                     }
                     break;
                     
@@ -6000,13 +7775,13 @@ WORD VGDD_MenuScreens_MsgCallback(WORD objMsg, OBJ_HEADER *pObj, GOL_MSG *pMsg) 
                     
                 case ID_DinCornBeef_Button5:
                     if (objMsg == BTN_MSG_RELEASED) {
-                        screenState=CREATE_APPETIZERLIST;
+                        screenState=CREATE_DINVEGPIZZA;
                     }
                     break;
                     
                 case ID_DinCornBeef_Button6:
                     if (objMsg == BTN_MSG_RELEASED) {
-                        screenState=CREATE_APPETIZERLIST;
+                        screenState=CREATE_DINFRIEDCHIKEN;
                     }
                     break;
                     
@@ -6116,13 +7891,13 @@ WORD VGDD_MenuScreens_MsgCallback(WORD objMsg, OBJ_HEADER *pObj, GOL_MSG *pMsg) 
                     
                 case ID_DinFriedChiken_Button5:
                     if (objMsg == BTN_MSG_RELEASED) {
-                        screenState=CREATE_APPETIZERLIST;
+                        screenState=CREATE_DINCORNBEEF;
                     }
                     break;
                     
                 case ID_DinFriedChiken_Button6:
                     if (objMsg == BTN_MSG_RELEASED) {
-                        screenState=CREATE_APPETIZERLIST;
+                        screenState=CREATE_DINGRILLEDCHICKEN;
                     }
                     break;
                     
@@ -6153,13 +7928,13 @@ WORD VGDD_MenuScreens_MsgCallback(WORD objMsg, OBJ_HEADER *pObj, GOL_MSG *pMsg) 
                     
                 case ID_DinGrilledChicken_Button5:
                     if (objMsg == BTN_MSG_RELEASED) {
-                        screenState=CREATE_APPETIZERLIST;
+                        screenState=CREATE_DINFRIEDCHIKEN;
                     }
                     break;
                     
                 case ID_DinGrilledChicken_Button6:
                     if (objMsg == BTN_MSG_RELEASED) {
-                        screenState=CREATE_APPETIZERLIST;
+                        screenState=CREATE_DINLASAGNA;
                     }
                     break;
                     
@@ -6190,13 +7965,13 @@ WORD VGDD_MenuScreens_MsgCallback(WORD objMsg, OBJ_HEADER *pObj, GOL_MSG *pMsg) 
                     
                 case ID_DinLasagna_Button5:
                     if (objMsg == BTN_MSG_RELEASED) {
-                        screenState=CREATE_APPETIZERLIST;
+                        screenState=CREATE_DINGRILLEDCHICKEN;
                     }
                     break;
                     
                 case ID_DinLasagna_Button6:
                     if (objMsg == BTN_MSG_RELEASED) {
-                        screenState=CREATE_APPETIZERLIST;
+                        screenState=CREATE_DINMARPIZZA;
                     }
                     break;
                     
@@ -6227,13 +8002,13 @@ WORD VGDD_MenuScreens_MsgCallback(WORD objMsg, OBJ_HEADER *pObj, GOL_MSG *pMsg) 
                     
                 case ID_DinMarPizza_Button5:
                     if (objMsg == BTN_MSG_RELEASED) {
-                        screenState=CREATE_APPETIZERLIST;
+                        screenState=CREATE_DINLASAGNA;
                     }
                     break;
                     
                 case ID_DinMarPizza_Button6:
                     if (objMsg == BTN_MSG_RELEASED) {
-                        screenState=CREATE_APPETIZERLIST;
+                        screenState=CREATE_DINQUESADILLA;
                     }
                     break;
                     
@@ -6264,13 +8039,13 @@ WORD VGDD_MenuScreens_MsgCallback(WORD objMsg, OBJ_HEADER *pObj, GOL_MSG *pMsg) 
                     
                 case ID_DinQuesadilla_Button5:
                     if (objMsg == BTN_MSG_RELEASED) {
-                        screenState=CREATE_APPETIZERLIST;
+                        screenState=CREATE_DINMARPIZZA;
                     }
                     break;
                     
                 case ID_DinQuesadilla_Button6:
                     if (objMsg == BTN_MSG_RELEASED) {
-                        screenState=CREATE_APPETIZERLIST;
+                        screenState=CREATE_DINSPAGHETTI;
                     }
                     break;
                     
@@ -6301,13 +8076,13 @@ WORD VGDD_MenuScreens_MsgCallback(WORD objMsg, OBJ_HEADER *pObj, GOL_MSG *pMsg) 
                     
                 case ID_DinSpaghetti_Button5:
                     if (objMsg == BTN_MSG_RELEASED) {
-                        screenState=CREATE_APPETIZERLIST;
+                        screenState=CREATE_DINQUESADILLA;
                     }
                     break;
                     
                 case ID_DinSpaghetti_Button6:
                     if (objMsg == BTN_MSG_RELEASED) {
-                        screenState=CREATE_APPETIZERLIST;
+                        screenState=CREATE_DINSTEAK;
                     }
                     break;
                     
@@ -6338,13 +8113,13 @@ WORD VGDD_MenuScreens_MsgCallback(WORD objMsg, OBJ_HEADER *pObj, GOL_MSG *pMsg) 
                     
                 case ID_DinSteak_Button5:
                     if (objMsg == BTN_MSG_RELEASED) {
-                        screenState=CREATE_APPETIZERLIST;
+                        screenState=CREATE_DINSPAGHETTI;
                     }
                     break;
                     
                 case ID_DinSteak_Button6:
                     if (objMsg == BTN_MSG_RELEASED) {
-                        screenState=CREATE_APPETIZERLIST;
+                        screenState=CREATE_DINTILAPIA;
                     }
                     break;
                     
@@ -6375,13 +8150,13 @@ WORD VGDD_MenuScreens_MsgCallback(WORD objMsg, OBJ_HEADER *pObj, GOL_MSG *pMsg) 
                     
                 case ID_DinTilapia_Button5:
                     if (objMsg == BTN_MSG_RELEASED) {
-                        screenState=CREATE_APPETIZERLIST;
+                        screenState=CREATE_DINSTEAK;
                     }
                     break;
                     
                 case ID_DinTilapia_Button6:
                     if (objMsg == BTN_MSG_RELEASED) {
-                        screenState=CREATE_APPETIZERLIST;
+                        screenState=CREATE_DINVEGPIZZA;
                     }
                     break;
                     
@@ -6412,13 +8187,13 @@ WORD VGDD_MenuScreens_MsgCallback(WORD objMsg, OBJ_HEADER *pObj, GOL_MSG *pMsg) 
                     
                 case ID_DinVegPizza_Button5:
                     if (objMsg == BTN_MSG_RELEASED) {
-                        screenState=CREATE_APPETIZERLIST;
+                        screenState=CREATE_DINTILAPIA;
                     }
                     break;
                     
                 case ID_DinVegPizza_Button6:
                     if (objMsg == BTN_MSG_RELEASED) {
-                        screenState=CREATE_APPETIZERLIST;
+                        screenState=CREATE_DINCORNBEEF;
                     }
                     break;
                     
@@ -6510,13 +8285,13 @@ WORD VGDD_MenuScreens_MsgCallback(WORD objMsg, OBJ_HEADER *pObj, GOL_MSG *pMsg) 
                     
                 case ID_SidesBakedPot_Button5:
                     if (objMsg == BTN_MSG_RELEASED) {
-                        screenState=CREATE_APPETIZERLIST;
+                        screenState=CREATE_SIDESSLAW;
                     }
                     break;
                     
                 case ID_SidesBakedPot_Button6:
                     if (objMsg == BTN_MSG_RELEASED) {
-                        screenState=CREATE_APPETIZERLIST;
+                        screenState=CREATE_SIDESBROCCOLI;
                     }
                     break;
                     
@@ -6547,13 +8322,13 @@ WORD VGDD_MenuScreens_MsgCallback(WORD objMsg, OBJ_HEADER *pObj, GOL_MSG *pMsg) 
                     
                 case ID_SidesBroccoli_Button5:
                     if (objMsg == BTN_MSG_RELEASED) {
-                        screenState=CREATE_APPETIZERLIST;
+                        screenState=CREATE_SIDESBAKEDPOT;
                     }
                     break;
                     
                 case ID_SidesBroccoli_Button6:
                     if (objMsg == BTN_MSG_RELEASED) {
-                        screenState=CREATE_APPETIZERLIST;
+                        screenState=CREATE_SIDESFRIES;
                     }
                     break;
                     
@@ -6584,13 +8359,13 @@ WORD VGDD_MenuScreens_MsgCallback(WORD objMsg, OBJ_HEADER *pObj, GOL_MSG *pMsg) 
                     
                 case ID_SidesFries_Button5:
                     if (objMsg == BTN_MSG_RELEASED) {
-                        screenState=CREATE_APPETIZERLIST;
+                        screenState=CREATE_SIDESBROCCOLI;
                     }
                     break;
                     
                 case ID_SidesFries_Button6:
                     if (objMsg == BTN_MSG_RELEASED) {
-                        screenState=CREATE_APPETIZERLIST;
+                        screenState=CREATE_SIDESFRUIT;
                     }
                     break;
                     
@@ -6621,13 +8396,13 @@ WORD VGDD_MenuScreens_MsgCallback(WORD objMsg, OBJ_HEADER *pObj, GOL_MSG *pMsg) 
                     
                 case ID_SidesFruit_Button5:
                     if (objMsg == BTN_MSG_RELEASED) {
-                        screenState=CREATE_APPETIZERLIST;
+                        screenState=CREATE_SIDESFRIES;
                     }
                     break;
                     
                 case ID_SidesFruit_Button6:
                     if (objMsg == BTN_MSG_RELEASED) {
-                        screenState=CREATE_APPETIZERLIST;
+                        screenState=CREATE_SIDESMASHED;
                     }
                     break;
                     
@@ -6658,13 +8433,13 @@ WORD VGDD_MenuScreens_MsgCallback(WORD objMsg, OBJ_HEADER *pObj, GOL_MSG *pMsg) 
                     
                 case ID_SidesMashed_Button5:
                     if (objMsg == BTN_MSG_RELEASED) {
-                        screenState=CREATE_APPETIZERLIST;
+                        screenState=CREATE_SIDESFRUIT;
                     }
                     break;
                     
                 case ID_SidesMashed_Button6:
                     if (objMsg == BTN_MSG_RELEASED) {
-                        screenState=CREATE_APPETIZERLIST;
+                        screenState=CREATE_SIDESORINGS;
                     }
                     break;
                     
@@ -6695,13 +8470,13 @@ WORD VGDD_MenuScreens_MsgCallback(WORD objMsg, OBJ_HEADER *pObj, GOL_MSG *pMsg) 
                     
                 case ID_SidesORings_Button5:
                     if (objMsg == BTN_MSG_RELEASED) {
-                        screenState=CREATE_APPETIZERLIST;
+                        screenState=CREATE_SIDESMASHED;
                     }
                     break;
                     
                 case ID_SidesORings_Button6:
                     if (objMsg == BTN_MSG_RELEASED) {
-                        screenState=CREATE_APPETIZERLIST;
+                        screenState=CREATE_SIDESSLAW;
                     }
                     break;
                     
@@ -6732,19 +8507,1383 @@ WORD VGDD_MenuScreens_MsgCallback(WORD objMsg, OBJ_HEADER *pObj, GOL_MSG *pMsg) 
                     
                 case ID_SidesSlaw_Button5:
                     if (objMsg == BTN_MSG_RELEASED) {
-                        screenState=CREATE_APPETIZERLIST;
+                        screenState=CREATE_SIDESORINGS;
                     }
                     break;
                     
                 case ID_SidesSlaw_Button6:
                     if (objMsg == BTN_MSG_RELEASED) {
-                        screenState=CREATE_APPETIZERLIST;
+                        screenState=CREATE_SIDESBAKEDPOT;
                     }
                     break;
                     
                 default:
                     break;
             } // End switch (id) for DISPLAY_SIDESSLAW
+            return (1);
+            
+        case DISPLAY_ALCOHOLBUD:
+            switch (id) {
+                case ID_AlcoholBud_Button8:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_DRINKMENU;
+                    }
+                    break;
+                    
+                case ID_AlcoholBud_Button3:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_MAINMENU;
+                    }
+                    break;
+                    
+                case ID_AlcoholBud_Button4:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_ALCOHOLLIST;
+                    }
+                    break;
+                    
+                case ID_AlcoholBud_Button5:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_ALCOHOLYUENGLING;
+                    }
+                    break;
+                    
+                case ID_AlcoholBud_Button6:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_ALCOHOLBUDLIGHT;
+                    }
+                    break;
+                    
+                default:
+                    break;
+            } // End switch (id) for DISPLAY_ALCOHOLBUD
+            return (1);
+            
+        case DISPLAY_ALCOHOLLIST:
+            switch (id) {
+                case ID_AlcoholList_Button1:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_ALCOHOLBUDLIGHT;
+                    }
+                    break;
+                    
+                case ID_AlcoholList_Button3:
+                    if (objMsg == BTN_MSG_STILLPRESSED) {
+                        screenState=CREATE_ALCOHOLYUENGLING;
+                    }
+                    break;
+                    
+                case ID_AlcoholList_Button5:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_ALCOHOLCOORSLIGHT;
+                    }
+                    break;
+                    
+                case ID_AlcoholList_Button7:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_ALCOHOLMICHELOB;
+                    }
+                    break;
+                    
+                case ID_AlcoholList_Button8:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_MAINMENU;
+                    }
+                    break;
+                    
+                case ID_AlcoholList_Button9:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_ALCOHOLMILLERLITE;
+                    }
+                    break;
+                    
+                case ID_AlcoholList_Button10:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_ALCOHOLCORONA;
+                    }
+                    break;
+                    
+                case ID_AlcoholList_Button12:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_DRINKMENU;
+                    }
+                    break;
+                    
+                case ID_AlcoholList_Button11:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_ALCOHOLBUD;
+                    }
+                    break;
+                    
+                case ID_AlcoholList_Button13:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_ALCOHOLGUINNESS;
+                    }
+                    break;
+                    
+                default:
+                    break;
+            } // End switch (id) for DISPLAY_ALCOHOLLIST
+            return (1);
+            
+        case DISPLAY_ALCOHOLBUDLIGHT:
+            switch (id) {
+                case ID_AlcoholBudLight_Button8:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_DRINKMENU;
+                    }
+                    break;
+                    
+                case ID_AlcoholBudLight_Button3:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_MAINMENU;
+                    }
+                    break;
+                    
+                case ID_AlcoholBudLight_Button4:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_ALCOHOLLIST;
+                    }
+                    break;
+                    
+                case ID_AlcoholBudLight_Button5:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_ALCOHOLBUD;
+                    }
+                    break;
+                    
+                case ID_AlcoholBudLight_Button6:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_ALCOHOLCOORSLIGHT;
+                    }
+                    break;
+                    
+                default:
+                    break;
+            } // End switch (id) for DISPLAY_ALCOHOLBUDLIGHT
+            return (1);
+            
+        case DISPLAY_ALCOHOLCOORSLIGHT:
+            switch (id) {
+                case ID_AlcoholCoorsLight_Button8:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_DRINKMENU;
+                    }
+                    break;
+                    
+                case ID_AlcoholCoorsLight_Button3:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_MAINMENU;
+                    }
+                    break;
+                    
+                case ID_AlcoholCoorsLight_Button4:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_ALCOHOLLIST;
+                    }
+                    break;
+                    
+                case ID_AlcoholCoorsLight_Button5:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_ALCOHOLBUDLIGHT;
+                    }
+                    break;
+                    
+                case ID_AlcoholCoorsLight_Button6:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_ALCOHOLCORONA;
+                    }
+                    break;
+                    
+                default:
+                    break;
+            } // End switch (id) for DISPLAY_ALCOHOLCOORSLIGHT
+            return (1);
+            
+        case DISPLAY_ALCOHOLCORONA:
+            switch (id) {
+                case ID_AlcoholCorona_Button8:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_DRINKMENU;
+                    }
+                    break;
+                    
+                case ID_AlcoholCorona_Button3:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_MAINMENU;
+                    }
+                    break;
+                    
+                case ID_AlcoholCorona_Button4:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_ALCOHOLLIST;
+                    }
+                    break;
+                    
+                case ID_AlcoholCorona_Button5:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_ALCOHOLCOORSLIGHT;
+                    }
+                    break;
+                    
+                case ID_AlcoholCorona_Button6:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_ALCOHOLGUINNESS;
+                    }
+                    break;
+                    
+                default:
+                    break;
+            } // End switch (id) for DISPLAY_ALCOHOLCORONA
+            return (1);
+            
+        case DISPLAY_ALCOHOLGUINNESS:
+            switch (id) {
+                case ID_AlcoholGuinness_Button8:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_DRINKMENU;
+                    }
+                    break;
+                    
+                case ID_AlcoholGuinness_Button3:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_MAINMENU;
+                    }
+                    break;
+                    
+                case ID_AlcoholGuinness_Button4:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_ALCOHOLLIST;
+                    }
+                    break;
+                    
+                case ID_AlcoholGuinness_Button5:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_ALCOHOLCORONA;
+                    }
+                    break;
+                    
+                case ID_AlcoholGuinness_Button6:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_ALCOHOLMICHELOB;
+                    }
+                    break;
+                    
+                default:
+                    break;
+            } // End switch (id) for DISPLAY_ALCOHOLGUINNESS
+            return (1);
+            
+        case DISPLAY_ALCOHOLMICHELOB:
+            switch (id) {
+                case ID_AlcoholMichelob_Button8:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_DRINKMENU;
+                    }
+                    break;
+                    
+                case ID_AlcoholMichelob_Button3:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_MAINMENU;
+                    }
+                    break;
+                    
+                case ID_AlcoholMichelob_Button4:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_ALCOHOLLIST;
+                    }
+                    break;
+                    
+                case ID_AlcoholMichelob_Button5:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_ALCOHOLGUINNESS;
+                    }
+                    break;
+                    
+                case ID_AlcoholMichelob_Button6:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_ALCOHOLMILLERLITE;
+                    }
+                    break;
+                    
+                default:
+                    break;
+            } // End switch (id) for DISPLAY_ALCOHOLMICHELOB
+            return (1);
+            
+        case DISPLAY_ALCOHOLMILLERLITE:
+            switch (id) {
+                case ID_AlcoholMillerLite_Button8:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_DRINKMENU;
+                    }
+                    break;
+                    
+                case ID_AlcoholMillerLite_Button3:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_MAINMENU;
+                    }
+                    break;
+                    
+                case ID_AlcoholMillerLite_Button4:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_ALCOHOLLIST;
+                    }
+                    break;
+                    
+                case ID_AlcoholMillerLite_Button5:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_ALCOHOLMICHELOB;
+                    }
+                    break;
+                    
+                case ID_AlcoholMillerLite_Button6:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_ALCOHOLYUENGLING;
+                    }
+                    break;
+                    
+                default:
+                    break;
+            } // End switch (id) for DISPLAY_ALCOHOLMILLERLITE
+            return (1);
+            
+        case DISPLAY_ALCOHOLYUENGLING:
+            switch (id) {
+                case ID_AlcoholYuengling_Button8:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_DRINKMENU;
+                    }
+                    break;
+                    
+                case ID_AlcoholYuengling_Button3:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_MAINMENU;
+                    }
+                    break;
+                    
+                case ID_AlcoholYuengling_Button4:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_ALCOHOLLIST;
+                    }
+                    break;
+                    
+                case ID_AlcoholYuengling_Button5:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_ALCOHOLMILLERLITE;
+                    }
+                    break;
+                    
+                case ID_AlcoholYuengling_Button6:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_ALCOHOLBUD;
+                    }
+                    break;
+                    
+                default:
+                    break;
+            } // End switch (id) for DISPLAY_ALCOHOLYUENGLING
+            return (1);
+            
+        case DISPLAY_DRINKMENU:
+            switch (id) {
+                case ID_DrinkMenu_Button1:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_SOFTDRINKLIST;
+                    }
+                    break;
+                    
+                case ID_DrinkMenu_Button5:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_SMOSHAKEMENU;
+                    }
+                    break;
+                    
+                case ID_DrinkMenu_Button8:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_MAINMENU;
+                    }
+                    break;
+                    
+                case ID_DrinkMenu_Button10:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_ALCOHOLLIST;
+                    }
+                    break;
+                    
+                case ID_DrinkMenu_Button12:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_FOODMENU;
+                    }
+                    break;
+                    
+                default:
+                    break;
+            } // End switch (id) for DISPLAY_DRINKMENU
+            return (1);
+            
+        case DISPLAY_SMOSHAKEMENU:
+            switch (id) {
+                case ID_SmoShakeMenu_Button1:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_SHAKEBANANA;
+                    }
+                    break;
+                    
+                case ID_SmoShakeMenu_Button3:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_SHAKEVANILLA;
+                    }
+                    break;
+                    
+                case ID_SmoShakeMenu_Button5:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_SHAKECHOCOLATE;
+                    }
+                    break;
+                    
+                case ID_SmoShakeMenu_Button7:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_SHAKEOREO;
+                    }
+                    break;
+                    
+                case ID_SmoShakeMenu_Button8:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_MAINMENU;
+                    }
+                    break;
+                    
+                case ID_SmoShakeMenu_Button9:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_SHAKEBLUEBERRY;
+                    }
+                    break;
+                    
+                case ID_SmoShakeMenu_Button10:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_SHAKEPEANUT;
+                    }
+                    break;
+                    
+                case ID_SmoShakeMenu_Button12:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_FOODMENU;
+                    }
+                    break;
+                    
+                case ID_SmoShakeMenu_Button11:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_DRINKMENU;
+                    }
+                    break;
+                    
+                default:
+                    break;
+            } // End switch (id) for DISPLAY_SMOSHAKEMENU
+            return (1);
+            
+        case DISPLAY_SHAKEBANANA:
+            switch (id) {
+                case ID_ShakeBanana_Button8:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_DRINKMENU;
+                    }
+                    break;
+                    
+                case ID_ShakeBanana_Button3:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_MAINMENU;
+                    }
+                    break;
+                    
+                case ID_ShakeBanana_Button4:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_SMOSHAKEMENU;
+                    }
+                    break;
+                    
+                case ID_ShakeBanana_Button5:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_SHAKEVANILLA;
+                    }
+                    break;
+                    
+                case ID_ShakeBanana_Button6:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_SHAKEBLUEBERRY;
+                    }
+                    break;
+                    
+                default:
+                    break;
+            } // End switch (id) for DISPLAY_SHAKEBANANA
+            return (1);
+            
+        case DISPLAY_SHAKEBLUEBERRY:
+            switch (id) {
+                case ID_ShakeBlueberry_Button8:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_DRINKMENU;
+                    }
+                    break;
+                    
+                case ID_ShakeBlueberry_Button3:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_MAINMENU;
+                    }
+                    break;
+                    
+                case ID_ShakeBlueberry_Button4:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_SMOSHAKEMENU;
+                    }
+                    break;
+                    
+                case ID_ShakeBlueberry_Button5:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_SHAKEBANANA;
+                    }
+                    break;
+                    
+                case ID_ShakeBlueberry_Button6:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_SHAKECHOCOLATE;
+                    }
+                    break;
+                    
+                default:
+                    break;
+            } // End switch (id) for DISPLAY_SHAKEBLUEBERRY
+            return (1);
+            
+        case DISPLAY_SHAKECHOCOLATE:
+            switch (id) {
+                case ID_ShakeChocolate_Button8:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_DRINKMENU;
+                    }
+                    break;
+                    
+                case ID_ShakeChocolate_Button3:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_MAINMENU;
+                    }
+                    break;
+                    
+                case ID_ShakeChocolate_Button4:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_SMOSHAKEMENU;
+                    }
+                    break;
+                    
+                case ID_ShakeChocolate_Button5:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_SHAKEBLUEBERRY;
+                    }
+                    break;
+                    
+                case ID_ShakeChocolate_Button6:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_SHAKEOREO;
+                    }
+                    break;
+                    
+                default:
+                    break;
+            } // End switch (id) for DISPLAY_SHAKECHOCOLATE
+            return (1);
+            
+        case DISPLAY_SHAKEOREO:
+            switch (id) {
+                case ID_ShakeOreo_Button8:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_DRINKMENU;
+                    }
+                    break;
+                    
+                case ID_ShakeOreo_Button3:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_MAINMENU;
+                    }
+                    break;
+                    
+                case ID_ShakeOreo_Button4:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_SMOSHAKEMENU;
+                    }
+                    break;
+                    
+                case ID_ShakeOreo_Button5:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_SHAKECHOCOLATE;
+                    }
+                    break;
+                    
+                case ID_ShakeOreo_Button6:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_SHAKEPEANUT;
+                    }
+                    break;
+                    
+                default:
+                    break;
+            } // End switch (id) for DISPLAY_SHAKEOREO
+            return (1);
+            
+        case DISPLAY_SHAKEPEANUT:
+            switch (id) {
+                case ID_ShakePeanut_Button8:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_DRINKMENU;
+                    }
+                    break;
+                    
+                case ID_ShakePeanut_Button3:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_MAINMENU;
+                    }
+                    break;
+                    
+                case ID_ShakePeanut_Button4:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_SMOSHAKEMENU;
+                    }
+                    break;
+                    
+                case ID_ShakePeanut_Button5:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_SHAKEOREO;
+                    }
+                    break;
+                    
+                case ID_ShakePeanut_Button6:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_SHAKEVANILLA;
+                    }
+                    break;
+                    
+                default:
+                    break;
+            } // End switch (id) for DISPLAY_SHAKEPEANUT
+            return (1);
+            
+        case DISPLAY_SHAKEVANILLA:
+            switch (id) {
+                case ID_ShakeVanilla_Button8:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_DRINKMENU;
+                    }
+                    break;
+                    
+                case ID_ShakeVanilla_Button3:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_MAINMENU;
+                    }
+                    break;
+                    
+                case ID_ShakeVanilla_Button4:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_SMOSHAKEMENU;
+                    }
+                    break;
+                    
+                case ID_ShakeVanilla_Button5:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_SHAKEPEANUT;
+                    }
+                    break;
+                    
+                case ID_ShakeVanilla_Button6:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_SHAKEBANANA;
+                    }
+                    break;
+                    
+                default:
+                    break;
+            } // End switch (id) for DISPLAY_SHAKEVANILLA
+            return (1);
+            
+        case DISPLAY_SOFTDRINKLIST:
+            switch (id) {
+                case ID_SoftDrinkList_Button3:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_SOFTDIETSPRITE;
+                    }
+                    break;
+                    
+                case ID_SoftDrinkList_Button4:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_SOFTDRINKLIST2;
+                    }
+                    break;
+                    
+                case ID_SoftDrinkList_Button5:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_SOFTSPRITE;
+                    }
+                    break;
+                    
+                case ID_SoftDrinkList_Button6:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_SOFTDIETCOKE;
+                    }
+                    break;
+                    
+                case ID_SoftDrinkList_Button7:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_SOFTROOTBEER;
+                    }
+                    break;
+                    
+                case ID_SoftDrinkList_Button8:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_MAINMENU;
+                    }
+                    break;
+                    
+                case ID_SoftDrinkList_Button9:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_SOFTCOKE;
+                    }
+                    break;
+                    
+                case ID_SoftDrinkList_Button10:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_SOFTGINGERALE;
+                    }
+                    break;
+                    
+                case ID_SoftDrinkList_Button12:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_FOODMENU;
+                    }
+                    break;
+                    
+                case ID_SoftDrinkList_Button11:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_SOFTLEMONADE;
+                    }
+                    break;
+                    
+                case ID_SoftDrinkList_Button13:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_DRINKMENU;
+                    }
+                    break;
+                    
+                default:
+                    break;
+            } // End switch (id) for DISPLAY_SOFTDRINKLIST
+            return (1);
+            
+        case DISPLAY_SOFTDRINKLIST2:
+            switch (id) {
+                case ID_SoftDrinkList2_Button3:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_SOFTCOFFEEDECAF;
+                    }
+                    break;
+                    
+                case ID_SoftDrinkList2_Button4:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_SOFTDRINKLIST;
+                    }
+                    break;
+                    
+                case ID_SoftDrinkList2_Button5:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_SOFTCOFFEEREGULAR;
+                    }
+                    break;
+                    
+                case ID_SoftDrinkList2_Button7:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_SOFTMILK;
+                    }
+                    break;
+                    
+                case ID_SoftDrinkList2_Button8:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_MAINMENU;
+                    }
+                    break;
+                    
+                case ID_SoftDrinkList2_Button12:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_FOODMENU;
+                    }
+                    break;
+                    
+                case ID_SoftDrinkList2_Button11:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_SOFTCHOCOLATEMILK;
+                    }
+                    break;
+                    
+                case ID_SoftDrinkList2_Button13:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_DRINKMENU;
+                    }
+                    break;
+                    
+                case ID_SoftDrinkList2_Button14:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_SOFTWATER;
+                    }
+                    break;
+                    
+                default:
+                    break;
+            } // End switch (id) for DISPLAY_SOFTDRINKLIST2
+            return (1);
+            
+        case DISPLAY_SOFTCHOCOLATEMILK:
+            switch (id) {
+                case ID_SoftChocolateMilk_Button8:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_DRINKMENU;
+                    }
+                    break;
+                    
+                case ID_SoftChocolateMilk_Button3:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_MAINMENU;
+                    }
+                    break;
+                    
+                case ID_SoftChocolateMilk_Button4:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_SOFTDRINKLIST2;
+                    }
+                    break;
+                    
+                case ID_SoftChocolateMilk_Button5:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_SOFTWATER;
+                    }
+                    break;
+                    
+                case ID_SoftChocolateMilk_Button6:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_SOFTCOFFEEDECAF;
+                    }
+                    break;
+                    
+                default:
+                    break;
+            } // End switch (id) for DISPLAY_SOFTCHOCOLATEMILK
+            return (1);
+            
+        case DISPLAY_SOFTCOFFEEDECAF:
+            switch (id) {
+                case ID_SoftCoffeeDecaf_Button8:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_DRINKMENU;
+                    }
+                    break;
+                    
+                case ID_SoftCoffeeDecaf_Button3:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_MAINMENU;
+                    }
+                    break;
+                    
+                case ID_SoftCoffeeDecaf_Button4:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_SOFTDRINKLIST2;
+                    }
+                    break;
+                    
+                case ID_SoftCoffeeDecaf_Button5:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_SOFTCHOCOLATEMILK;
+                    }
+                    break;
+                    
+                case ID_SoftCoffeeDecaf_Button6:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_SOFTCOFFEEREGULAR;
+                    }
+                    break;
+                    
+                default:
+                    break;
+            } // End switch (id) for DISPLAY_SOFTCOFFEEDECAF
+            return (1);
+            
+        case DISPLAY_SOFTCOFFEEREGULAR:
+            switch (id) {
+                case ID_SoftCoffeeRegular_Button8:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_SOFTDRINKLIST2;
+                    }
+                    break;
+                    
+                case ID_SoftCoffeeRegular_Button3:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_MAINMENU;
+                    }
+                    break;
+                    
+                case ID_SoftCoffeeRegular_Button4:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_SOFTDRINKLIST2;
+                    }
+                    break;
+                    
+                case ID_SoftCoffeeRegular_Button5:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_SOFTCOFFEEDECAF;
+                    }
+                    break;
+                    
+                case ID_SoftCoffeeRegular_Button6:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_SOFTMILK;
+                    }
+                    break;
+                    
+                default:
+                    break;
+            } // End switch (id) for DISPLAY_SOFTCOFFEEREGULAR
+            return (1);
+            
+        case DISPLAY_SOFTCOKE:
+            switch (id) {
+                case ID_SoftCoke_Button8:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_DRINKMENU;
+                    }
+                    break;
+                    
+                case ID_SoftCoke_Button3:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_MAINMENU;
+                    }
+                    break;
+                    
+                case ID_SoftCoke_Button4:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_SOFTDRINKLIST;
+                    }
+                    break;
+                    
+                case ID_SoftCoke_Button5:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_SOFTDIETSPRITE;
+                    }
+                    break;
+                    
+                case ID_SoftCoke_Button6:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_SOFTDIETCOKE;
+                    }
+                    break;
+                    
+                default:
+                    break;
+            } // End switch (id) for DISPLAY_SOFTCOKE
+            return (1);
+            
+        case DISPLAY_SOFTDIETCOKE:
+            switch (id) {
+                case ID_SoftDietCoke_Button8:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_DRINKMENU;
+                    }
+                    break;
+                    
+                case ID_SoftDietCoke_Button3:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_MAINMENU;
+                    }
+                    break;
+                    
+                case ID_SoftDietCoke_Button4:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_SOFTDRINKLIST;
+                    }
+                    break;
+                    
+                case ID_SoftDietCoke_Button5:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_SOFTCOKE;
+                    }
+                    break;
+                    
+                case ID_SoftDietCoke_Button6:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_SOFTGINGERALE;
+                    }
+                    break;
+                    
+                default:
+                    break;
+            } // End switch (id) for DISPLAY_SOFTDIETCOKE
+            return (1);
+            
+        case DISPLAY_SOFTDIETSPRITE:
+            switch (id) {
+                case ID_SoftDietSprite_Button8:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_DRINKMENU;
+                    }
+                    break;
+                    
+                case ID_SoftDietSprite_Button3:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_MAINMENU;
+                    }
+                    break;
+                    
+                case ID_SoftDietSprite_Button4:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_SOFTDRINKLIST;
+                    }
+                    break;
+                    
+                case ID_SoftDietSprite_Button5:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_SOFTSPRITE;
+                    }
+                    break;
+                    
+                case ID_SoftDietSprite_Button6:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_SOFTCOKE;
+                    }
+                    break;
+                    
+                default:
+                    break;
+            } // End switch (id) for DISPLAY_SOFTDIETSPRITE
+            return (1);
+            
+        case DISPLAY_SOFTGINGERALE:
+            switch (id) {
+                case ID_SoftGingerale_Button8:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_DRINKMENU;
+                    }
+                    break;
+                    
+                case ID_SoftGingerale_Button3:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_MAINMENU;
+                    }
+                    break;
+                    
+                case ID_SoftGingerale_Button4:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_SOFTDRINKLIST;
+                    }
+                    break;
+                    
+                case ID_SoftGingerale_Button5:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_SOFTDIETCOKE;
+                    }
+                    break;
+                    
+                case ID_SoftGingerale_Button6:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_SOFTLEMONADE;
+                    }
+                    break;
+                    
+                default:
+                    break;
+            } // End switch (id) for DISPLAY_SOFTGINGERALE
+            return (1);
+            
+        case DISPLAY_SOFTLEMONADE:
+            switch (id) {
+                case ID_SoftLemonade_Button8:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_DRINKMENU;
+                    }
+                    break;
+                    
+                case ID_SoftLemonade_Button3:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_MAINMENU;
+                    }
+                    break;
+                    
+                case ID_SoftLemonade_Button4:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_SOFTDRINKLIST;
+                    }
+                    break;
+                    
+                case ID_SoftLemonade_Button5:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_SOFTGINGERALE;
+                    }
+                    break;
+                    
+                case ID_SoftLemonade_Button6:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_SOFTROOTBEER;
+                    }
+                    break;
+                    
+                default:
+                    break;
+            } // End switch (id) for DISPLAY_SOFTLEMONADE
+            return (1);
+            
+        case DISPLAY_SOFTMILK:
+            switch (id) {
+                case ID_SoftMilk_Button8:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_DRINKMENU;
+                    }
+                    break;
+                    
+                case ID_SoftMilk_Button3:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_MAINMENU;
+                    }
+                    break;
+                    
+                case ID_SoftMilk_Button4:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_SOFTDRINKLIST2;
+                    }
+                    break;
+                    
+                case ID_SoftMilk_Button5:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_SOFTMILK;
+                    }
+                    break;
+                    
+                case ID_SoftMilk_Button6:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_SOFTWATER;
+                    }
+                    break;
+                    
+                default:
+                    break;
+            } // End switch (id) for DISPLAY_SOFTMILK
+            return (1);
+            
+        case DISPLAY_SOFTROOTBEER:
+            switch (id) {
+                case ID_SoftRootbeer_Button8:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_FOODMENU;
+                    }
+                    break;
+                    
+                case ID_SoftRootbeer_Button3:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_MAINMENU;
+                    }
+                    break;
+                    
+                case ID_SoftRootbeer_Button5:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_SOFTLEMONADE;
+                    }
+                    break;
+                    
+                case ID_SoftRootbeer_Button6:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_SOFTSPRITE;
+                    }
+                    break;
+                    
+                default:
+                    break;
+            } // End switch (id) for DISPLAY_SOFTROOTBEER
+            return (1);
+            
+        case DISPLAY_SOFTSPRITE:
+            switch (id) {
+                case ID_SoftSprite_Button8:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_DRINKMENU;
+                    }
+                    break;
+                    
+                case ID_SoftSprite_Button3:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_MAINMENU;
+                    }
+                    break;
+                    
+                case ID_SoftSprite_Button4:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_SOFTDRINKLIST;
+                    }
+                    break;
+                    
+                case ID_SoftSprite_Button5:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_SOFTROOTBEER;
+                    }
+                    break;
+                    
+                case ID_SoftSprite_Button6:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_SOFTDIETSPRITE;
+                    }
+                    break;
+                    
+                default:
+                    break;
+            } // End switch (id) for DISPLAY_SOFTSPRITE
+            return (1);
+            
+        case DISPLAY_SOFTWATER:
+            switch (id) {
+                case ID_SoftWater_Button8:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_DRINKMENU;
+                    }
+                    break;
+                    
+                case ID_SoftWater_Button3:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_MAINMENU;
+                    }
+                    break;
+                    
+                case ID_SoftWater_Button4:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_SOFTDRINKLIST2;
+                    }
+                    break;
+                    
+                case ID_SoftWater_Button5:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_SOFTMILK;
+                    }
+                    break;
+                    
+                case ID_SoftWater_Button6:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_SOFTCHOCOLATEMILK;
+                    }
+                    break;
+                    
+                default:
+                    break;
+            } // End switch (id) for DISPLAY_SOFTWATER
+            return (1);
+            
+        case DISPLAY_NUMGUESTS:
+            switch (id) {
+                case ID_NumGuests_Button1:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        EbAddChar((EDITBOX *)GOLFindObject(ID_NumGuests_EditBox1), '1');
+                        SetState(GOLFindObject(ID_NumGuests_EditBox1), EB_DRAW);
+                    }
+                    break;
+                    
+                case ID_NumGuests_Button2:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        EbAddChar((EDITBOX *)GOLFindObject(ID_NumGuests_EditBox1), '2');
+                        SetState(GOLFindObject(ID_NumGuests_EditBox1), EB_DRAW);
+                    }
+                    break;
+                    
+                case ID_NumGuests_Button3:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        EbAddChar((EDITBOX *)GOLFindObject(ID_NumGuests_EditBox1), '3');
+                        SetState(GOLFindObject(ID_NumGuests_EditBox1), EB_DRAW);
+                    }
+                    break;
+                    
+                case ID_NumGuests_Button4:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        EbAddChar((EDITBOX *)GOLFindObject(ID_NumGuests_EditBox1), '4');
+                        SetState(GOLFindObject(ID_NumGuests_EditBox1), EB_DRAW);
+                    }
+                    break;
+                    
+                case ID_NumGuests_Button5:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        EbAddChar((EDITBOX *)GOLFindObject(ID_NumGuests_EditBox1), '5');
+                        SetState(GOLFindObject(ID_NumGuests_EditBox1), EB_DRAW);
+                    }
+                    break;
+                    
+                case ID_NumGuests_Button6:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        EbAddChar((EDITBOX *)GOLFindObject(ID_NumGuests_EditBox1), '6');
+                        SetState(GOLFindObject(ID_NumGuests_EditBox1), EB_DRAW);
+                    }
+                    break;
+                    
+                case ID_NumGuests_Button7:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        EbAddChar((EDITBOX *)GOLFindObject(ID_NumGuests_EditBox1), '7');
+                        SetState(GOLFindObject(ID_NumGuests_EditBox1), EB_DRAW);
+                    }
+                    break;
+                    
+                case ID_NumGuests_Button8:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        EbAddChar((EDITBOX *)GOLFindObject(ID_NumGuests_EditBox1), '8');
+                        SetState(GOLFindObject(ID_NumGuests_EditBox1), EB_DRAW);
+                    }
+                    break;
+                    
+                case ID_NumGuests_Button9:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        EbAddChar((EDITBOX *)GOLFindObject(ID_NumGuests_EditBox1), '9');
+                        SetState(GOLFindObject(ID_NumGuests_EditBox1), EB_DRAW);
+                    }
+                    break;
+                    
+                case ID_NumGuests_Button10:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        EbDeleteChar((EDITBOX *)GOLFindObject(ID_NumGuests_EditBox1));
+                        SetState(GOLFindObject(ID_NumGuests_EditBox1), EB_DRAW);
+                    }
+                    break;
+                    
+                case ID_NumGuests_Button11:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_NUMGUESTSCONFIRM;
+                    }
+                    break;
+                    
+                case ID_NumGuests_Button12:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        EbAddChar((EDITBOX *)GOLFindObject(ID_NumGuests_EditBox1), '0');
+                        SetState(GOLFindObject(ID_NumGuests_EditBox1), EB_DRAW);
+                    }
+                    break;
+                    
+                default:
+                    break;
+            } // End switch (id) for DISPLAY_NUMGUESTS
+            return (1);
+            
+        case DISPLAY_NUMGUESTSCONFIRM:
+            switch (id) {
+                case ID_NumGuestsConfirm_Button11:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_NUMGUESTS;
+                    }
+                    break;
+                    
+                case ID_NumGuestsConfirm_Button2:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_MAINMENU;
+                    }
+                    break;
+                    
+                default:
+                    break;
+            } // End switch (id) for DISPLAY_NUMGUESTSCONFIRM
             return (1);
             
             
@@ -7080,6 +10219,17 @@ WORD VGDD_MenuScreens_DrawCallback(void) {
             screenState = DISPLAY_SANDVEGGIEREUBEN;
             break;
         case DISPLAY_SANDVEGGIEREUBEN:
+            break;
+            
+        case CREATE_SANDSMOTHERED:
+            CreateSandSmothered();
+            screenState = UPDATE_SANDSMOTHERED;
+            break;
+        case UPDATE_SANDSMOTHERED:
+            
+            screenState = DISPLAY_SANDSMOTHERED;
+            break;
+        case DISPLAY_SANDSMOTHERED:
             break;
             
         case CREATE_SANDSMOTHEREDBUFFALO:
@@ -7742,444 +10892,374 @@ WORD VGDD_MenuScreens_DrawCallback(void) {
         case DISPLAY_SIDESSLAW:
             break;
             
+        case CREATE_ALCOHOLBUD:
+            CreateAlcoholBud();
+            screenState = UPDATE_ALCOHOLBUD;
+            break;
+        case UPDATE_ALCOHOLBUD:
+            
+            screenState = DISPLAY_ALCOHOLBUD;
+            break;
+        case DISPLAY_ALCOHOLBUD:
+            break;
+            
+        case CREATE_ALCOHOLLIST:
+            CreateAlcoholList();
+            screenState = UPDATE_ALCOHOLLIST;
+            break;
+        case UPDATE_ALCOHOLLIST:
+            
+            screenState = DISPLAY_ALCOHOLLIST;
+            break;
+        case DISPLAY_ALCOHOLLIST:
+            break;
+            
+        case CREATE_ALCOHOLBUDLIGHT:
+            CreateAlcoholBudLight();
+            screenState = UPDATE_ALCOHOLBUDLIGHT;
+            break;
+        case UPDATE_ALCOHOLBUDLIGHT:
+            
+            screenState = DISPLAY_ALCOHOLBUDLIGHT;
+            break;
+        case DISPLAY_ALCOHOLBUDLIGHT:
+            break;
+            
+        case CREATE_ALCOHOLCOORSLIGHT:
+            CreateAlcoholCoorsLight();
+            screenState = UPDATE_ALCOHOLCOORSLIGHT;
+            break;
+        case UPDATE_ALCOHOLCOORSLIGHT:
+            
+            screenState = DISPLAY_ALCOHOLCOORSLIGHT;
+            break;
+        case DISPLAY_ALCOHOLCOORSLIGHT:
+            break;
+            
+        case CREATE_ALCOHOLCORONA:
+            CreateAlcoholCorona();
+            screenState = UPDATE_ALCOHOLCORONA;
+            break;
+        case UPDATE_ALCOHOLCORONA:
+            
+            screenState = DISPLAY_ALCOHOLCORONA;
+            break;
+        case DISPLAY_ALCOHOLCORONA:
+            break;
+            
+        case CREATE_ALCOHOLGUINNESS:
+            CreateAlcoholGuinness();
+            screenState = UPDATE_ALCOHOLGUINNESS;
+            break;
+        case UPDATE_ALCOHOLGUINNESS:
+            
+            screenState = DISPLAY_ALCOHOLGUINNESS;
+            break;
+        case DISPLAY_ALCOHOLGUINNESS:
+            break;
+            
+        case CREATE_ALCOHOLMICHELOB:
+            CreateAlcoholMichelob();
+            screenState = UPDATE_ALCOHOLMICHELOB;
+            break;
+        case UPDATE_ALCOHOLMICHELOB:
+            
+            screenState = DISPLAY_ALCOHOLMICHELOB;
+            break;
+        case DISPLAY_ALCOHOLMICHELOB:
+            break;
+            
+        case CREATE_ALCOHOLMILLERLITE:
+            CreateAlcoholMillerLite();
+            screenState = UPDATE_ALCOHOLMILLERLITE;
+            break;
+        case UPDATE_ALCOHOLMILLERLITE:
+            
+            screenState = DISPLAY_ALCOHOLMILLERLITE;
+            break;
+        case DISPLAY_ALCOHOLMILLERLITE:
+            break;
+            
+        case CREATE_ALCOHOLYUENGLING:
+            CreateAlcoholYuengling();
+            screenState = UPDATE_ALCOHOLYUENGLING;
+            break;
+        case UPDATE_ALCOHOLYUENGLING:
+            
+            screenState = DISPLAY_ALCOHOLYUENGLING;
+            break;
+        case DISPLAY_ALCOHOLYUENGLING:
+            break;
+            
+        case CREATE_DRINKMENU:
+            CreateDrinkMenu();
+            screenState = UPDATE_DRINKMENU;
+            break;
+        case UPDATE_DRINKMENU:
+            
+            screenState = DISPLAY_DRINKMENU;
+            break;
+        case DISPLAY_DRINKMENU:
+            break;
+            
+        case CREATE_SMOSHAKEMENU:
+            CreateSmoShakeMenu();
+            screenState = UPDATE_SMOSHAKEMENU;
+            break;
+        case UPDATE_SMOSHAKEMENU:
+            
+            screenState = DISPLAY_SMOSHAKEMENU;
+            break;
+        case DISPLAY_SMOSHAKEMENU:
+            break;
+            
+        case CREATE_SHAKEBANANA:
+            CreateShakeBanana();
+            screenState = UPDATE_SHAKEBANANA;
+            break;
+        case UPDATE_SHAKEBANANA:
+            
+            screenState = DISPLAY_SHAKEBANANA;
+            break;
+        case DISPLAY_SHAKEBANANA:
+            break;
+            
+        case CREATE_SHAKEBLUEBERRY:
+            CreateShakeBlueberry();
+            screenState = UPDATE_SHAKEBLUEBERRY;
+            break;
+        case UPDATE_SHAKEBLUEBERRY:
+            
+            screenState = DISPLAY_SHAKEBLUEBERRY;
+            break;
+        case DISPLAY_SHAKEBLUEBERRY:
+            break;
+            
+        case CREATE_SHAKECHOCOLATE:
+            CreateShakeChocolate();
+            screenState = UPDATE_SHAKECHOCOLATE;
+            break;
+        case UPDATE_SHAKECHOCOLATE:
+            
+            screenState = DISPLAY_SHAKECHOCOLATE;
+            break;
+        case DISPLAY_SHAKECHOCOLATE:
+            break;
+            
+        case CREATE_SHAKEOREO:
+            CreateShakeOreo();
+            screenState = UPDATE_SHAKEOREO;
+            break;
+        case UPDATE_SHAKEOREO:
+            
+            screenState = DISPLAY_SHAKEOREO;
+            break;
+        case DISPLAY_SHAKEOREO:
+            break;
+            
+        case CREATE_SHAKEPEANUT:
+            CreateShakePeanut();
+            screenState = UPDATE_SHAKEPEANUT;
+            break;
+        case UPDATE_SHAKEPEANUT:
+            
+            screenState = DISPLAY_SHAKEPEANUT;
+            break;
+        case DISPLAY_SHAKEPEANUT:
+            break;
+            
+        case CREATE_SHAKEVANILLA:
+            CreateShakeVanilla();
+            screenState = UPDATE_SHAKEVANILLA;
+            break;
+        case UPDATE_SHAKEVANILLA:
+            
+            screenState = DISPLAY_SHAKEVANILLA;
+            break;
+        case DISPLAY_SHAKEVANILLA:
+            break;
+            
+        case CREATE_SOFTDRINKLIST:
+            CreateSoftDrinkList();
+            screenState = UPDATE_SOFTDRINKLIST;
+            break;
+        case UPDATE_SOFTDRINKLIST:
+            
+            screenState = DISPLAY_SOFTDRINKLIST;
+            break;
+        case DISPLAY_SOFTDRINKLIST:
+            break;
+            
+        case CREATE_SOFTDRINKLIST2:
+            CreateSoftDrinkList2();
+            screenState = UPDATE_SOFTDRINKLIST2;
+            break;
+        case UPDATE_SOFTDRINKLIST2:
+            
+            screenState = DISPLAY_SOFTDRINKLIST2;
+            break;
+        case DISPLAY_SOFTDRINKLIST2:
+            break;
+            
+        case CREATE_SOFTCHOCOLATEMILK:
+            CreateSoftChocolateMilk();
+            screenState = UPDATE_SOFTCHOCOLATEMILK;
+            break;
+        case UPDATE_SOFTCHOCOLATEMILK:
+            
+            screenState = DISPLAY_SOFTCHOCOLATEMILK;
+            break;
+        case DISPLAY_SOFTCHOCOLATEMILK:
+            break;
+            
+        case CREATE_SOFTCOFFEEDECAF:
+            CreateSoftCoffeeDecaf();
+            screenState = UPDATE_SOFTCOFFEEDECAF;
+            break;
+        case UPDATE_SOFTCOFFEEDECAF:
+            
+            screenState = DISPLAY_SOFTCOFFEEDECAF;
+            break;
+        case DISPLAY_SOFTCOFFEEDECAF:
+            break;
+            
+        case CREATE_SOFTCOFFEEREGULAR:
+            CreateSoftCoffeeRegular();
+            screenState = UPDATE_SOFTCOFFEEREGULAR;
+            break;
+        case UPDATE_SOFTCOFFEEREGULAR:
+            
+            screenState = DISPLAY_SOFTCOFFEEREGULAR;
+            break;
+        case DISPLAY_SOFTCOFFEEREGULAR:
+            break;
+            
+        case CREATE_SOFTCOKE:
+            CreateSoftCoke();
+            screenState = UPDATE_SOFTCOKE;
+            break;
+        case UPDATE_SOFTCOKE:
+            
+            screenState = DISPLAY_SOFTCOKE;
+            break;
+        case DISPLAY_SOFTCOKE:
+            break;
+            
+        case CREATE_SOFTDIETCOKE:
+            CreateSoftDietCoke();
+            screenState = UPDATE_SOFTDIETCOKE;
+            break;
+        case UPDATE_SOFTDIETCOKE:
+            
+            screenState = DISPLAY_SOFTDIETCOKE;
+            break;
+        case DISPLAY_SOFTDIETCOKE:
+            break;
+            
+        case CREATE_SOFTDIETSPRITE:
+            CreateSoftDietSprite();
+            screenState = UPDATE_SOFTDIETSPRITE;
+            break;
+        case UPDATE_SOFTDIETSPRITE:
+            
+            screenState = DISPLAY_SOFTDIETSPRITE;
+            break;
+        case DISPLAY_SOFTDIETSPRITE:
+            break;
+            
+        case CREATE_SOFTGINGERALE:
+            CreateSoftGingerale();
+            screenState = UPDATE_SOFTGINGERALE;
+            break;
+        case UPDATE_SOFTGINGERALE:
+            
+            screenState = DISPLAY_SOFTGINGERALE;
+            break;
+        case DISPLAY_SOFTGINGERALE:
+            break;
+            
+        case CREATE_SOFTLEMONADE:
+            CreateSoftLemonade();
+            screenState = UPDATE_SOFTLEMONADE;
+            break;
+        case UPDATE_SOFTLEMONADE:
+            
+            screenState = DISPLAY_SOFTLEMONADE;
+            break;
+        case DISPLAY_SOFTLEMONADE:
+            break;
+            
+        case CREATE_SOFTMILK:
+            CreateSoftMilk();
+            screenState = UPDATE_SOFTMILK;
+            break;
+        case UPDATE_SOFTMILK:
+            
+            screenState = DISPLAY_SOFTMILK;
+            break;
+        case DISPLAY_SOFTMILK:
+            break;
+            
+        case CREATE_SOFTROOTBEER:
+            CreateSoftRootbeer();
+            screenState = UPDATE_SOFTROOTBEER;
+            break;
+        case UPDATE_SOFTROOTBEER:
+            
+            screenState = DISPLAY_SOFTROOTBEER;
+            break;
+        case DISPLAY_SOFTROOTBEER:
+            break;
+            
+        case CREATE_SOFTSPRITE:
+            CreateSoftSprite();
+            screenState = UPDATE_SOFTSPRITE;
+            break;
+        case UPDATE_SOFTSPRITE:
+            
+            screenState = DISPLAY_SOFTSPRITE;
+            break;
+        case DISPLAY_SOFTSPRITE:
+            break;
+            
+        case CREATE_SOFTWATER:
+            CreateSoftWater();
+            screenState = UPDATE_SOFTWATER;
+            break;
+        case UPDATE_SOFTWATER:
+            
+            screenState = DISPLAY_SOFTWATER;
+            break;
+        case DISPLAY_SOFTWATER:
+            break;
+            
+        case CREATE_NUMGUESTS:
+            CreateNumGuests();
+            screenState = UPDATE_NUMGUESTS;
+            break;
+        case UPDATE_NUMGUESTS:
+            
+            screenState = DISPLAY_NUMGUESTS;
+            break;
+        case DISPLAY_NUMGUESTS:
+            break;
+            
+        case CREATE_NUMGUESTSCONFIRM:
+            CreateNumGuestsConfirm();
+            screenState = UPDATE_NUMGUESTSCONFIRM;
+            break;
+        case UPDATE_NUMGUESTSCONFIRM:
+            
+            screenState = DISPLAY_NUMGUESTSCONFIRM;
+            break;
+        case DISPLAY_NUMGUESTSCONFIRM:
+            break;
+            
             
         default:
             break;
     } // End switch (screenState)
     return (1);
 } // End VGDD_MenuScreens_DrawCallback
-
-// MicrosoftSansSerifRegular11: Charset: RANGE from 32( ) to 127() - Size: 2736 bytes - VGDD_FLASH Font definition
-const char LMicrosoftSansSerifRegular11[] __attribute__((aligned(2))) = {
- 0x00,0x00,0x20,0x00,0x7F,0x00,0x12,0x00,0x04,0x88,0x01,0x00,0x03,0x9A,0x01,0x00,0x05,0xAC,0x01,0x00,0x08,0xBE,0x01,0x00,0x08,0xD0,0x01,0x00,0x0D,0xE2,0x01,0x00,0x0A
-,0x06,0x02,0x00,0x03,0x2A,0x02,0x00,0x05,0x3C,0x02,0x00,0x05,0x4E,0x02,0x00,0x06,0x60,0x02,0x00,0x09,0x72,0x02,0x00,0x04,0x96,0x02,0x00,0x05,0xA8,0x02,0x00,0x04,0xBA
-,0x02,0x00,0x04,0xCC,0x02,0x00,0x08,0xDE,0x02,0x00,0x08,0xF0,0x02,0x00,0x08,0x02,0x03,0x00,0x08,0x14,0x03,0x00,0x08,0x26,0x03,0x00,0x08,0x38,0x03,0x00,0x08,0x4A,0x03
-,0x00,0x08,0x5C,0x03,0x00,0x08,0x6E,0x03,0x00,0x08,0x80,0x03,0x00,0x04,0x92,0x03,0x00,0x04,0xA4,0x03,0x00,0x09,0xB6,0x03,0x00,0x09,0xDA,0x03,0x00,0x09,0xFE,0x03,0x00
-,0x08,0x22,0x04,0x00,0x0F,0x34,0x04,0x00,0x09,0x58,0x04,0x00,0x0A,0x7C,0x04,0x00,0x0B,0xA0,0x04,0x00,0x0B,0xC4,0x04,0x00,0x0A,0xE8,0x04,0x00,0x09,0x0C,0x05,0x00,0x0C
-,0x30,0x05,0x00,0x0B,0x54,0x05,0x00,0x03,0x78,0x05,0x00,0x08,0x8A,0x05,0x00,0x0A,0x9C,0x05,0x00,0x08,0xC0,0x05,0x00,0x0D,0xD2,0x05,0x00,0x0B,0xF6,0x05,0x00,0x0C,0x1A
-,0x06,0x00,0x0A,0x3E,0x06,0x00,0x0C,0x62,0x06,0x00,0x0B,0x86,0x06,0x00,0x0A,0xAA,0x06,0x00,0x09,0xCE,0x06,0x00,0x0B,0xF2,0x06,0x00,0x09,0x16,0x07,0x00,0x0F,0x3A,0x07
-,0x00,0x0A,0x5E,0x07,0x00,0x09,0x82,0x07,0x00,0x09,0xA6,0x07,0x00,0x04,0xCA,0x07,0x00,0x04,0xDC,0x07,0x00,0x04,0xEE,0x07,0x00,0x07,0x00,0x08,0x00,0x08,0x12,0x08,0x00
-,0x05,0x24,0x08,0x00,0x08,0x36,0x08,0x00,0x08,0x48,0x08,0x00,0x08,0x5A,0x08,0x00,0x08,0x6C,0x08,0x00,0x08,0x7E,0x08,0x00,0x04,0x90,0x08,0x00,0x08,0xA2,0x08,0x00,0x08
-,0xB4,0x08,0x00,0x03,0xC6,0x08,0x00,0x03,0xD8,0x08,0x00,0x08,0xEA,0x08,0x00,0x03,0xFC,0x08,0x00,0x0D,0x0E,0x09,0x00,0x08,0x32,0x09,0x00,0x09,0x44,0x09,0x00,0x08,0x68
-,0x09,0x00,0x08,0x7A,0x09,0x00,0x05,0x8C,0x09,0x00,0x08,0x9E,0x09,0x00,0x04,0xB0,0x09,0x00,0x08,0xC2,0x09,0x00,0x07,0xD4,0x09,0x00,0x0B,0xE6,0x09,0x00,0x07,0x0A,0x0A
-,0x00,0x07,0x1C,0x0A,0x00,0x08,0x2E,0x0A,0x00,0x05,0x40,0x0A,0x00,0x05,0x52,0x0A,0x00,0x05,0x64,0x0A,0x00,0x09,0x76,0x0A,0x00,0x04,0x9A,0x0A,0x00,0x00,0x00,0x00,0x00
-,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x02,0x02,0x02,0x02,0x02,0x02,0x02,0x02,0x02,0x00,0x02,0x00,0x00,0x00,0x00,0x00
-,0x00,0x00,0x12,0x12,0x12,0x12,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x48,0x48,0x48,0xFE,0x24,0x24,0x24,0x7F,0x12,0x12,0x12,0x00,0x00
-,0x00,0x00,0x00,0x00,0x10,0x3C,0x52,0x52,0x12,0x12,0x3C,0x48,0x48,0x4A,0x4A,0x3C,0x08,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x1C,0x02,0x22,0x01,0x22,0x01,0xA2
-,0x00,0xA2,0x00,0x5C,0x07,0xA0,0x08,0xA0,0x08,0x90,0x08,0x90,0x08,0x08,0x07,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x38,0x00,0x44,0x00
-,0x44,0x00,0x44,0x00,0x38,0x00,0x14,0x00,0x22,0x01,0x42,0x01,0x82,0x00,0xC2,0x00,0x3C,0x01,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x02,0x02,0x02,0x02
-,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x10,0x08,0x04,0x04,0x02,0x02,0x02,0x02,0x02,0x02,0x04,0x04,0x08,0x10,0x00,0x00,0x00,0x00,0x01
-,0x02,0x04,0x04,0x08,0x08,0x08,0x08,0x08,0x08,0x04,0x04,0x02,0x01,0x00,0x00,0x00,0x00,0x04,0x15,0x0E,0x0A,0x0A,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00
-,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x10,0x00,0x10,0x00,0x10,0x00,0xFE,0x00,0x10,0x00,0x10,0x00,0x10,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00
-,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x04,0x04,0x04,0x02,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x0F,0x00,0x00,0x00
-,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x02,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x08,0x08,0x04,0x04,0x04,0x02,0x02
-,0x02,0x01,0x01,0x01,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x3C,0x42,0x42,0x42,0x42,0x42,0x42,0x42,0x42,0x42,0x3C,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x10,0x1C,0x10,0x10
-,0x10,0x10,0x10,0x10,0x10,0x10,0x10,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x3C,0x42,0x42,0x40,0x40,0x20,0x10,0x08,0x04,0x02,0x7E,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x3C
-,0x42,0x42,0x40,0x40,0x38,0x40,0x40,0x42,0x42,0x3C,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x20,0x30,0x30,0x28,0x24,0x24,0x22,0x7E,0x20,0x20,0x20,0x00,0x00,0x00,0x00,0x00
-,0x00,0x00,0x7E,0x02,0x02,0x02,0x3E,0x42,0x40,0x40,0x42,0x22,0x3C,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x3C,0x44,0x42,0x02,0x3A,0x46,0x42,0x42,0x42,0x42,0x3C,0x00,0x00
-,0x00,0x00,0x00,0x00,0x00,0x7E,0x40,0x40,0x20,0x20,0x10,0x10,0x08,0x08,0x08,0x04,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x3C,0x42,0x42,0x42,0x42,0x3C,0x42,0x42,0x42,0x42
-,0x3C,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x3C,0x42,0x42,0x42,0x42,0x62,0x5C,0x40,0x42,0x42,0x3C,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x02,0x00,0x00,0x00
-,0x00,0x00,0x00,0x02,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x04,0x00,0x00,0x00,0x00,0x00,0x00,0x04,0x04,0x04,0x02,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00
-,0x00,0x00,0x00,0xC0,0x00,0x30,0x00,0x0C,0x00,0x02,0x00,0x0C,0x00,0x30,0x00,0xC0,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00
-,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0xFE,0x00,0x00,0x00,0x00,0x00,0xFE,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00
-,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x06,0x00,0x18,0x00,0x60,0x00,0x80,0x00,0x60,0x00,0x18,0x00,0x06,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00
-,0x00,0x00,0x00,0x00,0x00,0x3C,0x42,0x42,0x40,0x20,0x10,0x10,0x10,0x00,0x00,0x10,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0xC0,0x03,0x30,0x0C,0x08,0x10,0xC4
-,0x17,0x64,0x24,0x22,0x24,0x12,0x24,0x12,0x22,0x12,0x22,0x12,0x13,0xE4,0x0E,0x04,0x00,0x18,0x08,0xE0,0x07,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x10,0x00,0x10,0x00
-,0x28,0x00,0x28,0x00,0x44,0x00,0x44,0x00,0x7C,0x00,0x82,0x00,0x82,0x00,0x01,0x01,0x01,0x01,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x7E
-,0x00,0x82,0x00,0x02,0x01,0x02,0x01,0x82,0x00,0x7E,0x00,0x82,0x00,0x02,0x01,0x02,0x01,0x82,0x00,0x7E,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00
-,0x00,0x00,0xF0,0x00,0x0C,0x03,0x04,0x02,0x02,0x04,0x02,0x00,0x02,0x00,0x02,0x00,0x02,0x04,0x04,0x02,0x0C,0x03,0xF0,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00
-,0x00,0x00,0x00,0x00,0x00,0x7E,0x00,0x82,0x01,0x02,0x01,0x02,0x02,0x02,0x02,0x02,0x02,0x02,0x02,0x02,0x02,0x02,0x01,0x82,0x01,0x7E,0x00,0x00,0x00,0x00,0x00,0x00,0x00
-,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0xFE,0x01,0x02,0x00,0x02,0x00,0x02,0x00,0x02,0x00,0xFE,0x00,0x02,0x00,0x02,0x00,0x02,0x00,0x02,0x00,0xFE,0x01,0x00,0x00,0x00
-,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0xFE,0x01,0x02,0x00,0x02,0x00,0x02,0x00,0x02,0x00,0xFE,0x00,0x02,0x00,0x02,0x00,0x02,0x00,0x02,0x00,0x02,0x00
-,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0xF0,0x01,0x0C,0x02,0x04,0x04,0x02,0x00,0x02,0x00,0x82,0x07,0x02,0x04,0x02,0x04,0x04,0x04,0x0C
-,0x06,0xF0,0x05,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x02,0x02,0x02,0x02,0x02,0x02,0x02,0x02,0x02,0x02,0xFE,0x03,0x02,0x02,0x02,0x02
-,0x02,0x02,0x02,0x02,0x02,0x02,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x02,0x02,0x02,0x02,0x02,0x02,0x02,0x02,0x02,0x02,0x02,0x00,0x00,0x00,0x00,0x00
-,0x00,0x00,0x40,0x40,0x40,0x40,0x40,0x40,0x40,0x40,0x42,0x42,0x3C,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x02,0x01,0x82,0x00,0x42,0x00,0x22,0x00,0x12,0x00
-,0x1A,0x00,0x26,0x00,0x42,0x00,0x82,0x00,0x02,0x01,0x02,0x02,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x02,0x02,0x02,0x02,0x02,0x02,0x02,0x02,0x02,0x02
-,0xFE,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x02,0x08,0x02,0x08,0x06,0x0C,0x0A,0x0A,0x0A,0x0A,0x12,0x09,0x12,0x09,0xA2,0x08,0xA2,0x08,0x42,0x08,0x42,0x08
-,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x02,0x02,0x06,0x02,0x0A,0x02,0x12,0x02,0x12,0x02,0x22,0x02,0x42,0x02,0x42,0x02,0x82,0x02,0x02
-,0x03,0x02,0x02,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0xF0,0x00,0x0C,0x03,0x04,0x02,0x02,0x04,0x02,0x04,0x02,0x04,0x02,0x04,0x02,0x04
-,0x04,0x02,0x0C,0x03,0xF0,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0xFE,0x00,0x02,0x01,0x02,0x02,0x02,0x02,0x02,0x02,0x02,0x01,0xFE
-,0x00,0x02,0x00,0x02,0x00,0x02,0x00,0x02,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0xF0,0x00,0x0C,0x03,0x04,0x02,0x02,0x04,0x02,0x04
-,0x02,0x04,0x02,0x04,0x42,0x04,0x84,0x02,0x0C,0x03,0xF0,0x02,0x00,0x04,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x7E,0x00,0x82,0x00,0x02,0x01,0x02
-,0x01,0x82,0x00,0xFE,0x00,0x82,0x00,0x02,0x01,0x02,0x01,0x02,0x01,0x02,0x02,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x78,0x00,0x84,0x00
-,0x02,0x01,0x02,0x00,0x04,0x00,0x78,0x00,0x80,0x00,0x00,0x01,0x02,0x01,0x84,0x00,0x78,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0xFF
-,0x01,0x10,0x00,0x10,0x00,0x10,0x00,0x10,0x00,0x10,0x00,0x10,0x00,0x10,0x00,0x10,0x00,0x10,0x00,0x10,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00
-,0x00,0x00,0x02,0x02,0x02,0x02,0x02,0x02,0x02,0x02,0x02,0x02,0x02,0x02,0x02,0x02,0x02,0x02,0x02,0x02,0x04,0x01,0xF8,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00
-,0x00,0x00,0x00,0x00,0x00,0x01,0x01,0x01,0x01,0x82,0x00,0x82,0x00,0x44,0x00,0x44,0x00,0x44,0x00,0x28,0x00,0x28,0x00,0x10,0x00,0x10,0x00,0x00,0x00,0x00,0x00,0x00,0x00
-,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x81,0x40,0x81,0x40,0x41,0x41,0x42,0x21,0x22,0x22,0x22,0x22,0x14,0x14,0x14,0x14,0x08,0x08,0x08,0x08,0x08,0x08,0x00,0x00,0x00
-,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x01,0x02,0x02,0x01,0x84,0x00,0x48,0x00,0x30,0x00,0x30,0x00,0x30,0x00,0x48,0x00,0x84,0x00,0x02,0x01,0x01,0x02
-,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x01,0x01,0x01,0x01,0x82,0x00,0x44,0x00,0x28,0x00,0x10,0x00,0x10,0x00,0x10,0x00,0x10,0x00,0x10
-,0x00,0x10,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0xFE,0x00,0x80,0x00,0x40,0x00,0x20,0x00,0x20,0x00,0x10,0x00,0x08,0x00,0x08,0x00
-,0x04,0x00,0x02,0x00,0xFE,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x0E,0x02,0x02,0x02,0x02,0x02,0x02,0x02,0x02,0x02,0x02,0x02,0x02,0x0E,0x00,0x00
-,0x00,0x00,0x01,0x01,0x02,0x02,0x02,0x04,0x04,0x04,0x08,0x08,0x08,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x07,0x04,0x04,0x04,0x04,0x04,0x04,0x04,0x04,0x04,0x04,0x04,0x04
-,0x07,0x00,0x00,0x00,0x00,0x08,0x14,0x22,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00
-,0x00,0x00,0x00,0xFF,0x00,0x00,0x00,0x00,0x02,0x04,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x3C,0x42,0x40,0x7C
-,0x42,0x42,0x42,0xBC,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x02,0x02,0x02,0x3A,0x66,0x42,0x42,0x42,0x42,0x46,0x3A,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x78
-,0x44,0x82,0x02,0x02,0x82,0x44,0x38,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x40,0x40,0x40,0x5C,0x62,0x42,0x42,0x42,0x42,0x66,0x5C,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00
-,0x00,0x00,0x18,0x24,0x42,0x7E,0x02,0x42,0x24,0x18,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x0C,0x02,0x02,0x07,0x02,0x02,0x02,0x02,0x02,0x02,0x02,0x00,0x00,0x00,0x00,0x00
-,0x00,0x00,0x00,0x00,0x00,0x5C,0x62,0x42,0x42,0x42,0x42,0x66,0x5C,0x40,0x40,0x3C,0x00,0x00,0x00,0x00,0x02,0x02,0x02,0x3A,0x46,0x42,0x42,0x42,0x42,0x42,0x42,0x00,0x00
-,0x00,0x00,0x00,0x00,0x00,0x02,0x00,0x00,0x02,0x02,0x02,0x02,0x02,0x02,0x02,0x02,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x02,0x00,0x00,0x02,0x02,0x02,0x02,0x02,0x02,0x02
-,0x02,0x02,0x02,0x01,0x00,0x00,0x00,0x00,0x02,0x02,0x02,0x42,0x22,0x12,0x0A,0x16,0x22,0x42,0x82,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x02,0x02,0x02,0x02,0x02,0x02,0x02
-,0x02,0x02,0x02,0x02,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x3A,0x07,0xC6,0x08,0x42,0x08,0x42,0x08,0x42,0x08,0x42,0x08,0x42
-,0x08,0x42,0x08,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x3A,0x46,0x42,0x42,0x42,0x42,0x42,0x42,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00
-,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x38,0x00,0x44,0x00,0x82,0x00,0x82,0x00,0x82,0x00,0x82,0x00,0x44,0x00,0x38,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00
-,0x00,0x00,0x00,0x00,0x00,0x3A,0x66,0x42,0x42,0x42,0x42,0x46,0x3A,0x02,0x02,0x02,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x5C,0x62,0x42,0x42,0x42,0x42,0x66,0x5C,0x40,0x40
-,0x40,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x1A,0x06,0x02,0x02,0x02,0x02,0x02,0x02,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x3C,0x42,0x02,0x0C,0x30,0x40,0x42
-,0x3C,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x02,0x02,0x07,0x02,0x02,0x02,0x02,0x02,0x02,0x04,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x42,0x42,0x42,0x42
-,0x42,0x42,0x62,0x5C,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x41,0x41,0x22,0x22,0x14,0x14,0x08,0x08,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00
-,0x00,0x00,0x00,0x00,0x00,0x21,0x04,0x21,0x04,0x52,0x02,0x52,0x02,0x52,0x02,0x8C,0x01,0x04,0x01,0x04,0x01,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00
-,0x00,0x00,0x41,0x22,0x14,0x08,0x08,0x14,0x22,0x41,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x41,0x41,0x22,0x22,0x14,0x14,0x08,0x08,0x08,0x04,0x03,0x00,0x00
-,0x00,0x00,0x00,0x00,0x00,0x7E,0x40,0x20,0x10,0x08,0x04,0x02,0x7E,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x18,0x04,0x04,0x04,0x04,0x04,0x03,0x04,0x04,0x04,0x04,0x04,0x04
-,0x18,0x00,0x00,0x00,0x00,0x04,0x04,0x04,0x04,0x04,0x04,0x04,0x04,0x04,0x04,0x04,0x04,0x04,0x04,0x00,0x00,0x00,0x00,0x03,0x04,0x04,0x04,0x04,0x04,0x18,0x04,0x04,0x04
-,0x04,0x04,0x04,0x03,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x8C,0x00,0x92,0x00,0x62,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00
-,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x0F,0x09,0x09,0x09,0x09,0x09,0x09,0x09,0x09,0x09,0x0F,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00
-};
-// MicrosoftSansSerifRegular11 - Size: 2736 bytes - End of VGDD_FLASH Font definition
-
-// HobbitonBrushhandRegular20: Charset: RANGE from 32( ) to 127() - Size: 11204 bytes - VGDD_FLASH Font definition
-const char LHobbitonBrushhandRegular20[] __attribute__((aligned(2))) = {
- 0x00,0x00,0x20,0x00,0x7F,0x00,0x38,0x00,0x0B,0x88,0x01,0x00,0x06,0xF8,0x01,0x00,0x06,0x30,0x02,0x00,0x10,0x68,0x02,0x00,0x0C,0xD8,0x02,0x00,0x0C,0x48,0x03,0x00,0x0D
-,0xB8,0x03,0x00,0x03,0x28,0x04,0x00,0x06,0x60,0x04,0x00,0x06,0x98,0x04,0x00,0x08,0xD0,0x04,0x00,0x0E,0x08,0x05,0x00,0x0B,0x78,0x05,0x00,0x08,0xE8,0x05,0x00,0x09,0x20
-,0x06,0x00,0x0E,0x90,0x06,0x00,0x0E,0x00,0x07,0x00,0x07,0x70,0x07,0x00,0x0D,0xA8,0x07,0x00,0x0E,0x18,0x08,0x00,0x0F,0x88,0x08,0x00,0x0E,0xF8,0x08,0x00,0x0E,0x68,0x09
-,0x00,0x0C,0xD8,0x09,0x00,0x0E,0x48,0x0A,0x00,0x0D,0xB8,0x0A,0x00,0x04,0x28,0x0B,0x00,0x04,0x60,0x0B,0x00,0x0E,0x98,0x0B,0x00,0x0E,0x08,0x0C,0x00,0x0E,0x78,0x0C,0x00
-,0x0A,0xE8,0x0C,0x00,0x10,0x58,0x0D,0x00,0x10,0xC8,0x0D,0x00,0x10,0x38,0x0E,0x00,0x0F,0xA8,0x0E,0x00,0x0E,0x18,0x0F,0x00,0x11,0x88,0x0F,0x00,0x10,0x30,0x10,0x00,0x11
-,0xA0,0x10,0x00,0x11,0x48,0x11,0x00,0x0F,0xF0,0x11,0x00,0x09,0x60,0x12,0x00,0x11,0xD0,0x12,0x00,0x09,0x78,0x13,0x00,0x1C,0xE8,0x13,0x00,0x11,0xC8,0x14,0x00,0x11,0x70
-,0x15,0x00,0x0E,0x18,0x16,0x00,0x10,0x88,0x16,0x00,0x0D,0xF8,0x16,0x00,0x0D,0x68,0x17,0x00,0x11,0xD8,0x17,0x00,0x10,0x80,0x18,0x00,0x0E,0xF0,0x18,0x00,0x15,0x60,0x19
-,0x00,0x12,0x08,0x1A,0x00,0x12,0xB0,0x1A,0x00,0x14,0x58,0x1B,0x00,0x0E,0x00,0x1C,0x00,0x0E,0x70,0x1C,0x00,0x0E,0xE0,0x1C,0x00,0x0E,0x50,0x1D,0x00,0x0F,0xC0,0x1D,0x00
-,0x0E,0x30,0x1E,0x00,0x0B,0xA0,0x1E,0x00,0x0B,0x10,0x1F,0x00,0x0B,0x80,0x1F,0x00,0x0A,0xF0,0x1F,0x00,0x0B,0x60,0x20,0x00,0x07,0xD0,0x20,0x00,0x0B,0x08,0x21,0x00,0x0C
-,0x78,0x21,0x00,0x08,0xE8,0x21,0x00,0x06,0x20,0x22,0x00,0x0B,0x58,0x22,0x00,0x07,0xC8,0x22,0x00,0x11,0x00,0x23,0x00,0x0D,0xA8,0x23,0x00,0x0C,0x18,0x24,0x00,0x0C,0x88
-,0x24,0x00,0x0B,0xF8,0x24,0x00,0x0B,0x68,0x25,0x00,0x09,0xD8,0x25,0x00,0x0B,0x48,0x26,0x00,0x0B,0xB8,0x26,0x00,0x0C,0x28,0x27,0x00,0x11,0x98,0x27,0x00,0x0E,0x40,0x28
-,0x00,0x0C,0xB0,0x28,0x00,0x0C,0x20,0x29,0x00,0x0E,0x90,0x29,0x00,0x0E,0x00,0x2A,0x00,0x0E,0x70,0x2A,0x00,0x0A,0xE0,0x2A,0x00,0x0E,0x50,0x2B,0x00,0x00,0x00,0x00,0x00
-,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00
-,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00
-,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00
-,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x30,0x3C,0x38,0x18,0x18,0x18,0x18,0x08,0x0C,0x0C,0x1A
-,0x1C,0x00,0x00,0x16,0x36,0x18,0x04,0x06,0x02,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00
-,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x1C,0x1E,0x1B,0x1B,0x19,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00
-,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00
-,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x40,0x00,0x40,0x00,0x22,0x00,0x22,0x00,0x33,0x00,0x33,0x00,0x31,0x00,0xF1
-,0x80,0x1F,0xC0,0x1B,0xF0,0x78,0x58,0x0C,0xC4,0x0B,0x60,0x0C,0x38,0x0C,0x26,0x04,0x11,0x04,0x10,0x04,0x10,0x02,0x08,0x02,0x08,0x02,0x08,0x02,0x00,0x01,0x00,0x01,0x00
-,0x01,0x00,0x01,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00
-,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0xA0,0x00,0xF0,0x00,0xF0,0x00,0xF0,0x00,0xF0
-,0x01,0x08,0x03,0x04,0x00,0x04,0x00,0x06,0x00,0x0C,0x00,0xFA,0x01,0x84,0x07,0x00,0x07,0x00,0x05,0x07,0x06,0xFE,0x07,0xF8,0x01,0xD0,0x00,0xF8,0x00,0xD8,0x00,0x38,0x00
-,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00
-,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00
-,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x04,0x00,0x02,0x08,0x03,0x3C,0x01,0x92,0x01,0x91,0x00,0x4B,0x00,0x40,0x00,0x20,0x00,0x30,0x00,0x10,0x04,0x18,0x0B,0x88,0x08,0x44
-,0x04,0x44,0x04,0x66,0x03,0xC6,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00
-,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00
-,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0xC0,0x01,0xE0,0x01
-,0xD0,0x00,0x90,0x00,0x58,0x00,0x58,0x08,0x38,0x18,0x30,0x04,0x38,0x02,0x64,0x01,0xE6,0x00,0xC6,0x01,0xA7,0x03,0x1F,0x07,0x07,0x1E,0x00,0x1C,0x00,0x18,0x00,0x10,0x00
-,0x10,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00
-,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00
-,0x00,0x00,0x06,0x07,0x07,0x02,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00
-,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x20,0x10,0x08,0x0C,0x0C,0x04,0x06,0x06,0x06,0x02,0x03,0x03,0x03,0x03,0x07,0x06,0x06,0x06,0x02,0x00,0x00
-,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x0C,0x1E,0x1E,0x1C,0x3C,0x38,0x38,0x38,0x30,0x30,0x30
-,0x10,0x18,0x18,0x08,0x0C,0x04,0x02,0x01,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00
-,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00
-,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x10,0x38,0x18,0xC0,0xE0,0x66,0x07,0x02,0x00,0x00,0x00,0x00,0x00,0x00
-,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00
-,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00
-,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00
-,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00
-,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00
-,0x00,0x00,0x00,0x00,0x00,0x00,0x18,0x00,0x1C,0x00,0x1C,0x00,0x08,0x00,0x04,0x00,0x04,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00
-,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00
-,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x7F,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00
-,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00
-,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00
-,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x10,0x00,0x38,0x00,0x38,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00
-,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00
-,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00
-,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00
-,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00
-,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00
-,0x00,0x00,0x00,0x00,0x00,0xC0,0x01,0xB0,0x07,0x08,0x0E,0x04,0x1C,0x02,0x18,0x02,0x38,0x83,0x38,0xC3,0x30,0x43,0x30,0x03,0x33,0xA7,0x33,0x37,0x31,0x37,0x30,0x07,0x30
-,0x0E,0x10,0x0E,0x18,0x1C,0x0C,0x78,0x02,0xE0,0x01,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00
-,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00
-,0x00,0x00,0x00,0x00,0x10,0x38,0x38,0x34,0x33,0x30,0x30,0x20,0x20,0x20,0x20,0x20,0x20,0x20,0x20,0x20,0x20,0x20,0x20,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00
-,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00
-,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x80,0x01,0xE0,0x03,0xD0,0x03,0x88,0x07,0x84,0x07,0x80,0x03,0x80,0x03,0x80,0x03,0x80,0x01,0x80,0x00,0xC0,0x00,0x40,0x00,0x60
-,0x00,0x20,0x00,0x10,0x00,0x08,0x00,0xFC,0x00,0x82,0x03,0x01,0x06,0x00,0x1C,0x00,0x18,0x00,0x10,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00
-,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00
-,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x07,0xC0,0x0F,0x20,0x0E,0x10,0x0C,0x00,0x0C
-,0x00,0x0C,0x00,0x06,0x00,0x0F,0xE0,0x1E,0x00,0x3C,0x00,0x38,0x00,0x30,0x00,0x30,0xF0,0x13,0xFC,0x17,0x02,0x0F,0x00,0x06,0x00,0x02,0x00,0x00,0x00,0x00,0x00,0x00,0x00
-,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00
-,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00
-,0x00,0x00,0x00,0x00,0x07,0x00,0x07,0x80,0x07,0x80,0x07,0xC0,0x06,0x40,0x06,0x20,0x06,0x30,0x06,0x10,0x06,0x10,0x06,0x08,0x46,0x0C,0x76,0x84,0x7F,0x7E,0x06,0x03,0x07
-,0x00,0x07,0x00,0x07,0x00,0x07,0x00,0x07,0x00,0x07,0x00,0x01,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00
-,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00
-,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x02,0x00,0x0F,0x80,0x01,0x60,0x00,0x18,0x00,0x1C,0x00,0x1C,0x00,0x8C,0x07,0xEC,0x0F,0x1E,0x0E,0x06,0x1C,0x60
-,0x1C,0x60,0x18,0x20,0x19,0xB0,0x19,0x30,0x18,0x12,0x08,0x07,0x0C,0x06,0x04,0xFC,0x03,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00
-,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00
-,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x04,0x00,0x02,0x80,0x01,0xC0,0x00,0xC0,0x00,0x60,0x00
-,0x30,0x00,0x38,0x00,0x18,0x00,0x1C,0x00,0x0C,0x00,0x0E,0x00,0x06,0x1F,0x86,0x3F,0x66,0x38,0x17,0x30,0x1F,0x30,0x0F,0x30,0x0F,0x08,0x1E,0x0C,0x3E,0x03,0xF8,0x00,0x00
-,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00
-,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00
-,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x0E,0x0E,0xF7,0x07,0x80,0x07,0x80,0x03,0xC0,0x03,0xC0,0x01,0xC0,0x00,0xC0,0x00,0xE0,0x00,0x60,0x00,0x60,0x00,0x60,0x00
-,0x20,0x00,0x30,0x00,0x10,0x00,0x10,0x00,0x10,0x00,0x10,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00
-,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00
-,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0xC0,0x03,0x30,0x06,0x08,0x0E,0x0C,0x0E,0x0E,0x06,0x0C
-,0x06,0x1C,0x01,0xFC,0x03,0x18,0x1F,0x0C,0x3C,0xCC,0x38,0xC6,0x38,0x06,0x3B,0x67,0x1B,0x37,0x08,0x0F,0x04,0xBE,0x03,0x7E,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00
-,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00
-,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00
-,0xC0,0x01,0xB0,0x0F,0x0C,0x0E,0x06,0x1E,0x06,0x1C,0x07,0x1C,0x07,0x1C,0x0F,0x1E,0xFD,0x0F,0x02,0x0E,0x00,0x0E,0x00,0x0E,0x00,0x0F,0x00,0x07,0x00,0x07,0x00,0x07,0x00
-,0x07,0x00,0x07,0x00,0x07,0x00,0x07,0x00,0x07,0x00,0x07,0x00,0x06,0x00,0x06,0x00,0x04,0x00,0x0C,0x00,0x08,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00
-,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00
-,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x04,0x04,0x06,0x06,0x02,0x00,0x00,0x06,0x07,0x03,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00
-,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x04,0x06,0x06
-,0x02,0x00,0x00,0x04,0x07,0x06,0x02,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00
-,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00
-,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00
-,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00
-,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00
-,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00
-,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00
-,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00
-,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00
-,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00
-,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00
-,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0xF8,0x00,0xFC
-,0x01,0xC2,0x03,0x81,0x03,0x80,0x01,0x80,0x00,0x40,0x00,0x20,0x00,0x10,0x00,0x08,0x00,0x08,0x00,0x2C,0x00,0x1C,0x00,0x08,0x00,0x00,0x00,0x34,0x00,0x16,0x00,0x02,0x00
-,0x08,0x00,0x04,0x00,0x02,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00
-,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00
-,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00
-,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x1F,0xC0,0x3D,0x60,0xE2,0x20,0x80,0x10,0x80,0x08,0x80,0x0C,0x43,0xC4,0x46,0x46,0x26,0x22,0x16,0x63,0x0D
-,0xE3,0x04,0x63,0x00,0x06,0x00,0x0E,0x40,0x0C,0x30,0x18,0x08,0x30,0x04,0xF0,0x03,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00
-,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x40,0x00,0xE0,0x00,0x40,0x03,0x00,0x03,0x60,0x00,0x30,0x00,0x00,0x00,0x40,0x01,0xC0,0x01,0xA0,0x03
-,0x90,0x03,0xC8,0x03,0x40,0x07,0x40,0x07,0x40,0x06,0x20,0x0E,0x20,0x0E,0x10,0x1C,0xD0,0x1F,0x78,0x3E,0x08,0x38,0x04,0x38,0x04,0x70,0x02,0x70,0x02,0xE0,0x05,0xE0,0x00
-,0xE0,0x00,0x60,0x00,0x10,0x00,0x0C,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00
-,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00
-,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0xC0,0x07,0xFF,0x0F,0x07,0x1E,0x07,0x1C,0x0F,0x18,0x3F,0x18,0x77,0x08,0xC7,0x07,0x06,0x1F,0x06,0x3C,0x06,0x78,0x06,0x70,0x06,0x70
-,0x06,0x70,0x0E,0x70,0x1E,0x70,0x7F,0x30,0xCF,0x0F,0x03,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00
-,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00
-,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x40,0x00,0x4E,0x80,0x6D,0x60,0x30,0x10,0x10,0x0C,0x00,0x0C,0x00,0x06
-,0x00,0x06,0x00,0x06,0x00,0x07,0x00,0x07,0x00,0x07,0x00,0x0E,0x40,0x0E,0x20,0x1E,0x20,0x3C,0x18,0xF8,0x07,0xF0,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00
-,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00
-,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00
-,0xE0,0x07,0x1F,0x0E,0x07,0x1C,0x06,0x38,0x06,0x38,0x06,0x38,0x06,0x30,0x06,0x30,0x06,0x30,0x06,0x30,0x06,0x10,0x06,0x08,0x06,0x0C,0x06,0x06,0x06,0x03,0x86,0x01,0x46
-,0x00,0x3E,0x00,0x0E,0x00,0x06,0x00,0x02,0x00,0x01,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00
-,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00
-,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0xE0,0x3F,0x01,0x18,0xB0
-,0x00,0x0C,0xE0,0x00,0x0C,0x40,0x00,0x0E,0x00,0x00,0x07,0x00,0x00,0x07,0x00,0x00,0x07,0x30,0x00,0xFF,0x0F,0x00,0x07,0x00,0x00,0x07,0x00,0x00,0x07,0x00,0x01,0x0E,0x80
-,0x00,0x0E,0x40,0x00,0x1C,0x20,0x00,0x7C,0x10,0x00,0xF8,0x0F,0x00,0xC0,0x01,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00
-,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00
-,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00
-,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0xE0,0xFF,0xFC,0x7C,0x23,0x00,0x10,0x00,0x18,0x00,0x0C,0x00,0x0C,0x00,0x0E,0x38,0xFE
-,0x07,0x06,0x00,0x06,0x00,0x0F,0x00,0x0E,0x00,0x0E,0x00,0x1E,0x00,0x7C,0x00,0xF8,0x17,0xE0,0x0F,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00
-,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00
-,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00
-,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0xC0,0x07,0x01,0x30,0xB8,0x00,0x28,0xD0,0x00,0x0C,0x60,0x00,0x04,0x40,0x00,0x06,0x00,0x00,0x06,0x00,0x00,0x07,0x00,0x00,0x07
-,0x80,0x00,0x07,0xC0,0x00,0x07,0xE0,0x00,0x0F,0xF0,0x00,0x0E,0xE8,0x00,0x1E,0xE0,0x00,0x3C,0xF0,0x00,0xF0,0xEF,0x00,0xE0,0xE1,0x01,0x00,0xC0,0x01,0x00,0xC0,0x01,0x00
-,0xC0,0x01,0x00,0xC0,0x01,0x00,0xC0,0x01,0xF8,0xC7,0x01,0x86,0xFF,0x00,0x01,0x78,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00
-,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00
-,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00
-,0x18,0x00,0x00,0x0F,0x00,0xE0,0x07,0x00,0x18,0x03,0x00,0x84,0x00,0x00,0x60,0x00,0x00,0x20,0x3F,0x00,0xF0,0x7F,0x00,0x18,0xF8,0x00,0x1C,0xF0,0x00,0x0C,0xE0,0x00,0x0E
-,0xE0,0x00,0x0E,0xC0,0x01,0x0E,0xC0,0x01,0x0E,0xC0,0x00,0x0F,0xC0,0x00,0x0E,0xE0,0x00,0x0E,0xE0,0x00,0x1E,0xE0,0x00,0x1E,0x60,0x00,0x7C,0x70,0x00,0xF8,0x31,0x00,0x00
-,0x38,0x00,0x00,0x18,0x00,0x00,0x1C,0x00,0x00,0x0C,0x00,0x00,0x06,0x00,0x00,0x02,0x00,0x00,0x03,0x00,0x80,0xFF,0x00,0xC0,0x1E,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00
-,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00
-,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x80,0x03,0x20,0x01,0xB0,0x00
-,0xC0,0x01,0x80,0x00,0x00,0x00,0xF0,0x07,0xFE,0x00,0x61,0x00,0x30,0x00,0x18,0x00,0x0C,0x00,0x06,0x00,0x06,0x00,0x06,0x00,0x07,0x00,0x07,0x00,0x0F,0x00,0x1E,0x40,0xFE
-,0x3C,0xFC,0x0F,0xF0,0x01,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00
-,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00
-,0x00,0x00,0x00,0x00,0x00,0xC0,0x00,0xCC,0x00,0x1C,0x00,0x60,0x00,0xE0,0x00,0x00,0x00,0x88,0x00,0xF8,0x01,0xFF,0x00,0xE4,0x00,0xE0,0x00,0xE0,0x00,0x60,0x00,0x60,0x00
-,0xE0,0x00,0xE0,0x00,0xE0,0x00,0xE0,0x00,0xE0,0x00,0xE0,0x00,0xC0,0x01,0xC0,0x01,0xC0,0x01,0xC0,0x00,0xC1,0x00,0xFF,0x00,0x3F,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00
-,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00
-,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00
-,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x80,0x00,0x00,0x40,0x00,0x38,0x70,0x00,0x1C,0x20,0x00,0x1E,0x30,0x00,0x19,0x10,0x00,0x18,0x08,0x00,0x18,0x06
-,0x00,0xF8,0x01,0x00,0xF8,0x01,0x00,0x98,0x03,0x00,0x18,0x07,0x00,0x1C,0x0C,0x00,0x18,0x1C,0x00,0x18,0x38,0x00,0x18,0x70,0x00,0x18,0xE0,0x00,0x08,0xC0,0x01,0x00,0x80
-,0x01,0x00,0x00,0x01,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00
-,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00
-,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x08,0x00
-,0x0F,0x00,0x0E,0x00,0x0C,0x00,0x0C,0x00,0x0E,0x00,0x0E,0x00,0x0E,0x00,0x0E,0x00,0x0E,0x00,0x0E,0x00,0x06,0x00,0x0E,0x00,0x06,0x00,0x06,0x00,0x06,0x00,0x07,0x00,0x07
-,0x00,0xF7,0x01,0xFF,0x01,0x01,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00
-,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00
-,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00
-,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x20,0x80,0x02,0x60,0x7C,0xE0,0x07,0x38,0xFF,0xF8,0x07,0xBC,0xF1,0x04,0x0F,0x5E,0xE0,0x03,0x0F,0x39
-,0xE0,0x01,0x0E,0x18,0xC0,0x01,0x0E,0x0C,0xC0,0x01,0x0E,0x0C,0xC0,0x01,0x0E,0x0C,0xC0,0x00,0x0E,0x0C,0xC0,0x00,0x0E,0x0C,0xC0,0x00,0x0E,0x1C,0x40,0x00,0x07,0x1C,0x40
-,0x00,0x07,0x3C,0x40,0x00,0x07,0x78,0x20,0x80,0x03,0xF0,0x10,0x80,0x01,0x00,0x00,0xC0,0x01,0x00,0x00,0xC0,0x00,0x00,0x00,0x60,0x00,0x00,0x00,0x70,0x00,0x00,0x00,0x30
-,0x00,0x00,0x00,0x18,0x00,0x00,0x00,0x04,0x00,0x00,0x00,0x02,0x00,0x00,0x00,0x01,0x00,0x00,0xC0,0x00,0x00,0x00,0x30,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00
-,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00
-,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00
-,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x18,0x1F,0x00,0x8E,0x3F,0x00,0x6D,0x7C
-,0x00,0x1C,0x70,0x00,0x0E,0xF0,0x00,0x06,0xE0,0x00,0x06,0xE0,0x00,0x06,0xC0,0x00,0x06,0xC0,0x00,0x06,0xC0,0x00,0x06,0xC0,0x00,0x0E,0xC0,0x00,0x0E,0x60,0x00,0x1D,0x60
-,0x00,0x3E,0x20,0x00,0x08,0x20,0x00,0x00,0x30,0x00,0x00,0x10,0x00,0x00,0x10,0x00,0x00,0x08,0x00,0x00,0x04,0x00,0x00,0x04,0x00,0x00,0x02,0x00,0x00,0x01,0x00,0x80,0x00
-,0x00,0x40,0x00,0x00,0x20,0x00,0x00,0x10,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00
-,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00
-,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0xC0,0x1F,0x00,0x30,0x7E,0x00,0x08,0xF8
-,0x00,0x04,0xF0,0x00,0x84,0xE1,0x01,0xC6,0xC1,0x00,0xC6,0xC3,0x01,0x02,0xCC,0x01,0xC3,0xCE,0x01,0x67,0xC6,0x00,0x27,0xC0,0x00,0x07,0x40,0x00,0x0F,0x20,0x00,0x3E,0x10
-,0x00,0xFE,0x0F,0x00,0xF8,0x03,0x00,0xE0,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00
-,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00
-,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00
-,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x20,0x00,0xDC,0x1F,0x3E,0x3E,0x09,0x38,0x0C,0x38,0x04,0x38,0x06,0x30,0x06,0x18,0x06,0x08,0x06,0x0C,0x0F,0x02,0xF6
-,0x01,0x06,0x00,0x0E,0x00,0x1E,0x00,0xFC,0x03,0x7C,0x00,0x0C,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00
-,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00
-,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x80,0x03,0xE0,0x0F,0x10,0x1F,0x08,0x38
-,0x04,0x38,0x82,0x70,0x82,0x61,0x82,0x61,0x23,0x60,0x67,0x61,0x27,0x63,0x07,0x30,0x0E,0x10,0x3E,0x0C,0xFC,0x03,0xE0,0x0F,0x10,0x3C,0x00,0xF0,0x00,0xC0,0x00,0x80,0x00
-,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00
-,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00
-,0x00,0x00,0x00,0x08,0x00,0x8C,0x0F,0xEF,0x1F,0x1E,0x1E,0x04,0x1C,0x06,0x0C,0x04,0x06,0x06,0x03,0xC6,0x00,0xFE,0x00,0xE6,0x01,0xC6,0x01,0x06,0x03,0x06,0x06,0x0E,0x0E
-,0x0E,0x1C,0x1E,0x18,0x0E,0x10,0x04,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00
-,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00
-,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x40,0x00,0xE0,0x00,0xF8,0x01,0xC4,0x1F,0x82,0x07,0x02,0x00,0x07,0x00,0x0E,0x00,0xFE,0x03,0xBE
-,0x0F,0xC0,0x0F,0x00,0x1E,0x00,0x1C,0x00,0x18,0x3E,0x08,0x7F,0x0C,0xF0,0x04,0xC0,0x03,0x80,0x01,0x80,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00
-,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00
-,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00
-,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x80,0x00,0x60,0x40,0x00,0xFC,0x3B,0x00,0xE3,0x07,0x00,0x18,0x00,0x00,0x0C,0x00,0x00,0x04
-,0x00,0x00,0x06,0x00,0x00,0x06,0x00,0x00,0x07,0x00,0x00,0x07,0x00,0x00,0x07,0x00,0x00,0x0F,0x80,0x00,0x0E,0x40,0x00,0x3E,0x38,0x00,0xFC,0x07,0x00,0x70,0x00,0x00,0x00
-,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00
-,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00
-,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00
-,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x10,0x38,0x0E,0xFC,0x09,0x78,0x04,0x70,0x04,0x70,0x06,0x70,0x06,0x60,0x06,0x60,0x06,0x70,0x0F,0x70,0x1E,0x28,0xFE,0x37,0xFE,0x11
-,0x78,0x08,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00
-,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x08,0x00,0x10,0x00,0x20,0x00,0x40,0x00
-,0x80,0x00,0x80,0x01,0x00,0x03,0x00,0x06,0x00,0x06,0x00,0x0C,0x00,0x0C,0x00,0x1C,0x10,0x18,0x0C,0x18,0x07,0x38,0x04,0x38,0x02,0x38,0x02,0x18,0x02,0x18,0x05,0x18,0x06
-,0x18,0x06,0x08,0x0E,0x0C,0x1E,0x04,0x3E,0x02,0xFC,0x01,0xF8,0x00,0x60,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00
-,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00
-,0x00,0x00,0x00,0x00,0x10,0x00,0x00,0x60,0x00,0x00,0x80,0x01,0x00,0x00,0x02,0x00,0x00,0x0C,0x00,0x00,0x18,0x00,0x00,0x30,0x00,0x00,0x70,0x00,0x00,0xE0,0x00,0x00,0xC0
-,0x01,0x00,0x80,0x03,0x00,0x80,0x07,0x00,0x00,0x07,0x08,0x00,0x0E,0x18,0x02,0x0E,0x0E,0x04,0x0C,0x0D,0x0C,0x0C,0x0C,0x0C,0x1C,0x06,0x0C,0x1C,0x06,0x1C,0x1C,0x06,0x1C
-,0x0C,0x0E,0x0C,0x0C,0x0E,0x0C,0x0C,0x1E,0x04,0x04,0x1C,0x0C,0x02,0x3C,0x1E,0x01,0x78,0x9D,0x00,0xF0,0x7C,0x00,0x60,0x38,0x00,0x20,0x10,0x00,0x00,0x00,0x00,0x00,0x00
-,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00
-,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00
-,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00
-,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x03,0x3F,0xC0,0x00,0x3C,0x20,0x00,0x38,0x10,0x00,0x70,0x08,0x00,0xE0,0x0C,0x00,0xC0,0x07,0x00,0xC0,0x03
-,0x00,0x80,0x07,0x00,0x80,0x0F,0x00,0x40,0x0E,0x00,0x20,0x1C,0x00,0x10,0x38,0x00,0x08,0x70,0x00,0x04,0xE0,0x00,0x02,0xE0,0x01,0x02,0xC0,0x03,0x01,0x80,0x03,0x00,0x00
-,0x03,0x00,0x00,0x02,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00
-,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00
-,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00
-,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x03,0xC0,0x81,0x01,0xF8,0xC0,0x03,0x7E,0x80,0x03,0x40,0x80,0x03,0x40,0x80
-,0x03,0x60,0x80,0x03,0x60,0x00,0x03,0x70,0x00,0x03,0x70,0x00,0x03,0x70,0x80,0x03,0x70,0x60,0x03,0xF0,0x3F,0x03,0xF0,0x0F,0x03,0xE0,0x03,0x03,0x00,0x00,0x03,0x00,0x00
-,0x03,0x00,0x00,0x03,0x00,0x00,0x03,0x00,0x00,0x01,0x00,0x80,0x01,0x00,0x80,0x01,0x3C,0x80,0x00,0xFF,0xCF,0x00,0xC0,0x7F,0x00,0x00,0x1E,0x00,0x00,0x00,0x00,0x00,0x00
-,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00
-,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00
-,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x03,0x0C,0xF0,0x01,0xFE,0xCF,0x00,0xFE,0x40,0x00,0x06,0x20
-,0x00,0x00,0x10,0x00,0x00,0x08,0x00,0x00,0x04,0x00,0x00,0x02,0x00,0x00,0x01,0x00,0x80,0x00,0x00,0x40,0x00,0x00,0x20,0x00,0x00,0x10,0x00,0x00,0x10,0x00,0x00,0x08,0x00
-,0x00,0x04,0x00,0x00,0x7E,0x00,0x00,0xFF,0x00,0x00,0xF0,0x03,0x00,0xC0,0x07,0x00,0x80,0x1F,0x00,0x00,0xFE,0x0F,0x00,0x20,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00
-,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00
-,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00
-,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00
-,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00
-,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00
-,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00
-,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00
-,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00
-,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00
-,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00
-,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00
-,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00
-,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00
-,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00
-,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00
-,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00
-,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00
-,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00
-,0x00,0x30,0xFF,0x0F,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00
-,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00
-,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00
-,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00
-,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x08,0x00,0x6C,0x00,0x24,0x00,0x04,0x00,0x8C,0x00,0x84,0x00,0xC0,0x00,0xF8,0x00,0xF4
-,0x00,0xD2,0x00,0xCB,0x00,0xC4,0x00,0xC2,0x01,0xC2,0x01,0xA2,0x01,0x92,0x03,0x1F,0x03,0x0E,0x01,0x06,0x01,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00
-,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00
-,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0xC0,0x03,0xE0,0x01,0x58,0x00,0x20,0x00
-,0x10,0x00,0x10,0x00,0x08,0x00,0x08,0x00,0xC4,0x00,0xF4,0x03,0x8E,0x07,0x02,0x07,0x03,0x07,0x03,0x02,0x03,0x01,0x03,0x01,0x87,0x00,0x7E,0x00,0x3E,0x00,0x0C,0x00,0x00
-,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00
-,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00
-,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0xC0,0x02,0xF0,0x01,0x88,0x01,0x84,0x00,0x04,0x00,0x02,0x00
-,0x03,0x00,0x03,0x06,0x07,0x01,0x8F,0x00,0x7E,0x00,0x38,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00
-,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00
-,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x01,0x00,0x03,0x00,0x02,0x00,0x0C,0x00,0x18,0x00,0x30,0x00,0x60
-,0x00,0xC0,0x00,0xF0,0x01,0xFC,0x03,0xC6,0x03,0x02,0x03,0x03,0x02,0x03,0x02,0x03,0x02,0x07,0x01,0x0F,0x01,0xFE,0x00,0x7C,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00
-,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00
-,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00
-,0x00,0x00,0x20,0x00,0x70,0x00,0x80,0x00,0xC0,0x00,0x58,0x00,0x0C,0x00,0x00,0x00,0xF0,0x01,0x0C,0x06,0x06,0x00,0x06,0x00,0x07,0x00,0xFF,0x03,0x07,0x00,0x0F,0x00,0x0E
-,0x00,0x1C,0x06,0xF8,0x01,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00
-,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00
-,0x70,0x4C,0x4E,0x4E,0x0E,0x06,0x06,0x06,0x06,0x06,0x06,0x26,0x1E,0x06,0x06,0x06,0x06,0x06,0x06,0x0E,0x0E,0x0E,0x0E,0x0E,0x0C,0x0E,0x0F,0x00,0x00,0x00,0x00,0x00,0x00
-,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00
-,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x04,0x00,0x04,0x40,0x07,0xF0,0x07,0x08,0x07,0x04,0x06,0x04,0x06,0x06,0x02,0x06,0x01,0x06,0x01
-,0xDE,0x00,0x3E,0x00,0x1C,0x00,0xC8,0x07,0xF8,0x07,0x04,0x06,0x10,0x04,0x08,0x04,0x06,0x02,0x82,0x01,0x7F,0x00,0x0C,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00
-,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00
-,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x01,0xF0,0x00,0xD8,0x00,0x44,0x00,0x20,0x00,0x10,0x00,0x08,0x00,0x0C,0x00,0x04,0x00,0x06,0x00,0x06,0x07,0xC6
-,0x0F,0x37,0x0E,0x0F,0x0C,0x07,0x0C,0x07,0x0C,0x06,0x0C,0x0E,0x04,0x0C,0x06,0x1C,0x02,0x18,0x03,0x10,0x01,0x80,0x01,0x80,0x00,0x40,0x00,0x20,0x00,0x30,0x00,0x3C,0x00
-,0xE0,0x01,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00
-,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x10,0x38,0x00,0x68,0x4C,0x00,0x40,0x3C,0x16,0x11,0x08,0x0C,0x0C,0x0C,0x8E,0x4E,0x3C
-,0x0C,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00
-,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x04,0x1E,0x08,0x06,0x00,0x0C,0x0F,0x0C,0x0C,0x0C,0x0C,0x0C,0x1C,0x1C,0x18,0x18,0x18,0x18,0x18,0x08,0x08,0x04,0x07,0x00,0x00,0x00
-,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00
-,0x00,0x00,0x00,0xC0,0x00,0x70,0x00,0x2C,0x00,0x10,0x00,0x10,0x00,0x08,0x00,0x08,0x00,0x04,0x00,0x04,0x00,0x06,0x00,0xE6,0x01,0xDE,0x03,0x07,0x03,0x07,0x03,0x07,0x01
-,0x87,0x00,0x7F,0x00,0xFF,0x00,0xC7,0x00,0x8E,0x01,0x8E,0x03,0x1C,0x06,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00
-,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00
-,0x00,0x00,0x00,0x00,0x00,0x40,0x3C,0x20,0x20,0x10,0x10,0x10,0x18,0x08,0x0C,0x0C,0x0C,0x06,0x0E,0x06,0x06,0x06,0x06,0x06,0x0E,0x7E,0x04,0x00,0x00,0x00,0x00,0x00,0x00
-,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00
-,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00
-,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0xD8,0x28,0x00,0xFF,0xF9,0x00,0x8C,0xC7,0x01,0x0E,0xC3,0x01,0x07,0x82,0x01,0x07,0x86,0x01,0x07
-,0x86,0x01,0x07,0x82,0x01,0x07,0x82,0x01,0x06,0x82,0x01,0x0C,0x81,0x00,0x88,0x80,0x00,0x10,0x80,0x00,0x00,0x40,0x00,0x00,0x40,0x00,0x00,0x20,0x00,0x00,0x10,0x00,0x00
-,0x10,0x00,0x00,0x08,0x00,0x00,0x04,0x00,0x00,0x02,0x00,0x00,0x01,0x00,0x00,0x01,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00
-,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00
-,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x9C,0x03
-,0xEB,0x0F,0x1C,0x0E,0x0C,0x0C,0x0E,0x1C,0x0E,0x1C,0x06,0x1C,0x0E,0x0C,0x0E,0x0C,0x0C,0x0C,0x08,0x04,0x10,0x04,0x00,0x02,0x00,0x02,0x00,0x01,0x00,0x01,0x80,0x00,0x80
-,0x00,0x40,0x00,0x20,0x00,0x20,0x00,0x10,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00
-,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00
-,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0xF0,0x01,0xC8,0x03,0x04,0x07,0x32,0x0E,0xB3,0x0C,0xA3,0x0C,0x73,0x04,0x17,0x02,0x0F,0x02,0xFE,0x01,0x7C,0x00
-,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00
-,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00
-,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x10,0x00,0xDC,0x03,0x3E,0x07,0x09,0x0E,0x0C,0x0E,0x0C
-,0x0E,0x0E,0x0C,0x06,0x04,0x0E,0x06,0x1E,0x01,0xF6,0x00,0x07,0x00,0x07,0x00,0x07,0x00,0x07,0x00,0x06,0x00,0x04,0x00,0x04,0x00,0x0C,0x00,0x08,0x00,0x08,0x00,0x10,0x00
-,0x10,0x00,0x20,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00
-,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00
-,0x00,0x06,0x00,0x05,0xE0,0x01,0x98,0x03,0x84,0x03,0x03,0x07,0x02,0x07,0x03,0x07,0x03,0x07,0x87,0x03,0x4F,0x03,0x3E,0x03,0x80,0x03,0x80,0x01,0x80,0x01,0xC0,0x00,0xC0
-,0x00,0x40,0x00,0x20,0x00,0x20,0x00,0xF0,0x03,0x30,0x00,0x08,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00
-,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00
-,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x80,0x03,0xFC,0x03,0x0F,0x03,0x0C,0x01,0x8C,0x00,0x4C,0x00,0x7C,0x00,0xFE,0x00,0xEE,0x01
-,0xCE,0x03,0x8E,0x07,0x06,0x07,0x00,0x06,0x00,0x04,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00
-,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00
-,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x20,0x00,0x70,0x00,0x6C,0x01,0xE6
-,0x00,0x06,0x00,0x3E,0x00,0xFA,0x00,0xC0,0x01,0x80,0x01,0x9E,0x00,0x9F,0x00,0x78,0x00,0x30,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00
-,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00
-,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00
-,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x7E,0x00,0xA0,0x07,0x18,0x00,0x04,0x00,0x06,0x00,0x06,0x00,0x07,0x00,0x07,0x00,0x0E,0x00,0x1E,0x06,0xFE,0x01,0x1C,0x00,0x00
-,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00
-,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00
-,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x0C,0x07,0xC6,0x07,0x07,0x07,0x02,0x07,0x03,0x06
-,0x03,0x06,0x03,0x06,0x03,0x03,0x07,0x03,0xFF,0x01,0x9E,0x00,0x40,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00
-,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00
-,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x10,0x00,0x20,0x00,0x40,0x00,0xC0,0x00,0x80,0x01,0x80,0x01,0x00,0x03,0x00,0x03,0x00
-,0x07,0x00,0x07,0x0C,0x06,0x07,0x06,0x06,0x06,0x06,0x06,0x02,0x04,0x07,0x04,0x07,0x04,0x07,0x02,0x0E,0x02,0x1E,0x01,0xF8,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00
-,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00
-,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00
-,0x00,0x00,0x00,0x00,0x00,0x80,0x00,0x00,0x00,0x01,0x00,0x00,0x02,0x00,0x00,0x04,0x00,0x00,0x08,0x00,0x00,0x18,0x00,0x00,0x30,0x00,0x00,0x30,0x00,0x00,0x60,0x00,0x00
-,0x60,0x00,0x04,0xE1,0x00,0x03,0xC1,0x00,0x82,0xC1,0x00,0x02,0xC1,0x00,0x02,0xC1,0x00,0x03,0xC1,0x00,0x03,0x41,0x00,0x07,0x41,0x00,0x86,0x21,0x00,0x8E,0x17,0x00,0x7C
-,0x0F,0x00,0x18,0x06,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00
-,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00
-,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00
-,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x20,0x00,0x18,0x00,0x04,0x00,0x02,0x1F,0x01,0x1C,0x01,0xB8,0x00,0x78,0x00,0x70,0x00,0xE0,0x00,0xF0,0x01
-,0xD0,0x03,0x88,0x07,0x04,0x3F,0x04,0x00,0x02,0x00,0x01,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00
-,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00
-,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x8C
-,0x01,0x0E,0x0F,0x05,0x07,0x06,0x07,0x06,0x06,0x07,0x06,0x07,0x0E,0x07,0x0F,0xCF,0x0E,0x3E,0x0E,0x0C,0x0E,0x00,0x0E,0x00,0x0E,0x00,0x0E,0x00,0x0D,0x00,0x0E,0x00,0x06
-,0x07,0x06,0xFF,0x03,0xFC,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00
-,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00
-,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0xC6,0x07,0xBF,0x03,0x80,0x01,0xC0,0x00,0x60,0x00,0x20,0x00,0x10,0x00,0x18,0x00,0x0C,0x00,0xFE,0x01,0x82,0x07,0x01
-,0x0F,0x00,0x0C,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00
-,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00
-,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00
-,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00
-,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00
-,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00
-,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00
-,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00
-,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00
-,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00
-,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00
-,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00
-,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00
-,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00
-,0x00,0x00,0x00,0x00,0x00,0x1C,0x02,0xFE,0x01,0x39,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00
-,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00
-,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00
-,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00
-,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00
-};
-// HobbitonBrushhandRegular20 - Size: 11204 bytes - End of VGDD_FLASH Font definition
 
 // End of VGDD_MenuScreens_Screens.c

@@ -2,11 +2,11 @@
   <Object type="VGDD.VGDDScreen, VGDDCommon, Version=3.0.4399.28307, Culture=neutral, PublicKeyToken=null" name="SandTurkeyClub">
     <Property name="Name">SandTurkeyClub</Property>
     <Property name="Controls">
-      <Item type="VGDDMicrochip.Picture, VGDDMicrochip, Version=3.0.4399.28307, Culture=neutral, PublicKeyToken=null">
-        <Reference name="Picture1" />
-      </Item>
       <Item type="VGDDMicrochip.EditBox, VGDDMicrochip, Version=3.0.4399.28307, Culture=neutral, PublicKeyToken=null">
         <Reference name="EditBox1" />
+      </Item>
+      <Item type="VGDDMicrochip.Picture, VGDDMicrochip, Version=3.0.4399.28307, Culture=neutral, PublicKeyToken=null">
+        <Reference name="Picture1" />
       </Item>
       <Item type="VGDDMicrochip.Button, VGDDMicrochip, Version=3.0.4399.28307, Culture=neutral, PublicKeyToken=null">
         <Reference name="Button4" />
@@ -32,7 +32,7 @@
   </Object>
   <Object type="VGDDMicrochip.EditBox, VGDDMicrochip, Version=3.0.4399.28307, Culture=neutral, PublicKeyToken=null" name="EditBox1">
     <Property name="Location">17, 64</Property>
-    <Property name="Charmax">250</Property>
+    <Property name="Charmax">146</Property>
     <Property name="Name">EditBox1</Property>
     <Property name="Size">245, 130</Property>
     <Property name="State">Enabled</Property>
@@ -176,7 +176,7 @@ screenState=CREATE_FOODMENU;
       <Event Name="BTN_MSG_PRESSED" Handled="False" Description="Button pressed" />
       <Event Name="BTN_MSG_STILLPRESSED" Handled="False" Description="Button is continuously pressed" />
       <Event Name="BTN_MSG_RELEASED" Handled="True" Description="Button released">
-screenState=CREATE_APPETIZERLIST;
+screenState=CREATE_SANDGRILLEDCHEESE;
 </Event>
       <Event Name="BTN_MSG_CANCELPRESS" Handled="False" Description="Button released with button press canceled" />
     </Property>
@@ -201,7 +201,9 @@ screenState=CREATE_APPETIZERLIST;
     <Property name="VGDDEvents">
       <Event Name="BTN_MSG_PRESSED" Handled="False" Description="Button pressed" />
       <Event Name="BTN_MSG_STILLPRESSED" Handled="False" Description="Button is continuously pressed" />
-      <Event Name="BTN_MSG_RELEASED" Handled="False" Description="Button released" />
+      <Event Name="BTN_MSG_RELEASED" Handled="True" Description="Button released">
+screenState=CREATE_SANDREUBEN;
+</Event>
       <Event Name="BTN_MSG_CANCELPRESS" Handled="False" Description="Button released with button press canceled" />
     </Property>
     <Property name="Scheme">ButtonTx</Property>

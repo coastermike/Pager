@@ -95,7 +95,7 @@
 //#define USE_LISTBOX			// Enable List Box Object.
 //#define USE_SLIDER            // Enable Slider or Scroll Bar Object.
 
-//#define USE_PROGRESSBAR		// Enable Progress Bar Object.
+#define USE_PROGRESSBAR		// Enable Progress Bar Object.
 #define USE_STATICTEXT		// Enable Static Text Object.
 #define USE_PICTURE			// Enable Picture Object.
 //#define USE_GROUPBOX			// Enable Group Box Object.
@@ -124,7 +124,7 @@
 *********************************************************************/
 #define USE_FONT_FLASH          // Support for fonts located in internal flash
 
-//#define USE_FONT_EXTERNAL		// Support for fonts located in external memory
+#define USE_FONT_EXTERNAL		// Support for fonts located in external memory
 
 /*********************************************************************
 * Overview: Similar to Font data bitmaps can also be placed in 
@@ -136,9 +136,9 @@
 *	- USE_BITMAP_EXTERNAL - Font in external memory support.	
 *
 *********************************************************************/
-#define USE_BITMAP_FLASH        // Support for bitmaps located in internal flash
+//#define USE_BITMAP_FLASH        // Support for bitmaps located in internal flash
 
-//#define USE_BITMAP_EXTERNAL		// Support for bitmaps located in external memory
+#define USE_BITMAP_EXTERNAL		// Support for bitmaps located in external memory
 
 /*********************************************************************
 * Overview: Define the malloc() and free() for versatility on OS 

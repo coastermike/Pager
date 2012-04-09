@@ -694,7 +694,7 @@ void TouchCalHWGetPoints(void)
 	    } 
 
 		// draw the new filled circle (new calibration point)
-        SetColor(WHITE);
+        SetColor(BRIGHTRED);
 	    while(!(Circle(dx[counter], dy[counter], TOUCH_DIAMETER)));
 	    while(!(FillCircle(dx[counter], dy[counter], TOUCH_DIAMETER-3)));
 
@@ -810,7 +810,7 @@ void TouchScreenResistiveTestXY(void)
         
         if((tempXX != tempXX2)||(tempYY != tempYY2))
         {
-            SetColor(WHITE);
+            SetColor(BRIGHTRED);
             ClearDevice();
             SetColor(BLACK);
             sprintf(buffChar,"raw_x=%d, raw_y=%d",(WORD)tempXX, (WORD)tempYY);

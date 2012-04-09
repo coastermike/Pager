@@ -72,7 +72,7 @@ void InitializeBoard(void);
 
 BYTE _language = 0;
 
-SCREEN_STATES   screenState = CREATE_MAINMENU; 
+SCREEN_STATES   screenState = CREATE_NUMGUESTS; 
 
 /* */
 int main(void)

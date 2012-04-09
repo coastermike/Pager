@@ -236,7 +236,7 @@ screenState=CREATE_SIDESLIST;
     <Property name="HorizAlign">Center</Property>
   </Object>
   <Object type="VGDDMicrochip.Button, VGDDMicrochip, Version=3.0.4399.28307, Culture=neutral, PublicKeyToken=null" name="Button8">
-    <Property name="Location">189, 221</Property>
+    <Property name="Location">191, 218</Property>
     <Property name="VertAlign">Center</Property>
     <Property name="Name">Button8</Property>
     <Property name="Bitmap">
