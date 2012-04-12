@@ -53,7 +53,7 @@
 * PIC Device Specific includes
 *********************************************************************/
     #include "Compiler.h"
-
+	#include "ConfigApp.h"
 /*********************************************************************
 * GetSystemClock() returns system clock frequency.
 *
@@ -116,34 +116,37 @@
 #define GFX_EPMP_CS1_BASE_ADDRESS 0x00020000ul
 #define GFX_EPMP_CS1_MEMORY_SIZE 0x40000ul
 //End Auto Generated Code
-
-
-
 /*********************************************************************
 * END OF AUTO GENERATED CODE 
 ********************************************************************/
 
+//
+//RADIO
+//
+		#define RFIF            _INT1IF
+    	#define RFIE            _INT1IE
+
+        #define RF_INT_PIN      PORTCbits.RC14   
+        #define RF_INT_TRIS     TRISCbits.TRISC14
+
+        #define CLOCK_FREQ      32000000
+        #define PHY_CS              LATFbits.LATF3
+        #define PHY_CS_TRIS         TRISFbits.TRISF3
+        #define PHY_RESETn          LATCbits.LATC12
+        #define PHY_RESETn_TRIS     TRISCbits.TRISC12
+        #define SPI_SDI             PORTAbits.RA14
+        #define SDI_TRIS            TRISAbits.TRISA14
+        #define SPI_SDO             LATDbits.LATD8 
+        #define SDO_TRIS            TRISDbits.TRISD8
+        #define SPI_SCK             LATDbits.LATD0 
+        #define SCK_TRIS            TRISDbits.TRISD0
+        #define PHY_WAKE        LATCbits.LATC13
+        #define PHY_WAKE_TRIS   TRISCbits.TRISC13
+		#define TMRL TMR2
+
 /*********************************************************************
 * External Memory Programmer Settings
 *********************************************************************/
-/*#if defined (EXPLORER_16)  
-    #define USE_COMM_PKT_MEDIA_SERIAL_PORT
-    #define BAUDRATE2               115200UL
-    #define BRG_DIV2                4
-    #define BRGH2                   1
-#else
-    #define USE_COMM_PKT_MEDIA_USB
-
-    //#define USE_SELF_POWER_SENSE_IO
-    #define tris_self_power     TRISAbits.TRISA2    // Input
-    #define self_power          1
-
-    //#define USE_USB_BUS_SENSE_IO
-    #define tris_usb_bus_sense  TRISBbits.TRISB5    // Input
-    #define USB_BUS_SENSE       U1OTGSTATbits.SESVD // Special considerations required if using SESVD for this purpose.  See documentation.
-
-#endif
-*/
 #define COMM_PKT_RX_MAX_SIZE    (1024)
 
 
@@ -858,7 +861,7 @@
 
     // define the SPI channel to be used
     #if defined (PIC24FJ256DA210_DEV_BOARD)    
-        #define SST25_SPI_CHANNEL 1
+        #define SST25_SPI_CHANNEL 2
     #endif	
 
     /* Define all the SPI channels that will be used here.

@@ -50,7 +50,12 @@
     #include "Graphics/mchpGfxDrv.h"
 	#include "VGDD_MenuScreens_Screens.h"
 	#include "i2c.h"
-	
+
+	//radio
+	#include "SystemProfile.h"
+	#include "TimeDelay.h"
+	#include "WirelessProtocols/MCHP_API.h"
+		
 	typedef enum
 	{
 		#include "VGDD_MenuScreens_ScreenStates.h"
@@ -58,4 +63,5 @@
 	
 	extern SCREEN_STATES   screenState;
 	
+	void Transmit(INPUT BYTE Transmited_Data);
 #endif

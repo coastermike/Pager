@@ -51,7 +51,7 @@ _CONFIG3( WPFP_WPFP255 & SOSCSEL_EC & WUTSEL_LEG & ALTPMP_ALPMPDIS & WPDIS_WPDIS
 /////////////////////////////////////////////////////////////////////////////
 // initialize GFX3 SST25 flash SPI
 #define FlashInit(pInitData) SST25Init((DRV_SPI_INIT_DATA*)pInitData)
-  
+
 /////////////////////////////////////////////////////////////////////////////
 // SPI Channel settings
 /////////////////////////////////////////////////////////////////////////////
@@ -74,9 +74,15 @@ BYTE _language = 0;
 
 SCREEN_STATES   screenState = CREATE_NUMGUESTS; 
 
-/* */
+//RADIO VARIABLES
+BYTE myChannel = 24;
+BYTE BASE[8] = {EUI_0,EUI_1,EUI_2,EUI_3, EUI_4, EUI_5,EUI_6,0x11};
+
+unsigned char Incoming=0;
+
 int main(void)
 {
+	BYTE i; 
     GOL_MSG msg;                    // GOL message structure to interact with GOL
     
     InitializeBoard();
@@ -87,31 +93,49 @@ int main(void)
 	PORTGbits.RG2 = 1;
 	Nop();
 	
-//	_DPTEST = 0b10;
-//    GDDDemoCreateFirstScreen();
- 
+	//RADIO SETUP
+	// Function MiApp_ProtocolInit initialize the protocol stack.//
+ 	MiApp_ProtocolInit(FALSE);
+	
+	//setting the frequency at whick this wx will transmit over comes back as false if the set channel fails 
+	if( MiApp_SetChannel(myChannel) == FALSE )
+	{
+            return 0;
+    }
+
+	//Enables all connection types
+ 	MiApp_ConnectionMode(ENABLE_ALL_CONN);
+
+	//try to establish connection with peer device: p1=0xff=establish connection with any device, p2=direct connection
+	//returns 0xFF if it false 
+	i = MiApp_EstablishConnection(0xFF, CONN_MODE_DIRECT);
+
+	if( i == 0xFF )
+   	{
+		//starting a connecton: direct connect, duration of scan, channel to start connection on	
+		MiApp_StartConnection(START_CONN_DIRECT, 10, 24);
+	}
+	//END RADIO SETUP
+	
     LED = 1;
 //	i2cRec(2);
 	
     while(1)
-    {	i2cSend(3,255);
+    {	//i2cSend(3,2);
         if(GOLDraw())               // Draw GOL object
         {
             TouchGetMsg(&msg);      // Get message from touch screen
-			
-         //   #if (NUM_GDD_SCREENS > 1)
-			// GDD Readme:
-			// The following line of code allows a GDD user to touch the touchscreen
-			// to cycle through different static screens for viewing. This is useful as a
-			// quick way to view how each screen looks on the physical target hardware.
-			// This line of code should eventually be commented out for actual development.
-			// Also note that widget/object names can be found in GDD_Screens.h
-		//	if(msg.uiEvent == EVENT_RELEASE) GDDDemoNextScreen();
-		//	#endif
-			
             GOLMsg(&msg);           // Process message
         }
-    }//end while
+        
+        /* MiApp_MessageAvailable returns a bool*/
+		if( MiApp_MessageAvailable() )
+        {
+			Incoming=*rxMessage.Payload;
+			/* Function MiApp_DiscardMessage is used to release the current received packet.*/
+           	MiApp_DiscardMessage();
+		}
+	}//end while
 }
 
 /////////////////////////////////////////////////////////////////////////////
@@ -233,19 +257,20 @@ void InitializeBoard(void)
 	
 	LED_TRIS = 0;
 	
-	//temp pin init for wireless
-	TRISAbits.TRISA14 = 1;
-	TRISDbits.TRISD8 = 0;
-	TRISDbits.TRISD0 = 0;
-	TRISCbits.TRISC13 = 1;
-	TRISCbits.TRISC14 = 1;
-	
     // Initialize graphics library and create default style scheme for GOL
     GOLInit();
 	_DPTEST = 0b00;
 	
 	i2cInit();
-	
+	SPI1CON1 = 0b0000000100111110;
+    SPI1STAT = 0x8000;
+    
+    RFIF = 0;
+    if( RF_INT_PIN == 0 )
+    {
+        RFIF = 1;
+    }
+
     //The following are PIC device specific settings for the SPI channel
     //used. 
     //Set IOs directions for SST25 SPI
@@ -259,6 +284,11 @@ void InitializeBoard(void)
         Nop();
         SST25_SDI_TRIS = 1;
 
+		//radio pins
+		_RP11R = 8; // assign RP11 for SCK1
+     	_RP2R = 7; // assign RP2 for SDO1
+     	_SDI1R = 36; // assign RP36 for SDI1
+     	_INT1R = 37;
     // set the peripheral pin select for the PSI channel used
         __builtin_write_OSCCONL(OSCCON & 0xbf); // unlock PPS
     	#if (SST25_SPI_CHANNEL == 1)
@@ -266,13 +296,31 @@ void InitializeBoard(void)
     	    RPOR9bits.RP18R = 7;                 // assign RP18 for SDO1
     	    RPINR20bits.SDI1R = 32;              // assign RP18 for SDI1
         #elif (SST25_SPI_CHANNEL == 2)
-            RPOR5bits.RP11R = 11;                // assign RP11 for SCK2
-    	    RPOR1bits.RP2R = 10;                // assign RP2 for SDO2
-    	    RPINR22bits.SDI2R = 36;              // assign RP36 for SDI2
+            _RP6R = 11;                // assign RP11 for SCK2
+    	    _RP18R = 10;                // assign RP2 for SDO2
+    	    _SDI2R = 32;              // assign RP36 for SDI2
     	#endif
+		
 
+     	
         __builtin_write_OSCCONL(OSCCON | 0x40); // lock   PPS
 	
+	//radio
+	PHY_CS_TRIS = 0;
+    Nop();
+    PHY_CS = 1;
+    Nop();
+    PHY_RESETn_TRIS = 0;
+    PHY_RESETn = 1;
+    RF_INT_TRIS = 1;
+    SDI_TRIS = 1;
+    SDO_TRIS = 0;
+    SCK_TRIS = 0;
+    SPI_SDO = 0;        
+    SPI_SCK = 0; 
+    PHY_WAKE_TRIS = 0;
+    PHY_WAKE = 1;
+    
 	LED = 1;
 	TRISAbits.TRISA1 = 0;
 	Nop();
@@ -280,15 +328,15 @@ void InitializeBoard(void)
 	
 	// initialize the Flash Memory driver
     FlashInit(&SPI_Init_Data);
-   LED = 0;
+    LED = 0;
     // initialize the timer that manages the tick counter
     TickInit(); 
                      
     // initialize the components for Resistive Touch Screen
     TouchInit(NVMWrite, NVMRead, NVMSectorErase, TOUCH_INIT_VALUES);
-    LED = 1;
+    LED = 0;
 }    
-
+		
 /*********************************************************************
 * Function: WORD ExternalMemoryCallback(EXTDATA* memory, LONG offset, WORD nCount, void* buffer)
 *
@@ -336,6 +384,15 @@ WORD ExternalMemoryCallback(IMAGE_EXTERNAL *memory, LONG offset, WORD nCount, vo
     }
 
     return (nCount);
+}
+
+void Transmit(INPUT BYTE Transmited_Data)
+{
+	// First call MiApp_FlushTx to reset the Transmit buffer.
+	MiApp_FlushTx();
+           
+    MiApp_WriteData(Transmited_Data);
+    MiApp_UnicastAddress(BASE, TRUE, FALSE);
 }
 
 /*void CreatePage(XCHAR *pText)

@@ -314,7 +314,7 @@ void Touch_ADCInit(void)
     AD1CON1 = 0;        // reset
     AD1CON2 = 0;        // AVdd, AVss, int every conversion, MUXA only
     AD1CON3 = 0x0101;   // 1 Tad auto-sample, Tad = 2*Tcy
-    AD1CON1 = 0x08000;  // Turn on, single conversion
+    AD1CON1 = 0x8000;  // Turn on, single conversion
 }
 
 /*********************************************************************

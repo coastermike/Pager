@@ -2,9 +2,6 @@
   <Object type="VGDD.VGDDScreen, VGDDCommon, Version=3.0.4399.28307, Culture=neutral, PublicKeyToken=null" name="NumGuestsConfirm">
     <Property name="Name">NumGuestsConfirm</Property>
     <Property name="Controls">
-      <Item type="VGDDMicrochip.StaticText, VGDDMicrochip, Version=3.0.4399.28307, Culture=neutral, PublicKeyToken=null">
-        <Reference name="StaticText1" />
-      </Item>
       <Item type="VGDDMicrochip.EditBox, VGDDMicrochip, Version=3.0.4399.28307, Culture=neutral, PublicKeyToken=null">
         <Reference name="EditBox1" />
       </Item>
@@ -13,6 +10,9 @@
       </Item>
       <Item type="VGDDMicrochip.Button, VGDDMicrochip, Version=3.0.4399.28307, Culture=neutral, PublicKeyToken=null">
         <Reference name="Button2" />
+      </Item>
+      <Item type="VGDDMicrochip.StaticText, VGDDMicrochip, Version=3.0.4399.28307, Culture=neutral, PublicKeyToken=null">
+        <Reference name="StaticText1" />
       </Item>
     </Property>
     <Property name="BackColor">Black</Property>
@@ -63,6 +63,7 @@ screenState=CREATE_NUMGUESTS;
       <Event Name="BTN_MSG_STILLPRESSED" Handled="False" Description="Button is continuously pressed" />
       <Event Name="BTN_MSG_RELEASED" Handled="True" Description="Button released">
 screenState=CREATE_MAINMENU;
+Transmit(42);
 </Event>
       <Event Name="BTN_MSG_CANCELPRESS" Handled="False" Description="Button released with button press canceled" />
     </Property>

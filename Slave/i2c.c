@@ -11,7 +11,7 @@
 #define LIPO_CONTROL 0x01
 
 unsigned int stateI2C = 0, stateSlave = 0;
-unsigned int datatype = 0, data = 0, sendMaster = 0;
+unsigned int datatype = 0, data = 0, sendMaster = 0, slaveTemp = 0;
 unsigned int dataRequested = 0, mode = 0, fromLiPo = 0;
 
 //I2C interrupt
@@ -103,32 +103,21 @@ void __attribute__((interrupt, no_auto_psv)) _SI2C1Interrupt (void)
 	_SI2C1IF = 0;
 	Nop();
 	//received address and writing slave
+	if(I2C1STATbits.I2COV)
+	{
+		Nop();
+	}	
 	if(!I2C1STATbits.D_A && !I2C1STATbits.R_W)
 	{
 		stateSlave = 1;
+		slaveTemp = I2C1RCV;
 	}
-	else if((stateSlave == 1) && I2C1STATbits.D_A)
+	else if((stateSlave == 1) && I2C1STATbits.D_A && !I2C1STATbits.R_W)
 	{
 		datatype = I2C1RCV;
 		stateSlave = 2;
-	}	
-	//need to send data
-	if(!I2C1STATbits.D_A && I2C1STATbits.R_W && (stateSlave == 2))
-	{
-		//send LiPo V
-		if(datatype == 1)
-		{
-			
-		}
-		//send LiPo Stat1,2
-		else if(datatype == 2)
-		{
-			sendMaster = LIPO_STAT1 + (LIPO_STAT2 << 1);
-		}
-		I2C1TRN = sendMaster;
-		stateSlave = 0;
 	}
-	if((stateSlave == 2) && (I2C1STATbits.D_A))
+	else if((stateSlave == 2) && (I2C1STATbits.D_A && !I2C1STATbits.R_W))
 	{
 		data = I2C1RCV;
 		switch(datatype)
@@ -155,8 +144,28 @@ void __attribute__((interrupt, no_auto_psv)) _SI2C1Interrupt (void)
 			case 5: //pulse motor
 				
 				break;
-		}		
+		}
+		//need to send data
+		if(!I2C1STATbits.D_A && I2C1STATbits.R_W)
+		{
+			stateSlave = 3;
+			slaveTemp = I2C1RCV;
+		}	
+		if(I2C1STATbits.D_A && I2C1STATbits.R_W && (stateSlave == 3))
+		{
+			//send LiPo V
+			if(datatype == 1)
+			{
 				
+			}
+			//send LiPo Stat1,2
+			else if(datatype == 2)
+			{
+				sendMaster = LIPO_STAT1 + (LIPO_STAT2 << 1);
+			}
+			I2C1TRN = sendMaster;
+			stateSlave = 0;
+		}		
 		stateSlave = 0;
 	}	
 }
@@ -168,7 +177,7 @@ void i2cInit()
 	I2C1CONbits.I2CEN = 1;	//enables I2C
 	I2C1CONbits.A10M = 0;	//7-bit address
 	I2C1ADD = 0b0101010;
-	I2C1CONbits.GCEN = 1;
+//	I2C1CONbits.GCEN = 1;
 	_SI2C1IE = 1;			//I2C interrupt enable
 	_SI2C1IP = 4;		//priority 4
 	
