@@ -2,11 +2,11 @@
   <Object type="VGDD.VGDDScreen, VGDDCommon, Version=3.0.4399.28307, Culture=neutral, PublicKeyToken=null" name="SoftCoffeeRegular">
     <Property name="Name">SoftCoffeeRegular</Property>
     <Property name="Controls">
-      <Item type="VGDDMicrochip.Picture, VGDDMicrochip, Version=3.0.4399.28307, Culture=neutral, PublicKeyToken=null">
-        <Reference name="Picture1" />
-      </Item>
       <Item type="VGDDMicrochip.EditBox, VGDDMicrochip, Version=3.0.4399.28307, Culture=neutral, PublicKeyToken=null">
         <Reference name="EditBox1" />
+      </Item>
+      <Item type="VGDDMicrochip.Picture, VGDDMicrochip, Version=3.0.4399.28307, Culture=neutral, PublicKeyToken=null">
+        <Reference name="Picture1" />
       </Item>
       <Item type="VGDDMicrochip.Button, VGDDMicrochip, Version=3.0.4399.28307, Culture=neutral, PublicKeyToken=null">
         <Reference name="Button4" />
@@ -136,7 +136,7 @@ screenState=CREATE_MAINMENU;
       <Event Name="BTN_MSG_PRESSED" Handled="False" Description="Button pressed" />
       <Event Name="BTN_MSG_STILLPRESSED" Handled="False" Description="Button is continuously pressed" />
       <Event Name="BTN_MSG_RELEASED" Handled="True" Description="Button released">
-screenState=CREATE_SOFTDRINKLIST2;
+screenState=CREATE_DRINKMENU;
 </Event>
       <Event Name="BTN_MSG_CANCELPRESS" Handled="False" Description="Button released with button press canceled" />
     </Property>

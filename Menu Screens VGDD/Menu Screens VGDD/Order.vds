@@ -1,0 +1,28 @@
+
+  <Object type="VGDD.VGDDScreen, VGDDCommon, Version=3.0.4399.28307, Culture=neutral, PublicKeyToken=null" name="Order">
+    <Property name="Name">Order</Property>
+    <Property name="Controls">
+      <Item type="VGDDMicrochip.Window, VGDDMicrochip, Version=3.0.4399.28307, Culture=neutral, PublicKeyToken=null">
+        <Reference name="Window1" />
+      </Item>
+    </Property>
+    <Property name="BackColor">0, 0, 0</Property>
+    <Property name="ClientSize">478, 270</Property>
+  </Object>
+  <Object type="VGDDMicrochip.Window, VGDDMicrochip, Version=3.0.4399.28307, Culture=neutral, PublicKeyToken=null" name="Window1">
+    <Property name="Location">0, 0</Property>
+    <Property name="Name">Window1</Property>
+    <Property name="Bitmap">
+    </Property>
+    <Property name="Size">480, 42</Property>
+    <Property name="TitleAlign">Center</Property>
+    <Property name="State">Enabled</Property>
+    <Property name="Zorder">0</Property>
+    <Property name="CDeclType">ConstXcharArray</Property>
+    <Property name="Text">Order</Property>
+    <Property name="VGDDEvents">
+      <Event Name="WND_MSG_CLIENT" Handled="False" Description="Window client area selected" />
+      <Event Name="WND_MSG_TITLE" Handled="False" Description="Window title bar selected" />
+    </Property>
+    <Property name="Scheme">WinSch</Property>
+  </Object>

@@ -15,6 +15,7 @@ GOL_SCHEME* GOLScheme_ButtonTx;
 GOL_SCHEME* GOLScheme_WinSch;
 GOL_SCHEME* GOLScheme_DescText;
 GOL_SCHEME* GOLScheme_MainName;
+GOL_SCHEME* GOLScheme_LargeText;
 const XCHAR MainMenu_Button1_Text[] = "Order"; // Order
 const XCHAR MainMenu_Button2_Text[] = "Food Menu"; // Food Menu
 XCHAR MainMenu_EditBox1_Text[107] = "Today's Features Are:\n   Ameglian Major Cow-$21\n   Green Salad-$5\n   Pan Galactic Gargle Blaster- $6"; // Today's Features Are:\n   Ameglian Major Cow-$21\n   Green Salad-$5\n   Pan Galactic Gargle Blaster- $6
@@ -938,7 +939,7 @@ const XCHAR SoftMilk_Button6_Text[] = ">"; // >
 const XCHAR SoftRootbeer_Window1_Text[] = "Soft Drinks: Rootbeer"; // Soft Drinks: Rootbeer
 XCHAR SoftRootbeer_EditBox1_Text[63] = "Try a glass of our Mug Rootbeer!\n Unlimited refills!!!-$1.99"; // Try a glass of our Mug Rootbeer!\n Unlimited refills!!!-$1.99
 const XCHAR SoftRootbeer_Button1_Text[] = "Add to Order"; // Add to Order
-const XCHAR SoftRootbeer_Button8_Text[] = "Food Menu"; // Food Menu
+const XCHAR SoftRootbeer_Button8_Text[] = "Drinks Menu"; // Drinks Menu
 const XCHAR SoftRootbeer_Button3_Text[] = "Main Menu"; // Main Menu
 const XCHAR SoftRootbeer_Button4_Text[] = "Soft Drinks"; // Soft Drinks
 const XCHAR SoftRootbeer_Button5_Text[] = "<"; // <
@@ -978,6 +979,9 @@ const XCHAR NumGuestsConfirm_Button11_Text[] = "Go Back"; // Go Back
 const XCHAR NumGuestsConfirm_Button2_Text[] = "Submit"; // Submit
 XCHAR NumGuestsConfirm_EditBox1_Text[17] = ""; // 
 const XCHAR NumGuestsConfirm_StaticText1_Text[] = "Confirm correct number of guests"; // Confirm correct number of guests
+const XCHAR Order_Window1_Text[] = "Order"; // Order
+const XCHAR Calling_StaticText1_Text[] = "Your Table is Ready"; // Your Table is Ready
+const XCHAR Calling_StaticText2_Text[] = "Please Bring Pager to Hostess"; // Please Bring Pager to Hostess
 
     void CreateScheme_ButtonTx(void) {
     if(GOLScheme_ButtonTx != NULL) free(GOLScheme_ButtonTx);
@@ -1035,6 +1039,20 @@ const XCHAR NumGuestsConfirm_StaticText1_Text[] = "Confirm correct number of gue
     GOLScheme_MainName->pFont = (void*)&HobbitonBrushhandRegular26; //
     }
 
+    void CreateScheme_LargeText(void) {
+    if(GOLScheme_LargeText != NULL) free(GOLScheme_LargeText);
+    GOLScheme_LargeText = GOLCreateScheme();
+    GOLScheme_LargeText->Color0 = 0; //Color [R=0, G=0, B=0]
+    GOLScheme_LargeText->Color1 = 31; //Color [R=0, G=0, B=248]
+    GOLScheme_LargeText->ColorDisabled = 2016; //Color [R=0, G=252, B=0]
+    GOLScheme_LargeText->CommonBkColor = 0; //Color [R=0, G=0, B=0]
+    GOLScheme_LargeText->EmbossDkColor = 0; //Color [R=0, G=0, B=0]
+    GOLScheme_LargeText->EmbossLtColor = 0; //Color [R=0, G=0, B=0]
+    GOLScheme_LargeText->TextColor0 = 0; //Color [R=0, G=0, B=0]
+    GOLScheme_LargeText->TextColor1 = 0; //Color [R=0, G=0, B=0]
+    GOLScheme_LargeText->pFont = (void*)&MicrosoftSansSerifRegular17; //
+    }
+
     void CreateMainMenu(void) {
     GOLFree();
     SetColor(0); // Color [Black]
@@ -1046,6 +1064,7 @@ const XCHAR NumGuestsConfirm_StaticText1_Text[] = "Confirm correct number of gue
     CreateScheme_WinSch();
     CreateScheme_DescText();
     CreateScheme_MainName();
+    CreateScheme_LargeText();
 PICTURE *pMainMenu_Picture1;
     pMainMenu_Picture1 = PictCreate(ID_MainMenu_Picture1,212,20,479,240,PICT_DRAW,1,(void *)&bmpendofuni,GOLScheme_ButtonTx);
 BUTTON *pMainMenu_Button1;
@@ -1076,6 +1095,7 @@ STATICTEXT *pMainMenu_StaticText2;
     CreateScheme_WinSch();
     CreateScheme_DescText();
     CreateScheme_MainName();
+    CreateScheme_LargeText();
 WINDOW *pFoodMenu_Window1;
     pFoodMenu_Window1 = WndCreate(ID_FoodMenu_Window1,0,0,480,42,WND_DRAW|WND_TITLECENTER,NULL,(XCHAR*)FoodMenu_Window1_Text,GOLScheme_WinSch);
 BUTTON *pFoodMenu_Button1;
@@ -1110,6 +1130,7 @@ BUTTON *pFoodMenu_Button9;
     CreateScheme_WinSch();
     CreateScheme_DescText();
     CreateScheme_MainName();
+    CreateScheme_LargeText();
 WINDOW *pAppetizerList_Window1;
     pAppetizerList_Window1 = WndCreate(ID_AppetizerList_Window1,0,0,480,42,WND_DRAW|WND_TITLECENTER,NULL,(XCHAR*)AppetizerList_Window1_Text,GOLScheme_WinSch);
 BUTTON *pAppetizerList_Button1;
@@ -1150,6 +1171,7 @@ BUTTON *pAppetizerList_Button12;
     CreateScheme_WinSch();
     CreateScheme_DescText();
     CreateScheme_MainName();
+    CreateScheme_LargeText();
 WINDOW *pSoupList_Window1;
     pSoupList_Window1 = WndCreate(ID_SoupList_Window1,0,0,480,42,WND_DRAW|WND_TITLECENTER,NULL,(XCHAR*)SoupList_Window1_Text,GOLScheme_WinSch);
 BUTTON *pSoupList_Button1;
@@ -1190,6 +1212,7 @@ BUTTON *pSoupList_Button12;
     CreateScheme_WinSch();
     CreateScheme_DescText();
     CreateScheme_MainName();
+    CreateScheme_LargeText();
 WINDOW *pSoupChickenNoodle_Window1;
     pSoupChickenNoodle_Window1 = WndCreate(ID_SoupChickenNoodle_Window1,0,0,480,42,WND_DRAW|WND_TITLECENTER,NULL,(XCHAR*)SoupChickenNoodle_Window1_Text,GOLScheme_WinSch);
 PICTURE *pSoupChickenNoodle_Picture1;
@@ -1222,6 +1245,7 @@ BUTTON *pSoupChickenNoodle_Button6;
     CreateScheme_WinSch();
     CreateScheme_DescText();
     CreateScheme_MainName();
+    CreateScheme_LargeText();
 WINDOW *pSoupJambalaya_Window1;
     pSoupJambalaya_Window1 = WndCreate(ID_SoupJambalaya_Window1,0,0,480,42,WND_DRAW|WND_TITLECENTER,NULL,(XCHAR*)SoupJambalaya_Window1_Text,GOLScheme_WinSch);
 PICTURE *pSoupJambalaya_Picture1;
@@ -1254,6 +1278,7 @@ BUTTON *pSoupJambalaya_Button6;
     CreateScheme_WinSch();
     CreateScheme_DescText();
     CreateScheme_MainName();
+    CreateScheme_LargeText();
 WINDOW *pSoupSpicyVegetable_Window1;
     pSoupSpicyVegetable_Window1 = WndCreate(ID_SoupSpicyVegetable_Window1,0,0,480,42,WND_DRAW|WND_TITLECENTER,NULL,(XCHAR*)SoupSpicyVegetable_Window1_Text,GOLScheme_WinSch);
 PICTURE *pSoupSpicyVegetable_Picture1;
@@ -1286,6 +1311,7 @@ BUTTON *pSoupSpicyVegetable_Button6;
     CreateScheme_WinSch();
     CreateScheme_DescText();
     CreateScheme_MainName();
+    CreateScheme_LargeText();
 WINDOW *pSoupsCheesyBroccoli_Window1;
     pSoupsCheesyBroccoli_Window1 = WndCreate(ID_SoupsCheesyBroccoli_Window1,0,0,480,42,WND_DRAW|WND_TITLECENTER,NULL,(XCHAR*)SoupsCheesyBroccoli_Window1_Text,GOLScheme_WinSch);
 PICTURE *pSoupsCheesyBroccoli_Picture1;
@@ -1318,6 +1344,7 @@ BUTTON *pSoupsCheesyBroccoli_Button6;
     CreateScheme_WinSch();
     CreateScheme_DescText();
     CreateScheme_MainName();
+    CreateScheme_LargeText();
 WINDOW *pSoupCreamyTomato_Window1;
     pSoupCreamyTomato_Window1 = WndCreate(ID_SoupCreamyTomato_Window1,0,0,480,42,WND_DRAW|WND_TITLECENTER,NULL,(XCHAR*)SoupCreamyTomato_Window1_Text,GOLScheme_WinSch);
 PICTURE *pSoupCreamyTomato_Picture1;
@@ -1350,6 +1377,7 @@ BUTTON *pSoupCreamyTomato_Button6;
     CreateScheme_WinSch();
     CreateScheme_DescText();
     CreateScheme_MainName();
+    CreateScheme_LargeText();
 WINDOW *pSoupBean_Window1;
     pSoupBean_Window1 = WndCreate(ID_SoupBean_Window1,0,0,480,42,WND_DRAW|WND_TITLECENTER,NULL,(XCHAR*)SoupBean_Window1_Text,GOLScheme_WinSch);
 PICTURE *pSoupBean_Picture1;
@@ -1382,6 +1410,7 @@ BUTTON *pSoupBean_Button6;
     CreateScheme_WinSch();
     CreateScheme_DescText();
     CreateScheme_MainName();
+    CreateScheme_LargeText();
 WINDOW *pSoupItalianWedding_Window1;
     pSoupItalianWedding_Window1 = WndCreate(ID_SoupItalianWedding_Window1,0,0,480,42,WND_DRAW|WND_TITLECENTER,NULL,(XCHAR*)SoupItalianWedding_Window1_Text,GOLScheme_WinSch);
 PICTURE *pSoupItalianWedding_Picture1;
@@ -1414,6 +1443,7 @@ BUTTON *pSoupItalianWedding_Button6;
     CreateScheme_WinSch();
     CreateScheme_DescText();
     CreateScheme_MainName();
+    CreateScheme_LargeText();
 WINDOW *pGumboSoup_Window1;
     pGumboSoup_Window1 = WndCreate(ID_GumboSoup_Window1,0,0,480,42,WND_DRAW|WND_TITLECENTER,NULL,(XCHAR*)GumboSoup_Window1_Text,GOLScheme_WinSch);
 PICTURE *pGumboSoup_Picture1;
@@ -1446,6 +1476,7 @@ BUTTON *pGumboSoup_Button6;
     CreateScheme_WinSch();
     CreateScheme_DescText();
     CreateScheme_MainName();
+    CreateScheme_LargeText();
 WINDOW *pSoupFish_Window1;
     pSoupFish_Window1 = WndCreate(ID_SoupFish_Window1,0,0,480,42,WND_DRAW|WND_TITLECENTER,NULL,(XCHAR*)SoupFish_Window1_Text,GOLScheme_WinSch);
 PICTURE *pSoupFish_Picture1;
@@ -1478,6 +1509,7 @@ BUTTON *pSoupFish_Button6;
     CreateScheme_WinSch();
     CreateScheme_DescText();
     CreateScheme_MainName();
+    CreateScheme_LargeText();
 WINDOW *pSoupCreamyMushroom_Window1;
     pSoupCreamyMushroom_Window1 = WndCreate(ID_SoupCreamyMushroom_Window1,0,0,480,42,WND_DRAW|WND_TITLECENTER,NULL,(XCHAR*)SoupCreamyMushroom_Window1_Text,GOLScheme_WinSch);
 PICTURE *pSoupCreamyMushroom_Picture1;
@@ -1510,6 +1542,7 @@ BUTTON *pSoupCreamyMushroom_Button6;
     CreateScheme_WinSch();
     CreateScheme_DescText();
     CreateScheme_MainName();
+    CreateScheme_LargeText();
 WINDOW *pSandwichesList_Window1;
     pSandwichesList_Window1 = WndCreate(ID_SandwichesList_Window1,0,0,480,42,WND_DRAW|WND_TITLECENTER,NULL,(XCHAR*)SandwichesList_Window1_Text,GOLScheme_WinSch);
 BUTTON *pSandwichesList_Button1;
@@ -1546,6 +1579,7 @@ BUTTON *pSandwichesList_Button12;
     CreateScheme_WinSch();
     CreateScheme_DescText();
     CreateScheme_MainName();
+    CreateScheme_LargeText();
 WINDOW *pSandwichesList2_Window1;
     pSandwichesList2_Window1 = WndCreate(ID_SandwichesList2_Window1,0,0,480,42,WND_DRAW|WND_TITLECENTER,NULL,(XCHAR*)SandwichesList2_Window1_Text,GOLScheme_WinSch);
 BUTTON *pSandwichesList2_Button1;
@@ -1584,6 +1618,7 @@ BUTTON *pSandwichesList2_Button4;
     CreateScheme_WinSch();
     CreateScheme_DescText();
     CreateScheme_MainName();
+    CreateScheme_LargeText();
 WINDOW *pAppetFriedPickles_Window1;
     pAppetFriedPickles_Window1 = WndCreate(ID_AppetFriedPickles_Window1,0,0,480,42,WND_DRAW|WND_TITLECENTER,NULL,(XCHAR*)AppetFriedPickles_Window1_Text,GOLScheme_WinSch);
 PICTURE *pAppetFriedPickles_Picture1;
@@ -1616,6 +1651,7 @@ BUTTON *pAppetFriedPickles_Button6;
     CreateScheme_WinSch();
     CreateScheme_DescText();
     CreateScheme_MainName();
+    CreateScheme_LargeText();
 WINDOW *pAppetCheeseStick_Window1;
     pAppetCheeseStick_Window1 = WndCreate(ID_AppetCheeseStick_Window1,0,0,480,42,WND_DRAW|WND_TITLECENTER,NULL,(XCHAR*)AppetCheeseStick_Window1_Text,GOLScheme_WinSch);
 PICTURE *pAppetCheeseStick_AppetCheeseSticks;
@@ -1648,6 +1684,7 @@ BUTTON *pAppetCheeseStick_Button6;
     CreateScheme_WinSch();
     CreateScheme_DescText();
     CreateScheme_MainName();
+    CreateScheme_LargeText();
 WINDOW *pAppetChiliFrie_Window1;
     pAppetChiliFrie_Window1 = WndCreate(ID_AppetChiliFrie_Window1,0,0,480,42,WND_DRAW|WND_TITLECENTER,NULL,(XCHAR*)AppetChiliFrie_Window1_Text,GOLScheme_WinSch);
 PICTURE *pAppetChiliFrie_AppetChiliFries;
@@ -1680,6 +1717,7 @@ BUTTON *pAppetChiliFrie_Button6;
     CreateScheme_WinSch();
     CreateScheme_DescText();
     CreateScheme_MainName();
+    CreateScheme_LargeText();
 WINDOW *pAppetFairFrie_Window1;
     pAppetFairFrie_Window1 = WndCreate(ID_AppetFairFrie_Window1,0,0,480,42,WND_DRAW|WND_TITLECENTER,NULL,(XCHAR*)AppetFairFrie_Window1_Text,GOLScheme_WinSch);
 PICTURE *pAppetFairFrie_AppetFairFries;
@@ -1712,6 +1750,7 @@ BUTTON *pAppetFairFrie_Button6;
     CreateScheme_WinSch();
     CreateScheme_DescText();
     CreateScheme_MainName();
+    CreateScheme_LargeText();
 WINDOW *pAppetGarlicFairFries_Window1;
     pAppetGarlicFairFries_Window1 = WndCreate(ID_AppetGarlicFairFries_Window1,0,0,480,42,WND_DRAW|WND_TITLECENTER,NULL,(XCHAR*)AppetGarlicFairFries_Window1_Text,GOLScheme_WinSch);
 PICTURE *pAppetGarlicFairFries_Picture1;
@@ -1744,6 +1783,7 @@ BUTTON *pAppetGarlicFairFries_Button6;
     CreateScheme_WinSch();
     CreateScheme_DescText();
     CreateScheme_MainName();
+    CreateScheme_LargeText();
 WINDOW *pAppetCarrotFries_Window1;
     pAppetCarrotFries_Window1 = WndCreate(ID_AppetCarrotFries_Window1,0,0,480,42,WND_DRAW|WND_TITLECENTER,NULL,(XCHAR*)AppetCarrotFries_Window1_Text,GOLScheme_WinSch);
 PICTURE *pAppetCarrotFries_Picture1;
@@ -1776,6 +1816,7 @@ BUTTON *pAppetCarrotFries_Button6;
     CreateScheme_WinSch();
     CreateScheme_DescText();
     CreateScheme_MainName();
+    CreateScheme_LargeText();
 WINDOW *pAppetFriedGreenBeans_Window1;
     pAppetFriedGreenBeans_Window1 = WndCreate(ID_AppetFriedGreenBeans_Window1,0,0,480,42,WND_DRAW|WND_TITLECENTER,NULL,(XCHAR*)AppetFriedGreenBeans_Window1_Text,GOLScheme_WinSch);
 PICTURE *pAppetFriedGreenBeans_Picture1;
@@ -1808,6 +1849,7 @@ BUTTON *pAppetFriedGreenBeans_Button6;
     CreateScheme_WinSch();
     CreateScheme_DescText();
     CreateScheme_MainName();
+    CreateScheme_LargeText();
 WINDOW *pAppetMexicanNachos_Window1;
     pAppetMexicanNachos_Window1 = WndCreate(ID_AppetMexicanNachos_Window1,0,0,480,42,WND_DRAW|WND_TITLECENTER,NULL,(XCHAR*)AppetMexicanNachos_Window1_Text,GOLScheme_WinSch);
 PICTURE *pAppetMexicanNachos_Picture1;
@@ -1840,6 +1882,7 @@ BUTTON *pAppetMexicanNachos_Button6;
     CreateScheme_WinSch();
     CreateScheme_DescText();
     CreateScheme_MainName();
+    CreateScheme_LargeText();
 WINDOW *pAppetSpicyNachos_Window1;
     pAppetSpicyNachos_Window1 = WndCreate(ID_AppetSpicyNachos_Window1,0,0,480,42,WND_DRAW|WND_TITLECENTER,NULL,(XCHAR*)AppetSpicyNachos_Window1_Text,GOLScheme_WinSch);
 PICTURE *pAppetSpicyNachos_Picture1;
@@ -1872,6 +1915,7 @@ BUTTON *pAppetSpicyNachos_Button6;
     CreateScheme_WinSch();
     CreateScheme_DescText();
     CreateScheme_MainName();
+    CreateScheme_LargeText();
 WINDOW *pAppetORings_Window1;
     pAppetORings_Window1 = WndCreate(ID_AppetORings_Window1,0,0,480,42,WND_DRAW|WND_TITLECENTER,NULL,(XCHAR*)AppetORings_Window1_Text,GOLScheme_WinSch);
 PICTURE *pAppetORings_Picture1;
@@ -1904,6 +1948,7 @@ BUTTON *pAppetORings_Button6;
     CreateScheme_WinSch();
     CreateScheme_DescText();
     CreateScheme_MainName();
+    CreateScheme_LargeText();
 WINDOW *pSandTurkeyClub_Window1;
     pSandTurkeyClub_Window1 = WndCreate(ID_SandTurkeyClub_Window1,0,0,480,42,WND_DRAW|WND_TITLECENTER,NULL,(XCHAR*)SandTurkeyClub_Window1_Text,GOLScheme_WinSch);
 PICTURE *pSandTurkeyClub_Picture1;
@@ -1934,6 +1979,7 @@ BUTTON *pSandTurkeyClub_Button6;
     CreateScheme_WinSch();
     CreateScheme_DescText();
     CreateScheme_MainName();
+    CreateScheme_LargeText();
 WINDOW *pSandReuben_Window1;
     pSandReuben_Window1 = WndCreate(ID_SandReuben_Window1,0,0,480,42,WND_DRAW|WND_TITLECENTER,NULL,(XCHAR*)SandReuben_Window1_Text,GOLScheme_WinSch);
 PICTURE *pSandReuben_Picture1;
@@ -1964,6 +2010,7 @@ BUTTON *pSandReuben_Button6;
     CreateScheme_WinSch();
     CreateScheme_DescText();
     CreateScheme_MainName();
+    CreateScheme_LargeText();
 WINDOW *pSandVeggieReuben_Window1;
     pSandVeggieReuben_Window1 = WndCreate(ID_SandVeggieReuben_Window1,0,0,480,42,WND_DRAW|WND_TITLECENTER,NULL,(XCHAR*)SandVeggieReuben_Window1_Text,GOLScheme_WinSch);
 PICTURE *pSandVeggieReuben_Picture1;
@@ -1994,6 +2041,7 @@ BUTTON *pSandVeggieReuben_Button6;
     CreateScheme_WinSch();
     CreateScheme_DescText();
     CreateScheme_MainName();
+    CreateScheme_LargeText();
 WINDOW *pSandSmothered_Window1;
     pSandSmothered_Window1 = WndCreate(ID_SandSmothered_Window1,0,0,480,42,WND_DRAW|WND_TITLECENTER,NULL,(XCHAR*)SandSmothered_Window1_Text,GOLScheme_WinSch);
 PICTURE *pSandSmothered_Picture1;
@@ -2024,6 +2072,7 @@ BUTTON *pSandSmothered_Button6;
     CreateScheme_WinSch();
     CreateScheme_DescText();
     CreateScheme_MainName();
+    CreateScheme_LargeText();
 WINDOW *pSandSmotheredBuffalo_Window1;
     pSandSmotheredBuffalo_Window1 = WndCreate(ID_SandSmotheredBuffalo_Window1,0,0,480,42,WND_DRAW|WND_TITLECENTER,NULL,(XCHAR*)SandSmotheredBuffalo_Window1_Text,GOLScheme_WinSch);
 PICTURE *pSandSmotheredBuffalo_Picture1;
@@ -2054,6 +2103,7 @@ BUTTON *pSandSmotheredBuffalo_Button6;
     CreateScheme_WinSch();
     CreateScheme_DescText();
     CreateScheme_MainName();
+    CreateScheme_LargeText();
 WINDOW *pSandCornDog_Window1;
     pSandCornDog_Window1 = WndCreate(ID_SandCornDog_Window1,0,0,480,42,WND_DRAW|WND_TITLECENTER,NULL,(XCHAR*)SandCornDog_Window1_Text,GOLScheme_WinSch);
 PICTURE *pSandCornDog_Picture1;
@@ -2084,6 +2134,7 @@ BUTTON *pSandCornDog_Button6;
     CreateScheme_WinSch();
     CreateScheme_DescText();
     CreateScheme_MainName();
+    CreateScheme_LargeText();
 WINDOW *pSandSteakInAWrap_Window1;
     pSandSteakInAWrap_Window1 = WndCreate(ID_SandSteakInAWrap_Window1,0,0,480,42,WND_DRAW|WND_TITLECENTER,NULL,(XCHAR*)SandSteakInAWrap_Window1_Text,GOLScheme_WinSch);
 PICTURE *pSandSteakInAWrap_Picture1;
@@ -2114,6 +2165,7 @@ BUTTON *pSandSteakInAWrap_Button6;
     CreateScheme_WinSch();
     CreateScheme_DescText();
     CreateScheme_MainName();
+    CreateScheme_LargeText();
 WINDOW *pSandGardenSandwich_Window1;
     pSandGardenSandwich_Window1 = WndCreate(ID_SandGardenSandwich_Window1,0,0,480,42,WND_DRAW|WND_TITLECENTER,NULL,(XCHAR*)SandGardenSandwich_Window1_Text,GOLScheme_WinSch);
 PICTURE *pSandGardenSandwich_Picture1;
@@ -2144,6 +2196,7 @@ BUTTON *pSandGardenSandwich_Button6;
     CreateScheme_WinSch();
     CreateScheme_DescText();
     CreateScheme_MainName();
+    CreateScheme_LargeText();
 WINDOW *pSandGrilledChicken_Window1;
     pSandGrilledChicken_Window1 = WndCreate(ID_SandGrilledChicken_Window1,0,0,480,42,WND_DRAW|WND_TITLECENTER,NULL,(XCHAR*)SandGrilledChicken_Window1_Text,GOLScheme_WinSch);
 PICTURE *pSandGrilledChicken_Picture1;
@@ -2174,6 +2227,7 @@ BUTTON *pSandGrilledChicken_Button6;
     CreateScheme_WinSch();
     CreateScheme_DescText();
     CreateScheme_MainName();
+    CreateScheme_LargeText();
 WINDOW *pSandCajun_Window1;
     pSandCajun_Window1 = WndCreate(ID_SandCajun_Window1,0,0,480,42,WND_DRAW|WND_TITLECENTER,NULL,(XCHAR*)SandCajun_Window1_Text,GOLScheme_WinSch);
 PICTURE *pSandCajun_Picture1;
@@ -2204,6 +2258,7 @@ BUTTON *pSandCajun_Button6;
     CreateScheme_WinSch();
     CreateScheme_DescText();
     CreateScheme_MainName();
+    CreateScheme_LargeText();
 WINDOW *pSandFriedStacker_Window1;
     pSandFriedStacker_Window1 = WndCreate(ID_SandFriedStacker_Window1,0,0,480,42,WND_DRAW|WND_TITLECENTER,NULL,(XCHAR*)SandFriedStacker_Window1_Text,GOLScheme_WinSch);
 PICTURE *pSandFriedStacker_Picture1;
@@ -2234,6 +2289,7 @@ BUTTON *pSandFriedStacker_Button6;
     CreateScheme_WinSch();
     CreateScheme_DescText();
     CreateScheme_MainName();
+    CreateScheme_LargeText();
 WINDOW *pSandGrilledStacker_Window1;
     pSandGrilledStacker_Window1 = WndCreate(ID_SandGrilledStacker_Window1,0,0,480,42,WND_DRAW|WND_TITLECENTER,NULL,(XCHAR*)SandGrilledStacker_Window1_Text,GOLScheme_WinSch);
 PICTURE *pSandGrilledStacker_Picture1;
@@ -2264,6 +2320,7 @@ BUTTON *pSandGrilledStacker_Button6;
     CreateScheme_WinSch();
     CreateScheme_DescText();
     CreateScheme_MainName();
+    CreateScheme_LargeText();
 WINDOW *pSandBlackenedTilapia_Window1;
     pSandBlackenedTilapia_Window1 = WndCreate(ID_SandBlackenedTilapia_Window1,0,0,480,42,WND_DRAW|WND_TITLECENTER,NULL,(XCHAR*)SandBlackenedTilapia_Window1_Text,GOLScheme_WinSch);
 PICTURE *pSandBlackenedTilapia_Picture1;
@@ -2294,6 +2351,7 @@ BUTTON *pSandBlackenedTilapia_Button6;
     CreateScheme_WinSch();
     CreateScheme_DescText();
     CreateScheme_MainName();
+    CreateScheme_LargeText();
 WINDOW *pSandVeggieMushroom_Window1;
     pSandVeggieMushroom_Window1 = WndCreate(ID_SandVeggieMushroom_Window1,0,0,480,42,WND_DRAW|WND_TITLECENTER,NULL,(XCHAR*)SandVeggieMushroom_Window1_Text,GOLScheme_WinSch);
 PICTURE *pSandVeggieMushroom_Picture1;
@@ -2324,6 +2382,7 @@ BUTTON *pSandVeggieMushroom_Button6;
     CreateScheme_WinSch();
     CreateScheme_DescText();
     CreateScheme_MainName();
+    CreateScheme_LargeText();
 WINDOW *pSandGrilledCheese_Window1;
     pSandGrilledCheese_Window1 = WndCreate(ID_SandGrilledCheese_Window1,0,0,480,42,WND_DRAW|WND_TITLECENTER,NULL,(XCHAR*)SandGrilledCheese_Window1_Text,GOLScheme_WinSch);
 PICTURE *pSandGrilledCheese_Picture1;
@@ -2354,6 +2413,7 @@ BUTTON *pSandGrilledCheese_Button6;
     CreateScheme_WinSch();
     CreateScheme_DescText();
     CreateScheme_MainName();
+    CreateScheme_LargeText();
 WINDOW *pBurgerList_Window1;
     pBurgerList_Window1 = WndCreate(ID_BurgerList_Window1,0,0,480,42,WND_DRAW|WND_TITLECENTER,NULL,(XCHAR*)BurgerList_Window1_Text,GOLScheme_WinSch);
 BUTTON *pBurgerList_Button1;
@@ -2386,6 +2446,7 @@ BUTTON *pBurgerList_Button12;
     CreateScheme_WinSch();
     CreateScheme_DescText();
     CreateScheme_MainName();
+    CreateScheme_LargeText();
 WINDOW *pBurgerCheese_Window1;
     pBurgerCheese_Window1 = WndCreate(ID_BurgerCheese_Window1,0,0,480,42,WND_DRAW|WND_TITLECENTER,NULL,(XCHAR*)BurgerCheese_Window1_Text,GOLScheme_WinSch);
 PICTURE *pBurgerCheese_Picture1;
@@ -2416,6 +2477,7 @@ BUTTON *pBurgerCheese_Button6;
     CreateScheme_WinSch();
     CreateScheme_DescText();
     CreateScheme_MainName();
+    CreateScheme_LargeText();
 WINDOW *pBurgerHam_Window1;
     pBurgerHam_Window1 = WndCreate(ID_BurgerHam_Window1,0,0,480,42,WND_DRAW|WND_TITLECENTER,NULL,(XCHAR*)BurgerHam_Window1_Text,GOLScheme_WinSch);
 PICTURE *pBurgerHam_Picture1;
@@ -2446,6 +2508,7 @@ BUTTON *pBurgerHam_Button6;
     CreateScheme_WinSch();
     CreateScheme_DescText();
     CreateScheme_MainName();
+    CreateScheme_LargeText();
 WINDOW *pBurgerPepper_Window1;
     pBurgerPepper_Window1 = WndCreate(ID_BurgerPepper_Window1,0,0,480,42,WND_DRAW|WND_TITLECENTER,NULL,(XCHAR*)BurgerPepper_Window1_Text,GOLScheme_WinSch);
 PICTURE *pBurgerPepper_Picture1;
@@ -2476,6 +2539,7 @@ BUTTON *pBurgerPepper_Button6;
     CreateScheme_WinSch();
     CreateScheme_DescText();
     CreateScheme_MainName();
+    CreateScheme_LargeText();
 WINDOW *pBurgerCajun_Window1;
     pBurgerCajun_Window1 = WndCreate(ID_BurgerCajun_Window1,0,0,480,42,WND_DRAW|WND_TITLECENTER,NULL,(XCHAR*)BurgerCajun_Window1_Text,GOLScheme_WinSch);
 PICTURE *pBurgerCajun_Picture1;
@@ -2506,6 +2570,7 @@ BUTTON *pBurgerCajun_Button6;
     CreateScheme_WinSch();
     CreateScheme_DescText();
     CreateScheme_MainName();
+    CreateScheme_LargeText();
 WINDOW *pBurgerMonster_Window1;
     pBurgerMonster_Window1 = WndCreate(ID_BurgerMonster_Window1,0,0,480,42,WND_DRAW|WND_TITLECENTER,NULL,(XCHAR*)BurgerMonster_Window1_Text,GOLScheme_WinSch);
 PICTURE *pBurgerMonster_Picture1;
@@ -2536,6 +2601,7 @@ BUTTON *pBurgerMonster_Button6;
     CreateScheme_WinSch();
     CreateScheme_DescText();
     CreateScheme_MainName();
+    CreateScheme_LargeText();
 WINDOW *pBurgerMushroom_Window1;
     pBurgerMushroom_Window1 = WndCreate(ID_BurgerMushroom_Window1,0,0,480,42,WND_DRAW|WND_TITLECENTER,NULL,(XCHAR*)BurgerMushroom_Window1_Text,GOLScheme_WinSch);
 PICTURE *pBurgerMushroom_Picture1;
@@ -2566,6 +2632,7 @@ BUTTON *pBurgerMushroom_Button6;
     CreateScheme_WinSch();
     CreateScheme_DescText();
     CreateScheme_MainName();
+    CreateScheme_LargeText();
 WINDOW *pSaladsList1_Window1;
     pSaladsList1_Window1 = WndCreate(ID_SaladsList1_Window1,0,0,480,42,WND_DRAW|WND_TITLECENTER,NULL,(XCHAR*)SaladsList1_Window1_Text,GOLScheme_WinSch);
 BUTTON *pSaladsList1_Button1;
@@ -2600,6 +2667,7 @@ BUTTON *pSaladsList1_Button12;
     CreateScheme_WinSch();
     CreateScheme_DescText();
     CreateScheme_MainName();
+    CreateScheme_LargeText();
 WINDOW *pSaladList2_Window1;
     pSaladList2_Window1 = WndCreate(ID_SaladList2_Window1,0,0,480,42,WND_DRAW|WND_TITLECENTER,NULL,(XCHAR*)SaladList2_Window1_Text,GOLScheme_WinSch);
 BUTTON *pSaladList2_Button1;
@@ -2634,6 +2702,7 @@ BUTTON *pSaladList2_Button4;
     CreateScheme_WinSch();
     CreateScheme_DescText();
     CreateScheme_MainName();
+    CreateScheme_LargeText();
 WINDOW *pSaladVegetable_Window1;
     pSaladVegetable_Window1 = WndCreate(ID_SaladVegetable_Window1,0,0,480,42,WND_DRAW|WND_TITLECENTER,NULL,(XCHAR*)SaladVegetable_Window1_Text,GOLScheme_WinSch);
 PICTURE *pSaladVegetable_Picture1;
@@ -2664,6 +2733,7 @@ BUTTON *pSaladVegetable_Button6;
     CreateScheme_WinSch();
     CreateScheme_DescText();
     CreateScheme_MainName();
+    CreateScheme_LargeText();
 WINDOW *pSaladSpicyVeg_Window1;
     pSaladSpicyVeg_Window1 = WndCreate(ID_SaladSpicyVeg_Window1,0,0,480,42,WND_DRAW|WND_TITLECENTER,NULL,(XCHAR*)SaladSpicyVeg_Window1_Text,GOLScheme_WinSch);
 PICTURE *pSaladSpicyVeg_Picture1;
@@ -2694,6 +2764,7 @@ BUTTON *pSaladSpicyVeg_Button6;
     CreateScheme_WinSch();
     CreateScheme_DescText();
     CreateScheme_MainName();
+    CreateScheme_LargeText();
 WINDOW *pSaladSupremeTaco_Window1;
     pSaladSupremeTaco_Window1 = WndCreate(ID_SaladSupremeTaco_Window1,0,0,480,42,WND_DRAW|WND_TITLECENTER,NULL,(XCHAR*)SaladSupremeTaco_Window1_Text,GOLScheme_WinSch);
 PICTURE *pSaladSupremeTaco_Picture1;
@@ -2724,6 +2795,7 @@ BUTTON *pSaladSupremeTaco_Button6;
     CreateScheme_WinSch();
     CreateScheme_DescText();
     CreateScheme_MainName();
+    CreateScheme_LargeText();
 WINDOW *pSaladLemonShrimp_Window1;
     pSaladLemonShrimp_Window1 = WndCreate(ID_SaladLemonShrimp_Window1,0,0,480,42,WND_DRAW|WND_TITLECENTER,NULL,(XCHAR*)SaladLemonShrimp_Window1_Text,GOLScheme_WinSch);
 PICTURE *pSaladLemonShrimp_Picture1;
@@ -2754,6 +2826,7 @@ BUTTON *pSaladLemonShrimp_Button6;
     CreateScheme_WinSch();
     CreateScheme_DescText();
     CreateScheme_MainName();
+    CreateScheme_LargeText();
 WINDOW *pSaladHam_Window1;
     pSaladHam_Window1 = WndCreate(ID_SaladHam_Window1,0,0,480,42,WND_DRAW|WND_TITLECENTER,NULL,(XCHAR*)SaladHam_Window1_Text,GOLScheme_WinSch);
 PICTURE *pSaladHam_Picture1;
@@ -2784,6 +2857,7 @@ BUTTON *pSaladHam_Button6;
     CreateScheme_WinSch();
     CreateScheme_DescText();
     CreateScheme_MainName();
+    CreateScheme_LargeText();
 WINDOW *pSaladFriedChicken_Window1;
     pSaladFriedChicken_Window1 = WndCreate(ID_SaladFriedChicken_Window1,0,0,480,42,WND_DRAW|WND_TITLECENTER,NULL,(XCHAR*)SaladFriedChicken_Window1_Text,GOLScheme_WinSch);
 PICTURE *pSaladFriedChicken_Picture1;
@@ -2814,6 +2888,7 @@ BUTTON *pSaladFriedChicken_Button6;
     CreateScheme_WinSch();
     CreateScheme_DescText();
     CreateScheme_MainName();
+    CreateScheme_LargeText();
 WINDOW *pSaladSteak_Window1;
     pSaladSteak_Window1 = WndCreate(ID_SaladSteak_Window1,0,0,480,42,WND_DRAW|WND_TITLECENTER,NULL,(XCHAR*)SaladSteak_Window1_Text,GOLScheme_WinSch);
 PICTURE *pSaladSteak_Picture1;
@@ -2844,6 +2919,7 @@ BUTTON *pSaladSteak_Button6;
     CreateScheme_WinSch();
     CreateScheme_DescText();
     CreateScheme_MainName();
+    CreateScheme_LargeText();
 WINDOW *pSaladFruit_Window1;
     pSaladFruit_Window1 = WndCreate(ID_SaladFruit_Window1,0,0,480,42,WND_DRAW|WND_TITLECENTER,NULL,(XCHAR*)SaladFruit_Window1_Text,GOLScheme_WinSch);
 PICTURE *pSaladFruit_Picture1;
@@ -2874,6 +2950,7 @@ BUTTON *pSaladFruit_Button6;
     CreateScheme_WinSch();
     CreateScheme_DescText();
     CreateScheme_MainName();
+    CreateScheme_LargeText();
 WINDOW *pSaladFetaFruit_Window1;
     pSaladFetaFruit_Window1 = WndCreate(ID_SaladFetaFruit_Window1,0,0,480,42,WND_DRAW|WND_TITLECENTER,NULL,(XCHAR*)SaladFetaFruit_Window1_Text,GOLScheme_WinSch);
 PICTURE *pSaladFetaFruit_Picture1;
@@ -2904,6 +2981,7 @@ BUTTON *pSaladFetaFruit_Button6;
     CreateScheme_WinSch();
     CreateScheme_DescText();
     CreateScheme_MainName();
+    CreateScheme_LargeText();
 WINDOW *pSaladBlackenedTil_Window1;
     pSaladBlackenedTil_Window1 = WndCreate(ID_SaladBlackenedTil_Window1,0,0,480,42,WND_DRAW|WND_TITLECENTER,NULL,(XCHAR*)SaladBlackenedTil_Window1_Text,GOLScheme_WinSch);
 PICTURE *pSaladBlackenedTil_Picture1;
@@ -2934,6 +3012,7 @@ BUTTON *pSaladBlackenedTil_Button6;
     CreateScheme_WinSch();
     CreateScheme_DescText();
     CreateScheme_MainName();
+    CreateScheme_LargeText();
 WINDOW *pSaladGarden_Window1;
     pSaladGarden_Window1 = WndCreate(ID_SaladGarden_Window1,0,0,480,42,WND_DRAW|WND_TITLECENTER,NULL,(XCHAR*)SaladGarden_Window1_Text,GOLScheme_WinSch);
 PICTURE *pSaladGarden_Picture1;
@@ -2964,6 +3043,7 @@ BUTTON *pSaladGarden_Button6;
     CreateScheme_WinSch();
     CreateScheme_DescText();
     CreateScheme_MainName();
+    CreateScheme_LargeText();
 WINDOW *pSaladBaconator_Window1;
     pSaladBaconator_Window1 = WndCreate(ID_SaladBaconator_Window1,0,0,480,42,WND_DRAW|WND_TITLECENTER,NULL,(XCHAR*)SaladBaconator_Window1_Text,GOLScheme_WinSch);
 PICTURE *pSaladBaconator_Picture1;
@@ -2994,6 +3074,7 @@ BUTTON *pSaladBaconator_Button6;
     CreateScheme_WinSch();
     CreateScheme_DescText();
     CreateScheme_MainName();
+    CreateScheme_LargeText();
 WINDOW *pDessApple_Window1;
     pDessApple_Window1 = WndCreate(ID_DessApple_Window1,0,0,480,42,WND_DRAW|WND_TITLECENTER,NULL,(XCHAR*)DessApple_Window1_Text,GOLScheme_WinSch);
 PICTURE *pDessApple_Picture1;
@@ -3024,6 +3105,7 @@ BUTTON *pDessApple_Button6;
     CreateScheme_WinSch();
     CreateScheme_DescText();
     CreateScheme_MainName();
+    CreateScheme_LargeText();
 WINDOW *pDessertsList_Window1;
     pDessertsList_Window1 = WndCreate(ID_DessertsList_Window1,0,0,480,42,WND_DRAW|WND_TITLECENTER,NULL,(XCHAR*)DessertsList_Window1_Text,GOLScheme_WinSch);
 BUTTON *pDessertsList_Button1;
@@ -3060,6 +3142,7 @@ BUTTON *pDessertsList_Button12;
     CreateScheme_WinSch();
     CreateScheme_DescText();
     CreateScheme_MainName();
+    CreateScheme_LargeText();
 WINDOW *pDessBlue_Window1;
     pDessBlue_Window1 = WndCreate(ID_DessBlue_Window1,0,0,480,42,WND_DRAW|WND_TITLECENTER,NULL,(XCHAR*)DessBlue_Window1_Text,GOLScheme_WinSch);
 PICTURE *pDessBlue_Picture1;
@@ -3090,6 +3173,7 @@ BUTTON *pDessBlue_Button6;
     CreateScheme_WinSch();
     CreateScheme_DescText();
     CreateScheme_MainName();
+    CreateScheme_LargeText();
 WINDOW *pDessBrownie_Window1;
     pDessBrownie_Window1 = WndCreate(ID_DessBrownie_Window1,0,0,480,42,WND_DRAW|WND_TITLECENTER,NULL,(XCHAR*)DessBrownie_Window1_Text,GOLScheme_WinSch);
 PICTURE *pDessBrownie_Picture1;
@@ -3120,6 +3204,7 @@ BUTTON *pDessBrownie_Button6;
     CreateScheme_WinSch();
     CreateScheme_DescText();
     CreateScheme_MainName();
+    CreateScheme_LargeText();
 WINDOW *pDessMousse_Window1;
     pDessMousse_Window1 = WndCreate(ID_DessMousse_Window1,0,0,480,42,WND_DRAW|WND_TITLECENTER,NULL,(XCHAR*)DessMousse_Window1_Text,GOLScheme_WinSch);
 PICTURE *pDessMousse_Picture1;
@@ -3150,6 +3235,7 @@ BUTTON *pDessMousse_Button6;
     CreateScheme_WinSch();
     CreateScheme_DescText();
     CreateScheme_MainName();
+    CreateScheme_LargeText();
 WINDOW *pDessPeanut_Window1;
     pDessPeanut_Window1 = WndCreate(ID_DessPeanut_Window1,0,0,480,42,WND_DRAW|WND_TITLECENTER,NULL,(XCHAR*)DessPeanut_Window1_Text,GOLScheme_WinSch);
 PICTURE *pDessPeanut_Picture1;
@@ -3180,6 +3266,7 @@ BUTTON *pDessPeanut_Button6;
     CreateScheme_WinSch();
     CreateScheme_DescText();
     CreateScheme_MainName();
+    CreateScheme_LargeText();
 WINDOW *pDessRedVel_Window1;
     pDessRedVel_Window1 = WndCreate(ID_DessRedVel_Window1,0,0,480,42,WND_DRAW|WND_TITLECENTER,NULL,(XCHAR*)DessRedVel_Window1_Text,GOLScheme_WinSch);
 PICTURE *pDessRedVel_Picture1;
@@ -3210,6 +3297,7 @@ BUTTON *pDessRedVel_Button6;
     CreateScheme_WinSch();
     CreateScheme_DescText();
     CreateScheme_MainName();
+    CreateScheme_LargeText();
 WINDOW *pDessStraw_Window1;
     pDessStraw_Window1 = WndCreate(ID_DessStraw_Window1,0,0,480,42,WND_DRAW|WND_TITLECENTER,NULL,(XCHAR*)DessStraw_Window1_Text,GOLScheme_WinSch);
 PICTURE *pDessStraw_Picture1;
@@ -3240,6 +3328,7 @@ BUTTON *pDessStraw_Button6;
     CreateScheme_WinSch();
     CreateScheme_DescText();
     CreateScheme_MainName();
+    CreateScheme_LargeText();
 WINDOW *pDessSundae_Window1;
     pDessSundae_Window1 = WndCreate(ID_DessSundae_Window1,0,0,480,42,WND_DRAW|WND_TITLECENTER,NULL,(XCHAR*)DessSundae_Window1_Text,GOLScheme_WinSch);
 PICTURE *pDessSundae_Picture1;
@@ -3270,6 +3359,7 @@ BUTTON *pDessSundae_Button6;
     CreateScheme_WinSch();
     CreateScheme_DescText();
     CreateScheme_MainName();
+    CreateScheme_LargeText();
 WINDOW *pDinCornBeef_Window1;
     pDinCornBeef_Window1 = WndCreate(ID_DinCornBeef_Window1,0,0,480,42,WND_DRAW|WND_TITLECENTER,NULL,(XCHAR*)DinCornBeef_Window1_Text,GOLScheme_WinSch);
 PICTURE *pDinCornBeef_Picture1;
@@ -3300,6 +3390,7 @@ BUTTON *pDinCornBeef_Button6;
     CreateScheme_WinSch();
     CreateScheme_DescText();
     CreateScheme_MainName();
+    CreateScheme_LargeText();
 WINDOW *pDinnerList_Window1;
     pDinnerList_Window1 = WndCreate(ID_DinnerList_Window1,0,0,480,42,WND_DRAW|WND_TITLECENTER,NULL,(XCHAR*)DinnerList_Window1_Text,GOLScheme_WinSch);
 BUTTON *pDinnerList_Button1;
@@ -3340,6 +3431,7 @@ BUTTON *pDinnerList_Button12;
     CreateScheme_WinSch();
     CreateScheme_DescText();
     CreateScheme_MainName();
+    CreateScheme_LargeText();
 WINDOW *pDinFriedChiken_Window1;
     pDinFriedChiken_Window1 = WndCreate(ID_DinFriedChiken_Window1,0,0,480,42,WND_DRAW|WND_TITLECENTER,NULL,(XCHAR*)DinFriedChiken_Window1_Text,GOLScheme_WinSch);
 PICTURE *pDinFriedChiken_Picture1;
@@ -3370,6 +3462,7 @@ BUTTON *pDinFriedChiken_Button6;
     CreateScheme_WinSch();
     CreateScheme_DescText();
     CreateScheme_MainName();
+    CreateScheme_LargeText();
 WINDOW *pDinGrilledChicken_Window1;
     pDinGrilledChicken_Window1 = WndCreate(ID_DinGrilledChicken_Window1,0,0,480,42,WND_DRAW|WND_TITLECENTER,NULL,(XCHAR*)DinGrilledChicken_Window1_Text,GOLScheme_WinSch);
 PICTURE *pDinGrilledChicken_Picture1;
@@ -3400,6 +3493,7 @@ BUTTON *pDinGrilledChicken_Button6;
     CreateScheme_WinSch();
     CreateScheme_DescText();
     CreateScheme_MainName();
+    CreateScheme_LargeText();
 WINDOW *pDinLasagna_Window1;
     pDinLasagna_Window1 = WndCreate(ID_DinLasagna_Window1,0,0,480,42,WND_DRAW|WND_TITLECENTER,NULL,(XCHAR*)DinLasagna_Window1_Text,GOLScheme_WinSch);
 PICTURE *pDinLasagna_Picture1;
@@ -3430,6 +3524,7 @@ BUTTON *pDinLasagna_Button6;
     CreateScheme_WinSch();
     CreateScheme_DescText();
     CreateScheme_MainName();
+    CreateScheme_LargeText();
 WINDOW *pDinMarPizza_Window1;
     pDinMarPizza_Window1 = WndCreate(ID_DinMarPizza_Window1,0,0,480,42,WND_DRAW|WND_TITLECENTER,NULL,(XCHAR*)DinMarPizza_Window1_Text,GOLScheme_WinSch);
 PICTURE *pDinMarPizza_Picture1;
@@ -3460,6 +3555,7 @@ BUTTON *pDinMarPizza_Button6;
     CreateScheme_WinSch();
     CreateScheme_DescText();
     CreateScheme_MainName();
+    CreateScheme_LargeText();
 WINDOW *pDinQuesadilla_Window1;
     pDinQuesadilla_Window1 = WndCreate(ID_DinQuesadilla_Window1,0,0,480,42,WND_DRAW|WND_TITLECENTER,NULL,(XCHAR*)DinQuesadilla_Window1_Text,GOLScheme_WinSch);
 PICTURE *pDinQuesadilla_Picture1;
@@ -3490,6 +3586,7 @@ BUTTON *pDinQuesadilla_Button6;
     CreateScheme_WinSch();
     CreateScheme_DescText();
     CreateScheme_MainName();
+    CreateScheme_LargeText();
 WINDOW *pDinSpaghetti_Window1;
     pDinSpaghetti_Window1 = WndCreate(ID_DinSpaghetti_Window1,0,0,480,42,WND_DRAW|WND_TITLECENTER,NULL,(XCHAR*)DinSpaghetti_Window1_Text,GOLScheme_WinSch);
 PICTURE *pDinSpaghetti_Picture1;
@@ -3520,6 +3617,7 @@ BUTTON *pDinSpaghetti_Button6;
     CreateScheme_WinSch();
     CreateScheme_DescText();
     CreateScheme_MainName();
+    CreateScheme_LargeText();
 WINDOW *pDinSteak_Window1;
     pDinSteak_Window1 = WndCreate(ID_DinSteak_Window1,0,0,480,42,WND_DRAW|WND_TITLECENTER,NULL,(XCHAR*)DinSteak_Window1_Text,GOLScheme_WinSch);
 PICTURE *pDinSteak_Picture1;
@@ -3550,6 +3648,7 @@ BUTTON *pDinSteak_Button6;
     CreateScheme_WinSch();
     CreateScheme_DescText();
     CreateScheme_MainName();
+    CreateScheme_LargeText();
 WINDOW *pDinTilapia_Window1;
     pDinTilapia_Window1 = WndCreate(ID_DinTilapia_Window1,0,0,480,42,WND_DRAW|WND_TITLECENTER,NULL,(XCHAR*)DinTilapia_Window1_Text,GOLScheme_WinSch);
 PICTURE *pDinTilapia_Picture1;
@@ -3580,6 +3679,7 @@ BUTTON *pDinTilapia_Button6;
     CreateScheme_WinSch();
     CreateScheme_DescText();
     CreateScheme_MainName();
+    CreateScheme_LargeText();
 WINDOW *pDinVegPizza_Window1;
     pDinVegPizza_Window1 = WndCreate(ID_DinVegPizza_Window1,0,0,480,42,WND_DRAW|WND_TITLECENTER,NULL,(XCHAR*)DinVegPizza_Window1_Text,GOLScheme_WinSch);
 PICTURE *pDinVegPizza_Picture1;
@@ -3610,6 +3710,7 @@ BUTTON *pDinVegPizza_Button6;
     CreateScheme_WinSch();
     CreateScheme_DescText();
     CreateScheme_MainName();
+    CreateScheme_LargeText();
 WINDOW *pSidesList_Window1;
     pSidesList_Window1 = WndCreate(ID_SidesList_Window1,0,0,480,42,WND_DRAW|WND_TITLECENTER,NULL,(XCHAR*)SidesList_Window1_Text,GOLScheme_WinSch);
 BUTTON *pSidesList_Button1;
@@ -3644,6 +3745,7 @@ BUTTON *pSidesList_Button12;
     CreateScheme_WinSch();
     CreateScheme_DescText();
     CreateScheme_MainName();
+    CreateScheme_LargeText();
 WINDOW *pSidesBakedPot_Window1;
     pSidesBakedPot_Window1 = WndCreate(ID_SidesBakedPot_Window1,0,0,480,42,WND_DRAW|WND_TITLECENTER,NULL,(XCHAR*)SidesBakedPot_Window1_Text,GOLScheme_WinSch);
 PICTURE *pSidesBakedPot_Picture1;
@@ -3674,6 +3776,7 @@ BUTTON *pSidesBakedPot_Button6;
     CreateScheme_WinSch();
     CreateScheme_DescText();
     CreateScheme_MainName();
+    CreateScheme_LargeText();
 WINDOW *pSidesBroccoli_Window1;
     pSidesBroccoli_Window1 = WndCreate(ID_SidesBroccoli_Window1,0,0,480,42,WND_DRAW|WND_TITLECENTER,NULL,(XCHAR*)SidesBroccoli_Window1_Text,GOLScheme_WinSch);
 PICTURE *pSidesBroccoli_Picture1;
@@ -3704,6 +3807,7 @@ BUTTON *pSidesBroccoli_Button6;
     CreateScheme_WinSch();
     CreateScheme_DescText();
     CreateScheme_MainName();
+    CreateScheme_LargeText();
 WINDOW *pSidesFries_Window1;
     pSidesFries_Window1 = WndCreate(ID_SidesFries_Window1,0,0,480,42,WND_DRAW|WND_TITLECENTER,NULL,(XCHAR*)SidesFries_Window1_Text,GOLScheme_WinSch);
 PICTURE *pSidesFries_Picture1;
@@ -3734,6 +3838,7 @@ BUTTON *pSidesFries_Button6;
     CreateScheme_WinSch();
     CreateScheme_DescText();
     CreateScheme_MainName();
+    CreateScheme_LargeText();
 WINDOW *pSidesFruit_Window1;
     pSidesFruit_Window1 = WndCreate(ID_SidesFruit_Window1,0,0,480,42,WND_DRAW|WND_TITLECENTER,NULL,(XCHAR*)SidesFruit_Window1_Text,GOLScheme_WinSch);
 PICTURE *pSidesFruit_Picture1;
@@ -3764,6 +3869,7 @@ BUTTON *pSidesFruit_Button6;
     CreateScheme_WinSch();
     CreateScheme_DescText();
     CreateScheme_MainName();
+    CreateScheme_LargeText();
 WINDOW *pSidesMashed_Window1;
     pSidesMashed_Window1 = WndCreate(ID_SidesMashed_Window1,0,0,480,42,WND_DRAW|WND_TITLECENTER,NULL,(XCHAR*)SidesMashed_Window1_Text,GOLScheme_WinSch);
 PICTURE *pSidesMashed_Picture1;
@@ -3794,6 +3900,7 @@ BUTTON *pSidesMashed_Button6;
     CreateScheme_WinSch();
     CreateScheme_DescText();
     CreateScheme_MainName();
+    CreateScheme_LargeText();
 WINDOW *pSidesORings_Window1;
     pSidesORings_Window1 = WndCreate(ID_SidesORings_Window1,0,0,480,42,WND_DRAW|WND_TITLECENTER,NULL,(XCHAR*)SidesORings_Window1_Text,GOLScheme_WinSch);
 PICTURE *pSidesORings_Picture1;
@@ -3824,6 +3931,7 @@ BUTTON *pSidesORings_Button6;
     CreateScheme_WinSch();
     CreateScheme_DescText();
     CreateScheme_MainName();
+    CreateScheme_LargeText();
 WINDOW *pSidesSlaw_Window1;
     pSidesSlaw_Window1 = WndCreate(ID_SidesSlaw_Window1,0,0,480,42,WND_DRAW|WND_TITLECENTER,NULL,(XCHAR*)SidesSlaw_Window1_Text,GOLScheme_WinSch);
 PICTURE *pSidesSlaw_Picture1;
@@ -3854,6 +3962,7 @@ BUTTON *pSidesSlaw_Button6;
     CreateScheme_WinSch();
     CreateScheme_DescText();
     CreateScheme_MainName();
+    CreateScheme_LargeText();
 WINDOW *pAlcoholBud_Window1;
     pAlcoholBud_Window1 = WndCreate(ID_AlcoholBud_Window1,0,0,480,42,WND_DRAW|WND_TITLECENTER,NULL,(XCHAR*)AlcoholBud_Window1_Text,GOLScheme_WinSch);
 PICTURE *pAlcoholBud_Picture1;
@@ -3884,6 +3993,7 @@ BUTTON *pAlcoholBud_Button6;
     CreateScheme_WinSch();
     CreateScheme_DescText();
     CreateScheme_MainName();
+    CreateScheme_LargeText();
 WINDOW *pAlcoholList_Window1;
     pAlcoholList_Window1 = WndCreate(ID_AlcoholList_Window1,0,0,480,42,WND_DRAW|WND_TITLECENTER,NULL,(XCHAR*)AlcoholList_Window1_Text,GOLScheme_WinSch);
 BUTTON *pAlcoholList_Button1;
@@ -3920,6 +4030,7 @@ BUTTON *pAlcoholList_Button13;
     CreateScheme_WinSch();
     CreateScheme_DescText();
     CreateScheme_MainName();
+    CreateScheme_LargeText();
 WINDOW *pAlcoholBudLight_Window1;
     pAlcoholBudLight_Window1 = WndCreate(ID_AlcoholBudLight_Window1,0,0,480,42,WND_DRAW|WND_TITLECENTER,NULL,(XCHAR*)AlcoholBudLight_Window1_Text,GOLScheme_WinSch);
 PICTURE *pAlcoholBudLight_Picture1;
@@ -3950,6 +4061,7 @@ BUTTON *pAlcoholBudLight_Button6;
     CreateScheme_WinSch();
     CreateScheme_DescText();
     CreateScheme_MainName();
+    CreateScheme_LargeText();
 WINDOW *pAlcoholCoorsLight_Window1;
     pAlcoholCoorsLight_Window1 = WndCreate(ID_AlcoholCoorsLight_Window1,0,0,480,42,WND_DRAW|WND_TITLECENTER,NULL,(XCHAR*)AlcoholCoorsLight_Window1_Text,GOLScheme_WinSch);
 PICTURE *pAlcoholCoorsLight_Picture1;
@@ -3980,6 +4092,7 @@ BUTTON *pAlcoholCoorsLight_Button6;
     CreateScheme_WinSch();
     CreateScheme_DescText();
     CreateScheme_MainName();
+    CreateScheme_LargeText();
 WINDOW *pAlcoholCorona_Window1;
     pAlcoholCorona_Window1 = WndCreate(ID_AlcoholCorona_Window1,0,0,480,42,WND_DRAW|WND_TITLECENTER,NULL,(XCHAR*)AlcoholCorona_Window1_Text,GOLScheme_WinSch);
 PICTURE *pAlcoholCorona_Picture1;
@@ -4010,6 +4123,7 @@ BUTTON *pAlcoholCorona_Button6;
     CreateScheme_WinSch();
     CreateScheme_DescText();
     CreateScheme_MainName();
+    CreateScheme_LargeText();
 WINDOW *pAlcoholGuinness_Window1;
     pAlcoholGuinness_Window1 = WndCreate(ID_AlcoholGuinness_Window1,0,0,480,42,WND_DRAW|WND_TITLECENTER,NULL,(XCHAR*)AlcoholGuinness_Window1_Text,GOLScheme_WinSch);
 PICTURE *pAlcoholGuinness_Picture1;
@@ -4040,6 +4154,7 @@ BUTTON *pAlcoholGuinness_Button6;
     CreateScheme_WinSch();
     CreateScheme_DescText();
     CreateScheme_MainName();
+    CreateScheme_LargeText();
 WINDOW *pAlcoholMichelob_Window1;
     pAlcoholMichelob_Window1 = WndCreate(ID_AlcoholMichelob_Window1,0,0,480,42,WND_DRAW|WND_TITLECENTER,NULL,(XCHAR*)AlcoholMichelob_Window1_Text,GOLScheme_WinSch);
 PICTURE *pAlcoholMichelob_Picture1;
@@ -4070,6 +4185,7 @@ BUTTON *pAlcoholMichelob_Button6;
     CreateScheme_WinSch();
     CreateScheme_DescText();
     CreateScheme_MainName();
+    CreateScheme_LargeText();
 WINDOW *pAlcoholMillerLite_Window1;
     pAlcoholMillerLite_Window1 = WndCreate(ID_AlcoholMillerLite_Window1,0,0,480,42,WND_DRAW|WND_TITLECENTER,NULL,(XCHAR*)AlcoholMillerLite_Window1_Text,GOLScheme_WinSch);
 PICTURE *pAlcoholMillerLite_Picture1;
@@ -4100,6 +4216,7 @@ BUTTON *pAlcoholMillerLite_Button6;
     CreateScheme_WinSch();
     CreateScheme_DescText();
     CreateScheme_MainName();
+    CreateScheme_LargeText();
 WINDOW *pAlcoholYuengling_Window1;
     pAlcoholYuengling_Window1 = WndCreate(ID_AlcoholYuengling_Window1,0,0,480,42,WND_DRAW|WND_TITLECENTER,NULL,(XCHAR*)AlcoholYuengling_Window1_Text,GOLScheme_WinSch);
 PICTURE *pAlcoholYuengling_Picture1;
@@ -4130,6 +4247,7 @@ BUTTON *pAlcoholYuengling_Button6;
     CreateScheme_WinSch();
     CreateScheme_DescText();
     CreateScheme_MainName();
+    CreateScheme_LargeText();
 WINDOW *pDrinkMenu_Drink_Menu;
     pDrinkMenu_Drink_Menu = WndCreate(ID_DrinkMenu_Drink_Menu,0,0,480,42,WND_DRAW|WND_TITLECENTER,NULL,(XCHAR*)DrinkMenu_Drink_Menu_Text,GOLScheme_WinSch);
 BUTTON *pDrinkMenu_Button1;
@@ -4156,6 +4274,7 @@ BUTTON *pDrinkMenu_Button12;
     CreateScheme_WinSch();
     CreateScheme_DescText();
     CreateScheme_MainName();
+    CreateScheme_LargeText();
 WINDOW *pSmoShakeMenu_Window1;
     pSmoShakeMenu_Window1 = WndCreate(ID_SmoShakeMenu_Window1,0,0,480,42,WND_DRAW|WND_TITLECENTER,NULL,(XCHAR*)SmoShakeMenu_Window1_Text,GOLScheme_WinSch);
 BUTTON *pSmoShakeMenu_Button1;
@@ -4190,6 +4309,7 @@ BUTTON *pSmoShakeMenu_Button11;
     CreateScheme_WinSch();
     CreateScheme_DescText();
     CreateScheme_MainName();
+    CreateScheme_LargeText();
 WINDOW *pShakeBanana_Window1;
     pShakeBanana_Window1 = WndCreate(ID_ShakeBanana_Window1,0,0,480,42,WND_DRAW|WND_TITLECENTER,NULL,(XCHAR*)ShakeBanana_Window1_Text,GOLScheme_WinSch);
 PICTURE *pShakeBanana_Picture1;
@@ -4222,6 +4342,7 @@ BUTTON *pShakeBanana_Button6;
     CreateScheme_WinSch();
     CreateScheme_DescText();
     CreateScheme_MainName();
+    CreateScheme_LargeText();
 WINDOW *pShakeBlueberry_Window1;
     pShakeBlueberry_Window1 = WndCreate(ID_ShakeBlueberry_Window1,0,0,480,42,WND_DRAW|WND_TITLECENTER,NULL,(XCHAR*)ShakeBlueberry_Window1_Text,GOLScheme_WinSch);
 PICTURE *pShakeBlueberry_Picture1;
@@ -4254,6 +4375,7 @@ BUTTON *pShakeBlueberry_Button6;
     CreateScheme_WinSch();
     CreateScheme_DescText();
     CreateScheme_MainName();
+    CreateScheme_LargeText();
 WINDOW *pShakeChocolate_Window1;
     pShakeChocolate_Window1 = WndCreate(ID_ShakeChocolate_Window1,0,0,480,42,WND_DRAW|WND_TITLECENTER,NULL,(XCHAR*)ShakeChocolate_Window1_Text,GOLScheme_WinSch);
 PICTURE *pShakeChocolate_Picture1;
@@ -4286,6 +4408,7 @@ BUTTON *pShakeChocolate_Button6;
     CreateScheme_WinSch();
     CreateScheme_DescText();
     CreateScheme_MainName();
+    CreateScheme_LargeText();
 WINDOW *pShakeOreo_Window1;
     pShakeOreo_Window1 = WndCreate(ID_ShakeOreo_Window1,0,0,480,42,WND_DRAW|WND_TITLECENTER,NULL,(XCHAR*)ShakeOreo_Window1_Text,GOLScheme_WinSch);
 PICTURE *pShakeOreo_Picture1;
@@ -4318,6 +4441,7 @@ BUTTON *pShakeOreo_Button6;
     CreateScheme_WinSch();
     CreateScheme_DescText();
     CreateScheme_MainName();
+    CreateScheme_LargeText();
 WINDOW *pShakePeanut_Window1;
     pShakePeanut_Window1 = WndCreate(ID_ShakePeanut_Window1,0,0,480,42,WND_DRAW|WND_TITLECENTER,NULL,(XCHAR*)ShakePeanut_Window1_Text,GOLScheme_WinSch);
 PICTURE *pShakePeanut_Picture1;
@@ -4350,6 +4474,7 @@ BUTTON *pShakePeanut_Button6;
     CreateScheme_WinSch();
     CreateScheme_DescText();
     CreateScheme_MainName();
+    CreateScheme_LargeText();
 WINDOW *pShakeVanilla_Window1;
     pShakeVanilla_Window1 = WndCreate(ID_ShakeVanilla_Window1,0,0,480,42,WND_DRAW|WND_TITLECENTER,NULL,(XCHAR*)ShakeVanilla_Window1_Text,GOLScheme_WinSch);
 PICTURE *pShakeVanilla_Picture1;
@@ -4382,6 +4507,7 @@ BUTTON *pShakeVanilla_Button6;
     CreateScheme_WinSch();
     CreateScheme_DescText();
     CreateScheme_MainName();
+    CreateScheme_LargeText();
 WINDOW *pSoftDrinkList_Window1;
     pSoftDrinkList_Window1 = WndCreate(ID_SoftDrinkList_Window1,0,0,480,42,WND_DRAW|WND_TITLECENTER,NULL,(XCHAR*)SoftDrinkList_Window1_Text,GOLScheme_WinSch);
 BUTTON *pSoftDrinkList_Button3;
@@ -4420,6 +4546,7 @@ BUTTON *pSoftDrinkList_Button13;
     CreateScheme_WinSch();
     CreateScheme_DescText();
     CreateScheme_MainName();
+    CreateScheme_LargeText();
 WINDOW *pSoftDrinkList2_Window1;
     pSoftDrinkList2_Window1 = WndCreate(ID_SoftDrinkList2_Window1,0,0,480,42,WND_DRAW|WND_TITLECENTER,NULL,(XCHAR*)SoftDrinkList2_Window1_Text,GOLScheme_WinSch);
 BUTTON *pSoftDrinkList2_Button3;
@@ -4454,6 +4581,7 @@ BUTTON *pSoftDrinkList2_Button14;
     CreateScheme_WinSch();
     CreateScheme_DescText();
     CreateScheme_MainName();
+    CreateScheme_LargeText();
 WINDOW *pSoftChocolateMilk_Window1;
     pSoftChocolateMilk_Window1 = WndCreate(ID_SoftChocolateMilk_Window1,0,0,480,42,WND_DRAW|WND_TITLECENTER,NULL,(XCHAR*)SoftChocolateMilk_Window1_Text,GOLScheme_WinSch);
 PICTURE *pSoftChocolateMilk_Picture1;
@@ -4486,6 +4614,7 @@ BUTTON *pSoftChocolateMilk_Button6;
     CreateScheme_WinSch();
     CreateScheme_DescText();
     CreateScheme_MainName();
+    CreateScheme_LargeText();
 WINDOW *pSoftCoffeeDecaf_Window1;
     pSoftCoffeeDecaf_Window1 = WndCreate(ID_SoftCoffeeDecaf_Window1,0,0,480,42,WND_DRAW|WND_TITLECENTER,NULL,(XCHAR*)SoftCoffeeDecaf_Window1_Text,GOLScheme_WinSch);
 PICTURE *pSoftCoffeeDecaf_Picture1;
@@ -4518,6 +4647,7 @@ BUTTON *pSoftCoffeeDecaf_Button6;
     CreateScheme_WinSch();
     CreateScheme_DescText();
     CreateScheme_MainName();
+    CreateScheme_LargeText();
 WINDOW *pSoftCoffeeRegular_Window1;
     pSoftCoffeeRegular_Window1 = WndCreate(ID_SoftCoffeeRegular_Window1,0,0,480,42,WND_DRAW|WND_TITLECENTER,NULL,(XCHAR*)SoftCoffeeRegular_Window1_Text,GOLScheme_WinSch);
 PICTURE *pSoftCoffeeRegular_Picture1;
@@ -4550,6 +4680,7 @@ BUTTON *pSoftCoffeeRegular_Button6;
     CreateScheme_WinSch();
     CreateScheme_DescText();
     CreateScheme_MainName();
+    CreateScheme_LargeText();
 WINDOW *pSoftCoke_Window1;
     pSoftCoke_Window1 = WndCreate(ID_SoftCoke_Window1,0,0,480,42,WND_DRAW|WND_TITLECENTER,NULL,(XCHAR*)SoftCoke_Window1_Text,GOLScheme_WinSch);
 PICTURE *pSoftCoke_Picture1;
@@ -4582,6 +4713,7 @@ BUTTON *pSoftCoke_Button6;
     CreateScheme_WinSch();
     CreateScheme_DescText();
     CreateScheme_MainName();
+    CreateScheme_LargeText();
 WINDOW *pSoftDietCoke_Window1;
     pSoftDietCoke_Window1 = WndCreate(ID_SoftDietCoke_Window1,0,0,480,42,WND_DRAW|WND_TITLECENTER,NULL,(XCHAR*)SoftDietCoke_Window1_Text,GOLScheme_WinSch);
 PICTURE *pSoftDietCoke_Picture1;
@@ -4614,6 +4746,7 @@ BUTTON *pSoftDietCoke_Button6;
     CreateScheme_WinSch();
     CreateScheme_DescText();
     CreateScheme_MainName();
+    CreateScheme_LargeText();
 WINDOW *pSoftDietSprite_Window1;
     pSoftDietSprite_Window1 = WndCreate(ID_SoftDietSprite_Window1,0,0,480,42,WND_DRAW|WND_TITLECENTER,NULL,(XCHAR*)SoftDietSprite_Window1_Text,GOLScheme_WinSch);
 PICTURE *pSoftDietSprite_Picture1;
@@ -4646,6 +4779,7 @@ BUTTON *pSoftDietSprite_Button6;
     CreateScheme_WinSch();
     CreateScheme_DescText();
     CreateScheme_MainName();
+    CreateScheme_LargeText();
 WINDOW *pSoftGingerale_Window1;
     pSoftGingerale_Window1 = WndCreate(ID_SoftGingerale_Window1,0,0,480,42,WND_DRAW|WND_TITLECENTER,NULL,(XCHAR*)SoftGingerale_Window1_Text,GOLScheme_WinSch);
 PICTURE *pSoftGingerale_Picture1;
@@ -4678,6 +4812,7 @@ BUTTON *pSoftGingerale_Button6;
     CreateScheme_WinSch();
     CreateScheme_DescText();
     CreateScheme_MainName();
+    CreateScheme_LargeText();
 WINDOW *pSoftLemonade_Window1;
     pSoftLemonade_Window1 = WndCreate(ID_SoftLemonade_Window1,0,0,480,42,WND_DRAW|WND_TITLECENTER,NULL,(XCHAR*)SoftLemonade_Window1_Text,GOLScheme_WinSch);
 PICTURE *pSoftLemonade_Picture1;
@@ -4710,6 +4845,7 @@ BUTTON *pSoftLemonade_Button6;
     CreateScheme_WinSch();
     CreateScheme_DescText();
     CreateScheme_MainName();
+    CreateScheme_LargeText();
 WINDOW *pSoftMilk_Window1;
     pSoftMilk_Window1 = WndCreate(ID_SoftMilk_Window1,0,0,480,42,WND_DRAW|WND_TITLECENTER,NULL,(XCHAR*)SoftMilk_Window1_Text,GOLScheme_WinSch);
 PICTURE *pSoftMilk_Picture1;
@@ -4742,6 +4878,7 @@ BUTTON *pSoftMilk_Button6;
     CreateScheme_WinSch();
     CreateScheme_DescText();
     CreateScheme_MainName();
+    CreateScheme_LargeText();
 WINDOW *pSoftRootbeer_Window1;
     pSoftRootbeer_Window1 = WndCreate(ID_SoftRootbeer_Window1,0,0,480,42,WND_DRAW|WND_TITLECENTER,NULL,(XCHAR*)SoftRootbeer_Window1_Text,GOLScheme_WinSch);
 PICTURE *pSoftRootbeer_Picture1;
@@ -4751,9 +4888,9 @@ EDITBOX *pSoftRootbeer_EditBox1;
 BUTTON *pSoftRootbeer_Button1;
     pSoftRootbeer_Button1 = BtnCreate(ID_SoftRootbeer_Button1,365,183,463,208,1,BTN_DRAW,NULL,(XCHAR*)SoftRootbeer_Button1_Text,GOLScheme_ButtonTx);
 BUTTON *pSoftRootbeer_Button8;
-    pSoftRootbeer_Button8 = BtnCreate(ID_SoftRootbeer_Button8,306,218,404,255,1,BTN_DRAW,NULL,(XCHAR*)SoftRootbeer_Button8_Text,GOLScheme_ButtonTx);
+    pSoftRootbeer_Button8 = BtnCreate(ID_SoftRootbeer_Button8,191,218,289,255,1,BTN_DRAW,NULL,(XCHAR*)SoftRootbeer_Button8_Text,GOLScheme_ButtonTx);
 BUTTON *pSoftRootbeer_Button3;
-    pSoftRootbeer_Button3 = BtnCreate(ID_SoftRootbeer_Button3,191,218,289,255,1,BTN_DRAW,NULL,(XCHAR*)SoftRootbeer_Button3_Text,GOLScheme_ButtonTx);
+    pSoftRootbeer_Button3 = BtnCreate(ID_SoftRootbeer_Button3,306,218,404,255,1,BTN_DRAW,NULL,(XCHAR*)SoftRootbeer_Button3_Text,GOLScheme_ButtonTx);
 BUTTON *pSoftRootbeer_Button4;
     pSoftRootbeer_Button4 = BtnCreate(ID_SoftRootbeer_Button4,76,218,174,255,1,BTN_DRAW,NULL,(XCHAR*)SoftRootbeer_Button4_Text,GOLScheme_ButtonTx);
 BUTTON *pSoftRootbeer_Button5;
@@ -4774,6 +4911,7 @@ BUTTON *pSoftRootbeer_Button6;
     CreateScheme_WinSch();
     CreateScheme_DescText();
     CreateScheme_MainName();
+    CreateScheme_LargeText();
 WINDOW *pSoftSprite_Window1;
     pSoftSprite_Window1 = WndCreate(ID_SoftSprite_Window1,0,0,480,42,WND_DRAW|WND_TITLECENTER,NULL,(XCHAR*)SoftSprite_Window1_Text,GOLScheme_WinSch);
 PICTURE *pSoftSprite_Picture1;
@@ -4806,6 +4944,7 @@ BUTTON *pSoftSprite_Button6;
     CreateScheme_WinSch();
     CreateScheme_DescText();
     CreateScheme_MainName();
+    CreateScheme_LargeText();
 WINDOW *pSoftWater_Window1;
     pSoftWater_Window1 = WndCreate(ID_SoftWater_Window1,0,0,480,42,WND_DRAW|WND_TITLECENTER,NULL,(XCHAR*)SoftWater_Window1_Text,GOLScheme_WinSch);
 PICTURE *pSoftWater_Picture1;
@@ -4838,6 +4977,7 @@ BUTTON *pSoftWater_Button6;
     CreateScheme_WinSch();
     CreateScheme_DescText();
     CreateScheme_MainName();
+    CreateScheme_LargeText();
 STATICTEXT *pScreenOff_StaticText1;
     pScreenOff_StaticText1 = StCreate(ID_ScreenOff_StaticText1,0,247,75,270,ST_DRAW,(XCHAR*)ScreenOff_StaticText1_Text,GOLScheme_ButtonTx);
 } // End of CreateScreenOff
@@ -4854,6 +4994,7 @@ STATICTEXT *pScreenOff_StaticText1;
     CreateScheme_WinSch();
     CreateScheme_DescText();
     CreateScheme_MainName();
+    CreateScheme_LargeText();
 BUTTON *pNumGuests_Button1;
     pNumGuests_Button1 = BtnCreate(ID_NumGuests_Button1,27,27,77,77,1,BTN_DRAW,NULL,(XCHAR*)NumGuests_Button1_Text,GOLScheme_ButtonTx);
 BUTTON *pNumGuests_Button2;
@@ -4898,6 +5039,7 @@ PROGRESSBAR *pNumGuests_ProgressBar1;
     CreateScheme_WinSch();
     CreateScheme_DescText();
     CreateScheme_MainName();
+    CreateScheme_LargeText();
 BUTTON *pNumGuestsConfirm_Button11;
     pNumGuestsConfirm_Button11 = BtnCreate(ID_NumGuestsConfirm_Button11,120,180,218,230,1,BTN_DRAW,NULL,(XCHAR*)NumGuestsConfirm_Button11_Text,GOLScheme_ButtonTx);
 BUTTON *pNumGuestsConfirm_Button2;
@@ -4907,6 +5049,42 @@ EDITBOX *pNumGuestsConfirm_EditBox1;
 STATICTEXT *pNumGuestsConfirm_StaticText1;
     pNumGuestsConfirm_StaticText1 = StCreate(ID_NumGuestsConfirm_StaticText1,120,29,354,52,ST_DRAW,(XCHAR*)NumGuestsConfirm_StaticText1_Text,GOLScheme_ButtonTx);
 } // End of CreateNumGuestsConfirm
+
+
+    void CreateOrder(void) {
+    GOLFree();
+    SetColor(0); // Color [Black]
+    ClearDevice();
+    #ifdef USE_TRANSPARENT_COLOR
+    TransparentColorEnable(0); // Color [A=0, R=0, G=0, B=0]
+    #endif
+    CreateScheme_ButtonTx();
+    CreateScheme_WinSch();
+    CreateScheme_DescText();
+    CreateScheme_MainName();
+    CreateScheme_LargeText();
+WINDOW *pOrder_Window1;
+    pOrder_Window1 = WndCreate(ID_Order_Window1,0,0,480,42,WND_DRAW|WND_TITLECENTER,NULL,(XCHAR*)Order_Window1_Text,GOLScheme_WinSch);
+} // End of CreateOrder
+
+
+    void CreateCalling(void) {
+    GOLFree();
+    SetColor(2016); // Color [Lime]
+    ClearDevice();
+    #ifdef USE_TRANSPARENT_COLOR
+    TransparentColorEnable(0); // Color [A=0, R=0, G=0, B=0]
+    #endif
+    CreateScheme_ButtonTx();
+    CreateScheme_WinSch();
+    CreateScheme_DescText();
+    CreateScheme_MainName();
+    CreateScheme_LargeText();
+STATICTEXT *pCalling_StaticText1;
+    pCalling_StaticText1 = StCreate(ID_Calling_StaticText1,0,73,480,111,ST_DRAW|ST_CENTER_ALIGN,(XCHAR*)Calling_StaticText1_Text,GOLScheme_LargeText);
+STATICTEXT *pCalling_StaticText2;
+    pCalling_StaticText2 = StCreate(ID_Calling_StaticText2,0,144,480,182,ST_DRAW|ST_CENTER_ALIGN,(XCHAR*)Calling_StaticText2_Text,GOLScheme_LargeText);
+} // End of CreateCalling
 
 // ------------------------------------------------------------------------------------------------------------
 // VGDD Automatic Event Handling - Events messages routine
@@ -5896,7 +6074,7 @@ WORD VGDD_MenuScreens_MsgCallback(WORD objMsg, OBJ_HEADER *pObj, GOL_MSG *pMsg) 
             switch (id) {
                 case ID_AppetFriedGreenBeans_Button8:
                     if (objMsg == BTN_MSG_RELEASED) {
-                        
+                        screenState=CREATE_FOODMENU;
                     }
                     break;
                     
@@ -6014,6 +6192,12 @@ WORD VGDD_MenuScreens_MsgCallback(WORD objMsg, OBJ_HEADER *pObj, GOL_MSG *pMsg) 
                 case ID_AppetORings_Button3:
                     if (objMsg == BTN_MSG_RELEASED) {
                         screenState=CREATE_MAINMENU;
+                    }
+                    break;
+                    
+                case ID_AppetORings_Button4:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_APPETORINGS;
                     }
                     break;
                     
@@ -6147,6 +6331,24 @@ WORD VGDD_MenuScreens_MsgCallback(WORD objMsg, OBJ_HEADER *pObj, GOL_MSG *pMsg) 
             
         case DISPLAY_SANDSMOTHERED:
             switch (id) {
+                case ID_SandSmothered_Button8:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_FOODMENU;
+                    }
+                    break;
+                    
+                case ID_SandSmothered_Button3:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_MAINMENU;
+                    }
+                    break;
+                    
+                case ID_SandSmothered_Button4:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_SANDWICHESLIST;
+                    }
+                    break;
+                    
                 case ID_SandSmothered_Button5:
                     if (objMsg == BTN_MSG_RELEASED) {
                         screenState=CREATE_SANDVEGGIEREUBEN;
@@ -6425,6 +6627,18 @@ WORD VGDD_MenuScreens_MsgCallback(WORD objMsg, OBJ_HEADER *pObj, GOL_MSG *pMsg) 
             
         case DISPLAY_SANDGRILLEDSTACKER:
             switch (id) {
+                case ID_SandGrilledStacker_Button8:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_FOODMENU;
+                    }
+                    break;
+                    
+                case ID_SandGrilledStacker_Button3:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_MAINMENU;
+                    }
+                    break;
+                    
                 case ID_SandGrilledStacker_Button4:
                     if (objMsg == BTN_MSG_RELEASED) {
                         screenState=CREATE_SANDWICHESLIST;
@@ -6960,6 +7174,18 @@ WORD VGDD_MenuScreens_MsgCallback(WORD objMsg, OBJ_HEADER *pObj, GOL_MSG *pMsg) 
             
         case DISPLAY_SALADVEGETABLE:
             switch (id) {
+                case ID_SaladVegetable_Button8:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_FOODMENU;
+                    }
+                    break;
+                    
+                case ID_SaladVegetable_Button3:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_MAINMENU;
+                    }
+                    break;
+                    
                 case ID_SaladVegetable_Button4:
                     if (objMsg == BTN_MSG_RELEASED) {
                         screenState=CREATE_SALADSLIST1;
@@ -9417,7 +9643,7 @@ WORD VGDD_MenuScreens_MsgCallback(WORD objMsg, OBJ_HEADER *pObj, GOL_MSG *pMsg) 
             switch (id) {
                 case ID_SoftCoffeeRegular_Button8:
                     if (objMsg == BTN_MSG_RELEASED) {
-                        screenState=CREATE_SOFTDRINKLIST2;
+                        screenState=CREATE_DRINKMENU;
                     }
                     break;
                     
@@ -9676,13 +9902,19 @@ WORD VGDD_MenuScreens_MsgCallback(WORD objMsg, OBJ_HEADER *pObj, GOL_MSG *pMsg) 
             switch (id) {
                 case ID_SoftRootbeer_Button8:
                     if (objMsg == BTN_MSG_RELEASED) {
-                        screenState=CREATE_FOODMENU;
+                        screenState=CREATE_DRINKMENU;
                     }
                     break;
                     
                 case ID_SoftRootbeer_Button3:
                     if (objMsg == BTN_MSG_RELEASED) {
                         screenState=CREATE_MAINMENU;
+                    }
+                    break;
+                    
+                case ID_SoftRootbeer_Button4:
+                    if (objMsg == BTN_MSG_RELEASED) {
+                        screenState=CREATE_SOFTDRINKLIST;
                     }
                     break;
                     

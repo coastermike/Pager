@@ -91,9 +91,10 @@ int main(void)
 //    GDDDemoCreateFirstScreen();
  
     LED = 1;
+//	i2cRec(2);
 	
     while(1)
-    {
+    {	i2cSend(3,255);
         if(GOLDraw())               // Draw GOL object
         {
             TouchGetMsg(&msg);      // Get message from touch screen
@@ -243,9 +244,10 @@ void InitializeBoard(void)
     GOLInit();
 	_DPTEST = 0b00;
 	
+	i2cInit();
+	
     //The following are PIC device specific settings for the SPI channel
     //used. 
-    
     //Set IOs directions for SST25 SPI
         SST25_CS_LAT = 1;
         Nop();

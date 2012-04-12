@@ -2,11 +2,11 @@
   <Object type="VGDD.VGDDScreen, VGDDCommon, Version=3.0.4399.28307, Culture=neutral, PublicKeyToken=null" name="SandSmothered">
     <Property name="Name">SandSmothered</Property>
     <Property name="Controls">
-      <Item type="VGDDMicrochip.Picture, VGDDMicrochip, Version=3.0.4399.28307, Culture=neutral, PublicKeyToken=null">
-        <Reference name="Picture1" />
-      </Item>
       <Item type="VGDDMicrochip.EditBox, VGDDMicrochip, Version=3.0.4399.28307, Culture=neutral, PublicKeyToken=null">
         <Reference name="EditBox1" />
+      </Item>
+      <Item type="VGDDMicrochip.Picture, VGDDMicrochip, Version=3.0.4399.28307, Culture=neutral, PublicKeyToken=null">
+        <Reference name="Picture1" />
       </Item>
       <Item type="VGDDMicrochip.Button, VGDDMicrochip, Version=3.0.4399.28307, Culture=neutral, PublicKeyToken=null">
         <Reference name="Button4" />
@@ -80,7 +80,9 @@
     <Property name="VGDDEvents">
       <Event Name="BTN_MSG_PRESSED" Handled="False" Description="Button pressed" />
       <Event Name="BTN_MSG_STILLPRESSED" Handled="False" Description="Button is continuously pressed" />
-      <Event Name="BTN_MSG_RELEASED" Handled="False" Description="Button released" />
+      <Event Name="BTN_MSG_RELEASED" Handled="True" Description="Button released">
+screenState=CREATE_SANDWICHESLIST;
+</Event>
       <Event Name="BTN_MSG_CANCELPRESS" Handled="False" Description="Button released with button press canceled" />
     </Property>
     <Property name="Scheme">ButtonTx</Property>
@@ -104,7 +106,9 @@
     <Property name="VGDDEvents">
       <Event Name="BTN_MSG_PRESSED" Handled="False" Description="Button pressed" />
       <Event Name="BTN_MSG_STILLPRESSED" Handled="False" Description="Button is continuously pressed" />
-      <Event Name="BTN_MSG_RELEASED" Handled="False" Description="Button released" />
+      <Event Name="BTN_MSG_RELEASED" Handled="True" Description="Button released">
+screenState=CREATE_MAINMENU;
+</Event>
       <Event Name="BTN_MSG_CANCELPRESS" Handled="False" Description="Button released with button press canceled" />
     </Property>
     <Property name="Scheme">ButtonTx</Property>
@@ -128,7 +132,9 @@
     <Property name="VGDDEvents">
       <Event Name="BTN_MSG_PRESSED" Handled="False" Description="Button pressed" />
       <Event Name="BTN_MSG_STILLPRESSED" Handled="False" Description="Button is continuously pressed" />
-      <Event Name="BTN_MSG_RELEASED" Handled="False" Description="Button released" />
+      <Event Name="BTN_MSG_RELEASED" Handled="True" Description="Button released">
+screenState=CREATE_FOODMENU;
+</Event>
       <Event Name="BTN_MSG_CANCELPRESS" Handled="False" Description="Button released with button press canceled" />
     </Property>
     <Property name="Scheme">ButtonTx</Property>

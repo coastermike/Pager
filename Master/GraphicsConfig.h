@@ -122,7 +122,7 @@
 *	- USE_FONT_EXTERNAL - Font in external memory support.	
 *
 *********************************************************************/
-#define USE_FONT_FLASH          // Support for fonts located in internal flash
+//#define USE_FONT_FLASH          // Support for fonts located in internal flash
 
 #define USE_FONT_EXTERNAL		// Support for fonts located in external memory
 

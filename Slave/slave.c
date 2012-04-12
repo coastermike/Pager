@@ -11,6 +11,8 @@
 _CONFIG1(FWDTEN_OFF & ICS_PGx3 & BKBUG_OFF & GWRP_OFF & GCP_OFF & JTAGEN_OFF)
 _CONFIG2(POSCMOD_NONE & I2C1SEL_PRI & OSCIOFNC_ON & FNOSC_FRCPLL)
 
+unsigned int voltage = 0;
+
 int main (void)
 {
 	CLKDIVbits.RCDIV = 0;
@@ -27,12 +29,13 @@ int main (void)
 	initMSTimer();
 	
 	setMotorOn(1000);
-	actuatePiezo(101);
+//	actuatePiezo(101);
 	
 	enable20V();
 	
+	
 	while(1)
 	{
-		
+		voltage = i2cLIPO(2);
 	}	
 }	

@@ -83,7 +83,9 @@
     <Property name="VGDDEvents">
       <Event Name="BTN_MSG_PRESSED" Handled="False" Description="Button pressed" />
       <Event Name="BTN_MSG_STILLPRESSED" Handled="False" Description="Button is continuously pressed" />
-      <Event Name="BTN_MSG_RELEASED" Handled="False" Description="Button released" />
+      <Event Name="BTN_MSG_RELEASED" Handled="True" Description="Button released">
+screenState=CREATE_SOFTDRINKLIST;
+</Event>
       <Event Name="BTN_MSG_CANCELPRESS" Handled="False" Description="Button released with button press canceled" />
     </Property>
     <Property name="Scheme">ButtonTx</Property>
@@ -91,7 +93,7 @@
     <Property name="HorizAlign">Center</Property>
   </Object>
   <Object type="VGDDMicrochip.Button, VGDDMicrochip, Version=3.0.4399.28307, Culture=neutral, PublicKeyToken=null" name="Button3">
-    <Property name="Location">191, 218</Property>
+    <Property name="Location">306, 218</Property>
     <Property name="VertAlign">Center</Property>
     <Property name="Name">Button3</Property>
     <Property name="Bitmap">
@@ -117,7 +119,7 @@ screenState=CREATE_MAINMENU;
     <Property name="HorizAlign">Center</Property>
   </Object>
   <Object type="VGDDMicrochip.Button, VGDDMicrochip, Version=3.0.4399.28307, Culture=neutral, PublicKeyToken=null" name="Button8">
-    <Property name="Location">306, 218</Property>
+    <Property name="Location">191, 218</Property>
     <Property name="VertAlign">Center</Property>
     <Property name="Name">Button8</Property>
     <Property name="Bitmap">
@@ -129,12 +131,12 @@ screenState=CREATE_MAINMENU;
     <Property name="Pressed">False</Property>
     <Property name="Zorder">88</Property>
     <Property name="CDeclType">ConstXcharArray</Property>
-    <Property name="Text">Food Menu</Property>
+    <Property name="Text">Drinks Menu</Property>
     <Property name="VGDDEvents">
       <Event Name="BTN_MSG_PRESSED" Handled="False" Description="Button pressed" />
       <Event Name="BTN_MSG_STILLPRESSED" Handled="False" Description="Button is continuously pressed" />
       <Event Name="BTN_MSG_RELEASED" Handled="True" Description="Button released">
-screenState=CREATE_FOODMENU;
+screenState=CREATE_DRINKMENU;
 </Event>
       <Event Name="BTN_MSG_CANCELPRESS" Handled="False" Description="Button released with button press canceled" />
     </Property>

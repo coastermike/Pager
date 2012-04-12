@@ -10,6 +10,8 @@ extern GOL_SCHEME* GOLScheme_DescText;
 void CreateScheme_DescText(void);
 extern GOL_SCHEME* GOLScheme_MainName;
 void CreateScheme_MainName(void);
+extern GOL_SCHEME* GOLScheme_LargeText;
+void CreateScheme_LargeText(void);
 extern const IMAGE_EXTERNAL bmpcheesest;	// C:\Users\Michael\Pager\Menu Screens VGDD\Menu Screens VGDD\..\Pictures\Appetizers\cheesest.bmp 110x110 24BPP
 extern const IMAGE_EXTERNAL bmpchiliche;	// C:\Users\Michael\Pager\Menu Screens VGDD\Menu Screens VGDD\..\Pictures\Appetizers\chiliche.bmp 110x110 24BPP
 extern const IMAGE_EXTERNAL bmpfriedGre;	// C:\Users\Michael\Pager\Menu Screens VGDD\Menu Screens VGDD\..\Pictures\Appetizers\friedGre.bmp 110x110 24BPP
@@ -1435,5 +1437,12 @@ void CreateNumGuestsConfirm(void);
 #define ID_NumGuestsConfirm_EditBox1   1068
 #define ID_NumGuestsConfirm_StaticText1   1069
 
-#define	NUM_VGDD_SCREENS	124
+void CreateOrder(void);
+#define ID_Order_Window1   1070
+
+void CreateCalling(void);
+#define ID_Calling_StaticText1   1071
+#define ID_Calling_StaticText2   1072
+
+#define	NUM_VGDD_SCREENS	126
 #endif // ifndef _VGDD_SCREENS_H_

@@ -49,6 +49,8 @@
     #include "HardwareProfile.h"
     #include "Graphics/mchpGfxDrv.h"
 	#include "VGDD_MenuScreens_Screens.h"
+	#include "i2c.h"
+	
 	typedef enum
 	{
 		#include "VGDD_MenuScreens_ScreenStates.h"

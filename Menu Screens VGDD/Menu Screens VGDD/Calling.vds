@@ -1,0 +1,46 @@
+
+  <Object type="VGDD.VGDDScreen, VGDDCommon, Version=3.0.4399.28307, Culture=neutral, PublicKeyToken=null" name="Calling">
+    <Property name="Name">Calling</Property>
+    <Property name="Controls">
+      <Item type="VGDDMicrochip.StaticText, VGDDMicrochip, Version=3.0.4399.28307, Culture=neutral, PublicKeyToken=null">
+        <Reference name="StaticText2" />
+      </Item>
+      <Item type="VGDDMicrochip.StaticText, VGDDMicrochip, Version=3.0.4399.28307, Culture=neutral, PublicKeyToken=null">
+        <Reference name="StaticText1" />
+      </Item>
+    </Property>
+    <Property name="BackColor">0, 255, 0</Property>
+    <Property name="ClientSize">478, 270</Property>
+  </Object>
+  <Object type="VGDDMicrochip.StaticText, VGDDMicrochip, Version=3.0.4399.28307, Culture=neutral, PublicKeyToken=null" name="StaticText1">
+    <Property name="Location">0, 73</Property>
+    <Property name="Name">StaticText1</Property>
+    <Property name="Size">480, 38</Property>
+    <Property name="State">Enabled</Property>
+    <Property name="Zorder">0</Property>
+    <Property name="CDeclType">ConstXcharArray</Property>
+    <Property name="Frame">Disabled</Property>
+    <Property name="Text">Your Table is Ready</Property>
+    <Property name="VGDDEvents">
+      <Event Name="ST_MSG_SELECTED" Handled="False" Description="Static Text selected" />
+    </Property>
+    <Property name="Scheme">LargeText</Property>
+    <Property name="TextAlign">Center</Property>
+    <Property name="Public">False</Property>
+  </Object>
+  <Object type="VGDDMicrochip.StaticText, VGDDMicrochip, Version=3.0.4399.28307, Culture=neutral, PublicKeyToken=null" name="StaticText2">
+    <Property name="Location">0, 144</Property>
+    <Property name="Name">StaticText2</Property>
+    <Property name="Size">480, 38</Property>
+    <Property name="State">Enabled</Property>
+    <Property name="Zorder">1</Property>
+    <Property name="CDeclType">ConstXcharArray</Property>
+    <Property name="Frame">Disabled</Property>
+    <Property name="Text">Please Bring Pager to Hostess</Property>
+    <Property name="VGDDEvents">
+      <Event Name="ST_MSG_SELECTED" Handled="False" Description="Static Text selected" />
+    </Property>
+    <Property name="Scheme">LargeText</Property>
+    <Property name="TextAlign">Center</Property>
+    <Property name="Public">False</Property>
+  </Object>
